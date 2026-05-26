@@ -26,6 +26,35 @@
   padding: 0;
 }
 
+/* ─── KEYBOARD FOCUS RINGS ─── */
+:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
+}
+/* Don't double up on the input's own focus treatment */
+.lucy-input:focus-visible {
+  outline: none;
+}
+
+/* ─── FULL-HEIGHT SHELL (dvh avoids iOS keyboard covering the input) ─── */
+.app-shell {
+  height: 100vh; /* fallback */
+  height: 100dvh;
+}
+.min-shell {
+  min-height: 100vh; /* fallback */
+  min-height: 100dvh;
+}
+
+/* ─── PORTAL FADE-IN ─── */
+@keyframes portalIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.portal-in {
+  animation: portalIn 0.4s ease-out forwards;
+}
+
 html,
 body {
   background: var(--bg);
@@ -236,6 +265,17 @@ body::after {
 
 .faq-sheet {
   animation: slideUp 0.3s ease-out forwards;
+}
+
+/* Slide-up sheets: full height on mobile, partial on desktop */
+.sheet {
+  max-height: 100vh;
+  max-height: 100dvh;
+}
+@media (min-width: 640px) {
+  .sheet {
+    max-height: 78vh;
+  }
 }
 
 .faq-row {

@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, FormEvent } from 'react'
+import { useState, useEffect, FormEvent } from 'react'
 import { useRouter } from 'next/navigation'
 import { LucyEye } from '@/components/LucyEye'
 
@@ -13,6 +13,22 @@ export default function LoginPage() {
   const [name, setName] = useState('')
   const [errorMsg, setErrorMsg] = useState('')
   const [eyeState, setEyeState] = useState<'idle' | 'thinking'>('idle')
+  const [isDesktop, setIsDesktop] = useState(false)
+  const [leaving, setLeaving] = useState(false)
+
+  useEffect(() => {
+    const mq = window.matchMedia('(min-width: 640px)')
+    const update = () => setIsDesktop(mq.matches)
+    update()
+    mq.addEventListener('change', update)
+    return () => mq.removeEventListener('change', update)
+  }, [])
+
+  // Fade the login out before navigating to the portal
+  function goToPortal() {
+    setLeaving(true)
+    setTimeout(() => router.push('/portal'), 300)
+  }
 
   async function handleEmailSubmit(e: FormEvent) {
     e.preventDefault()
@@ -31,7 +47,7 @@ export default function LoginPage() {
       const data = await res.json()
 
       if (res.ok && data.success) {
-        router.push('/portal')
+        goToPortal()
         return
       }
 
@@ -44,11 +60,11 @@ export default function LoginPage() {
 
       setStage('email')
       setEyeState('idle')
-      setErrorMsg('Something went wrong. Please try again.')
+      setErrorMsg("We're having trouble connecting. Please try again in a moment.")
     } catch {
       setStage('email')
       setEyeState('idle')
-      setErrorMsg('Connection error. Please try again.')
+      setErrorMsg("We're having trouble connecting. Please try again in a moment.")
     }
   }
 
@@ -69,7 +85,7 @@ export default function LoginPage() {
       const data = await res.json()
 
       if (res.ok && data.success) {
-        router.push('/portal')
+        goToPortal()
         return
       }
 
@@ -79,14 +95,18 @@ export default function LoginPage() {
     } catch {
       setStage('error')
       setEyeState('idle')
-      setErrorMsg('Connection error. Please try again.')
+      setErrorMsg("We're having trouble connecting. Please try again in a moment.")
     }
   }
 
   return (
     <main
-      className="min-h-screen flex flex-col items-center justify-center px-4"
-      style={{ background: 'var(--bg)' }}
+      className="min-shell flex flex-col items-center justify-center px-4"
+      style={{
+        background: 'var(--bg)',
+        opacity: leaving ? 0 : 1,
+        transition: 'opacity 0.3s ease',
+      }}
     >
       {/* Background grid */}
       <div
@@ -111,13 +131,13 @@ export default function LoginPage() {
               transform: 'scale(1.8)',
             }}
           />
-          <LucyEye state={eyeState} size={180} />
+          <LucyEye state={eyeState} size={isDesktop ? 160 : 120} />
         </div>
 
         {/* Wordmark */}
         <div className="text-center">
           <h1
-            className="font-orbitron text-4xl font-black tracking-[0.3em] glow-green"
+            className="font-orbitron text-3xl sm:text-4xl font-black tracking-[0.25em] sm:tracking-[0.3em] glow-green"
             style={{ color: 'var(--green-bright)' }}
           >
             LUCY

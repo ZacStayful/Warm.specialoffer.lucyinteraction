@@ -24,7 +24,13 @@ const rajdhani = Rajdhani({
 
 export const metadata: Metadata = {
   title: 'Lucy — Stayful',
-  description: 'Your Stayful property portal',
+  description: 'Your personal Stayful property portal',
+  openGraph: {
+    title: 'Lucy — Stayful',
+    description: 'Your personal Stayful property portal',
+    siteName: 'Stayful',
+  },
+  robots: { index: false, follow: false }, // private portal — no indexing
 }
 
 export default function RootLayout({
