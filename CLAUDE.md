@@ -80,8 +80,9 @@ Required in `.env.local` and Vercel project settings:
 ANTHROPIC_API_KEY=          # From console.anthropic.com
 MONDAY_API_KEY=             # From Monday.com → Developer → API
 SESSION_SECRET=             # Min 32 chars, random string
-ELEVENLABS_API_KEY=         # From elevenlabs.io (Phase 2)
-ASSEMBLYAI_API_KEY=         # AssemblyAI API key is stored as env var ASSEMBLYAI_API_KEY in Vercel
+ELEVENLABS_API_KEY=         # Set in Vercel ✅
+ELEVENLABS_VOICE_ID=        # Set in Vercel ✅ — British, calm, intelligent voice
+ASSEMBLYAI_API_KEY=         # Set in Vercel ✅ — do NOT hardcode, use env var only
 GMAIL_CLIENT_ID=            # Google OAuth (Phase 3)
 GMAIL_CLIENT_SECRET=        # Google OAuth (Phase 3)
 GMAIL_REFRESH_TOKEN=        # Google OAuth (Phase 3)

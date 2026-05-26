@@ -4,6 +4,7 @@ import { useState, useEffect, useRef, FormEvent } from 'react'
 import { useRouter } from 'next/navigation'
 import { LucyEye } from '@/components/LucyEye'
 import FAQPanel from '@/components/FAQPanel'
+import VoiceButton from '@/components/VoiceButton'
 import { LeadSession } from '@/lib/session'
 
 interface Message {
@@ -24,11 +25,17 @@ export default function PortalPage() {
   const [messages, setMessages] = useState<Message[]>([])
   const [input, setInput] = useState('')
   const [isSending, setIsSending] = useState(false)
-  const [eyeState, setEyeState] = useState<'idle' | 'thinking' | 'speaking'>('idle')
+  const [eyeState, setEyeState] = useState<
+    'idle' | 'thinking' | 'speaking' | 'listening'
+  >('idle')
   const [faqOpen, setFaqOpen] = useState(false)
+  const [isMuted, setIsMuted] = useState(false)
+  const [voiceError, setVoiceError] = useState('')
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLTextAreaElement>(null)
   const abortRef = useRef<AbortController | null>(null)
+  const ttsCtxRef = useRef<AudioContext | null>(null)
+  const ttsSourceRef = useRef<AudioBufferSourceNode | null>(null)
 
   // ── Load session ──
   useEffect(() => {
@@ -146,6 +153,13 @@ export default function PortalPage() {
             : m
         )
       )
+
+      // Phase 2c — speak the response aloud (skip entirely when muted)
+      if (!isMuted && fullText.trim()) {
+        playTTS(fullText)
+      } else {
+        setEyeState('idle')
+      }
     } catch (err: any) {
       if (err.name === 'AbortError') {
         setMessages(prev => prev.filter(m => m.id !== assistantId))
@@ -163,11 +177,81 @@ export default function PortalPage() {
           )
         )
       }
+      setEyeState('idle')
     } finally {
       setIsSending(false)
-      setEyeState('idle')
       inputRef.current?.focus()
     }
+  }
+
+  // ── Voice output (ElevenLabs TTS) ──
+  async function playTTS(text: string) {
+    if (!text.trim()) {
+      setEyeState('idle')
+      return
+    }
+    try {
+      const res = await fetch('/api/voice/speak', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text }),
+      })
+      if (!res.ok) {
+        setEyeState('idle')
+        return
+      }
+      const buf = await res.arrayBuffer()
+
+      let ctx = ttsCtxRef.current
+      if (!ctx) {
+        const AudioCtx =
+          window.AudioContext ||
+          (window as unknown as { webkitAudioContext: typeof AudioContext })
+            .webkitAudioContext
+        ctx = new AudioCtx()
+        ttsCtxRef.current = ctx
+      }
+      await ctx.resume()
+      const audioBuffer = await ctx.decodeAudioData(buf)
+
+      try {
+        ttsSourceRef.current?.stop()
+      } catch {}
+
+      const src = ctx.createBufferSource()
+      src.buffer = audioBuffer
+      src.connect(ctx.destination)
+      src.onended = () => {
+        if (ttsSourceRef.current === src) {
+          ttsSourceRef.current = null
+          setEyeState('idle')
+        }
+      }
+      ttsSourceRef.current = src
+      setEyeState('speaking')
+      src.start()
+    } catch {
+      // Voice is enhancement only — fail silently
+      setEyeState('idle')
+    }
+  }
+
+  function toggleMute() {
+    setIsMuted(prev => {
+      const next = !prev
+      if (next) {
+        try {
+          ttsSourceRef.current?.stop()
+        } catch {}
+        ttsSourceRef.current = null
+        setEyeState('idle')
+      }
+      return next
+    })
+  }
+
+  function handleRecordingChange(rec: boolean) {
+    setEyeState(rec ? 'listening' : 'idle')
   }
 
   function handleSubmit(e: FormEvent) {
@@ -216,6 +300,8 @@ export default function PortalPage() {
       ? 'THINKING'
       : eyeState === 'speaking'
       ? 'SPEAKING'
+      : eyeState === 'listening'
+      ? 'LISTENING'
       : 'ONLINE'
 
   return (
@@ -273,6 +359,30 @@ export default function PortalPage() {
               </p>
             </div>
           )}
+          <button
+            onClick={toggleMute}
+            className="btn-ghost flex items-center justify-center"
+            style={{
+              borderRadius: 2,
+              height: 30,
+              width: 34,
+              color: isMuted ? 'var(--text-muted)' : 'var(--green-bright)',
+            }}
+            aria-label={isMuted ? 'Unmute Lucy' : 'Mute Lucy'}
+            title={isMuted ? 'Voice off — tap to unmute' : 'Voice on — tap to mute'}
+          >
+            {isMuted ? (
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                <path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor" />
+                <path d="M17 9l4 6M21 9l-4 6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+              </svg>
+            ) : (
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                <path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor" />
+                <path d="M16 8.5a4 4 0 0 1 0 7M18.5 6a7 7 0 0 1 0 12" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" fill="none" />
+              </svg>
+            )}
+          </button>
           <button
             onClick={handleLogout}
             className="btn-ghost px-3 py-1.5 text-xs"
@@ -337,6 +447,21 @@ export default function PortalPage() {
                         ···
                       </span>
                     )}
+                    {!msg.isStreaming && msg.content && (
+                      <button
+                        type="button"
+                        onClick={() => playTTS(msg.content)}
+                        className="flex items-center justify-center"
+                        style={{ color: 'var(--text-dim)', width: 18, height: 18 }}
+                        aria-label="Replay this message"
+                        title="Replay"
+                      >
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+                          <path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor" />
+                          <path d="M16 8.5a4 4 0 0 1 0 7" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" fill="none" />
+                        </svg>
+                      </button>
+                    )}
                   </div>
                 )}
 
@@ -389,6 +514,13 @@ export default function PortalPage() {
           >
             FAQ
           </button>
+          <VoiceButton
+            disabled={isSending}
+            onTranscript={(text) => setInput(text)}
+            onStop={(text) => sendMessage(text)}
+            onRecordingChange={handleRecordingChange}
+            onError={(msg) => setVoiceError(msg)}
+          />
           <textarea
             ref={inputRef}
             value={input}
@@ -409,12 +541,21 @@ export default function PortalPage() {
             Send
           </button>
         </form>
-        <p
-          className="text-center text-xs mt-2"
-          style={{ color: 'var(--text-muted)' }}
-        >
-          Press Enter to send · Shift+Enter for new line
-        </p>
+        {voiceError ? (
+          <p
+            className="text-center text-xs mt-2"
+            style={{ color: 'var(--amber)' }}
+          >
+            {voiceError}
+          </p>
+        ) : (
+          <p
+            className="text-center text-xs mt-2"
+            style={{ color: 'var(--text-muted)' }}
+          >
+            Press Enter to send · Shift+Enter for new line
+          </p>
+        )}
       </div>
 
       {/* ── FAQ Panel ── */}

@@ -245,3 +245,13 @@ body::after {
 .faq-row:hover {
   background: rgba(93, 129, 86, 0.08) !important;
 }
+
+/* ─── VOICE RECORDING INDICATOR ─── */
+@keyframes recPulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(0.8); }
+}
+
+.rec-dot {
+  animation: recPulse 1s ease-in-out infinite;
+}
