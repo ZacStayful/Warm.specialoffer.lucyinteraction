@@ -54,11 +54,22 @@ export default function VoiceButton({
     onError?.('')
     chunksRef.current = []
 
+    if (
+      typeof navigator === 'undefined' ||
+      !navigator.mediaDevices ||
+      !navigator.mediaDevices.getUserMedia
+    ) {
+      console.error('[Voice] getUserMedia unavailable — needs HTTPS and a supported browser')
+      onError?.('Voice needs a secure (https) connection — please type instead')
+      return
+    }
+
     let stream: MediaStream
     try {
       stream = await navigator.mediaDevices.getUserMedia({ audio: true })
-    } catch {
-      onError?.('Microphone access denied')
+    } catch (err) {
+      console.error('[Voice] microphone permission / getUserMedia error', err)
+      onError?.('Microphone blocked — allow mic access in your browser, or type instead')
       return
     }
     streamRef.current = stream
