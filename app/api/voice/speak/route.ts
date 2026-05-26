@@ -61,10 +61,14 @@ export async function POST(request: NextRequest) {
       })
     }
 
-    return new Response(resp.body, {
+    // Buffer the full clip and return it with a Content-Length. This is far
+    // more reliable for an <audio> element than a chunked stream (a manual
+    // Transfer-Encoding header can corrupt the body on the Node runtime).
+    const audio = await resp.arrayBuffer()
+    return new Response(audio, {
       headers: {
         'Content-Type': 'audio/mpeg',
-        'Transfer-Encoding': 'chunked',
+        'Content-Length': String(audio.byteLength),
         'Cache-Control': 'no-store',
       },
     })
