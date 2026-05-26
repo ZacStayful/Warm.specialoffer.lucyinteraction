@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -82,6 +82,11 @@ body::after {
   font-family: 'Orbitron', monospace;
 }
 
+/* ─── RAJDHANI ─── */
+.raj {
+  font-family: 'Rajdhani', sans-serif;
+}
+
 /* ─── GLOW EFFECTS ─── */
 .glow-green {
   text-shadow: 0 0 20px rgba(93, 129, 86, 0.8), 0 0 40px rgba(93, 129, 86, 0.4);
@@ -96,97 +101,23 @@ body::after {
 }
 
 /* ─── LUCY EYE ANIMATIONS ─── */
-@keyframes iris-pulse-idle {
-  0%, 100% { opacity: 0.85; transform: scale(1); }
-  50% { opacity: 1; transform: scale(1.03); }
+@keyframes rotateRing  { to { transform: rotate(360deg); } }
+@keyframes rotateCCW   { to { transform: rotate(-360deg); } }
+@keyframes scanArc     { to { transform: rotate(360deg); } }
+@keyframes glowBreathe { 0%,100%{opacity:.45;} 50%{opacity:.9;} }
+@keyframes irisPulse   { 0%,100%{transform:scale(1);} 50%{transform:scale(1.055);} }
+@keyframes pupilScan   {
+  0%  {transform:translate(0px,0px);}
+  12% {transform:translate(13px,-9px);}
+  25% {transform:translate(-11px,-13px);}
+  37% {transform:translate(-15px,5px);}
+  50% {transform:translate(5px,15px);}
+  63% {transform:translate(15px,3px);}
+  75% {transform:translate(-4px,-11px);}
+  87% {transform:translate(9px,7px);}
+  100%{transform:translate(0px,0px);}
 }
-
-@keyframes iris-pulse-thinking {
-  0%, 100% { opacity: 0.7; transform: scale(0.97); }
-  50% { opacity: 1; transform: scale(1.05); }
-}
-
-@keyframes pupil-wander {
-  0% { transform: translate(0px, 0px); }
-  20% { transform: translate(3px, -2px); }
-  40% { transform: translate(-2px, 3px); }
-  60% { transform: translate(2px, 2px); }
-  80% { transform: translate(-3px, -1px); }
-  100% { transform: translate(0px, 0px); }
-}
-
-@keyframes pupil-think {
-  0% { transform: translate(0px, 0px); }
-  10% { transform: translate(5px, -3px); }
-  25% { transform: translate(-4px, 4px); }
-  40% { transform: translate(3px, 3px); }
-  55% { transform: translate(-5px, -2px); }
-  70% { transform: translate(4px, -4px); }
-  85% { transform: translate(-3px, 3px); }
-  100% { transform: translate(0px, 0px); }
-}
-
-@keyframes scan-rotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-@keyframes scan-rotate-reverse {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(-360deg); }
-}
-
-@keyframes outer-ring-pulse {
-  0%, 100% { opacity: 0.4; }
-  50% { opacity: 0.8; }
-}
-
-@keyframes data-ring {
-  0% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: -100; }
-}
-
-.eye-idle .iris {
-  animation: iris-pulse-idle 3s ease-in-out infinite;
-}
-.eye-idle .pupil {
-  animation: pupil-wander 8s ease-in-out infinite;
-}
-.eye-idle .scan-1 {
-  animation: scan-rotate 12s linear infinite;
-}
-.eye-idle .scan-2 {
-  animation: scan-rotate-reverse 18s linear infinite;
-}
-.eye-idle .outer-ring {
-  animation: outer-ring-pulse 3s ease-in-out infinite;
-}
-
-.eye-thinking .iris {
-  animation: iris-pulse-thinking 0.8s ease-in-out infinite;
-}
-.eye-thinking .pupil {
-  animation: pupil-think 1.2s ease-in-out infinite;
-}
-.eye-thinking .scan-1 {
-  animation: scan-rotate 2s linear infinite;
-}
-.eye-thinking .scan-2 {
-  animation: scan-rotate-reverse 3s linear infinite;
-}
-.eye-thinking .outer-ring {
-  animation: outer-ring-pulse 0.8s ease-in-out infinite;
-}
-
-.eye-speaking .iris {
-  animation: iris-pulse-thinking 0.5s ease-in-out infinite;
-}
-.eye-speaking .scan-1 {
-  animation: scan-rotate 1.5s linear infinite;
-}
-.eye-speaking .scan-2 {
-  animation: scan-rotate-reverse 2s linear infinite;
-}
+@keyframes ringPulse   { 0%,100%{opacity:.25;} 50%{opacity:.75;} }
 
 /* ─── CHAT MESSAGES ─── */
 .message-user {

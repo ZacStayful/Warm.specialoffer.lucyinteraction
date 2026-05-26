@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef, FormEvent } from 'react'
 import { useRouter } from 'next/navigation'
-import LucyEye from '@/components/LucyEye'
+import { LucyEye } from '@/components/LucyEye'
 import FAQPanel from '@/components/FAQPanel'
 import { LeadSession } from '@/lib/session'
 
@@ -294,7 +294,7 @@ export default function PortalPage() {
               transform: 'scale(1.8)',
             }}
           />
-          <LucyEye state={eyeState} size={200} />
+          <LucyEye state={eyeState} size={220} />
         </div>
         <p
           className="font-orbitron text-xs tracking-[0.3em] mt-3 transition-colors"

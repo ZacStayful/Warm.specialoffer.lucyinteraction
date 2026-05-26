@@ -2,7 +2,7 @@
 
 import { useState, FormEvent } from 'react'
 import { useRouter } from 'next/navigation'
-import LucyEye from '@/components/LucyEye'
+import { LucyEye } from '@/components/LucyEye'
 
 type Stage = 'email' | 'name' | 'loading' | 'error'
 
@@ -111,7 +111,7 @@ export default function LoginPage() {
               transform: 'scale(1.8)',
             }}
           />
-          <LucyEye state={eyeState} size={160} />
+          <LucyEye state={eyeState} size={180} />
         </div>
 
         {/* Wordmark */}
