@@ -6,7 +6,7 @@ import { FAQ_CATEGORIES } from '@/lib/faq'
 interface FAQPanelProps {
   open: boolean
   onClose: () => void
-  onAsk: (questions: string[]) => void
+  onAsk: (questions: string[], category: string) => void
   disabled?: boolean
 }
 
@@ -48,13 +48,19 @@ export default function FAQPanel({ open, onClose, onAsk, disabled }: FAQPanelPro
     if (selected.size === 0 || disabled) return
     // Compose in reading order: category order, original question order
     const questions: string[] = []
+    const cats: string[] = []
     for (const cat of FAQ_CATEGORIES) {
+      let catHasSelection = false
       cat.questions.forEach((item, idx) => {
-        if (selected.has(`${cat.id}:${idx}`)) questions.push(item.q)
+        if (selected.has(`${cat.id}:${idx}`)) {
+          questions.push(item.q)
+          catHasSelection = true
+        }
       })
+      if (catHasSelection) cats.push(cat.title)
     }
     setSelected(new Set())
-    onAsk(questions)
+    onAsk(questions, cats.join(', '))
   }
 
   if (!open) return null

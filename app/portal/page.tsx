@@ -8,6 +8,7 @@ import BookingPanel from '@/components/BookingPanel'
 import DocumentRequest, { RequestedDoc } from '@/components/DocumentRequest'
 import VoiceButton from '@/components/VoiceButton'
 import { LeadSession } from '@/lib/session'
+import { cleanForVoice } from '@/lib/voice-clean'
 
 interface Message {
   id: string
@@ -22,13 +23,37 @@ function generateId() {
   return `msg_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`
 }
 
-// Strips markdown so the TTS reads clean, natural prose.
-function cleanForSpeech(text: string): string {
-  return text
-    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-    .replace(/[*_`#>]/g, '')
-    .replace(/\s+/g, ' ')
-    .trim()
+// Renders Lucy's text with [text](url) markdown links as clickable anchors,
+// preserving the surrounding text (and whitespace via the parent's pre-wrap).
+function renderWithLinks(text: string): React.ReactNode[] {
+  const nodes: React.ReactNode[] = []
+  const regex = /\[([^\]]+)\]\(([^)]+)\)/g
+  let lastIndex = 0
+  let key = 0
+  let m: RegExpExecArray | null
+  while ((m = regex.exec(text)) !== null) {
+    if (m.index > lastIndex) nodes.push(text.slice(lastIndex, m.index))
+    const url = m[2]
+    const safe = /^https?:\/\//i.test(url)
+    if (safe) {
+      nodes.push(
+        <a
+          key={key++}
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: 'var(--green-bright)', textDecoration: 'underline' }}
+        >
+          {m[1]}
+        </a>
+      )
+    } else {
+      nodes.push(m[1])
+    }
+    lastIndex = regex.lastIndex
+  }
+  if (lastIndex < text.length) nodes.push(text.slice(lastIndex))
+  return nodes
 }
 
 // Returns the next run of COMPLETE sentences in `text` starting at `from`, so
@@ -89,11 +114,21 @@ export default function PortalPage() {
 
         // Welcome message
         const firstName = data.leadName?.split(' ')[0] || 'there'
-        const propertyLine = data.address
-          ? ` I have your property at ${data.address} pulled up.`
+        const propertyClause = data.address
+          ? `, including your property at ${data.address}`
           : ''
-        const greeting = `Hello ${firstName}, welcome to your Stayful portal.${propertyLine} I'm here to answer any questions from your meeting with Zac, or anything else about how Stayful works. What can I help you with?`
-        greetingRef.current = cleanForSpeech(greeting)
+        const greeting = `Hello ${firstName}. Welcome to your Stayful portal — I'm Lucy, Zac's assistant.
+
+I have the details from your recent call with Zac${propertyClause}. So anything you want to go back over from that conversation, I can help with.
+
+A few things to know before we start: if at any point you'd like to speak with Zac directly, there's a button in the top right to book a call with him.
+
+Down at the bottom, you can browse common questions and pick any you'd like me to answer, or request copies of any documents we've sent you — your presentation, action plan, agreement, or quote — and I'll get those over to you.
+
+Or if it's easier, just enable your microphone and speak to me directly.
+
+What would you like to go through first?`
+        greetingRef.current = cleanForVoice(greeting)
         setMessages([
           {
             id: generateId(),
@@ -151,8 +186,14 @@ export default function PortalPage() {
   }, [])
 
   // ── Send message ──
-  async function sendMessage(content: string) {
+  interface SendMeta {
+    source?: 'text' | 'voice' | 'faq'
+    faqCategory?: string
+    faqQuestions?: string[]
+  }
+  async function sendMessage(content: string, meta: SendMeta = {}) {
     if (!content.trim() || isSending) return
+    const source = meta.source || 'text'
 
     abortRef.current?.abort()
     abortRef.current = new AbortController()
@@ -184,7 +225,12 @@ export default function PortalPage() {
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ messages: apiMessages }),
+        body: JSON.stringify({
+          messages: apiMessages,
+          source,
+          faqCategory: meta.faqCategory,
+          faqQuestions: meta.faqQuestions,
+        }),
         signal: abortRef.current.signal,
       })
 
@@ -239,7 +285,7 @@ export default function PortalPage() {
             ? {
                 ...m,
                 content: fullText,
-                voiceText: cleanForSpeech(fullText),
+                voiceText: cleanForVoice(fullText),
                 isStreaming: false,
               }
             : m
@@ -319,7 +365,7 @@ export default function PortalPage() {
 
   // Prefetch a chunk's audio and add it to the queue, then keep the queue moving
   function enqueueSpeech(text: string) {
-    const clean = cleanForSpeech(text)
+    const clean = cleanForVoice(text)
     if (!clean || mutedRef.current) return
     ttsQueueRef.current.push(fetchTTSBlob(clean))
     pumpSpeech()
@@ -433,16 +479,16 @@ export default function PortalPage() {
 
   function handleVoiceResult(text: string) {
     setInput(text)
-    sendMessage(text)
+    sendMessage(text, { source: 'voice' })
   }
 
   function handleSubmit(e: FormEvent) {
     e.preventDefault()
     if (docPhase === 'note') submitDocRequest(input.trim())
-    else sendMessage(input)
+    else sendMessage(input, { source: 'text' })
   }
 
-  function handleAskFromFaq(questions: string[]) {
+  function handleAskFromFaq(questions: string[], category: string) {
     setFaqOpen(false)
     if (questions.length === 0) return
     const content =
@@ -451,14 +497,18 @@ export default function PortalPage() {
         : `I have a few questions:\n${questions
             .map((q, i) => `${i + 1}. ${q}`)
             .join('\n')}`
-    sendMessage(content)
+    sendMessage(content, {
+      source: 'faq',
+      faqCategory: category,
+      faqQuestions: questions,
+    })
   }
 
   function handleKeyDown(e: React.KeyboardEvent<HTMLTextAreaElement>) {
     if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault()
       if (docPhase === 'note') submitDocRequest(input.trim())
-      else sendMessage(input)
+      else sendMessage(input, { source: 'text' })
     }
   }
 
@@ -698,7 +748,7 @@ export default function PortalPage() {
                     {!msg.isStreaming && msg.content && (
                       <button
                         type="button"
-                        onClick={() => playTTS(msg.voiceText || cleanForSpeech(msg.content))}
+                        onClick={() => playTTS(msg.voiceText || cleanForVoice(msg.content))}
                         className="flex items-center justify-center"
                         style={{ color: 'var(--text-dim)', width: 18, height: 18 }}
                         aria-label="Replay this message"
@@ -715,7 +765,7 @@ export default function PortalPage() {
 
                 {msg.content ? (
                   <p style={{ color: 'var(--text)', whiteSpace: 'pre-wrap' }}>
-                    {msg.content}
+                    {msg.role === 'assistant' ? renderWithLinks(msg.content) : msg.content}
                   </p>
                 ) : msg.isStreaming ? (
                   <div className="flex gap-1.5 py-1">
