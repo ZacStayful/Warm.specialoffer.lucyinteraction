@@ -47,8 +47,8 @@ export async function POST(request: NextRequest) {
             similarity_boost: 0.75,
             style: 0.0,
             use_speaker_boost: true,
-            // Slightly quicker than default (1.0); range is 0.7–1.2
-            speed: 1.1,
+            // Quicker than default (1.0); range is 0.7–1.2
+            speed: 1.2,
           },
         }),
         cache: 'no-store',
