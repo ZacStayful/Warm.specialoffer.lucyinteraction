@@ -25,6 +25,7 @@ export async function POST(request: NextRequest) {
     const apiKey = process.env.ELEVENLABS_API_KEY
     const voiceId = process.env.ELEVENLABS_VOICE_ID
     if (!apiKey || !voiceId) {
+      console.error('[Speak] Missing ELEVENLABS_API_KEY or ELEVENLABS_VOICE_ID')
       return new Response(JSON.stringify({ error: 'Voice output not configured' }), {
         status: 503,
       })
@@ -53,6 +54,8 @@ export async function POST(request: NextRequest) {
     )
 
     if (!resp.ok || !resp.body) {
+      const detail = await resp.text().catch(() => '')
+      console.error('[Speak] ElevenLabs error', resp.status, detail)
       return new Response(JSON.stringify({ error: 'TTS request failed' }), {
         status: 502,
       })
@@ -61,6 +64,7 @@ export async function POST(request: NextRequest) {
     return new Response(resp.body, {
       headers: {
         'Content-Type': 'audio/mpeg',
+        'Transfer-Encoding': 'chunked',
         'Cache-Control': 'no-store',
       },
     })

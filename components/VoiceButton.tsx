@@ -2,89 +2,57 @@
 
 import { useEffect, useRef, useState } from 'react'
 
+type RecState = 'idle' | 'recording' | 'transcribing'
+
 interface VoiceButtonProps {
   disabled?: boolean
-  // Live partial/final transcript — written into the input field as the lead speaks
-  onTranscript: (text: string) => void
-  // Called once on stop with the finalised transcript — triggers auto-send
-  onStop: (text: string) => void
-  onRecordingChange?: (recording: boolean) => void
+  // Final transcript — populate input + auto-send
+  onResult: (text: string) => void
+  onStateChange?: (state: RecState) => void
   onError?: (message: string) => void
 }
 
-function floatTo16BitPCM(input: Float32Array): ArrayBuffer {
-  const buffer = new ArrayBuffer(input.length * 2)
-  const view = new DataView(buffer)
-  for (let i = 0; i < input.length; i++) {
-    const s = Math.max(-1, Math.min(1, input[i]))
-    view.setInt16(i * 2, s < 0 ? s * 0x8000 : s * 0x7fff, true)
+function pickMimeType(): string {
+  if (typeof MediaRecorder === 'undefined') return ''
+  const candidates = [
+    'audio/webm',
+    'audio/webm;codecs=opus',
+    'audio/mp4',
+    'audio/ogg',
+  ]
+  for (const t of candidates) {
+    if (MediaRecorder.isTypeSupported(t)) return t
   }
-  return buffer
-}
-
-function arrayBufferToBase64(buf: ArrayBuffer): string {
-  let binary = ''
-  const bytes = new Uint8Array(buf)
-  const chunk = 0x8000
-  for (let i = 0; i < bytes.length; i += chunk) {
-    binary += String.fromCharCode.apply(
-      null,
-      Array.from(bytes.subarray(i, i + chunk))
-    )
-  }
-  return btoa(binary)
+  return ''
 }
 
 export default function VoiceButton({
   disabled,
-  onTranscript,
-  onStop,
-  onRecordingChange,
+  onResult,
+  onStateChange,
   onError,
 }: VoiceButtonProps) {
-  const [recording, setRecording] = useState(false)
-
-  const wsRef = useRef<WebSocket | null>(null)
+  const [state, setState] = useState<RecState>('idle')
+  const recorderRef = useRef<MediaRecorder | null>(null)
   const streamRef = useRef<MediaStream | null>(null)
-  const ctxRef = useRef<AudioContext | null>(null)
-  const sourceRef = useRef<MediaStreamAudioSourceNode | null>(null)
-  const processorRef = useRef<ScriptProcessorNode | null>(null)
-  const finalRef = useRef('')
-  const partialRef = useRef('')
+  const chunksRef = useRef<Blob[]>([])
 
-  function cleanup() {
-    try {
-      processorRef.current?.disconnect()
-    } catch {}
-    try {
-      sourceRef.current?.disconnect()
-    } catch {}
-    try {
-      ctxRef.current?.close()
-    } catch {}
-    streamRef.current?.getTracks().forEach((t) => t.stop())
-    if (wsRef.current && wsRef.current.readyState <= WebSocket.OPEN) {
-      try {
-        wsRef.current.send(JSON.stringify({ terminate_session: true }))
-      } catch {}
-      try {
-        wsRef.current.close()
-      } catch {}
-    }
-    processorRef.current = null
-    sourceRef.current = null
-    ctxRef.current = null
-    streamRef.current = null
-    wsRef.current = null
+  function update(s: RecState) {
+    setState(s)
+    onStateChange?.(s)
   }
 
-  // Safety: tear down on unmount
-  useEffect(() => () => cleanup(), [])
+  function stopStream() {
+    streamRef.current?.getTracks().forEach((t) => t.stop())
+    streamRef.current = null
+  }
+
+  // Tear down on unmount
+  useEffect(() => () => stopStream(), [])
 
   async function start() {
-    finalRef.current = ''
-    partialRef.current = ''
     onError?.('')
+    chunksRef.current = []
 
     let stream: MediaStream
     try {
@@ -95,104 +63,90 @@ export default function VoiceButton({
     }
     streamRef.current = stream
 
-    const AudioCtx =
-      window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext
-    let ctx: AudioContext
+    let recorder: MediaRecorder
     try {
-      ctx = new AudioCtx({ sampleRate: 16000 })
+      const mimeType = pickMimeType()
+      recorder = mimeType
+        ? new MediaRecorder(stream, { mimeType })
+        : new MediaRecorder(stream)
     } catch {
-      ctx = new AudioCtx()
-    }
-    ctxRef.current = ctx
-    const sampleRate = ctx.sampleRate
-
-    // Get a short-lived token from our server
-    let token: string
-    try {
-      const res = await fetch('/api/voice/token')
-      if (!res.ok) throw new Error('token')
-      const data = await res.json()
-      token = data.token
-      if (!token) throw new Error('token')
-    } catch {
-      onError?.('Voice unavailable — please type instead')
-      cleanup()
+      onError?.('Recording not supported — please type instead')
+      stopStream()
       return
     }
+    recorderRef.current = recorder
 
-    const ws = new WebSocket(
-      `wss://api.assemblyai.com/v2/realtime/ws?sample_rate=${sampleRate}&token=${token}`
-    )
-    wsRef.current = ws
+    recorder.ondataavailable = (e) => {
+      if (e.data.size > 0) chunksRef.current.push(e.data)
+    }
 
-    ws.onopen = () => {
-      const source = ctx.createMediaStreamSource(stream)
-      const processor = ctx.createScriptProcessor(4096, 1, 1)
-      sourceRef.current = source
-      processorRef.current = processor
+    recorder.onstop = async () => {
+      stopStream()
+      const blob = new Blob(chunksRef.current, {
+        type: recorder.mimeType || 'audio/webm',
+      })
+      chunksRef.current = []
 
-      processor.onaudioprocess = (e) => {
-        if (ws.readyState !== WebSocket.OPEN) return
-        const input = e.inputBuffer.getChannelData(0)
-        const b64 = arrayBufferToBase64(floatTo16BitPCM(input))
-        try {
-          ws.send(JSON.stringify({ audio_data: b64 }))
-        } catch {}
+      if (blob.size === 0) {
+        update('idle')
+        return
       }
 
-      source.connect(processor)
-      processor.connect(ctx.destination)
-
-      setRecording(true)
-      onRecordingChange?.(true)
-    }
-
-    ws.onmessage = (event) => {
+      update('transcribing')
       try {
-        const msg = JSON.parse(event.data)
-        if (msg.message_type === 'PartialTranscript') {
-          partialRef.current = msg.text || ''
-        } else if (msg.message_type === 'FinalTranscript') {
-          if (msg.text) {
-            finalRef.current = `${finalRef.current} ${msg.text}`.trim()
-          }
-          partialRef.current = ''
+        const formData = new FormData()
+        formData.append('audio', blob, 'recording.webm')
+        const res = await fetch('/api/voice/transcribe', {
+          method: 'POST',
+          body: formData,
+        })
+        if (!res.ok) throw new Error('transcribe failed')
+        const data = await res.json()
+        const text = (data.text || '').trim()
+        update('idle')
+        if (text) {
+          onResult(text)
         } else {
-          return
+          onError?.("I didn't catch that — please try again or type")
         }
-        const live = `${finalRef.current} ${partialRef.current}`.trim()
-        onTranscript(live)
-      } catch {}
+      } catch (err) {
+        console.error('[Voice] transcription error', err)
+        update('idle')
+        onError?.('Transcription failed — please type instead')
+      }
     }
 
-    ws.onerror = () => {
-      onError?.('Voice connection error — please type instead')
-      cleanup()
-      setRecording(false)
-      onRecordingChange?.(false)
-    }
+    recorder.start()
+    update('recording')
   }
 
   function stop() {
-    const finalText = `${finalRef.current} ${partialRef.current}`.trim()
-    cleanup()
-    setRecording(false)
-    onRecordingChange?.(false)
-    if (finalText) onStop(finalText)
+    try {
+      recorderRef.current?.stop()
+    } catch {
+      stopStream()
+      update('idle')
+    }
   }
 
   function toggle() {
-    if (recording) stop()
-    else start()
+    if (state === 'recording') stop()
+    else if (state === 'idle') start()
+    // ignore clicks while transcribing
   }
+
+  const recording = state === 'recording'
+  const transcribing = state === 'transcribing'
 
   return (
     <button
       type="button"
       onClick={toggle}
-      disabled={disabled && !recording}
+      disabled={(disabled && !recording) || transcribing}
       aria-label={recording ? 'Stop recording' : 'Start voice input'}
-      title={recording ? 'Stop recording' : 'Speak to Lucy'}
+      title={
+        recording ? 'Stop recording' : transcribing ? 'Transcribing…' : 'Speak to Lucy'
+      }
       className="btn-ghost flex-shrink-0 flex items-center justify-center"
       style={{
         borderRadius: 2,
@@ -210,6 +164,18 @@ export default function VoiceButton({
             borderRadius: '50%',
             background: 'var(--red)',
             display: 'inline-block',
+          }}
+        />
+      ) : transcribing ? (
+        <span
+          style={{
+            width: 14,
+            height: 14,
+            borderRadius: '50%',
+            border: '2px solid var(--green)',
+            borderTopColor: 'transparent',
+            display: 'inline-block',
+            animation: 'spin 0.8s linear infinite',
           }}
         />
       ) : (

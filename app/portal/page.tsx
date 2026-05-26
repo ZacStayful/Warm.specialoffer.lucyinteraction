@@ -31,11 +31,12 @@ export default function PortalPage() {
   const [faqOpen, setFaqOpen] = useState(false)
   const [isMuted, setIsMuted] = useState(false)
   const [voiceError, setVoiceError] = useState('')
+  const [voiceState, setVoiceState] = useState<'idle' | 'recording' | 'transcribing'>('idle')
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLTextAreaElement>(null)
   const abortRef = useRef<AbortController | null>(null)
-  const ttsCtxRef = useRef<AudioContext | null>(null)
-  const ttsSourceRef = useRef<AudioBufferSourceNode | null>(null)
+  const audioElRef = useRef<HTMLAudioElement | null>(null)
+  const audioUrlRef = useRef<string | null>(null)
 
   // ── Load session ──
   useEffect(() => {
@@ -184,7 +185,22 @@ export default function PortalPage() {
     }
   }
 
-  // ── Voice output (ElevenLabs TTS) ──
+  // ── Voice output (ElevenLabs TTS via Audio element) ──
+  function stopAudio() {
+    const a = audioElRef.current
+    if (a) {
+      try {
+        a.pause()
+      } catch {}
+      a.src = ''
+    }
+    audioElRef.current = null
+    if (audioUrlRef.current) {
+      URL.revokeObjectURL(audioUrlRef.current)
+      audioUrlRef.current = null
+    }
+  }
+
   async function playTTS(text: string) {
     if (!text.trim()) {
       setEyeState('idle')
@@ -197,41 +213,36 @@ export default function PortalPage() {
         body: JSON.stringify({ text }),
       })
       if (!res.ok) {
+        console.error('[TTS] request failed', res.status)
         setEyeState('idle')
         return
       }
-      const buf = await res.arrayBuffer()
+      const blob = await res.blob()
 
-      let ctx = ttsCtxRef.current
-      if (!ctx) {
-        const AudioCtx =
-          window.AudioContext ||
-          (window as unknown as { webkitAudioContext: typeof AudioContext })
-            .webkitAudioContext
-        ctx = new AudioCtx()
-        ttsCtxRef.current = ctx
-      }
-      await ctx.resume()
-      const audioBuffer = await ctx.decodeAudioData(buf)
+      // Stop any current playback before starting a new clip
+      stopAudio()
 
-      try {
-        ttsSourceRef.current?.stop()
-      } catch {}
-
-      const src = ctx.createBufferSource()
-      src.buffer = audioBuffer
-      src.connect(ctx.destination)
-      src.onended = () => {
-        if (ttsSourceRef.current === src) {
-          ttsSourceRef.current = null
-          setEyeState('idle')
+      const url = URL.createObjectURL(blob)
+      audioUrlRef.current = url
+      const audio = new Audio(url)
+      audioElRef.current = audio
+      audio.onended = () => {
+        if (audioUrlRef.current === url) {
+          URL.revokeObjectURL(url)
+          audioUrlRef.current = null
         }
+        if (audioElRef.current === audio) audioElRef.current = null
+        setEyeState('idle')
       }
-      ttsSourceRef.current = src
+      audio.onerror = () => {
+        console.error('[TTS] audio playback error')
+        setEyeState('idle')
+      }
+      await audio.play()
       setEyeState('speaking')
-      src.start()
-    } catch {
-      // Voice is enhancement only — fail silently
+    } catch (err) {
+      // Voice is enhancement only — fail silently in the UI
+      console.error('[TTS] playback error', err)
       setEyeState('idle')
     }
   }
@@ -240,18 +251,24 @@ export default function PortalPage() {
     setIsMuted(prev => {
       const next = !prev
       if (next) {
-        try {
-          ttsSourceRef.current?.stop()
-        } catch {}
-        ttsSourceRef.current = null
+        stopAudio()
         setEyeState('idle')
       }
       return next
     })
   }
 
-  function handleRecordingChange(rec: boolean) {
-    setEyeState(rec ? 'listening' : 'idle')
+  // ── Voice input (MediaRecorder + AssemblyAI upload) ──
+  function handleVoiceState(s: 'idle' | 'recording' | 'transcribing') {
+    setVoiceState(s)
+    setEyeState(
+      s === 'recording' ? 'listening' : s === 'transcribing' ? 'thinking' : 'idle'
+    )
+  }
+
+  function handleVoiceResult(text: string) {
+    setInput(text)
+    sendMessage(text)
   }
 
   function handleSubmit(e: FormEvent) {
@@ -516,9 +533,8 @@ export default function PortalPage() {
           </button>
           <VoiceButton
             disabled={isSending}
-            onTranscript={(text) => setInput(text)}
-            onStop={(text) => sendMessage(text)}
-            onRecordingChange={handleRecordingChange}
+            onResult={handleVoiceResult}
+            onStateChange={handleVoiceState}
             onError={(msg) => setVoiceError(msg)}
           />
           <textarea
@@ -530,23 +546,28 @@ export default function PortalPage() {
             className="lucy-input flex-1 px-4 py-3 text-sm resize-none"
             style={{ borderRadius: 2, minHeight: 44, maxHeight: 120 }}
             rows={1}
-            disabled={isSending}
+            disabled={isSending || voiceState !== 'idle'}
           />
           <button
             type="submit"
             className="btn-primary px-5 py-3 flex-shrink-0"
             style={{ borderRadius: 2, height: 44 }}
-            disabled={isSending || !input.trim()}
+            disabled={isSending || voiceState !== 'idle' || !input.trim()}
           >
             Send
           </button>
         </form>
         {voiceError ? (
-          <p
-            className="text-center text-xs mt-2"
-            style={{ color: 'var(--amber)' }}
-          >
+          <p className="text-center text-xs mt-2" style={{ color: 'var(--amber)' }}>
             {voiceError}
+          </p>
+        ) : voiceState === 'recording' ? (
+          <p className="text-center text-xs mt-2" style={{ color: 'var(--red)' }}>
+            ● Recording — tap the mic to stop
+          </p>
+        ) : voiceState === 'transcribing' ? (
+          <p className="text-center text-xs mt-2" style={{ color: 'var(--green-bright)' }}>
+            Transcribing…
           </p>
         ) : (
           <p

@@ -255,3 +255,7 @@ body::after {
 .rec-dot {
   animation: recPulse 1s ease-in-out infinite;
 }
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
