@@ -23,6 +23,8 @@ export async function GET() {
     rentMortgage: session.rentMortgage,
     presentationUrl: session.presentationUrl,
     actionPlanUrl: session.actionPlanUrl,
+    agreementUrl: session.agreementUrl,
+    quoteUrl: session.quoteUrl,
     itemId: session.itemId,
   })
 }

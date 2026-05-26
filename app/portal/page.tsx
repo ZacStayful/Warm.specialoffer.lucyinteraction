@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import { LucyEye } from '@/components/LucyEye'
 import FAQPanel from '@/components/FAQPanel'
 import BookingPanel from '@/components/BookingPanel'
+import DocumentRequest, { RequestedDoc } from '@/components/DocumentRequest'
 import VoiceButton from '@/components/VoiceButton'
 import { LeadSession } from '@/lib/session'
 
@@ -14,6 +15,7 @@ interface Message {
   content: string
   voiceText?: string
   isStreaming?: boolean
+  docAction?: 'confirm'
 }
 
 function generateId() {
@@ -52,6 +54,9 @@ export default function PortalPage() {
   >('idle')
   const [faqOpen, setFaqOpen] = useState(false)
   const [bookingOpen, setBookingOpen] = useState(false)
+  const [docOpen, setDocOpen] = useState(false)
+  const [pendingDocs, setPendingDocs] = useState<RequestedDoc[] | null>(null)
+  const [docPhase, setDocPhase] = useState<'idle' | 'confirm' | 'note'>('idle')
   const [isMuted, setIsMuted] = useState(false)
   const [voiceError, setVoiceError] = useState('')
   const [voiceState, setVoiceState] = useState<'idle' | 'recording' | 'transcribing'>('idle')
@@ -433,7 +438,8 @@ export default function PortalPage() {
 
   function handleSubmit(e: FormEvent) {
     e.preventDefault()
-    sendMessage(input)
+    if (docPhase === 'note') submitDocRequest(input.trim())
+    else sendMessage(input)
   }
 
   function handleAskFromFaq(questions: string[]) {
@@ -451,7 +457,60 @@ export default function PortalPage() {
   function handleKeyDown(e: React.KeyboardEvent<HTMLTextAreaElement>) {
     if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault()
-      sendMessage(input)
+      if (docPhase === 'note') submitDocRequest(input.trim())
+      else sendMessage(input)
+    }
+  }
+
+  // ── Document request flow ──
+  function pushLucyMessage(content: string, extra: Partial<Message> = {}) {
+    setMessages(prev => [
+      ...prev,
+      { id: generateId(), role: 'assistant', content, ...extra },
+    ])
+  }
+
+  function handleDocRequest(docs: RequestedDoc[]) {
+    setDocOpen(false)
+    setPendingDocs(docs)
+    setDocPhase('confirm')
+    pushLucyMessage(
+      "I'll get that ready for you. Is there anything else you'd like included, or shall I send it as is?",
+      { docAction: 'confirm' }
+    )
+  }
+
+  function handleDocAddNote() {
+    setDocPhase('note')
+    inputRef.current?.focus()
+  }
+
+  async function submitDocRequest(note: string) {
+    const docs = pendingDocs
+    setPendingDocs(null)
+    setDocPhase('idle')
+    setInput('')
+    if (!docs || docs.length === 0) return
+
+    try {
+      const res = await fetch('/api/documents/request', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          documents: docs,
+          additionalNote: note,
+          sessionConfirmed: true,
+        }),
+      })
+      if (!res.ok) throw new Error('request failed')
+      pushLucyMessage(
+        "Done — your email has been drafted for Zac's approval. You'll receive it shortly."
+      )
+    } catch (err) {
+      console.error('[Documents] request error', err)
+      pushLucyMessage(
+        "I'm sorry — something went wrong sending that across. Please try again in a moment, or let Zac know."
+      )
     }
   }
 
@@ -561,7 +620,11 @@ export default function PortalPage() {
             )}
           </button>
           <button
-            onClick={() => setBookingOpen(true)}
+            onClick={() => {
+              setFaqOpen(false)
+              setDocOpen(false)
+              setBookingOpen(true)
+            }}
             className="btn-ghost px-3 py-1.5 text-xs font-orbitron tracking-widest"
             style={{ borderRadius: 2 }}
             title="Book a call with Zac"
@@ -670,6 +733,27 @@ export default function PortalPage() {
                     />
                   </div>
                 ) : null}
+
+                {msg.docAction === 'confirm' && docPhase === 'confirm' && pendingDocs && (
+                  <div className="flex flex-wrap gap-2 mt-3">
+                    <button
+                      type="button"
+                      onClick={() => submitDocRequest('')}
+                      className="btn-primary px-4 py-2 text-xs"
+                      style={{ borderRadius: 2 }}
+                    >
+                      Send as is
+                    </button>
+                    <button
+                      type="button"
+                      onClick={handleDocAddNote}
+                      className="btn-ghost px-4 py-2 text-xs"
+                      style={{ borderRadius: 2 }}
+                    >
+                      Add a note
+                    </button>
+                  </div>
+                )}
               </div>
             </div>
           ))}
@@ -692,12 +776,27 @@ export default function PortalPage() {
         >
           <button
             type="button"
-            onClick={() => setFaqOpen((v) => !v)}
+            onClick={() => {
+              setDocOpen(false)
+              setFaqOpen((v) => !v)
+            }}
             className="btn-ghost px-4 flex-shrink-0 font-orbitron tracking-widest"
             style={{ borderRadius: 2, height: 44, fontSize: '0.65rem' }}
             aria-label="Browse frequently asked questions"
           >
             FAQ
+          </button>
+          <button
+            type="button"
+            onClick={() => {
+              setFaqOpen(false)
+              setDocOpen((v) => !v)
+            }}
+            className="btn-ghost px-4 flex-shrink-0 font-orbitron tracking-widest"
+            style={{ borderRadius: 2, height: 44, fontSize: '0.65rem' }}
+            aria-label="Request your documents"
+          >
+            DOCS
           </button>
           <VoiceButton
             disabled={isSending}
@@ -710,7 +809,11 @@ export default function PortalPage() {
             value={input}
             onChange={e => setInput(e.target.value)}
             onKeyDown={handleKeyDown}
-            placeholder={`Ask Lucy anything about your property${firstName ? `, ${firstName}` : ''}…`}
+            placeholder={
+              docPhase === 'note'
+                ? 'Add anything you’d like included, then confirm…'
+                : `Ask Lucy anything about your property${firstName ? `, ${firstName}` : ''}…`
+            }
             className="lucy-input flex-1 px-4 py-3 text-sm resize-none"
             style={{ borderRadius: 2, minHeight: 44, maxHeight: 120 }}
             rows={1}
@@ -720,14 +823,34 @@ export default function PortalPage() {
             type="submit"
             className="btn-primary px-5 py-3 flex-shrink-0"
             style={{ borderRadius: 2, height: 44 }}
-            disabled={isSending || voiceState !== 'idle' || !input.trim()}
+            disabled={
+              isSending ||
+              voiceState !== 'idle' ||
+              (docPhase !== 'note' && !input.trim())
+            }
           >
-            Send
+            {docPhase === 'note' ? 'Confirm & Send' : 'Send'}
           </button>
         </form>
         {voiceError ? (
           <p className="text-center text-xs mt-2" style={{ color: 'var(--amber)' }}>
             {voiceError}
+          </p>
+        ) : docPhase === 'note' ? (
+          <p className="text-center text-xs mt-2" style={{ color: 'var(--text-muted)' }}>
+            Type your note, then Confirm & Send ·{' '}
+            <button
+              type="button"
+              onClick={() => {
+                setDocPhase('idle')
+                setPendingDocs(null)
+                setInput('')
+              }}
+              className="underline"
+              style={{ color: 'var(--text-dim)' }}
+            >
+              cancel
+            </button>
           </p>
         ) : voiceState === 'recording' ? (
           <p className="text-center text-xs mt-2" style={{ color: 'var(--red)' }}>
@@ -753,6 +876,17 @@ export default function PortalPage() {
         onClose={() => setFaqOpen(false)}
         onAsk={handleAskFromFaq}
         disabled={isSending}
+      />
+
+      {/* ── Document request ── */}
+      <DocumentRequest
+        open={docOpen}
+        onClose={() => setDocOpen(false)}
+        agreementUrl={session?.agreementUrl}
+        actionPlanUrl={session?.actionPlanUrl}
+        quoteUrl={session?.quoteUrl}
+        presentationUrl={session?.presentationUrl}
+        onRequest={handleDocRequest}
       />
 
       {/* ── Book a call with Zac ── */}

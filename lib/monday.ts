@@ -12,7 +12,18 @@ const COLUMN_IDS = [
   'text_mm2xe380',   // Web Meeting Presentation URL
   'text_mm3h5atf',   // Post Meeting Action Plan URL
   'text_mkygb5xx',   // Email
+  'file_mm2cqjjh',   // Management Agreement (file)
+  'file_mm3mq7dn',   // Setup Quote (file)
 ]
+
+function parseFileColumnUrl(text: string): string {
+  try {
+    const parsed = JSON.parse(text)
+    return parsed?.files?.[0]?.url || ''
+  } catch {
+    return ''
+  }
+}
 
 async function mondayQuery(query: string) {
   const res = await fetch(MONDAY_API_URL, {
@@ -34,8 +45,10 @@ function buildColumnQuery(ids: string[]) {
 
 function parseItem(item: any) {
   const cols: Record<string, string> = {}
+  const vals: Record<string, string> = {}
   for (const col of item.column_values || []) {
     cols[col.id] = col.text || ''
+    vals[col.id] = col.value || ''
   }
   return {
     itemId: String(item.id),
@@ -50,6 +63,13 @@ function parseItem(item: any) {
     rentMortgage: cols['text_mm26pf4c'] || '',
     presentationUrl: cols['text_mm2xe380'] || '',
     actionPlanUrl: cols['text_mm3h5atf'] || '',
+    // File columns return JSON (in text or value) — parse out the URL
+    agreementUrl:
+      parseFileColumnUrl(vals['file_mm2cqjjh'] || '') ||
+      parseFileColumnUrl(cols['file_mm2cqjjh'] || ''),
+    quoteUrl:
+      parseFileColumnUrl(vals['file_mm3mq7dn'] || '') ||
+      parseFileColumnUrl(cols['file_mm3mq7dn'] || ''),
   }
 }
 
@@ -70,6 +90,7 @@ export async function findLeadByEmail(email: string) {
           column_values(ids: [${buildColumnQuery(COLUMN_IDS)}]) {
             id
             text
+            value
           }
         }
       }
@@ -107,6 +128,7 @@ export async function findLeadByName(name: string) {
           column_values(ids: [${buildColumnQuery(COLUMN_IDS)}]) {
             id
             text
+            value
           }
         }
       }

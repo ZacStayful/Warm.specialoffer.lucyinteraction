@@ -44,6 +44,8 @@ export async function POST(request: NextRequest) {
     session.rentMortgage = lead.rentMortgage
     session.presentationUrl = lead.presentationUrl
     session.actionPlanUrl = lead.actionPlanUrl
+    session.agreementUrl = lead.agreementUrl
+    session.quoteUrl = lead.quoteUrl
     await session.save()
 
     return NextResponse.json({

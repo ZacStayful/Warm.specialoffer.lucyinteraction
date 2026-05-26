@@ -14,6 +14,8 @@ export interface LeadSession {
   rentMortgage: string
   presentationUrl: string
   actionPlanUrl: string
+  agreementUrl: string
+  quoteUrl: string
 }
 
 export const defaultSession: LeadSession = {
@@ -30,6 +32,8 @@ export const defaultSession: LeadSession = {
   rentMortgage: '',
   presentationUrl: '',
   actionPlanUrl: '',
+  agreementUrl: '',
+  quoteUrl: '',
 }
 
 export const sessionOptions: SessionOptions = {
