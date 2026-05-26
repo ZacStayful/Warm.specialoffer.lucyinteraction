@@ -4,6 +4,7 @@ import { useState, useEffect, useRef, FormEvent } from 'react'
 import { useRouter } from 'next/navigation'
 import { LucyEye } from '@/components/LucyEye'
 import FAQPanel from '@/components/FAQPanel'
+import BookingPanel from '@/components/BookingPanel'
 import VoiceButton from '@/components/VoiceButton'
 import { LeadSession } from '@/lib/session'
 
@@ -19,50 +20,24 @@ function generateId() {
   return `msg_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`
 }
 
-const VOICE_OPEN = '[VOICE]'
-const VOICE_CLOSE = '[/VOICE]'
-
-// Splits a streamed response into the spoken summary ([VOICE]...[/VOICE]) and
-// the written answer shown on screen. While the voice block is still arriving
-// it is kept hidden from the display.
-function splitVoice(full: string): {
-  display: string
-  voice: string
-  voiceComplete: boolean
-} {
-  const start = full.indexOf(VOICE_OPEN)
-  if (start === -1) {
-    // The opening tag may still be arriving token-by-token — hide a partial
-    // leading match (e.g. "[VOIC") so it never flashes on screen.
-    const trimmed = full.trimStart()
-    if (trimmed.length > 0 && VOICE_OPEN.startsWith(trimmed)) {
-      return { display: '', voice: '', voiceComplete: false }
-    }
-    return { display: full, voice: '', voiceComplete: false }
-  }
-
-  const afterOpen = start + VOICE_OPEN.length
-  const end = full.indexOf(VOICE_CLOSE, afterOpen)
-  if (end === -1) {
-    return { display: full.slice(0, start), voice: full.slice(afterOpen), voiceComplete: false }
-  }
-
-  const voice = full.slice(afterOpen, end)
-  const display = (full.slice(0, start) + full.slice(end + VOICE_CLOSE.length)).replace(
-    /^\s+/,
-    ''
-  )
-  return { display, voice, voiceComplete: true }
-}
-
-// Strips tags and markdown so the TTS reads clean, natural prose.
+// Strips markdown so the TTS reads clean, natural prose.
 function cleanForSpeech(text: string): string {
   return text
-    .replace(/\[\/?VOICE\]/g, '')
     .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
     .replace(/[*_`#>]/g, '')
     .replace(/\s+/g, ' ')
     .trim()
+}
+
+// Returns the next run of COMPLETE sentences in `text` starting at `from`, so
+// the response can be spoken aloud sentence-by-sentence as it streams in. A
+// terminator only counts when followed by whitespace, so mid-number dots
+// (e.g. "2.5") aren't treated as sentence ends.
+function nextSpeechChunk(text: string, from: number): { chunk: string; to: number } {
+  const rest = text.slice(from)
+  const m = rest.match(/[\s\S]*[.!?…]+(?=\s)/)
+  if (!m) return { chunk: '', to: from }
+  return { chunk: m[0], to: from + m[0].length }
 }
 
 export default function PortalPage() {
@@ -76,6 +51,7 @@ export default function PortalPage() {
     'idle' | 'thinking' | 'speaking' | 'listening'
   >('idle')
   const [faqOpen, setFaqOpen] = useState(false)
+  const [bookingOpen, setBookingOpen] = useState(false)
   const [isMuted, setIsMuted] = useState(false)
   const [voiceError, setVoiceError] = useState('')
   const [voiceState, setVoiceState] = useState<'idle' | 'recording' | 'transcribing'>('idle')
@@ -88,6 +64,11 @@ export default function PortalPage() {
   const greetingRef = useRef('')
   const greetedRef = useRef(false)
   const greetingPendingRef = useRef(false)
+  // Streaming TTS queue — speaks the answer sentence-by-sentence as it types
+  const ttsQueueRef = useRef<Promise<Blob | null>[]>([])
+  const ttsBusyRef = useRef(false)
+  const ttsCancelRef = useRef(false)
+  const ttsStreamingRef = useRef(false)
 
   // ── Load session ──
   useEffect(() => {
@@ -170,6 +151,7 @@ export default function PortalPage() {
 
     abortRef.current?.abort()
     abortRef.current = new AbortController()
+    stopAudio()
 
     const userMsg: Message = {
       id: generateId(),
@@ -206,7 +188,11 @@ export default function PortalPage() {
       const reader = res.body!.getReader()
       const decoder = new TextDecoder()
       let fullText = ''
-      let voiceSpoken = false
+      let spokenChars = 0
+
+      // Begin a fresh streaming-speech session for this answer
+      ttsCancelRef.current = false
+      ttsStreamingRef.current = !isMuted
 
       while (true) {
         const { done, value } = await reader.read()
@@ -222,18 +208,18 @@ export default function PortalPage() {
             const parsed = JSON.parse(raw)
             if (parsed.type === 'text') {
               fullText += parsed.text
-              const { display, voice, voiceComplete } = splitVoice(fullText)
               setMessages(prev =>
                 prev.map(m =>
-                  m.id === assistantId ? { ...m, content: display } : m
+                  m.id === assistantId ? { ...m, content: fullText } : m
                 )
               )
-              // Speak the summary the moment it's complete, while the written
-              // answer keeps streaming in below.
-              if (!voiceSpoken && voiceComplete) {
-                voiceSpoken = true
-                const speech = cleanForSpeech(voice)
-                if (speech && !isMuted) playTTS(speech)
+              // Speak each complete sentence as it arrives
+              if (!isMuted) {
+                const { chunk: sentence, to } = nextSpeechChunk(fullText, spokenChars)
+                if (sentence.trim()) {
+                  enqueueSpeech(sentence)
+                  spokenChars = to
+                }
               }
             }
           } catch {
@@ -242,23 +228,27 @@ export default function PortalPage() {
         }
       }
 
-      const { display, voice } = splitVoice(fullText)
-      const spokenSummary = cleanForSpeech(voice) || cleanForSpeech(display)
       setMessages(prev =>
         prev.map(m =>
           m.id === assistantId
-            ? { ...m, content: display, voiceText: spokenSummary, isStreaming: false }
+            ? {
+                ...m,
+                content: fullText,
+                voiceText: cleanForSpeech(fullText),
+                isStreaming: false,
+              }
             : m
         )
       )
 
-      // If the model never emitted a [VOICE] block, fall back to speaking the
-      // written answer. Otherwise the summary is already playing.
+      // Speak any trailing partial sentence, then let the queue settle
+      ttsStreamingRef.current = false
       if (isMuted) {
         setEyeState('idle')
-      } else if (!voiceSpoken) {
-        if (spokenSummary) playTTS(spokenSummary)
-        else setEyeState('idle')
+      } else {
+        const remainder = fullText.slice(spokenChars)
+        if (remainder.trim()) enqueueSpeech(remainder)
+        else pumpSpeech()
       }
     } catch (err: any) {
       if (err.name === 'AbortError') {
@@ -286,6 +276,10 @@ export default function PortalPage() {
 
   // ── Voice output (ElevenLabs TTS via Audio element) ──
   function stopAudio() {
+    ttsCancelRef.current = true
+    ttsStreamingRef.current = false
+    ttsQueueRef.current = []
+    ttsBusyRef.current = false
     const a = audioElRef.current
     if (a) {
       try {
@@ -298,6 +292,70 @@ export default function PortalPage() {
       URL.revokeObjectURL(audioUrlRef.current)
       audioUrlRef.current = null
     }
+  }
+
+  async function fetchTTSBlob(text: string): Promise<Blob | null> {
+    try {
+      const res = await fetch('/api/voice/speak', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text }),
+      })
+      if (!res.ok) {
+        console.error('[TTS] request failed', res.status)
+        return null
+      }
+      return await res.blob()
+    } catch (err) {
+      console.error('[TTS] fetch error', err)
+      return null
+    }
+  }
+
+  // Prefetch a chunk's audio and add it to the queue, then keep the queue moving
+  function enqueueSpeech(text: string) {
+    const clean = cleanForSpeech(text)
+    if (!clean || mutedRef.current) return
+    ttsQueueRef.current.push(fetchTTSBlob(clean))
+    pumpSpeech()
+  }
+
+  // Plays queued clips one after another so the answer is spoken in order
+  function pumpSpeech() {
+    if (ttsBusyRef.current || ttsCancelRef.current) return
+    const next = ttsQueueRef.current.shift()
+    if (!next) {
+      if (!ttsStreamingRef.current) setEyeState('idle')
+      return
+    }
+    ttsBusyRef.current = true
+    next.then(blob => {
+      if (ttsCancelRef.current || !blob) {
+        ttsBusyRef.current = false
+        pumpSpeech()
+        return
+      }
+      const url = URL.createObjectURL(blob)
+      audioUrlRef.current = url
+      const audio = new Audio(url)
+      audioElRef.current = audio
+      const done = () => {
+        if (audioUrlRef.current === url) {
+          URL.revokeObjectURL(url)
+          audioUrlRef.current = null
+        }
+        if (audioElRef.current === audio) audioElRef.current = null
+        ttsBusyRef.current = false
+        pumpSpeech()
+      }
+      audio.onended = done
+      audio.onerror = done
+      setEyeState('speaking')
+      audio.play().catch(err => {
+        console.error('[TTS] playback error', err)
+        done()
+      })
+    })
   }
 
   async function playTTS(text: string): Promise<boolean> {
@@ -503,6 +561,14 @@ export default function PortalPage() {
             )}
           </button>
           <button
+            onClick={() => setBookingOpen(true)}
+            className="btn-ghost px-3 py-1.5 text-xs font-orbitron tracking-widest"
+            style={{ borderRadius: 2 }}
+            title="Book a call with Zac"
+          >
+            BOOK CALL
+          </button>
+          <button
             onClick={handleLogout}
             className="btn-ghost px-3 py-1.5 text-xs"
             style={{ borderRadius: 2 }}
@@ -687,6 +753,14 @@ export default function PortalPage() {
         onClose={() => setFaqOpen(false)}
         onAsk={handleAskFromFaq}
         disabled={isSending}
+      />
+
+      {/* ── Book a call with Zac ── */}
+      <BookingPanel
+        open={bookingOpen}
+        onClose={() => setBookingOpen(false)}
+        leadName={session?.leadName}
+        email={session?.email}
       />
     </div>
   )
