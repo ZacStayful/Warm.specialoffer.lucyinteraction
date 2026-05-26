@@ -113,7 +113,8 @@ export async function POST(request: NextRequest) {
           .reverse()
           .find((m: { role: string }) => m.role === 'user')
         if (lastUserMessage && session.itemId) {
-          const logEntry = `Q: ${lastUserMessage.content}\nA: ${fullText.slice(0, 500)}${fullText.length > 500 ? '...' : ''}`
+          const writtenAnswer = fullText.replace(/\[VOICE\][\s\S]*?\[\/VOICE\]/g, '').trim()
+          const logEntry = `Q: ${lastUserMessage.content}\nA: ${writtenAnswer.slice(0, 500)}${writtenAnswer.length > 500 ? '...' : ''}`
           logPortalSession(session.itemId, logEntry).catch(console.error)
         }
       } catch (err) {

@@ -11,11 +11,58 @@ interface Message {
   id: string
   role: 'user' | 'assistant'
   content: string
+  voiceText?: string
   isStreaming?: boolean
 }
 
 function generateId() {
   return `msg_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`
+}
+
+const VOICE_OPEN = '[VOICE]'
+const VOICE_CLOSE = '[/VOICE]'
+
+// Splits a streamed response into the spoken summary ([VOICE]...[/VOICE]) and
+// the written answer shown on screen. While the voice block is still arriving
+// it is kept hidden from the display.
+function splitVoice(full: string): {
+  display: string
+  voice: string
+  voiceComplete: boolean
+} {
+  const start = full.indexOf(VOICE_OPEN)
+  if (start === -1) {
+    // The opening tag may still be arriving token-by-token — hide a partial
+    // leading match (e.g. "[VOIC") so it never flashes on screen.
+    const trimmed = full.trimStart()
+    if (trimmed.length > 0 && VOICE_OPEN.startsWith(trimmed)) {
+      return { display: '', voice: '', voiceComplete: false }
+    }
+    return { display: full, voice: '', voiceComplete: false }
+  }
+
+  const afterOpen = start + VOICE_OPEN.length
+  const end = full.indexOf(VOICE_CLOSE, afterOpen)
+  if (end === -1) {
+    return { display: full.slice(0, start), voice: full.slice(afterOpen), voiceComplete: false }
+  }
+
+  const voice = full.slice(afterOpen, end)
+  const display = (full.slice(0, start) + full.slice(end + VOICE_CLOSE.length)).replace(
+    /^\s+/,
+    ''
+  )
+  return { display, voice, voiceComplete: true }
+}
+
+// Strips tags and markdown so the TTS reads clean, natural prose.
+function cleanForSpeech(text: string): string {
+  return text
+    .replace(/\[\/?VOICE\]/g, '')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/[*_`#>]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
 }
 
 export default function PortalPage() {
@@ -37,6 +84,10 @@ export default function PortalPage() {
   const abortRef = useRef<AbortController | null>(null)
   const audioElRef = useRef<HTMLAudioElement | null>(null)
   const audioUrlRef = useRef<string | null>(null)
+  const mutedRef = useRef(false)
+  const greetingRef = useRef('')
+  const greetedRef = useRef(false)
+  const greetingPendingRef = useRef(false)
 
   // ── Load session ──
   useEffect(() => {
@@ -55,13 +106,19 @@ export default function PortalPage() {
         const propertyLine = data.address
           ? ` I have your property at ${data.address} pulled up.`
           : ''
+        const greeting = `Hello ${firstName}, welcome to your Stayful portal.${propertyLine} I'm here to answer any questions from your meeting with Zac, or anything else about how Stayful works. What can I help you with?`
+        greetingRef.current = cleanForSpeech(greeting)
         setMessages([
           {
             id: generateId(),
             role: 'assistant',
-            content: `Hello ${firstName}, welcome to your Stayful portal.${propertyLine} I'm here to answer any questions from your meeting with Zac, or anything else about how Stayful works. What can I help you with?`,
+            content: greeting,
+            voiceText: greetingRef.current,
           },
         ])
+        // Try to greet aloud now; if the browser blocks autoplay, the first
+        // interaction listener below will speak it instead.
+        speakGreeting()
       })
       .catch(() => router.replace('/'))
   }, [router])
@@ -70,6 +127,42 @@ export default function PortalPage() {
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
   }, [messages])
+
+  // Keep mute state readable from listener closures without re-binding them
+  useEffect(() => {
+    mutedRef.current = isMuted
+  }, [isMuted])
+
+  // Speak Lucy's greeting. Browsers block audio autoplay until the user has
+  // interacted with the page, so this is retried on the first interaction.
+  async function speakGreeting() {
+    if (
+      greetedRef.current ||
+      greetingPendingRef.current ||
+      mutedRef.current ||
+      !greetingRef.current
+    ) {
+      return
+    }
+    greetingPendingRef.current = true
+    const ok = await playTTS(greetingRef.current)
+    greetingPendingRef.current = false
+    if (ok) greetedRef.current = true
+  }
+
+  // Fallback: greet on the lead's first interaction if autoplay was blocked
+  useEffect(() => {
+    const handler = () => {
+      speakGreeting()
+    }
+    window.addEventListener('pointerdown', handler)
+    window.addEventListener('keydown', handler)
+    return () => {
+      window.removeEventListener('pointerdown', handler)
+      window.removeEventListener('keydown', handler)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   // ── Send message ──
   async function sendMessage(content: string) {
@@ -113,7 +206,7 @@ export default function PortalPage() {
       const reader = res.body!.getReader()
       const decoder = new TextDecoder()
       let fullText = ''
-      let firstChunk = true
+      let voiceSpoken = false
 
       while (true) {
         const { done, value } = await reader.read()
@@ -128,18 +221,20 @@ export default function PortalPage() {
           try {
             const parsed = JSON.parse(raw)
             if (parsed.type === 'text') {
-              if (firstChunk) {
-                setEyeState('speaking')
-                firstChunk = false
-              }
               fullText += parsed.text
+              const { display, voice, voiceComplete } = splitVoice(fullText)
               setMessages(prev =>
                 prev.map(m =>
-                  m.id === assistantId
-                    ? { ...m, content: fullText }
-                    : m
+                  m.id === assistantId ? { ...m, content: display } : m
                 )
               )
+              // Speak the summary the moment it's complete, while the written
+              // answer keeps streaming in below.
+              if (!voiceSpoken && voiceComplete) {
+                voiceSpoken = true
+                const speech = cleanForSpeech(voice)
+                if (speech && !isMuted) playTTS(speech)
+              }
             }
           } catch {
             // skip
@@ -147,19 +242,23 @@ export default function PortalPage() {
         }
       }
 
+      const { display, voice } = splitVoice(fullText)
+      const spokenSummary = cleanForSpeech(voice) || cleanForSpeech(display)
       setMessages(prev =>
         prev.map(m =>
           m.id === assistantId
-            ? { ...m, content: fullText, isStreaming: false }
+            ? { ...m, content: display, voiceText: spokenSummary, isStreaming: false }
             : m
         )
       )
 
-      // Phase 2c — speak the response aloud (skip entirely when muted)
-      if (!isMuted && fullText.trim()) {
-        playTTS(fullText)
-      } else {
+      // If the model never emitted a [VOICE] block, fall back to speaking the
+      // written answer. Otherwise the summary is already playing.
+      if (isMuted) {
         setEyeState('idle')
+      } else if (!voiceSpoken) {
+        if (spokenSummary) playTTS(spokenSummary)
+        else setEyeState('idle')
       }
     } catch (err: any) {
       if (err.name === 'AbortError') {
@@ -201,10 +300,10 @@ export default function PortalPage() {
     }
   }
 
-  async function playTTS(text: string) {
+  async function playTTS(text: string): Promise<boolean> {
     if (!text.trim()) {
       setEyeState('idle')
-      return
+      return false
     }
     try {
       const res = await fetch('/api/voice/speak', {
@@ -215,7 +314,7 @@ export default function PortalPage() {
       if (!res.ok) {
         console.error('[TTS] request failed', res.status)
         setEyeState('idle')
-        return
+        return false
       }
       const blob = await res.blob()
 
@@ -240,10 +339,13 @@ export default function PortalPage() {
       }
       await audio.play()
       setEyeState('speaking')
+      return true
     } catch (err) {
-      // Voice is enhancement only — fail silently in the UI
+      // Voice is enhancement only — fail silently in the UI (e.g. autoplay
+      // blocked before the first interaction).
       console.error('[TTS] playback error', err)
       setEyeState('idle')
+      return false
     }
   }
 
@@ -467,7 +569,7 @@ export default function PortalPage() {
                     {!msg.isStreaming && msg.content && (
                       <button
                         type="button"
-                        onClick={() => playTTS(msg.content)}
+                        onClick={() => playTTS(msg.voiceText || cleanForSpeech(msg.content))}
                         className="flex items-center justify-center"
                         style={{ color: 'var(--text-dim)', width: 18, height: 18 }}
                         aria-label="Replay this message"
