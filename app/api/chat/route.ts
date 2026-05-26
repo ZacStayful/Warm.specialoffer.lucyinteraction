@@ -14,7 +14,7 @@ export async function POST(request: NextRequest) {
     })
   }
 
-  const { messages } = await request.json()
+  const { messages, source, faqCategory, faqQuestions } = await request.json()
 
   const systemPrompt = buildSystemPrompt({
     leadName: session.leadName,
@@ -108,13 +108,47 @@ export async function POST(request: NextRequest) {
         )
         controller.close()
 
-        // Log to Monday asynchronously
+        // Log to Monday asynchronously — richer per-exchange format
         const lastUserMessage = [...messages]
           .reverse()
           .find((m: { role: string }) => m.role === 'user')
         if (lastUserMessage && session.itemId) {
-          const writtenAnswer = fullText.replace(/\[VOICE\][\s\S]*?\[\/VOICE\]/g, '').trim()
-          const logEntry = `Q: ${lastUserMessage.content}\nA: ${writtenAnswer.slice(0, 500)}${writtenAnswer.length > 500 ? '...' : ''}`
+          const answer = fullText.trim()
+          const truncated =
+            answer.slice(0, 500) + (answer.length > 500 ? '...' : '')
+
+          const inputMethod =
+            source === 'voice' ? 'Voice' : source === 'faq' ? 'FAQ' : 'Text'
+
+          // Question line — for FAQ, list the picked questions + category
+          let questionLine: string
+          if (
+            source === 'faq' &&
+            Array.isArray(faqQuestions) &&
+            faqQuestions.length > 0
+          ) {
+            const cat = faqCategory ? ` — ${faqCategory}` : ''
+            questionLine = `Q (faq${cat}): ${faqQuestions.join(' / ')}`
+          } else {
+            const tag = source === 'voice' ? 'voice' : 'text'
+            questionLine = `Q (${tag}): ${lastUserMessage.content}`
+          }
+
+          const questionCount = messages.filter(
+            (m: { role: string }) => m.role === 'user'
+          ).length
+          const divider = '─────────────────────────'
+
+          const logEntry = [
+            'SESSION',
+            `Input method: ${inputMethod}`,
+            divider,
+            questionLine,
+            `A: ${truncated}`,
+            divider,
+            `Session total: ${questionCount} question${questionCount === 1 ? '' : 's'}`,
+          ].join('\n')
+
           logPortalSession(session.itemId, logEntry).catch(console.error)
         }
       } catch (err) {
