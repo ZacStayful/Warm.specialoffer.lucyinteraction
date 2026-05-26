@@ -81,7 +81,7 @@ ANTHROPIC_API_KEY=          # From console.anthropic.com
 MONDAY_API_KEY=             # From Monday.com → Developer → API
 SESSION_SECRET=             # Min 32 chars, random string
 ELEVENLABS_API_KEY=         # From elevenlabs.io (Phase 2)
-ASSEMBLYAI_API_KEY=4610edab175d4b29a43ac9d60dee2cd9  # Already set
+ASSEMBLYAI_API_KEY=         # AssemblyAI API key is stored as env var ASSEMBLYAI_API_KEY in Vercel
 GMAIL_CLIENT_ID=            # Google OAuth (Phase 3)
 GMAIL_CLIENT_SECRET=        # Google OAuth (Phase 3)
 GMAIL_REFRESH_TOKEN=        # Google OAuth (Phase 3)
@@ -293,7 +293,7 @@ Build `components/VoiceButton.tsx`:
 - Real-time transcription via AssemblyAI WebSocket
 - Transcription appears in input field as lead speaks
 - On release/stop → sends message
-- AssemblyAI API key: `4610edab175d4b29a43ac9d60dee2cd9`
+- AssemblyAI API key is stored as env var ASSEMBLYAI_API_KEY in Vercel
 - Use AssemblyAI real-time transcription WebSocket API
 - Show recording indicator (pulsing red dot or similar)
 
@@ -445,7 +445,7 @@ Key rules baked into the prompt:
 
 ## ASSEMBLYAI INTEGRATION NOTES
 
-API Key: `4610edab175d4b29a43ac9d60dee2cd9`
+AssemblyAI API key is stored as env var ASSEMBLYAI_API_KEY in Vercel
 
 For real-time transcription, use AssemblyAI's WebSocket API:
 1. POST `https://api.assemblyai.com/v2/realtime/token` to get a short-lived token
@@ -522,7 +522,7 @@ Always confirm the plan before writing code. Always check existing files before 
 | Monday board ID | `5891626711` |
 | Email column | `text_mkygb5xx` |
 | Intelligence log column | `long_text_mm3pj2zj` |
-| AssemblyAI key | `4610edab175d4b29a43ac9d60dee2cd9` |
+| AssemblyAI key | env var `ASSEMBLYAI_API_KEY` (Vercel) |
 | Stayful green | `#5d8156` |
 | Claude model | `claude-sonnet-4-20250514` |
 | ElevenLabs model | `eleven_turbo_v2` |
