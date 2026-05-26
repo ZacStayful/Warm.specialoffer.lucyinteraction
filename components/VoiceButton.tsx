@@ -12,18 +12,34 @@ interface VoiceButtonProps {
   onError?: (message: string) => void
 }
 
-function pickMimeType(): string {
-  if (typeof MediaRecorder === 'undefined') return ''
-  const candidates = [
-    'audio/webm',
-    'audio/webm;codecs=opus',
-    'audio/mp4',
-    'audio/ogg',
-  ]
-  for (const t of candidates) {
-    if (MediaRecorder.isTypeSupported(t)) return t
+// Minimal typings for the Web Speech API (not in the standard DOM lib).
+interface SpeechRecognitionLike {
+  lang: string
+  continuous: boolean
+  interimResults: boolean
+  start: () => void
+  stop: () => void
+  abort: () => void
+  onresult: ((event: SpeechRecognitionResultEventLike) => void) | null
+  onerror: ((event: { error: string }) => void) | null
+  onend: (() => void) | null
+}
+
+interface SpeechRecognitionResultEventLike {
+  resultIndex: number
+  results: ArrayLike<{
+    isFinal: boolean
+    0: { transcript: string }
+  }>
+}
+
+function getRecognitionCtor(): (new () => SpeechRecognitionLike) | null {
+  if (typeof window === 'undefined') return null
+  const w = window as unknown as {
+    SpeechRecognition?: new () => SpeechRecognitionLike
+    webkitSpeechRecognition?: new () => SpeechRecognitionLike
   }
-  return ''
+  return w.SpeechRecognition || w.webkitSpeechRecognition || null
 }
 
 export default function VoiceButton({
@@ -33,109 +49,94 @@ export default function VoiceButton({
   onError,
 }: VoiceButtonProps) {
   const [state, setState] = useState<RecState>('idle')
-  const recorderRef = useRef<MediaRecorder | null>(null)
-  const streamRef = useRef<MediaStream | null>(null)
-  const chunksRef = useRef<Blob[]>([])
+  const recognitionRef = useRef<SpeechRecognitionLike | null>(null)
+  const finalRef = useRef('')
 
   function update(s: RecState) {
     setState(s)
     onStateChange?.(s)
   }
 
-  function stopStream() {
-    streamRef.current?.getTracks().forEach((t) => t.stop())
-    streamRef.current = null
-  }
-
   // Tear down on unmount
-  useEffect(() => () => stopStream(), [])
-
-  async function start() {
-    onError?.('')
-    chunksRef.current = []
-
-    if (
-      typeof navigator === 'undefined' ||
-      !navigator.mediaDevices ||
-      !navigator.mediaDevices.getUserMedia
-    ) {
-      console.error('[Voice] getUserMedia unavailable — needs HTTPS and a supported browser')
-      onError?.('Voice needs a secure (https) connection — please type instead')
-      return
-    }
-
-    let stream: MediaStream
-    try {
-      stream = await navigator.mediaDevices.getUserMedia({ audio: true })
-    } catch (err) {
-      console.error('[Voice] microphone permission / getUserMedia error', err)
-      onError?.('Microphone blocked — allow mic access in your browser, or type instead')
-      return
-    }
-    streamRef.current = stream
-
-    let recorder: MediaRecorder
-    try {
-      const mimeType = pickMimeType()
-      recorder = mimeType
-        ? new MediaRecorder(stream, { mimeType })
-        : new MediaRecorder(stream)
-    } catch {
-      onError?.('Recording not supported — please type instead')
-      stopStream()
-      return
-    }
-    recorderRef.current = recorder
-
-    recorder.ondataavailable = (e) => {
-      if (e.data.size > 0) chunksRef.current.push(e.data)
-    }
-
-    recorder.onstop = async () => {
-      stopStream()
-      const blob = new Blob(chunksRef.current, {
-        type: recorder.mimeType || 'audio/webm',
-      })
-      chunksRef.current = []
-
-      if (blob.size === 0) {
-        update('idle')
-        return
-      }
-
-      update('transcribing')
+  useEffect(() => {
+    return () => {
       try {
-        const formData = new FormData()
-        formData.append('audio', blob, 'recording.webm')
-        const res = await fetch('/api/voice/transcribe', {
-          method: 'POST',
-          body: formData,
-        })
-        if (!res.ok) throw new Error('transcribe failed')
-        const data = await res.json()
-        const text = (data.text || '').trim()
-        update('idle')
-        if (text) {
-          onResult(text)
-        } else {
-          onError?.("I didn't catch that — please try again or type")
-        }
-      } catch (err) {
-        console.error('[Voice] transcription error', err)
-        update('idle')
-        onError?.('Transcription failed — please type instead')
+        recognitionRef.current?.abort()
+      } catch {
+        // ignore
+      }
+      recognitionRef.current = null
+    }
+  }, [])
+
+  function start() {
+    onError?.('')
+    finalRef.current = ''
+
+    const Recognition = getRecognitionCtor()
+    if (!Recognition) {
+      console.error('[Voice] Web Speech API unavailable in this browser')
+      onError?.('Voice input needs Chrome, Edge or Safari — or just type instead')
+      return
+    }
+
+    let recognition: SpeechRecognitionLike
+    try {
+      recognition = new Recognition()
+    } catch (err) {
+      console.error('[Voice] failed to create SpeechRecognition', err)
+      onError?.('Voice input could not start — please type instead')
+      return
+    }
+
+    recognition.lang = 'en-GB'
+    recognition.continuous = true
+    recognition.interimResults = true
+
+    recognition.onresult = (event) => {
+      let finalText = ''
+      for (let i = 0; i < event.results.length; i++) {
+        const result = event.results[i]
+        if (result.isFinal) finalText += result[0].transcript
+      }
+      finalRef.current = finalText.trim()
+    }
+
+    recognition.onerror = (event) => {
+      console.error('[Voice] recognition error', event.error)
+      if (event.error === 'not-allowed' || event.error === 'service-not-allowed') {
+        onError?.('Microphone blocked — allow mic access in your browser, or type instead')
+      } else if (event.error === 'no-speech') {
+        onError?.("I didn't catch that — please try again or type")
+      } else if (event.error !== 'aborted') {
+        onError?.('Voice input failed — please type instead')
       }
     }
 
-    recorder.start()
-    update('recording')
+    recognition.onend = () => {
+      recognitionRef.current = null
+      update('idle')
+      const text = finalRef.current.trim()
+      if (text) onResult(text)
+    }
+
+    recognitionRef.current = recognition
+    try {
+      recognition.start()
+      update('recording')
+    } catch (err) {
+      console.error('[Voice] recognition.start failed', err)
+      recognitionRef.current = null
+      onError?.('Voice input could not start — please type instead')
+      update('idle')
+    }
   }
 
   function stop() {
     try {
-      recorderRef.current?.stop()
+      recognitionRef.current?.stop()
     } catch {
-      stopStream()
+      recognitionRef.current = null
       update('idle')
     }
   }
@@ -143,21 +144,17 @@ export default function VoiceButton({
   function toggle() {
     if (state === 'recording') stop()
     else if (state === 'idle') start()
-    // ignore clicks while transcribing
   }
 
   const recording = state === 'recording'
-  const transcribing = state === 'transcribing'
 
   return (
     <button
       type="button"
       onClick={toggle}
-      disabled={(disabled && !recording) || transcribing}
+      disabled={disabled && !recording}
       aria-label={recording ? 'Stop recording' : 'Start voice input'}
-      title={
-        recording ? 'Stop recording' : transcribing ? 'Transcribing…' : 'Speak to Lucy'
-      }
+      title={recording ? 'Stop recording' : 'Speak to Lucy'}
       className="btn-ghost flex-shrink-0 flex items-center justify-center"
       style={{
         borderRadius: 2,
@@ -175,18 +172,6 @@ export default function VoiceButton({
             borderRadius: '50%',
             background: 'var(--red)',
             display: 'inline-block',
-          }}
-        />
-      ) : transcribing ? (
-        <span
-          style={{
-            width: 14,
-            height: 14,
-            borderRadius: '50%',
-            border: '2px solid var(--green)',
-            borderTopColor: 'transparent',
-            display: 'inline-block',
-            animation: 'spin 0.8s linear infinite',
           }}
         />
       ) : (

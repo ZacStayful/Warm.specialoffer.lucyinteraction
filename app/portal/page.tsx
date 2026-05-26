@@ -258,7 +258,7 @@ export default function PortalPage() {
     })
   }
 
-  // ── Voice input (MediaRecorder + AssemblyAI upload) ──
+  // ── Voice input (browser-native Web Speech API) ──
   function handleVoiceState(s: 'idle' | 'recording' | 'transcribing') {
     setVoiceState(s)
     setEyeState(
