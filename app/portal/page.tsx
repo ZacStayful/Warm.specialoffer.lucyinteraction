@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, FormEvent } from 'react'
 import { useRouter } from 'next/navigation'
 import LucyEye from '@/components/LucyEye'
+import FAQPanel from '@/components/FAQPanel'
 import { LeadSession } from '@/lib/session'
 
 interface Message {
@@ -24,6 +25,7 @@ export default function PortalPage() {
   const [input, setInput] = useState('')
   const [isSending, setIsSending] = useState(false)
   const [eyeState, setEyeState] = useState<'idle' | 'thinking' | 'speaking'>('idle')
+  const [faqOpen, setFaqOpen] = useState(false)
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLTextAreaElement>(null)
   const abortRef = useRef<AbortController | null>(null)
@@ -171,6 +173,18 @@ export default function PortalPage() {
   function handleSubmit(e: FormEvent) {
     e.preventDefault()
     sendMessage(input)
+  }
+
+  function handleAskFromFaq(questions: string[]) {
+    setFaqOpen(false)
+    if (questions.length === 0) return
+    const content =
+      questions.length === 1
+        ? questions[0]
+        : `I have a few questions:\n${questions
+            .map((q, i) => `${i + 1}. ${q}`)
+            .join('\n')}`
+    sendMessage(content)
   }
 
   function handleKeyDown(e: React.KeyboardEvent<HTMLTextAreaElement>) {
@@ -339,6 +353,15 @@ export default function PortalPage() {
           onSubmit={handleSubmit}
           className="max-w-2xl mx-auto flex gap-3 items-end"
         >
+          <button
+            type="button"
+            onClick={() => setFaqOpen((v) => !v)}
+            className="btn-ghost px-4 flex-shrink-0 font-orbitron tracking-widest"
+            style={{ borderRadius: 2, height: 44, fontSize: '0.65rem' }}
+            aria-label="Browse frequently asked questions"
+          >
+            FAQ
+          </button>
           <textarea
             ref={inputRef}
             value={input}
@@ -366,6 +389,14 @@ export default function PortalPage() {
           Press Enter to send · Shift+Enter for new line
         </p>
       </div>
+
+      {/* ── FAQ Panel ── */}
+      <FAQPanel
+        open={faqOpen}
+        onClose={() => setFaqOpen(false)}
+        onAsk={handleAskFromFaq}
+        disabled={isSending}
+      />
     </div>
   )
 }

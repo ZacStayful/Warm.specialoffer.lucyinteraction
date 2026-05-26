@@ -296,3 +296,21 @@ body::after {
 .fade-in {
   animation: fadeIn 0.6s ease-out forwards;
 }
+
+/* ─── FAQ PANEL ─── */
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.faq-sheet {
+  animation: slideUp 0.3s ease-out forwards;
+}
+
+.faq-row {
+  transition: background 0.15s ease;
+}
+
+.faq-row:hover {
+  background: rgba(93, 129, 86, 0.08) !important;
+}
