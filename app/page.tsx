@@ -136,6 +136,9 @@ export default function LoginPage() {
           {/* Email Stage */}
           {(stage === 'email' || (stage === 'loading' && !name)) && (
             <form onSubmit={handleEmailSubmit} className="flex flex-col gap-4">
+              <p className="text-xs leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+                Please use the email address you enquired with us — you may have more than one.
+              </p>
               <div>
                 <label
                   className="block text-xs tracking-widest uppercase mb-2"

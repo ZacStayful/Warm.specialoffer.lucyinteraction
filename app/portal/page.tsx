@@ -211,6 +211,12 @@ export default function PortalPage() {
   }
 
   const firstName = session?.leadName?.split(' ')[0] || ''
+  const statusLabel =
+    eyeState === 'thinking'
+      ? 'THINKING'
+      : eyeState === 'speaking'
+      ? 'SPEAKING'
+      : 'ONLINE'
 
   return (
     <div
@@ -238,22 +244,19 @@ export default function PortalPage() {
           backdropFilter: 'blur(10px)',
         }}
       >
-        <div className="flex items-center gap-3">
-          <LucyEye state={eyeState} size={44} />
-          <div>
-            <h1
-              className="font-orbitron text-sm font-bold tracking-[0.2em]"
-              style={{ color: 'var(--green-bright)' }}
-            >
-              LUCY
-            </h1>
-            <p
-              className="text-xs tracking-widest"
-              style={{ color: 'var(--text-muted)' }}
-            >
-              STAYFUL PORTAL
-            </p>
-          </div>
+        <div>
+          <h1
+            className="font-orbitron text-sm font-bold tracking-[0.2em] glow-green"
+            style={{ color: 'var(--green-bright)' }}
+          >
+            LUCY
+          </h1>
+          <p
+            className="text-xs tracking-widest"
+            style={{ color: 'var(--text-muted)' }}
+          >
+            STAYFUL PORTAL
+          </p>
         </div>
 
         <div className="flex items-center gap-4">
@@ -280,9 +283,33 @@ export default function PortalPage() {
         </div>
       </header>
 
+      {/* ── Lucy Eye — central focal point ── */}
+      <div className="relative z-10 flex flex-col items-center justify-center pt-6 pb-3 flex-shrink-0">
+        <div className="relative">
+          <div
+            className="absolute inset-0 rounded-full"
+            style={{
+              background:
+                'radial-gradient(circle, rgba(93,129,86,0.12) 0%, transparent 70%)',
+              transform: 'scale(1.8)',
+            }}
+          />
+          <LucyEye state={eyeState} size={200} />
+        </div>
+        <p
+          className="font-orbitron text-xs tracking-[0.3em] mt-3 transition-colors"
+          style={{
+            color:
+              eyeState === 'idle' ? 'var(--text-muted)' : 'var(--green-bright)',
+          }}
+        >
+          {statusLabel}
+        </p>
+      </div>
+
       {/* ── Messages ── */}
       <div
-        className="relative z-10 flex-1 overflow-y-auto px-4 py-6"
+        className="relative z-10 flex-1 overflow-y-auto px-4 pt-2 pb-6"
         style={{ scrollbarWidth: 'thin' }}
       >
         <div className="max-w-2xl mx-auto flex flex-col gap-4">
