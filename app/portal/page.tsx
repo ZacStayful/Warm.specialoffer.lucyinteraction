@@ -15,6 +15,7 @@ interface Message {
   role: 'user' | 'assistant'
   content: string
   voiceText?: string
+  voiceRemainder?: string
   isStreaming?: boolean
   docAction?: 'confirm'
 }
@@ -56,15 +57,27 @@ function renderWithLinks(text: string): React.ReactNode[] {
   return nodes
 }
 
-// Returns the next run of COMPLETE sentences in `text` starting at `from`, so
-// the response can be spoken aloud sentence-by-sentence as it streams in. A
-// terminator only counts when followed by whitespace, so mid-number dots
-// (e.g. "2.5") aren't treated as sentence ends.
-function nextSpeechChunk(text: string, from: number): { chunk: string; to: number } {
+// Grabs the single next complete sentence (terminator followed by whitespace),
+// used to speak the answer sentence-by-sentence and cap auto-speech at the
+// first few sentences. A terminator only counts when followed by whitespace,
+// so mid-number dots (e.g. "2.5") aren't treated as sentence ends.
+function nextSentence(text: string, from: number): { chunk: string; to: number } {
   const rest = text.slice(from)
-  const m = rest.match(/[\s\S]*[.!?…]+(?=\s)/)
+  const m = rest.match(/^[\s\S]*?[.!?…]+(?=\s)/)
   if (!m) return { chunk: '', to: from }
   return { chunk: m[0], to: from + m[0].length }
+}
+
+// Index just past the Nth sentence end (terminator + space or end of string).
+function sentenceBoundary(text: string, n: number): number {
+  const re = /[.!?…]+(?=\s|$)/g
+  let count = 0
+  let m: RegExpExecArray | null
+  while ((m = re.exec(text)) !== null) {
+    count++
+    if (count === n) return m.index + m[0].length
+  }
+  return text.length
 }
 
 export default function PortalPage() {
@@ -85,6 +98,8 @@ export default function PortalPage() {
   const [isMuted, setIsMuted] = useState(false)
   const [voiceError, setVoiceError] = useState('')
   const [voiceState, setVoiceState] = useState<'idle' | 'recording' | 'transcribing'>('idle')
+  const [isDesktop, setIsDesktop] = useState(false)
+  const [sessionExpired, setSessionExpired] = useState(false)
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLTextAreaElement>(null)
   const abortRef = useRef<AbortController | null>(null)
@@ -140,9 +155,29 @@ What would you like to go through first?`
         // Try to greet aloud now; if the browser blocks autoplay, the first
         // interaction listener below will speak it instead.
         speakGreeting()
+        // Auto-focus the chat input once the portal is ready
+        setTimeout(() => inputRef.current?.focus(), 100)
       })
       .catch(() => router.replace('/'))
   }, [router])
+
+  // Track viewport for responsive eye sizing (no mobile-detection library)
+  useEffect(() => {
+    const mq = window.matchMedia('(min-width: 640px)')
+    const update = () => setIsDesktop(mq.matches)
+    update()
+    mq.addEventListener('change', update)
+    return () => mq.removeEventListener('change', update)
+  }, [])
+
+  // Session expired (401 from any API) — stop everything and prompt re-login
+  function handleSessionExpired() {
+    abortRef.current?.abort()
+    stopAudio()
+    setIsSending(false)
+    setEyeState('idle')
+    setSessionExpired(true)
+  }
 
   // ── Auto scroll ──
   useEffect(() => {
@@ -234,12 +269,17 @@ What would you like to go through first?`
         signal: abortRef.current.signal,
       })
 
+      if (res.status === 401) {
+        handleSessionExpired()
+        return
+      }
       if (!res.ok) throw new Error('Chat failed')
 
       const reader = res.body!.getReader()
       const decoder = new TextDecoder()
       let fullText = ''
       let spokenChars = 0
+      let spokenSentences = 0
 
       // Begin a fresh streaming-speech session for this answer
       ttsCancelRef.current = false
@@ -264,12 +304,15 @@ What would you like to go through first?`
                   m.id === assistantId ? { ...m, content: fullText } : m
                 )
               )
-              // Speak each complete sentence as it arrives
-              if (!isMuted) {
-                const { chunk: sentence, to } = nextSpeechChunk(fullText, spokenChars)
-                if (sentence.trim()) {
-                  enqueueSpeech(sentence)
-                  spokenChars = to
+              // Speak only the first 3 sentences as they arrive (low latency);
+              // the rest is available on demand via the message's speaker icon.
+              if (!isMuted && spokenSentences < 3) {
+                let s = nextSentence(fullText, spokenChars)
+                while (s.chunk.trim() && spokenSentences < 3) {
+                  enqueueSpeech(s.chunk)
+                  spokenChars = s.to
+                  spokenSentences++
+                  s = nextSentence(fullText, spokenChars)
                 }
               }
             }
@@ -279,6 +322,17 @@ What would you like to go through first?`
         }
       }
 
+      // Finalise: speak up to the first 3 sentences, keep the rest on demand
+      const boundary = sentenceBoundary(fullText, 3)
+      if (!isMuted && spokenChars < boundary) {
+        enqueueSpeech(fullText.slice(spokenChars, boundary))
+        spokenChars = boundary
+      }
+      const remainderRaw = fullText.slice(boundary)
+      const voiceRemainder = remainderRaw.trim()
+        ? cleanForVoice(remainderRaw)
+        : undefined
+
       setMessages(prev =>
         prev.map(m =>
           m.id === assistantId
@@ -286,21 +340,17 @@ What would you like to go through first?`
                 ...m,
                 content: fullText,
                 voiceText: cleanForVoice(fullText),
+                voiceRemainder,
                 isStreaming: false,
               }
             : m
         )
       )
 
-      // Speak any trailing partial sentence, then let the queue settle
+      // Let the queue settle; the remainder is spoken only on demand
       ttsStreamingRef.current = false
-      if (isMuted) {
-        setEyeState('idle')
-      } else {
-        const remainder = fullText.slice(spokenChars)
-        if (remainder.trim()) enqueueSpeech(remainder)
-        else pumpSpeech()
-      }
+      if (isMuted) setEyeState('idle')
+      else pumpSpeech()
     } catch (err: any) {
       if (err.name === 'AbortError') {
         setMessages(prev => prev.filter(m => m.id !== assistantId))
@@ -311,7 +361,7 @@ What would you like to go through first?`
               ? {
                   ...m,
                   content:
-                    "I'm sorry, I encountered an error. Please try again.",
+                    "I'm having a little trouble at the moment — please try again or use the button in the top right to speak with Zac directly.",
                   isStreaming: false,
                 }
               : m
@@ -352,6 +402,10 @@ What would you like to go through first?`
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text }),
       })
+      if (res.status === 401) {
+        handleSessionExpired()
+        return null
+      }
       if (!res.ok) {
         console.error('[TTS] request failed', res.status)
         return null
@@ -552,14 +606,25 @@ What would you like to go through first?`
           sessionConfirmed: true,
         }),
       })
-      if (!res.ok) throw new Error('request failed')
-      pushLucyMessage(
-        "Done — your email has been drafted for Zac's approval. You'll receive it shortly."
-      )
+      if (res.status === 401) {
+        handleSessionExpired()
+        return
+      }
+      const data = await res.json().catch(() => ({}))
+      if (res.ok && !data.gmailSkipped) {
+        pushLucyMessage(
+          "Done — your email has been drafted for Zac's approval. You'll receive it shortly."
+        )
+      } else {
+        // Gmail draft failed or was skipped — request is still logged to Monday
+        pushLucyMessage(
+          'Your request has been noted — Zac will follow up with your documents shortly.'
+        )
+      }
     } catch (err) {
       console.error('[Documents] request error', err)
       pushLucyMessage(
-        "I'm sorry — something went wrong sending that across. Please try again in a moment, or let Zac know."
+        'Your request has been noted — Zac will follow up with your documents shortly.'
       )
     }
   }
@@ -572,10 +637,16 @@ What would you like to go through first?`
   if (loading) {
     return (
       <div
-        className="min-h-screen flex items-center justify-center"
+        className="min-shell flex flex-col items-center justify-center gap-5 fade-in"
         style={{ background: 'var(--bg)' }}
       >
         <LucyEye state="thinking" size={120} />
+        <p
+          className="font-orbitron text-xs tracking-[0.3em] uppercase"
+          style={{ color: 'var(--text-muted)' }}
+        >
+          Preparing your portal…
+        </p>
       </div>
     )
   }
@@ -592,8 +663,8 @@ What would you like to go through first?`
 
   return (
     <div
-      className="min-h-screen flex flex-col"
-      style={{ background: 'var(--bg)', maxHeight: '100vh' }}
+      className="app-shell flex flex-col portal-in"
+      style={{ background: 'var(--bg)' }}
     >
       {/* Background grid */}
       <div
@@ -631,18 +702,35 @@ What would you like to go through first?`
           </p>
         </div>
 
-        <div className="flex items-center gap-4">
-          {session?.address && (
-            <div className="hidden sm:block text-right">
-              <p className="text-xs" style={{ color: 'var(--text-dim)' }}>
-                {session.leadName}
-              </p>
+        <div className="flex items-center gap-2 sm:gap-4">
+          {session?.leadName && (
+            <div className="text-right">
               <p
                 className="text-xs"
-                style={{ color: 'var(--text-muted)', maxWidth: 200, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}
+                style={{
+                  color: 'var(--text-dim)',
+                  maxWidth: 120,
+                  overflow: 'hidden',
+                  textOverflow: 'ellipsis',
+                  whiteSpace: 'nowrap',
+                }}
               >
-                {session.address}
+                {session.leadName}
               </p>
+              {session.address && (
+                <p
+                  className="hidden sm:block text-xs"
+                  style={{
+                    color: 'var(--text-muted)',
+                    maxWidth: 200,
+                    overflow: 'hidden',
+                    textOverflow: 'ellipsis',
+                    whiteSpace: 'nowrap',
+                  }}
+                >
+                  {session.address}
+                </p>
+              )}
             </div>
           )}
           <button
@@ -650,8 +738,8 @@ What would you like to go through first?`
             className="btn-ghost flex items-center justify-center"
             style={{
               borderRadius: 2,
-              height: 30,
-              width: 34,
+              height: 44,
+              width: 44,
               color: isMuted ? 'var(--text-muted)' : 'var(--green-bright)',
             }}
             aria-label={isMuted ? 'Unmute Lucy' : 'Mute Lucy'}
@@ -675,16 +763,18 @@ What would you like to go through first?`
               setDocOpen(false)
               setBookingOpen(true)
             }}
-            className="btn-ghost px-3 py-1.5 text-xs font-orbitron tracking-widest"
-            style={{ borderRadius: 2 }}
+            className="btn-ghost px-3 text-xs font-orbitron tracking-widest flex items-center"
+            style={{ borderRadius: 2, height: 44 }}
+            aria-label="Book a call with Zac"
             title="Book a call with Zac"
           >
             BOOK CALL
           </button>
           <button
             onClick={handleLogout}
-            className="btn-ghost px-3 py-1.5 text-xs"
-            style={{ borderRadius: 2 }}
+            className="btn-ghost px-3 text-xs flex items-center"
+            style={{ borderRadius: 2, height: 44 }}
+            aria-label="Sign out"
           >
             Sign Out
           </button>
@@ -692,7 +782,7 @@ What would you like to go through first?`
       </header>
 
       {/* ── Lucy Eye — central focal point ── */}
-      <div className="relative z-10 flex flex-col items-center justify-center pt-6 pb-3 flex-shrink-0">
+      <div className="relative z-10 flex flex-col items-center justify-center pt-3 pb-2 sm:pt-6 sm:pb-3 flex-shrink-0">
         <div className="relative">
           <div
             className="absolute inset-0 rounded-full"
@@ -702,7 +792,7 @@ What would you like to go through first?`
               transform: 'scale(1.8)',
             }}
           />
-          <LucyEye state={eyeState} size={220} />
+          <LucyEye state={eyeState} size={isDesktop ? 220 : 160} />
         </div>
         <p
           className="font-orbitron text-xs tracking-[0.3em] mt-3 transition-colors"
@@ -748,15 +838,24 @@ What would you like to go through first?`
                     {!msg.isStreaming && msg.content && (
                       <button
                         type="button"
-                        onClick={() => playTTS(msg.voiceText || cleanForVoice(msg.content))}
+                        onClick={() =>
+                          playTTS(
+                            msg.voiceRemainder ||
+                              msg.voiceText ||
+                              cleanForVoice(msg.content)
+                          )
+                        }
                         className="flex items-center justify-center"
-                        style={{ color: 'var(--text-dim)', width: 18, height: 18 }}
-                        aria-label="Replay this message"
-                        title="Replay"
+                        style={{ color: 'var(--text-dim)', minWidth: 44, minHeight: 44 }}
+                        aria-label={msg.voiceRemainder ? 'Hear full response' : 'Replay this message'}
+                        title={msg.voiceRemainder ? 'Hear full response' : 'Replay'}
                       >
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                           <path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor" />
                           <path d="M16 8.5a4 4 0 0 1 0 7" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" fill="none" />
+                          {msg.voiceRemainder && (
+                            <path d="M19 6a7 7 0 0 1 0 12" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" fill="none" />
+                          )}
                         </svg>
                       </button>
                     )}
@@ -946,6 +1045,32 @@ What would you like to go through first?`
         leadName={session?.leadName}
         email={session?.email}
       />
+
+      {/* ── Session expired overlay ── */}
+      {sessionExpired && (
+        <div
+          className="fixed inset-0 z-[100] flex flex-col items-center justify-center gap-6 px-6 text-center fade-in"
+          style={{ background: 'var(--bg)' }}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Session expired"
+        >
+          <LucyEye state="idle" size={120} />
+          <p
+            className="font-orbitron text-sm tracking-[0.2em] uppercase"
+            style={{ color: 'var(--text)' }}
+          >
+            Your session has expired
+          </p>
+          <button
+            onClick={() => router.replace('/')}
+            className="btn-primary px-6 flex items-center"
+            style={{ borderRadius: 2, height: 44 }}
+          >
+            Log in again
+          </button>
+        </div>
+      )}
     </div>
   )
 }

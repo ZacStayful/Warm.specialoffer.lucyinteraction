@@ -260,12 +260,22 @@ export const FAQ_CATEGORIES: FAQCategory[] = [
   },
 ]
 
+// Keep the system prompt lean: surface the first N sentences of each FAQ
+// answer. Lucy still has the gist and can elaborate / invite a follow-up.
+function firstSentences(text: string, n: number): string {
+  const matches = text.match(/[^.!?]+[.!?]+(?:\s|$)/g)
+  if (!matches || matches.length <= n) return text.trim()
+  return matches.slice(0, n).join('').trim()
+}
+
 export const STAYFUL_FAQ =
   '\nSTAYFUL FAQ — COMPLETE KNOWLEDGE BASE\n\n' +
   FAQ_CATEGORIES.map(
     (cat) =>
       `=== ${cat.title.toUpperCase()} ===\n\n` +
-      cat.questions.map((item) => `Q: ${item.q}\nA: ${item.a}`).join('\n\n')
+      cat.questions
+        .map((item) => `Q: ${item.q}\nA: ${firstSentences(item.a, 2)}`)
+        .join('\n\n')
   ).join('\n\n') +
   '\n'
 

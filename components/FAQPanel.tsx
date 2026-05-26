@@ -76,8 +76,8 @@ export default function FAQPanel({ open, onClose, onAsk, disabled }: FAQPanelPro
 
       {/* Sheet */}
       <div
-        className="faq-sheet fixed inset-x-0 bottom-0 z-50 flex flex-col panel glow-border-bright"
-        style={{ maxHeight: '78vh', borderBottom: 'none' }}
+        className="faq-sheet sheet fixed inset-x-0 bottom-0 z-50 flex flex-col panel glow-border-bright"
+        style={{ borderBottom: 'none' }}
         role="dialog"
         aria-label="Frequently asked questions"
       >
