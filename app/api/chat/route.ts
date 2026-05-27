@@ -3,7 +3,7 @@ import { getIronSession } from 'iron-session'
 import { cookies } from 'next/headers'
 import { sessionOptions, LeadSession } from '@/lib/session'
 import { buildSystemPrompt } from '@/lib/faq'
-import { logPortalSession } from '@/lib/monday'
+import { postPortalUpdate, logPortalSession } from '@/lib/monday'
 
 export async function POST(request: NextRequest) {
   const session = await getIronSession<LeadSession>(cookies(), sessionOptions)
@@ -108,48 +108,69 @@ export async function POST(request: NextRequest) {
         )
         controller.close()
 
-        // Log to Monday asynchronously — richer per-exchange format
+        // Log to Monday asynchronously — full Q&A as an Update (no char limit)
         const lastUserMessage = [...messages]
           .reverse()
           .find((m: { role: string }) => m.role === 'user')
         if (lastUserMessage && session.itemId) {
           const answer = fullText.trim()
-          const truncated =
-            answer.slice(0, 500) + (answer.length > 500 ? '...' : '')
+          const truncatedAnswer =
+            answer.length > 800 ? answer.slice(0, 800) + '...' : answer
 
-          const inputMethod =
-            source === 'voice' ? 'Voice' : source === 'faq' ? 'FAQ' : 'Text'
+          // Source label — include the FAQ category when relevant
+          let sourceLabel: string
+          if (source === 'voice') sourceLabel = 'Voice'
+          else if (source === 'faq')
+            sourceLabel = `FAQ${faqCategory ? ` — ${faqCategory}` : ''}`
+          else sourceLabel = 'Text'
 
-          // Question line — for FAQ, list the picked questions + category
-          let questionLine: string
-          if (
+          // For FAQ, prefer the picked question list over the composed prompt
+          const question =
             source === 'faq' &&
             Array.isArray(faqQuestions) &&
             faqQuestions.length > 0
-          ) {
-            const cat = faqCategory ? ` — ${faqCategory}` : ''
-            questionLine = `Q (faq${cat}): ${faqQuestions.join(' / ')}`
-          } else {
-            const tag = source === 'voice' ? 'voice' : 'text'
-            questionLine = `Q (${tag}): ${lastUserMessage.content}`
-          }
+              ? faqQuestions.join(' / ')
+              : lastUserMessage.content
 
+          const stamp = new Date().toLocaleString('en-GB', {
+            timeZone: 'Europe/London',
+            day: '2-digit',
+            month: 'short',
+            year: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit',
+          })
+
+          const updateBody = [
+            `💬 Lucy Portal — ${stamp}`,
+            `Source: ${sourceLabel}`,
+            '',
+            `Q: ${question}`,
+            '',
+            `A: ${truncatedAnswer}`,
+          ].join('\n')
+
+          postPortalUpdate(session.itemId, updateBody).catch(console.error)
+
+          // Short at-a-glance snapshot on the column (overwrite, <=200 chars)
           const questionCount = messages.filter(
             (m: { role: string }) => m.role === 'user'
           ).length
-          const divider = '─────────────────────────'
-
-          const logEntry = [
-            'SESSION',
-            `Input method: ${inputMethod}`,
-            divider,
-            questionLine,
-            `A: ${truncated}`,
-            divider,
-            `Session total: ${questionCount} question${questionCount === 1 ? '' : 's'}`,
-          ].join('\n')
-
-          logPortalSession(session.itemId, logEntry).catch(console.error)
+          const today = new Date().toLocaleDateString('en-GB', {
+            timeZone: 'Europe/London',
+            day: '2-digit',
+            month: 'short',
+            year: 'numeric',
+          })
+          const time = new Date().toLocaleTimeString('en-GB', {
+            timeZone: 'Europe/London',
+            hour: '2-digit',
+            minute: '2-digit',
+          })
+          logPortalSession(
+            session.itemId,
+            `${today} — ${questionCount} question${questionCount === 1 ? '' : 's'}. Last active: ${time}`
+          ).catch(console.error)
         }
       } catch (err) {
         console.error('[Chat stream error]', err)

@@ -114,6 +114,7 @@ export default function PortalPage() {
   const ttsBusyRef = useRef(false)
   const ttsCancelRef = useRef(false)
   const ttsStreamingRef = useRef(false)
+  const exitFlaggedRef = useRef(false)
 
   // ── Load session ──
   useEffect(() => {
@@ -169,6 +170,40 @@ What would you like to go through first?`
     mq.addEventListener('change', update)
     return () => mq.removeEventListener('change', update)
   }, [])
+
+  // Flag a mid-conversation exit to Monday. visibilitychange is more reliable
+  // than beforeunload on mobile. Fired once per session, and only after a real
+  // exchange has happened (messages.length > 2: welcome + lead + Lucy reply).
+  useEffect(() => {
+    function handleVisibilityChange() {
+      if (
+        document.visibilityState !== 'hidden' ||
+        messages.length <= 2 ||
+        exitFlaggedRef.current ||
+        typeof navigator.sendBeacon !== 'function'
+      ) {
+        return
+      }
+      const lastMessage = messages[messages.length - 1]
+      const exitedMidResponse = lastMessage?.isStreaming === true
+      const stamp = new Date().toLocaleString('en-GB', {
+        timeZone: 'Europe/London',
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+      })
+      const body = exitedMidResponse
+        ? '⚠️ Lead exited while Lucy was mid-response — possible frustration signal. Consider following up.'
+        : `📊 Lead exited portal after ${messages.length} messages on ${stamp}.`
+      exitFlaggedRef.current = true
+      navigator.sendBeacon('/api/portal/exit', JSON.stringify({ body }))
+    }
+    document.addEventListener('visibilitychange', handleVisibilityChange)
+    return () =>
+      document.removeEventListener('visibilitychange', handleVisibilityChange)
+  }, [messages])
 
   // Session expired (401 from any API) — stop everything and prompt re-login
   function handleSessionExpired() {

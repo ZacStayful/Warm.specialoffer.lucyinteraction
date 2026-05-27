@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { getIronSession } from 'iron-session'
 import { cookies } from 'next/headers'
 import { sessionOptions, LeadSession } from '@/lib/session'
-import { logPortalSession } from '@/lib/monday'
+import { postPortalUpdate } from '@/lib/monday'
 
 interface RequestedDoc {
   name: string
@@ -110,15 +110,24 @@ export async function POST(request: NextRequest) {
       gmailSkipped = true
     }
 
-    // Step D — Log to Monday (append, non-blocking)
+    // Step D — Log to Monday as an Update (no char limit, non-blocking)
     if (session.itemId) {
-      const logEntry = [
-        'DOCUMENT REQUEST',
-        `Documents: ${documents.map((d) => d.name).join(', ')}`,
-        `Note: "${additionalNote || 'none'}"`,
-        `Draft emailed to: ${session.email}`,
+      const stamp = new Date().toLocaleString('en-GB', {
+        timeZone: 'Europe/London',
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+      })
+      const updateBody = [
+        `📎 Lucy Portal — Document Request — ${stamp}`,
+        '',
+        `Documents requested: ${documents.map((d) => d.name).join(', ')}`,
+        `Note: ${additionalNote || 'None'}`,
+        `Draft email sent to: ${session.email}`,
       ].join('\n')
-      logPortalSession(session.itemId, logEntry).catch(console.error)
+      postPortalUpdate(session.itemId, updateBody).catch(console.error)
     }
 
     return NextResponse.json({ success: true, gmailSkipped })

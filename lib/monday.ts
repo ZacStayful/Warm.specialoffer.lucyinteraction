@@ -146,36 +146,29 @@ export async function findLeadByName(name: string) {
   return match ? parseItem(match) : null
 }
 
-export async function logPortalSession(itemId: string, logEntry: string) {
-  // Non-blocking — fire and forget
+// Posts an individual Update on the item. Updates have no character limit,
+// so this is used for the full Q&A / document-request log entries.
+export async function postPortalUpdate(itemId: string, body: string) {
   try {
-    // Fetch current value
-    const currentQuery = `{
-      items(ids: [${itemId}]) {
-        column_values(ids: ["long_text_mm3pj2zj"]) {
-          id
-          text
-        }
-      }
+    const safe = body
+      .replace(/\\/g, '\\\\')
+      .replace(/"/g, '\\"')
+      .replace(/\n/g, '\\n')
+    const mutation = `mutation {
+      create_update(item_id: ${itemId}, body: "${safe}") { id }
     }`
-    const current = await mondayQuery(currentQuery)
-    const existingText =
-      current?.data?.items?.[0]?.column_values?.[0]?.text || ''
+    return await mondayQuery(mutation)
+  } catch (err) {
+    console.error('[Monday update error]', err)
+  }
+}
 
-    const timestamp = new Date().toLocaleString('en-GB', {
-      timeZone: 'Europe/London',
-      day: '2-digit',
-      month: 'short',
-      year: 'numeric',
-      hour: '2-digit',
-      minute: '2-digit',
-    })
-
-    const separator = existingText ? '\n\n---\n\n' : ''
-    const newText = `${existingText}${separator}[${timestamp}]\n${logEntry}`
-
-    // Escape for GraphQL string
-    const escaped = newText
+// Writes a short snapshot to the long-text column (overwrite, max 200 chars)
+// so the item shows a quick at-a-glance status without opening Updates.
+export async function logPortalSession(itemId: string, summary: string) {
+  try {
+    const snapshot = summary.slice(0, 200)
+    const escaped = snapshot
       .replace(/\\/g, '\\\\')
       .replace(/"/g, '\\"')
       .replace(/\n/g, '\\n')
