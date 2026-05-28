@@ -6,10 +6,8 @@ export function cleanForVoice(text: string): string {
     .replace(/[*_`#]/g, '')
     // Fix VAT — replace with spaced letters so ElevenLabs spells it out
     .replace(/\bVAT\b/g, 'V A T')
-    // Remove commas and full stops that TTS reads aloud
-    .replace(/,/g, '')
-    .replace(/\./g, ' ')
-    // Fix any double spaces created
+    // Keep commas and full stops — ElevenLabs uses them for natural breath
+    // pauses. Stripping them is what made Lucy sound rushed and robotic.
     .replace(/  +/g, ' ')
     .trim()
 }

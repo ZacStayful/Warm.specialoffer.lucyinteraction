@@ -15,7 +15,6 @@ interface Message {
   role: 'user' | 'assistant'
   content: string
   voiceText?: string
-  voiceRemainder?: string
   isStreaming?: boolean
   docAction?: 'confirm'
 }
@@ -57,27 +56,17 @@ function renderWithLinks(text: string): React.ReactNode[] {
   return nodes
 }
 
-// Grabs the single next complete sentence (terminator followed by whitespace),
-// used to speak the answer sentence-by-sentence and cap auto-speech at the
-// first few sentences. A terminator only counts when followed by whitespace,
-// so mid-number dots (e.g. "2.5") aren't treated as sentence ends.
-function nextSentence(text: string, from: number): { chunk: string; to: number } {
-  const rest = text.slice(from)
-  const m = rest.match(/^[\s\S]*?[.!?…]+(?=\s)/)
-  if (!m) return { chunk: '', to: from }
-  return { chunk: m[0], to: from + m[0].length }
-}
-
-// Index just past the Nth sentence end (terminator + space or end of string).
-function sentenceBoundary(text: string, n: number): number {
-  const re = /[.!?…]+(?=\s|$)/g
-  let count = 0
-  let m: RegExpExecArray | null
-  while ((m = re.exec(text)) !== null) {
-    count++
-    if (count === n) return m.index + m[0].length
+// Returns the next chunk of streamed text that's ready to summarise and speak:
+// a finished paragraph, or — once enough has accumulated — up to the last
+// completed sentence. Returns '' when nothing is ready yet so we keep buffering.
+function nextReadyChunk(buf: string): string {
+  const para = buf.indexOf('\n\n')
+  if (para !== -1) return buf.slice(0, para + 2)
+  if (buf.length >= 160) {
+    const m = buf.match(/^[\s\S]*[.!?…]['")\]]?\s/)
+    if (m) return m[0]
   }
-  return text.length
+  return ''
 }
 
 export default function PortalPage() {
@@ -267,6 +256,7 @@ What would you like to go through first?`
 
     abortRef.current?.abort()
     abortRef.current = new AbortController()
+    const ac = abortRef.current
     stopAudio()
 
     const userMsg: Message = {
@@ -313,10 +303,10 @@ What would you like to go through first?`
       const reader = res.body!.getReader()
       const decoder = new TextDecoder()
       let fullText = ''
-      let spokenChars = 0
-      let spokenSentences = 0
+      let pending = '' // streamed text not yet sent for summary + speech
 
-      // Begin a fresh streaming-speech session for this answer
+      // Fresh speech session. We summarise and speak in chunks as the answer
+      // streams, so Lucy starts talking before the full text is generated.
       ttsCancelRef.current = false
       ttsStreamingRef.current = !isMuted
 
@@ -334,20 +324,19 @@ What would you like to go through first?`
             const parsed = JSON.parse(raw)
             if (parsed.type === 'text') {
               fullText += parsed.text
+              pending += parsed.text
               setMessages(prev =>
                 prev.map(m =>
                   m.id === assistantId ? { ...m, content: fullText } : m
                 )
               )
-              // Speak only the first 3 sentences as they arrive (low latency);
-              // the rest is available on demand via the message's speaker icon.
-              if (!isMuted && spokenSentences < 3) {
-                let s = nextSentence(fullText, spokenChars)
-                while (s.chunk.trim() && spokenSentences < 3) {
-                  enqueueSpeech(s.chunk)
-                  spokenChars = s.to
-                  spokenSentences++
-                  s = nextSentence(fullText, spokenChars)
+              // Speak completed chunks as they arrive, in order.
+              if (!isMuted) {
+                let ready = nextReadyChunk(pending)
+                while (ready) {
+                  enqueueSummarizedSpeech(ready, ac.signal)
+                  pending = pending.slice(ready.length)
+                  ready = nextReadyChunk(pending)
                 }
               }
             }
@@ -357,17 +346,7 @@ What would you like to go through first?`
         }
       }
 
-      // Finalise: speak up to the first 3 sentences, keep the rest on demand
-      const boundary = sentenceBoundary(fullText, 3)
-      if (!isMuted && spokenChars < boundary) {
-        enqueueSpeech(fullText.slice(spokenChars, boundary))
-        spokenChars = boundary
-      }
-      const remainderRaw = fullText.slice(boundary)
-      const voiceRemainder = remainderRaw.trim()
-        ? cleanForVoice(remainderRaw)
-        : undefined
-
+      // Show the full written answer; replay (speaker icon) reads it in full.
       setMessages(prev =>
         prev.map(m =>
           m.id === assistantId
@@ -375,14 +354,17 @@ What would you like to go through first?`
                 ...m,
                 content: fullText,
                 voiceText: cleanForVoice(fullText),
-                voiceRemainder,
                 isStreaming: false,
               }
             : m
         )
       )
 
-      // Let the queue settle; the remainder is spoken only on demand
+      // Speak any trailing text that didn't reach a chunk boundary.
+      if (!isMuted && pending.trim()) {
+        enqueueSummarizedSpeech(pending, ac.signal)
+        pending = ''
+      }
       ttsStreamingRef.current = false
       if (isMuted) setEyeState('idle')
       else pumpSpeech()
@@ -452,11 +434,45 @@ What would you like to go through first?`
     }
   }
 
-  // Prefetch a chunk's audio and add it to the queue, then keep the queue moving
-  function enqueueSpeech(text: string) {
-    const clean = cleanForVoice(text)
-    if (!clean || mutedRef.current) return
-    ttsQueueRef.current.push(fetchTTSBlob(clean))
+  // Ask the server for a spoken-friendly summary of the full written answer.
+  async function fetchVoiceSummary(
+    text: string,
+    signal?: AbortSignal
+  ): Promise<string | null> {
+    try {
+      const res = await fetch('/api/voice/summarize', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text }),
+        signal,
+      })
+      if (res.status === 401) {
+        handleSessionExpired()
+        return null
+      }
+      if (!res.ok) {
+        console.error('[Summarize] request failed', res.status)
+        return null
+      }
+      const data = await res.json()
+      return typeof data?.summary === 'string' ? data.summary : null
+    } catch (err: any) {
+      if (err?.name !== 'AbortError') console.error('[Summarize] error', err)
+      return null
+    }
+  }
+
+  // Summarise one streamed chunk into a spoken-friendly line and queue it.
+  // The summary+TTS promise is pushed in arrival order, so clips still play in
+  // sequence even though the summaries are fetched in parallel. Falls back to
+  // the chunk's own text if summarising fails, so nothing is dropped.
+  function enqueueSummarizedSpeech(text: string, signal?: AbortSignal) {
+    if (mutedRef.current || !text.trim()) return
+    const blobPromise = fetchVoiceSummary(text, signal).then(summary => {
+      if (signal?.aborted || ttsCancelRef.current) return null
+      return fetchTTSBlob(cleanForVoice(summary || text))
+    })
+    ttsQueueRef.current.push(blobPromise)
     pumpSpeech()
   }
 
@@ -874,23 +890,16 @@ What would you like to go through first?`
                       <button
                         type="button"
                         onClick={() =>
-                          playTTS(
-                            msg.voiceRemainder ||
-                              msg.voiceText ||
-                              cleanForVoice(msg.content)
-                          )
+                          playTTS(msg.voiceText || cleanForVoice(msg.content))
                         }
                         className="flex items-center justify-center"
                         style={{ color: 'var(--text-dim)', minWidth: 44, minHeight: 44 }}
-                        aria-label={msg.voiceRemainder ? 'Hear full response' : 'Replay this message'}
-                        title={msg.voiceRemainder ? 'Hear full response' : 'Replay'}
+                        aria-label="Replay this message"
+                        title="Replay"
                       >
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                           <path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor" />
                           <path d="M16 8.5a4 4 0 0 1 0 7" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" fill="none" />
-                          {msg.voiceRemainder && (
-                            <path d="M19 6a7 7 0 0 1 0 12" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" fill="none" />
-                          )}
                         </svg>
                       </button>
                     )}
