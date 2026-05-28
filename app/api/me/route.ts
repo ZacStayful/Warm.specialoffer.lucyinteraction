@@ -23,6 +23,7 @@ export async function GET() {
     rentMortgage: session.rentMortgage,
     annualRentMortgage: session.annualRentMortgage,
     netAnalyser: session.netAnalyser,
+    portalHistory: session.portalHistory,
     presentationUrl: session.presentationUrl,
     actionPlanUrl: session.actionPlanUrl,
     agreementUrl: session.agreementUrl,

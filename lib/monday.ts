@@ -13,6 +13,7 @@ const COLUMN_IDS = [
   'text5',            // Bedrooms
   'text_mm2xe380',   // Web Meeting Presentation URL
   'text_mm3h5atf',   // Post Meeting Action Plan URL
+  'long_text_mm3pj2zj', // Lucy Portal Intelligence (previous-chat snapshot)
   'text_mkygb5xx',   // Email
   'file_mm2cqjjh',   // Management Agreement (file)
   'file_mm3mq7dn',   // Setup Quote (file)
@@ -67,6 +68,7 @@ function parseItem(item: any) {
     netAnalyser: cols['text_mm2dkavd'] || '',
     presentationUrl: cols['text_mm2xe380'] || '',
     actionPlanUrl: cols['text_mm3h5atf'] || '',
+    portalHistory: cols['long_text_mm3pj2zj'] || '',
     // File columns return JSON (in text or value) — parse out the URL
     agreementUrl:
       parseFileColumnUrl(vals['file_mm2cqjjh'] || '') ||
