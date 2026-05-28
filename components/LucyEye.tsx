@@ -1,14 +1,38 @@
 "use client";
 
+import { useEffect, useRef } from "react";
+
 type LucyState = "idle" | "thinking" | "speaking" | "listening";
 
 interface LucyEyeProps {
   state: LucyState;
   size?: number;
+  // Live voice amplitude 0..1, read every frame to drive a reactive halo.
+  levelRef?: React.MutableRefObject<number>;
 }
 
-export function LucyEye({ state, size = 220 }: LucyEyeProps) {
+export function LucyEye({ state, size = 220, levelRef }: LucyEyeProps) {
   const cx = size / 2;
+  const rootRef = useRef<HTMLDivElement>(null);
+  const haloRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!levelRef) return;
+    let raf = 0;
+    const apply = () => {
+      const l = Math.max(0, Math.min(1, levelRef.current || 0));
+      if (haloRef.current) {
+        haloRef.current.style.opacity = String(l * 0.8);
+        haloRef.current.style.transform = `scale(${1 + l * 0.45})`;
+      }
+      if (rootRef.current) {
+        rootRef.current.style.transform = `scale(${1 + l * 0.05})`;
+      }
+      raf = requestAnimationFrame(apply);
+    };
+    raf = requestAnimationFrame(apply);
+    return () => cancelAnimationFrame(raf);
+  }, [levelRef]);
 
   const sc =
     ({
@@ -48,7 +72,14 @@ export function LucyEye({ state, size = 220 }: LucyEyeProps) {
   const scanR = size * 0.447;
 
   return (
-    <div style={{ position: "relative", width: size, height: size, flexShrink: 0 }}>
+    <div ref={rootRef} style={{ position: "relative", width: size, height: size, flexShrink: 0, willChange: "transform" }}>
+      {/* Voice-reactive halo — opacity/scale driven imperatively from levelRef */}
+      <div ref={haloRef} style={{
+        position: "absolute", inset: -40, borderRadius: "50%",
+        background: `radial-gradient(circle, ${sc.c2}66 0%, transparent 62%)`,
+        opacity: 0, transform: "scale(1)", pointerEvents: "none",
+        willChange: "opacity, transform",
+      }} />
       <div style={{
         position: "absolute", inset: -50, borderRadius: "50%",
         background: `radial-gradient(circle, ${sc.glow}dd 0%, transparent 60%)`,

@@ -9,6 +9,8 @@ import DocumentRequest, { RequestedDoc } from '@/components/DocumentRequest'
 import VoiceButton from '@/components/VoiceButton'
 import { LeadSession } from '@/lib/session'
 import { cleanForVoice } from '@/lib/voice-clean'
+import { InsightCard } from '@/components/InsightCard'
+import { detectInsight, InsightType } from '@/lib/insight'
 
 interface Message {
   id: string
@@ -17,6 +19,7 @@ interface Message {
   voiceText?: string
   isStreaming?: boolean
   docAction?: 'confirm'
+  suggestions?: string[]
 }
 
 function generateId() {
@@ -104,6 +107,12 @@ export default function PortalPage() {
   const ttsCancelRef = useRef(false)
   const ttsStreamingRef = useRef(false)
   const exitFlaggedRef = useRef(false)
+  // Live voice amplitude (0..1) for the audio-reactive eye, plus a context
+  // used only to decode clips for that envelope — playback is never routed
+  // through it, so it can't affect whether audio plays.
+  const audioLevelRef = useRef(0)
+  const decodeCtxRef = useRef<AudioContext | null>(null)
+  const [activeInsight, setActiveInsight] = useState<InsightType | null>(null)
 
   // ── Load session ──
   useEffect(() => {
@@ -269,6 +278,7 @@ What would you like to go through first?`
     setInput('')
     setIsSending(true)
     setEyeState('thinking')
+    setActiveInsight(null)
 
     const assistantId = generateId()
     setMessages(prev => [
@@ -304,6 +314,7 @@ What would you like to go through first?`
       const decoder = new TextDecoder()
       let fullText = ''
       let pending = '' // streamed text not yet sent for summary + speech
+      let lastInsight: InsightType | null = null
 
       // Fresh speech session. We summarise and speak in chunks as the answer
       // streams, so Lucy starts talking before the full text is generated.
@@ -330,6 +341,12 @@ What would you like to go through first?`
                   m.id === assistantId ? { ...m, content: fullText } : m
                 )
               )
+              // Surface a relevant data card as soon as the topic is clear.
+              const ins = detectInsight(fullText)
+              if (ins && ins !== lastInsight) {
+                lastInsight = ins
+                setActiveInsight(ins)
+              }
               // Speak completed chunks as they arrive, in order.
               if (!isMuted) {
                 let ready = nextReadyChunk(pending)
@@ -368,6 +385,9 @@ What would you like to go through first?`
       ttsStreamingRef.current = false
       if (isMuted) setEyeState('idle')
       else pumpSpeech()
+
+      // Offer one-tap follow-ups to keep the conversation going.
+      if (fullText.trim()) void loadSuggestions(content, fullText, assistantId, ac.signal)
     } catch (err: any) {
       if (err.name === 'AbortError') {
         setMessages(prev => prev.filter(m => m.id !== assistantId))
@@ -398,6 +418,7 @@ What would you like to go through first?`
     ttsStreamingRef.current = false
     ttsQueueRef.current = []
     ttsBusyRef.current = false
+    audioLevelRef.current = 0
     const a = audioElRef.current
     if (a) {
       try {
@@ -410,6 +431,57 @@ What would you like to go through first?`
       URL.revokeObjectURL(audioUrlRef.current)
       audioUrlRef.current = null
     }
+  }
+
+  // Decode a clip into a coarse loudness envelope for the reactive eye. This
+  // only reads a copy of the audio; the <audio> element still plays untouched,
+  // so this can never affect whether sound comes out.
+  async function computeEnvelope(
+    blob: Blob
+  ): Promise<{ env: Float32Array; frameMs: number } | null> {
+    try {
+      const Ctx =
+        window.AudioContext || (window as unknown as any).webkitAudioContext
+      if (!Ctx) return null
+      if (!decodeCtxRef.current) decodeCtxRef.current = new Ctx()
+      const data = await blob.arrayBuffer()
+      const audioBuf = await decodeCtxRef.current.decodeAudioData(data.slice(0))
+      const ch = audioBuf.getChannelData(0)
+      const frameMs = 40
+      const frameLen = Math.max(1, Math.floor((audioBuf.sampleRate * frameMs) / 1000))
+      const frames = Math.ceil(ch.length / frameLen)
+      const env = new Float32Array(frames)
+      let max = 0
+      for (let f = 0; f < frames; f++) {
+        const start = f * frameLen
+        const end = Math.min(ch.length, start + frameLen)
+        let sum = 0
+        for (let i = start; i < end; i++) sum += ch[i] * ch[i]
+        const rms = Math.sqrt(sum / Math.max(1, end - start))
+        env[f] = rms
+        if (rms > max) max = rms
+      }
+      if (max > 0) for (let f = 0; f < frames; f++) env[f] = Math.min(1, env[f] / max)
+      return { env, frameMs }
+    } catch {
+      return null
+    }
+  }
+
+  // While a clip plays, sample its envelope at the current time and smooth it
+  // into audioLevelRef, which the LucyEye reads each frame.
+  function trackEnvelope(audio: HTMLAudioElement, env: Float32Array, frameMs: number) {
+    const step = () => {
+      if (audioElRef.current !== audio || audio.paused || audio.ended) {
+        audioLevelRef.current *= 0.6
+        return
+      }
+      const idx = Math.floor((audio.currentTime * 1000) / frameMs)
+      const target = env[Math.min(env.length - 1, Math.max(0, idx))] || 0
+      audioLevelRef.current = audioLevelRef.current * 0.65 + target * 0.35
+      requestAnimationFrame(step)
+    }
+    requestAnimationFrame(step)
   }
 
   async function fetchTTSBlob(text: string): Promise<Blob | null> {
@@ -462,6 +534,35 @@ What would you like to go through first?`
     }
   }
 
+  // Fetch contextual follow-up questions for an answer and attach them to the
+  // message as one-tap chips. Optional — failures are ignored silently.
+  async function loadSuggestions(
+    question: string,
+    answer: string,
+    assistantId: string,
+    signal: AbortSignal
+  ) {
+    try {
+      const res = await fetch('/api/chat/suggestions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question, answer }),
+        signal,
+      })
+      if (!res.ok || signal.aborted) return
+      const data = await res.json()
+      const suggestions: string[] = Array.isArray(data?.suggestions)
+        ? data.suggestions.filter((s: unknown) => typeof s === 'string').slice(0, 3)
+        : []
+      if (suggestions.length === 0 || signal.aborted) return
+      setMessages(prev =>
+        prev.map(m => (m.id === assistantId ? { ...m, suggestions } : m))
+      )
+    } catch {
+      // suggestions are optional — ignore failures (including abort)
+    }
+  }
+
   // Summarise one streamed chunk into a spoken-friendly line and queue it.
   // The summary+TTS promise is pushed in arrival order, so clips still play in
   // sequence even though the summaries are fetched in parallel. Falls back to
@@ -501,12 +602,19 @@ What would you like to go through first?`
           audioUrlRef.current = null
         }
         if (audioElRef.current === audio) audioElRef.current = null
+        audioLevelRef.current = 0
         ttsBusyRef.current = false
         pumpSpeech()
       }
       audio.onended = done
       audio.onerror = done
       setEyeState('speaking')
+      // Drive the reactive eye from this clip's loudness (best-effort).
+      void computeEnvelope(blob).then(res => {
+        if (res && audioElRef.current === audio) {
+          trackEnvelope(audio, res.env, res.frameMs)
+        }
+      })
       audio.play().catch(err => {
         console.error('[TTS] playback error', err)
         done()
@@ -545,14 +653,21 @@ What would you like to go through first?`
           audioUrlRef.current = null
         }
         if (audioElRef.current === audio) audioElRef.current = null
+        audioLevelRef.current = 0
         setEyeState('idle')
       }
       audio.onerror = () => {
         console.error('[TTS] audio playback error')
+        audioLevelRef.current = 0
         setEyeState('idle')
       }
       await audio.play()
       setEyeState('speaking')
+      void computeEnvelope(blob).then(res => {
+        if (res && audioElRef.current === audio) {
+          trackEnvelope(audio, res.env, res.frameMs)
+        }
+      })
       return true
     } catch (err) {
       // Voice is enhancement only — fail silently in the UI (e.g. autoplay
@@ -843,7 +958,7 @@ What would you like to go through first?`
               transform: 'scale(1.8)',
             }}
           />
-          <LucyEye state={eyeState} size={isDesktop ? 220 : 160} />
+          <LucyEye state={eyeState} size={isDesktop ? 220 : 160} levelRef={audioLevelRef} />
         </div>
         <p
           className="font-orbitron text-xs tracking-[0.3em] mt-3 transition-colors"
@@ -854,6 +969,18 @@ What would you like to go through first?`
         >
           {statusLabel}
         </p>
+        {activeInsight && session && (
+          <div className="mt-3 w-full flex justify-center px-4">
+            <InsightCard
+              type={activeInsight}
+              figures={{
+                strProfit: session.strProfit,
+                longTermLet: session.longTermLet,
+                rentMortgage: session.rentMortgage,
+              }}
+            />
+          </div>
+        )}
       </div>
 
       {/* ── Messages ── */}
@@ -947,6 +1074,34 @@ What would you like to go through first?`
                     </button>
                   </div>
                 )}
+
+                {msg.role === 'assistant' &&
+                  msg.suggestions &&
+                  msg.suggestions.length > 0 &&
+                  i === messages.length - 1 &&
+                  !isSending && (
+                    <div className="mt-3 pt-3" style={{ borderTop: '1px solid var(--border)' }}>
+                      <p
+                        className="font-orbitron tracking-[0.2em] mb-2"
+                        style={{ fontSize: '0.55rem', color: 'var(--text-muted)' }}
+                      >
+                        YOU MIGHT ASK
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        {msg.suggestions.map((q, qi) => (
+                          <button
+                            key={qi}
+                            type="button"
+                            onClick={() => sendMessage(q)}
+                            className="btn-ghost px-3 py-1.5 text-xs text-left"
+                            style={{ borderRadius: 2 }}
+                          >
+                            {q}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  )}
               </div>
             </div>
           ))}
