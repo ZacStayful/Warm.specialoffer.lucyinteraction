@@ -1,22 +1,43 @@
-// Lightweight, client-side topic detection so the dashboard can surface a
-// relevant data card while Lucy is speaking. Heuristic by design — it reads
-// the answer text and picks the single most relevant card to show.
+// Catalog of dashboard data panels. Selection is deterministic where possible:
+// - FAQ clicks map by category (we know exactly what was asked)
+// - typed questions are tagged by Lucy via a hidden [[viz:KEY]] cue
+// Keyword guessing is intentionally gone — it was the inaccurate path.
 
-export type InsightType = 'earnings' | 'fee' | 'payout'
+export type InsightType =
+  | 'earnings'
+  | 'fees'
+  | 'contract'
+  | 'management'
+  | 'getting-started'
+  | 'guests'
+  | 'legal-tax'
+  | 'payout'
 
-export function detectInsight(text: string): InsightType | null {
-  const t = text.toLowerCase()
-  // Explicit topics win first so a fee/payout answer doesn't trigger earnings.
-  if (/(fee|commission|fifteen percent|15\s?%|\bvat\b|our (cut|charge)|what (we|it) charge)/.test(t)) {
-    return 'fee'
-  }
-  if (/(payout|paid out|get paid|payment|transfer|monthly statement|1st|first of the month)/.test(t)) {
-    return 'payout'
-  }
-  if (/(earn|income|profit|\bnet\b|per month|a month|short[- ]?term|long[- ]?term|\bstr\b|nightly|revenue|\bmake\b|yield)/.test(t)) {
-    return 'earnings'
-  }
-  return null
+export const VALID_CARDS: InsightType[] = [
+  'earnings',
+  'fees',
+  'contract',
+  'management',
+  'getting-started',
+  'guests',
+  'legal-tax',
+  'payout',
+]
+
+// FAQ category id (from lib/faq.ts FAQ_CATEGORIES) -> card to show.
+export const CATEGORY_TO_CARD: Record<string, InsightType> = {
+  earnings: 'earnings',
+  comparing: 'earnings',
+  fees: 'fees',
+  contract: 'contract',
+  manage: 'management',
+  'getting-started': 'getting-started',
+  'property-guests': 'guests',
+  'legal-tax': 'legal-tax',
+}
+
+export function isInsightType(v: unknown): v is InsightType {
+  return typeof v === 'string' && (VALID_CARDS as string[]).includes(v)
 }
 
 // Pulls the first sensible integer out of a Monday text value like "£2,400",

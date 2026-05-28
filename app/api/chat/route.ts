@@ -4,6 +4,7 @@ import { cookies } from 'next/headers'
 import { sessionOptions, LeadSession } from '@/lib/session'
 import { buildSystemPrompt } from '@/lib/faq'
 import { postPortalUpdate, logPortalSession } from '@/lib/monday'
+import { isInsightType } from '@/lib/insight'
 
 export async function POST(request: NextRequest) {
   const session = await getIronSession<LeadSession>(cookies(), sessionOptions)
@@ -64,6 +65,20 @@ export async function POST(request: NextRequest) {
         const reader = response.body!.getReader()
         const dec = new TextDecoder()
         let fullText = ''
+        let sentLen = 0
+        // Hold back a tail longer than any [[viz:...]] tag so a partial tag can
+        // never leak to the client; the tag lives on the final line.
+        const HOLDBACK = 48
+
+        const emitText = (upTo: number) => {
+          if (upTo > sentLen) {
+            const out = fullText.slice(sentLen, upTo)
+            sentLen = upTo
+            controller.enqueue(
+              encoder.encode(`data: ${JSON.stringify({ type: 'text', text: out })}\n\n`)
+            )
+          }
+        }
 
         controller.enqueue(
           encoder.encode(
@@ -89,18 +104,35 @@ export async function POST(request: NextRequest) {
                 parsed.type === 'content_block_delta' &&
                 parsed.delta?.type === 'text_delta'
               ) {
-                const text = parsed.delta.text
-                fullText += text
-                controller.enqueue(
-                  encoder.encode(
-                    `data: ${JSON.stringify({ type: 'text', text })}\n\n`
-                  )
-                )
+                fullText += parsed.delta.text
+                emitText(fullText.length - HOLDBACK)
               }
             } catch {
               // skip malformed lines
             }
           }
+        }
+
+        // Pull the hidden visual cue, then strip every tag from what we show.
+        const vizMatch = fullText.match(/\[\[viz:([a-z-]+)\]\]/i)
+        const cardKey = vizMatch ? vizMatch[1].toLowerCase() : null
+        const card = isInsightType(cardKey) ? cardKey : null
+        const cleanFull = fullText.replace(/\[\[viz:[a-z-]+\]\]/gi, '').trimEnd()
+
+        // Flush whatever clean text remains (the held-back tail, tag removed).
+        if (cleanFull.length > sentLen) {
+          controller.enqueue(
+            encoder.encode(
+              `data: ${JSON.stringify({ type: 'text', text: cleanFull.slice(sentLen) })}\n\n`
+            )
+          )
+          sentLen = cleanFull.length
+        }
+
+        if (card) {
+          controller.enqueue(
+            encoder.encode(`data: ${JSON.stringify({ type: 'viz', card })}\n\n`)
+          )
         }
 
         controller.enqueue(
@@ -113,7 +145,7 @@ export async function POST(request: NextRequest) {
           .reverse()
           .find((m: { role: string }) => m.role === 'user')
         if (lastUserMessage && session.itemId) {
-          const answer = fullText.trim()
+          const answer = cleanFull.trim()
           const truncatedAnswer =
             answer.length > 800 ? answer.slice(0, 800) + '...' : answer
 

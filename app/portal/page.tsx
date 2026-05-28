@@ -10,7 +10,7 @@ import VoiceButton from '@/components/VoiceButton'
 import { LeadSession } from '@/lib/session'
 import { cleanForVoice } from '@/lib/voice-clean'
 import { InsightCard } from '@/components/InsightCard'
-import { detectInsight, InsightType } from '@/lib/insight'
+import { CATEGORY_TO_CARD, InsightType, isInsightType } from '@/lib/insight'
 
 interface Message {
   id: string
@@ -278,7 +278,11 @@ What would you like to go through first?`
     setInput('')
     setIsSending(true)
     setEyeState('thinking')
-    setActiveInsight(null)
+    // FAQ clicks tell us the exact topic — show that card immediately. Typed
+    // questions clear it; Lucy's hidden cue (below) sets it as she answers.
+    setActiveInsight(
+      meta.faqCategory ? CATEGORY_TO_CARD[meta.faqCategory] ?? null : null
+    )
 
     const assistantId = generateId()
     setMessages(prev => [
@@ -314,7 +318,6 @@ What would you like to go through first?`
       const decoder = new TextDecoder()
       let fullText = ''
       let pending = '' // streamed text not yet sent for summary + speech
-      let lastInsight: InsightType | null = null
 
       // Fresh speech session. We summarise and speak in chunks as the answer
       // streams, so Lucy starts talking before the full text is generated.
@@ -341,12 +344,6 @@ What would you like to go through first?`
                   m.id === assistantId ? { ...m, content: fullText } : m
                 )
               )
-              // Surface a relevant data card as soon as the topic is clear.
-              const ins = detectInsight(fullText)
-              if (ins && ins !== lastInsight) {
-                lastInsight = ins
-                setActiveInsight(ins)
-              }
               // Speak completed chunks as they arrive, in order.
               if (!isMuted) {
                 let ready = nextReadyChunk(pending)
@@ -356,6 +353,9 @@ What would you like to go through first?`
                   ready = nextReadyChunk(pending)
                 }
               }
+            } else if (parsed.type === 'viz' && isInsightType(parsed.card)) {
+              // Lucy's hidden cue — show the panel matching what she's saying.
+              setActiveInsight(parsed.card)
             }
           } catch {
             // skip
@@ -977,6 +977,7 @@ What would you like to go through first?`
                 strProfit: session.strProfit,
                 longTermLet: session.longTermLet,
                 rentMortgage: session.rentMortgage,
+                annualRentMortgage: session.annualRentMortgage,
               }}
             />
           </div>
