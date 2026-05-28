@@ -8,6 +8,8 @@ const COLUMN_IDS = [
   'text_mm2eawgk',   // STR Profit
   'text_mm2dsnw7',   // Long Term Let
   'text_mm26pf4c',   // Rent / Mortgage
+  'text_mm2dc5ka',   // Annual Rent / Mortgage
+  'text_mm2dkavd',   // Stayful Net Analyser
   'text5',            // Bedrooms
   'text_mm2xe380',   // Web Meeting Presentation URL
   'text_mm3h5atf',   // Post Meeting Action Plan URL
@@ -61,6 +63,8 @@ function parseItem(item: any) {
     strProfit: cols['text_mm2eawgk'] || '',
     longTermLet: cols['text_mm2dsnw7'] || '',
     rentMortgage: cols['text_mm26pf4c'] || '',
+    annualRentMortgage: cols['text_mm2dc5ka'] || '',
+    netAnalyser: cols['text_mm2dkavd'] || '',
     presentationUrl: cols['text_mm2xe380'] || '',
     actionPlanUrl: cols['text_mm3h5atf'] || '',
     // File columns return JSON (in text or value) — parse out the URL

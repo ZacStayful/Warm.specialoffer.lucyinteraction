@@ -42,6 +42,8 @@ export async function POST(request: NextRequest) {
     session.strProfit = lead.strProfit
     session.longTermLet = lead.longTermLet
     session.rentMortgage = lead.rentMortgage
+    session.annualRentMortgage = lead.annualRentMortgage
+    session.netAnalyser = lead.netAnalyser
     session.presentationUrl = lead.presentationUrl
     session.actionPlanUrl = lead.actionPlanUrl
     session.agreementUrl = lead.agreementUrl

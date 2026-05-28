@@ -21,6 +21,8 @@ export async function GET() {
     strProfit: session.strProfit,
     longTermLet: session.longTermLet,
     rentMortgage: session.rentMortgage,
+    annualRentMortgage: session.annualRentMortgage,
+    netAnalyser: session.netAnalyser,
     presentationUrl: session.presentationUrl,
     actionPlanUrl: session.actionPlanUrl,
     agreementUrl: session.agreementUrl,
