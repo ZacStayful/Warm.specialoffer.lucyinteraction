@@ -137,7 +137,16 @@ export default function PortalPage() {
         const propertyClause = data.address
           ? `, including your property at ${data.address}`
           : ''
-        const greeting = `Hello ${firstName}. Welcome to your Stayful portal — I'm Lucy, Zac's assistant.
+        // Returning visitor — they've used the portal before (Monday has a
+        // previous-chat snapshot). Welcome them back instead of re-introducing.
+        const isReturning = !!String(data.portalHistory || '').trim()
+        const greeting = isReturning
+          ? `Welcome back, ${firstName}. Good to speak with you again.
+
+We've been through some things together here already — so we can pick up right where we left off last time, or if something new has come up, I'm happy to help with that instead.
+
+What would you like to do — carry on from before, or is there a fresh question on your mind?`
+          : `Hello ${firstName}. Welcome to your Stayful portal — I'm Lucy, Zac's assistant.
 
 I have the details from your recent call with Zac${propertyClause}. So anything you want to go back over from that conversation, I can help with.
 

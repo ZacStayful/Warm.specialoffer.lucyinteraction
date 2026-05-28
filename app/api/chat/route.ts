@@ -26,6 +26,7 @@ export async function POST(request: NextRequest) {
     strProfit: session.strProfit,
     longTermLet: session.longTermLet,
     rentMortgage: session.rentMortgage,
+    portalHistory: session.portalHistory,
   })
 
   const encoder = new TextEncoder()
@@ -184,10 +185,20 @@ export async function POST(request: NextRequest) {
 
           postPortalUpdate(session.itemId, updateBody).catch(console.error)
 
-          // Short at-a-glance snapshot on the column (overwrite, <=200 chars)
-          const questionCount = messages.filter(
-            (m: { role: string }) => m.role === 'user'
-          ).length
+          // At-a-glance snapshot on the column (overwrite). Includes the most
+          // recent question topics so a returning visit can pick up where they
+          // left off (read back into the session on next login).
+          const userQuestions = messages
+            .filter((m: { role: string }) => m.role === 'user')
+            .map((m: { content: string }) => m.content)
+          const questionCount = userQuestions.length
+          const recent = userQuestions
+            .slice(-3)
+            .map((q: string) => {
+              const t = q.replace(/\s+/g, ' ').trim()
+              return `"${t.length > 60 ? t.slice(0, 57) + '…' : t}"`
+            })
+            .join('; ')
           const today = new Date().toLocaleDateString('en-GB', {
             timeZone: 'Europe/London',
             day: '2-digit',
@@ -199,10 +210,10 @@ export async function POST(request: NextRequest) {
             hour: '2-digit',
             minute: '2-digit',
           })
-          logPortalSession(
-            session.itemId,
-            `${today} — ${questionCount} question${questionCount === 1 ? '' : 's'}. Last active: ${time}`
-          ).catch(console.error)
+          const snapshot =
+            `Last portal visit: ${today}, ${time} · ${questionCount} question${questionCount === 1 ? '' : 's'}` +
+            (recent ? ` · Recent: ${recent}` : '')
+          logPortalSession(session.itemId, snapshot).catch(console.error)
         }
       } catch (err) {
         console.error('[Chat stream error]', err)

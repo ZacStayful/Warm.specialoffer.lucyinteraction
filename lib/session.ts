@@ -14,6 +14,7 @@ export interface LeadSession {
   rentMortgage: string
   annualRentMortgage: string
   netAnalyser: string
+  portalHistory: string
   presentationUrl: string
   actionPlanUrl: string
   agreementUrl: string
@@ -34,6 +35,7 @@ export const defaultSession: LeadSession = {
   rentMortgage: '',
   annualRentMortgage: '',
   netAnalyser: '',
+  portalHistory: '',
   presentationUrl: '',
   actionPlanUrl: '',
   agreementUrl: '',

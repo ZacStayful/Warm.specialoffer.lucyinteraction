@@ -381,7 +381,11 @@ export function buildSystemPrompt(lead: {
   strProfit: string
   longTermLet: string
   rentMortgage: string
+  portalHistory?: string
 }) {
+  const returning = lead.portalHistory?.trim()
+    ? `\n\nRETURNING VISITOR — this person has used this portal before. Their recent portal activity:\n${lead.portalHistory.trim()}\nIf they ask to pick up where they left off, use this to continue naturally and specifically. Otherwise, just help with whatever they ask now. Don't give a long re-introduction — a brief, warm acknowledgement that you've spoken before is enough.`
+    : ''
   const contextLines = [
     lead.address && `Property address: ${lead.address}`,
     lead.bedrooms && `Bedrooms: ${lead.bedrooms}`,
@@ -407,7 +411,7 @@ Everything you write is also spoken to ${lead.leadName?.split(' ')[0] || 'the le
 - Numbers and money are fine to write normally (e.g. "15% plus VAT", "£42 a month") — just phrase them naturally.
 
 LEAD CONTEXT:
-${contextLines || 'Context not available — answer questions using general Stayful knowledge.'}
+${contextLines || 'Context not available — answer questions using general Stayful knowledge.'}${returning}
 
 STAYFUL KNOWLEDGE BASE:
 ${STAYFUL_FAQ}
