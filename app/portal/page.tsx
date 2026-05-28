@@ -10,7 +10,12 @@ import VoiceButton from '@/components/VoiceButton'
 import { LeadSession } from '@/lib/session'
 import { cleanForVoice } from '@/lib/voice-clean'
 import { InsightCard } from '@/components/InsightCard'
-import { CATEGORY_TO_CARD, InsightType, isInsightType } from '@/lib/insight'
+import {
+  CATEGORY_TO_CARD,
+  InsightType,
+  isInsightType,
+  detectNation,
+} from '@/lib/insight'
 
 interface Message {
   id: string
@@ -20,6 +25,7 @@ interface Message {
   isStreaming?: boolean
   docAction?: 'confirm'
   suggestions?: string[]
+  viz?: InsightType
 }
 
 function generateId() {
@@ -280,14 +286,21 @@ What would you like to go through first?`
     setEyeState('thinking')
     // FAQ clicks tell us the exact topic — show that card immediately. Typed
     // questions clear it; Lucy's hidden cue (below) sets it as she answers.
-    setActiveInsight(
-      meta.faqCategory ? CATEGORY_TO_CARD[meta.faqCategory] ?? null : null
-    )
+    const faqCard: InsightType | null = meta.faqCategory
+      ? CATEGORY_TO_CARD[meta.faqCategory] ?? null
+      : null
+    setActiveInsight(faqCard)
 
     const assistantId = generateId()
     setMessages(prev => [
       ...prev,
-      { id: assistantId, role: 'assistant', content: '', isStreaming: true },
+      {
+        id: assistantId,
+        role: 'assistant',
+        content: '',
+        isStreaming: true,
+        viz: faqCard ?? undefined,
+      },
     ])
 
     const apiMessages = [...messages, userMsg].map(m => ({
@@ -318,6 +331,7 @@ What would you like to go through first?`
       const decoder = new TextDecoder()
       let fullText = ''
       let pending = '' // streamed text not yet sent for summary + speech
+      let vizCard: InsightType | null = faqCard // topic for replay + chips
 
       // Fresh speech session. We summarise and speak in chunks as the answer
       // streams, so Lucy starts talking before the full text is generated.
@@ -354,8 +368,15 @@ What would you like to go through first?`
                 }
               }
             } else if (parsed.type === 'viz' && isInsightType(parsed.card)) {
-              // Lucy's hidden cue — show the panel matching what she's saying.
+              // Lucy's hidden cue — show the panel matching what she's saying,
+              // and remember it on the message for replay + on-topic chips.
+              vizCard = parsed.card
               setActiveInsight(parsed.card)
+              setMessages(prev =>
+                prev.map(m =>
+                  m.id === assistantId ? { ...m, viz: parsed.card } : m
+                )
+              )
             }
           } catch {
             // skip
@@ -387,7 +408,8 @@ What would you like to go through first?`
       else pumpSpeech()
 
       // Offer one-tap follow-ups to keep the conversation going.
-      if (fullText.trim()) void loadSuggestions(content, fullText, assistantId, ac.signal)
+      if (fullText.trim())
+        void loadSuggestions(content, fullText, vizCard, assistantId, ac.signal)
     } catch (err: any) {
       if (err.name === 'AbortError') {
         setMessages(prev => prev.filter(m => m.id !== assistantId))
@@ -539,6 +561,7 @@ What would you like to go through first?`
   async function loadSuggestions(
     question: string,
     answer: string,
+    topic: InsightType | null,
     assistantId: string,
     signal: AbortSignal
   ) {
@@ -546,7 +569,7 @@ What would you like to go through first?`
       const res = await fetch('/api/chat/suggestions', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question, answer }),
+        body: JSON.stringify({ question, answer, topic }),
         signal,
       })
       if (!res.ok || signal.aborted) return
@@ -973,6 +996,7 @@ What would you like to go through first?`
           <div className="mt-3 w-full flex justify-center px-4">
             <InsightCard
               type={activeInsight}
+              nation={detectNation(session.address)}
               figures={{
                 strProfit: session.strProfit,
                 longTermLet: session.longTermLet,
@@ -1017,9 +1041,10 @@ What would you like to go through first?`
                     {!msg.isStreaming && msg.content && (
                       <button
                         type="button"
-                        onClick={() =>
+                        onClick={() => {
+                          if (msg.viz) setActiveInsight(msg.viz)
                           playTTS(msg.voiceText || cleanForVoice(msg.content))
-                        }
+                        }}
                         className="flex items-center justify-center"
                         style={{ color: 'var(--text-dim)', minWidth: 44, minHeight: 44 }}
                         aria-label="Replay this message"

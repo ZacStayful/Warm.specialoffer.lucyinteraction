@@ -14,6 +14,7 @@ Rules:
 - Each must be short — 8 words or fewer.
 - They must be genuinely useful next steps, not restating what was just answered.
 - Stay on Stayful-relevant topics (earnings, fees, the contract, management, getting started, guests, tax).
+- If a current topic is given, keep at least two of the three within that topic; the third may be a natural adjacent question.
 - Return ONLY a JSON array of 3 strings. No prose, no markdown, no keys.`
 
 export async function POST(request: NextRequest) {
@@ -24,14 +25,16 @@ export async function POST(request: NextRequest) {
   }
 
   try {
-    const { question, answer } = await request.json()
+    const { question, answer, topic } = await request.json()
     if (typeof answer !== 'string' || !answer.trim()) {
       return new Response(JSON.stringify({ suggestions: [] }), {
         headers: { 'Content-Type': 'application/json' },
       })
     }
 
-    const userContent = `Owner asked: ${question || '(opening question)'}\n\nLucy answered: ${answer.slice(0, 3000)}`
+    const topicLine =
+      typeof topic === 'string' && topic ? `\n\nCurrent topic: ${topic}` : ''
+    const userContent = `Owner asked: ${question || '(opening question)'}\n\nLucy answered: ${answer.slice(0, 3000)}${topicLine}`
 
     const resp = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',

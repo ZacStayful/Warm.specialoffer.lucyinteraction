@@ -53,3 +53,25 @@ export function parseAmount(s?: string | null): number | null {
 export function formatGBP(n: number): string {
   return '£' + Math.round(n).toLocaleString('en-GB')
 }
+
+export type Nation = 'england' | 'scotland' | 'wales' | 'ni'
+
+// Postcode areas that are unambiguously one nation. Border areas (e.g. SY, CH,
+// HR) are deliberately left out so we default to England rather than guess.
+const SCOTLAND_AREAS = new Set([
+  'AB', 'DD', 'DG', 'EH', 'FK', 'G', 'HS', 'IV', 'KA', 'KW', 'KY', 'ML', 'PA', 'PH', 'TD', 'ZE',
+])
+const WALES_AREAS = new Set(['CF', 'LL', 'NP', 'SA', 'LD'])
+
+// Best-effort nation from a freeform UK address (reads the postcode area).
+// Returns null when no postcode is found, so the card stays generic.
+export function detectNation(address?: string | null): Nation | null {
+  if (!address) return null
+  const m = address.toUpperCase().match(/\b([A-Z]{1,2})\d[A-Z\d]?\s*\d[A-Z]{2}\b/)
+  const area = m?.[1]
+  if (!area) return null
+  if (area === 'BT') return 'ni'
+  if (SCOTLAND_AREAS.has(area)) return 'scotland'
+  if (WALES_AREAS.has(area)) return 'wales'
+  return 'england'
+}

@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
-import { InsightType, parseAmount, formatGBP } from '@/lib/insight'
+import { InsightType, Nation, parseAmount, formatGBP } from '@/lib/insight'
 
 interface Figures {
   strProfit?: string
@@ -120,6 +120,23 @@ function Bar({
   )
 }
 
+function AnnualValue({ amount, strong }: { amount: number; strong?: boolean }) {
+  const shown = useCountUp(amount)
+  return (
+    <div
+      className="font-mono"
+      style={{
+        fontSize: strong ? '1rem' : '0.85rem',
+        color: strong ? 'var(--green-bright)' : 'var(--text-dim)',
+        fontWeight: strong ? 700 : 400,
+      }}
+    >
+      {formatGBP(shown)}
+      <span style={{ fontSize: '0.55rem', color: 'var(--text-muted)' }}> /yr</span>
+    </div>
+  )
+}
+
 function Check({ children }: { children: React.ReactNode }) {
   return (
     <li className="flex items-start gap-2" style={{ fontSize: '0.72rem', color: 'var(--text-dim)' }}>
@@ -158,13 +175,24 @@ function Caption({ children }: { children: React.ReactNode }) {
   )
 }
 
-export function InsightCard({ type, figures }: { type: InsightType; figures: Figures }) {
+export function InsightCard({
+  type,
+  figures,
+  nation,
+}: {
+  type: InsightType
+  figures: Figures
+  nation?: Nation | null
+}) {
   if (type === 'earnings') {
     const str = parseAmount(figures.strProfit)
     const ltl = parseAmount(figures.longTermLet)
     const cur = parseAmount(figures.rentMortgage)
     if (!str && !ltl && !cur) return null
     const max = Math.max(str || 0, ltl || 0, cur || 0) || 1
+    const annualStr = str != null ? str * 12 : null
+    const annualCost =
+      parseAmount(figures.annualRentMortgage) ?? (cur != null ? cur * 12 : null)
     return (
       <Shell title="YOUR PROJECTION">
         <div className="flex flex-col gap-2.5">
@@ -174,6 +202,33 @@ export function InsightCard({ type, figures }: { type: InsightType; figures: Fig
         </div>
         {str != null && ltl != null && ltl > 0 && str > ltl && (
           <Caption>~{(str / ltl).toFixed(1)}× your long-term rent · net, for your property</Caption>
+        )}
+        {annualStr != null && (
+          <div
+            className="mt-3 pt-2.5 flex items-end justify-between"
+            style={{ borderTop: '1px solid var(--border)' }}
+          >
+            <div>
+              <div
+                className="font-orbitron tracking-widest"
+                style={{ fontSize: '0.55rem', color: 'var(--text-muted)' }}
+              >
+                PER YEAR (PROJECTED)
+              </div>
+              <AnnualValue amount={annualStr} strong />
+            </div>
+            {annualCost != null && (
+              <div className="text-right">
+                <div
+                  className="font-orbitron tracking-widest"
+                  style={{ fontSize: '0.55rem', color: 'var(--text-muted)' }}
+                >
+                  MORTGAGE / RENT
+                </div>
+                <AnnualValue amount={annualCost} />
+              </div>
+            )}
+          </div>
         )}
       </Shell>
     )
@@ -263,14 +318,38 @@ export function InsightCard({ type, figures }: { type: InsightType; figures: Fig
   }
 
   if (type === 'legal-tax') {
+    const n = nation || 'england'
+    const reliefName =
+      n === 'scotland'
+        ? 'the Small Business Bonus Scheme'
+        : n === 'wales'
+        ? 'Small Business Rates Relief (Wales)'
+        : n === 'ni'
+        ? 'available rates reliefs'
+        : 'Small Business Rate Relief'
+    const nationLabel =
+      n === 'scotland'
+        ? 'Scotland'
+        : n === 'wales'
+        ? 'Wales'
+        : n === 'ni'
+        ? 'Northern Ireland'
+        : 'England'
     return (
       <Shell title="LEGAL & TAX">
         <ul className="flex flex-col gap-1.5">
-          <Check>Council tax moves to business rates once live</Check>
-          <Check>Most properties qualify for Small Business Rate Relief — often £0, backdated</Check>
+          {n === 'ni' ? (
+            <Check>Treated as non-domestic — rates &amp; reliefs work differently in Northern Ireland</Check>
+          ) : (
+            <Check>Council tax moves to business rates once live</Check>
+          )}
+          <Check>Most small properties qualify for {reliefName} — often £0, backdated</Check>
           <Check>Specialist STR insurance needed (~£200–500/yr)</Check>
         </ul>
-        <Caption>General information, not tax or legal advice — confirm with your accountant or broker.</Caption>
+        <Caption>
+          Guidance for {nationLabel} — general info, not tax or legal advice. Confirm with your
+          accountant or council.
+        </Caption>
       </Shell>
     )
   }
