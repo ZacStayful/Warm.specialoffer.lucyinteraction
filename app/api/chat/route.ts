@@ -27,6 +27,7 @@ export async function POST(request: NextRequest) {
     longTermLet: session.longTermLet,
     rentMortgage: session.rentMortgage,
     portalHistory: session.portalHistory,
+    stage: session.stage,
   })
 
   const encoder = new TextEncoder()

@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getIronSession } from 'iron-session'
 import { cookies } from 'next/headers'
-import { sessionOptions, LeadSession } from '@/lib/session'
+import { sessionOptions, LeadSession, getLeadStage } from '@/lib/session'
 import { findLeadByEmail, findLeadByName } from '@/lib/monday'
 
 export async function POST(request: NextRequest) {
@@ -45,7 +45,10 @@ export async function POST(request: NextRequest) {
     session.annualRentMortgage = lead.annualRentMortgage
     session.netAnalyser = lead.netAnalyser
     session.portalHistory = lead.portalHistory
+    session.status = lead.status
+    session.stage = getLeadStage(lead.status)
     session.presentationUrl = lead.presentationUrl
+    session.preQualifyUrl = lead.preQualifyUrl
     session.actionPlanUrl = lead.actionPlanUrl
     session.agreementUrl = lead.agreementUrl
     session.quoteUrl = lead.quoteUrl

@@ -140,13 +140,29 @@ export default function PortalPage() {
         // Returning visitor — they've used the portal before (Monday has a
         // previous-chat snapshot). Welcome them back instead of re-introducing.
         const isReturning = !!String(data.portalHistory || '').trim()
-        const greeting = isReturning
-          ? `Welcome back, ${firstName}. Good to speak with you again.
+        // Pre-meeting leads haven't had a web meeting yet — different opening:
+        // no reference to a prior call, soft (not pushy) mention of booking one.
+        const isPreMeeting = data.stage === 'pre-meeting'
+        const preMeetingPropertyClause = data.address
+          ? `, including how it could work for your property at ${data.address}`
+          : ''
+        let greeting: string
+        if (isReturning) {
+          greeting = `Welcome back, ${firstName}. Good to speak with you again.
 
 We've been through some things together here already — so we can pick up right where we left off last time, or if something new has come up, I'm happy to help with that instead.
 
 What would you like to do — carry on from before, or is there a fresh question on your mind?`
-          : `Hello ${firstName}. Welcome to your Stayful portal — I'm Lucy, Zac's assistant.
+        } else if (isPreMeeting) {
+          greeting = `Hello ${firstName}. Welcome to Stayful — I'm Lucy, Zac's assistant.
+
+I'm here to help you get to know how Stayful works and answer any questions you have about short-term letting${preMeetingPropertyClause} — the numbers, how we manage, the contract, anything at all.
+
+Down at the bottom you can browse common questions and pick any you'd like me to talk through, or if it's easier, just enable your microphone and speak to me directly. And whenever you'd like to go through your property's numbers in detail with Zac, there's a button in the top right to book a time with him.
+
+So — what would you like to know first?`
+        } else {
+          greeting = `Hello ${firstName}. Welcome to your Stayful portal — I'm Lucy, Zac's assistant.
 
 I have the details from your recent call with Zac${propertyClause}. So anything you want to go back over from that conversation, I can help with.
 
@@ -157,6 +173,7 @@ Down at the bottom, you can browse common questions and pick any you'd like me t
 Or if it's easier, just enable your microphone and speak to me directly.
 
 What would you like to go through first?`
+        }
         greetingRef.current = cleanForVoice(greeting)
         setMessages([
           {

@@ -11,7 +11,9 @@ const COLUMN_IDS = [
   'text_mm2dc5ka',   // Annual Rent / Mortgage
   'text_mm2dkavd',   // Stayful Net Analyser
   'text5',            // Bedrooms
+  'status5',          // Status (drives sales stage)
   'text_mm2xe380',   // Web Meeting Presentation URL
+  'text_mm2mjdq1',   // Stayful Pre-Qualify Presentation URL (pre-meeting)
   'text_mm3h5atf',   // Post Meeting Action Plan URL
   'long_text_mm3pj2zj', // Lucy Portal Intelligence (previous-chat snapshot)
   'text_mkygb5xx',   // Email
@@ -66,7 +68,9 @@ function parseItem(item: any) {
     rentMortgage: cols['text_mm26pf4c'] || '',
     annualRentMortgage: cols['text_mm2dc5ka'] || '',
     netAnalyser: cols['text_mm2dkavd'] || '',
+    status: cols['status5'] || '',
     presentationUrl: cols['text_mm2xe380'] || '',
+    preQualifyUrl: cols['text_mm2mjdq1'] || '',
     actionPlanUrl: cols['text_mm3h5atf'] || '',
     portalHistory: cols['long_text_mm3pj2zj'] || '',
     // File columns return JSON (in text or value) — parse out the URL
