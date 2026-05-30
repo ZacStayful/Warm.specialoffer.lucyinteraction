@@ -6,6 +6,7 @@ import {
   useImperativeHandle,
   useRef,
   useState,
+  ReactNode,
 } from 'react'
 import { LucyEye } from '@/components/LucyEye'
 import { PresentationScript } from '@/lib/presentation-script'
@@ -17,31 +18,44 @@ export interface PresentationStageHandle {
   isPaused: () => boolean
 }
 
-type Phase = 'idle' | 'entering' | 'playing' | 'wrapping' | 'exiting' | 'done'
+type Phase =
+  | 'idle'        // not yet active
+  | 'entering'    // eye animating to corner, intro narrating
+  | 'playing'     // video playing, sections firing
+  | 'wrapping'    // video ended, closing narration playing
+  | 'exiting'     // eye returning to centre
+  | 'done'
 
 interface Props {
   script: PresentationScript
   isMuted?: boolean
   active: boolean
-  // Fires after the eye has returned to its original state.
+  paused?: boolean
   onComplete?: () => void
-  // Fires when the lead aborts mid-presentation (close button).
   onCancel?: () => void
-  // Fires when the lead clicks BOOK CALL beneath the cornered eye.
   onBookCall?: () => void
-  // Shared audio level ref — when provided, narration loudness drives the
-  // portal's main Lucy eye too, so the visible eye reacts during narration.
+  // Shared audio level ref — narration loudness drives the same Lucy eye
+  // that chat TTS does, so the visible eye reacts during narration too.
   levelRef?: React.MutableRefObject<number>
+  // Compact answer panel — rendered by the parent so it can access chat
+  // state (latest message, chips, etc). Sits in the bottom of the stage
+  // area when the stage is paused for an interruption.
+  pausedPanel?: ReactNode
 }
 
-// Renders the video stage + a cornered LucyEye + a BOOK CALL button.
-// Sync model: when the video crosses a section's timestamp, the video is
-// paused while Lucy narrates that section, then resumed. Slides stay locked
-// to her words regardless of how long each line takes. All TTS blobs are
-// pre-fetched on mount so playback is instant when each section fires.
 const PresentationStage = forwardRef<PresentationStageHandle, Props>(
   function PresentationStage(
-    { script, isMuted = false, active, onComplete, onCancel, onBookCall, levelRef },
+    {
+      script,
+      isMuted = false,
+      active,
+      paused: pausedProp,
+      onComplete,
+      onCancel,
+      onBookCall,
+      levelRef,
+      pausedPanel,
+    },
     ref
   ) {
     const [phase, setPhase] = useState<Phase>('idle')
@@ -52,6 +66,7 @@ const PresentationStage = forwardRef<PresentationStageHandle, Props>(
     const audioElRef = useRef<HTMLAudioElement | null>(null)
     const blobCacheRef = useRef<Map<number, Blob | null>>(new Map())
     const closingBlobRef = useRef<Blob | null>(null)
+    const introBlobRef = useRef<Blob | null>(null)
     const playedIdxRef = useRef<Set<number>>(new Set())
     const currentNarrationIdxRef = useRef<number | null>(null)
     const pausedRef = useRef(false)
@@ -60,19 +75,46 @@ const PresentationStage = forwardRef<PresentationStageHandle, Props>(
     const localLevelRef = useRef(0)
     const audioLevelRef = levelRef ?? localLevelRef
     const decodeCtxRef = useRef<AudioContext | null>(null)
+    const introDoneRef = useRef(false)
 
     useEffect(() => {
       mutedRef.current = isMuted
     }, [isMuted])
 
-    // Pre-fetch every narration blob (and the closing) once the stage is
-    // active. Fetches in parallel so most are ready by the time we need them.
+    // Mirror the external `paused` prop into our internal state.
+    useEffect(() => {
+      if (typeof pausedProp !== 'boolean') return
+      pausedRef.current = pausedProp
+      setPaused(pausedProp)
+      if (pausedProp) {
+        const v = videoRef.current
+        if (v && !v.paused) {
+          try {
+            v.pause()
+          } catch {}
+        }
+        const a = audioElRef.current
+        if (a) {
+          try {
+            a.pause()
+          } catch {}
+        }
+        setEyeState('idle')
+      }
+    }, [pausedProp])
+
+    // Pre-fetch every narration blob (and the intro + closing) once active.
     useEffect(() => {
       if (!active) return
       let cancelled = false
+      if (!introBlobRef.current && script.intro) {
+        fetchTTSBlob(cleanForVoice(script.intro)).then((blob) => {
+          if (!cancelled) introBlobRef.current = blob
+        })
+      }
       script.sections.forEach((section, idx) => {
         if (blobCacheRef.current.has(idx)) return
-        blobCacheRef.current.set(idx, null) // claim slot to avoid double-fetch
+        blobCacheRef.current.set(idx, null)
         fetchTTSBlob(cleanForVoice(section.text)).then((blob) => {
           if (cancelled) return
           blobCacheRef.current.set(idx, blob)
@@ -88,18 +130,85 @@ const PresentationStage = forwardRef<PresentationStageHandle, Props>(
       }
     }, [active, script])
 
-    // Entry: eye animates centered → cornered, then video plays.
+    // Entry: eye animates centered → cornered; intro narration plays while
+    // it moves; once both eye animation AND intro finish, video starts.
     useEffect(() => {
       if (!active) return
       setPhase('entering')
-      const t = window.setTimeout(() => {
-        setPhase('playing')
-        videoRef.current
-          ?.play()
-          .catch((err) => console.error('[Stage] video play error', err))
-      }, 1700)
-      return () => clearTimeout(t)
+      introDoneRef.current = false
+
+      // Wait the eye animation, then poll until intro narration has finished
+      // (or skip if no intro / no blob).
+      const eyeAnimMs = 1700
+      let stopped = false
+      const startWhenReady = () => {
+        if (stopped || cancelRef.current) return
+        if (introDoneRef.current) {
+          setPhase('playing')
+          videoRef.current
+            ?.play()
+            .catch((err) => console.error('[Stage] video play error', err))
+          return
+        }
+        setTimeout(startWhenReady, 120)
+      }
+
+      // Kick off intro narration in parallel with the eye animation.
+      tryPlayIntro().finally(() => {
+        introDoneRef.current = true
+      })
+
+      const eyeTimer = window.setTimeout(startWhenReady, eyeAnimMs)
+      return () => {
+        stopped = true
+        clearTimeout(eyeTimer)
+      }
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [active])
+
+    async function tryPlayIntro() {
+      if (!script.intro || cancelRef.current) return
+      // Wait briefly for the pre-fetch to land. If still not ready, fetch now.
+      let blob = introBlobRef.current
+      if (!blob) {
+        const start = Date.now()
+        while (!blob && Date.now() - start < 800 && !cancelRef.current) {
+          await new Promise((r) => setTimeout(r, 100))
+          blob = introBlobRef.current
+        }
+        if (!blob) {
+          blob = await fetchTTSBlob(cleanForVoice(script.intro))
+          introBlobRef.current = blob
+        }
+      }
+      if (!blob || cancelRef.current) return
+      await playBlobOnce(blob)
+    }
+
+    function playBlobOnce(blob: Blob): Promise<void> {
+      return new Promise((resolve) => {
+        if (cancelRef.current) return resolve()
+        const url = URL.createObjectURL(blob)
+        const audio = new Audio(url)
+        audioElRef.current = audio
+        const finish = () => {
+          URL.revokeObjectURL(url)
+          if (audioElRef.current === audio) audioElRef.current = null
+          audioLevelRef.current = 0
+          setEyeState('idle')
+          resolve()
+        }
+        audio.onended = finish
+        audio.onerror = finish
+        setEyeState('speaking')
+        void computeEnvelope(blob).then((env) => {
+          if (env && audioElRef.current === audio) {
+            trackEnvelope(audio, env.env, env.frameMs)
+          }
+        })
+        audio.play().catch(finish)
+      })
+    }
 
     useImperativeHandle(
       ref,
@@ -128,9 +237,6 @@ const PresentationStage = forwardRef<PresentationStageHandle, Props>(
           if (cancelRef.current) return
           pausedRef.current = false
           setPaused(false)
-          // If a narration was interrupted, restart it (which will also
-          // re-pause the video for that section). If the interrupt landed
-          // between sections, just resume the video.
           const interruptedIdx = currentNarrationIdxRef.current
           if (interruptedIdx !== null) {
             currentNarrationIdxRef.current = null
@@ -160,7 +266,6 @@ const PresentationStage = forwardRef<PresentationStageHandle, Props>(
         return
       }
 
-      // Freeze the video on the current slide while Lucy speaks.
       const v = videoRef.current
       if (v && !v.paused) {
         try {
@@ -173,7 +278,6 @@ const PresentationStage = forwardRef<PresentationStageHandle, Props>(
         playBlobThenResume(cached, idx)
         return
       }
-      // Not yet fetched (or fetch in flight) — fetch now.
       fetchTTSBlob(cleanForVoice(section.text)).then((b) => {
         blobCacheRef.current.set(idx, b)
         if (!b || pausedRef.current || cancelRef.current) {
@@ -290,7 +394,7 @@ const PresentationStage = forwardRef<PresentationStageHandle, Props>(
       window.setTimeout(() => {
         setPhase('done')
         onCancel?.()
-      }, 1000)
+      }, 700)
     }
 
     async function fetchTTSBlob(text: string): Promise<Blob | null> {
@@ -368,7 +472,7 @@ const PresentationStage = forwardRef<PresentationStageHandle, Props>(
       // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
-    const eyeCornered = phase === 'playing' || phase === 'wrapping'
+    const eyeCornered = phase !== 'idle' && phase !== 'done'
     const videoVisible = (phase === 'playing' || phase === 'wrapping') && !paused
 
     return (
@@ -390,15 +494,15 @@ const PresentationStage = forwardRef<PresentationStageHandle, Props>(
           <LucyEye state={eyeState} size={220} levelRef={audioLevelRef} />
         </div>
 
-        {/* BOOK CALL button beneath the cornered eye (replaces title label) */}
+        {/* BOOK CALL button beneath the cornered eye */}
         {eyeCornered && onBookCall && (
           <div
             className="absolute pointer-events-auto"
             style={{
-              top: 90,
+              top: 88,
               left: 12,
               opacity: eyeCornered ? 1 : 0,
-              transition: 'opacity 0.6s ease-in-out 0.8s',
+              transition: 'opacity 0.6s ease-in-out 0.6s',
             }}
           >
             <button
@@ -407,10 +511,10 @@ const PresentationStage = forwardRef<PresentationStageHandle, Props>(
               className="btn-primary font-orbitron flex items-center whitespace-nowrap"
               style={{
                 borderRadius: 2,
-                height: 36,
-                fontSize: '0.6rem',
+                height: 32,
+                fontSize: '0.55rem',
                 letterSpacing: '0.14em',
-                padding: '0 0.75rem',
+                padding: '0 0.6rem',
               }}
               aria-label="Book a call with Zac"
             >
@@ -423,16 +527,18 @@ const PresentationStage = forwardRef<PresentationStageHandle, Props>(
         {paused && eyeCornered && (
           <div
             className="absolute pointer-events-none font-orbitron text-xs tracking-[0.3em]"
-            style={{ top: 140, left: 12, color: 'var(--amber)' }}
+            style={{ top: 130, left: 12, color: 'var(--amber)' }}
           >
             PAUSED
           </div>
         )}
 
-        {/* Video stage */}
+        {/* Video stage — bottom-anchored so it sits close to the chat input */}
         <div
-          className="absolute inset-0 flex items-center justify-center"
+          className="absolute inset-x-0 flex items-end justify-center"
           style={{
+            top: 12,
+            bottom: 12,
             opacity: videoVisible ? 1 : 0,
             transition: 'opacity 0.6s ease-in-out',
             pointerEvents: videoVisible ? 'auto' : 'none',
@@ -440,7 +546,8 @@ const PresentationStage = forwardRef<PresentationStageHandle, Props>(
         >
           <div
             style={{
-              width: 'min(78vw, 880px)',
+              width: 'min(86vw, 880px)',
+              maxHeight: '100%',
               aspectRatio: '1152 / 720',
               background: '#000',
               border: '1px solid var(--border)',
@@ -460,12 +567,27 @@ const PresentationStage = forwardRef<PresentationStageHandle, Props>(
           </div>
         </div>
 
+        {/* Compact answer panel — rendered by parent, shown when paused */}
+        {paused && pausedPanel && (
+          <div
+            className="absolute pointer-events-auto"
+            style={{
+              left: 12,
+              right: 12,
+              bottom: 12,
+              top: 170,
+            }}
+          >
+            {pausedPanel}
+          </div>
+        )}
+
         {/* Close button */}
         <button
           type="button"
           onClick={handleClose}
           className="absolute pointer-events-auto btn-ghost px-3 text-xs font-orbitron tracking-widest flex items-center"
-          style={{ top: 12, right: 12, borderRadius: 2, height: 36 }}
+          style={{ top: 12, right: 12, borderRadius: 2, height: 32 }}
           aria-label="Close walkthrough"
         >
           CLOSE
