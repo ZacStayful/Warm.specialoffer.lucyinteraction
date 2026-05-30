@@ -41,13 +41,12 @@ export default function PresentationStage({
     mutedRef.current = isMuted
   }, [isMuted])
 
-  // Entry sequence — when `active` flips true from idle, begin the
-  // eye-shrinks-to-corner transition, then play the video.
+  // Entry sequence — when `active` flips true, begin the eye-shrinks-to-corner
+  // transition, then play the video. Depends only on `active` so the timer
+  // isn't torn down by the phase change it triggers.
   useEffect(() => {
-    if (!active || phase !== 'idle') return
+    if (!active) return
     setPhase('entering')
-    // Give the CSS transition ~1.6s to settle the eye in the corner
-    // before video starts playing.
     const t = window.setTimeout(() => {
       setPhase('playing')
       const v = videoRef.current
@@ -57,7 +56,7 @@ export default function PresentationStage({
       }
     }, 1700)
     return () => clearTimeout(t)
-  }, [active, phase])
+  }, [active])
 
   // While the video plays, watch its time and fire each narration section
   // exactly once when we cross its `at` mark.

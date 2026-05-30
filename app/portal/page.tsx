@@ -159,11 +159,11 @@ What would you like to do — carry on from before, or is there a fresh question
         } else if (isPreMeeting) {
           greeting = `Hello ${firstName}. Welcome to Stayful — I'm Lucy, Zac's assistant.
 
-There are two things I can do for you here. I can walk you through exactly how a web meeting with Zac will go and what's covered — so you know what to expect before you book one. Or I can answer any questions you have right now about short-term letting${preMeetingPropertyClause} — the numbers, how we manage, the contract, anything at all.
+There are two things I can do for you here. I can show you an example presentation with Zac — exactly how a web meeting goes and what gets covered — so you know what to expect before you book one. Or I can answer any questions you have right now about short-term letting${preMeetingPropertyClause} — the numbers, how we manage, the contract, anything at all.
 
-To start the meeting walkthrough, use the button labelled WATCH WALKTHROUGH in the top right. For questions, you can browse the common ones at the bottom of the screen, or just enable your microphone and speak to me directly. And whenever you're ready, the BOOK CALL button takes you straight to Zac's calendar.
+To see the example, use the button labelled SEE EXAMPLE PRESENTATION WITH ZAC in the top right. For questions, you can browse the common ones at the bottom of the screen, or just enable your microphone and speak to me directly. And whenever you're ready, the BOOK CALL button takes you straight to Zac's calendar.
 
-So — would you like me to walk you through the meeting first, or is there something specific on your mind?`
+So — would you like me to show you the example presentation first, or is there something specific on your mind?`
         } else {
           greeting = `Hello ${firstName}. Welcome to your Stayful portal — I'm Lucy, Zac's assistant.
 
@@ -984,13 +984,19 @@ What would you like to go through first?`
                 setBookingOpen(false)
                 setWalkthroughOpen(true)
               }}
-              className="btn-primary px-3 text-xs font-orbitron tracking-widest flex items-center"
-              style={{ borderRadius: 2, height: 44 }}
-              aria-label="Watch a walkthrough of how the web meeting goes"
-              title="Watch a walkthrough of the web meeting"
+              className="btn-primary font-orbitron flex items-center whitespace-nowrap"
+              style={{
+                borderRadius: 2,
+                height: 44,
+                fontSize: '0.6rem',
+                letterSpacing: '0.12em',
+                padding: '0 0.75rem',
+              }}
+              aria-label="See an example presentation with Zac"
+              title="See an example presentation with Zac"
             >
-              <span className="hidden sm:inline">WATCH WALKTHROUGH</span>
-              <span className="sm:hidden">WALKTHROUGH</span>
+              <span className="hidden sm:inline">SEE EXAMPLE PRESENTATION WITH ZAC</span>
+              <span className="sm:hidden">SEE EXAMPLE</span>
             </button>
           )}
           <button
