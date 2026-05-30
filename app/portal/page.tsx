@@ -1093,8 +1093,10 @@ What would you like to go through first?`
       </header>
 
       {/* ── Main stage wrapper — hosts the centered eye, messages, and the
-           walkthrough overlay so they share a positioning context. ── */}
-      <div className="flex-1 flex flex-col relative">
+           walkthrough overlay so they share a positioning context. The
+           explicit minHeight: 0 lets the flex-1 child (messages) actually
+           constrain so it scrolls internally instead of growing the page. ── */}
+      <div className="flex-1 flex flex-col relative" style={{ minHeight: 0 }}>
 
       {/* ── Lucy Eye — central focal point ── */}
       <div
@@ -1143,6 +1145,7 @@ What would you like to go through first?`
         style={{
           scrollbarWidth: 'thin',
           display: walkthroughOpen ? 'none' : 'block',
+          minHeight: 0,
         }}
       >
         <div className="max-w-2xl mx-auto flex flex-col gap-4">
@@ -1270,7 +1273,7 @@ What would you like to go through first?`
       </div>
 
       {/* ── Walkthrough overlay (pre-meeting only) ── */}
-      {walkthroughOpen && (
+      {walkthroughOpen && session?.stage === 'pre-meeting' && (
         <PresentationStage
           ref={stageRef}
           script={walkthroughScript}
@@ -1279,9 +1282,11 @@ What would you like to go through first?`
           isMuted={isMuted}
           levelRef={audioLevelRef}
           onBookCall={() => {
+            // The BOOK CALL link in the stage opens Zac's Calendly in a new
+            // tab; pause the walkthrough so audio doesn't keep playing while
+            // they're booking.
             stageRef.current?.pause()
             setPresentationPaused(true)
-            setBookingOpen(true)
           }}
           onComplete={() => {
             // End-of-presentation message: spoken by the stage during exit,

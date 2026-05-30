@@ -472,42 +472,59 @@ const PresentationStage = forwardRef<PresentationStageHandle, Props>(
       // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
-    const eyeCornered = phase !== 'idle' && phase !== 'done'
+    const eyeCornered =
+      phase === 'entering' || phase === 'playing' || phase === 'wrapping'
     const videoVisible = (phase === 'playing' || phase === 'wrapping') && !paused
 
     return (
       <div className="absolute inset-0 pointer-events-none">
-        {/* Lucy eye animates centered → cornered */}
+        {/* Lucy eye — cross-fade between a full-detail centred instance
+            and a full-detail cornered instance. Rendering each at its own
+            native size preserves the iris, pupil, ticks and scan rings at
+            both sizes (CSS scaling at 0.3 was washing out the inner detail). */}
         <div
           className="pointer-events-auto"
           style={{
             position: 'absolute',
-            top: eyeCornered ? 12 : '50%',
-            left: eyeCornered ? 12 : '50%',
-            transform: `translate(${eyeCornered ? '0, 0' : '-50%, -50%'}) scale(${eyeCornered ? 0.3 : 1})`,
-            transformOrigin: 'top left',
-            transition:
-              'top 1.6s cubic-bezier(0.4, 0, 0.2, 1), left 1.6s cubic-bezier(0.4, 0, 0.2, 1), transform 1.6s cubic-bezier(0.4, 0, 0.2, 1)',
-            willChange: 'top, left, transform',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            opacity: eyeCornered ? 0 : 1,
+            transition: 'opacity 0.7s ease-in-out',
           }}
         >
           <LucyEye state={eyeState} size={220} levelRef={audioLevelRef} />
         </div>
+        <div
+          className="pointer-events-auto"
+          style={{
+            position: 'absolute',
+            top: 16,
+            left: 16,
+            opacity: eyeCornered ? 1 : 0,
+            transition: 'opacity 0.7s ease-in-out',
+          }}
+        >
+          <LucyEye state={eyeState} size={100} levelRef={audioLevelRef} />
+        </div>
 
-        {/* BOOK CALL button beneath the cornered eye */}
-        {eyeCornered && onBookCall && (
+        {/* BOOK CALL link beneath the cornered eye (replaces title label).
+            Opens Zac's Calendly in a new tab so the lead doesn't lose the
+            walkthrough. */}
+        {eyeCornered && (
           <div
             className="absolute pointer-events-auto"
             style={{
-              top: 88,
-              left: 12,
-              opacity: eyeCornered ? 1 : 0,
-              transition: 'opacity 0.6s ease-in-out 0.6s',
+              top: 130,
+              left: 16,
+              opacity: 1,
+              transition: 'opacity 0.7s ease-in-out 0.4s',
             }}
           >
-            <button
-              type="button"
-              onClick={onBookCall}
+            <a
+              href="https://calendly.com/zac-stayful/call"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary font-orbitron flex items-center whitespace-nowrap"
               style={{
                 borderRadius: 2,
@@ -515,11 +532,13 @@ const PresentationStage = forwardRef<PresentationStageHandle, Props>(
                 fontSize: '0.55rem',
                 letterSpacing: '0.14em',
                 padding: '0 0.6rem',
+                textDecoration: 'none',
               }}
               aria-label="Book a call with Zac"
+              onClick={() => onBookCall?.()}
             >
               BOOK CALL
-            </button>
+            </a>
           </div>
         )}
 
@@ -527,7 +546,7 @@ const PresentationStage = forwardRef<PresentationStageHandle, Props>(
         {paused && eyeCornered && (
           <div
             className="absolute pointer-events-none font-orbitron text-xs tracking-[0.3em]"
-            style={{ top: 130, left: 12, color: 'var(--amber)' }}
+            style={{ top: 172, left: 16, color: 'var(--amber)' }}
           >
             PAUSED
           </div>
@@ -575,7 +594,7 @@ const PresentationStage = forwardRef<PresentationStageHandle, Props>(
               left: 12,
               right: 12,
               bottom: 12,
-              top: 170,
+              top: 210,
             }}
           >
             {pausedPanel}
