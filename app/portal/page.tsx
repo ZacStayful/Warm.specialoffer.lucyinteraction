@@ -7,6 +7,8 @@ import FAQPanel from '@/components/FAQPanel'
 import BookingPanel from '@/components/BookingPanel'
 import DocumentRequest, { RequestedDoc } from '@/components/DocumentRequest'
 import VoiceButton from '@/components/VoiceButton'
+import PresentationStage from '@/components/PresentationStage'
+import { REVENUE_FORECAST_WALKTHROUGH } from '@/lib/presentation-script'
 import { LeadSession } from '@/lib/session'
 import { cleanForVoice } from '@/lib/voice-clean'
 import { InsightCard } from '@/components/InsightCard'
@@ -91,6 +93,7 @@ export default function PortalPage() {
   const [faqOpen, setFaqOpen] = useState(false)
   const [bookingOpen, setBookingOpen] = useState(false)
   const [docOpen, setDocOpen] = useState(false)
+  const [walkthroughOpen, setWalkthroughOpen] = useState(false)
   const [pendingDocs, setPendingDocs] = useState<RequestedDoc[] | null>(null)
   const [docPhase, setDocPhase] = useState<'idle' | 'confirm' | 'note'>('idle')
   const [isMuted, setIsMuted] = useState(false)
@@ -156,11 +159,11 @@ What would you like to do — carry on from before, or is there a fresh question
         } else if (isPreMeeting) {
           greeting = `Hello ${firstName}. Welcome to Stayful — I'm Lucy, Zac's assistant.
 
-I'm here to help you get to know how Stayful works and answer any questions you have about short-term letting${preMeetingPropertyClause} — the numbers, how we manage, the contract, anything at all.
+There are two things I can do for you here. I can walk you through exactly how a web meeting with Zac will go and what's covered — so you know what to expect before you book one. Or I can answer any questions you have right now about short-term letting${preMeetingPropertyClause} — the numbers, how we manage, the contract, anything at all.
 
-Down at the bottom you can browse common questions and pick any you'd like me to talk through, or if it's easier, just enable your microphone and speak to me directly. And whenever you'd like to go through your property's numbers in detail with Zac, there's a button in the top right to book a time with him.
+To start the meeting walkthrough, use the button labelled WATCH WALKTHROUGH in the top right. For questions, you can browse the common ones at the bottom of the screen, or just enable your microphone and speak to me directly. And whenever you're ready, the BOOK CALL button takes you straight to Zac's calendar.
 
-So — what would you like to know first?`
+So — would you like me to walk you through the meeting first, or is there something specific on your mind?`
         } else {
           greeting = `Hello ${firstName}. Welcome to your Stayful portal — I'm Lucy, Zac's assistant.
 
@@ -972,6 +975,24 @@ What would you like to go through first?`
               </svg>
             )}
           </button>
+          {session?.stage === 'pre-meeting' && (
+            <button
+              onClick={() => {
+                stopAudio()
+                setFaqOpen(false)
+                setDocOpen(false)
+                setBookingOpen(false)
+                setWalkthroughOpen(true)
+              }}
+              className="btn-primary px-3 text-xs font-orbitron tracking-widest flex items-center"
+              style={{ borderRadius: 2, height: 44 }}
+              aria-label="Watch a walkthrough of how the web meeting goes"
+              title="Watch a walkthrough of the web meeting"
+            >
+              <span className="hidden sm:inline">WATCH WALKTHROUGH</span>
+              <span className="sm:hidden">WALKTHROUGH</span>
+            </button>
+          )}
           <button
             onClick={() => {
               setFaqOpen(false)
@@ -1296,6 +1317,20 @@ What would you like to go through first?`
         leadName={session?.leadName}
         email={session?.email}
       />
+
+      {/* ── Meeting walkthrough (pre-meeting only) ── */}
+      {walkthroughOpen && (
+        <PresentationStage
+          script={REVENUE_FORECAST_WALKTHROUGH}
+          active={walkthroughOpen}
+          isMuted={isMuted}
+          onComplete={() => {
+            setWalkthroughOpen(false)
+            pushLucyMessage(REVENUE_FORECAST_WALKTHROUGH.closing)
+          }}
+          onCancel={() => setWalkthroughOpen(false)}
+        />
+      )}
 
       {/* ── Session expired overlay ── */}
       {sessionExpired && (
