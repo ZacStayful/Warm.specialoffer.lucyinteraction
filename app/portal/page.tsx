@@ -29,6 +29,7 @@ interface Message {
   presentationAction?: 'continue'
   suggestions?: string[]
   viz?: InsightType
+  vizAll?: InsightType[]
 }
 
 function generateId() {
@@ -134,6 +135,55 @@ export default function PortalPage() {
   const audioLevelRef = useRef(0)
   const decodeCtxRef = useRef<AudioContext | null>(null)
   const [activeInsight, setActiveInsight] = useState<InsightType | null>(null)
+  // Multi-visual queue: each Lucy answer can emit several viz cues; they
+  // play back-to-back, eye nudges right while any visual is on screen.
+  const [vizQueue, setVizQueue] = useState<InsightType[]>([])
+  const [vizPhase, setVizPhase] = useState<'idle' | 'showing' | 'fading'>('idle')
+
+  // Effect: pump the queue. When idle and queue has items, show the first.
+  useEffect(() => {
+    if (vizPhase !== 'idle') return
+    if (vizQueue.length === 0) {
+      if (activeInsight !== null) setActiveInsight(null)
+      return
+    }
+    const [next, ...rest] = vizQueue
+    setActiveInsight(next)
+    setVizQueue(rest)
+    setVizPhase('showing')
+  }, [vizPhase, vizQueue, activeInsight])
+
+  // Effect: visual is on screen — strict 6s hold before fading.
+  useEffect(() => {
+    if (vizPhase !== 'showing') return
+    const t = window.setTimeout(() => setVizPhase('fading'), 6000)
+    return () => clearTimeout(t)
+  }, [vizPhase, activeInsight])
+
+  // Effect: fade-out — 0.5s for the opacity transition, then back to idle
+  // (which lets the pump effect either show the next visual or return the
+  // eye to the centre).
+  useEffect(() => {
+    if (vizPhase !== 'fading') return
+    const t = window.setTimeout(() => setVizPhase('idle'), 500)
+    return () => clearTimeout(t)
+  }, [vizPhase])
+
+  function startVizSequence(cards: InsightType[]) {
+    // Clear current visual and queue, then enqueue the new sequence. If a
+    // visual is showing, the fade-out + pump cycle picks the new queue up
+    // automatically after the transition.
+    if (cards.length === 0) {
+      setVizQueue([])
+      if (vizPhase === 'showing') setVizPhase('fading')
+      return
+    }
+    setVizQueue(cards)
+    if (vizPhase === 'showing') setVizPhase('fading')
+    else if (vizPhase === 'idle') {
+      // nothing to do; the pump effect will fire on the queue change
+    }
+  }
 
   // ── Load session ──
   useEffect(() => {
@@ -340,12 +390,13 @@ What would you like to go through first?`
     setInput('')
     setIsSending(true)
     setEyeState('thinking')
-    // FAQ clicks tell us the exact topic — show that card immediately. Typed
-    // questions clear it; Lucy's hidden cue (below) sets it as she answers.
+    // FAQ clicks tell us the exact topic — start the viz queue with that
+    // card; Lucy may emit further viz cues during streaming which append
+    // to the same queue and play sequentially (6s each).
     const faqCard: InsightType | null = meta.faqCategory
       ? CATEGORY_TO_CARD[meta.faqCategory] ?? null
       : null
-    setActiveInsight(faqCard)
+    startVizSequence(faqCard ? [faqCard] : [])
 
     const assistantId = generateId()
     setMessages(prev => [
@@ -388,6 +439,9 @@ What would you like to go through first?`
       let fullText = ''
       let pending = '' // streamed text not yet sent for summary + speech
       let vizCard: InsightType | null = faqCard // topic for replay + chips
+      // Full sequence of viz cues Lucy emits during this answer — persisted
+      // on the message so the replay button can re-run the same sequence.
+      const vizSequence: InsightType[] = faqCard ? [faqCard] : []
 
       // Fresh speech session. We summarise and speak in chunks as the answer
       // streams, so Lucy starts talking before the full text is generated.
@@ -424,13 +478,17 @@ What would you like to go through first?`
                 }
               }
             } else if (parsed.type === 'viz' && isInsightType(parsed.card)) {
-              // Lucy's hidden cue — show the panel matching what she's saying,
-              // and remember it on the message for replay + on-topic chips.
+              // Lucy's hidden cue — append to the viz queue (plays after the
+              // current one finishes its 6s hold) and remember it on the
+              // message for replay.
               vizCard = parsed.card
-              setActiveInsight(parsed.card)
+              vizSequence.push(parsed.card)
+              setVizQueue(q => [...q, parsed.card])
               setMessages(prev =>
                 prev.map(m =>
-                  m.id === assistantId ? { ...m, viz: parsed.card } : m
+                  m.id === assistantId
+                    ? { ...m, viz: m.viz ?? parsed.card, vizAll: [...vizSequence] }
+                    : m
                 )
               )
             }
@@ -1098,43 +1156,146 @@ What would you like to go through first?`
            constrain so it scrolls internally instead of growing the page. ── */}
       <div className="flex-1 flex flex-col relative" style={{ minHeight: 0 }}>
 
-      {/* ── Lucy Eye — central focal point ── */}
+      {/* ── Lucy Eye + side-by-side visual ──
+           On desktop, when Lucy emits a viz card, the eye slides right and
+           the card appears to its left for 6s before fading out. Multiple
+           cards play in sequence. On mobile we fall back to the previous
+           stacked layout (card below the eye), since side-by-side won't
+           fit on a phone-width screen. ── */}
       <div
-        className="relative z-10 flex flex-col items-center justify-center pt-3 pb-2 sm:pt-6 sm:pb-3 flex-shrink-0"
-        style={{ display: walkthroughOpen ? 'none' : 'flex' }}
+        className="relative z-10 flex-shrink-0"
+        style={{
+          display: walkthroughOpen ? 'none' : 'block',
+          paddingTop: '0.75rem',
+          paddingBottom: '0.5rem',
+        }}
       >
-        <div className="relative">
+        {isDesktop ? (
           <div
-            className="absolute inset-0 rounded-full"
-            style={{
-              background:
-                'radial-gradient(circle, rgba(93,129,86,0.12) 0%, transparent 70%)',
-              transform: 'scale(1.8)',
-            }}
-          />
-          <LucyEye state={eyeState} size={isDesktop ? 220 : 160} levelRef={audioLevelRef} />
-        </div>
-        <p
-          className="font-orbitron text-xs tracking-[0.3em] mt-3 transition-colors"
-          style={{
-            color:
-              eyeState === 'idle' ? 'var(--text-muted)' : 'var(--green-bright)',
-          }}
-        >
-          {statusLabel}
-        </p>
-        {activeInsight && session && (
-          <div className="mt-3 w-full flex justify-center px-4">
-            <InsightCard
-              type={activeInsight}
-              nation={detectNation(session.address)}
-              figures={{
-                strProfit: session.strProfit,
-                longTermLet: session.longTermLet,
-                rentMortgage: session.rentMortgage,
-                annualRentMortgage: session.annualRentMortgage,
+            className="relative mx-auto"
+            style={{ height: 260, maxWidth: 980 }}
+          >
+            {/* Visual slot — absolute, fades opacity */}
+            <div
+              style={{
+                position: 'absolute',
+                top: '50%',
+                left: '50%',
+                transform: `translate(calc(-100% - ${110 + 24}px), -50%)`,
+                opacity: vizPhase === 'showing' ? 1 : 0,
+                transition: 'opacity 0.5s ease-in-out',
+                pointerEvents: vizPhase === 'showing' ? 'auto' : 'none',
               }}
-            />
+            >
+              {activeInsight && session && (
+                <div key={activeInsight} className="fade-up" style={{ width: 360 }}>
+                  <InsightCard
+                    type={activeInsight}
+                    nation={detectNation(session.address)}
+                    figures={{
+                      strProfit: session.strProfit,
+                      longTermLet: session.longTermLet,
+                      rentMortgage: session.rentMortgage,
+                      annualRentMortgage: session.annualRentMortgage,
+                    }}
+                  />
+                </div>
+              )}
+            </div>
+            {/* Eye — centred by default; shifts right when any visual is on
+                screen (vizPhase showing OR fading, so it stays right between
+                queued visuals and only returns to centre after the last
+                fades out). */}
+            <div
+              style={{
+                position: 'absolute',
+                top: '50%',
+                left: '50%',
+                transform:
+                  vizPhase !== 'idle'
+                    ? 'translate(calc(-50% + 192px), -50%)'
+                    : 'translate(-50%, -50%)',
+                transition: 'transform 0.6s cubic-bezier(0.4, 0, 0.2, 1)',
+              }}
+            >
+              <div className="relative">
+                <div
+                  className="absolute inset-0 rounded-full"
+                  style={{
+                    background:
+                      'radial-gradient(circle, rgba(93,129,86,0.12) 0%, transparent 70%)',
+                    transform: 'scale(1.8)',
+                  }}
+                />
+                <LucyEye
+                  state={eyeState}
+                  size={220}
+                  levelRef={audioLevelRef}
+                />
+              </div>
+              <p
+                className="font-orbitron text-xs tracking-[0.3em] mt-3 text-center transition-colors"
+                style={{
+                  color:
+                    eyeState === 'idle'
+                      ? 'var(--text-muted)'
+                      : 'var(--green-bright)',
+                }}
+              >
+                {statusLabel}
+              </p>
+            </div>
+          </div>
+        ) : (
+          // Mobile fallback — stacked (eye on top, card below).
+          <div className="flex flex-col items-center justify-center px-4">
+            <div className="relative">
+              <div
+                className="absolute inset-0 rounded-full"
+                style={{
+                  background:
+                    'radial-gradient(circle, rgba(93,129,86,0.12) 0%, transparent 70%)',
+                  transform: 'scale(1.8)',
+                }}
+              />
+              <LucyEye state={eyeState} size={160} levelRef={audioLevelRef} />
+            </div>
+            <p
+              className="font-orbitron text-xs tracking-[0.3em] mt-3 transition-colors"
+              style={{
+                color:
+                  eyeState === 'idle'
+                    ? 'var(--text-muted)'
+                    : 'var(--green-bright)',
+              }}
+            >
+              {statusLabel}
+            </p>
+            <div
+              style={{
+                width: '100%',
+                marginTop: 12,
+                opacity: vizPhase === 'showing' ? 1 : 0,
+                transition: 'opacity 0.5s ease-in-out, max-height 0.5s ease-in-out',
+                maxHeight: vizPhase === 'showing' ? 600 : 0,
+                overflow: 'hidden',
+              }}
+            >
+              {activeInsight && session && (
+                <div key={activeInsight} className="w-full flex justify-center">
+                  <InsightCard
+                    type={activeInsight}
+                    nation={detectNation(session.address)}
+                    figures={{
+                      strProfit: session.strProfit,
+                      longTermLet: session.longTermLet,
+                      rentMortgage: session.rentMortgage,
+                      annualRentMortgage: session.annualRentMortgage,
+                    }}
+                  />
+                </div>
+              )}
+            </div>
           </div>
         )}
       </div>
@@ -1177,7 +1338,12 @@ What would you like to go through first?`
                       <button
                         type="button"
                         onClick={() => {
-                          if (msg.viz) setActiveInsight(msg.viz)
+                          const sequence = msg.vizAll && msg.vizAll.length > 0
+                            ? msg.vizAll
+                            : msg.viz
+                            ? [msg.viz]
+                            : []
+                          startVizSequence(sequence)
                           playTTS(msg.voiceText || cleanForVoice(msg.content))
                         }}
                         className="flex items-center justify-center"
