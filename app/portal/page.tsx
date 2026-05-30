@@ -7,7 +7,7 @@ import FAQPanel from '@/components/FAQPanel'
 import BookingPanel from '@/components/BookingPanel'
 import DocumentRequest, { RequestedDoc } from '@/components/DocumentRequest'
 import VoiceButton from '@/components/VoiceButton'
-import PresentationStage from '@/components/PresentationStage'
+import PresentationStage, { PresentationStageHandle } from '@/components/PresentationStage'
 import { REVENUE_FORECAST_WALKTHROUGH } from '@/lib/presentation-script'
 import { LeadSession } from '@/lib/session'
 import { cleanForVoice } from '@/lib/voice-clean'
@@ -26,6 +26,7 @@ interface Message {
   voiceText?: string
   isStreaming?: boolean
   docAction?: 'confirm'
+  presentationAction?: 'continue'
   suggestions?: string[]
   viz?: InsightType
 }
@@ -94,6 +95,9 @@ export default function PortalPage() {
   const [bookingOpen, setBookingOpen] = useState(false)
   const [docOpen, setDocOpen] = useState(false)
   const [walkthroughOpen, setWalkthroughOpen] = useState(false)
+  const [presentationPaused, setPresentationPaused] = useState(false)
+  const walkthroughOpenRef = useRef(false)
+  const stageRef = useRef<PresentationStageHandle | null>(null)
   const [pendingDocs, setPendingDocs] = useState<RequestedDoc[] | null>(null)
   const [docPhase, setDocPhase] = useState<'idle' | 'confirm' | 'note'>('idle')
   const [isMuted, setIsMuted] = useState(false)
@@ -252,6 +256,13 @@ What would you like to go through first?`
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
   }, [messages])
 
+  // Keep a ref version of walkthroughOpen so async sendMessage closures see
+  // the current value without re-binding handlers.
+  useEffect(() => {
+    walkthroughOpenRef.current = walkthroughOpen
+    if (!walkthroughOpen) setPresentationPaused(false)
+  }, [walkthroughOpen])
+
   // Keep mute state readable from listener closures without re-binding them
   useEffect(() => {
     mutedRef.current = isMuted
@@ -297,6 +308,14 @@ What would you like to go through first?`
   async function sendMessage(content: string, meta: SendMeta = {}) {
     if (!content.trim() || isSending) return
     const source = meta.source || 'text'
+
+    // If a walkthrough is playing, pause it so Lucy can field the question
+    // before resuming. Captured here so the continue-prompt knows to fire.
+    const interruptingWalkthrough = walkthroughOpenRef.current
+    if (interruptingWalkthrough) {
+      stageRef.current?.pause()
+      setPresentationPaused(true)
+    }
 
     abortRef.current?.abort()
     abortRef.current = new AbortController()
@@ -437,8 +456,19 @@ What would you like to go through first?`
       else pumpSpeech()
 
       // Offer one-tap follow-ups to keep the conversation going.
-      if (fullText.trim())
+      // Skip suggestions when interrupting a walkthrough — the continue
+      // prompt below takes precedence.
+      if (fullText.trim() && !interruptingWalkthrough)
         void loadSuggestions(content, fullText, vizCard, assistantId, ac.signal)
+
+      // Lead interrupted the walkthrough to ask something. Now that Lucy
+      // has answered, ask whether they'd like to pick the example back up.
+      if (interruptingWalkthrough && walkthroughOpenRef.current) {
+        pushLucyMessage(
+          'Want to pick the example presentation back up where we left off?',
+          { presentationAction: 'continue' }
+        )
+      }
     } catch (err: any) {
       if (err.name === 'AbortError') {
         setMessages(prev => prev.filter(m => m.id !== assistantId))
@@ -792,6 +822,18 @@ What would you like to go through first?`
     ])
   }
 
+  // ── Walkthrough interrupt flow ──
+  function handleResumeWalkthrough() {
+    setPresentationPaused(false)
+    stageRef.current?.resume()
+  }
+
+  function handleEndWalkthrough() {
+    stageRef.current?.pause()
+    setWalkthroughOpen(false)
+    setPresentationPaused(false)
+  }
+
   function handleDocRequest(docs: RequestedDoc[]) {
     setDocOpen(false)
     setPendingDocs(docs)
@@ -1023,8 +1065,19 @@ What would you like to go through first?`
         </div>
       </header>
 
+      {/* ── Main stage wrapper — hosts the centered eye, messages, and the
+           walkthrough overlay so they share a positioning context. ── */}
+      <div className="flex-1 flex flex-col relative">
+
       {/* ── Lucy Eye — central focal point ── */}
-      <div className="relative z-10 flex flex-col items-center justify-center pt-3 pb-2 sm:pt-6 sm:pb-3 flex-shrink-0">
+      <div
+        className="relative z-10 flex flex-col items-center justify-center pt-3 pb-2 sm:pt-6 sm:pb-3 flex-shrink-0"
+        style={{
+          opacity: walkthroughOpen ? 0 : 1,
+          pointerEvents: walkthroughOpen ? 'none' : 'auto',
+          transition: 'opacity 0.6s ease-in-out',
+        }}
+      >
         <div className="relative">
           <div
             className="absolute inset-0 rounded-full"
@@ -1063,8 +1116,14 @@ What would you like to go through first?`
 
       {/* ── Messages ── */}
       <div
-        className="relative z-10 flex-1 overflow-y-auto px-4 pt-2 pb-6"
-        style={{ scrollbarWidth: 'thin' }}
+        className="relative z-10 flex-1 overflow-y-auto px-4 pb-6"
+        style={{
+          scrollbarWidth: 'thin',
+          paddingTop: walkthroughOpen && presentationPaused ? 110 : 8,
+          opacity: walkthroughOpen && !presentationPaused ? 0 : 1,
+          pointerEvents: walkthroughOpen && !presentationPaused ? 'none' : 'auto',
+          transition: 'opacity 0.4s ease-in-out, padding-top 0.4s ease-in-out',
+        }}
       >
         <div className="max-w-2xl mx-auto flex flex-col gap-4">
           {messages.map((msg, i) => (
@@ -1154,11 +1213,36 @@ What would you like to go through first?`
                   </div>
                 )}
 
+                {msg.presentationAction === 'continue' &&
+                  walkthroughOpen &&
+                  presentationPaused &&
+                  i === messages.length - 1 && (
+                    <div className="flex flex-wrap gap-2 mt-3">
+                      <button
+                        type="button"
+                        onClick={handleResumeWalkthrough}
+                        className="btn-primary px-4 py-2 text-xs"
+                        style={{ borderRadius: 2 }}
+                      >
+                        Yes, continue
+                      </button>
+                      <button
+                        type="button"
+                        onClick={handleEndWalkthrough}
+                        className="btn-ghost px-4 py-2 text-xs"
+                        style={{ borderRadius: 2 }}
+                      >
+                        End here
+                      </button>
+                    </div>
+                  )}
+
                 {msg.role === 'assistant' &&
                   msg.suggestions &&
                   msg.suggestions.length > 0 &&
                   i === messages.length - 1 &&
-                  !isSending && (
+                  !isSending &&
+                  !walkthroughOpen && (
                     <div className="mt-3 pt-3" style={{ borderTop: '1px solid var(--border)' }}>
                       <p
                         className="font-orbitron tracking-[0.2em] mb-2"
@@ -1186,6 +1270,29 @@ What would you like to go through first?`
           ))}
           <div ref={messagesEndRef} />
         </div>
+      </div>
+
+      {/* ── Walkthrough overlay (pre-meeting only) ── */}
+      {walkthroughOpen && (
+        <PresentationStage
+          ref={stageRef}
+          script={REVENUE_FORECAST_WALKTHROUGH}
+          active={walkthroughOpen}
+          isMuted={isMuted}
+          levelRef={audioLevelRef}
+          onBookCall={() => {
+            stageRef.current?.pause()
+            setPresentationPaused(true)
+            setBookingOpen(true)
+          }}
+          onComplete={() => {
+            setWalkthroughOpen(false)
+            pushLucyMessage(REVENUE_FORECAST_WALKTHROUGH.closing)
+          }}
+          onCancel={() => setWalkthroughOpen(false)}
+        />
+      )}
+
       </div>
 
       {/* ── Input ── */}
@@ -1323,20 +1430,6 @@ What would you like to go through first?`
         leadName={session?.leadName}
         email={session?.email}
       />
-
-      {/* ── Meeting walkthrough (pre-meeting only) ── */}
-      {walkthroughOpen && (
-        <PresentationStage
-          script={REVENUE_FORECAST_WALKTHROUGH}
-          active={walkthroughOpen}
-          isMuted={isMuted}
-          onComplete={() => {
-            setWalkthroughOpen(false)
-            pushLucyMessage(REVENUE_FORECAST_WALKTHROUGH.closing)
-          }}
-          onCancel={() => setWalkthroughOpen(false)}
-        />
-      )}
 
       {/* ── Session expired overlay ── */}
       {sessionExpired && (
