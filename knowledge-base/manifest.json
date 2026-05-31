@@ -1,0 +1,267 @@
+{
+  "schema_version": "3.0",
+  "generated_at": "2026-05-31T00:00:00Z",
+  "generator": "Stayful Meeting Agent KB Builder v3.0",
+  "repository": "ZacStayful/Warm.specialoffer.lucyinteraction",
+  "branch": "claude/beautiful-mendel-iGWrg",
+  "kb_root": "knowledge-base/",
+  "summary": {
+    "total_entries": 50,
+    "entries_in_dataset": [
+      "001",
+      "002",
+      "003",
+      "004",
+      "005",
+      "006",
+      "007",
+      "008",
+      "009",
+      "010",
+      "011",
+      "012",
+      "013",
+      "014",
+      "015",
+      "016",
+      "017",
+      "018",
+      "019",
+      "020",
+      "021",
+      "022",
+      "023",
+      "024",
+      "025",
+      "026",
+      "027",
+      "028",
+      "029",
+      "030",
+      "031",
+      "032",
+      "033",
+      "034",
+      "035",
+      "036",
+      "037",
+      "038",
+      "039",
+      "040",
+      "041",
+      "042",
+      "043",
+      "044",
+      "045",
+      "046",
+      "047",
+      "050",
+      "051",
+      "052"
+    ],
+    "missing_entries": [
+      "048",
+      "049"
+    ],
+    "quarter": "2026-Q2",
+    "date_range": {
+      "earliest": "2026-03-09",
+      "latest": "2026-05-25"
+    },
+    "converted_leads": [
+      "019",
+      "036",
+      "044",
+      "045"
+    ],
+    "conversion_rate": "8%",
+    "total_files_in_kb": 84,
+    "total_kb_size_bytes": 373357
+  },
+  "pipeline_stats": {
+    "outcomes": {
+      "Customer": 4,
+      "Special offer applied": 10,
+      "Warm": 19,
+      "Abandoned/Lost": 17
+    },
+    "profiles": {
+      "STL-SW": 16,
+      "EX-STL": 10,
+      "PURCH": 9,
+      "SELL": 5,
+      "ABROAD": 5,
+      "R2R": 5
+    },
+    "delay_signals": {
+      "DLY-PUR": 7,
+      "DLY-MOV": 5,
+      "DLY-OTH": 4,
+      "DLY-TEN": 3,
+      "DLY-FUR": 2
+    },
+    "offers_made": 26,
+    "conversion_rate_pct": 8.0
+  },
+  "directories": {
+    "transcripts": {
+      "path": "knowledge-base/transcripts/2026-Q2/",
+      "description": "Individual entry files, one per web meeting",
+      "file_count": 50,
+      "format": "JSON, schema 3.0"
+    },
+    "pattern_intelligence": {
+      "path": "knowledge-base/pattern-intelligence/",
+      "description": "Aggregate patterns by profile type, emotional archetype, delay type",
+      "subdirectories": [
+        "by-profile-type/",
+        "by-emotional-profile/",
+        "by-delay-type/"
+      ],
+      "top_level_files": [
+        "lost-reason-patterns.json",
+        "offer-timing-intelligence.json"
+      ]
+    },
+    "response_library": {
+      "path": "knowledge-base/response-library/",
+      "description": "Canonical objections, questions, closing scripts, do-not-say list",
+      "files": [
+        "objections.json",
+        "questions.json",
+        "closing-scripts.json",
+        "do-not-say.json"
+      ]
+    },
+    "playbook": {
+      "path": "knowledge-base/playbook/",
+      "description": "Human-readable playbook documents for agent and Zac",
+      "files": [
+        "meeting-runbook.md",
+        "qualification-framework.md",
+        "zac-voice.md",
+        "presentation-guide.md"
+      ]
+    },
+    "context": {
+      "path": "knowledge-base/context/",
+      "description": "Quick reference context files for pre-call briefing",
+      "files": [
+        "quick-stats.md",
+        "delay-and-green-light-reference.md",
+        "emotional-profiles-summary.md",
+        "offer-triggers-reference.md",
+        "pre-call-brief-template.md"
+      ]
+    }
+  },
+  "data_sources": {
+    "google_drive_folder": "1OTunhg09OSslWn0F_9Qy6fTX5ZMnAv1v",
+    "monday_board": "5891626711",
+    "granola_used": true,
+    "granola_note": "Transcripts unavailable on current tier; structured meeting summaries used via get_meetings"
+  },
+  "archetype_coverage": {
+    "total_archetypes": 8,
+    "confirmed_assignments": 7,
+    "inferred_assignments": 43,
+    "archetypes_with_zero_confirmed": [
+      "urgency-driven",
+      "status-quo-resistant",
+      "betrayal-damaged",
+      "social-proof-dependent"
+    ]
+  },
+  "kb_confidence": {
+    "overall": "medium-building",
+    "transcript_quality": "mixed \u2014 entries 001-035 summary_only; 036-052 full structured intelligence",
+    "pattern_strength": "growing \u2014 50 meetings provides early signal but more data needed",
+    "recommended_rebuild_trigger": "every 25 new entries OR major methodology change"
+  },
+  "file_sizes": {
+    "transcripts/2026-Q2/entry-001.json": 1662,
+    "transcripts/2026-Q2/entry-002.json": 1666,
+    "transcripts/2026-Q2/entry-003.json": 3837,
+    "transcripts/2026-Q2/entry-004.json": 3916,
+    "transcripts/2026-Q2/entry-005.json": 2864,
+    "transcripts/2026-Q2/entry-006.json": 1737,
+    "transcripts/2026-Q2/entry-007.json": 1642,
+    "transcripts/2026-Q2/entry-008.json": 1644,
+    "transcripts/2026-Q2/entry-009.json": 1854,
+    "transcripts/2026-Q2/entry-010.json": 1640,
+    "transcripts/2026-Q2/entry-011.json": 2805,
+    "transcripts/2026-Q2/entry-012.json": 3217,
+    "transcripts/2026-Q2/entry-013.json": 2456,
+    "transcripts/2026-Q2/entry-014.json": 3140,
+    "transcripts/2026-Q2/entry-015.json": 2679,
+    "transcripts/2026-Q2/entry-016.json": 2236,
+    "transcripts/2026-Q2/entry-017.json": 3036,
+    "transcripts/2026-Q2/entry-018.json": 3029,
+    "transcripts/2026-Q2/entry-019.json": 2416,
+    "transcripts/2026-Q2/entry-020.json": 2190,
+    "transcripts/2026-Q2/entry-021.json": 2143,
+    "transcripts/2026-Q2/entry-022.json": 2242,
+    "transcripts/2026-Q2/entry-023.json": 2251,
+    "transcripts/2026-Q2/entry-024.json": 2242,
+    "transcripts/2026-Q2/entry-025.json": 2243,
+    "transcripts/2026-Q2/entry-026.json": 2499,
+    "transcripts/2026-Q2/entry-027.json": 2133,
+    "transcripts/2026-Q2/entry-028.json": 2716,
+    "transcripts/2026-Q2/entry-029.json": 2185,
+    "transcripts/2026-Q2/entry-030.json": 2754,
+    "transcripts/2026-Q2/entry-031.json": 3173,
+    "transcripts/2026-Q2/entry-032.json": 2255,
+    "transcripts/2026-Q2/entry-033.json": 2905,
+    "transcripts/2026-Q2/entry-034.json": 2512,
+    "transcripts/2026-Q2/entry-035.json": 2240,
+    "transcripts/2026-Q2/entry-036.json": 4752,
+    "transcripts/2026-Q2/entry-037.json": 3005,
+    "transcripts/2026-Q2/entry-038.json": 1980,
+    "transcripts/2026-Q2/entry-039.json": 1889,
+    "transcripts/2026-Q2/entry-040.json": 2289,
+    "transcripts/2026-Q2/entry-041.json": 1842,
+    "transcripts/2026-Q2/entry-042.json": 1633,
+    "transcripts/2026-Q2/entry-043.json": 1883,
+    "transcripts/2026-Q2/entry-044.json": 2808,
+    "transcripts/2026-Q2/entry-045.json": 4480,
+    "transcripts/2026-Q2/entry-046.json": 5088,
+    "transcripts/2026-Q2/entry-047.json": 5073,
+    "transcripts/2026-Q2/entry-050.json": 6000,
+    "transcripts/2026-Q2/entry-051.json": 6527,
+    "transcripts/2026-Q2/entry-052.json": 5134,
+    "response-library/closing-scripts.json": 4991,
+    "response-library/do-not-say.json": 3306,
+    "response-library/objections.json": 37266,
+    "response-library/questions.json": 4876,
+    "playbook/meeting-runbook.md": 7512,
+    "playbook/presentation-guide.md": 11631,
+    "playbook/qualification-framework.md": 9260,
+    "playbook/zac-voice.md": 10909,
+    "pattern-intelligence/lost-reason-patterns.json": 5974,
+    "pattern-intelligence/offer-timing-intelligence.json": 7343,
+    "pattern-intelligence/by-profile-type/ABROAD.json": 7291,
+    "pattern-intelligence/by-profile-type/EX-STL.json": 8363,
+    "pattern-intelligence/by-profile-type/PURCH.json": 6853,
+    "pattern-intelligence/by-profile-type/R2R.json": 4446,
+    "pattern-intelligence/by-profile-type/SELL.json": 6426,
+    "pattern-intelligence/by-profile-type/STL-SW.json": 8053,
+    "pattern-intelligence/by-emotional-profile/analytical-evaluator.json": 7045,
+    "pattern-intelligence/by-emotional-profile/betrayal-damaged.json": 2063,
+    "pattern-intelligence/by-emotional-profile/certainty-seeker.json": 5150,
+    "pattern-intelligence/by-emotional-profile/fast-path-gain-focused.json": 6029,
+    "pattern-intelligence/by-emotional-profile/loss-averse-switcher.json": 6652,
+    "pattern-intelligence/by-emotional-profile/social-proof-dependent.json": 2093,
+    "pattern-intelligence/by-emotional-profile/status-quo-resistant.json": 1974,
+    "pattern-intelligence/by-emotional-profile/urgency-driven.json": 1996,
+    "pattern-intelligence/by-delay-type/DLY-FUR.json": 2401,
+    "pattern-intelligence/by-delay-type/DLY-MOV.json": 2487,
+    "pattern-intelligence/by-delay-type/DLY-OTH.json": 2886,
+    "pattern-intelligence/by-delay-type/DLY-PUR.json": 2804,
+    "pattern-intelligence/by-delay-type/DLY-TEN.json": 2423,
+    "context/delay-and-green-light-reference.md": 10102,
+    "context/emotional-profiles-summary.md": 11936,
+    "context/offer-triggers-reference.md": 6982,
+    "context/pre-call-brief-template.md": 8742,
+    "context/quick-stats.md": 4550
+  }
+}
