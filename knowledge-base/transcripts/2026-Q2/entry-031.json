@@ -1,0 +1,109 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "031",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-03-13",
+  "transcript_quality": "summary_only",
+  "lead_name": "Hany Rashwan",
+  "email": "hrashwan7@gmail.com",
+  "monday_id": "11503154761",
+  "address": "B16 8JG",
+  "bedrooms": 3,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Delayed \u2014 existing letting agency tenancy ends August 2026. B16 Birmingham 3-bed. Needs re-engagement August. High potential if timeline holds.",
+  "emotional_profile": "",
+  "conversion_likelihood": 4,
+  "profile_confidence": "low",
+  "primary_blocker": "letting agency \u2014 August is when notice period ends",
+  "language_signals": [
+    "need to free up the property first",
+    "August is likely"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm \u2014 In Future",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-TEN",
+      "trigger_phrase": "letting agency \u2014 August is when notice period ends",
+      "context": "Birmingham B16 currently with letting agency",
+      "timeline_given": "August 2026",
+      "resolved_in_meeting": true
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {},
+  "meeting_flow": {},
+  "lead_responses": [
+    {
+      "what_lead_said": "Must exit letting agency first (August timeline)",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Videos and case studies sent \u2014 awaiting re-engagement",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Hands-off model",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "Guest vetting and cleaning coordination",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "Monthly statements",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    }
+  ],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "",
+    "what_they_focused_on": [],
+    "what_they_needed_most": [],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": ""
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

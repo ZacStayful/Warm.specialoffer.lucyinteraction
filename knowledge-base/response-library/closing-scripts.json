@@ -1,0 +1,107 @@
+{
+  "schema_version": "3.0",
+  "total_closes_analysed": 26,
+  "last_updated": "2026-05-31",
+  "pre_close_setups": [
+    {
+      "approach": "Document the current pain, then contrast",
+      "verbatim": "So just to summarise what you've told me \u2014 [current provider/situation] has been costing you [specific loss/frustration]. Here's what that looks like if we can fix it.",
+      "frequency": 3,
+      "works_for_archetypes": [
+        "loss-averse-switcher",
+        "betrayal-damaged"
+      ]
+    },
+    {
+      "approach": "Income gap framing",
+      "verbatim": "The difference between where you are now and where you could be is [\u00a3X/year]. The question is just timing.",
+      "frequency": 5,
+      "works_for_archetypes": [
+        "fast-path-gain-focused",
+        "analytical-evaluator"
+      ]
+    }
+  ],
+  "offer_framings": [
+    {
+      "verbatim": "I want to make it easy for you to say yes \u2014 so I'm going to offer you 13% instead of our standard 15%. That's locked in for the life of the contract. If you can confirm by [specific date], I'll get the agreement over today.",
+      "rate": "13%+VAT",
+      "expiry_framing": "specific calendar date",
+      "frequency": 12,
+      "acceptance_rate": 0.35,
+      "best_for_archetypes": [
+        "loss-averse-switcher",
+        "analytical-evaluator",
+        "urgency-driven"
+      ]
+    },
+    {
+      "verbatim": "I'll match the rate on your [existing property] \u2014 13% across both. Makes the decision simple.",
+      "rate": "13%+VAT",
+      "expiry_framing": "existing relationship match",
+      "frequency": 1,
+      "acceptance_rate": 1.0,
+      "best_for_archetypes": [
+        "existing_clients"
+      ]
+    }
+  ],
+  "meeting_2_asks": [
+    {
+      "verbatim": "Let's get something in the diary for [specific time] \u2014 even just 20 minutes. By then you'll have had a chance to look at the agreement and we can go through any questions.",
+      "frequency": 4,
+      "success_rate": 0.5
+    },
+    {
+      "verbatim": "I'm going to send you the action plan and agreement today. Can we speak again next [day] to go through it?",
+      "frequency": 6,
+      "success_rate": 0.45
+    }
+  ],
+  "recovery_when_not_ready": [
+    {
+      "situation": "Delay signal is present (tenant, purchase, renovation, relocation)",
+      "verbatim_response": "Completely understand \u2014 you need [X] to resolve first. Let me get the action plan over to you so everything is ready to move the moment that clears. And I'll put a note in the diary to call you in [N] weeks.",
+      "outcome": "Sets re-activation timeline, maintains relationship",
+      "frequency": 8
+    },
+    {
+      "situation": "Lead needs to discuss with partner",
+      "verbatim_response": "Of course \u2014 this is a joint decision. Send me over any questions you think [partner] might have and I'll answer them in writing so you have something to share. And let's find a time when you can both be on a call.",
+      "outcome": "Surfaces partner objections before they kill the deal",
+      "frequency": 3
+    },
+    {
+      "situation": "Lead is analytical and needs more data",
+      "verbatim_response": "Let me send you a worked example with your property's actual numbers \u2014 not percentages, but the specific net figure you'd see on your statement each month. If that works for you, the decision should be straightforward.",
+      "outcome": "Converts analytical objection into a calculation exercise",
+      "frequency": 4
+    }
+  ],
+  "delay_present_close": [
+    {
+      "delay_type": "DLY-TEN",
+      "close_approach": "Don't offer. Instead: 'Let me get the agreement sent so you have it when you're ready \u2014 and let's set a date to reconnect [N weeks before tenancy end].'",
+      "what_to_commit_to_instead": "Agreement review + specific re-activation date",
+      "frequency": 3
+    },
+    {
+      "delay_type": "DLY-PUR",
+      "close_approach": "Don't offer before exchange. After exchange: 'Congratulations \u2014 now let's get everything set up so you go live within 3 weeks of getting the keys.'",
+      "what_to_commit_to_instead": "Agreement ready to sign on completion day + setup quote",
+      "frequency": 7
+    },
+    {
+      "delay_type": "DLY-MOV",
+      "close_approach": "If departure < 60 days: set offer expiry to match departure date. 'You need to decide before you leave \u2014 here's the offer valid until [departure minus 7 days].'",
+      "what_to_commit_to_instead": "Agreement signed before departure + go-live plan post-departure",
+      "frequency": 5
+    }
+  ],
+  "what_never_to_do": [
+    "Make the offer while a delay signal is unresolved (unless ABROAD with imminent departure)",
+    "Offer without a specific expiry date \u2014 vague urgency creates no urgency",
+    "Make an offer and then extend it more than once \u2014 each extension reduces credibility",
+    "Close before documenting current provider failures for EX-STL leads \u2014 they need to be emotionally ready to leave first"
+  ]
+}

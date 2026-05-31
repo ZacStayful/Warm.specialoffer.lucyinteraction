@@ -1,0 +1,260 @@
+{
+  "schema_version": "3.0",
+  "profile_type": "PURCH",
+  "profile_description": "Purchasing or recently purchased a property specifically for short-let",
+  "total_entries": 9,
+  "last_updated": "2026-05-31",
+  "typical_situation": "Lead has found or is searching for a property to run as STL. May be at early stages (searching) or near completion (conveyancing). No existing STL income stream yet.",
+  "typical_motivation": "Investment return. Wants maximum income from new asset. Often has modelled income expectations before meeting.",
+  "typical_timeline": "Highly variable. Pre-exchange: 2-6 months. Post-exchange: weeks. Warning: do not offer before exchange.",
+  "most_common_emotional_profiles": [],
+  "most_common_delays": [
+    {
+      "delay_type": "DLY-PUR",
+      "count": 7,
+      "percentage": 77.8
+    }
+  ],
+  "most_common_green_lights": [],
+  "what_meeting_should_lead_with": "Income projections and return timeline. Make the numbers feel real. Then establish completion timeline \u2014 that's when conversion becomes possible.",
+  "top_questions": [
+    {
+      "question": "Income vs gross projections",
+      "frequency": 1,
+      "confidence": 0.11,
+      "best_answer": ""
+    },
+    {
+      "question": "Management fee and platform costs (~30-32%)",
+      "frequency": 1,
+      "confidence": 0.11,
+      "best_answer": ""
+    },
+    {
+      "question": "Mortgage and holiday let requirements",
+      "frequency": 1,
+      "confidence": 0.11,
+      "best_answer": ""
+    },
+    {
+      "question": "Owner access and calendar blocking",
+      "frequency": 1,
+      "confidence": 0.11,
+      "best_answer": ""
+    },
+    {
+      "question": "Property delays (unspecified)",
+      "frequency": 1,
+      "confidence": 0.11,
+      "best_answer": ""
+    },
+    {
+      "question": "Too many automated follow-up emails",
+      "frequency": 1,
+      "confidence": 0.11,
+      "best_answer": ""
+    },
+    {
+      "question": "Has not yet decided",
+      "frequency": 1,
+      "confidence": 0.11,
+      "best_answer": ""
+    },
+    {
+      "question": "Evaluating multiple management companies",
+      "frequency": 1,
+      "confidence": 0.11,
+      "best_answer": ""
+    },
+    {
+      "question": "Automated follow-ups felt excessive",
+      "frequency": 1,
+      "confidence": 0.11,
+      "best_answer": ""
+    },
+    {
+      "question": "Asked to be removed from sequence",
+      "frequency": 1,
+      "confidence": 0.11,
+      "best_answer": ""
+    },
+    {
+      "question": "Stopped responding after initial contact",
+      "frequency": 1,
+      "confidence": 0.11,
+      "best_answer": ""
+    },
+    {
+      "question": "Short offer window",
+      "frequency": 1,
+      "confidence": 0.11,
+      "best_answer": ""
+    }
+  ],
+  "top_objections": [
+    {
+      "objection": "Income vs gross projections",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Management fee and platform costs (~30-32%)",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Mortgage and holiday let requirements",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Owner access and calendar blocking",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Property delays (unspecified)",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Too many automated follow-up emails",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Has not yet decided",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Evaluating multiple management companies",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Automated follow-ups felt excessive",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Asked to be removed from sequence",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Stopped responding after initial contact",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Short offer window",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    }
+  ],
+  "top_conversion_gaps": [],
+  "what_moves_them": [
+    {
+      "point": "Income projections exceeded his own expectations (\u00a331.5k net vs assumed \u00a330k gross)",
+      "frequency": 1
+    },
+    {
+      "point": "Full management for overseas owner confirmed",
+      "frequency": 1
+    },
+    {
+      "point": "York is a particularly strong STL market",
+      "frequency": 1
+    },
+    {
+      "point": "Interest-only mortgage feasibility confirmed",
+      "frequency": 1
+    },
+    {
+      "point": "Leicester city centre location potential",
+      "frequency": 1
+    },
+    {
+      "point": "Existing client trust (Suffolk property)",
+      "frequency": 1
+    },
+    {
+      "point": "13% rate matched to existing property",
+      "frequency": 1
+    },
+    {
+      "point": "Fast go-live timeline \u2014 mid-June for summer bookings",
+      "frequency": 1
+    }
+  ],
+  "language_to_use": [
+    {
+      "phrase": "8-10 year horizon",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "10 days personal use per year",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "holiday let mortgage",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "property delays",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "too many emails",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "end of May",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "evaluating a few options",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "wait for them to get back in touch",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "too many emails",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "completion date",
+      "context": "Matched from lead language signals"
+    }
+  ],
+  "presentation_section_priority": [
+    "income_projections",
+    "roi_timeline",
+    "setup_process",
+    "go_live_timeline"
+  ],
+  "conversion_data": {
+    "total": 9,
+    "ready_now": 0,
+    "delayed": 7,
+    "had_meeting_2": 0,
+    "converted_to_customer": 1,
+    "conversion_rate": 11.1,
+    "most_common_lost_reason": "Lead stopped responding"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "3.0",
+  "archetype": "urgency-driven",
+  "archetype_description": "Acts fast when motivated. Needs momentum to be maintained after the first meeting.",
+  "total_entries": 0,
+  "last_updated": "2026-05-31",
+  "data_note": "Only 0 entries with this archetype assigned. Profiler has not run on most entries \u2014 scores will improve as Lead Psychology Profiler processes more leads.",
+  "what_they_focus_on": [],
+  "questions_they_ask": [],
+  "objections_they_raise": [],
+  "what_moves_them": [],
+  "what_falls_flat": [],
+  "language_to_mirror": [],
+  "meeting_guidance": {
+    "opening_approach": "Match their energy. Keep the meeting fast-paced. Don't slow them down with process.",
+    "what_to_lead_with": "The income opportunity and the cost of delay: 'Every month you wait is \u00a3X you're not earning.'",
+    "what_to_avoid": "Long timelines or process explanations that feel like obstacles.",
+    "close_approach": "Close in the meeting. If they're urgency-driven, the moment after the meeting is the peak of intent.",
+    "offer_framing": "Set a short expiry (7-10 days). Urgency-driven leads act fast or not at all."
+  },
+  "delay_signal_pattern": "Insufficient data \u2014 fewer than 5 entries with this archetype. Check again after profiler has processed more leads.",
+  "green_light_pattern": "Insufficient data \u2014 fewer than 5 entries with this archetype. Check again after profiler has processed more leads.",
+  "profile_type_intersections": {
+    "STL-SW": {
+      "count": 0,
+      "notes": ""
+    },
+    "EX-STL": {
+      "count": 0,
+      "notes": ""
+    },
+    "PURCH": {
+      "count": 0,
+      "notes": ""
+    },
+    "SELL": {
+      "count": 0,
+      "notes": ""
+    },
+    "ABROAD": {
+      "count": 0,
+      "notes": ""
+    },
+    "R2R": {
+      "count": 0,
+      "notes": ""
+    }
+  },
+  "conversion_data": {
+    "total": 0,
+    "ready_now": 0,
+    "delayed": 0,
+    "lost": 0,
+    "conversion_rate": 0.0,
+    "most_common_lost_reason": ""
+  }
+}

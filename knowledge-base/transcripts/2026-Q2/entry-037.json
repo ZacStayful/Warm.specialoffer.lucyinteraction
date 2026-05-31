@@ -1,0 +1,106 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "037",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-07",
+  "transcript_quality": "summary_only",
+  "lead_name": "Jack Mitchell",
+  "email": "jacksrmitchell@live.co.uk",
+  "monday_id": "11928280535",
+  "address": "BS3 4LA",
+  "bedrooms": 3,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Bristol BS3 3-bed. Call dropped halfway. Property also listed for sale. Strong income differential presented (\u00a365k vs \u00a330k). No response to follow-up. Needs re-engagement.",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "low",
+  "primary_blocker": "",
+  "language_signals": [
+    "listed for sale",
+    "furnishing costs",
+    "6-month minimum"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm \u2014 call cut short",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [],
+  "has_delay": false,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {},
+  "meeting_flow": {},
+  "lead_responses": [
+    {
+      "what_lead_said": "Technical issues cut call short",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Currently listed for sale \u2014 STL vs sale decision",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Furnishing costs",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "6-month minimum commitment",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "\u00a365,752/year net potential vs \u00a330k LTL",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    }
+  ],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "",
+    "what_they_focused_on": [],
+    "what_they_needed_most": [],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": ""
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

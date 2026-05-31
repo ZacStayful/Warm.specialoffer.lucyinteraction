@@ -1,0 +1,99 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "011",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-04-27",
+  "transcript_quality": "summary_only",
+  "lead_name": "Laura Duncker",
+  "email": "lauraduncker@hotmail.com",
+  "monday_id": "11854617634",
+  "address": "Matlock",
+  "bedrooms": 4,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "Matlock 4-bed existing STL. Call cut short. Special offer expired May 8. Status unclear \u2014 needs re-engagement.",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "low",
+  "primary_blocker": "",
+  "language_signals": [],
+  "portfolio_flag": false,
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "2026-05-08",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [],
+  "has_delay": false,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "existing STL property looking for better returns",
+      "context": "Currently with another provider",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {},
+  "meeting_flow": {},
+  "lead_responses": [
+    {
+      "what_lead_said": "Call cut short \u2014 heading out with school",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Not enough time to complete discussion",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "13% special offer rate",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "Better income potential than current arrangement",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    }
+  ],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "",
+    "what_they_focused_on": [],
+    "what_they_needed_most": [],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": ""
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

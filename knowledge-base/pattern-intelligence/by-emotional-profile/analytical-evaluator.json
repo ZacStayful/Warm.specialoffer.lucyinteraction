@@ -1,0 +1,249 @@
+{
+  "schema_version": "3.0",
+  "archetype": "analytical-evaluator",
+  "archetype_description": "Processes everything logically. Needs numbers, comparisons, and structured information.",
+  "total_entries": 3,
+  "last_updated": "2026-05-31",
+  "data_note": "Only 3 entries with this archetype assigned. Profiler has not run on most entries \u2014 scores will improve as Lead Psychology Profiler processes more leads.",
+  "what_they_focus_on": [
+    {
+      "point": "Wife less convinced \u2014 joint decision required",
+      "frequency": 1,
+      "confidence": 0.33,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "Darlington smaller market than Manchester",
+      "frequency": 1,
+      "confidence": 0.33,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "Setup cost \u00a35,000-6,000 for unfurnished property",
+      "frequency": 1,
+      "confidence": 0.33,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "Toilet leak \u2014 \u00a31,600 damage unaddressed",
+      "frequency": 1,
+      "confidence": 0.33,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "Hotel-style group listing \u2014 reviews not hers",
+      "frequency": 1,
+      "confidence": 0.33,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "Wi-Fi 4G router \u2014 lost Amazon relocation client",
+      "frequency": 1,
+      "confidence": 0.33,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "London-based concern (addressed in writing)",
+      "frequency": 1,
+      "confidence": 0.33,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "\u00a342/month software charge (raised before)",
+      "frequency": 1,
+      "confidence": 0.33,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "LSH fibre installation delay \u2014 blocking optimal Wi-Fi resolution",
+      "frequency": 1,
+      "confidence": 0.33,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "Managing the property remotely \u2014 stated as main concern",
+      "frequency": 1,
+      "confidence": 0.33,
+      "last_seen": "2026-05-31"
+    }
+  ],
+  "questions_they_ask": [],
+  "objections_they_raise": [
+    {
+      "objection": "Wife less convinced \u2014 joint decision required",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "Darlington smaller market than Manchester",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "Setup cost \u00a35,000-6,000 for unfurnished property",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "Toilet leak \u2014 \u00a31,600 damage unaddressed",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "Hotel-style group listing \u2014 reviews not hers",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "Wi-Fi 4G router \u2014 lost Amazon relocation client",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "London-based concern (addressed in writing)",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "\u00a342/month software charge (raised before)",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    }
+  ],
+  "what_moves_them": [
+    {
+      "point": "Floor rate framing: \u00a31,600/month net vs \u00a3650/month LTL",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "Fully hands-off management model",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "Contract worker demand in northeast",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "Surplus after \u00a3750/month owner costs clearly positive",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "Individual property listing \u2014 explicit reaction",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "Three-platform strategy",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "Direct booking for relocation/corporate clients",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "Monthly statements and Slack",
+      "frequency": 1,
+      "evidence": ""
+    }
+  ],
+  "what_falls_flat": [],
+  "language_to_mirror": [
+    {
+      "phrase": "at least \u00a3750 per month",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "completely hands off",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "no involvement in day-to-day",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "they just left the toilet leak",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "my pictures used to promote the whole building",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "I lost an Amazon relocation client",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "I just want someone to actually manage it properly",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "I'll have a think over the long weekend and come back next week",
+      "frequency": 1,
+      "context": "Lead language signal"
+    }
+  ],
+  "meeting_guidance": {
+    "opening_approach": "Be prepared. Have the Deal Analyser figures ready and correct. Any error in your numbers will create doubt.",
+    "what_to_lead_with": "The comparison table \u2014 LTL vs STL income, month-by-month. Give them the data to process.",
+    "what_to_avoid": "Emotional appeals. 'Trust me' without data. Vague percentages without worked examples.",
+    "close_approach": "Give them the calculation to do themselves: 'At 13%, on your projected \u00a3X annual gross, your net to you is \u00a3Y.' Let them verify.",
+    "offer_framing": "Present the offer as a mathematical decision: '13% vs 15% = \u00a3Z saving per year. Here's the maths.'"
+  },
+  "delay_signal_pattern": "Insufficient data \u2014 fewer than 5 entries with this archetype. Check again after profiler has processed more leads.",
+  "green_light_pattern": "Insufficient data \u2014 fewer than 5 entries with this archetype. Check again after profiler has processed more leads.",
+  "profile_type_intersections": {
+    "STL-SW": {
+      "count": 1,
+      "notes": ""
+    },
+    "EX-STL": {
+      "count": 1,
+      "notes": ""
+    },
+    "PURCH": {
+      "count": 0,
+      "notes": ""
+    },
+    "SELL": {
+      "count": 0,
+      "notes": ""
+    },
+    "ABROAD": {
+      "count": 1,
+      "notes": ""
+    },
+    "R2R": {
+      "count": 0,
+      "notes": ""
+    }
+  },
+  "conversion_data": {
+    "total": 3,
+    "ready_now": 1,
+    "delayed": 2,
+    "lost": 0,
+    "conversion_rate": 0.0,
+    "most_common_lost_reason": ""
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "003",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-04-27",
+  "transcript_quality": "summary_only",
+  "lead_name": "Brandon Schraeder",
+  "email": "elderredrasputin@yahoo.com",
+  "monday_id": "11831753795",
+  "address": "YO31 7JS",
+  "bedrooms": 1,
+  "profile_type": "PURCH",
+  "lead_profile_text": "Brandon purchasing York Minster flat for 8-10 year holiday let. STL income exceeded his expectations. Key blocker is purchase completing.",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "low",
+  "primary_blocker": "purchasing flat near York Minster",
+  "language_signals": [
+    "8-10 year horizon",
+    "10 days personal use per year",
+    "holiday let mortgage"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-PUR",
+      "trigger_phrase": "purchasing flat near York Minster",
+      "context": "Planning to buy for STL",
+      "timeline_given": "in progress",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {},
+  "meeting_flow": {},
+  "lead_responses": [
+    {
+      "what_lead_said": "Income vs gross projections",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Management fee and platform costs (~30-32%)",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Mortgage and holiday let requirements",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Owner access and calendar blocking",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Income projections exceeded his own expectations (\u00a331.5k net vs assumed \u00a330k gross)",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "Full management for overseas owner confirmed",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "York is a particularly strong STL market",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "Interest-only mortgage feasibility confirmed",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    }
+  ],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "PURCH",
+    "emotional_profile": "",
+    "what_they_focused_on": [],
+    "what_they_needed_most": [],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": ""
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

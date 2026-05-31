@@ -1,0 +1,93 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "044",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-18",
+  "transcript_quality": "partial",
+  "lead_name": "Gareth Howard",
+  "email": "garethdavidhoward@gmail.com",
+  "monday_id": "not_available",
+  "address": "M16 0NY",
+  "bedrooms": 1,
+  "profile_type": "PURCH",
+  "lead_profile_text": "CONVERTED \u2014 existing client adding second property. Trafford Gardens Manchester 1-bed. No sales required \u2014 existing trust from Suffolk property. Completion May 29. Operational entry: furnishing and go-live critical path.",
+  "emotional_profile": "",
+  "conversion_likelihood": 10,
+  "profile_confidence": "low",
+  "primary_blocker": "completing May 29 \u2014 developer-imposed deadline",
+  "language_signals": [
+    "completion date",
+    "summer bookings",
+    "key collection"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Converted",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": true,
+  "delay_signals": [
+    {
+      "type": "DLY-PUR",
+      "trigger_phrase": "completing May 29 \u2014 developer-imposed deadline",
+      "context": "Manchester flat purchase, completing May 29",
+      "timeline_given": "May 29 2026",
+      "resolved_in_meeting": true
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {},
+  "meeting_flow": {},
+  "lead_responses": [],
+  "conversion_gaps": [],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Existing client trust (Suffolk property)",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "13% rate matched to existing property",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "Fast go-live timeline \u2014 mid-June for summer bookings",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    }
+  ],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "PURCH",
+    "emotional_profile": "",
+    "what_they_focused_on": [],
+    "what_they_needed_most": [],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": ""
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

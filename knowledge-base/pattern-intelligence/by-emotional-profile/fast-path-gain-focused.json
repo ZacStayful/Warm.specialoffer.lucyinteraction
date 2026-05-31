@@ -1,0 +1,195 @@
+{
+  "schema_version": "3.0",
+  "archetype": "fast-path-gain-focused",
+  "archetype_description": "Wants maximum return with minimum effort. Impatient with process, energised by net figures.",
+  "total_entries": 1,
+  "last_updated": "2026-05-31",
+  "data_note": "Only 1 entries with this archetype assigned. Profiler has not run on most entries \u2014 scores will improve as Lead Psychology Profiler processes more leads.",
+  "what_they_focus_on": [
+    {
+      "point": "Two simultaneous changeovers would require paid cleaners \u2014 risk of becoming manual cleaners instead of entrepreneurs",
+      "frequency": 1,
+      "confidence": 1.0,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "Booking.com guest quality: drug preparation incidents, difficulty claiming compensation",
+      "frequency": 1,
+      "confidence": 1.0,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "\u00a3200 dining table destroyed \u2014 compensation still pending",
+      "frequency": 1,
+      "confidence": 1.0,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "\u00a3100k renovation investment exposed to guest damage",
+      "frequency": 1,
+      "confidence": 1.0,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "Emotional attachment to high-end finishes",
+      "frequency": 1,
+      "confidence": 1.0,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "STL worst month projection (\u00a3952) vs monthly costs (\u00a31,100) = potential small monthly loss",
+      "frequency": 1,
+      "confidence": 1.0,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "Considering long-let first as lower-risk option",
+      "frequency": 1,
+      "confidence": 1.0,
+      "last_seen": "2026-05-31"
+    }
+  ],
+  "questions_they_ask": [],
+  "objections_they_raise": [
+    {
+      "objection": "Two simultaneous changeovers would require paid cleaners \u2014 risk of becoming manual cleaners instead of entrepreneurs",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "Booking.com guest quality: drug preparation incidents, difficulty claiming compensation",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "\u00a3200 dining table destroyed \u2014 compensation still pending",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "\u00a3100k renovation investment exposed to guest damage",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "Emotional attachment to high-end finishes",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "STL worst month projection (\u00a3952) vs monthly costs (\u00a31,100) = potential small monthly loss",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "Considering long-let first as lower-risk option",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    }
+  ],
+  "what_moves_them": [
+    {
+      "point": "Guest screening with deposits and ID checks \u2014 directly addresses Booking.com pain",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "Freeing you up to be entrepreneurs, not manual cleaners \u2014 scalability pitch",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "Slack channel + monthly reporting as professional management layer",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "Calendar control for personal access",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "AirCover protection for high-end property",
+      "frequency": 1,
+      "evidence": ""
+    }
+  ],
+  "what_falls_flat": [],
+  "language_to_mirror": [
+    {
+      "phrase": "risk of becoming manual cleaners instead of entrepreneurs",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "excellent (re: Airbnb guests vs Booking.com)",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "drug preparation incidents",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "emotional attachment",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "test the long-term rental market first",
+      "frequency": 1,
+      "context": "Lead language signal"
+    }
+  ],
+  "meeting_guidance": {
+    "opening_approach": "Lead with the net number immediately. Don't make them wait for the punchline.",
+    "what_to_lead_with": "'Your property could earn \u00a3X per year net \u2014 here's how that compares to what you're doing now.'",
+    "what_to_avoid": "Long explanations of process and operations. They want outcomes, not methodology.",
+    "close_approach": "Make signing feel frictionless. 'This is a 10-minute process \u2014 I'll walk you through it now if you want.'",
+    "offer_framing": "Present the offer as unlocking the fast path: 'Sign by [date] and we can get you live within 3 weeks.'"
+  },
+  "delay_signal_pattern": "Insufficient data \u2014 fewer than 5 entries with this archetype. Check again after profiler has processed more leads.",
+  "green_light_pattern": "Insufficient data \u2014 fewer than 5 entries with this archetype. Check again after profiler has processed more leads.",
+  "profile_type_intersections": {
+    "STL-SW": {
+      "count": 0,
+      "notes": ""
+    },
+    "EX-STL": {
+      "count": 1,
+      "notes": ""
+    },
+    "PURCH": {
+      "count": 0,
+      "notes": ""
+    },
+    "SELL": {
+      "count": 0,
+      "notes": ""
+    },
+    "ABROAD": {
+      "count": 0,
+      "notes": ""
+    },
+    "R2R": {
+      "count": 0,
+      "notes": ""
+    }
+  },
+  "conversion_data": {
+    "total": 1,
+    "ready_now": 0,
+    "delayed": 1,
+    "lost": 0,
+    "conversion_rate": 0.0,
+    "most_common_lost_reason": ""
+  }
+}

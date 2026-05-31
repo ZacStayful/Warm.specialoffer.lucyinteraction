@@ -1,0 +1,313 @@
+{
+  "schema_version": "3.0",
+  "profile_type": "STL-SW",
+  "profile_description": "Existing property currently on a long-let or lodger arrangement, switching to short-let management",
+  "total_entries": 16,
+  "last_updated": "2026-05-31",
+  "typical_situation": "Owner has a property generating below-market long-let income (\u00a3300-800/month typical). Property may have existing tenants or be vacant. Owner wants better returns without operational involvement.",
+  "typical_motivation": "Income uplift \u2014 STL net often 2-3x LTL equivalent. Hands-off appeal: owner currently manages or deals with tenant issues.",
+  "typical_timeline": "3-12 months. If tenanted: tied to tenancy end date. If vacant: can go live within weeks if furnished.",
+  "most_common_emotional_profiles": [
+    {
+      "archetype": "analytical-evaluator",
+      "count": 1,
+      "percentage": 6.2
+    },
+    {
+      "archetype": "certainty-seeker",
+      "count": 1,
+      "percentage": 6.2
+    }
+  ],
+  "most_common_delays": [
+    {
+      "delay_type": "DLY-TEN",
+      "count": 3,
+      "percentage": 18.8
+    },
+    {
+      "delay_type": "DLY-FUR",
+      "count": 1,
+      "percentage": 6.2
+    },
+    {
+      "delay_type": "DLY-OTH",
+      "count": 1,
+      "percentage": 6.2
+    }
+  ],
+  "most_common_green_lights": [
+    {
+      "green_light_type": "GL-TIME",
+      "count": 1,
+      "percentage": 6.2
+    }
+  ],
+  "what_meeting_should_lead_with": "Income comparison \u2014 what they're leaving on the table vs their current arrangement. Lead with the numbers, then address the tenant/vacancy question.",
+  "top_questions": [
+    {
+      "question": "Wife less convinced \u2014 joint decision required",
+      "frequency": 1,
+      "confidence": 0.06,
+      "best_answer": ""
+    },
+    {
+      "question": "Darlington smaller market than Manchester",
+      "frequency": 1,
+      "confidence": 0.06,
+      "best_answer": ""
+    },
+    {
+      "question": "Setup cost \u00a35,000-6,000 for unfurnished property",
+      "frequency": 1,
+      "confidence": 0.06,
+      "best_answer": ""
+    },
+    {
+      "question": "No offer expiry date set initially",
+      "frequency": 1,
+      "confidence": 0.06,
+      "best_answer": ""
+    },
+    {
+      "question": "Stopped responding after April 20",
+      "frequency": 1,
+      "confidence": 0.06,
+      "best_answer": ""
+    },
+    {
+      "question": "Setup costs too high",
+      "frequency": 1,
+      "confidence": 0.06,
+      "best_answer": ""
+    },
+    {
+      "question": "Sheffield city centre 1-bed \u2014 margin concern",
+      "frequency": 1,
+      "confidence": 0.06,
+      "best_answer": ""
+    },
+    {
+      "question": "Went with another company",
+      "frequency": 1,
+      "confidence": 0.06,
+      "best_answer": ""
+    },
+    {
+      "question": "Chester area \u2014 competitive market",
+      "frequency": 1,
+      "confidence": 0.06,
+      "best_answer": ""
+    },
+    {
+      "question": "Decided to keep long-letting",
+      "frequency": 1,
+      "confidence": 0.06,
+      "best_answer": ""
+    },
+    {
+      "question": "Income differential not compelling enough",
+      "frequency": 1,
+      "confidence": 0.06,
+      "best_answer": ""
+    },
+    {
+      "question": "Short offer window (11 days)",
+      "frequency": 1,
+      "confidence": 0.06,
+      "best_answer": ""
+    },
+    {
+      "question": "Must exit letting agency first (August timeline)",
+      "frequency": 1,
+      "confidence": 0.06,
+      "best_answer": ""
+    },
+    {
+      "question": "Videos and case studies sent \u2014 awaiting re-engagement",
+      "frequency": 1,
+      "confidence": 0.06,
+      "best_answer": ""
+    },
+    {
+      "question": "Technical issues cut call short",
+      "frequency": 1,
+      "confidence": 0.06,
+      "best_answer": ""
+    }
+  ],
+  "top_objections": [
+    {
+      "objection": "Wife less convinced \u2014 joint decision required",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Darlington smaller market than Manchester",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Setup cost \u00a35,000-6,000 for unfurnished property",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "No offer expiry date set initially",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Stopped responding after April 20",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Setup costs too high",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Sheffield city centre 1-bed \u2014 margin concern",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Went with another company",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Chester area \u2014 competitive market",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Decided to keep long-letting",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Income differential not compelling enough",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Short offer window (11 days)",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    }
+  ],
+  "top_conversion_gaps": [],
+  "what_moves_them": [
+    {
+      "point": "Hands-off model",
+      "frequency": 2
+    },
+    {
+      "point": "Floor rate framing: \u00a31,600/month net vs \u00a3650/month LTL",
+      "frequency": 1
+    },
+    {
+      "point": "Fully hands-off management model",
+      "frequency": 1
+    },
+    {
+      "point": "Contract worker demand in northeast",
+      "frequency": 1
+    },
+    {
+      "point": "Surplus after \u00a3750/month owner costs clearly positive",
+      "frequency": 1
+    },
+    {
+      "point": "Fast path to income",
+      "frequency": 1
+    },
+    {
+      "point": "Harrogate strong STL market",
+      "frequency": 1
+    },
+    {
+      "point": "Income projection \u00a31,796/month Sherwood 1-bed",
+      "frequency": 1
+    },
+    {
+      "point": "Portfolio potential (Northampton 15-unit block)",
+      "frequency": 1
+    },
+    {
+      "point": "Guest vetting and cleaning coordination",
+      "frequency": 1
+    }
+  ],
+  "language_to_use": [
+    {
+      "phrase": "at least \u00a3750 per month",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "completely hands off",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "no involvement in day-to-day",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "STL Switch",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "currently long-let",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "ready to go",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "setup costs",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "need to free up the property first",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "August is likely",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "listed for sale",
+      "context": "Matched from lead language signals"
+    }
+  ],
+  "presentation_section_priority": [
+    "income_comparison_vs_ltl",
+    "hands_off_model",
+    "guest_vetting",
+    "setup_process"
+  ],
+  "conversion_data": {
+    "total": 16,
+    "ready_now": 1,
+    "delayed": 4,
+    "had_meeting_2": 0,
+    "converted_to_customer": 1,
+    "conversion_rate": 6.2,
+    "most_common_lost_reason": "Lead stopped responding"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "015",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-04-04",
+  "transcript_quality": "summary_only",
+  "lead_name": "Karl Manning",
+  "email": "manningkarl@hotmail.com",
+  "monday_id": "11672459959",
+  "address": "BS14 9HB",
+  "bedrooms": 6,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "LOST \u2014 decided to self-manage. 6-bed Bristol. Existing STL. Never answered calls despite offer. Karl is self-reliant personality type.",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "low",
+  "primary_blocker": "",
+  "language_signals": [
+    "self manage",
+    "try it myself"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Abandoned",
+  "lost_reason": "want to try and self manage",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "2026-04-30",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [],
+  "has_delay": false,
+  "green_light_signals": [
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "try to self manage",
+      "context": "Currently has Airbnb listed",
+      "strength": "weak"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {},
+  "meeting_flow": {},
+  "lead_responses": [
+    {
+      "what_lead_said": "Wants to try self-managing first",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Never answered calls",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Offer expired without contact",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [],
+  "positive_shift_moments": [],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "",
+    "what_they_focused_on": [],
+    "what_they_needed_most": [],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": ""
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

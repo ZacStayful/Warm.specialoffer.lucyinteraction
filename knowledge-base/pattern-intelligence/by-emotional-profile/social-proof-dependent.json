@@ -1,0 +1,57 @@
+{
+  "schema_version": "3.0",
+  "archetype": "social-proof-dependent",
+  "archetype_description": "Needs to know others have done this successfully. Case studies and reviews are essential.",
+  "total_entries": 0,
+  "last_updated": "2026-05-31",
+  "data_note": "Only 0 entries with this archetype assigned. Profiler has not run on most entries \u2014 scores will improve as Lead Psychology Profiler processes more leads.",
+  "what_they_focus_on": [],
+  "questions_they_ask": [],
+  "objections_they_raise": [],
+  "what_moves_them": [],
+  "what_falls_flat": [],
+  "language_to_mirror": [],
+  "meeting_guidance": {
+    "opening_approach": "Open with a comparable success story: 'A property just like yours in [area] is earning \u00a3X with us right now.'",
+    "what_to_lead_with": "Real case studies from similar properties in similar areas.",
+    "what_to_avoid": "Generic claims. 'We manage lots of properties' is not social proof. Names, locations, and figures are.",
+    "close_approach": "Offer to connect them with an existing client: 'Would it help to hear from someone who's been with us 12 months?'",
+    "offer_framing": "Reference other converted leads: 'This is the same rate we offered [similar profile] \u2014 they signed last month.'"
+  },
+  "delay_signal_pattern": "Insufficient data \u2014 fewer than 5 entries with this archetype. Check again after profiler has processed more leads.",
+  "green_light_pattern": "Insufficient data \u2014 fewer than 5 entries with this archetype. Check again after profiler has processed more leads.",
+  "profile_type_intersections": {
+    "STL-SW": {
+      "count": 0,
+      "notes": ""
+    },
+    "EX-STL": {
+      "count": 0,
+      "notes": ""
+    },
+    "PURCH": {
+      "count": 0,
+      "notes": ""
+    },
+    "SELL": {
+      "count": 0,
+      "notes": ""
+    },
+    "ABROAD": {
+      "count": 0,
+      "notes": ""
+    },
+    "R2R": {
+      "count": 0,
+      "notes": ""
+    }
+  },
+  "conversion_data": {
+    "total": 0,
+    "ready_now": 0,
+    "delayed": 0,
+    "lost": 0,
+    "conversion_rate": 0.0,
+    "most_common_lost_reason": ""
+  }
+}

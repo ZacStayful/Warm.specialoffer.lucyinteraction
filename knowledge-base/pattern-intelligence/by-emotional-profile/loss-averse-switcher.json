@@ -1,0 +1,237 @@
+{
+  "schema_version": "3.0",
+  "archetype": "loss-averse-switcher",
+  "archetype_description": "Fears making the wrong change. Needs to see the current pain is worse than the switching risk.",
+  "total_entries": 2,
+  "last_updated": "2026-05-31",
+  "data_note": "Only 2 entries with this archetype assigned. Profiler has not run on most entries \u2014 scores will improve as Lead Psychology Profiler processes more leads.",
+  "what_they_focus_on": [
+    {
+      "point": "Summer booking gaps concern",
+      "frequency": 1,
+      "confidence": 0.5,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "Attic bedroom compliance issue",
+      "frequency": 1,
+      "confidence": 0.5,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "Recurring WiFi cable theft problem",
+      "frequency": 1,
+      "confidence": 0.5,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "Needs husband sign-off",
+      "frequency": 1,
+      "confidence": 0.5,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "Monthly software fee \u00a342/month",
+      "frequency": 1,
+      "confidence": 0.5,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "What notice period does MyProperty Host require?",
+      "frequency": 1,
+      "confidence": 0.5,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "Currently at break-even \u2014 wants to understand transition timeline",
+      "frequency": 1,
+      "confidence": 0.5,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "Interested in second property (Burton-on-Trent) \u2014 wants full picture first",
+      "frequency": 1,
+      "confidence": 0.5,
+      "last_seen": "2026-05-31"
+    }
+  ],
+  "questions_they_ask": [],
+  "objections_they_raise": [
+    {
+      "objection": "Summer booking gaps concern",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "Attic bedroom compliance issue",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "Recurring WiFi cable theft problem",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "Needs husband sign-off",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "Monthly software fee \u00a342/month",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "What notice period does MyProperty Host require?",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "Currently at break-even \u2014 wants to understand transition timeline",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "Interested in second property (Burton-on-Trent) \u2014 wants full picture first",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    }
+  ],
+  "what_moves_them": [
+    {
+      "point": "4-platform strategy vs Pass the Keys 1-platform approach",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "Direct booking conversion for relocation clients",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "Individual property listing (not hotel-style grouping)",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "Maintenance batching with no markups",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "Monthly statements 1st-5th",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "Direct booking capability (26%) vs single-platform dependency",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "Quarterly performance calls vs MyProperty Host poor communication",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "\u00a31,100/month net vs current break-even",
+      "frequency": 1,
+      "evidence": ""
+    }
+  ],
+  "what_falls_flat": [],
+  "language_to_mirror": [
+    {
+      "phrase": "summer booking gaps",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "attic bedroom",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "WiFi cable theft",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "I'll talk it through with my husband",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "income consistency",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "around break-even",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "should be hitting double in peak months",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "damage not reported",
+      "frequency": 1,
+      "context": "Lead language signal"
+    }
+  ],
+  "meeting_guidance": {
+    "opening_approach": "Let them describe what's going wrong now. The more they articulate the current problem, the more they pre-sell themselves.",
+    "what_to_lead_with": "Current provider failure documentation. 'Tell me what's been happening with [current manager].' Then listen.",
+    "what_to_avoid": "Minimising the switching effort. They know switching takes effort \u2014 acknowledge it. 'Yes, there's a transition period \u2014 here's exactly what that looks like.'",
+    "close_approach": "Reframe: 'The risk isn't in switching \u2014 it's in staying.' Make inaction feel more risky than action.",
+    "offer_framing": "Pair the offer with a clear risk-reversal: '6-month contract, but if we're not delivering in 60 days, we'll have that conversation.'"
+  },
+  "delay_signal_pattern": "Insufficient data \u2014 fewer than 5 entries with this archetype. Check again after profiler has processed more leads.",
+  "green_light_pattern": "Insufficient data \u2014 fewer than 5 entries with this archetype. Check again after profiler has processed more leads.",
+  "profile_type_intersections": {
+    "STL-SW": {
+      "count": 0,
+      "notes": ""
+    },
+    "EX-STL": {
+      "count": 2,
+      "notes": ""
+    },
+    "PURCH": {
+      "count": 0,
+      "notes": ""
+    },
+    "SELL": {
+      "count": 0,
+      "notes": ""
+    },
+    "ABROAD": {
+      "count": 0,
+      "notes": ""
+    },
+    "R2R": {
+      "count": 0,
+      "notes": ""
+    }
+  },
+  "conversion_data": {
+    "total": 2,
+    "ready_now": 2,
+    "delayed": 0,
+    "lost": 0,
+    "conversion_rate": 100.0,
+    "most_common_lost_reason": ""
+  }
+}

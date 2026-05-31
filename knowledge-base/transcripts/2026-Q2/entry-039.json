@@ -1,0 +1,69 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "039",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-08",
+  "transcript_quality": "summary_only",
+  "lead_name": "Julia Norman",
+  "email": "julia.norman@email.com",
+  "monday_id": "",
+  "address": "",
+  "bedrooms": 1,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "EX-STL switching. Special offer expires 31 May 2026 (today). Priority close needed.",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "low",
+  "primary_blocker": "",
+  "language_signals": [],
+  "portfolio_flag": false,
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "2026-05-31",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [],
+  "has_delay": false,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "existing STL with management company",
+      "context": "Switching providers",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {},
+  "meeting_flow": {},
+  "lead_responses": [],
+  "conversion_gaps": [],
+  "positive_shift_moments": [],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "",
+    "what_they_focused_on": [],
+    "what_they_needed_most": [],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": ""
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

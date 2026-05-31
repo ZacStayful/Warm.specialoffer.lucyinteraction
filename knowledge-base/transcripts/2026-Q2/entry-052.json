@@ -1,0 +1,157 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "052",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-29",
+  "transcript_quality": "full",
+  "lead_name": "Sam Corbett",
+  "email": "samcorbett@hotmail.co.uk",
+  "monday_id": "12099561694",
+  "address": "CH14JZ",
+  "bedrooms": 2,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Chester CH14JZ 2-bed. NHS physiotherapist building private clinic \u2014 lifestyle income lead, not portfolio builder. Healthcare guest angle is real differentiator. September remortgage is the key decision gate. Away Jun-Jul. Follow-up early August. No urgency available \u2014 patience required. Chester Christmas markets are the conversion narrative for August call.",
+  "emotional_profile": "certainty-seeker",
+  "conversion_likelihood": 5,
+  "profile_confidence": "medium",
+  "primary_blocker": "friend currently lodging, moving out in ~6 months",
+  "language_signals": [
+    "consistent passive income with minimal hassle",
+    "not interested in building a portfolio",
+    "prefer to clear the mortgage for maximum flexibility and simplicity",
+    "NHS physio \u2014 building a private clinic on the side",
+    "getting the right type of guests"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-TEN",
+      "trigger_phrase": "friend currently lodging, moving out in ~6 months",
+      "context": "Current occupant in property \u2014 must vacate first",
+      "timeline_given": "~6 months (Oct/Nov 2026)",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "mortgage remortgage due September 2026",
+      "context": "Mortgage structure must be resolved before committing",
+      "timeline_given": "September 2026",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {},
+  "meeting_flow": {},
+  "lead_responses": [
+    {
+      "what_lead_said": "What type of guests will the property attract? \u2014 specifically wants healthcare/NHS workers",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "What happens with council tax? \u2014 concerned about transition period premium",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Mortgage options: holiday let vs BTL company vs clearing balance \u2014 unclear on best path",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "I'll need to speak to my mortgage broker about this",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Away mid-June to end of July \u2014 not a decision period",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Chester demand drivers (hospital workers, racecourse, 400+ events)",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "certainty-seeker"
+      ]
+    },
+    {
+      "what_caused_shift": "Low-hassle management approach",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "certainty-seeker"
+      ]
+    },
+    {
+      "what_caused_shift": "Monthly statements and Slack communication model",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "certainty-seeker"
+      ]
+    },
+    {
+      "what_caused_shift": "Income figure vs current lodger situation",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "certainty-seeker"
+      ]
+    }
+  ],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "certainty-seeker",
+    "what_they_focused_on": [],
+    "what_they_needed_most": [],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": ""
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

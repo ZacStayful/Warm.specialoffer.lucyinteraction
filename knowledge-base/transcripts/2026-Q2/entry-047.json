@@ -1,0 +1,165 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "047",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-22",
+  "transcript_quality": "full",
+  "lead_name": "Isobel Cameron-Heslop",
+  "email": "cameronheslop@gmail.com",
+  "monday_id": "11866753807",
+  "address": "HU1 1PE",
+  "bedrooms": 1,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "Hull HU1 1-bed. Meeting 2 on 22 May. Highly motivated to switch \u2014 documented \u00a31,600 damage, lost clients, bad reviews. Analytical evaluator \u2014 wants specifics. Offer expires TODAY. Decision pending from long weekend deliberation. CRITICAL: follow up today.",
+  "emotional_profile": "analytical-evaluator",
+  "conversion_likelihood": 7,
+  "profile_confidence": "medium",
+  "primary_blocker": "",
+  "language_signals": [
+    "they just left the toilet leak",
+    "my pictures used to promote the whole building",
+    "I lost an Amazon relocation client",
+    "I just want someone to actually manage it properly",
+    "I'll have a think over the long weekend and come back next week"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Special offer applied \u2014 Meeting 2",
+  "lost_reason": "",
+  "had_meeting_2": true,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "2026-05-31",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [],
+  "has_delay": false,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "switching from Residential Estates/Guests after documented failures",
+      "context": "2 years with current manager, multiple failures, active STL",
+      "strength": "strong"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {},
+  "meeting_flow": {},
+  "lead_responses": [
+    {
+      "what_lead_said": "Toilet leak \u2014 \u00a31,600 damage unaddressed",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Hotel-style group listing \u2014 reviews not hers",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Wi-Fi 4G router \u2014 lost Amazon relocation client",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "London-based concern (addressed in writing)",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "\u00a342/month software charge (raised before)",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "LSH fibre installation delay \u2014 blocking optimal Wi-Fi resolution",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Individual property listing \u2014 explicit reaction",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    },
+    {
+      "what_caused_shift": "Three-platform strategy",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    },
+    {
+      "what_caused_shift": "Direct booking for relocation/corporate clients",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    },
+    {
+      "what_caused_shift": "Monthly statements and Slack",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    },
+    {
+      "what_caused_shift": "Maintenance batching no markups",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    }
+  ],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "analytical-evaluator",
+    "what_they_focused_on": [],
+    "what_they_needed_most": [],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": ""
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

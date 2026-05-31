@@ -1,0 +1,127 @@
+{
+  "schema_version": "3.0",
+  "total_entries_seen": 50,
+  "last_updated": "2026-05-31",
+  "questions": [
+    {
+      "canonical_trigger": "What is your management fee?",
+      "trigger_variants": [
+        "How much do you charge?",
+        "What percentage do you take?",
+        "What's your commission?"
+      ],
+      "frequency": 15,
+      "confidence": 0.9,
+      "last_seen": "2026-05-31",
+      "profile_types": [
+        "STL-SW",
+        "EX-STL",
+        "PURCH",
+        "ABROAD"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "income_presented",
+      "answer_pattern": {
+        "opening": "Our standard rate is 15% plus VAT of gross bookings.",
+        "key_points": [
+          "This is after all costs \u2014 platform fees, cleaning, supplies",
+          "At that rate on your projected \u00a3X gross, your net is \u00a3Y",
+          "If you'd like to lock in a preferential rate of 13%, I can offer that if you sign by [date]"
+        ],
+        "closing": "The management fee is the only thing we charge \u2014 no hidden setup fees, no photography costs, no onboarding charges.",
+        "what_not_to_say": "Don't lead with the percentage without immediately showing the net figure. Percentages are abstract; \u00a3 amounts are concrete."
+      },
+      "question_indicates_gap": "income_proof"
+    },
+    {
+      "canonical_trigger": "What notice period do I need to give?",
+      "trigger_variants": [
+        "How long am I tied in for?",
+        "Can I exit if it's not working?",
+        "What's the minimum contract?"
+      ],
+      "frequency": 8,
+      "confidence": 0.7,
+      "last_seen": "2026-05-31",
+      "profile_types": [
+        "STL-SW",
+        "EX-STL",
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "close",
+      "answer_pattern": {
+        "opening": "6-month minimum term, then 3 months notice at any point after that.",
+        "key_points": [
+          "The earliest exit window is 9 months in \u2014 but this is yours whenever you want it",
+          "In practice, no host has exercised the 3-month notice because the income works",
+          "We review your income at 60 days \u2014 you'll know by then if it's performing as expected"
+        ],
+        "closing": "It's a long enough commitment to properly launch your listing \u2014 short enough that you're not stuck.",
+        "what_not_to_say": "Don't say 'only 6 months' \u2014 minimising the commitment creates distrust."
+      },
+      "question_indicates_gap": "contract_clarity"
+    },
+    {
+      "canonical_trigger": "What platforms do you list on?",
+      "trigger_variants": [
+        "Are you just on Airbnb?",
+        "Do you use Booking.com?",
+        "What about VRBO?"
+      ],
+      "frequency": 6,
+      "confidence": 0.6,
+      "last_seen": "2026-05-31",
+      "profile_types": [
+        "EX-STL",
+        "STL-SW"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "how_it_works",
+      "answer_pattern": {
+        "opening": "We focus on three platforms: Airbnb, Booking.com, and our own direct booking site.",
+        "key_points": [
+          "Direct booking is ~26% of our portfolio income \u2014 reduces platform dependency",
+          "We use Airbnb as the primary review builder in the first 6 months",
+          "We abandoned other platforms to concentrate reviews \u2014 spreading across 10 platforms dilutes your star rating"
+        ],
+        "closing": "Three platforms, done properly, outperforms ten platforms done casually.",
+        "what_not_to_say": "Don't get defensive about not using VRBO. Explain the strategic choice."
+      },
+      "question_indicates_gap": "process_clarity"
+    },
+    {
+      "canonical_trigger": "How long before I start earning?",
+      "trigger_variants": [
+        "How quickly can we go live?",
+        "When will I get my first booking?",
+        "What's the onboarding timeline?"
+      ],
+      "frequency": 5,
+      "confidence": 0.5,
+      "last_seen": "2026-05-31",
+      "profile_types": [
+        "PURCH",
+        "STL-SW",
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "urgency-driven"
+      ],
+      "most_common_meeting_phase": "how_it_works",
+      "answer_pattern": {
+        "opening": "From agreement to go-live is typically 3 weeks.",
+        "key_points": [
+          "Week 1: photographer, cleaner inspection, snagging list",
+          "Week 2: listing creation, pricing strategy, first booking window opens",
+          "Week 3: first guest, first statement"
+        ],
+        "closing": "If you signed today, you could have your first guest by [date 3 weeks from now].",
+        "what_not_to_say": "Don't say 'it depends' without following up with the specifics."
+      },
+      "question_indicates_gap": "process_clarity"
+    }
+  ]
+}

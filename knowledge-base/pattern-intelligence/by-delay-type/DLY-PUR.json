@@ -1,0 +1,72 @@
+{
+  "schema_version": "3.0",
+  "delay_type": "DLY-PUR",
+  "delay_description": "Purchasing property \u2014 must complete before go-live",
+  "total_entries": 7,
+  "last_updated": "2026-05-31",
+  "trigger_phrases": [
+    {
+      "phrase": "purchasing property",
+      "frequency": 2
+    },
+    {
+      "phrase": "purchasing flat near York Minster",
+      "frequency": 1
+    },
+    {
+      "phrase": "purchasing property \u2014 Bosworth House Leicester",
+      "frequency": 1
+    },
+    {
+      "phrase": "evaluating other management companies",
+      "frequency": 1
+    },
+    {
+      "phrase": "looking to buy Bosworth House Leicester",
+      "frequency": 1
+    },
+    {
+      "phrase": "completing May 29 \u2014 developer-imposed deadline",
+      "frequency": 1
+    }
+  ],
+  "typical_timeline": {
+    "most_common_months": 3,
+    "range_min_months": 1,
+    "range_max_months": 9,
+    "notes": "Based on 7 timeline signals observed: in progress, unknown, unknown delays at property, end of evaluation period, unknown",
+    "observed_timelines": [
+      "in progress",
+      "unknown",
+      "unknown delays at property",
+      "end of evaluation period",
+      "unknown",
+      "unknown",
+      "May 29 2026"
+    ]
+  },
+  "what_leads_focus_on_while_waiting": [],
+  "emotional_profiles_most_common": [],
+  "property_profiles_most_common": [
+    {
+      "profile": "PURCH",
+      "count": 7
+    }
+  ],
+  "how_to_handle_in_meeting": {
+    "acknowledge_phrase": "Of course \u2014 until the keys are yours, everything else has to wait.",
+    "timeline_question": "Where are you in the purchase process \u2014 have you exchanged yet, or are you still in conveyancing?",
+    "reframe_approach": "Use the purchase period to prepare everything: income analysis locked in, agreement ready to sign on completion day, setup quote prepared. 'So you can go live within 3 weeks of getting the keys.'",
+    "how_to_keep_engaged": "Ask for the expected completion date. Set a re-activation call for 2 weeks before completion. 'I'll call you [date] to get everything lined up so there's no delay.'",
+    "what_to_write_to_monday": "Write expected completion date in date_mm2vmj1q. Note: 'PURCH lead \u2014 do not offer before exchange. Reactivate 2 weeks before completion.'"
+  },
+  "conversion_after_delay": {
+    "total": 7,
+    "eventually_converted": 1,
+    "conversion_rate": 14.3,
+    "avg_months_to_convert": 0.0,
+    "drop_off_reason": "Insufficient data to determine \u2014 fewer than 10 delay entries per type",
+    "note": "First run \u2014 conversion-after-delay rates will improve with more data over time"
+  },
+  "do_not_attempt_offer_because": "Purchase may fall through. Offer before completion creates commitment to an asset the lead doesn't yet own. If purchase collapses, the offer context is awkward."
+}

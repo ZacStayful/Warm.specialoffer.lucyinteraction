@@ -1,0 +1,95 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "028",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-03-21",
+  "transcript_quality": "summary_only",
+  "lead_name": "Marnus Fourie",
+  "email": "marnus.fourie@icloud.com",
+  "monday_id": "11562840773",
+  "address": "CA11 8FE",
+  "bedrooms": 3,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "LOST \u2014 decided to long let. Penrith CA11 3-bed. Moving abroad. Chose LTL over STL \u2014 income differential not persuasive enough.",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "low",
+  "primary_blocker": "moving abroad",
+  "language_signals": [],
+  "portfolio_flag": false,
+  "outcome": "Abandoned",
+  "lost_reason": "Decided to long let property",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "2026-04-24",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-MOV",
+      "trigger_phrase": "moving abroad",
+      "context": "Cumbria 3-bed \u2014 South African lead moving abroad",
+      "timeline_given": "unknown",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {},
+  "meeting_flow": {},
+  "lead_responses": [
+    {
+      "what_lead_said": "Decided to long let instead",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Cumbria \u2014 market concern",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Move timeline uncertainty",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [],
+  "positive_shift_moments": [],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "",
+    "what_they_focused_on": [],
+    "what_they_needed_most": [],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": ""
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "012",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-04-16",
+  "transcript_quality": "summary_only",
+  "lead_name": "Mike Ralston",
+  "email": "mike@ralston.tv",
+  "monday_id": "11766125431",
+  "address": "BS21 7AP",
+  "bedrooms": 7,
+  "profile_type": "SELL",
+  "lead_profile_text": "7-bed Walton-in-Gordano property. Selling but STL in meantime. Renovation delay. Special offer expired \u2014 needs extension discussion. Current mortgage \u00a32,970/month.",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "low",
+  "primary_blocker": "refurbishment starting that week, six weeks",
+  "language_signals": [
+    "refurbishment",
+    "six weeks",
+    "Sunnybank"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "2026-05-08",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "refurbishment starting that week, six weeks",
+      "context": "Large 7-bed undergoing renovation before STL",
+      "timeline_given": "6 weeks from ~mid-May",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {},
+  "meeting_flow": {},
+  "lead_responses": [
+    {
+      "what_lead_said": "Refurbishment blocking go-live",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Special offer expired May 8",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Need to confirm refurb timeline",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Property scale (7 beds) and income potential",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "Selling while STL possibility",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    }
+  ],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "SELL",
+    "emotional_profile": "",
+    "what_they_focused_on": [],
+    "what_they_needed_most": [],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": ""
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

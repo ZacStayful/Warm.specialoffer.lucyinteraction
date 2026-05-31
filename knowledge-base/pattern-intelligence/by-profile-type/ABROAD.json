@@ -1,0 +1,272 @@
+{
+  "schema_version": "3.0",
+  "profile_type": "ABROAD",
+  "profile_description": "Moving abroad or permanently relocating \u2014 leaving a UK property behind to be managed remotely",
+  "total_entries": 5,
+  "last_updated": "2026-05-31",
+  "typical_situation": "Owner is departing the UK. Property is or will be their home. STL is the income strategy for the asset they're leaving behind.",
+  "typical_motivation": "Remote income stream from asset they can't actively manage. Maximum return while living abroad.",
+  "typical_timeline": "Often has a clear departure date \u2014 that date becomes the de facto deadline for everything.",
+  "most_common_emotional_profiles": [
+    {
+      "archetype": "analytical-evaluator",
+      "count": 1,
+      "percentage": 20.0
+    }
+  ],
+  "most_common_delays": [
+    {
+      "delay_type": "DLY-MOV",
+      "count": 5,
+      "percentage": 100.0
+    }
+  ],
+  "most_common_green_lights": [
+    {
+      "green_light_type": "GL-TIME",
+      "count": 1,
+      "percentage": 20.0
+    }
+  ],
+  "what_meeting_should_lead_with": "Remote management as the primary concern \u2014 address operational visibility before income. Then present income as secondary benefit.",
+  "top_questions": [
+    {
+      "question": "Fee structure clarity",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Day-to-day management model",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Agreement not yet signed",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Input incorrect information",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Decided to long let instead",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Cumbria \u2014 market concern",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Move timeline uncertainty",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Managing the property remotely \u2014 stated as main concern",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "I want to understand the costs more \u2014 full cost transparency",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "I'd like more control over pricing \u2014 wants oversight of dynamic pricing",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Not being kept informed \u2014 emotional need for visibility",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "The fee structure \u2014 analytical margin calculation",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "VRBO \u2014 why not using it",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Hot tub \u2014 deferred pending performance data",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    }
+  ],
+  "top_objections": [
+    {
+      "objection": "Fee structure clarity",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Day-to-day management model",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Agreement not yet signed",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Input incorrect information",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Decided to long let instead",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Cumbria \u2014 market concern",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Move timeline uncertainty",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Managing the property remotely \u2014 stated as main concern",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "I want to understand the costs more \u2014 full cost transparency",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "I'd like more control over pricing \u2014 wants oversight of dynamic pricing",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Not being kept informed \u2014 emotional need for visibility",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "The fee structure \u2014 analytical margin calculation",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    }
+  ],
+  "top_conversion_gaps": [],
+  "what_moves_them": [
+    {
+      "point": "\u00a336-40k net annually (significantly better than \u00a336k LTL)",
+      "frequency": 1
+    },
+    {
+      "point": "Fully managed for overseas owner",
+      "frequency": 1
+    },
+    {
+      "point": "6 years and 80 properties \u2014 scale gave credibility",
+      "frequency": 1
+    },
+    {
+      "point": "\u00a3500 security deposit \u2014 showed property protection taken seriously",
+      "frequency": 1
+    },
+    {
+      "point": "Quarterly inspections \u2014 reassured on oversight from distance",
+      "frequency": 1
+    },
+    {
+      "point": "Monthly statements 1st-5th \u2014 very specific timeline gave confidence",
+      "frequency": 1
+    },
+    {
+      "point": "3 weeks contract to live \u2014 shorter than expected",
+      "frequency": 1
+    },
+    {
+      "point": "Sister Cornwall mention \u2014 thinking expansively",
+      "frequency": 1
+    }
+  ],
+  "language_to_use": [
+    {
+      "phrase": "moving abroad",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "hands off",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "managing the property remotely",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "I want to understand the costs more",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "not being kept informed",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "the fee structure",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "I need to decide before I go back",
+      "context": "Matched from lead language signals"
+    }
+  ],
+  "presentation_section_priority": [
+    "remote_management_operations",
+    "communication_model",
+    "guest_vetting",
+    "income_projections"
+  ],
+  "conversion_data": {
+    "total": 5,
+    "ready_now": 0,
+    "delayed": 5,
+    "had_meeting_2": 0,
+    "converted_to_customer": 0,
+    "conversion_rate": 0.0,
+    "most_common_lost_reason": "Input incorrect information"
+  }
+}

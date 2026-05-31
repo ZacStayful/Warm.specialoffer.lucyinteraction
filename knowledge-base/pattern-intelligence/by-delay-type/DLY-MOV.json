@@ -1,0 +1,59 @@
+{
+  "schema_version": "3.0",
+  "delay_type": "DLY-MOV",
+  "delay_description": "Moving abroad or leaving residence \u2014 must physically move out before property can go live",
+  "total_entries": 5,
+  "last_updated": "2026-05-31",
+  "trigger_phrases": [
+    {
+      "phrase": "moving abroad",
+      "frequency": 4
+    },
+    {
+      "phrase": "returning to US at end of next week",
+      "frequency": 1
+    }
+  ],
+  "typical_timeline": {
+    "most_common_months": 3,
+    "range_min_months": 1,
+    "range_max_months": 9,
+    "notes": "Based on 5 timeline signals observed: extended offer to Aug 2026, unknown, unknown, unknown, before end of first week of June",
+    "observed_timelines": [
+      "extended offer to Aug 2026",
+      "unknown",
+      "unknown",
+      "unknown",
+      "before end of first week of June"
+    ]
+  },
+  "what_leads_focus_on_while_waiting": [],
+  "emotional_profiles_most_common": [
+    {
+      "profile": "analytical-evaluator",
+      "count": 1
+    }
+  ],
+  "property_profiles_most_common": [
+    {
+      "profile": "ABROAD",
+      "count": 5
+    }
+  ],
+  "how_to_handle_in_meeting": {
+    "acknowledge_phrase": "That makes complete sense \u2014 you need to be out before guests can come in.",
+    "timeline_question": "When are you planning to move out, and is that date fixed?",
+    "reframe_approach": "Departure date = go-live opportunity. 'If you move out on [date], we can have your listing live within 3 weeks of that \u2014 potentially capturing [upcoming season].'",
+    "how_to_keep_engaged": "If departure is within 60 days: set offer expiry to match or slightly precede departure. 'You need to decide before you leave \u2014 let's use [departure date minus 2 weeks] as your deadline.'",
+    "what_to_write_to_monday": "Write departure/move date in date_mm2vmj1q. Note: 'ABROAD lead \u2014 departure date is the deadline.' Offer expiry should match departure date where possible."
+  },
+  "conversion_after_delay": {
+    "total": 5,
+    "eventually_converted": 0,
+    "conversion_rate": 0.0,
+    "avg_months_to_convert": 0.0,
+    "drop_off_reason": "Insufficient data to determine \u2014 fewer than 10 delay entries per type",
+    "note": "First run \u2014 conversion-after-delay rates will improve with more data over time"
+  },
+  "do_not_attempt_offer_because": "Unless departure is within 60 days. If departure is > 60 days away, the offer will lose urgency. Wait until lead is within 8 weeks of departure before making a time-limited offer."
+}

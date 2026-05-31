@@ -1,0 +1,194 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "051",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-28",
+  "transcript_quality": "full",
+  "lead_name": "Nathan Chadwick",
+  "email": "nathan@kennedychadwickestates.com",
+  "monday_id": "11959023274",
+  "address": "BB11 5HP",
+  "bedrooms": 3,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "Burnley BB11 3-bed. Ambitious property developer (Kennedy Chadwick Estates). Already STL with one property (former home). Portfolio mindset \u2014 scalability is the real pitch, not income discovery. Booking.com pain point is live and vivid. Tight margins on Rossendale Road are real \u2014 honest acknowledgement builds more trust than overpromising. Pipeline = 3-4 properties developing. Separate call with Tracy (mum) booked June 2 re: Dugdale Street. No offer made \u2014 too early given LTL trial plan.",
+  "emotional_profile": "fast-path-gain-focused",
+  "conversion_likelihood": 6,
+  "profile_confidence": "medium",
+  "primary_blocker": "\u00a310k additional furnishing costs required",
+  "language_signals": [
+    "risk of becoming manual cleaners instead of entrepreneurs",
+    "excellent (re: Airbnb guests vs Booking.com)",
+    "drug preparation incidents",
+    "emotional attachment",
+    "test the long-term rental market first"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm \u2014 no offer made",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-FUR",
+      "trigger_phrase": "\u00a310k additional furnishing costs required",
+      "context": "Rossendale Road newly purchased \u2014 needs furnishing",
+      "timeline_given": "2 weeks to ready",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "test long-term rental market first",
+      "context": "Considering LTL trial before committing to STL",
+      "timeline_given": "1 month LTL trial planned",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "already self-managing Airbnb since March \u2014 \u00a31,800 profit/month",
+      "context": "Former home already operating as STL",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "Rossendale Road ready in 2 weeks",
+      "context": "New property near ready for STL",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {},
+  "meeting_flow": {},
+  "lead_responses": [
+    {
+      "what_lead_said": "Two simultaneous changeovers would require paid cleaners \u2014 risk of becoming manual cleaners instead of entrepreneurs",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Booking.com guest quality: drug preparation incidents, difficulty claiming compensation",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "\u00a3200 dining table destroyed \u2014 compensation still pending",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "\u00a3100k renovation investment exposed to guest damage",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Emotional attachment to high-end finishes",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "STL worst month projection (\u00a3952) vs monthly costs (\u00a31,100) = potential small monthly loss",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Considering long-let first as lower-risk option",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Guest screening with deposits and ID checks \u2014 directly addresses Booking.com pain",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "fast-path-gain-focused"
+      ]
+    },
+    {
+      "what_caused_shift": "Freeing you up to be entrepreneurs, not manual cleaners \u2014 scalability pitch",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "fast-path-gain-focused"
+      ]
+    },
+    {
+      "what_caused_shift": "Slack channel + monthly reporting as professional management layer",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "fast-path-gain-focused"
+      ]
+    },
+    {
+      "what_caused_shift": "Calendar control for personal access",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "fast-path-gain-focused"
+      ]
+    },
+    {
+      "what_caused_shift": "AirCover protection for high-end property",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "fast-path-gain-focused"
+      ]
+    }
+  ],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "fast-path-gain-focused",
+    "what_they_focused_on": [],
+    "what_they_needed_most": [],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": ""
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

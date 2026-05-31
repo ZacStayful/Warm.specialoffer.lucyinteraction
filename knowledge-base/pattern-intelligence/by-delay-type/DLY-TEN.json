@@ -1,0 +1,61 @@
+{
+  "schema_version": "3.0",
+  "delay_type": "DLY-TEN",
+  "delay_description": "Existing tenant \u2014 tenancy must end before going live",
+  "total_entries": 3,
+  "last_updated": "2026-05-31",
+  "trigger_phrases": [
+    {
+      "phrase": "existing tenant arrangement",
+      "frequency": 1
+    },
+    {
+      "phrase": "letting agency \u2014 August is when notice period ends",
+      "frequency": 1
+    },
+    {
+      "phrase": "friend currently lodging, moving out in ~6 months",
+      "frequency": 1
+    }
+  ],
+  "typical_timeline": {
+    "most_common_months": 3,
+    "range_min_months": 1,
+    "range_max_months": 9,
+    "notes": "Based on 3 timeline signals observed: unknown, August 2026, ~6 months (Oct/Nov 2026)",
+    "observed_timelines": [
+      "unknown",
+      "August 2026",
+      "~6 months (Oct/Nov 2026)"
+    ]
+  },
+  "what_leads_focus_on_while_waiting": [],
+  "emotional_profiles_most_common": [
+    {
+      "profile": "certainty-seeker",
+      "count": 1
+    }
+  ],
+  "property_profiles_most_common": [
+    {
+      "profile": "STL-SW",
+      "count": 3
+    }
+  ],
+  "how_to_handle_in_meeting": {
+    "acknowledge_phrase": "That makes complete sense \u2014 you need to exit that arrangement cleanly first.",
+    "timeline_question": "When does the tenancy run to, and have you given or received notice yet?",
+    "reframe_approach": "Use the delay period to get everything else ready: agreement signed, photos done, listing prepared \u2014 so you go live the day the tenant leaves.",
+    "how_to_keep_engaged": "Set a mid-point check-in call halfway through the tenancy period. 'Let me call you in [N] weeks when you're closer to the handover date and we can nail down the timeline.'",
+    "what_to_write_to_monday": "Write tenancy end date in date_mm2vmj1q. Set Call Brief: 'Property has existing tenant, expected to vacate [date]. Reactivate [date minus 3 weeks].'"
+  },
+  "conversion_after_delay": {
+    "total": 3,
+    "eventually_converted": 0,
+    "conversion_rate": 0.0,
+    "avg_months_to_convert": 0.0,
+    "drop_off_reason": "Insufficient data to determine \u2014 fewer than 10 delay entries per type",
+    "note": "First run \u2014 conversion-after-delay rates will improve with more data over time"
+  },
+  "do_not_attempt_offer_because": "Offering before the tenant vacates creates a commitment the lead can't action. They will either reject it or ignore it \u2014 both weaken your position."
+}

@@ -1,0 +1,154 @@
+{
+  "schema_version": "3.0",
+  "profile_type": "R2R",
+  "profile_description": "Rent-to-rent \u2014 lead renting a property from a landlord and wanting Stayful to manage their STL operation",
+  "total_entries": 5,
+  "last_updated": "2026-05-31",
+  "typical_situation": "Lead has signed or is considering a lease on a property and wants to sublet it on STL platforms. This creates a layered cost structure (their landlord rent + Stayful fee) that compresses margins severely.",
+  "typical_motivation": "Leverage someone else's property. Build STL portfolio without owning assets.",
+  "typical_timeline": "Variable. But qualifier: most R2R leads should be identified and disqualified early \u2014 margins rarely work.",
+  "most_common_emotional_profiles": [],
+  "most_common_delays": [],
+  "most_common_green_lights": [],
+  "what_meeting_should_lead_with": "QUALIFY FIRST. Before any pitch: 'What are you paying your landlord per month?' If the economics don't work, say so early.",
+  "top_questions": [
+    {
+      "question": "Went with another company",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Income prediction may have been a concern",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Income prediction too low for R2R model",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Swallownest Sheffield \u2014 margins don't work for R2R",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Bradford 1-bed \u2014 margin concern for R2R",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Stopped engaging",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Income prediction too low for R2R Manchester",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "R2R model economics don't work at 13%+VAT",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "6 self-contained rooms with en-suite \u2014 HMO structure incompatible",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Property doesn't fit Stayful model",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    }
+  ],
+  "top_objections": [
+    {
+      "objection": "Went with another company",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Income prediction may have been a concern",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Income prediction too low for R2R model",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Swallownest Sheffield \u2014 margins don't work for R2R",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Bradford 1-bed \u2014 margin concern for R2R",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Stopped engaging",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Income prediction too low for R2R Manchester",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "R2R model economics don't work at 13%+VAT",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "6 self-contained rooms with en-suite \u2014 HMO structure incompatible",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Property doesn't fit Stayful model",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    }
+  ],
+  "top_conversion_gaps": [],
+  "what_moves_them": [],
+  "language_to_use": [],
+  "presentation_section_priority": [
+    "qualify_economics_first",
+    "do_not_pitch"
+  ],
+  "conversion_data": {
+    "total": 5,
+    "ready_now": 0,
+    "delayed": 0,
+    "had_meeting_2": 0,
+    "converted_to_customer": 0,
+    "conversion_rate": 0.0,
+    "most_common_lost_reason": "Income prediction too low"
+  }
+}

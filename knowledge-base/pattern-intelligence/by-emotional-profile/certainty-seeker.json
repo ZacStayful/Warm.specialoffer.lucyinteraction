@@ -1,0 +1,166 @@
+{
+  "schema_version": "3.0",
+  "archetype": "certainty-seeker",
+  "archetype_description": "Needs to be sure before acting. Driven by proof, data, and guarantees.",
+  "total_entries": 1,
+  "last_updated": "2026-05-31",
+  "data_note": "Only 1 entries with this archetype assigned. Profiler has not run on most entries \u2014 scores will improve as Lead Psychology Profiler processes more leads.",
+  "what_they_focus_on": [
+    {
+      "point": "What type of guests will the property attract? \u2014 specifically wants healthcare/NHS workers",
+      "frequency": 1,
+      "confidence": 1.0,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "What happens with council tax? \u2014 concerned about transition period premium",
+      "frequency": 1,
+      "confidence": 1.0,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "Mortgage options: holiday let vs BTL company vs clearing balance \u2014 unclear on best path",
+      "frequency": 1,
+      "confidence": 1.0,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "I'll need to speak to my mortgage broker about this",
+      "frequency": 1,
+      "confidence": 1.0,
+      "last_seen": "2026-05-31"
+    },
+    {
+      "point": "Away mid-June to end of July \u2014 not a decision period",
+      "frequency": 1,
+      "confidence": 1.0,
+      "last_seen": "2026-05-31"
+    }
+  ],
+  "questions_they_ask": [],
+  "objections_they_raise": [
+    {
+      "objection": "What type of guests will the property attract? \u2014 specifically wants healthcare/NHS workers",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "What happens with council tax? \u2014 concerned about transition period premium",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "Mortgage options: holiday let vs BTL company vs clearing balance \u2014 unclear on best path",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "I'll need to speak to my mortgage broker about this",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    },
+    {
+      "objection": "Away mid-June to end of July \u2014 not a decision period",
+      "frequency": 1,
+      "best_response": "",
+      "resolution_rate": 0.5
+    }
+  ],
+  "what_moves_them": [
+    {
+      "point": "Chester demand drivers (hospital workers, racecourse, 400+ events)",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "Low-hassle management approach",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "Monthly statements and Slack communication model",
+      "frequency": 1,
+      "evidence": ""
+    },
+    {
+      "point": "Income figure vs current lodger situation",
+      "frequency": 1,
+      "evidence": ""
+    }
+  ],
+  "what_falls_flat": [],
+  "language_to_mirror": [
+    {
+      "phrase": "consistent passive income with minimal hassle",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "not interested in building a portfolio",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "prefer to clear the mortgage for maximum flexibility and simplicity",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "NHS physio \u2014 building a private clinic on the side",
+      "frequency": 1,
+      "context": "Lead language signal"
+    },
+    {
+      "phrase": "getting the right type of guests",
+      "frequency": 1,
+      "context": "Lead language signal"
+    }
+  ],
+  "meeting_guidance": {
+    "opening_approach": "Lead with evidence, not enthusiasm. Have case studies and real figures ready before presenting income.",
+    "what_to_lead_with": "Proof: 'Here's what a similar property in your area actually earned last month.'",
+    "what_to_avoid": "Vague reassurance ('you'll do really well'). Certainty-seekers need specific numbers and documented track records.",
+    "close_approach": "Give them time to verify. Set a clear next-step that involves a specific piece of evidence they need.",
+    "offer_framing": "Only offer after ALL open questions are answered. A certainty-seeker will not sign while anything is uncertain."
+  },
+  "delay_signal_pattern": "Insufficient data \u2014 fewer than 5 entries with this archetype. Check again after profiler has processed more leads.",
+  "green_light_pattern": "Insufficient data \u2014 fewer than 5 entries with this archetype. Check again after profiler has processed more leads.",
+  "profile_type_intersections": {
+    "STL-SW": {
+      "count": 1,
+      "notes": ""
+    },
+    "EX-STL": {
+      "count": 0,
+      "notes": ""
+    },
+    "PURCH": {
+      "count": 0,
+      "notes": ""
+    },
+    "SELL": {
+      "count": 0,
+      "notes": ""
+    },
+    "ABROAD": {
+      "count": 0,
+      "notes": ""
+    },
+    "R2R": {
+      "count": 0,
+      "notes": ""
+    }
+  },
+  "conversion_data": {
+    "total": 1,
+    "ready_now": 0,
+    "delayed": 1,
+    "lost": 0,
+    "conversion_rate": 0.0,
+    "most_common_lost_reason": ""
+  }
+}

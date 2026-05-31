@@ -1,0 +1,244 @@
+{
+  "schema_version": "3.0",
+  "profile_type": "SELL",
+  "profile_description": "Selling a property \u2014 considering STL as a way to generate income while the property is on the market",
+  "total_entries": 5,
+  "last_updated": "2026-05-31",
+  "typical_situation": "Property is listed for sale. Owner doesn't want it sitting empty while trying to sell. STL is a holding strategy, not a long-term plan.",
+  "typical_motivation": "Make money during the sales process. Reduce carrying costs while on market.",
+  "typical_timeline": "Short \u2014 tied to sale. If sale completes or collapses, plan changes. High drop-off rate when sale progresses.",
+  "most_common_emotional_profiles": [],
+  "most_common_delays": [
+    {
+      "delay_type": "DLY-OTH",
+      "count": 1,
+      "percentage": 20.0
+    }
+  ],
+  "most_common_green_lights": [],
+  "what_meeting_should_lead_with": "The holding strategy framing: 'While you wait for the right offer, your property can earn \u00a3X.' Make STL feel temporary and risk-free.",
+  "top_questions": [
+    {
+      "question": "Revenue feasibility during sales process",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Furnishing requirements during sale period",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Refurbishment blocking go-live",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Special offer expired May 8",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Need to confirm refurb timeline",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Property viewings in progress \u2014 decision pending",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Chose to sell rather than STL",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Chose to sell property",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "SELL profile \u2014 went through with sale",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Does not fit with Stayful model",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Swiss-based lead \u2014 communication friction",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    },
+    {
+      "question": "Wembley area \u2014 assessment may have flagged issues",
+      "frequency": 1,
+      "confidence": 0.2,
+      "best_answer": ""
+    }
+  ],
+  "top_objections": [
+    {
+      "objection": "Revenue feasibility during sales process",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Furnishing requirements during sale period",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Refurbishment blocking go-live",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Special offer expired May 8",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Need to confirm refurb timeline",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Property viewings in progress \u2014 decision pending",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Chose to sell rather than STL",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Chose to sell property",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "SELL profile \u2014 went through with sale",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Does not fit with Stayful model",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Swiss-based lead \u2014 communication friction",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Wembley area \u2014 assessment may have flagged issues",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    }
+  ],
+  "top_conversion_gaps": [],
+  "what_moves_them": [
+    {
+      "point": "Property can generate meaningful income during sales period",
+      "frequency": 1
+    },
+    {
+      "point": "Fully managed removes operational burden",
+      "frequency": 1
+    },
+    {
+      "point": "Flexibility to relocate while property earns",
+      "frequency": 1
+    },
+    {
+      "point": "Property scale (7 beds) and income potential",
+      "frequency": 1
+    },
+    {
+      "point": "Selling while STL possibility",
+      "frequency": 1
+    },
+    {
+      "point": "Income potential during sales period",
+      "frequency": 1
+    }
+  ],
+  "language_to_use": [
+    {
+      "phrase": "relocating to London",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "property on market",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "refurbishment",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "six weeks",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "Sunnybank",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "viewings",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "decided to sell",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "decided to sell",
+      "context": "Matched from lead language signals"
+    }
+  ],
+  "presentation_section_priority": [
+    "holding_strategy_framing",
+    "income_during_sale",
+    "no_long_term_commitment_pitch",
+    "flexibility"
+  ],
+  "conversion_data": {
+    "total": 5,
+    "ready_now": 0,
+    "delayed": 1,
+    "had_meeting_2": 0,
+    "converted_to_customer": 0,
+    "conversion_rate": 0.0,
+    "most_common_lost_reason": "Decided to sell"
+  }
+}

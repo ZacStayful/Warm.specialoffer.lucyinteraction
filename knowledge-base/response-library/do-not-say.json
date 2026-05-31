@@ -1,0 +1,56 @@
+{
+  "schema_version": "3.0",
+  "last_updated": "2026-05-31",
+  "note": "This list grows forever and is never pruned. Every phrase here caused a negative lead reaction.",
+  "phrases": [
+    {
+      "phrase": "trust us",
+      "why": "Meaningless without evidence. Leads who need reassurance need proof, not appeals to trust.",
+      "what_happened": "Triggers disengagement in certainty-seekers and betrayal-damaged leads",
+      "alternative": "Here's what happened when [comparable situation]: [specific outcome]",
+      "frequency": 0
+    },
+    {
+      "phrase": "you'll do really well",
+      "why": "Vague positive claim. Feels like a sales line.",
+      "what_happened": "Analytical leads immediately probe for specifics \u2014 if you can't follow up with numbers, you've weakened your credibility",
+      "alternative": "Based on comparable properties, here's a realistic range: [floor]\u2013[ceiling]/month",
+      "frequency": 0
+    },
+    {
+      "phrase": "we never have problems with guests",
+      "why": "Statistically implausible. Leads who have done their research know damage happens on all platforms.",
+      "what_happened": "Betrayal-damaged and certainty-seeking leads immediately distrust any absolutist claim",
+      "alternative": "We have a clear process when things go wrong \u2014 here's what it looks like: [specific steps]",
+      "frequency": 0
+    },
+    {
+      "phrase": "it's only 13%",
+      "why": "'Only' minimises the concern rather than addressing it. Leads hear 'I don't take your concern seriously.'",
+      "what_happened": "Invites defensiveness from analytical leads who want the calculation, not the dismissal",
+      "alternative": "At 13%, on your projected \u00a3X, here's the exact net you'd receive: \u00a3Y",
+      "frequency": 0
+    },
+    {
+      "phrase": "don't worry about the quiet months",
+      "why": "Dismisses a legitimate concern without addressing it. Income consistency is the #1 recurring worry.",
+      "what_happened": "Leads who raised this concern and heard 'don't worry' consistently came back to it later \u2014 or abandoned",
+      "alternative": "Let me show you what your worst month looks like. Even in [quietest month], properties like yours earn \u00a3X.",
+      "frequency": 0
+    },
+    {
+      "phrase": "it's completely passive",
+      "why": "Misleading. Owners have responsibilities (mortgage, insurance, council tax, gas safety). Over-promising passivity creates post-conversion disappointment.",
+      "what_happened": "Leads who expected zero involvement became difficult clients when their responsibilities emerged",
+      "alternative": "Your responsibilities are: [specific list]. Everything else is us. Most owners tell us it genuinely feels passive once you're set up.",
+      "frequency": 0
+    },
+    {
+      "phrase": "all our guests are vetted",
+      "why": "Vague claim without specifics. 'Vetted' means different things to different leads.",
+      "what_happened": "Guest-concern leads (particularly Sam Corbett-type healthcare professionals) want to know the specific vetting criteria, not a general claim",
+      "alternative": "We require a minimum of [N] reviews, verified ID, and we hold a \u00a3[X] security deposit. We can also block instant-book for your property.",
+      "frequency": 0
+    }
+  ]
+}

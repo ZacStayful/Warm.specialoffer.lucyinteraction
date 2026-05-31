@@ -1,0 +1,1293 @@
+{
+  "schema_version": "3.0",
+  "total_entries_seen": 50,
+  "last_updated": "2026-05-31",
+  "objections": [
+    {
+      "canonical_trigger": "I want to understand the costs more",
+      "trigger_variants": [
+        "What are the total costs?",
+        "I need to understand what the fees actually are",
+        "I'm not clear on how much I'd actually keep",
+        "What are the total costs involved \u2014 management fee, cleaning, etc?"
+      ],
+      "frequency": 8,
+      "confidence": 0.8,
+      "last_seen": "2026-05-25",
+      "profile_types": [
+        "STL-SW",
+        "EX-STL",
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "income_presented",
+      "zac_response": {
+        "best": "Show a worked example, not a percentage. 'At your projected \u00a3X gross, here's what you actually keep: platform (3%) = \u00a3A, management (13%) = \u00a3B, cleaning (est. \u00a3Y/year) = \u00a3C. You keep \u00a3D.' Give them the number, not the formula.",
+        "alternatives": [
+          "Send a one-page 'What you actually earn' breakdown after the meeting"
+        ],
+        "avoid": "Saying 'it's just 13% plus VAT' \u2014 that doesn't answer the question. They want to know what's left, not what you charge."
+      },
+      "resolution_rate": 0.7,
+      "what_resolved_it": "A specific worked example with their property's numbers",
+      "linked_delay_type": "",
+      "linked_gap_category": "income_proof",
+      "entries": []
+    },
+    {
+      "canonical_trigger": "What about quiet months / income in winter?",
+      "trigger_variants": [
+        "What happens in January and February?",
+        "I'm worried about income dropping off in winter",
+        "How consistent is the income really?",
+        "Still have concerns about quiet months"
+      ],
+      "frequency": 6,
+      "confidence": 0.7,
+      "last_seen": "2026-05-25",
+      "profile_types": [
+        "STL-SW",
+        "PURCH",
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "income_presented",
+      "zac_response": {
+        "best": "Present worst-case monthly income, not averages. 'Even in our quietest month, a property like yours earns \u00a3X. Here's the month-by-month breakdown.' Then let the data speak. Leads who see the presentation twice resolve this concern themselves \u2014 if they don't challenge it on first viewing, send a follow-up invite 48 hours later.",
+        "alternatives": [
+          "Share a real monthly earnings statement from a comparable property (anonymised)",
+          "Show the floor: 'Your worst-case month is still \u00a3X \u2014 that's your mortgage covered.'"
+        ],
+        "avoid": "Average annual figures without monthly breakdown. 'Trust us' without evidence."
+      },
+      "resolution_rate": 0.8,
+      "what_resolved_it": "Month-by-month income data. Second pres view confirmed this resolves the concern on re-exposure.",
+      "linked_delay_type": "",
+      "linked_gap_category": "income_proof",
+      "entries": []
+    },
+    {
+      "canonical_trigger": "What type of guests will the property attract?",
+      "trigger_variants": [
+        "I'm worried about the wrong type of guests",
+        "How do you screen guests?",
+        "I want NHS/healthcare workers specifically",
+        "Getting the right type of guests"
+      ],
+      "frequency": 5,
+      "confidence": 0.6,
+      "last_seen": "2026-05-29",
+      "profile_types": [
+        "STL-SW",
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "Explain the vetting process specifically: 'We require a minimum review history, ID verification, and we take a security deposit. We can also decline bookings \u2014 you're not stuck with anyone Airbnb sends.' For leads wanting specific guest types (NHS, corporate): 'Your property's location already attracts those guests naturally. Here's why: [specific local demand drivers].'",
+        "alternatives": [
+          "Lead with guest vetting BEFORE income figures for this type of concern",
+          "Show real examples of guest types at comparable properties"
+        ],
+        "avoid": "Vague reassurance without specifics. 'We only have good guests' is not an answer."
+      },
+      "resolution_rate": 0.6,
+      "what_resolved_it": "Specific vetting process explanation + local demand driver narrative",
+      "linked_delay_type": "",
+      "linked_gap_category": "damage_protection",
+      "entries": [
+        "052"
+      ]
+    },
+    {
+      "canonical_trigger": "What if something gets damaged?",
+      "trigger_variants": [
+        "What about damage and theft?",
+        "What happens if a guest breaks something?",
+        "My renovation investment is exposed",
+        "Emotional attachment to the property"
+      ],
+      "frequency": 5,
+      "confidence": 0.6,
+      "last_seen": "2026-05-28",
+      "profile_types": [
+        "EX-STL",
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator",
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "Lead with AirCover: '\u00a31m host damage protection per stay \u2014 no excess, no claims process on your end.' For high-value properties: 'We also hold a \u00a3X security deposit specifically for properties with this level of finish.' Then Stayful's process: 'Any damage is documented, reported within 24 hours, and the claim process starts immediately \u2014 you're never left waiting for months.'",
+        "alternatives": [
+          "Reference Nathan Chadwick's Booking.com situation: 'The reason Booking.com damage is hard to claim is because the platform doesn't hold a deposit. We hold it directly.'"
+        ],
+        "avoid": "Minimising the concern. For high-renovation properties, acknowledge the emotional attachment before moving to the practical response."
+      },
+      "resolution_rate": 0.65,
+      "what_resolved_it": "AirCover explanation + security deposit specifics + Stayful's damage response protocol",
+      "linked_delay_type": "",
+      "linked_gap_category": "damage_protection",
+      "entries": [
+        "051"
+      ]
+    },
+    {
+      "canonical_trigger": "Managing the property remotely",
+      "trigger_variants": [
+        "I live abroad and can't check in",
+        "I'm not local",
+        "How do you handle things when I'm not around?",
+        "What happens if something goes wrong when I'm in the US?"
+      ],
+      "frequency": 5,
+      "confidence": 0.6,
+      "last_seen": "2026-05-27",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "Lead with operations, not income. 'Here's exactly what happens when something goes wrong: [specific process]. You'll have a Slack channel with named contacts. Monthly statements arrive on the 1st-5th. Quarterly calls. You'll never be chasing us for an update.' Show the communication model before the income model.",
+        "alternatives": [
+          "Walk through a hypothetical incident: 'If the boiler breaks at 11pm on a Saturday, here's what happens within the next 4 hours.'"
+        ],
+        "avoid": "Saying 'don't worry, we handle everything' \u2014 that's a claim, not evidence. Give them the specific process."
+      },
+      "resolution_rate": 0.6,
+      "what_resolved_it": "Slack channel + monthly statements + quarterly calls specific cadence + incident handling walkthrough",
+      "linked_delay_type": "",
+      "linked_gap_category": "process_clarity",
+      "entries": [
+        "050"
+      ]
+    },
+    {
+      "canonical_trigger": "I'm not sure about the 6-month commitment",
+      "trigger_variants": [
+        "What if it doesn't work out \u2014 are we locked in?",
+        "Can we try it for less time first?",
+        "I don't want to commit for 6 months"
+      ],
+      "frequency": 4,
+      "confidence": 0.5,
+      "last_seen": "2026-05-25",
+      "profile_types": [
+        "STL-SW",
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker",
+        "status-quo-resistant"
+      ],
+      "most_common_meeting_phase": "close",
+      "zac_response": {
+        "best": "Reframe: 'It's 6 months to get up to speed, then 3 months notice \u2014 so the earliest you could exit is 9 months in, but the 9-month exit is yours whenever you want it. In practice, hosts stay because the income works.' Then add: 'We'll review your income after 60 days \u2014 you'll know by then if it's working.'",
+        "alternatives": [
+          "'60-day income review' framing \u2014 a checkpoint makes the 6-month feel shorter",
+          "Point to conversion rate: 'Of our 40+ clients, none have exercised the 3-month notice because the income keeps them.'"
+        ],
+        "avoid": "Minimising the commitment. It is 6 months \u2014 acknowledge that honestly, then reframe the risk."
+      },
+      "resolution_rate": 0.55,
+      "what_resolved_it": "60-day review framing + portfolio retention data",
+      "linked_delay_type": "",
+      "linked_gap_category": "contract_clarity",
+      "entries": [
+        "037"
+      ]
+    },
+    {
+      "canonical_trigger": "I want more control over pricing",
+      "trigger_variants": [
+        "Can I set minimum nightly rates?",
+        "What if I disagree with the price?",
+        "I'd like more control over the pricing decisions"
+      ],
+      "frequency": 4,
+      "confidence": 0.5,
+      "last_seen": "2026-05-27",
+      "profile_types": [
+        "EX-STL",
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "how_it_works",
+      "zac_response": {
+        "best": "Clarify the actual model: 'You set the floor \u2014 we optimise above it. If you want a minimum of \u00a3X per night, we never go below that. The dynamic pricing works within your parameters.' Then: 'We review pricing weekly \u2014 if you ever disagree with a decision, you can flag it directly in Slack and we'll discuss.'",
+        "alternatives": [
+          "Show them the calendar: 'Here's what your property calendar looks like \u2014 you can see every booking and price in real time.'"
+        ],
+        "avoid": "Vague claims about 'collaborative pricing' if the model doesn't actually work that way. Only promise what exists."
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "Floor-price confirmation + review cadence + calendar visibility",
+      "linked_delay_type": "",
+      "linked_gap_category": "process_clarity",
+      "entries": [
+        "050"
+      ]
+    },
+    {
+      "canonical_trigger": "Went with another company",
+      "trigger_variants": [],
+      "frequency": 3,
+      "confidence": 0.0,
+      "last_seen": "2026-03-23",
+      "profile_types": [
+        "EX-STL",
+        "R2R",
+        "STL-SW"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "017",
+        "022",
+        "029"
+      ]
+    },
+    {
+      "canonical_trigger": "Setup costs are too high",
+      "trigger_variants": [
+        "I can't afford to furnish it right now",
+        "The setup cost doesn't work for me",
+        "It's too expensive to get started"
+      ],
+      "frequency": 2,
+      "confidence": 0.3,
+      "last_seen": "2026-04-30",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "how_it_works",
+      "zac_response": {
+        "best": "Turn setup into a payback calculation: 'At \u00a35k setup and \u00a315k/year net income, you've paid it back in 4 months \u2014 and you keep earning for the next 10+ years.' Then offer a phased furnishing approach: 'We can get the essential rooms furnished first for \u00a3X, and add extras as the income comes in.'",
+        "alternatives": [
+          "Present setup cost per room: 'You can start with just the bedroom and bathroom for \u00a3X.'"
+        ],
+        "avoid": "Defending the cost without showing the ROI. Cost without context always looks expensive."
+      },
+      "resolution_rate": 0.2,
+      "what_resolved_it": "ROI calculation. Note: Oliver Glaves (023) still abandoned after this \u2014 margin was too tight even with good framing.",
+      "linked_delay_type": "DLY-FUR",
+      "linked_gap_category": "setup_cost_justification",
+      "entries": [
+        "023"
+      ]
+    },
+    {
+      "canonical_trigger": "Income vs gross projections",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-27",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "003"
+      ]
+    },
+    {
+      "canonical_trigger": "Management fee and platform costs (~30-32%)",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-27",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "003"
+      ]
+    },
+    {
+      "canonical_trigger": "Mortgage and holiday let requirements",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-27",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "003"
+      ]
+    },
+    {
+      "canonical_trigger": "Owner access and calendar blocking",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-27",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "003"
+      ]
+    },
+    {
+      "canonical_trigger": "Wife less convinced \u2014 joint decision required",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-20",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "004"
+      ]
+    },
+    {
+      "canonical_trigger": "Darlington smaller market than Manchester",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-20",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "004"
+      ]
+    },
+    {
+      "canonical_trigger": "Setup cost \u00a35,000-6,000 for unfurnished property",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-20",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "004"
+      ]
+    },
+    {
+      "canonical_trigger": "Revenue feasibility during sales process",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-09",
+      "profile_types": [
+        "SELL"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "005"
+      ]
+    },
+    {
+      "canonical_trigger": "Furnishing requirements during sale period",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-09",
+      "profile_types": [
+        "SELL"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "005"
+      ]
+    },
+    {
+      "canonical_trigger": "Call cut short \u2014 heading out with school",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-27",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "011"
+      ]
+    },
+    {
+      "canonical_trigger": "Not enough time to complete discussion",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-27",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "011"
+      ]
+    },
+    {
+      "canonical_trigger": "Refurbishment blocking go-live",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-16",
+      "profile_types": [
+        "SELL"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "012"
+      ]
+    },
+    {
+      "canonical_trigger": "Special offer expired May 8",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-16",
+      "profile_types": [
+        "SELL"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "012"
+      ]
+    },
+    {
+      "canonical_trigger": "Need to confirm refurb timeline",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-16",
+      "profile_types": [
+        "SELL"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "012"
+      ]
+    },
+    {
+      "canonical_trigger": "Property viewings in progress \u2014 decision pending",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-08",
+      "profile_types": [
+        "SELL"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "013"
+      ]
+    },
+    {
+      "canonical_trigger": "Chose to sell rather than STL",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-08",
+      "profile_types": [
+        "SELL"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "013"
+      ]
+    },
+    {
+      "canonical_trigger": "Fee structure clarity",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-17",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "014"
+      ]
+    },
+    {
+      "canonical_trigger": "Day-to-day management model",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-17",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "014"
+      ]
+    },
+    {
+      "canonical_trigger": "Agreement not yet signed",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-17",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "014"
+      ]
+    },
+    {
+      "canonical_trigger": "Wants to try self-managing first",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-04",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "015"
+      ]
+    },
+    {
+      "canonical_trigger": "Never answered calls",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-04",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "015"
+      ]
+    },
+    {
+      "canonical_trigger": "Offer expired without contact",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-04",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "015"
+      ]
+    },
+    {
+      "canonical_trigger": "No offer expiry date set initially",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-03-24",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "016"
+      ]
+    },
+    {
+      "canonical_trigger": "Stopped responding after April 20",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-03-24",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "016"
+      ]
+    },
+    {
+      "canonical_trigger": "Agreement review \u2014 point-by-point questions planned but never sent",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-02-24",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "017"
+      ]
+    },
+    {
+      "canonical_trigger": "Refurbishment distraction (Turkey property)",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-02-24",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "017"
+      ]
+    },
+    {
+      "canonical_trigger": "Property delays (unspecified)",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-03-17",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "018"
+      ]
+    },
+    {
+      "canonical_trigger": "Too many automated follow-up emails",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-03-17",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "018"
+      ]
+    },
+    {
+      "canonical_trigger": "Has not yet decided",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-03-17",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "018"
+      ]
+    },
+    {
+      "canonical_trigger": "Input incorrect information",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-21",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "020"
+      ]
+    },
+    {
+      "canonical_trigger": "Income prediction may have been a concern",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-06",
+      "profile_types": [
+        "R2R"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "022"
+      ]
+    },
+    {
+      "canonical_trigger": "Setup costs too high",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-03",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "023"
+      ]
+    },
+    {
+      "canonical_trigger": "Sheffield city centre 1-bed \u2014 margin concern",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-03",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "023"
+      ]
+    },
+    {
+      "canonical_trigger": "Chose to sell property",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-03-30",
+      "profile_types": [
+        "SELL"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "024"
+      ]
+    },
+    {
+      "canonical_trigger": "SELL profile \u2014 went through with sale",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-03-30",
+      "profile_types": [
+        "SELL"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "024"
+      ]
+    },
+    {
+      "canonical_trigger": "Income prediction too low for R2R model",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-05",
+      "profile_types": [
+        "R2R"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "025"
+      ]
+    },
+    {
+      "canonical_trigger": "Swallownest Sheffield \u2014 margins don't work for R2R",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-05",
+      "profile_types": [
+        "R2R"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "025"
+      ]
+    },
+    {
+      "canonical_trigger": "Does not fit with Stayful model",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-06",
+      "profile_types": [
+        "SELL"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "026"
+      ]
+    },
+    {
+      "canonical_trigger": "Swiss-based lead \u2014 communication friction",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-06",
+      "profile_types": [
+        "SELL"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "026"
+      ]
+    },
+    {
+      "canonical_trigger": "Wembley area \u2014 assessment may have flagged issues",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-04-06",
+      "profile_types": [
+        "SELL"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "026"
+      ]
+    },
+    {
+      "canonical_trigger": "Bradford 1-bed \u2014 margin concern for R2R",
+      "trigger_variants": [],
+      "frequency": 1,
+      "confidence": 0.0,
+      "last_seen": "2026-03-28",
+      "profile_types": [
+        "R2R"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "qualification",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "027"
+      ]
+    }
+  ]
+}

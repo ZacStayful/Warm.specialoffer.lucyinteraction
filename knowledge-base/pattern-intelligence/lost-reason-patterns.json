@@ -1,0 +1,157 @@
+{
+  "schema_version": "3.0",
+  "total_lost_entries": 17,
+  "last_updated": "2026-05-31",
+  "by_reason": {
+    "Decided to sell": {
+      "count": 2,
+      "pct": 11.8,
+      "profiles": {
+        "SELL": 2
+      },
+      "archetypes": {},
+      "gaps": [],
+      "offer_made": 2,
+      "no_offer": 0,
+      "prevention": "Frame STL as the fallback plan while property is on market. 'If you don't get your price, you'll have \u00a3X in the bank by then.'"
+    },
+    "want to try and self manage": {
+      "count": 1,
+      "pct": 5.9,
+      "profiles": {
+        "EX-STL": 1
+      },
+      "archetypes": {},
+      "gaps": [],
+      "offer_made": 1,
+      "no_offer": 0,
+      "prevention": "For GL-SELF leads: Acknowledge the impulse, then ask: 'What does handling two changeovers in the same week look like for you?' Paint the operational reality before presenting the management alternative."
+    },
+    "Lead stopped responding": {
+      "count": 2,
+      "pct": 11.8,
+      "profiles": {
+        "STL-SW": 1,
+        "PURCH": 1
+      },
+      "archetypes": {},
+      "gaps": [],
+      "offer_made": 2,
+      "no_offer": 0,
+      "prevention": "Send a clean break message at 21 days: 'I'm going to stop chasing and leave the door open \u2014 you know where we are.' Paradoxically generates replies."
+    },
+    "Gone with another company": {
+      "count": 3,
+      "pct": 17.6,
+      "profiles": {
+        "EX-STL": 1,
+        "R2R": 1,
+        "STL-SW": 1
+      },
+      "archetypes": {},
+      "gaps": [],
+      "offer_made": 2,
+      "no_offer": 1,
+      "prevention": "Ask directly in the meeting: 'Are you speaking to anyone else?' If yes: 'What would they need to do differently for you to choose them?' Use the answer to differentiate Stayful before the decision is made."
+    },
+    "Setup costs too high": {
+      "count": 1,
+      "pct": 5.9,
+      "profiles": {
+        "STL-SW": 1
+      },
+      "archetypes": {},
+      "gaps": [],
+      "offer_made": 1,
+      "no_offer": 0,
+      "prevention": "Present setup cost as a one-time investment against 20+ years of income. 'A \u00a35k setup on a property earning \u00a315k/year = 4 months payback.' For tight-margin properties, present a phased furnishing plan."
+    },
+    "Income prediction too low": {
+      "count": 2,
+      "pct": 11.8,
+      "profiles": {
+        "R2R": 2
+      },
+      "archetypes": {},
+      "gaps": [],
+      "offer_made": 1,
+      "no_offer": 1,
+      "prevention": "R2R leads: qualify income viability before meeting. Own-property leads: check if their expectations are realistic before presenting \u2014 anchor them to market data first."
+    },
+    "Decided to long let property": {
+      "count": 2,
+      "pct": 11.8,
+      "profiles": {
+        "ABROAD": 1,
+        "STL-SW": 1
+      },
+      "archetypes": {},
+      "gaps": [],
+      "offer_made": 2,
+      "no_offer": 0,
+      "prevention": "Calculate and show the LTL comparison explicitly. 'You're choosing \u00a3X/year over \u00a3Y/year \u2014 that's \u00a3Z less per year you're giving up for predictability.' Some will prefer predictability \u2014 qualify for it rather than fight it."
+    },
+    "does not fit with Stayful": {
+      "count": 1,
+      "pct": 5.9,
+      "profiles": {
+        "SELL": 1
+      },
+      "archetypes": {},
+      "gaps": [],
+      "offer_made": 1,
+      "no_offer": 0,
+      "prevention": "Qualify fit earlier. R2R, HMO, overseas-managed properties, leads wanting frequent personal access > 48h need early fit assessment before a full sales meeting."
+    },
+    "Input incorrect information": {
+      "count": 1,
+      "pct": 5.9,
+      "profiles": {
+        "ABROAD": 1
+      },
+      "archetypes": {},
+      "gaps": [],
+      "offer_made": 0,
+      "no_offer": 1,
+      "prevention": "Verify property existence and lead identity at the pre-screening stage. Check address on Rightmove/Zoopla before booking meeting."
+    },
+    "None": {
+      "count": 2,
+      "pct": 11.8,
+      "profiles": {
+        "R2R": 2
+      },
+      "archetypes": {},
+      "gaps": [],
+      "offer_made": 0,
+      "no_offer": 2,
+      "prevention": "No reason given. Implement a post-abandonment SMS: 'Just curious \u2014 what made you decide not to go ahead? No pressure, just helps us improve.'"
+    }
+  },
+  "cross_reference": [
+    {
+      "pattern": "R2R model economics incompatible",
+      "description": "Rent-to-rent leads consistently abandon when income prediction is shown \u2014 margins don't work after Stayful fee on top of their landlord rent obligation",
+      "frequency": 3,
+      "prevention": "Qualify R2R leads early: ask 'What are you paying the landlord monthly?' before presenting projections. If net STL - (landlord rent + Stayful fee) < \u00a3200/month, qualify out."
+    },
+    {
+      "pattern": "SELL profile chose sale over STL",
+      "description": "Leads who are actively selling often wait to see if they get a good offer \u2014 STL is fallback, not primary plan",
+      "frequency": 2,
+      "prevention": "Frame STL as insurance: 'If the property doesn't sell in 3 months, it will have earned \u00a3X for you.' Reduce commitment friction \u2014 make STL feel reversible."
+    },
+    {
+      "pattern": "Over-emailed lead goes cold",
+      "description": "Multiple leads cite excessive automated emails as the trigger for disengagement",
+      "frequency": 3,
+      "prevention": "Cap automated follow-up at 3 touchpoints. Personal note after 3rd: 'I'll leave you to it \u2014 just reply whenever you're ready.' Lower communication volume = higher late-stage conversion."
+    },
+    {
+      "pattern": "Short offer window (< 14 days) on uncertain leads",
+      "description": "When offer expiry is set before lead has had time to absorb the model, they disengage rather than rush",
+      "frequency": 4,
+      "prevention": "Set offer expiry at minimum 14 days. For ABROAD/PURCH leads with genuine delays, extend to 60-90 days with a check-in call at the midpoint."
+    }
+  ]
+}

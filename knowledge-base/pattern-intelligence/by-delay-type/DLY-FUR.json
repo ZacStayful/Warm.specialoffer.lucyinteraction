@@ -1,0 +1,64 @@
+{
+  "schema_version": "3.0",
+  "delay_type": "DLY-FUR",
+  "delay_description": "Unfurnished property \u2014 setup capital must be committed before going live",
+  "total_entries": 2,
+  "last_updated": "2026-05-31",
+  "trigger_phrases": [
+    {
+      "phrase": "unfurnished, needs everything",
+      "frequency": 1
+    },
+    {
+      "phrase": "\u00a310k additional furnishing costs required",
+      "frequency": 1
+    }
+  ],
+  "typical_timeline": {
+    "most_common_months": 3,
+    "range_min_months": 1,
+    "range_max_months": 9,
+    "notes": "Based on 2 timeline signals observed: setup quote needed, 2 weeks to ready",
+    "observed_timelines": [
+      "setup quote needed",
+      "2 weeks to ready"
+    ]
+  },
+  "what_leads_focus_on_while_waiting": [],
+  "emotional_profiles_most_common": [
+    {
+      "profile": "analytical-evaluator",
+      "count": 1
+    },
+    {
+      "profile": "fast-path-gain-focused",
+      "count": 1
+    }
+  ],
+  "property_profiles_most_common": [
+    {
+      "profile": "STL-SW",
+      "count": 1
+    },
+    {
+      "profile": "EX-STL",
+      "count": 1
+    }
+  ],
+  "how_to_handle_in_meeting": {
+    "acknowledge_phrase": "Totally \u2014 you want to understand the setup cost before you commit to anything.",
+    "timeline_question": "Do you have a budget in mind for furnishing, and is that something you could move on in the next few months?",
+    "reframe_approach": "Turn the setup cost into a return calculation: 'If setup is \u00a35k and you earn \u00a315k net in year one, payback is 4 months.' Show them it's an investment, not a cost.",
+    "how_to_keep_engaged": "Send the setup quote within 24 hours. 'Once you have the number in front of you, you can decide whether the timeline works.'",
+    "what_to_write_to_monday": "Send furnishing quote. Note budget sensitivity in Call Brief. Set follow-up for 2 weeks post-quote."
+  },
+  "conversion_after_delay": {
+    "total": 2,
+    "eventually_converted": 0,
+    "conversion_rate": 0.0,
+    "avg_months_to_convert": 0.0,
+    "drop_off_reason": "Insufficient data to determine \u2014 fewer than 10 delay entries per type",
+    "note": "First run \u2014 conversion-after-delay rates will improve with more data over time"
+  },
+  "do_not_attempt_offer_because": "Lead doesn't yet know what the upfront cost is. Offering before they have the quote is premature \u2014 they can't decide without the full picture."
+}

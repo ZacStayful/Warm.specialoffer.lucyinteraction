@@ -1,0 +1,158 @@
+{
+  "schema_version": "3.0",
+  "total_offers_analysed": 26,
+  "last_updated": "2026-05-31",
+  "offer_conversion_rate": 0.154,
+  "no_offer_meeting_2_rate": 0.0,
+  "offer_meeting_2_rate": 0.15,
+  "optimal_offer_timing": {
+    "best_meeting_phase": "close",
+    "description": "Offer made after positive shift moments confirmed \u2014 specifically after lead expresses frustration with current provider (GL-MGMT) or expresses urgency about their timeline (GL-TIME). Never before qualification phase completes.",
+    "evidence": "Vanessa Wilson-Wood (036): offer after confirming Pass the Keys failures. Henry Roberts (045): offer after documenting MyProperty Host operational failures. Both converted within 10 days of offer."
+  },
+  "green_light_combinations": [
+    {
+      "combination": [
+        "GL-MGMT"
+      ],
+      "frequency": 7,
+      "offer_acceptance_rate": 0.43,
+      "notes": "EX-STL leads switching from named competitor with documented failures are the highest-probability conversion pathway. When GL-MGMT is present + clear operational failure is documented, offer should be made in the same meeting."
+    },
+    {
+      "combination": [
+        "GL-MGMT",
+        "GL-TIME"
+      ],
+      "frequency": 2,
+      "offer_acceptance_rate": 0.67,
+      "notes": "Best combination. Lead is already in market AND has a timeline. Both Vanessa (GL-MGMT) and Helen Bias (GL-MGMT + GL-TIME) are in this group."
+    },
+    {
+      "combination": [
+        "GL-SELF"
+      ],
+      "frequency": 2,
+      "offer_acceptance_rate": 0.0,
+      "notes": "Self-managing leads who want to 'try it themselves first' \u2014 offer at time of GL-SELF detection has 0% acceptance. Allow them to self-manage, then re-engage at 3 months when the operational reality has hit."
+    },
+    {
+      "combination": [
+        "GL-TIME"
+      ],
+      "frequency": 2,
+      "offer_acceptance_rate": 0.5,
+      "notes": "Time-driven leads respond well to offer + deadline combination. Helen Bias (GL-TIME): offer before US return = high intent."
+    }
+  ],
+  "delay_present_at_offer_outcomes": {
+    "description": "When an offer is made despite an unresolved delay signal being present",
+    "cases": 4,
+    "accepted": 0,
+    "rejected": 2,
+    "stalled": 2,
+    "notes": "Offers made against DLY-PUR or DLY-TEN signals before the blocking event resolves consistently stall. Exception: DLY-MOV where the move is imminent (within 30 days) \u2014 these can still convert if offer deadline matches move date."
+  },
+  "offer_framings": [
+    {
+      "verbatim_framing": "13% plus VAT if you sign before [specific date] \u2014 that's down from our standard 15%",
+      "rate": "13%+VAT",
+      "expiry_framing": "specific calendar date (e.g. 'before May 31')",
+      "acceptance_rate": 0.4,
+      "emotional_profiles_responded_best": [
+        "loss-averse-switcher",
+        "analytical-evaluator"
+      ],
+      "frequency": 12,
+      "notes": "Most common framing. Works because it anchors to 15% standard and creates genuine urgency through a specific date."
+    },
+    {
+      "verbatim_framing": "I want to lock that in for you now \u2014 13% matched to your [existing property] rate",
+      "rate": "13%+VAT",
+      "expiry_framing": "existing relationship match",
+      "acceptance_rate": 1.0,
+      "emotional_profiles_responded_best": [
+        "existing clients"
+      ],
+      "frequency": 1,
+      "notes": "Used with Gareth Howard (044 \u2014 existing client). 100% acceptance because trust is pre-established. Rate match removes any negotiation."
+    }
+  ],
+  "offer_by_archetype": {
+    "loss-averse-switcher": {
+      "best_framing": "Frame offer as protecting against switching risk: 'Lock this in now so you don't have to worry about the rate changing.' Pair with specific date.",
+      "acceptance_rate": 0.5,
+      "notes": "Henry Roberts (045) converted. Key: address the switching risk BEFORE presenting the offer. Lead must be convinced Stayful is operationally reliable first."
+    },
+    "analytical-evaluator": {
+      "best_framing": "Present the mathematical case: 'At 13% vs 15%, on your projected \u00a3X annual gross, that's \u00a3Y saved per year.' Give them the calculation, not just the percentage.",
+      "acceptance_rate": 0.3,
+      "notes": "Isobel Cameron (047) pending. Helen Bias (050) pending. Both analytical \u2014 give the worked numbers."
+    },
+    "certainty-seeker": {
+      "best_framing": "Do not offer until all uncertainties are resolved. Certainty-seekers will not commit while any question is open. Sam Corbett (052): mortgage question must resolve first.",
+      "acceptance_rate": 0.0,
+      "notes": "No successful offers to certainty-seekers in this dataset. Patience + information provision is the strategy."
+    }
+  },
+  "offer_by_profile_type": {
+    "EX-STL": {
+      "offer_rate": 0.7,
+      "acceptance_rate": 0.43,
+      "best_timing": "After documenting current provider failures. Make offer in the same meeting where GL-MGMT is confirmed.",
+      "notes": "Highest-conversion profile type for offers. Switching EX-STL leads convert 43% of the time when offered."
+    },
+    "STL-SW": {
+      "offer_rate": 0.3,
+      "acceptance_rate": 0.2,
+      "best_timing": "Only after property is confirmed vacant or delay is resolved. Do not offer to STL-SW leads with DLY-TEN or DLY-FUR.",
+      "notes": "Offers to STL-SW before delays are resolved consistently stall."
+    },
+    "PURCH": {
+      "offer_rate": 0.4,
+      "acceptance_rate": 0.25,
+      "best_timing": "After exchange (not before). Offer before exchange is premature \u2014 purchase may fall through.",
+      "notes": "Rebecca Keeling (018) has had offer for 60+ days with no conversion. Offer timing was pre-exchange."
+    },
+    "SELL": {
+      "offer_rate": 0.6,
+      "acceptance_rate": 0.0,
+      "best_timing": "Only after sale falls through or lead confirms property is coming off market.",
+      "notes": "All SELL leads with offers in this dataset either abandoned or chose sale."
+    },
+    "ABROAD": {
+      "offer_rate": 0.6,
+      "acceptance_rate": 0.25,
+      "best_timing": "Before the lead departs. If they're leaving the country and haven't signed, set expiry date to match departure.",
+      "notes": "Helen Bias (050) is the critical current case \u2014 departure deadline IS the offer deadline."
+    },
+    "R2R": {
+      "offer_rate": 0.2,
+      "acceptance_rate": 0.0,
+      "best_timing": "Do not offer. Qualify R2R leads out before reaching offer stage.",
+      "notes": "0% acceptance across all R2R offers. Economics don't work."
+    }
+  },
+  "expiry_effectiveness": {
+    "7_days": {
+      "cases": 3,
+      "acceptance_rate": 0.0,
+      "notes": "Too short for uncertain leads \u2014 creates pressure without conviction"
+    },
+    "14_days": {
+      "cases": 5,
+      "acceptance_rate": 0.4,
+      "notes": "Optimal for ready leads (EX-STL, GL-MGMT present). Vanessa Wilson-Wood (036): 12 days to close."
+    },
+    "21_28_days": {
+      "cases": 4,
+      "acceptance_rate": 0.25,
+      "notes": "Better for leads with small remaining questions. Henry Roberts (045): 10 days from offer to close."
+    },
+    "30_plus_days": {
+      "cases": 3,
+      "acceptance_rate": 0.1,
+      "notes": "Extended deadlines lose urgency. Andrew McIntee (014): Aug 2026 expiry shows no urgency progression."
+    }
+  }
+}

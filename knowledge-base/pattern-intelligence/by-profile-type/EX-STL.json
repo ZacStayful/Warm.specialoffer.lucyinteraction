@@ -1,0 +1,323 @@
+{
+  "schema_version": "3.0",
+  "profile_type": "EX-STL",
+  "profile_description": "Already operating as short-let \u2014 either self-managing or with an underperforming management company \u2014 seeking professional management or a switch",
+  "total_entries": 10,
+  "last_updated": "2026-05-31",
+  "typical_situation": "Owner has seen STL potential but is either overwhelmed by self-management or is frustrated by poor performance/communication from current manager. Property is already live on Airbnb/Booking.com.",
+  "typical_motivation": "Scalability (self-managing) or quality/performance improvement (with poor manager). Already convinced of the STL model \u2014 pitch is about Stayful specifically.",
+  "typical_timeline": "Fast. Property is already live. If with competitor: 1-month notice period to switch. If self-managing: can transition within 2-3 weeks.",
+  "most_common_emotional_profiles": [
+    {
+      "archetype": "loss-averse-switcher",
+      "count": 2,
+      "percentage": 20.0
+    },
+    {
+      "archetype": "analytical-evaluator",
+      "count": 1,
+      "percentage": 10.0
+    },
+    {
+      "archetype": "fast-path-gain-focused",
+      "count": 1,
+      "percentage": 10.0
+    }
+  ],
+  "most_common_delays": [
+    {
+      "delay_type": "DLY-OTH",
+      "count": 2,
+      "percentage": 20.0
+    },
+    {
+      "delay_type": "DLY-FUR",
+      "count": 1,
+      "percentage": 10.0
+    }
+  ],
+  "most_common_green_lights": [
+    {
+      "green_light_type": "GL-MGMT",
+      "count": 7,
+      "percentage": 70.0
+    },
+    {
+      "green_light_type": "GL-SELF",
+      "count": 2,
+      "percentage": 20.0
+    },
+    {
+      "green_light_type": "GL-TIME",
+      "count": 2,
+      "percentage": 20.0
+    }
+  ],
+  "what_meeting_should_lead_with": "NOT income \u2014 they already know STL works. Lead with what's failing with their current arrangement and how Stayful specifically fixes it.",
+  "top_questions": [
+    {
+      "question": "Call cut short \u2014 heading out with school",
+      "frequency": 1,
+      "confidence": 0.1,
+      "best_answer": ""
+    },
+    {
+      "question": "Not enough time to complete discussion",
+      "frequency": 1,
+      "confidence": 0.1,
+      "best_answer": ""
+    },
+    {
+      "question": "Wants to try self-managing first",
+      "frequency": 1,
+      "confidence": 0.1,
+      "best_answer": ""
+    },
+    {
+      "question": "Never answered calls",
+      "frequency": 1,
+      "confidence": 0.1,
+      "best_answer": ""
+    },
+    {
+      "question": "Offer expired without contact",
+      "frequency": 1,
+      "confidence": 0.1,
+      "best_answer": ""
+    },
+    {
+      "question": "Agreement review \u2014 point-by-point questions planned but never sent",
+      "frequency": 1,
+      "confidence": 0.1,
+      "best_answer": ""
+    },
+    {
+      "question": "Refurbishment distraction (Turkey property)",
+      "frequency": 1,
+      "confidence": 0.1,
+      "best_answer": ""
+    },
+    {
+      "question": "Went with another company",
+      "frequency": 1,
+      "confidence": 0.1,
+      "best_answer": ""
+    },
+    {
+      "question": "Summer booking gaps concern",
+      "frequency": 1,
+      "confidence": 0.1,
+      "best_answer": ""
+    },
+    {
+      "question": "Attic bedroom compliance issue",
+      "frequency": 1,
+      "confidence": 0.1,
+      "best_answer": ""
+    },
+    {
+      "question": "Recurring WiFi cable theft problem",
+      "frequency": 1,
+      "confidence": 0.1,
+      "best_answer": ""
+    },
+    {
+      "question": "Needs husband sign-off",
+      "frequency": 1,
+      "confidence": 0.1,
+      "best_answer": ""
+    },
+    {
+      "question": "Monthly software fee \u00a342/month",
+      "frequency": 1,
+      "confidence": 0.1,
+      "best_answer": ""
+    },
+    {
+      "question": "What notice period does MyProperty Host require?",
+      "frequency": 1,
+      "confidence": 0.1,
+      "best_answer": ""
+    },
+    {
+      "question": "Currently at break-even \u2014 wants to understand transition timeline",
+      "frequency": 1,
+      "confidence": 0.1,
+      "best_answer": ""
+    }
+  ],
+  "top_objections": [
+    {
+      "objection": "Call cut short \u2014 heading out with school",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Not enough time to complete discussion",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Wants to try self-managing first",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Never answered calls",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Offer expired without contact",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Agreement review \u2014 point-by-point questions planned but never sent",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Refurbishment distraction (Turkey property)",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Went with another company",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Summer booking gaps concern",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Attic bedroom compliance issue",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Recurring WiFi cable theft problem",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    },
+    {
+      "objection": "Needs husband sign-off",
+      "frequency": 1,
+      "resolution_rate": 0.5,
+      "best_response": ""
+    }
+  ],
+  "top_conversion_gaps": [],
+  "what_moves_them": [
+    {
+      "point": "Three-platform strategy",
+      "frequency": 2
+    },
+    {
+      "point": "13% special offer rate",
+      "frequency": 1
+    },
+    {
+      "point": "Better income potential than current arrangement",
+      "frequency": 1
+    },
+    {
+      "point": "Initial interest in short-let strategy",
+      "frequency": 1
+    },
+    {
+      "point": "4-platform strategy vs Pass the Keys 1-platform approach",
+      "frequency": 1
+    },
+    {
+      "point": "Direct booking conversion for relocation clients",
+      "frequency": 1
+    },
+    {
+      "point": "Individual property listing (not hotel-style grouping)",
+      "frequency": 1
+    },
+    {
+      "point": "Maintenance batching with no markups",
+      "frequency": 1
+    },
+    {
+      "point": "Monthly statements 1st-5th",
+      "frequency": 1
+    },
+    {
+      "point": "Direct booking capability (26%) vs single-platform dependency",
+      "frequency": 1
+    }
+  ],
+  "language_to_use": [
+    {
+      "phrase": "self manage",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "try it myself",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "point-by-point questions",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "when I get home",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "summer booking gaps",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "attic bedroom",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "WiFi cable theft",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "I'll talk it through with my husband",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "income consistency",
+      "context": "Matched from lead language signals"
+    },
+    {
+      "phrase": "around break-even",
+      "context": "Matched from lead language signals"
+    }
+  ],
+  "presentation_section_priority": [
+    "differentiation_vs_current_provider",
+    "platform_strategy",
+    "maintenance_model",
+    "review_growth"
+  ],
+  "conversion_data": {
+    "total": 10,
+    "ready_now": 8,
+    "delayed": 2,
+    "had_meeting_2": 1,
+    "converted_to_customer": 2,
+    "conversion_rate": 20.0,
+    "most_common_lost_reason": "want to try and self manage"
+  }
+}

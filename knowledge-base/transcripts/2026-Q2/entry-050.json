@@ -1,0 +1,189 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "050",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-27",
+  "transcript_quality": "full",
+  "lead_name": "Helen Bias",
+  "email": "hmb_mubs@hotmail.com",
+  "monday_id": "12090939515",
+  "address": "ST10 3HW",
+  "bedrooms": 6,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "Waterhouses Staffordshire \u2014 6-bed large group property (The George Inn). \u00a390k net annual projection. ABROAD \u2014 returning to US. Two-sided urgency: offer expires June 14 AND she leaves before then. Analytical evaluator (6+ pres views, 'fee structure' language). First 6-bed large format group property in pipeline. Sister Cornwall properties = pipeline opportunity. Follow-up call agreed 1 June.",
+  "emotional_profile": "analytical-evaluator",
+  "conversion_likelihood": 7,
+  "profile_confidence": "medium",
+  "primary_blocker": "returning to US at end of next week",
+  "language_signals": [
+    "managing the property remotely",
+    "I want to understand the costs more",
+    "not being kept informed",
+    "the fee structure",
+    "I need to decide before I go back"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "2026-06-14",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-MOV",
+      "trigger_phrase": "returning to US at end of next week",
+      "context": "Moving to US \u2014 needs decision before leaving",
+      "timeline_given": "before end of first week of June",
+      "resolved_in_meeting": true
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "I need to decide before I go back",
+      "context": "US return deadline creates genuine urgency",
+      "strength": "strong"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {},
+  "meeting_flow": {},
+  "lead_responses": [
+    {
+      "what_lead_said": "Managing the property remotely \u2014 stated as main concern",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "I want to understand the costs more \u2014 full cost transparency",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "I'd like more control over pricing \u2014 wants oversight of dynamic pricing",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Not being kept informed \u2014 emotional need for visibility",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "The fee structure \u2014 analytical margin calculation",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "VRBO \u2014 why not using it",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Hot tub \u2014 deferred pending performance data",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "6 years and 80 properties \u2014 scale gave credibility",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    },
+    {
+      "what_caused_shift": "\u00a3500 security deposit \u2014 showed property protection taken seriously",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    },
+    {
+      "what_caused_shift": "Quarterly inspections \u2014 reassured on oversight from distance",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    },
+    {
+      "what_caused_shift": "Monthly statements 1st-5th \u2014 very specific timeline gave confidence",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    },
+    {
+      "what_caused_shift": "3 weeks contract to live \u2014 shorter than expected",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    },
+    {
+      "what_caused_shift": "Sister Cornwall mention \u2014 thinking expansively",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    }
+  ],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "analytical-evaluator",
+    "what_they_focused_on": [],
+    "what_they_needed_most": [],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": ""
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

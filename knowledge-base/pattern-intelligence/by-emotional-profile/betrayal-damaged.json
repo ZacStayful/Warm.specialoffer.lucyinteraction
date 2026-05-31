@@ -1,0 +1,57 @@
+{
+  "schema_version": "3.0",
+  "archetype": "betrayal-damaged",
+  "archetype_description": "Been let down before. Deeply cautious about trusting a new provider.",
+  "total_entries": 0,
+  "last_updated": "2026-05-31",
+  "data_note": "Only 0 entries with this archetype assigned. Profiler has not run on most entries \u2014 scores will improve as Lead Psychology Profiler processes more leads.",
+  "what_they_focus_on": [],
+  "questions_they_ask": [],
+  "objections_they_raise": [],
+  "what_moves_them": [],
+  "what_falls_flat": [],
+  "language_to_mirror": [],
+  "meeting_guidance": {
+    "opening_approach": "Ask what happened with their previous manager/agent. Let them tell the story in full.",
+    "what_to_lead_with": "Transparency about Stayful's model. Contract terms, what's in writing, what guarantees exist.",
+    "what_to_avoid": "Promises that can't be guaranteed. 'We never let anyone down' when they've been burned before.",
+    "close_approach": "Contract walkthrough on the call. 'Let me show you exactly what's in the agreement so there are no surprises.'",
+    "offer_framing": "Lead with contract clarity before price. 'The most important thing is that you understand exactly what you're signing.'"
+  },
+  "delay_signal_pattern": "Insufficient data \u2014 fewer than 5 entries with this archetype. Check again after profiler has processed more leads.",
+  "green_light_pattern": "Insufficient data \u2014 fewer than 5 entries with this archetype. Check again after profiler has processed more leads.",
+  "profile_type_intersections": {
+    "STL-SW": {
+      "count": 0,
+      "notes": ""
+    },
+    "EX-STL": {
+      "count": 0,
+      "notes": ""
+    },
+    "PURCH": {
+      "count": 0,
+      "notes": ""
+    },
+    "SELL": {
+      "count": 0,
+      "notes": ""
+    },
+    "ABROAD": {
+      "count": 0,
+      "notes": ""
+    },
+    "R2R": {
+      "count": 0,
+      "notes": ""
+    }
+  },
+  "conversion_data": {
+    "total": 0,
+    "ready_now": 0,
+    "delayed": 0,
+    "lost": 0,
+    "conversion_rate": 0.0,
+    "most_common_lost_reason": ""
+  }
+}

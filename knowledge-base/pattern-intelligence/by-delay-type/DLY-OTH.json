@@ -1,0 +1,78 @@
+{
+  "schema_version": "3.0",
+  "delay_type": "DLY-OTH",
+  "delay_description": "Other prerequisite \u2014 planning, renovation, refurbishment, or other blocking event",
+  "total_entries": 4,
+  "last_updated": "2026-05-31",
+  "trigger_phrases": [
+    {
+      "phrase": "refurbishment starting that week, six weeks",
+      "frequency": 1
+    },
+    {
+      "phrase": "house refurb with a roof delay",
+      "frequency": 1
+    },
+    {
+      "phrase": "test long-term rental market first",
+      "frequency": 1
+    },
+    {
+      "phrase": "mortgage remortgage due September 2026",
+      "frequency": 1
+    }
+  ],
+  "typical_timeline": {
+    "most_common_months": 3,
+    "range_min_months": 1,
+    "range_max_months": 9,
+    "notes": "Based on 4 timeline signals observed: 6 weeks from ~mid-May, a few weeks, 1 month LTL trial planned, September 2026",
+    "observed_timelines": [
+      "6 weeks from ~mid-May",
+      "a few weeks",
+      "1 month LTL trial planned",
+      "September 2026"
+    ]
+  },
+  "what_leads_focus_on_while_waiting": [],
+  "emotional_profiles_most_common": [
+    {
+      "profile": "fast-path-gain-focused",
+      "count": 1
+    },
+    {
+      "profile": "certainty-seeker",
+      "count": 1
+    }
+  ],
+  "property_profiles_most_common": [
+    {
+      "profile": "EX-STL",
+      "count": 2
+    },
+    {
+      "profile": "SELL",
+      "count": 1
+    },
+    {
+      "profile": "STL-SW",
+      "count": 1
+    }
+  ],
+  "how_to_handle_in_meeting": {
+    "acknowledge_phrase": "Understood \u2014 you need [the works] to be done first before you can think about guests.",
+    "timeline_question": "What's the current timeline on [the renovation / planning / other]? And is that in your control or dependent on someone else?",
+    "reframe_approach": "Separate the decisions: 'You don't need to resolve the [renovation] before signing the agreement \u2014 you can sign now and go live when the property is ready. The agreement doesn't start until you go live.'",
+    "how_to_keep_engaged": "Get a realistic completion date for the blocker. Set a calendar reminder for 4 weeks before that date. 'I'll check in with you in [N] weeks to see how the [works] are coming along.'",
+    "what_to_write_to_monday": "Describe the specific blocker in Call Brief. Set date_mm2vmj1q to midpoint of expected resolution window."
+  },
+  "conversion_after_delay": {
+    "total": 4,
+    "eventually_converted": 0,
+    "conversion_rate": 0.0,
+    "avg_months_to_convert": 0.0,
+    "drop_off_reason": "Insufficient data to determine \u2014 fewer than 10 delay entries per type",
+    "note": "First run \u2014 conversion-after-delay rates will improve with more data over time"
+  },
+  "do_not_attempt_offer_because": "Renovation, planning, or mortgage decisions are external to the lead's control. Offering while they're waiting on something else creates the impression you're not listening."
+}

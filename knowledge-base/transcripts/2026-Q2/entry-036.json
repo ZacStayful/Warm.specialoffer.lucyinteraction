@@ -1,0 +1,163 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "036",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-03",
+  "transcript_quality": "summary_only",
+  "lead_name": "Vanessa Wilson-Wood",
+  "email": "vanessa_w-w@hotmail.co.uk",
+  "monday_id": "11908410085",
+  "address": "NG24 4FW",
+  "bedrooms": 3,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "CONVERTED in 15 days from SO application. Sneinton Nottingham 3-bed. Was with Pass the Keys \u2014 specific platform and maintenance failures drove switch. Loss-averse-switcher archetype. Husband sign-off was key final gate \u2014 addressed in writing. Offer deadline (May 15) was the commitment trigger.",
+  "emotional_profile": "loss-averse-switcher",
+  "conversion_likelihood": 9,
+  "profile_confidence": "medium",
+  "primary_blocker": "",
+  "language_signals": [
+    "summer booking gaps",
+    "attic bedroom",
+    "WiFi cable theft",
+    "I'll talk it through with my husband",
+    "income consistency"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Customer",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "2026-05-15",
+  "offer_accepted_at_meeting": true,
+  "delay_signals": [],
+  "has_delay": false,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "currently with Pass the Keys",
+      "context": "Switching from underperforming STL manager",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "ready to go",
+      "context": "Property already furnished and live",
+      "strength": "strong"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {},
+  "meeting_flow": {},
+  "lead_responses": [
+    {
+      "what_lead_said": "Summer booking gaps concern",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Attic bedroom compliance issue",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Recurring WiFi cable theft problem",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Needs husband sign-off",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Monthly software fee \u00a342/month",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "",
+      "lead_follow_up": "",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "4-platform strategy vs Pass the Keys 1-platform approach",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "loss-averse-switcher"
+      ]
+    },
+    {
+      "what_caused_shift": "Direct booking conversion for relocation clients",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "loss-averse-switcher"
+      ]
+    },
+    {
+      "what_caused_shift": "Individual property listing (not hotel-style grouping)",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "loss-averse-switcher"
+      ]
+    },
+    {
+      "what_caused_shift": "Maintenance batching with no markups",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "loss-averse-switcher"
+      ]
+    },
+    {
+      "what_caused_shift": "Monthly statements 1st-5th",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "loss-averse-switcher"
+      ]
+    }
+  ],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "loss-averse-switcher",
+    "what_they_focused_on": [],
+    "what_they_needed_most": [],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": ""
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

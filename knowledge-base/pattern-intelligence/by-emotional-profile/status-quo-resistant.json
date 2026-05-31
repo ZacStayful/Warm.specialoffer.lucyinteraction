@@ -1,0 +1,57 @@
+{
+  "schema_version": "3.0",
+  "archetype": "status-quo-resistant",
+  "archetype_description": "Comfortable with the current situation. Change feels risky.",
+  "total_entries": 0,
+  "last_updated": "2026-05-31",
+  "data_note": "Only 0 entries with this archetype assigned. Profiler has not run on most entries \u2014 scores will improve as Lead Psychology Profiler processes more leads.",
+  "what_they_focus_on": [],
+  "questions_they_ask": [],
+  "objections_they_raise": [],
+  "what_moves_them": [],
+  "what_falls_flat": [],
+  "language_to_mirror": [],
+  "meeting_guidance": {
+    "opening_approach": "Don't challenge their current situation directly. Explore what's imperfect about it.",
+    "what_to_lead_with": "Questions, not pitches: 'What would need to change for you to consider STL?' Find their own reason for change.",
+    "what_to_avoid": "Pressure. Status-quo-resistant leads disengage when they feel pushed.",
+    "close_approach": "Small first steps. 'The agreement is a 6-month trial \u2014 if it doesn't work, we exit cleanly.'",
+    "offer_framing": "Frame offer as a low-risk trial rather than a commitment."
+  },
+  "delay_signal_pattern": "Insufficient data \u2014 fewer than 5 entries with this archetype. Check again after profiler has processed more leads.",
+  "green_light_pattern": "Insufficient data \u2014 fewer than 5 entries with this archetype. Check again after profiler has processed more leads.",
+  "profile_type_intersections": {
+    "STL-SW": {
+      "count": 0,
+      "notes": ""
+    },
+    "EX-STL": {
+      "count": 0,
+      "notes": ""
+    },
+    "PURCH": {
+      "count": 0,
+      "notes": ""
+    },
+    "SELL": {
+      "count": 0,
+      "notes": ""
+    },
+    "ABROAD": {
+      "count": 0,
+      "notes": ""
+    },
+    "R2R": {
+      "count": 0,
+      "notes": ""
+    }
+  },
+  "conversion_data": {
+    "total": 0,
+    "ready_now": 0,
+    "delayed": 0,
+    "lost": 0,
+    "conversion_rate": 0.0,
+    "most_common_lost_reason": ""
+  }
+}
