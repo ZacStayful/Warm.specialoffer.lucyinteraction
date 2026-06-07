@@ -1,0 +1,61 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "028",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "superseded_by": "029",
+  "lead": {
+    "name": "Gary Johnston",
+    "email": "gary.a.johnston@gmail.com",
+    "postcode": "CH2 2BT",
+    "monday_id": "11573632623",
+    "notetaker_id": "d4c52526-c036-4f82-b38f-a60ba5468829"
+  },
+  "meeting": {
+    "date": "2026-03-25",
+    "profile_type": "STL-SW",
+    "outcome": "Abandoned",
+    "classification": "LOST"
+  },
+  "property": {
+    "bedrooms": 3,
+    "location": "Chester CH2",
+    "furnished": "yes",
+    "mortgage_monthly": 0,
+    "owner_usage": "Jun-Aug UK, Sep-May Thailand"
+  },
+  "financials": {
+    "stl_gross_annual": 38292,
+    "stl_net_annual": 22650,
+    "ltl_monthly": 1350,
+    "ltl_annual": 16200,
+    "mortgage_annual": 0,
+    "extra_stl_costs_monthly": 500
+  },
+  "delay_signals": [
+    { "type": "DLY-TEN", "strength": "medium", "notes": "Tenant renewal decision pending" }
+  ],
+  "green_light_signals": [
+    { "type": "GL-SELF", "strength": "low", "notes": "No mortgage — all income profit" },
+    { "type": "GL-TIME", "strength": "low", "notes": "Ready if tenant vacates" }
+  ],
+  "offer_timing": {
+    "was_offer_made": false,
+    "fee_offered": null,
+    "deadline": null,
+    "outcome": "abandoned"
+  },
+  "meeting_flow": {
+    "opening_dynamic": "Owner splitting time UK/Thailand, tenant renewal the key gate",
+    "objection_sequence": ["extra costs vs LTL", "tenant may renew", "tax/business rates concern"],
+    "closing_moment": "Waiting on tenant decision — never followed through"
+  },
+  "lead_responses": {
+    "positive_signals": ["No mortgage advantage noted", "Business rates switch potential", "Calendar blocking flexibility valued"],
+    "negative_signals": ["£500/mo extra costs narrows STL advantage", "Hospital proximity not city centre"],
+    "questions_asked": ["Tax and business rates", "Chester property count", "Income guarantee possible?"]
+  },
+  "conversion_gaps": ["Tenant renewal blocked progress", "Tax/business rates uncertainty", "Timing mismatch"],
+  "archetype": "analytical-evaluator",
+  "topics_covered": ["Income analysis", "Financial comparison", "Property usage flexibility", "Service offering", "Fees & onboarding", "Operations", "Tax implications", "Business rates"]
+}

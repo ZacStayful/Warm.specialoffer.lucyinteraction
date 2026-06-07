@@ -1,0 +1,63 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "033",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Rebecca Hutchinson",
+    "email": "marbecpropertyltd@gmail.com",
+    "postcode": "M16 0XX",
+    "monday_id": "11453936644",
+    "notetaker_id": "0185c47f-1519-48db-9e63-930e1dbaf315"
+  },
+  "meeting": {
+    "date": "2026-03-11",
+    "profile_type": "PURCH",
+    "outcome": "In the Future",
+    "classification": "DELAYED"
+  },
+  "property": {
+    "bedrooms": 1,
+    "location": "Manchester M16 Old Trafford — Victory Place, Warwick Road",
+    "description": "Top-floor apartment, off-plan completion June 2026",
+    "furnished": "new build",
+    "mortgage_type": "STL mortgage arranged",
+    "development": "15 of 86 apartments permitted as Airbnb"
+  },
+  "financials": {
+    "stl_gross_annual": 26000,
+    "stl_net_annual": 16500,
+    "nightly_rate": 116,
+    "occupancy_pct": 63
+  },
+  "delay_signals": [
+    { "type": "DLY-PUR", "strength": "high", "notes": "Off-plan completion June 2026 — cannot onboard until completion" }
+  ],
+  "green_light_signals": [
+    { "type": "GL-TIME", "strength": "high", "notes": "STL mortgage in place — no lender consent barrier" }
+  ],
+  "offer_timing": {
+    "was_offer_made": false,
+    "fee_offered": "15%",
+    "deadline": null,
+    "outcome": "awaiting_completion_june_2026"
+  },
+  "meeting_flow": {
+    "opening_dynamic": "Long-term investor mindset, stadium events demand appeal, STL mortgage already arranged",
+    "objection_sequence": ["Same-block competition (15 Airbnbs)", "New listing starts slow (3-6 months)", "Key access block restrictions"],
+    "closing_moment": "Zac to follow up May 2026 as completion approached"
+  },
+  "lead_responses": {
+    "positive_signals": ["Stadium proximity (Old Trafford + Emirates Cricket)", "STL mortgage = no consent issue", "Long-term investor = not expecting huge returns"],
+    "negative_signals": ["15 same-building Airbnbs = competition", "New listing ramp-up acknowledged"],
+    "questions_asked": ["How do same-building competitors affect performance?", "Key access options?", "How long does ramp-up take?"]
+  },
+  "conversion_gaps": ["Off-plan completion dependency", "Key access per block management rules"],
+  "positive_shift_moments": ["Events demand narrative (Old Trafford, Emirates)", "STL mortgage already in place"],
+  "friction_moments": ["Same-block Airbnb competition concern", "New listing slow start"],
+  "zac_language": {
+    "exact_quotes": ["long-term investment rather than major extra income", "near Old Trafford and Emirates", "Victory Place"]
+  },
+  "archetype": "analytical-evaluator",
+  "topics_covered": ["Property details", "Financial projections", "Profitability plan", "Guest screening", "Owner responsibilities", "Onboarding", "Market competition"]
+}

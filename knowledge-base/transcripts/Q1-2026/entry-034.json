@@ -1,0 +1,68 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "034",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Mohimi Ovbiagele",
+    "email": "mohimi@yahoo.com",
+    "postcode": "LE1 6TH",
+    "monday_id": "11456568753",
+    "notetaker_id": "09202cac-1f19-42f6-8c09-d4e7b1fdecab"
+  },
+  "meeting": {
+    "date": "2026-03-09",
+    "profile_type": "PURCH",
+    "outcome": "Abandoned",
+    "classification": "LOST"
+  },
+  "property": {
+    "bedrooms": 2,
+    "location": "Leicester LE1 — Bosworth House (same block as entry 018)",
+    "furnished": "new build",
+    "mortgage_monthly": 760,
+    "owner_location": "Lagos, Nigeria",
+    "completion": "end of March 2026"
+  },
+  "financials": {
+    "stl_gross_annual": 30600,
+    "stl_net_annual": 15800,
+    "stl_net_monthly_after_mortgage": 537,
+    "nightly_rate": 125,
+    "occupancy_pct": 68,
+    "developer_claimed_net_monthly": 855,
+    "developer_omitted": "cleaning costs"
+  },
+  "delay_signals": [
+    { "type": "DLY-PUR", "strength": "medium", "notes": "Completion end of March 2026 — tight timeline with 31 March deadline" }
+  ],
+  "green_light_signals": [
+    { "type": "GL-TIME", "strength": "medium", "notes": "Completion imminent, owner in Lagos needs full management" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%",
+    "deadline": "2026-03-31",
+    "outcome": "developer_affiliate_won"
+  },
+  "meeting_flow": {
+    "opening_dynamic": "Lagos-based owner researching alternatives to developer's affiliated management company",
+    "objection_sequence": ["Developer claims £855/mo vs Stayful's £537/mo", "Own figures seem lower", "31 March deadline tight"],
+    "closing_moment": "Developer's inflated (cleaning-omitting) projection won"
+  },
+  "lead_responses": {
+    "positive_signals": ["13% offer", "Full management for remote Lagos owner", "No mortgage during owner stays"],
+    "negative_signals": ["Developer projection appeared higher (£318/mo gap)"],
+    "questions_asked": ["Why does developer project £855 and you project £537?", "What costs am I missing?"]
+  },
+  "conversion_gaps": ["Developer comparison not explicitly won — cleaning cost omission must be called out directly"],
+  "positive_shift_moments": ["Honest financial picture", "13% offer"],
+  "friction_moments": ["Developer's higher (dishonest) projection creates trust gap"],
+  "zac_language": {
+    "exact_quotes": ["developer's cashflow", "missing cleaning costs", "concerned about net income figure"]
+  },
+  "archetype": "analytical-evaluator",
+  "key_pattern": "developer_affiliated_management_wins_by_omitting_cleaning_costs_must_call_out_explicitly",
+  "cross_reference": "entry-018 (Rebecca Keeling) — same Bosworth House building",
+  "topics_covered": ["Property details", "Revenue vs developer estimate", "Profitability plan", "Guest vetting", "Smart thermostat", "Service tools", "Onboarding"]
+}

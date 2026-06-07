@@ -1,0 +1,65 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "032",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Kes Kessington",
+    "email": "keskessington@atnproperty.com",
+    "postcode": "M13 0NW",
+    "monday_id": "11475779335",
+    "notetaker_id": "c2cf625b-7884-41c4-9d98-57a133387ead"
+  },
+  "meeting": {
+    "date": "2026-03-12",
+    "profile_type": "R2R",
+    "outcome": "Abandoned",
+    "classification": "LOST"
+  },
+  "property": {
+    "bedrooms": null,
+    "location": "Manchester M13",
+    "furnished": "yes",
+    "r2r_rent_monthly": 1300,
+    "r2r_bills_monthly": 300,
+    "r2r_total_costs_monthly": 1600,
+    "r2r_total_costs_annual": 19200
+  },
+  "financials": {
+    "stl_gross_annual": 36000,
+    "stl_net_annual": 20000,
+    "r2r_costs_annual": 19200,
+    "r2r_margin_annual": 800,
+    "nightly_rate": 171,
+    "occupancy_pct": 60
+  },
+  "delay_signals": [
+    { "type": "DLY-OTH", "strength": "high", "notes": "R2R margin too thin at £800/yr — fundamental viability problem" }
+  ],
+  "green_light_signals": [],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%",
+    "deadline": "2026-03-18",
+    "outcome": "abandoned_after_deadline"
+  },
+  "meeting_flow": {
+    "opening_dynamic": "Property company, held R2R 6 weeks, poor early booking performance, no professional photos",
+    "objection_sequence": ["Only £800/yr margin", "No professional photos yet", "PriceLabs confusion"],
+    "closing_moment": "'I'll have a think about it' — deadline passed, never returned"
+  },
+  "lead_responses": {
+    "positive_signals": ["York case study (£36k→£48k) resonated", "Direct booking strategy appeal"],
+    "negative_signals": ["Margins fundamentally too thin", "No photos = listing quality issue"],
+    "questions_asked": ["Why are bookings so low?", "Can direct bookings improve margin?"]
+  },
+  "conversion_gaps": ["R2R margin <£2k/yr not viable with full management", "No professional photos hurting early performance"],
+  "positive_shift_moments": ["York case study direct booking potential"],
+  "friction_moments": ["£800/yr margin is the core problem — cannot be resolved"],
+  "zac_language": {
+    "exact_quotes": ["not profitable on platforms alone", "£800 per year", "I'll have a think about it"]
+  },
+  "archetype": "analytical-evaluator",
+  "key_pattern": "R2R_margin_under_2000_annual = not_viable_for_full_management",
+  "topics_covered": ["Property performance", "Revenue analysis", "Profitability plan", "Direct bookings", "Management service", "Guest vetting", "Onboarding"]
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "029",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Gary Johnston",
+    "email": "gary.a.johnston@gmail.com",
+    "postcode": "CH2 2BT",
+    "monday_id": "11573632623",
+    "notetaker_id": "d4c52526-c036-4f82-b38f-a60ba5468829"
+  },
+  "meeting": {
+    "date": "2026-03-25",
+    "profile_type": "STL-SW",
+    "outcome": "Abandoned",
+    "classification": "LOST"
+  },
+  "property": {
+    "bedrooms": 3,
+    "location": "Chester CH2",
+    "furnished": "yes",
+    "mortgage_monthly": 0,
+    "owner_usage": "Jun-Aug UK, Sep-May Thailand (9 months away)"
+  },
+  "financials": {
+    "stl_gross_annual": 38292,
+    "stl_net_annual": 22650,
+    "stl_net_range": "17700-27600",
+    "ltl_monthly": 1350,
+    "ltl_annual": 16200,
+    "mortgage_annual": 0,
+    "extra_stl_costs_monthly": 500
+  },
+  "delay_signals": [
+    { "type": "DLY-TEN", "strength": "high", "notes": "Tenant renewal the primary gating condition — Gary would not proceed without knowing" }
+  ],
+  "green_light_signals": [
+    { "type": "GL-SELF", "strength": "medium", "notes": "No mortgage — all STL income is profit" },
+    { "type": "GL-TIME", "strength": "low", "notes": "Ready within 2 months IF tenant vacates" }
+  ],
+  "offer_timing": {
+    "was_offer_made": false,
+    "fee_offered": null,
+    "deadline": null,
+    "outcome": "abandoned_tenant_likely_renewed"
+  },
+  "meeting_flow": {
+    "opening_dynamic": "Part-year owner (9 months Thailand), wants STL to cover absence period",
+    "objection_sequence": ["£500/mo extra costs vs LTL", "tenant renewal dependency", "tax/business rates"],
+    "closing_moment": "Waiting to hear from tenant — never followed through post-meeting"
+  },
+  "lead_responses": {
+    "positive_signals": ["No mortgage so all profit", "Calendar blocking for personal use resonated", "Business rates VOA switch potential"],
+    "negative_signals": ["STL advantage narrows with £500/mo extra costs", "Property slightly outside city centre"],
+    "questions_asked": ["Can I block my months?", "What about tax and business rates?", "Chester market — how many properties do you have?"]
+  },
+  "conversion_gaps": ["Tenant renewal blocked entire process", "Timeline extended beyond controllable window"],
+  "positive_shift_moments": ["No mortgage = all profit framing", "Business rates exemption potential"],
+  "friction_moments": ["£500/mo extra costs calculation", "Waiting on tenant decision"],
+  "zac_language": {
+    "exact_quotes": ["at least match my current net", "£500 extra per month", "waiting to hear from the tenant"]
+  },
+  "archetype": "analytical-evaluator",
+  "topics_covered": ["Income analysis", "Financial comparison", "Property usage flexibility", "Tax & business rates", "Onboarding"]
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "030",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Shoaib Khalid",
+    "email": "shoaib.fsd.undp@gmail.com",
+    "postcode": "NG8 4AZ",
+    "monday_id": "11514528972",
+    "notetaker_id": "142680c7-45b7-42b3-9257-7c4200e4dc6e"
+  },
+  "meeting": {
+    "date": "2026-03-18",
+    "profile_type": "STL-SW",
+    "outcome": "Abandoned",
+    "classification": "LOST"
+  },
+  "property": {
+    "bedrooms": 3,
+    "location": "Nottingham NG8",
+    "furnished": "yes",
+    "mortgage_monthly": 0,
+    "tenant_situation": "Family LTL tenants leaving end of month"
+  },
+  "financials": {
+    "stl_gross_annual": 38000,
+    "stl_net_annual": 22586,
+    "stl_net_monthly": 1882,
+    "ltl_monthly": 1250,
+    "ltl_annual": 15000
+  },
+  "delay_signals": [
+    { "type": "DLY-TEN", "strength": "high", "notes": "Would not sign until tenants physically vacated and property re-inspected" }
+  ],
+  "green_light_signals": [
+    { "type": "GL-SELF", "strength": "medium", "notes": "STL experience (existing Airbnb listing), fully furnished" },
+    { "type": "GL-TIME", "strength": "low", "notes": "Tenants leaving end of month" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%",
+    "deadline": "2026-03-27",
+    "outcome": "missed_deadline_tenant_vacated_after_cutoff"
+  },
+  "meeting_flow": {
+    "opening_dynamic": "Experienced STL landlord with existing listing, looking for management upgrade",
+    "objection_sequence": ["Won't sign before tenants leave", "Wants guaranteed fixed income", "6-month contract too long"],
+    "closing_moment": "Deadline 27 March passed; tenants left after cutoff"
+  },
+  "lead_responses": {
+    "positive_signals": ["STL advantage over LTL clear (£1,882 vs £1,250)", "Existing Airbnb experience = understands model"],
+    "negative_signals": ["Fixed income guarantee demanded repeatedly", "Rigid precondition on vacancy", "Contract length concern"],
+    "questions_asked": ["Can you guarantee the projected income?", "Why 6 months?", "What happens in bad months?"]
+  },
+  "conversion_gaps": ["Guarantee demand is unresolvable without variable income acceptance", "Timing mismatch — deadline passed before tenants vacated"],
+  "positive_shift_moments": ["STL net advantage well above LTL", "Existing STL experience meant no education barrier"],
+  "friction_moments": ["Fixed income guarantee — hard stop", "Rigid vacancy precondition", "6-month contract resistance"],
+  "zac_language": {
+    "exact_quotes": ["not willing to sign until tenants physically vacated", "guarantee the projected income", "six months is too long"]
+  },
+  "archetype": "certainty-seeker",
+  "key_pattern": "STL_experience + income_variability_fear + rigid_preconditions = high_abandonment_risk",
+  "topics_covered": ["Revenue projections", "LTL comparison", "Service model", "Contract terms", "Risk"]
+}

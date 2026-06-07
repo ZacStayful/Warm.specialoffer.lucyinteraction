@@ -1,0 +1,69 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "031",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Hany Rashwan",
+    "email": "hrashwan7@gmail.com",
+    "postcode": "B16 8JG",
+    "monday_id": "11503154761",
+    "notetaker_id": "dfad497c-382c-4d14-b692-ae1dfff2694f"
+  },
+  "meeting": {
+    "date": "2026-03-17",
+    "profile_type": "STL-SW",
+    "outcome": "In the Future",
+    "classification": "DELAYED"
+  },
+  "property": {
+    "bedrooms": 5,
+    "location": "Birmingham B16 (near university, Botanical Garden)",
+    "furnished": "semi-furnished",
+    "mortgage_monthly": 850,
+    "current_agent": "Accord",
+    "current_ltl_monthly": 1650
+  },
+  "financials": {
+    "stl_gross_annual": 60600,
+    "stl_net_annual": 31493,
+    "stl_net_monthly": 2624,
+    "stl_net_after_mortgage_monthly": 1774,
+    "ltl_annual": 19800,
+    "ltl_monthly": 1650,
+    "ltl_net_after_mortgage_monthly": 1500,
+    "mortgage_monthly": 850,
+    "stl_advantage_monthly": 274
+  },
+  "delay_signals": [
+    { "type": "DLY-OTH", "strength": "high", "notes": "Cannot visit UK until June; Accord 6-month notice period; HMO/selective licensing confirmation needed" }
+  ],
+  "green_light_signals": [
+    { "type": "GL-MGMT", "strength": "high", "notes": "Active dissatisfaction with Accord (4 years, wants to leave)" },
+    { "type": "GL-TIME", "strength": "low", "notes": "September 2026 target" }
+  ],
+  "offer_timing": {
+    "was_offer_made": false,
+    "fee_offered": null,
+    "deadline": null,
+    "outcome": "deferred_september"
+  },
+  "meeting_flow": {
+    "opening_dynamic": "Overseas co-owners (57 min meeting), dissatisfied with Accord, looking for professional upgrade",
+    "objection_sequence": ["Tried to reduce 15% fee — refused", "Selective/HMO licensing uncertainty Birmingham", "Cannot visit until June", "Accord notice period"],
+    "closing_moment": "September 2026 timeline agreed; June UK visit needed first"
+  },
+  "lead_responses": {
+    "positive_signals": ["STL net substantially above LTL", "Portfolio landlord understands ROI logic instantly", "Professional ops vs Accord dissatisfaction", "Ltd company tax framing resonated"],
+    "negative_signals": ["Tried to negotiate fee below 15% (refused)", "Licensing complexity concern", "Cannot commit without UK visit"],
+    "questions_asked": ["Can you reduce below 15%?", "Selective licensing implications?", "HMO licensing needed?", "Accord contract exit?"]
+  },
+  "conversion_gaps": ["Cannot start until June visit + licensing confirmed + Accord notice served"],
+  "positive_shift_moments": ["£274/mo net advantage framed", "Accord dissatisfaction as clear motivation", "Ltd company tax angle"],
+  "friction_moments": ["Fee negotiation request refused", "Licensing complexity", "Multi-month delay to UK visit"],
+  "zac_language": {
+    "exact_quotes": ["September will be looking into this", "dissatisfied with Accord", "cannot reduce below 15%"]
+  },
+  "archetype": "analytical-evaluator",
+  "topics_covered": ["Income potential", "Financial structure", "Current property motivation", "STL operations", "Guest vetting", "Cleaning & maintenance", "Licensing & regulations", "Onboarding"]
+}
