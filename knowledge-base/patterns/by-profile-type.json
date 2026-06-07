@@ -1,0 +1,64 @@
+{
+  "schema_version": "3.0",
+  "last_updated": "2026-06-07",
+  "profile_types": {
+    "STL-SW": {
+      "name": "STL Switch (currently LTL)",
+      "description": "Owner currently renting long-term, considering switching to STL",
+      "count": 19,
+      "example_entries": ["004", "006", "007", "008", "009", "023", "026", "027", "029", "030", "039", "040", "042", "052b", "053", "055", "056"],
+      "primary_triggers": ["Renters Reform Act", "Tenant leaving", "Better income", "Remote management for overseas owner"],
+      "primary_objections": ["Income variability vs LTL", "Setup effort", "Bills become owner’s cost", "6-month contract"],
+      "key_metrics_to_show": ["STL net vs LTL net (apples-to-apples including bills)", "Monthly floor not just average"],
+      "conversion_rate_signal": "High when: tenants leaving soon + unfurnished is being furnished + no mortgage"
+    },
+    "EX-STL": {
+      "name": "EX-STL (currently with another agent)",
+      "description": "Already doing STL but with an underperforming agent; wants to switch to Stayful",
+      "count": 8,
+      "example_entries": ["015", "036", "039b", "043", "044", "045", "051a"],
+      "conversion_rate": "HIGHEST of all profile types",
+      "primary_triggers": ["Agent underperformance (low reviews, low occupancy)", "Poor comms", "Maintenance failures", "Listing identity problems"],
+      "immediate_wins": ["Review count comparison", "Occupancy rate comparison", "Named account manager"],
+      "key_question": "'How many reviews did you get in the last 3 months?' — opens the performance gap immediately",
+      "agents_competed_against": ["Pass the Keys", "Hello Guest", "Clifton Valley Lets", "MyProperty Host", "Residential Estates/Guests", "Accord"]
+    },
+    "PURCH": {
+      "name": "Purchase (buying property for STL)",
+      "description": "Purchasing property with STL as the intended use from day 1",
+      "count": 8,
+      "example_entries": ["003", "018", "033", "034", "041", "044", "051b"],
+      "primary_triggers": ["Investment return", "Daughter/family use", "Portfolio expansion"],
+      "risk": "Developer-affiliated management is the primary competitor. Must engage at exchange or earlier.",
+      "developer_counter_tactics": ["Call out cleaning cost omission in developer projections", "Emphasise: developer net figures omit £300-600/mo in cleaning", "Sign before developer’s affiliate approaches at exchange"],
+      "key_insight": "Same-building entries (018+034 Bosworth House LE1) = ask every purchase lead if there are other buyers in the building"
+    },
+    "SELL": {
+      "name": "Sell-STL Bridge",
+      "description": "Selling property, using STL as income bridge during sale period",
+      "count": 6,
+      "example_entries": ["005", "011", "012", "013", "037", "052a"],
+      "primary_triggers": ["Property on market but not selling", "Need income during sale period", "Mortgage must be covered"],
+      "key_frame": "STL covers the mortgage while you wait for the right buyer. You’re not locked in — we work around viewings.",
+      "objection_handling": "Viewings concern: 48-hour notice for viewings, calendar blocking for viewing days possible"
+    },
+    "ABROAD": {
+      "name": "Moving Abroad",
+      "description": "Owner relocating internationally, needs UK property fully managed without owner involvement",
+      "count": 6,
+      "example_entries": ["011", "014", "019", "038", "050", "054"],
+      "primary_triggers": ["Relocation deadline", "Cannot manage remotely", "Income while abroad"],
+      "key_reassurance_points": ["One point of contact", "Monthly statements", "Payout 1st-5th", "No need to be present", "Maintenance handled"],
+      "urgency_trigger": "Relocation date = natural hard deadline. Offer tied to departure date is highly effective."
+    },
+    "R2R": {
+      "name": "Rent-to-Rent",
+      "description": "R2R operator taking property on company let to sublet as STL",
+      "count": 4,
+      "example_entries": ["022", "024", "032"],
+      "viability_threshold": "R2R deals need >£2,000/yr margin after rent+bills before management fee to be viable",
+      "common_failure_mode": "R2R rent too high — after management fee + R2R rent, operator margin is near zero",
+      "pre_qualify_check": "Ask: what is the R2R rent + bills? What net are you projecting? If margin <£3k/yr, redirect or decline."
+    }
+  }
+}

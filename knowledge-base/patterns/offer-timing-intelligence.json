@@ -1,0 +1,54 @@
+{
+  "schema_version": "3.0",
+  "last_updated": "2026-06-07",
+  "offer_structure": {
+    "standard_fee": "15%+VAT",
+    "special_offer_fee": "13%+VAT",
+    "exceptional_offer_fee": "12%+VAT",
+    "exceptional_offer_criteria": "Reserved for exceptional circumstances (e.g., Andrew McIntee: mortgage-free, hard Sept 1 relocation deadline, high-value property)"
+  },
+  "offer_trigger_rules": {
+    "offer_appropriate_when": [
+      "At least one GL signal present (GL-SELF, GL-MGMT, GL-TIME)",
+      "No unresolved DLY-OTH gates (spouse not in room = no offer yet)",
+      "Property meets minimum viability (>£12k STL net)"
+    ],
+    "offer_inappropriate_when": [
+      "Spouse/partner gate active (close without gate present = abandoned)",
+      "Guaranteed rent demand (offer is irrelevant — product mismatch)",
+      "R2R margin <£2k/yr",
+      "Lead clearly not ready — renovation >3 months away"
+    ]
+  },
+  "deadline_setting": {
+    "principle": "Deadline must be BEFORE the lead’s primary gating event",
+    "good_deadline": "Tenant leaving 30 April → Offer deadline 22 April",
+    "bad_deadline": "Tenant leaving 30 April → Offer deadline 30 April (tenant renewal kills it)",
+    "standard_window": "7-14 days from meeting date",
+    "extension_policy": "One extension possible if lead shows genuine engagement. Second extension rarely appropriate."
+  },
+  "historical_offer_outcomes": [
+    { "entry": "014", "fee": "12%", "outcome": "converted", "reason": "Exceptional: Spain deadline, mortgage-free" },
+    { "entry": "015", "fee": "13%", "outcome": "converted", "reason": "EX-STL, 1 review in 6 months" },
+    { "entry": "036", "fee": "13%+VAT", "outcome": "converted", "reason": "EX-STL Pass the Keys" },
+    { "entry": "022", "fee": "13%", "outcome": "abandoned", "reason": "Deadline passed before lease signed" },
+    { "entry": "023", "fee": "13%", "outcome": "abandoned", "reason": "Spouse gate + modest uplift" },
+    { "entry": "030", "fee": "13%", "outcome": "abandoned", "reason": "Guaranteed rent demand + deadline mismatch" },
+    { "entry": "032", "fee": "13%", "outcome": "abandoned", "reason": "R2R margin too thin" },
+    { "entry": "034", "fee": "13%", "outcome": "abandoned", "reason": "Developer affiliate won with inflated figures" }
+  ],
+  "conversion_patterns": {
+    "highest_conversion": [
+      "EX-STL with severe underperformance (<3 reviews in 6 months)",
+      "ABROAD with hard relocation deadline",
+      "Existing client 2nd property",
+      "Frictionless profile: no mortgage, furnished, no gates"
+    ],
+    "lowest_conversion": [
+      "Guaranteed rent seekers on 1-bed",
+      "R2R with thin margins",
+      "Spouse gate with modest uplift",
+      "Competitor comparison where Stayful hasn’t explicitly countered inflated projections"
+    ]
+  }
+}

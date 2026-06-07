@@ -1,0 +1,73 @@
+{
+  "schema_version": "3.0",
+  "last_updated": "2026-06-07",
+  "delay_types": {
+    "DLY-TEN": {
+      "name": "Tenant Dependency",
+      "description": "Property occupied by tenant; outcome gated on tenant vacating or giving notice",
+      "count": 4,
+      "example_entries": ["023", "029", "030"],
+      "resolution_timeline": "Typically 1-3 months from meeting",
+      "conversion_strategy": "Sign the agreement NOW with a deferred start date. Don’t wait for vacancy to sign — that’s how deadlines are missed.",
+      "risk": "If tenant renews, lead goes cold permanently",
+      "offer_timing_note": "Special offer deadline must be set BEFORE expected vacancy date — creates signing urgency",
+      "language_patterns": ["'Waiting to hear from the tenant'", "'Won’t sign until they leave'", "'Tenant leaving next month'"]
+    },
+    "DLY-FUR": {
+      "name": "Unfurnished Property",
+      "description": "Property needs furnishing before STL onboarding can begin",
+      "count": 2,
+      "example_entries": ["039"],
+      "resolution_timeline": "2-8 weeks",
+      "conversion_strategy": "Sign agreement first, then furnish. Stayful can advise on furnishing spec. Don’t let furnishing block the contract signature.",
+      "language_patterns": ["'Still need to furnish'", "'It’s currently empty'"]
+    },
+    "DLY-PUR": {
+      "name": "Purchase Not Yet Complete",
+      "description": "Property being purchased; keys not yet received",
+      "count": 5,
+      "example_entries": ["003", "018", "033", "034", "041", "044"],
+      "resolution_timeline": "Varies: 2-16 weeks",
+      "conversion_strategy": "Sign the agreement now. Include expected completion date. Onboarding prep begins in parallel (photography scheduled, listing built).",
+      "risk": "Developer-affiliated management will try to sign at exchange. Stayful must move first.",
+      "developer_competition_note": "Developer affiliates win by: (1) proximity at exchange, (2) inflating net projections by omitting cleaning costs. Counter both."
+    },
+    "DLY-MOV": {
+      "name": "Moving Abroad / Relocation",
+      "description": "Owner relocating internationally; needs UK property managed remotely",
+      "count": 6,
+      "example_entries": ["011", "014", "017", "038", "050", "054"],
+      "resolution_timeline": "Urgent — deadline is relocation date",
+      "conversion_strategy": "Relocation date IS the offer deadline. Frame full management as the solution to the problem they’re already anxious about.",
+      "key_reassurance": "Show: one contact, monthly statements, payout 1st-5th, maintenance handled. No active owner involvement needed."
+    },
+    "DLY-OTH": {
+      "name": "Other Delays",
+      "description": "Spouse/partner gate, renovation, legal review, competitor evaluation, timeline preference",
+      "count": 18,
+      "sub_types": {
+        "spouse_partner_gate": {
+          "count": 6,
+          "entries": ["004", "008", "013", "017", "023", "042"],
+          "strategy": "Get both decision-makers in the same call. If not possible, send a summary document they can share. Never close on one party with a promise to 'speak to spouse later' — that’s a soft no.",
+          "language": ["'Wife needs to agree'", "'Partner gate'", "'Husband needs to be involved'"]
+        },
+        "renovation": {
+          "count": 4,
+          "entries": ["009", "010", "042", "051b"],
+          "strategy": "Sign agreement now; start date post-renovation. Stayful can advise on STL-optimal finishes during renovation."
+        },
+        "competitor_evaluation": {
+          "count": 5,
+          "entries": ["012", "026", "034"],
+          "strategy": "Don’t wait. Offer expires. Make it explicit: ‘This rate is available until [date]. After that it’s 15%.’ Most analytical evaluators appreciate directness."
+        },
+        "product_mismatch_guaranteed_rent": {
+          "count": 2,
+          "entries": ["027", "030"],
+          "strategy": "Pre-qualify out. Stayful does not offer guaranteed rent on 1-bed properties. Probing question on first call: ‘Are you looking for fixed or variable income?’"
+        }
+      }
+    }
+  }
+}

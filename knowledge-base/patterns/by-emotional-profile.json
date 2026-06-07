@@ -1,0 +1,75 @@
+{
+  "schema_version": "3.0",
+  "last_updated": "2026-06-07",
+  "total_entries_analysed": 48,
+  "archetypes": {
+    "certainty-seeker": {
+      "description": "Wants predictable, consistent income. Fears variability. Often asks for guaranteed rent.",
+      "count": 8,
+      "example_entries": ["004", "008", "017", "030", "039", "042", "052b", "055"],
+      "conversion_approach": "Show monthly floor not just average. Emphasise payout on 1st-5th never missed. Frame range as low-risk upside not volatility.",
+      "danger_signals": ["'Can you guarantee the income?'", "'What’s the worst month?'", "'I need consistent'"],
+      "hard_stops": ["Guaranteed rent demand on 1-bed = pre-qualify out (Stayful cannot offer on 1-bed)"],
+      "successful_reframes": ["Floor not average", "Payout reliability record", "Compare to LTL worst-case not just average"],
+      "representative_language": ["'Predict income'", "'Not willing to sign until'", "'Six months is too long'", "'Teacher income mindset'"]
+    },
+    "loss-averse-switcher": {
+      "description": "Currently in LTL or self-managing, motivated by Renters Reform / regulatory change. Fears losing tenants or losing control.",
+      "count": 6,
+      "example_entries": ["005", "009", "023", "052a", "013"],
+      "conversion_approach": "Lead with Renters Reform threat. Frame STL as protection against regulatory risk. Emphasise 90-day rule (if applicable) and council tax Business Rates switch.",
+      "trigger_language": ["'Renters Reform'", "'Section 21'", "'Tenant protection'", "'Maximise returns if not getting long-term security'"],
+      "what_moves_them": ["Regulatory legitimisation", "Better communication than existing agent", "Income uplift even if modest"]
+    },
+    "analytical-evaluator": {
+      "description": "Wants data, comparisons, projected income. Makes decisions slowly. Often comparing providers.",
+      "count": 14,
+      "example_entries": ["003", "006", "007", "010", "012", "021", "022", "024", "026", "029", "031", "032", "033", "034", "041", "051b"],
+      "conversion_approach": "Lead with projections upfront. Show honest comparison (including LTL worst-case). Call out developer/competitor numbers that omit costs. Use case studies.",
+      "danger_signals": ["Comparing 2+ providers", "'I’ll have a think about it'", "Tax/legal questions as delay"],
+      "case_study_power": "York case study (£36k→£48k direct bookings) works well for this archetype",
+      "what_loses_them": ["Competitor with inflated projections", "Complexity without resolution", "Long decision gaps"]
+    },
+    "urgency-driven": {
+      "description": "External deadline forcing action. Relocating, selling, tenants leaving.",
+      "count": 8,
+      "example_entries": ["011", "014", "019", "037", "038", "050", "054"],
+      "conversion_approach": "Match urgency. Emphasise how fast Stayful can onboard. Make deadline real. Special offer tied to deadline reinforces urgency.",
+      "trigger_events": ["Relocation abroad", "Tenant vacancy", "Sale completion", "Hard external deadline"],
+      "what_moves_them": ["Fast onboarding timeline", "Offer tied to external deadline", "Clear action plan for next 2 weeks"]
+    },
+    "status-quo-resistant": {
+      "description": "Not convinced STL is better than current situation. Needs significant evidence before moving.",
+      "count": 4,
+      "example_entries": ["007", "040"],
+      "conversion_approach": "Don't push. Let projections speak. Offer trial framing if possible. Address setup effort directly — Stayful handles the hard parts.",
+      "what_breaks_resistance": ["Showing how Stayful handles setup", "Case studies from similar properties", "Trial period framing"]
+    },
+    "betrayal-damaged": {
+      "description": "Had a bad experience with a previous agent or tenant. Trust is the conversion requirement.",
+      "count": 7,
+      "example_entries": ["015", "016", "036", "039b", "043", "045", "051a"],
+      "conversion_approach": "Acknowledge the pain first. Explain specifically how Stayful’s vetting/management prevents recurrence. Use concrete protocols not vague reassurances.",
+      "trust_builders": ["Specific guest vetting process", "Named account manager", "Performance data vs previous agent", "Individual property identity (not hotel-block)"],
+      "dangerous_phrases": ["'We’re better'", "'Don’t worry'", "Vague assurances"],
+      "specific_sub_types": {
+        "agent_underperformance": "EX-STL with <3 reviews in 6+ months — highest conversion probability. Show review count comparison immediately.",
+        "tenant_misuse": "Brothel/drugs incidents — vetting protocols are the conversion lever",
+        "maintenance_failure": "Show maintenance response standards and deposit claim process"
+      }
+    },
+    "social-proof-dependent": {
+      "description": "Needs to see others like them have succeeded. Responds to case studies and reviews.",
+      "count": 3,
+      "example_entries": ["012"],
+      "conversion_approach": "Similar-location, similar-property case studies. Review counts. Portfolio size as proof of scale."
+    },
+    "fast-path-gain-focused": {
+      "description": "Ready to act. Needs clear next steps not more analysis. Already convinced of STL.",
+      "count": 4,
+      "example_entries": ["044", "050", "053", "056"],
+      "conversion_approach": "Move fast. Onboarding conversation not sales conversation. Photography booking, key safe order, listing preparation are the next steps.",
+      "what_slows_them_down": ["Over-explaining what they already know", "Re-doing projections they accept", "Bureaucratic delays"]
+    }
+  }
+}

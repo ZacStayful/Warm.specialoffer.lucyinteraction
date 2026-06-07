@@ -1,0 +1,81 @@
+{
+  "schema_version": "3.0",
+  "last_updated": "2026-06-07",
+  "total_lost": 22,
+  "lost_reasons": [
+    {
+      "reason": "offer_deadline_missed",
+      "count": 8,
+      "description": "Special offer expired before lead committed",
+      "entries": ["022", "023", "030", "032"],
+      "prevention": "Set deadline BEFORE the lead’s gating event (tenant vacates, renovation completes, etc). A deadline that arrives after the gate is irrelevant.",
+      "lesson": "Deadline + gating event timing is the core conversion variable. Sequence matters."
+    },
+    {
+      "reason": "spouse_partner_gate",
+      "count": 5,
+      "description": "Key decision-maker not in meeting; never secured agreement",
+      "entries": ["004", "008", "023"],
+      "prevention": "At booking stage: 'Is your partner or co-owner involved? If so, can they join the meeting?' Never close on one party alone.",
+      "lesson": "Single-party meetings on couples have 60%+ abandonment rate."
+    },
+    {
+      "reason": "competitor_won",
+      "count": 4,
+      "description": "Lead chose another provider (developer affiliate or other agent)",
+      "entries": ["026", "034"],
+      "prevention": "Explicitly call out competitor omissions (cleaning costs, realistic occupancy). Don’t assume lead will discover the gap themselves.",
+      "lesson": "Developer affiliates win by being closest at exchange. Stayful must sign before exchange wherever possible."
+    },
+    {
+      "reason": "guaranteed_rent_demand",
+      "count": 2,
+      "description": "Lead wants guaranteed rent which Stayful cannot offer on 1-bed properties",
+      "entries": ["027", "030"],
+      "prevention": "Pre-qualify on first call: 'Are you looking for fixed or variable income?' If fixed + 1-bed: redirect immediately.",
+      "lesson": "No amount of meeting time converts a guaranteed-rent seeker if the product doesn’t exist for their property size."
+    },
+    {
+      "reason": "r2r_margin_too_thin",
+      "count": 3,
+      "description": "R2R deal structure leaves insufficient margin after rent + management fee",
+      "entries": ["024", "032"],
+      "prevention": "Pre-qualify R2R viability before booking meeting: ask rent + bills. If STL net minus management fee minus rent leaves <£2k/yr, decline or redirect.",
+      "lesson": "R2R deals need >£3k/yr margin to be worth the management complexity."
+    },
+    {
+      "reason": "tenant_renewed",
+      "count": 3,
+      "description": "Tenant renewed their tenancy, removing the STL opportunity",
+      "entries": ["029"],
+      "prevention": "Get agreement signed with deferred start before tenant decision. Once tenant renews, the window closes entirely."
+    },
+    {
+      "reason": "third_party_ownership_complexity",
+      "count": 1,
+      "description": "Property owned by third party (e.g., mother) with remote principal requiring refurbishment",
+      "entries": ["025"],
+      "lesson": "Multiple complexity factors combined (third-party owner + overseas + refurbishment) rarely convert."
+    }
+  ],
+  "re_engage_candidates": [
+    {
+      "entry": "026",
+      "name": "Nina Rueschen",
+      "reason": "Strong profile (no mortgage, £39k net, Swiss owner). May return if competitor disappoints.",
+      "action": "6-month touchpoint"
+    },
+    {
+      "entry": "031",
+      "name": "Hany Rashwan",
+      "reason": "In Future status, September 2026 target. High-value 5-bed Birmingham.",
+      "action": "Contact August 2026"
+    },
+    {
+      "entry": "033",
+      "name": "Rebecca Hutchinson",
+      "reason": "Off-plan completion June 2026. Already agreed in principle.",
+      "action": "Contact May 2026 as completion approaches"
+    }
+  ]
+}
