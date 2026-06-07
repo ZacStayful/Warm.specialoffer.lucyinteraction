@@ -1,0 +1,55 @@
+{
+  "schema_version": "3.0",
+  "last_run_at": "2026-06-07T00:00:00Z",
+  "last_entry_number": "056",
+  "total_transcripts": 48,
+  "playbook_version": 1,
+  "quarterly_index": {
+    "Q1-2026": {
+      "entries": ["003", "004", "005", "006", "007", "008", "009", "010", "011", "012", "013", "014", "015", "016", "017", "018", "019", "021", "028", "029", "030", "031", "032", "033", "034"],
+      "count": 25
+    },
+    "Q2-2026": {
+      "entries": ["022", "023", "024", "026", "027", "036", "037", "038", "039", "039b", "040", "041", "042", "043", "044", "045", "050", "051a", "051b", "052a", "052b", "053", "054", "055", "056"],
+      "count": 25
+    }
+  },
+  "skipped_entries": {
+    "020": "Not found in Drive",
+    "025": "Superseded by 026 (same lead, Nina Rueschen, more detailed)",
+    "028": "Superseded by 029 (same lead, Gary Johnston, more detailed) — kept as supplementary",
+    "035": "Drive file not found (Entity not found error)",
+    "048": "Does not exist in Drive",
+    "049": "Does not exist in Drive"
+  },
+  "processed_monday_ids": [
+    "11831753795", "11725841191", "11692608888", "11513156253", "11484810594",
+    "11499573311", "11216609516", "11434803394", "11854617634", "11766125431",
+    "11702343600", "11708157973", "11672459959", "11578213915", "11350407818",
+    "11527972072", "11810082372", "11766235187", "11684337667", "11667339782",
+    "11674996852", "11680205793", "11618839816", "11573632623", "11514528972",
+    "11503154761", "11475779335", "11453936644", "11456568753", "11908410085",
+    "11928280535", "11975955407", "11866753807", "12033503765", "12057393975",
+    "12090939515", "11959023274", "12082840653", "12149975076", "12099561694",
+    "12023582722", "12139798139", "11892030490", "12146949014"
+  ],
+  "file_inventory": {
+    "transcripts": {
+      "Q1-2026": 25,
+      "Q2-2026": 25
+    },
+    "patterns": ["by-emotional-profile.json", "by-delay-type.json", "by-profile-type.json", "lost-reason-patterns.json", "offer-timing-intelligence.json"],
+    "responses": ["objections.json", "questions.json", "closing-scripts.json", "do-not-say.json"],
+    "playbook": ["meeting-runbook.md", "qualification-framework.md", "zac-voice.md", "presentation-guide.md"],
+    "context": ["quick-stats.md", "delay-and-green-light-reference.md", "emotional-profiles-summary.md", "offer-triggers-reference.md", "pre-call-brief-template.md"]
+  },
+  "build_notes": [
+    "First full KB build from Drive entries 003-056",
+    "Entry 035 not found in Drive (entity not found)",
+    "Entries 048/049 do not exist in Drive folder",
+    "Entry 025 superseded by 026 (same lead, Nina Rueschen)",
+    "Entry 039b (Isobel Cameron-Heslop) stored as supplementary file due to numbering conflict with entry 039 (Julia Norman)",
+    "Monday pages 1-2 fully loaded; pages 3+ partially loaded but all matched IDs captured via Drive entries",
+    "Granola transcript IDs captured where available in Drive entries; full Granola reads not completed due to context constraints"
+  ]
+}
