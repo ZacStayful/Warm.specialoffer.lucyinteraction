@@ -1,0 +1,37 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "013",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Sarah Stephens",
+    "postcode": "SG19 2AX",
+    "location": "Sandy",
+    "monday_id": "11702343600",
+    "notetaker_id": "a4108f14"
+  },
+  "meeting": {
+    "profile_type": "SELL",
+    "outcome": "Special Offer 13%",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "location": "Sandy SG19",
+    "mortgage_monthly": 1300
+  },
+  "financials": {
+    "stl_net_annual": 24300,
+    "mortgage_annual": 15600
+  },
+  "delay_signals": [
+    { "type": "DLY-OTH", "strength": "medium", "notes": "Risk-averse partner needs to agree" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%",
+    "deadline": null
+  },
+  "archetype": "loss-averse-switcher",
+  "topics_covered": ["Sell-STL", "Risk-averse partner", "Financial projections"],
+  "notes": "Sell-STL. STL net £24.3k vs £1,300/mo mortgage. Risk-averse partner gate. Special offer."
+}

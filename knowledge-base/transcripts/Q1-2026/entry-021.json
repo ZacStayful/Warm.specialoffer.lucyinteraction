@@ -1,0 +1,30 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "021",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Alan Forsyth",
+    "postcode": "NG5 4AA",
+    "location": "Nottingham",
+    "monday_id": "11766235187",
+    "notetaker_id": "d3d397a8"
+  },
+  "meeting": {
+    "profile_type": "STL-SW",
+    "owner_type": "Portfolio Developer (14x 1-bed flats)",
+    "outcome": "Web Meeting Booked",
+    "classification": "READY_SOON"
+  },
+  "property": {
+    "bedrooms": 1,
+    "quantity": 14,
+    "location": "Nottingham NG5",
+    "description": "Portfolio of 14x 1-bed flats"
+  },
+  "key_insight": "Mixed strategy recommended — not all 14 flats necessarily optimal for STL. Selective deployment.",
+  "offer_timing": { "was_offer_made": false },
+  "archetype": "analytical-evaluator",
+  "topics_covered": ["Portfolio strategy", "Multiple properties", "Mixed LTL/STL approach"],
+  "notes": "14x 1-bed Nottingham portfolio developer. Mixed strategy recommended — high-value conversation. Web meeting booked."
+}

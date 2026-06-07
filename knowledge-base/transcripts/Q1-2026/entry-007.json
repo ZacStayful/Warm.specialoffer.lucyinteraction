@@ -1,0 +1,31 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "007",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Karan Kaushik",
+    "postcode": "DE1 3AZ",
+    "location": "Derby",
+    "monday_id": "11484810594",
+    "notetaker_id": "e8a8c49d"
+  },
+  "meeting": {
+    "profile_type": "STL-SW",
+    "outcome": "Warm",
+    "classification": "READY_SOON"
+  },
+  "property": {
+    "bedrooms": 5,
+    "location": "Derby DE1"
+  },
+  "financials": {
+    "stl_net_annual": 24200,
+    "ltl_annual": 18000
+  },
+  "conversion_gaps": ["Setup effort barrier — 5-bed requires significant preparation"],
+  "offer_timing": { "was_offer_made": false },
+  "archetype": "status-quo-resistant",
+  "topics_covered": ["5-bed STL switch", "Financial projections", "Setup effort", "LTL comparison"],
+  "notes": "5-bed Derby. STL net £24.2k vs LTL £18k. Setup effort is the main barrier — needs guidance on what’s needed."
+}

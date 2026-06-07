@@ -1,0 +1,40 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "017",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Magdalena",
+    "postcode": "TQ1 4QS",
+    "location": "Torquay",
+    "monday_id": "11350407818",
+    "notetaker_id": "47385609"
+  },
+  "meeting": {
+    "profile_type": "STL-SW",
+    "outcome": "Special Offer",
+    "classification": "READY_SOON"
+  },
+  "property": {
+    "bedrooms": 4,
+    "location": "Torquay TQ1",
+    "owner_location": "Turkey"
+  },
+  "financials": {
+    "stl_net_annual": 35000
+  },
+  "delay_signals": [
+    { "type": "DLY-OTH", "strength": "medium", "notes": "Husband gate — needs to agree" }
+  ],
+  "green_light_signals": [
+    { "type": "GL-SELF", "strength": "medium", "notes": "Overseas owners (Turkey) need full remote management" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%"
+  },
+  "archetype": "certainty-seeker",
+  "key_pattern": "spouse_gate + overseas_owner",
+  "topics_covered": ["STL switch", "Overseas owners", "Husband gate", "Remote management"],
+  "notes": "4-bed Torquay. Turkish overseas owners. Husband gate. STL net £35k. Remote management key requirement."
+}

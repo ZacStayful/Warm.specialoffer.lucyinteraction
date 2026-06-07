@@ -1,0 +1,38 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "009",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Linda Robinson",
+    "postcode": "DL2 1EB",
+    "location": "Darlington area",
+    "monday_id": "11216609516",
+    "notetaker_id": "9b890690"
+  },
+  "meeting": {
+    "profile_type": "STL-SW",
+    "outcome": "Warm",
+    "classification": "READY_SOON"
+  },
+  "property": {
+    "type": "bungalow",
+    "location": "DL2",
+    "mortgage_monthly": 0,
+    "situation": "Currently renovating"
+  },
+  "financials": {
+    "stl_net_annual": 24300,
+    "ltl_annual": 9000
+  },
+  "delay_signals": [
+    { "type": "DLY-OTH", "strength": "medium", "notes": "Renovation in progress" }
+  ],
+  "green_light_signals": [
+    { "type": "GL-SELF", "strength": "high", "notes": "Renters Reform Act trigger; mortgage-free" }
+  ],
+  "offer_timing": { "was_offer_made": false },
+  "archetype": "loss-averse-switcher",
+  "topics_covered": ["STL switch", "Renters Reform trigger", "Financial projections", "Renovation timeline"],
+  "notes": "Mortgage-free bungalow. Renters Reform = primary trigger. STL net £24.3k vs LTL £9k. Renovating — timing gated."
+}

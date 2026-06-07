@@ -1,0 +1,26 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "019",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Boglarka Glenister",
+    "postcode": "BB3 8UX",
+    "location": "Rossendale",
+    "monday_id": "11810082372",
+    "notetaker_id": "371dad5d"
+  },
+  "meeting": {
+    "profile_type": "ABROAD",
+    "outcome": "Abandoned",
+    "classification": "LOST"
+  },
+  "property": {
+    "bedrooms": 5,
+    "location": "Rossendale BB3"
+  },
+  "offer_timing": { "was_offer_made": false },
+  "archetype": "urgency-driven",
+  "topics_covered": ["Abroad", "5-bed", "Rossendale"],
+  "notes": "5-bed Rossendale. ABROAD profile. Status Abandoned — likely timing or complexity issue."
+}

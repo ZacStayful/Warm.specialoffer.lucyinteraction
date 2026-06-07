@@ -1,0 +1,37 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "015",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Karl Manning",
+    "postcode": "BS14 9HB",
+    "location": "Bristol",
+    "monday_id": "11672459959",
+    "notetaker_id": "d3fb16d1"
+  },
+  "meeting": {
+    "profile_type": "EX-STL",
+    "outcome": "Special Offer 13%",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "bedrooms": 6,
+    "location": "Bristol BS14",
+    "current_agent": "Clifton Valley Lets",
+    "agent_performance": "1 review in 6 months"
+  },
+  "financials": {
+    "stl_net_annual": 48400
+  },
+  "green_light_signals": [
+    { "type": "GL-MGMT", "strength": "critical", "notes": "Only 1 review in 6 months with Clifton Valley Lets — extreme underperformance" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%"
+  },
+  "archetype": "betrayal-damaged",
+  "topics_covered": ["EX-STL switch", "Agent performance failure", "6-bed"],
+  "notes": "6-bed EX-STL. Only 1 review in 6 months with Clifton Valley Lets. Critical betrayal-damaged archetype. 13% special offer."
+}

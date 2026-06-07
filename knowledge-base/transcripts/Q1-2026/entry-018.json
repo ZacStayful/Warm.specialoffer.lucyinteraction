@@ -1,0 +1,38 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "018",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Rebecca Keeling",
+    "postcode": "LE1 6TH",
+    "location": "Leicester",
+    "monday_id": "11527972072",
+    "notetaker_id": "c1dfb332"
+  },
+  "meeting": {
+    "profile_type": "PURCH",
+    "outcome": "Special Offer",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "bedrooms": 1,
+    "location": "Leicester LE1 — Bosworth House (same block as entry 034 Mohimi Ovbiagele)",
+    "description": "Off-plan 1-bed"
+  },
+  "financials": {
+    "stl_net_annual": 16200,
+    "ltl_annual": 7200
+  },
+  "green_light_signals": [
+    { "type": "GL-TIME", "strength": "high", "notes": "Off-plan purchase ready to onboard" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%"
+  },
+  "archetype": "analytical-evaluator",
+  "cross_reference": "entry-034 (Mohimi Ovbiagele) — same Bosworth House building",
+  "topics_covered": ["Purchase STL", "1-bed", "Borderline case", "LTL comparison"],
+  "notes": "1-bed Leicester. STL net £16.2k vs LTL £7.2k. Borderline case. Same building as entry-034 (Mohimi). Cross-selling opportunity."
+}

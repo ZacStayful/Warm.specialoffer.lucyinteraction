@@ -1,0 +1,38 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "016",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Ihsan ul-Haq Bashir",
+    "postcode": "EC4M 7BY",
+    "location": "London",
+    "monday_id": "11578213915",
+    "notetaker_id": "67e6d405"
+  },
+  "meeting": {
+    "profile_type": "STL-SW",
+    "outcome": "Special Offer",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "location": "London EC4M",
+    "owner_type": "portfolio landlord"
+  },
+  "financials": {
+    "stl_net_annual": 61300,
+    "ltl_annual": 48600
+  },
+  "lead_psychology": {
+    "archetype": "betrayal-damaged",
+    "trauma": "Brothel incident 2017 — property used illegally by tenants",
+    "notes": "Trust restoration is central conversion requirement. Professional vetting must be emphasised."
+  },
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%"
+  },
+  "archetype": "betrayal-damaged",
+  "topics_covered": ["Portfolio landlord", "STL switch", "Guest vetting", "Trust restoration", "London property"],
+  "notes": "Portfolio landlord. Brothel incident 2017 = trauma around property misuse. STL net £61.3k vs LTL £48.6k. Vetting protocols key conversion lever."
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "012",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Mike Ralston",
+    "postcode": "BS21 7AP",
+    "location": "Clevedon",
+    "monday_id": "11766125431",
+    "notetaker_id": "f1851dd2"
+  },
+  "meeting": {
+    "profile_type": "SELL",
+    "outcome": "Special Offer 13%",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "bedrooms": 7,
+    "location": "BS21",
+    "mortgage_monthly": 2970
+  },
+  "financials": {
+    "stl_net_annual": 29700,
+    "mortgage_annual": 35640
+  },
+  "conversion_gaps": ["Comparing multiple agents — competitive evaluation"],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%",
+    "deadline": null
+  },
+  "archetype": "analytical-evaluator",
+  "topics_covered": ["7-bed sell-STL", "Comparing agents", "Financial projections"],
+  "notes": "7-bed Sell STL. Comparing agents. STL net £29.7k vs mortgage £2,970/mo. Strong pipeline property."
+}

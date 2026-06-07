@@ -1,0 +1,33 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "004",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Robert Norris",
+    "postcode": "DL1 2JZ",
+    "location": "Darlington",
+    "monday_id": "11725841191",
+    "notetaker_id": "2459aaa3"
+  },
+  "meeting": {
+    "profile_type": "STL-SW",
+    "outcome": "Warm",
+    "classification": "READY_SOON"
+  },
+  "property": {
+    "location": "Darlington DL1",
+    "mortgage_monthly": 320
+  },
+  "financials": {
+    "stl_net_annual": 19200
+  },
+  "delay_signals": [
+    { "type": "DLY-OTH", "strength": "medium", "notes": "Wife needs to agree (wife gate)" }
+  ],
+  "offer_timing": { "was_offer_made": false },
+  "archetype": "certainty-seeker",
+  "key_pattern": "spouse_gate",
+  "topics_covered": ["STL switch", "Financial projections", "Spouse alignment"],
+  "notes": "STL switch from LTL. Wife not in meeting — classic spouse gate pattern. Warm status."
+}

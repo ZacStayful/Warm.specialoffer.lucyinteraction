@@ -1,0 +1,29 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "006",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Elliot Pickering",
+    "postcode": "W4 5LB",
+    "location": "London",
+    "monday_id": "11513156253",
+    "notetaker_id": "de3a8b81"
+  },
+  "meeting": {
+    "profile_type": "STL-SW",
+    "outcome": "Warm",
+    "classification": "READY_SOON"
+  },
+  "property": {
+    "location": "Chiswick W4, London"
+  },
+  "financials": {
+    "stl_net_annual": 40200
+  },
+  "conversion_gaps": ["Local presence concern unresolved — London owner concerned about Stayful’s regional focus"],
+  "offer_timing": { "was_offer_made": false },
+  "archetype": "analytical-evaluator",
+  "topics_covered": ["STL switch", "Local presence", "Financial projections"],
+  "notes": "High-value London property. Local presence concern (Stayful operates from Leicestershire/Leeds). Warm."
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "014",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Andrew McIntee",
+    "postcode": "HG2 8AW",
+    "location": "Harrogate",
+    "monday_id": "11708157973",
+    "notetaker_id": "27f21a7f"
+  },
+  "meeting": {
+    "profile_type": "ABROAD",
+    "outcome": "Special Offer 12%",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "location": "Harrogate HG2",
+    "mortgage_monthly": 0,
+    "relocation": "Spain"
+  },
+  "financials": {
+    "stl_net_annual": null,
+    "mortgage_annual": 0
+  },
+  "green_light_signals": [
+    { "type": "GL-TIME", "strength": "critical", "notes": "September 1 deadline for Spain relocation — hard external deadline" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "12%",
+    "deadline": "2026-09-01",
+    "notes": "Exceptional 12% (not standard 13%) due to circumstances"
+  },
+  "archetype": "urgency-driven",
+  "topics_covered": ["Abroad relocation", "Spain", "Mortgage-free", "Hard deadline"],
+  "notes": "Mortgage-free Harrogate property. Relocating to Spain Sept 1 — hard external deadline. Exceptional 12% offer."
+}

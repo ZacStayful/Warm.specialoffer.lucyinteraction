@@ -1,0 +1,30 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "003",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Brandon Schraeder",
+    "postcode": "YO31 7JS",
+    "location": "York",
+    "monday_id": "11831753795",
+    "notetaker_id": "6b9bb616-933a-4e14-89e4-feff08b51b41"
+  },
+  "meeting": {
+    "profile_type": "PURCH",
+    "outcome": "Warm",
+    "classification": "READY_SOON"
+  },
+  "property": {
+    "location": "York YO31",
+    "mortgage_type": "Interest Only (IO)",
+    "mortgage_monthly": 450
+  },
+  "financials": {
+    "stl_net_annual": 31500
+  },
+  "offer_timing": { "was_offer_made": false },
+  "archetype": "analytical-evaluator",
+  "topics_covered": ["Purchase STL strategy", "Financial projections", "IO mortgage"],
+  "notes": "Purchasing property for STL. IO mortgage keeps outgoings low. Strong STL net. Warm status = follow-up pipeline."
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "010",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Gareth Moses",
+    "postcode": "DL16",
+    "location": "Spennymoor",
+    "monday_id": "11434803394",
+    "notetaker_id": "ec8b7133"
+  },
+  "meeting": {
+    "profile_type": "STL-SW",
+    "outcome": "Warm",
+    "classification": "DELAYED"
+  },
+  "property": {
+    "location": "Spennymoor DL16"
+  },
+  "financials": {
+    "stl_net_annual": 18400
+  },
+  "delay_signals": [
+    { "type": "DLY-OTH", "strength": "high", "notes": "Builder delays on property" }
+  ],
+  "green_light_signals": [
+    { "type": "GL-SELF", "strength": "medium", "notes": "Worker/contractor demand in Spennymoor area" }
+  ],
+  "offer_timing": { "was_offer_made": false },
+  "archetype": "analytical-evaluator",
+  "topics_covered": ["STL switch", "Worker demand", "Builder delays"],
+  "notes": "Builder delays gating the timeline. Local worker/contractor demand is a strong STL demand angle for this location."
+}

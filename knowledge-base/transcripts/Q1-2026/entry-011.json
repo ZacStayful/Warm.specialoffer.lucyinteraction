@@ -1,0 +1,37 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "011",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Laura Duncker",
+    "postcode": "DE4",
+    "location": "Matlock",
+    "monday_id": "11854617634",
+    "notetaker_id": "2d87f424"
+  },
+  "meeting": {
+    "profile_type": "SELL",
+    "outcome": "Special Offer 13%",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "location": "Matlock DE4",
+    "mortgage_monthly": 2400
+  },
+  "financials": {
+    "stl_net_annual": 38200,
+    "mortgage_annual": 28800
+  },
+  "green_light_signals": [
+    { "type": "DLY-MOV", "strength": "high", "notes": "Teachers relocating abroad — property needs management while away" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%",
+    "deadline": null
+  },
+  "archetype": "urgency-driven",
+  "topics_covered": ["Sell-STL bridge", "Abroad relocation", "Financial projections"],
+  "notes": "Teachers relocating abroad. STL net £38.2k vs mortgage £2,400/mo. High urgency — need management sorted before departure."
+}

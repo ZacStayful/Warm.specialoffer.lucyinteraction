@@ -1,0 +1,30 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "005",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Nicholas Riley",
+    "postcode": "DE65 6FB",
+    "location": "Repton",
+    "monday_id": "11692608888",
+    "notetaker_id": "cc9c049b"
+  },
+  "meeting": {
+    "profile_type": "SELL",
+    "outcome": "Warm",
+    "classification": "READY_SOON"
+  },
+  "property": {
+    "location": "Repton DE65",
+    "mortgage_monthly": 2000
+  },
+  "financials": {
+    "stl_net_annual": 20000
+  },
+  "key_insight": "Flexibility value exceeds income shortfall — STL as bridge strategy while selling",
+  "offer_timing": { "was_offer_made": false },
+  "archetype": "loss-averse-switcher",
+  "topics_covered": ["Sell-STL bridge strategy", "Financial projections", "Flexibility value"],
+  "notes": "Selling property, using STL as bridge. Flexibility narrative key — income shortfall vs mortgage offset."
+}

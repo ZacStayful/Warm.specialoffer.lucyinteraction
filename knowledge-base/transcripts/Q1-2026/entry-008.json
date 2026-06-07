@@ -1,0 +1,33 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "008",
+  "quarter": "Q1-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Haider Ibrahim",
+    "postcode": "B73 6TY",
+    "location": "Birmingham",
+    "monday_id": "11499573311",
+    "notetaker_id": "73b5161a"
+  },
+  "meeting": {
+    "profile_type": "STL-SW",
+    "outcome": "Warm",
+    "classification": "READY_SOON"
+  },
+  "property": {
+    "location": "Sutton Coldfield B73"
+  },
+  "financials": {
+    "stl_net_annual": 22500,
+    "ltl_annual": 14400
+  },
+  "delay_signals": [
+    { "type": "DLY-OTH", "strength": "medium", "notes": "Wife alignment needed + property prep required" }
+  ],
+  "offer_timing": { "was_offer_made": false },
+  "archetype": "certainty-seeker",
+  "key_pattern": "spouse_gate + property_prep_needed",
+  "topics_covered": ["STL switch", "Financial projections", "Wife alignment", "Property preparation"],
+  "notes": "STL net £22.5k vs LTL £14.4k. Wife needs to align + property prep needed before onboarding. Warm."
+}
