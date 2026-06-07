@@ -1,0 +1,38 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "055",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Rona Woodward",
+    "postcode": "PR4 2BF",
+    "location": "Kirkham, Preston — 8 The Ferns",
+    "monday_id": "11892030490",
+    "granola_id": "53d68223"
+  },
+  "meeting": {
+    "profile_type": "STL-SW",
+    "outcome": "Special Offer 13%+VAT",
+    "offer_expiry": "2026-06-30",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "bedrooms": 4,
+    "potential_5th_bedroom": true,
+    "location": "Kirkham PR4",
+    "proximity": "Near Ribby Hall"
+  },
+  "financials": {
+    "stl_net_monthly_avg": 2450,
+    "stl_net_monthly_low": 1500,
+    "stl_net_monthly_peak": 3900
+  },
+  "archetype": "certainty-seeker",
+  "friction_moments": ["Income range concern — wants certainty on low-season months"],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%+VAT",
+    "deadline": "2026-06-30"
+  },
+  "topics_covered": ["STL switch", "4-bed near Ribby Hall", "Seasonality", "Income certainty"]
+}

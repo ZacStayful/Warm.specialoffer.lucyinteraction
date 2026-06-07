@@ -1,0 +1,39 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "051b",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Don Yoo",
+    "postcode": "CV3 2QG",
+    "location": "Coventry — Binley (5-bed post-renovation)",
+    "monday_id": "12082840653",
+    "granola_id": "a22e83a0"
+  },
+  "meeting": {
+    "profile_type": "PURCH",
+    "outcome": "Warm",
+    "offer_type": "No offer (standard 15%)",
+    "classification": "DELAYED"
+  },
+  "property": {
+    "bedrooms": 5,
+    "location": "Coventry CV3 Binley",
+    "status": "Post-renovation",
+    "renovation_complete": "August 10 2026"
+  },
+  "financials": {
+    "stl_net_monthly_4bed_comp": 1805,
+    "stl_target_monthly": 1000
+  },
+  "delay_signals": [
+    { "type": "DLY-OTH", "strength": "high", "notes": "2-3 months renovation remaining; August 10 follow-up" }
+  ],
+  "offer_timing": {
+    "was_offer_made": false,
+    "fee_offered": "15%",
+    "next_contact": "2026-08-10"
+  },
+  "archetype": "analytical-evaluator",
+  "topics_covered": ["Purchase", "5-bed", "Coventry", "Renovation timeline"]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "051a",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Nathan Chadwick",
+    "postcode": "BB11 5HP",
+    "location": "Burnley",
+    "monday_id": "11959023274",
+    "granola_id": "8f7c965e"
+  },
+  "meeting": {
+    "profile_type": "EX-STL",
+    "sub_type": "Portfolio developer, 1 year in STL",
+    "outcome": "Warm",
+    "offer_type": "No offer (standard 15%)",
+    "classification": "NURTURE"
+  },
+  "property": {
+    "bedrooms": 3,
+    "location": "Burnley BB11",
+    "purchase_value": 117000,
+    "current_market_value": 275000,
+    "mortgage_monthly": 750
+  },
+  "financials": {
+    "purchase_value": 117000,
+    "current_value": 275000,
+    "mortgage_monthly": 750
+  },
+  "pain_points": ["Booking.com pain — drugs/damage incidents", "STL self-management fatigue after 1 year"],
+  "offer_timing": {
+    "was_offer_made": false,
+    "fee_offered": "15%"
+  },
+  "archetype": "betrayal-damaged",
+  "topics_covered": ["EX-STL self-manager", "Drugs/damage incidents", "Burnley portfolio", "Self-management fatigue"]
+}

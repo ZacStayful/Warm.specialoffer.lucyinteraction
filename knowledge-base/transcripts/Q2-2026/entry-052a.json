@@ -1,0 +1,33 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "052a",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Mandi",
+    "postcode": "SE25 4JD",
+    "location": "South Norwood",
+    "monday_id": "12149975076",
+    "granola_id": null
+  },
+  "meeting": {
+    "profile_type": "SELL",
+    "sub_type": "Bridge strategy",
+    "outcome": "Special Offer 13%+VAT",
+    "offer_expiry": "2026-06-22",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "bedrooms": 1,
+    "location": "South Norwood SE25",
+    "demand_driver": "Selhurst Park (Crystal Palace FC)"
+  },
+  "conversion_gaps": ["Weekday occupancy gap — 1-bed competes with hotels Mon-Thu"],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%+VAT",
+    "deadline": "2026-06-22"
+  },
+  "archetype": "loss-averse-switcher",
+  "topics_covered": ["Sell bridge", "1-bed", "South Norwood", "Selhurst Park demand"]
+}

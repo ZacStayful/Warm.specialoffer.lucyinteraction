@@ -1,0 +1,40 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "056",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Afnan Hassan",
+    "postcode": "HU5 5XW",
+    "location": "Hull — 143 Bristol Road",
+    "monday_id": "12146949014",
+    "granola_id": "da96e7b8"
+  },
+  "meeting": {
+    "profile_type": "STL-SW",
+    "outcome": "Special Offer 13%+VAT",
+    "offer_expiry": "2026-06-15",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "location": "Hull HU5",
+    "status": "Already renovated and furnished",
+    "owner_situation": "UK/Qatar split"
+  },
+  "financials": {
+    "stl_net_monthly": 1400,
+    "ltl_monthly_profit": 250
+  },
+  "presentation_error": "Presentation showed West Midlands locations for a Hull property — must correct before future meetings",
+  "green_light_signals": [
+    { "type": "GL-SELF", "strength": "high", "notes": "Already renovated and furnished — immediate onboarding possible" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%+VAT",
+    "deadline": "2026-06-15"
+  },
+  "archetype": "fast-path-gain-focused",
+  "key_issue": "Presentation error (West Midlands locations shown for Hull) damaged trust — must not repeat",
+  "topics_covered": ["STL switch", "Hull HU5", "UK/Qatar split", "Furnished ready", "Presentation error lesson"]
+}

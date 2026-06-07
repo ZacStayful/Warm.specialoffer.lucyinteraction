@@ -1,0 +1,38 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "053",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Chun",
+    "postcode": "NE2 1NQ",
+    "location": "Newcastle — 59 Goldspink Lane",
+    "monday_id": "12023582722",
+    "granola_id": "785576bf"
+  },
+  "meeting": {
+    "profile_type": "STL-SW",
+    "outcome": "Special Offer 13%+VAT",
+    "offer_expiry": "2026-06-23",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "location": "Newcastle NE2",
+    "mortgage_monthly": 0,
+    "furnished": "yes"
+  },
+  "financials": {
+    "stl_net_monthly": 1940
+  },
+  "green_light_signals": [
+    { "type": "GL-SELF", "strength": "critical", "notes": "No mortgage, furnished, frictionless profile — ideal onboarding candidate" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%+VAT",
+    "deadline": "2026-06-23"
+  },
+  "archetype": "fast-path-gain-focused",
+  "key_insight": "Frictionless profile: no mortgage, furnished, no gates. Quickest conversion path.",
+  "topics_covered": ["STL switch", "Newcastle NE2", "Frictionless", "No mortgage"]
+}

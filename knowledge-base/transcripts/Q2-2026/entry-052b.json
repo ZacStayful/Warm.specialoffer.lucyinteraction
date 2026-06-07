@@ -1,0 +1,37 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "052b",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Sam Corbett",
+    "postcode": "CH1 4JZ",
+    "location": "Chester",
+    "monday_id": "12099561694",
+    "granola_id": "a7b19d23"
+  },
+  "meeting": {
+    "profile_type": "STL-SW",
+    "sub_type": "Switching from lodger arrangement",
+    "outcome": "Warm",
+    "offer_type": "No offer (standard 15%)",
+    "classification": "DELAYED"
+  },
+  "property": {
+    "location": "Chester CH1",
+    "situation": "Friend (lodger) leaving Oct/Nov"
+  },
+  "financials": {
+    "stl_net_monthly": 1700
+  },
+  "delay_signals": [
+    { "type": "DLY-OTH", "strength": "high", "notes": "Remortgage gate in September; friend (lodger) leaving Oct/Nov" }
+  ],
+  "lead_context": "NHS physio building private practice — income transition makes timing sensitive",
+  "offer_timing": {
+    "was_offer_made": false,
+    "fee_offered": "15%"
+  },
+  "archetype": "certainty-seeker",
+  "topics_covered": ["STL switch from lodger", "Chester", "Remortgage gate", "NHS physio income transition"]
+}

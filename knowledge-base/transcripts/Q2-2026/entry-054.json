@@ -1,0 +1,38 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "054",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Laura Shaw",
+    "postcode": "DN9 1JZ",
+    "location": "Epworth — 60a Station Road",
+    "monday_id": "12139798139",
+    "granola_id": "37a81716"
+  },
+  "meeting": {
+    "profile_type": "ABROAD",
+    "destination": "Indonesia",
+    "outcome": "Special Offer 13%+VAT",
+    "offer_expiry": "2026-06-30",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "location": "Epworth DN9",
+    "issue": "Recurring shower problem"
+  },
+  "financials": {
+    "stl_net_monthly": 1742,
+    "ltl_monthly": 644,
+    "stl_advantage_monthly": 1098
+  },
+  "competing_offer": "Live LTL tenant offer competing for decision",
+  "friction_moments": ["Competing LTL tenant offer live", "Recurring shower maintenance issue"],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%+VAT",
+    "deadline": "2026-06-30"
+  },
+  "archetype": "urgency-driven",
+  "topics_covered": ["ABROAD Indonesia", "Epworth", "LTL vs STL", "Maintenance issue", "Competing offer"]
+}

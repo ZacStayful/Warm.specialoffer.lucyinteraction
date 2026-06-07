@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "050",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Helen Bias",
+    "postcode": "ST10 3HW",
+    "location": "Waterhouses, Staffordshire — The George Inn",
+    "monday_id": "12090939515",
+    "granola_id": "08eae3a7"
+  },
+  "meeting": {
+    "profile_type": "ABROAD",
+    "destination": "United States",
+    "outcome": "Special Offer 13%+VAT",
+    "offer_expiry": "2026-06-14",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "bedrooms": 6,
+    "type": "The George Inn",
+    "location": "Waterhouses Staffordshire ST10",
+    "owner_location": "US"
+  },
+  "financials": {
+    "stl_net_annual": 90000,
+    "nightly_rate": 952
+  },
+  "pipeline_opportunity": "Sister has properties in Cornwall — potential pipeline through referral",
+  "green_light_signals": [
+    { "type": "DLY-MOV", "strength": "critical", "notes": "US-based owner, needs UK property fully managed" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%+VAT",
+    "deadline": "2026-06-14"
+  },
+  "archetype": "fast-path-gain-focused",
+  "key_insight": "Highest-value single property in portfolio at £90k net. Sister’s Cornwall properties = significant pipeline.",
+  "topics_covered": ["ABROAD US", "The George Inn", "High-value 6-bed", "Remote management", "Referral pipeline"]
+}
