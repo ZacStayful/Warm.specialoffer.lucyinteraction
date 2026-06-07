@@ -1,0 +1,68 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "023",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Oliver Glaves",
+    "email": "oliverglaves@hotmail.com",
+    "postcode": "S1 4LG",
+    "monday_id": "11667339782",
+    "notetaker_id": "4aa2d426-ac0e-476c-a51b-e64cee22f5ef"
+  },
+  "meeting": {
+    "date": "2026-04-10",
+    "profile_type": "STL-SW",
+    "outcome": "Abandoned",
+    "classification": "LOST"
+  },
+  "property": {
+    "bedrooms": 1,
+    "location": "Sheffield S1 city centre",
+    "furnished": "needs TV, paint, key safes",
+    "mortgage_monthly": null,
+    "ownership_years": 7,
+    "tenant_situation": "Tenants leaving 22 April"
+  },
+  "financials": {
+    "stl_gross_annual": 24500,
+    "stl_net_annual": 9900,
+    "stl_net_monthly_after_bills": 550,
+    "bills_monthly": 350,
+    "ltl_monthly_profit": 300,
+    "stl_target_monthly": 500,
+    "stl_uplift_monthly": 200
+  },
+  "delay_signals": [
+    { "type": "DLY-OTH", "strength": "high", "notes": "Wife needs to agree before signing" }
+  ],
+  "green_light_signals": [
+    { "type": "GL-SELF", "strength": "medium", "notes": "Renters Reform trigger — unhappy with existing managed agent" },
+    { "type": "GL-TIME", "strength": "medium", "notes": "Tenants leaving 22 April" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%",
+    "deadline": "2026-04-30",
+    "outcome": "deadline_passed_wife_agreement_blocker"
+  },
+  "meeting_flow": {
+    "opening_dynamic": "Renters Reform trigger, unhappy with existing agent comms and maintenance demands",
+    "objection_sequence": ["Wife needs to agree", "1-bed competes with hotels", "£200/mo uplift is modest"],
+    "closing_moment": "30 April deadline passed; wife agreement likely blocker"
+  },
+  "lead_responses": {
+    "positive_signals": ["Better communication vs existing agent", "Renters Reform as legitimising trigger", "£500 vs £300/mo framing"],
+    "negative_signals": ["1-bed hotel competition concern", "Modest £200/mo uplift", "Wife not in meeting"],
+    "questions_asked": ["How do 1-beds compete with hotels?", "What makes you better than my current agent?"]
+  },
+  "conversion_gaps": ["Spouse gate — key decision-maker not present", "30 April deadline passed"],
+  "positive_shift_moments": ["Better comms narrative vs existing agent", "Renters Reform legitimising angle"],
+  "friction_moments": ["Wife gate", "Modest uplift relative to effort"],
+  "zac_language": {
+    "exact_quotes": ["Renters Reform Act", "maximise returns if not getting long-term security", "better communication", "wife needs to agree"]
+  },
+  "archetype": "loss-averse-switcher",
+  "key_pattern": "spouse_gate + modest_uplift + deadline = abandonment",
+  "topics_covered": ["Property background", "Goals & risk", "Financial projections", "LTL comparison", "Management service", "Airbnb setup", "Platform performance", "Next steps"]
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "024",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Rasheed Ajani",
+    "email": "abdulmumin201719@gmail.com",
+    "postcode": "S26 4QA",
+    "monday_id": "11674996852",
+    "notetaker_id": "2b67053a-d488-482a-a5e7-b1ff0d7bbd03"
+  },
+  "meeting": {
+    "date": "2026-04-09",
+    "profile_type": "R2R",
+    "outcome": "Abandoned",
+    "classification": "LOST"
+  },
+  "property": {
+    "bedrooms": 2,
+    "location": "8 Alpina Way, Sheffield S26",
+    "arrangement": "Rent-to-Rent"
+  },
+  "financials": {
+    "r2r_viability": "margin_too_thin",
+    "notes": "After rent to landlord + management fees + setup costs, margin insufficient"
+  },
+  "delay_signals": [
+    { "type": "DLY-OTH", "strength": "high", "notes": "R2R financial model does not stack up" }
+  ],
+  "green_light_signals": [],
+  "offer_timing": {
+    "was_offer_made": false,
+    "fee_offered": null,
+    "deadline": null,
+    "outcome": "lost_margin_not_viable"
+  },
+  "meeting_flow": {
+    "opening_dynamic": "R2R evaluation, viability analysis of deal structure",
+    "objection_sequence": ["Management fees eat margin", "Setup costs reduce viability"],
+    "closing_moment": "Concluded deal structure has thin margins — not viable for full management"
+  },
+  "lead_responses": {
+    "positive_signals": [],
+    "negative_signals": ["R2R deal margin too thin after all costs"],
+    "questions_asked": ["Can you make this deal work financially?"]
+  },
+  "conversion_gaps": ["R2R margin insufficient for full management"],
+  "archetype": "analytical-evaluator",
+  "key_pattern": "R2R_thin_margin = not_viable_for_full_management",
+  "topics_covered": ["Financial analysis", "Profitability", "Management model", "Contract terms", "Geographic preferences"]
+}

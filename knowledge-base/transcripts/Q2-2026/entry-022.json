@@ -1,0 +1,67 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "022",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Ada Madu",
+    "email": "info@placerental.co.uk",
+    "postcode": "NE5 3BR",
+    "monday_id": "11684337667",
+    "notetaker_id": "f3466593-51a3-44c4-a0fb-0f1d9fd609c2"
+  },
+  "meeting": {
+    "date": "2026-04-13",
+    "profile_type": "R2R",
+    "outcome": "Abandoned",
+    "classification": "LOST"
+  },
+  "property": {
+    "bedrooms": 4,
+    "location": "Newcastle NE5",
+    "furnished": "yes",
+    "r2r_rent_monthly": 1250,
+    "r2r_bills_annual": 5000,
+    "arrangement": "Company let, landlord repainting high-traffic areas"
+  },
+  "financials": {
+    "stl_gross_annual": 64000,
+    "stl_net_annual": 19500,
+    "r2r_rent_annual": 15000,
+    "r2r_bills_annual": 5000,
+    "r2r_profit_annual": 14000,
+    "nightly_rate": 131,
+    "occupancy_pct": 53
+  },
+  "delay_signals": [
+    { "type": "DLY-OTH", "strength": "high", "notes": "Lease signing 级 ~15th April; 13% deadline 24 April passed" }
+  ],
+  "green_light_signals": [
+    { "type": "GL-TIME", "strength": "medium", "notes": "Heading into summer = reducing risk timing" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%",
+    "deadline": "2026-04-24",
+    "outcome": "deadline_passed_abandoned"
+  },
+  "meeting_flow": {
+    "opening_dynamic": "R2R operator, good deal structure, heading into summer season",
+    "objection_sequence": ["R2R complexity", "Signing dependent on lease", "Upfront photography costs"],
+    "closing_moment": "13% deadline passed before lease was signed"
+  },
+  "lead_responses": {
+    "positive_signals": ["Newcastle leisure market understood", "Summer timing as risk reduction", "53% occ normal for leisure market"],
+    "negative_signals": ["R2R complexity + deadline = common abandonment combination"],
+    "questions_asked": ["What are upfront costs?", "Guest guidebook from current operator?"]
+  },
+  "conversion_gaps": ["Signing gate (lease) + offer deadline timing mismatch", "R2R complexity adds friction"],
+  "positive_shift_moments": ["Summer timing — reducing risk", "Newcastle leisure demand"],
+  "friction_moments": ["R2R signing complexity", "Deadline passed before lease signed"],
+  "zac_language": {
+    "exact_quotes": ["heading into summer", "company let", "sign before 24th April"]
+  },
+  "archetype": "analytical-evaluator",
+  "key_pattern": "R2R_deadline_timing_mismatch_with_signing_gate = abandonment",
+  "topics_covered": ["Property arrangement & condition", "Financial projections", "Occupancy patterns", "Onboarding & upfront costs", "Management service", "Maintenance & deposits", "Fee structure"]
+}

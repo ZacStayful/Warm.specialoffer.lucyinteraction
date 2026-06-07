@@ -1,0 +1,69 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "026",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "supersedes": "025",
+  "lead": {
+    "name": "Nina Rueschen",
+    "email": "rueschen@bluewin.ch",
+    "postcode": "HA9 9RD",
+    "monday_id": "11680205793",
+    "notetaker_id": "ee744c71-564d-49b7-a953-2a758470c0a8"
+  },
+  "meeting": {
+    "date": "2026-04-08",
+    "profile_type": "STL-SW",
+    "owner_location": "Switzerland",
+    "outcome": "Abandoned",
+    "classification": "LOST"
+  },
+  "property": {
+    "bedrooms": 3,
+    "location": "Wembley HA9",
+    "type": "semi-detached",
+    "furnished": "yes (older items)",
+    "mortgage_monthly": 0,
+    "situation": "Mother moved to retirement property, house empty"
+  },
+  "financials": {
+    "stl_gross_annual": 68500,
+    "stl_net_annual": 39235,
+    "nightly_rate": 274,
+    "occupancy_pct": 69,
+    "mortgage_annual": 0
+  },
+  "delay_signals": [
+    { "type": "DLY-OTH", "strength": "medium", "notes": "Refurb (flooring, repainting, toilet, boiler, beds) not complete by deadline; evaluating 2 other providers" }
+  ],
+  "green_light_signals": [
+    { "type": "GL-SELF", "strength": "high", "notes": "No mortgage — all income is profit" },
+    { "type": "GL-TIME", "strength": "medium", "notes": "Target May/June for Wembley concert season" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%",
+    "deadline": "2026-04-30",
+    "outcome": "competitor_chosen_or_deferred"
+  },
+  "meeting_flow": {
+    "opening_dynamic": "Swiss-based owner, mother’s property vacant, strong economic case",
+    "objection_sequence": ["Evaluating 2 other providers", "Refurb decisions pending", "New boiler/thermostat needed"],
+    "closing_moment": "Likely chose competitor or deferred; worth re-approaching"
+  },
+  "lead_responses": {
+    "positive_signals": ["Concert season demand (Wembley) resonated", "Remote management for Swiss owner", "No mortgage = all profit", "Transparency of operations valued", "Portfolio size (70) = manageable vs large agencies"],
+    "negative_signals": ["Speaking with 2 other companies", "Refurb not complete by deadline"],
+    "questions_asked": ["How does your transparency compare to other agents?", "Concert season occupancy data?", "Smart thermostat — why recommend?"]
+  },
+  "conversion_gaps": ["Competitive evaluation — provider not selected in time", "Refurb incomplete"],
+  "positive_shift_moments": ["No mortgage framing (all profit)", "Wembley concert calendar demand", "Manageable portfolio size appeal"],
+  "friction_moments": ["Competitor evaluation", "Refurb decisions blocking signing"],
+  "zac_language": {
+    "exact_quotes": ["speaking with two other companies", "surprisingly high (re: £39k net)", "want to see how it goes"]
+  },
+  "archetype": "analytical-evaluator",
+  "re_engage_flag": true,
+  "re_engage_reason": "Strong profile: no mortgage, overseas owner, high income — ideal. May try alternative provider and return.",
+  "topics_covered": ["Property overview", "Refurb plan", "Revenue estimates", "Remote management", "Insurance & safety", "Operations", "Onboarding", "Pricing"]
+}

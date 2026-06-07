@@ -1,0 +1,60 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "027",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Liam Yardley",
+    "email": "liam.yardley@gmail.com",
+    "postcode": "BD1 5HT",
+    "monday_id": "11618839816",
+    "notetaker_id": "b349bdf6-c0f2-4eaf-b778-8420e93bfa0a"
+  },
+  "meeting": {
+    "date": "2026-04-08",
+    "profile_type": "STL-SW",
+    "outcome": "Abandoned",
+    "classification": "LOST"
+  },
+  "property": {
+    "bedrooms": 1,
+    "location": "Bradford BD1",
+    "furnished": "yes",
+    "mortgage_monthly": 550,
+    "owner_situation": "Works abroad, wants hands-off investment"
+  },
+  "financials": {
+    "stl_gross_annual": 23000,
+    "stl_net_annual": 7366,
+    "nightly_rate": 102.9,
+    "occupancy_pct": 63,
+    "mortgage_monthly": 550,
+    "worst_month_net": 100,
+    "best_month_net": 975
+  },
+  "delay_signals": [
+    { "type": "DLY-OTH", "strength": "critical", "notes": "Wants guaranteed rent — Stayful cannot offer this on 1-bed (insufficient margin)" }
+  ],
+  "green_light_signals": [],
+  "offer_timing": {
+    "was_offer_made": false,
+    "fee_offered": null,
+    "deadline": null,
+    "outcome": "lost_product_mismatch"
+  },
+  "meeting_flow": {
+    "opening_dynamic": "Works abroad, hands-off investor, wants predictable guaranteed income",
+    "objection_sequence": ["Guaranteed rent required", "Variable income unacceptable", "Stayful cannot meet product requirement"],
+    "closing_moment": "Shared projections anyway; Liam not interested — wants guarantee. Abandoned."
+  },
+  "lead_responses": {
+    "positive_signals": [],
+    "negative_signals": ["'Hell bent on guaranteed rent'", "Variable income unacceptable"],
+    "questions_asked": ["Can you guarantee the rental income?", "What is the worst month scenario?"]
+  },
+  "conversion_gaps": ["Product mismatch — guaranteed rent not available on 1-bed. Cannot resolve."],
+  "archetype": "certainty-seeker",
+  "key_pattern": "guaranteed_rent_seeker_1bed = pre_qualify_out. 2bed+ may warrant guaranteed rent conversation.",
+  "pre_qualify_signal": "'I want guaranteed rent' + 'predictable income' + 'hands off investment' + works abroad + 1-bed",
+  "topics_covered": ["Owner preferences & risk tolerance", "Guaranteed rent vs STL options", "Financial projections", "Local market context"]
+}
