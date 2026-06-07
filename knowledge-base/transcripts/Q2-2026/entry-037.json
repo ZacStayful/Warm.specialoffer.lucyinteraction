@@ -1,0 +1,34 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "037",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Jack Mitchell",
+    "postcode": "BS3 4LA",
+    "location": "Bristol",
+    "monday_id": "11928280535",
+    "granola_id": "fa2097b3"
+  },
+  "meeting": {
+    "profile_type": "STL-SW",
+    "sub_type": "SELL",
+    "outcome": "Warm",
+    "notes": "Meeting cut short",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "location": "Bristol BS3",
+    "situation": "Tenants leaving; property also on market for sale"
+  },
+  "financials": {
+    "stl_net_annual": 65700
+  },
+  "green_light_signals": [
+    { "type": "GL-SELF", "strength": "high", "notes": "Tenants leaving + property on market = immediate opportunity" }
+  ],
+  "offer_timing": { "was_offer_made": false },
+  "archetype": "urgency-driven",
+  "topics_covered": ["STL-SW", "Sell bridge", "Bristol market"],
+  "notes": "Very high STL net £65.7k. Tenants leaving, property on market. Meeting cut short — warm but needs follow-up."
+}

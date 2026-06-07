@@ -1,0 +1,37 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "041",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Prasad J",
+    "postcode": null,
+    "location": "Manchester",
+    "monday_id": null,
+    "granola_id": "756f6771"
+  },
+  "meeting": {
+    "profile_type": "PURCH",
+    "outcome": "Warm",
+    "offer_type": "15% standard (no special offer)",
+    "classification": "DELAYED"
+  },
+  "property": {
+    "location": "Manchester",
+    "context": "Daughter at Manchester Uni; Belfast BTL portfolio owner"
+  },
+  "financials": {
+    "stl_net_annual": 21600,
+    "ltl_annual": 18000,
+    "keys_timeline": "8-10 weeks"
+  },
+  "delay_signals": [
+    { "type": "DLY-PUR", "strength": "medium", "notes": "8-10 weeks to keys" }
+  ],
+  "offer_timing": {
+    "was_offer_made": false,
+    "fee_offered": "15%"
+  },
+  "archetype": "analytical-evaluator",
+  "topics_covered": ["Purchase STL", "Manchester", "Portfolio investor", "8-10 week timeline"]
+}

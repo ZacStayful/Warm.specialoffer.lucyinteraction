@@ -1,0 +1,44 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "039b",
+  "alternate_numbers": ["046", "047"],
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Isobel Cameron-Heslop",
+    "postcode": "HU1 1PE",
+    "location": "Hull — Apartment 5, 33 Lowgate",
+    "monday_id": "11866753807",
+    "granola_id": "dd8eb2de"
+  },
+  "meeting": {
+    "profile_type": "EX-STL",
+    "current_agent": "Residential Estates / Guests (2 years)",
+    "outcome": "Special Offer 13%+VAT",
+    "offer_expiry": "2026-05-31",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "location": "Hull HU1 city centre apartment"
+  },
+  "financials": {
+    "occupancy_current_pct": 57,
+    "occupancy_market_pct": 71
+  },
+  "key_issues_with_current_agent": [
+    "Hotel-style listing — lacks individual property identity",
+    "£1,600 toilet leak — poor maintenance response",
+    "Wi-Fi via 4G — unreliable guest experience"
+  ],
+  "green_light_signals": [
+    { "type": "GL-MGMT", "strength": "critical", "notes": "57% vs 71% market occupancy gap + maintenance failures + identity problem" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%+VAT",
+    "deadline": "2026-05-31"
+  },
+  "key_conversion_tactic": "Individual property identity is the conversion lever — Stayful gives the property its own listing vs hotel-block approach",
+  "archetype": "betrayal-damaged",
+  "topics_covered": ["EX-STL switch", "Listing identity", "Maintenance failures", "Occupancy gap", "Wi-Fi issue"]
+}

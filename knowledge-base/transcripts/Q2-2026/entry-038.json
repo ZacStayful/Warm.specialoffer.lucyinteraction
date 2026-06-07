@@ -1,0 +1,44 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "038",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Noemi Konya",
+    "postcode": "WD6 4ES",
+    "location": "Borehamwood",
+    "monday_id": "11975955407",
+    "granola_id": "b93d9f4b"
+  },
+  "meeting": {
+    "profile_type": "ABROAD",
+    "destination": "Spain (1yr trial)",
+    "outcome": "Special Offer 13%+VAT",
+    "offer_expiry": "2026-05-31",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "location": "Borehamwood WD6"
+  },
+  "financials": {
+    "stl_net_annual": 45200,
+    "ltl_annual": 16800
+  },
+  "delay_signals": [
+    { "type": "DLY-OTH", "strength": "medium", "notes": "Partner gate for 21 May call" }
+  ],
+  "green_light_signals": [
+    { "type": "DLY-MOV", "strength": "high", "notes": "Spain relocation 1-year trial — external deadline driving urgency" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%+VAT",
+    "deadline": "2026-05-31"
+  },
+  "key_conversion_tactic": "Calendar blocking is the key conversion lever — show how Stayful can block the Spain trial period",
+  "zac_language": {
+    "exact_quotes": ["partner gate", "calendar blocking key"]
+  },
+  "archetype": "urgency-driven",
+  "topics_covered": ["ABROAD Spain relocation", "1-yr trial", "Partner gate", "Calendar blocking"]
+}

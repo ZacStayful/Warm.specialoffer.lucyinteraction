@@ -1,0 +1,38 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "044",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Gareth Howard",
+    "postcode": "M16 0NY",
+    "location": "Stretford, Manchester",
+    "monday_id": null,
+    "granola_id": "093c6cbc"
+  },
+  "meeting": {
+    "profile_type": "PURCH",
+    "sub_type": "Existing client, 2nd property",
+    "outcome": "Converted",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "bedrooms": 1,
+    "location": "Stretford M16",
+    "keys_date": "2026-05-29",
+    "target_live": "mid-June 2026"
+  },
+  "financials": {
+    "stl_net_annual": 19000
+  },
+  "green_light_signals": [
+    { "type": "GL-TIME", "strength": "critical", "notes": "Existing client, keys 29 May, target live mid-June — immediate conversion" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "outcome": "converted"
+  },
+  "archetype": "fast-path-gain-focused",
+  "key_insight": "Existing client 2nd property = fastest conversion path. Pre-trust established.",
+  "topics_covered": ["2nd property", "Existing client", "Manchester 1-bed", "Quick onboard"]
+}

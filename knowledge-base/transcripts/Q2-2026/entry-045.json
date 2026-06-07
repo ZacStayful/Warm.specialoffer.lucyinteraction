@@ -1,0 +1,39 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "045",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Henry Roberts",
+    "postcode": "L3 6DP",
+    "location": "Liverpool — Apt 807, 7 Bevington Bush",
+    "monday_id": "12057393975",
+    "granola_id": "34f61182"
+  },
+  "meeting": {
+    "profile_type": "EX-STL",
+    "current_agent": "MyProperty Host",
+    "outcome": "Special Offer 13%+VAT",
+    "offer_expiry": "2026-05-31",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "location": "Liverpool L3",
+    "potential": "2nd property in Burton mentioned"
+  },
+  "financials": {
+    "stl_net_annual": 13300,
+    "current_performance": "Break-even currently with MyProperty Host"
+  },
+  "green_light_signals": [
+    { "type": "GL-MGMT", "strength": "high", "notes": "Break-even with current agent = strong motivation to switch" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%+VAT",
+    "deadline": "2026-05-31"
+  },
+  "pipeline_opportunity": "Potential 2nd property in Burton — ask during onboarding",
+  "archetype": "betrayal-damaged",
+  "topics_covered": ["EX-STL switch", "MyProperty Host comparison", "Liverpool apartment", "Break-even performance"]
+}

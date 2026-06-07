@@ -1,0 +1,32 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "040",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Mateusz Chmielewski",
+    "postcode": "TBC",
+    "location": "Property for sale, owners in Poland",
+    "monday_id": null,
+    "granola_id": "e3d4bbad"
+  },
+  "meeting": {
+    "profile_type": "STL-SW",
+    "outcome": "Warm",
+    "offer_type": "13%+VAT",
+    "classification": "READY_SOON"
+  },
+  "property": {
+    "situation": "Property for sale; owners in Poland"
+  },
+  "financials": {
+    "stl_net_annual": 14800
+  },
+  "key_insight": "Non-committal STL framing — flexibility for both sale + personal use. Lower net income at £14.8k.",
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%+VAT"
+  },
+  "archetype": "status-quo-resistant",
+  "topics_covered": ["STL-SW", "Sale flexibility", "Poland-based owners", "Personal use"]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "039",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "note": "Entry 039 = Julia Norman (canonical); entry 046-047 = Isobel Cameron-Heslop (separate lead mistakenly renumbered)",
+  "lead": {
+    "name": "Julia Norman",
+    "postcode": "HD",
+    "location": "Huddersfield",
+    "monday_id": "12033503765",
+    "granola_id": "104b27cf"
+  },
+  "meeting": {
+    "profile_type": "STL-SW",
+    "outcome": "Special Offer 13%+VAT",
+    "offer_expiry": "2026-05-31",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "bedrooms": 3,
+    "location": "Huddersfield HD",
+    "furnished": "unfurnished",
+    "owner_usage": "Personal use 1 week/month (winter)"
+  },
+  "financials": {
+    "stl_net_annual": 20500,
+    "stl_net_target": 15000
+  },
+  "delay_signals": [
+    { "type": "DLY-FUR", "strength": "medium", "notes": "3-bed unfurnished — furnishing required before onboarding" }
+  ],
+  "green_light_signals": [
+    { "type": "GL-SELF", "strength": "medium", "notes": "Owner use flexibility (1 wk/month) built in; STL net exceeds target" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%+VAT",
+    "deadline": "2026-05-31"
+  },
+  "archetype": "certainty-seeker",
+  "topics_covered": ["STL-SW", "Unfurnished", "Personal use", "Income vs target"]
+}

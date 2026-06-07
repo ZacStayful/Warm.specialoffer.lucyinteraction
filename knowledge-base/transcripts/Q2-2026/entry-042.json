@@ -1,0 +1,37 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "042",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Sunjana Islam",
+    "postcode": null,
+    "location": "Hayton Park Road",
+    "monday_id": null,
+    "granola_id": "2a97bd5b"
+  },
+  "meeting": {
+    "profile_type": "STL-SW",
+    "outcome": "Warm",
+    "offer_type": "15% standard (no special offer)",
+    "classification": "DELAYED"
+  },
+  "property": {
+    "bedrooms": 2,
+    "location": "Hayton Park Road",
+    "competitor_mention": "Pass the Keys"
+  },
+  "financials": {
+    "stl_net_annual": 24200,
+    "ltl_annual": 10800
+  },
+  "delay_signals": [
+    { "type": "DLY-OTH", "strength": "medium", "notes": "Partner away; renovation mid-July to August" }
+  ],
+  "offer_timing": {
+    "was_offer_made": false,
+    "fee_offered": "15%"
+  },
+  "archetype": "certainty-seeker",
+  "topics_covered": ["STL switch", "2-bed", "Pass the Keys comparison", "Renovation timing"]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "036",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Vanessa Wilson-Wood",
+    "postcode": "NG2 4FW",
+    "location": "Nottingham",
+    "monday_id": "11908410085",
+    "granola_id": "0e3b3dad"
+  },
+  "meeting": {
+    "profile_type": "EX-STL",
+    "current_agent": "Pass the Keys",
+    "outcome": "Special Offer 13%+VAT",
+    "offer_expiry": "2026-05-15",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "location": "Nottingham NG2"
+  },
+  "financials": {
+    "stl_net_annual": 16300,
+    "ltl_annual": 9900
+  },
+  "green_light_signals": [
+    { "type": "GL-MGMT", "strength": "high", "notes": "Dissatisfied with Pass the Keys — promise vs delivery gap" }
+  ],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%+VAT",
+    "deadline": "2026-05-15"
+  },
+  "friction_moments": ["Teacher income mindset — wants consistent predictable income"],
+  "zac_language": {
+    "exact_quotes": ["teacher income mindset", "promise vs delivery gap"]
+  },
+  "archetype": "betrayal-damaged",
+  "topics_covered": ["EX-STL switch", "Pass the Keys comparison", "Financial projections", "Nottingham market"]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "043",
+  "quarter": "Q2-2026",
+  "canonical": true,
+  "lead": {
+    "name": "Joseph Steadyford",
+    "postcode": "DE23 6XL",
+    "location": "Derby",
+    "monday_id": null,
+    "granola_id": "02804182"
+  },
+  "meeting": {
+    "profile_type": "EX-STL",
+    "current_agent": "Hello Guest (5+ months, only 3 reviews)",
+    "outcome": "Special Offer 13%+VAT",
+    "offer_expiry": "2026-05-31",
+    "classification": "READY_NOW"
+  },
+  "property": {
+    "location": "Derby DE23"
+  },
+  "financials": {
+    "stl_net_annual": 19200
+  },
+  "green_light_signals": [
+    { "type": "GL-MGMT", "strength": "critical", "notes": "Hello Guest: 5+ months, only 3 reviews = extreme underperformance" }
+  ],
+  "friction_moments": ["6-month contract term concern", "Financially pressured"],
+  "offer_timing": {
+    "was_offer_made": true,
+    "fee_offered": "13%+VAT",
+    "deadline": "2026-05-31"
+  },
+  "archetype": "betrayal-damaged",
+  "key_pattern": "EX-STL_severe_underperformance = highest_conversion_probability",
+  "topics_covered": ["EX-STL switch", "Hello Guest comparison", "Financial pressure", "Contract term concern"]
+}
