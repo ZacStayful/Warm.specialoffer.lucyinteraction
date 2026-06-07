@@ -1,0 +1,41 @@
+{
+  "schema_version": "3.0",
+  "last_updated": "2026-06-07",
+  "closing_scripts": [
+    {
+      "id": "CS-001",
+      "scenario": "End of meeting — lead is warm, no gates, offer appropriate",
+      "script": "Based on what you’ve shared today, this looks like a strong fit. The projections show [net figure] — that’s after our fee, after bills, and using conservative occupancy. I’d like to offer you 13%+VAT if you’re able to commit before [date]. After that it goes back to 15%. Do you have any questions about the contract before I send it over?"
+    },
+    {
+      "id": "CS-002",
+      "scenario": "Lead has spouse gate — close the follow-up call not the deal",
+      "script": "It makes sense to involve your partner in this. Rather than trying to relay it all, let’s get them on a 20-minute call together. I can do [day] at [time] or [alternative]. Which works better? I’ll send the projection document over today so you both have it ahead of the call."
+    },
+    {
+      "id": "CS-003",
+      "scenario": "EX-STL lead — close on the performance gap",
+      "script": "You’ve been live for [time] with [agent] and you’ve had [X] reviews. In that same period, our [comparable] property got [Y] reviews and averaged [occupancy]%. The gap isn’t small. The 13% rate is available until [date] — it’s the same total fee as you’re paying now, but the performance will be completely different. Can I send the contract over today?"
+    },
+    {
+      "id": "CS-004",
+      "scenario": "ABROAD lead — close on the deadline",
+      "script": "You’re leaving [date]. Between now and then we need to: get photography done, get the listing built, sort the key safe, and get your first booking in. That’s three weeks of setup. If we start today, we can have you live before you leave. If we wait, you’re leaving with an empty property. Let’s get the contract signed and I’ll book the photographer this week."
+    },
+    {
+      "id": "CS-005",
+      "scenario": "Purchase lead competing against developer affiliate",
+      "script": "Before you decide, ask the developer’s management company one question: does your projection include cleaning costs? If it doesn’t, subtract £400-600 per month from their number. That’s usually where the gap between their figure and ours disappears. Our projection is fully loaded. Theirs often isn’t."
+    },
+    {
+      "id": "CS-006",
+      "scenario": "Lead saying 'I need to think about it'",
+      "script": "Of course. What specifically is the bit you need to think through? [Listen.] If it’s [X], the answer is [Y]. The 13% rate is available until [date] — I’ll send you everything in writing so you have it. If you decide to move forward, just reply to that email and I’ll get the contract over same day."
+    },
+    {
+      "id": "CS-007",
+      "scenario": "High-conviction frictionless lead (no mortgage, furnished, no gates)",
+      "script": "This is one of the cleanest profiles we see. No mortgage, already furnished, no tenants to manage out. We can be live within 2-3 weeks of your signature. Photography this week, listing built by [date], first booking within days. Shall I send the contract over now?"
+    }
+  ]
+}

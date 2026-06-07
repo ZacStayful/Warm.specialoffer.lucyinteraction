@@ -1,0 +1,66 @@
+{
+  "schema_version": "3.0",
+  "last_updated": "2026-06-07",
+  "rules": [
+    {
+      "id": "DNS-001",
+      "phrase": "We guarantee the income",
+      "reason": "Stayful does not offer guaranteed rent. Saying this creates a liability and breaks trust when reality differs.",
+      "alternative": "Show historical monthly range. Emphasise payout reliability (1st-5th, never missed). Show floor not ceiling."
+    },
+    {
+      "id": "DNS-002",
+      "phrase": "You’ll definitely hit [high occupancy figure]",
+      "reason": "Overpromising occupancy is the single biggest trust-killer when the listing underperforms in month 1-3.",
+      "alternative": "Show conservative (65%) and realistic (70-75%) scenarios. Let the conservative case make the argument."
+    },
+    {
+      "id": "DNS-003",
+      "phrase": "[Competitor] is terrible / rubbish / bad",
+      "reason": "Attacking competitors by name damages Zac’s credibility. The performance data speaks for itself.",
+      "alternative": "'I’ll let the numbers do the talking. How many reviews have you had in the last 3 months?' The gap becomes apparent without a word against the competitor."
+    },
+    {
+      "id": "DNS-004",
+      "phrase": "Don’t worry about it",
+      "reason": "Dismisses a genuine concern. Betrayal-damaged and certainty-seeker archetypes will disengage immediately.",
+      "alternative": "Name the concern specifically: 'You’re right to ask about [X]. Here’s how we handle it: [specific process]."
+    },
+    {
+      "id": "DNS-005",
+      "phrase": "It’s really easy to manage / barely any work",
+      "reason": "Undermines the value of full management. If it’s easy, why pay 15%? Creates cognitive dissonance.",
+      "alternative": "'Full management means you’re not doing any of it. Photography, pricing, guest comms, maintenance — that’s us. You see a bank transfer on the 1st.'"
+    },
+    {
+      "id": "DNS-006",
+      "phrase": "You should go with us",
+      "reason": "Sounds salesy. Effective Zac language is fact-based and direct, not persuasive or pushy.",
+      "alternative": "Present data. Let lead decide. Create urgency with deadline not pressure."
+    },
+    {
+      "id": "DNS-007",
+      "phrase": "I’ll be honest with you...",
+      "reason": "Implies previous statements weren’t honest. Avoid this construction entirely.",
+      "alternative": "Just be direct. No preamble needed."
+    },
+    {
+      "id": "DNS-008",
+      "phrase": "Airbnb is great",
+      "reason": "Over-indexing on one platform. Stayful’s value is multi-platform + direct. Platform enthusiasm without mentioning direct bookings misses a key differentiator.",
+      "alternative": "'We list on Airbnb and Booking.com, but 40% of our bookings come direct — no platform fee, better margin for you.'"
+    },
+    {
+      "id": "DNS-009",
+      "phrase": "We manage hundreds of properties",
+      "reason": "Stayful manages ~70. Saying hundreds is inaccurate and contradicts the deliberate portfolio size argument.",
+      "alternative": "'We manage around 70 properties. That’s deliberate — it means every owner has a named account manager and isn’t a ticket in a queue.'"
+    },
+    {
+      "id": "DNS-010",
+      "phrase": "You’ll make more than your mortgage",
+      "reason": "Income promise. Only use specific figures from the analysis, never vague guarantees.",
+      "alternative": "'Based on the analysis, you’re looking at £X net per month after bills. Your mortgage is £Y. That’s £Z above your costs.'"
+    }
+  ]
+}

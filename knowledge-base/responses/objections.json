@@ -1,0 +1,99 @@
+{
+  "schema_version": "3.0",
+  "last_updated": "2026-06-07",
+  "objections": [
+    {
+      "id": "OBJ-001",
+      "objection": "Can you guarantee the income?",
+      "frequency": "high",
+      "archetypes": ["certainty-seeker"],
+      "entries": ["027", "030"],
+      "response": "We don't offer a guarantee, and any agent that does should make you nervous — they're either charging a premium for the risk or they'll underperform and still collect their fee. What I can show you is our track record: payout goes out on the 1st to 5th every month, never missed. Here's what the floor looks like for a property like yours in a quiet month: [figure]. The average is [figure]. I'd rather show you the honest range than promise something we can't control.",
+      "hard_stop": "If lead insists on guaranteed rent for a 1-bed property: 'I want to be straight with you — we're not the right fit if guaranteed rent is the requirement. It's not a product we offer on 1-bed properties because the margin doesn't support it. I'd rather tell you now than take you on and disappoint you.'"
+    },
+    {
+      "id": "OBJ-002",
+      "objection": "The bills will be my cost as STL owner — that's a big extra expense",
+      "frequency": "high",
+      "archetypes": ["certainty-seeker", "analytical-evaluator"],
+      "response": "You’re right, bills are owner-paid in STL. But let’s make it an apples-to-apples comparison. Your LTL income is £X after expenses. In STL, you’ll pay £Y in bills, but your net after bills is £Z. The real question is: is £[difference] worth it to you? [Usually significantly more.]",
+      "tactic": "Always show post-bills STL net vs LTL net, not gross vs gross."
+    },
+    {
+      "id": "OBJ-003",
+      "objection": "The contract is 6 months — that's too long",
+      "frequency": "medium",
+      "archetypes": ["certainty-seeker", "status-quo-resistant"],
+      "entries": ["030"],
+      "response": "Six months is the minimum because STL takes 3-6 months to ramp up. If we committed for less and you judged performance before the listing had matured, neither of us would get a fair picture. After 6 months, you can give 3 months notice at any time. Most owners stop thinking about the contract once they see the first few payouts. But if 6 months is a genuine blocker, let’s talk about what specifically concerns you about it."
+    },
+    {
+      "id": "OBJ-004",
+      "objection": "Another company quoted me higher income",
+      "frequency": "medium",
+      "archetypes": ["analytical-evaluator"],
+      "entries": ["034"],
+      "response": "It’s worth checking exactly what they’re including. Two things often get omitted: cleaning costs (£40-80 per stay, adds up to £3,000-6,000 per year) and realistic occupancy assumptions. Ask them: what’s your occupancy assumption, and does your projection include cleaning costs? If they’re assuming 80% occupancy and no cleaning, they’re showing you a best-case number that won’t reflect your bank account. Our projection includes everything.",
+      "tactic": "Name the specific gap (cleaning costs) rather than vaguely saying 'their numbers are optimistic'."
+    },
+    {
+      "id": "OBJ-005",
+      "objection": "I’m speaking with two other companies",
+      "frequency": "medium",
+      "archetypes": ["analytical-evaluator"],
+      "entries": ["012", "026"],
+      "response": "That’s sensible — it’s the right decision to compare. What I’d ask you to check with each: (1) What exactly is in their fee? (2) What’s their review rate per property in the last 90 days? (3) Do they give you a named account manager or is it a call centre? We manage 70 properties — not 700. That’s deliberate. Our rate at 13% until [date] goes back to 15% after that, so if you’re comparing, it’s worth doing so this week."
+    },
+    {
+      "id": "OBJ-006",
+      "objection": "I’m not sure about local demand in my area",
+      "frequency": "medium",
+      "response": "Let me show you the data for your area specifically. [Pull comparable Airbnb listings within 3 miles, show actual occupancy and pricing.] The market data speaks for itself — I’d rather show you real numbers than sell you on general STL enthusiasm."
+    },
+    {
+      "id": "OBJ-007",
+      "objection": "You’re not local to my area",
+      "frequency": "medium",
+      "entries": ["006"],
+      "response": "We operate across the North and Midlands and we manage properties in your area. Our maintenance contractors are local to your property — we vet and retain them. You’ll have a named account manager. The question isn’t whether we’re physically there — it’s whether your property is performing. We’ve consistently outperformed local-only managers because our systems are stronger, not because we’re closest."
+    },
+    {
+      "id": "OBJ-008",
+      "objection": "What if guests damage the property?",
+      "frequency": "medium",
+      "archetypes": ["betrayal-damaged", "certainty-seeker"],
+      "response": "Every stay has a security deposit. We vet guests — no one-night Friday bookings from local addresses without prior approval. Platform insurance (Airbnb AirCover) covers structural damage up to [amount]. We document the property before every guest with photographic check-in. Damage happens, but it’s rare and it’s managed — it won’t end up as your problem to resolve."
+    },
+    {
+      "id": "OBJ-009",
+      "objection": "I’m worried about the type of guests",
+      "frequency": "medium",
+      "archetypes": ["betrayal-damaged"],
+      "entries": ["016"],
+      "response": "Guest screening is one of the most important things we do. We reject: one-night Friday bookings from local addresses, parties, unverified guests. All guests are ID-verified on Airbnb. We have minimum booking policies in place. No platform reviews means no booking. We can give you veto on guest types if that’s important to you — some owners want no stag/hen bookings, and we honour that."
+    },
+    {
+      "id": "OBJ-010",
+      "objection": "My partner / wife / husband needs to be involved",
+      "frequency": "high",
+      "archetypes": ["certainty-seeker"],
+      "entries": ["004", "008", "013", "017", "023"],
+      "response": "Of course — this is a big decision. Can we get them on a call together? I can do [date/time]. Rather than trying to relay everything secondhand, it’s much better for them to hear it directly and ask questions. Would [day] work?",
+      "tactic": "Never close without the partner. Book the follow-up call immediately."
+    },
+    {
+      "id": "OBJ-011",
+      "objection": "I need to think about it",
+      "frequency": "very_high",
+      "response": "Of course. What specifically is the thing you need to think through? Is it the income figures, the contract terms, whether STL is right for your property, or something else? If I know what the real question is, I can probably answer it now and save you time.",
+      "follow_up": "If genuine reflection needed: 'The 13% rate is available until [date]. After that it goes back to 15%. I don’t want to pressure you, but I do want you to know that window is real.'"
+    },
+    {
+      "id": "OBJ-012",
+      "objection": "Tax and business rates — I’m concerned about the implications",
+      "frequency": "low",
+      "entries": ["029"],
+      "response": "Business rates for STL properties are handled through the VOA. For most residential properties converted to STL, you’ll qualify for Small Business Rate Relief — which typically means zero business rates. It’s worth confirming for your specific property with your accountant. On the income tax side, STL qualifies for Furnished Holiday Lettings relief which has significant advantages — capital allowances, pension contributions. Your accountant can confirm, but it’s generally tax-advantaged vs LTL."
+    }
+  ]
+}

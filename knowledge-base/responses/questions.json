@@ -1,0 +1,67 @@
+{
+  "schema_version": "3.0",
+  "last_updated": "2026-06-07",
+  "questions_leads_ask": [
+    {
+      "id": "Q-001",
+      "question": "What are your fees?",
+      "response": "15% + VAT for full management. That covers everything: photography, listing creation, pricing, guest comms, check-in/out, cleaning coordination, maintenance coordination, and monthly reporting. No setup fee, no photography fee, no onboarding cost. The only thing outside the fee is the cleaning itself, which is billed at cost.",
+      "special_offer_context": "During a special offer period: 'We’re running a 13%+VAT rate for properties onboarding before [date]. After that it goes back to 15%.'" 
+    },
+    {
+      "id": "Q-002",
+      "question": "When do I get paid?",
+      "response": "1st to 5th of every month, for the previous month’s bookings. Direct bank transfer. Never missed."
+    },
+    {
+      "id": "Q-003",
+      "question": "How do you find guests?",
+      "response": "We list on Airbnb, Booking.com, and our own direct booking platform. Direct bookings are how we outperform — we currently get ~40% of bookings direct, meaning no platform fee, higher margin for you. Most agents are 100% platform-dependent. We’re not."
+    },
+    {
+      "id": "Q-004",
+      "question": "What’s your occupancy rate?",
+      "response": "It varies by property and location, but across our portfolio we average 68-72% occupancy. We show you realistic projections for your specific property based on comparable listings in your area, not a portfolio-wide average."
+    },
+    {
+      "id": "Q-005",
+      "question": "Can I still use my property?",
+      "response": "Yes. You block dates in the calendar as needed. We ask for 72 hours notice where possible to manage any affected bookings, but there’s no rule against blocking. Some owners block regular weeks or months — we build that into the projections from the start."
+    },
+    {
+      "id": "Q-006",
+      "question": "What happens if a guest damages something?",
+      "response": "Security deposit on every booking. Photographic check-in and check-out. AirCover (Airbnb’s host protection) covers structural damage. We handle the claim process — you’re not dealing with Airbnb directly. Minor wear and tear is part of running any rental; major damage is covered."
+    },
+    {
+      "id": "Q-007",
+      "question": "How long is the contract?",
+      "response": "6-month minimum. After that, 3 months notice on either side. We need 6 months minimum because it takes 3-6 months for a new listing to reach its performance ceiling. Judging us before that point isn’t fair to either of us."
+    },
+    {
+      "id": "Q-008",
+      "question": "What’s included in setup?",
+      "response": "We handle: professional photography, listing creation across all platforms, pricing strategy, guest communication templates, key safe installation coordination, welcome pack creation, and welcome guidebook. No setup fee. The only upfront cost is professional photography if we don’t do it in-house — typically £200-300."
+    },
+    {
+      "id": "Q-009",
+      "question": "Do I need consent from my mortgage lender?",
+      "response": "You should check your mortgage terms. Standard residential mortgages may require consent to let. Some lenders are fine with STL; others require a buy-to-let mortgage. If you’re not sure, I can advise on what questions to ask your lender. The alternative is an STL-specific mortgage — they exist and are often interest-only."
+    },
+    {
+      "id": "Q-010",
+      "question": "What about licensing / regulations?",
+      "response": "It depends on your local authority. Most areas have no licensing requirement for STL. Some cities (Edinburgh, some London boroughs) have specific rules. Selective licensing in areas like Birmingham applies to HMOs, not typically to single STL properties. We stay up to date on local regulations and flag anything relevant for your property."
+    },
+    {
+      "id": "Q-011",
+      "question": "How many properties do you manage?",
+      "response": "Around 70. That’s deliberate. We’re not scaling to 700 — that’s when service quality drops. Every property has a named account manager. You’re not a ticket in a queue."
+    },
+    {
+      "id": "Q-012",
+      "question": "What areas do you cover?",
+      "response": "We’re based in Leicestershire and operate across the Midlands and North of England. We manage properties from Hull to Bristol, Chester to London. If your property is outside our core area, we assess on a case-by-case basis — we won’t take on a property we can’t service properly."
+    }
+  ]
+}
