@@ -1,0 +1,51 @@
+{
+  "schema_version": "3.0",
+  "last_updated": "2026-06-14",
+  "standard_fee": {
+    "pct": 15,
+    "vat": true,
+    "basis": "gross revenue",
+    "all_inclusive": true
+  },
+  "special_offer": {
+    "pct": 13,
+    "vat": true,
+    "basis": "gross revenue",
+    "duration": "Permanent — locks in for life of contract if signed before expiry date",
+    "applies_when": "Time-limited promotional offer, applied based on lead situation and timing"
+  },
+  "portfolio_progression": {
+    "1_property": "15% (or 13% with offer)",
+    "2_plus_properties": "13%",
+    "5_plus_properties": "12%"
+  },
+  "what_is_included": [
+    "Listing management on Airbnb and Booking.com",
+    "Professional photography coordination",
+    "Real-time dynamic pricing",
+    "Guest communications (all stages)",
+    "Check-in and check-out management",
+    "Linen and towel supply and laundry",
+    "Cleaning coordination (cleaning costs separate)",
+    "Maintenance triage",
+    "Monthly payout and financial statement",
+    "Damage reporting and insurance claim assistance"
+  ],
+  "what_is_not_included": [
+    "Utilities (paid by owner)",
+    "Maintenance work costs (at cost, no markup from Stayful)",
+    "Property insurance",
+    "Compliance certificates (gas, EPC, HMO)",
+    "Furnishing costs for setup"
+  ],
+  "no_fees": [
+    "No onboarding fee",
+    "No photography fee",
+    "No setup fee from Stayful",
+    "No software subscription fee",
+    "No exit fee"
+  ],
+  "competitor_fee_context": {
+    "note": "Some competitors charge 18-20% + add-on fees (software, photography, onboarding). Compare total cost of management, not headline percentage."
+  }
+}

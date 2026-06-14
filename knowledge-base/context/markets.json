@@ -1,0 +1,91 @@
+{
+  "schema_version": "3.0",
+  "last_updated": "2026-06-14",
+  "markets": [
+    {
+      "area": "Newcastle (NE2)",
+      "demand_rating": "very_high",
+      "notes": "Extremely strong STL market. Entry 053 (Chun, NE2 1NQ): £1,940/mo net, 72% occ, £167 ADR.",
+      "demand_drivers": ["Sage Gateshead", "Northumbria University", "Newcastle University", "NHS", "contractor workers"]
+    },
+    {
+      "area": "York (YO)",
+      "demand_rating": "very_high",
+      "notes": "One of UK's best STL markets. Year-round demand. York Christmas Market (Nov-Dec) generates peak revenue. Entry 064 (Abby Thomas, YO24): £2,115/mo net.",
+      "demand_drivers": ["York Minster tourism", "York Christmas Market", "University of York", "corporate stays", "York Races"]
+    },
+    {
+      "area": "Harrogate (HG)",
+      "demand_rating": "high",
+      "notes": "Premium spa/conference market. Harrogate Convention Centre. Entry 014 (Andrew McIntee, HG2): £26k net annual. Entry 034 (Taj Khan, HG1): converted.",
+      "demand_drivers": ["Harrogate Convention Centre", "spa tourism", "corporate stays", "countryside tourism"]
+    },
+    {
+      "area": "Bristol (BS)",
+      "demand_rating": "high",
+      "notes": "Strong year-round demand. Bedminster (BS3) benefits from university area and creative district. Entry 058 (Martyn De Vere, BS3 1AE): £2,080/mo net, 67% occ.",
+      "demand_drivers": ["University of Bristol", "creative industries", "tourism", "tech sector"]
+    },
+    {
+      "area": "Birmingham (B)",
+      "demand_rating": "high",
+      "notes": "Strong multi-bedroom demand. B12 (Balsall Heath) good for contractors. B36 large properties. Entry 059 (Shahid, B36): £4,088/mo net 6-bed.",
+      "demand_drivers": ["HS2 construction", "Aston University", "BCU", "NEC", "contractor workers", "business travel"]
+    },
+    {
+      "area": "Hull (HU)",
+      "demand_rating": "medium_high",
+      "notes": "Underrated market. Entry 053 area. Entry 056 (Afnan Hassan, HU5): £1,400/mo net projection.",
+      "demand_drivers": ["Port of Hull", "University of Hull", "Siemens wind energy", "offshore worker accommodation"]
+    },
+    {
+      "area": "Coventry (CV)",
+      "demand_rating": "medium_high",
+      "notes": "Strong multi-bed demand. CV3 (Don Yoo): 5-bed £1,805/mo. CV6 (Prakash): 4-bed £25,200 annual.",
+      "demand_drivers": ["Coventry University", "University of Warwick", "Jaguar Land Rover", "Amazon Coventry", "HS2"]
+    },
+    {
+      "area": "Derby (DE)",
+      "demand_rating": "medium",
+      "notes": "Entry 007 (Karan, DE1): 5-bed £24,205 annual. Entry 043 (Joseph, Derby): £1,600/mo net.",
+      "demand_drivers": ["Rolls-Royce HQ", "Derby County FC", "Toyota", "contractor workers"]
+    },
+    {
+      "area": "Darlington / County Durham (DL)",
+      "demand_rating": "medium",
+      "notes": "HITRANS/Teesworks-driven contractor demand. Entry 004 (Robert, DL1): £14,400 annual.",
+      "demand_drivers": ["Teesworks freeport", "offshore wind", "contractor stays", "Durham University overspill"]
+    },
+    {
+      "area": "Leeds (LS)",
+      "demand_rating": "high",
+      "notes": "Strong city centre and suburban demand. Stayful core operational area.",
+      "demand_drivers": ["University of Leeds", "Leeds Beckett", "financial services", "city break tourism"]
+    },
+    {
+      "area": "London",
+      "demand_rating": "high_but_complex",
+      "notes": "90-night annual cap in many London boroughs without planning permission. Entry 016 (Ihsan, EC4M) and entry 006 (Elliot, W4) both in London.",
+      "regulatory_note": "90-night STL cap applies unless planning permission for short lets obtained. Must confirm with lead before proceeding.",
+      "demand_drivers": ["Tourism", "business travel", "Wembley events (HA9)", "Selhurst Park (SE25 Crystal Palace FC)"]
+    },
+    {
+      "area": "Staffordshire / Stoke (ST)",
+      "demand_rating": "medium",
+      "notes": "Alton Towers proximity creates October half-term spike. Entry 062 (Kuldip, ST1): October = £1,928 net.",
+      "demand_drivers": ["Alton Towers", "Trentham Gardens", "Stoke Pottery Trail", "contractor workers"]
+    },
+    {
+      "area": "South East London (SE25 / Selhurst)",
+      "demand_rating": "medium_high",
+      "notes": "Entry 052 (Mandi, SE25): Crystal Palace FC (Selhurst Park) = strong weekend demand. NHS/healthcare workers as weekday guest type.",
+      "demand_drivers": ["Crystal Palace FC", "NHS staff", "contractor workers"]
+    },
+    {
+      "area": "Preston / Lancashire (PR4)",
+      "demand_rating": "medium",
+      "notes": "Entry 055 (Rona, PR4 2BF Kirkham): Ribby Hall holiday village creates overflow demand. 6+ parking spaces = strong USP.",
+      "demand_drivers": ["Ribby Hall", "Fylde Coast leisure", "contractor workers"]
+    }
+  ]
+}

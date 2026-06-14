@@ -1,0 +1,85 @@
+{
+  "schema_version": "3.0",
+  "last_updated": "2026-06-14",
+  "note": "This file documents competitor patterns observed through EX-STL leads who switched to Stayful. Do not use this to criticise competitors directly in conversations. Use it to understand and address specific failure patterns.",
+  "competitors": [
+    {
+      "name": "Pass the Keys",
+      "entries": ["036", "042"],
+      "market": "National",
+      "observed_failure_patterns": [
+        "Income projections significantly above delivery (£1,500-2,000 promised, ~£1,000 delivered in entry 036)",
+        "Income inconsistency blamed on market rather than management",
+        "General credibility concern when projections underperform"
+      ],
+      "close_approach_when_mentioned": "Acknowledge the income gap. Explain Stayful projections are built from actual comparable data, not winning numbers. Show how review maturity and listing quality drive real income."
+    },
+    {
+      "name": "MyProperty Host",
+      "entries": ["039", "045"],
+      "market": "National",
+      "observed_failure_patterns": [
+        "Damage not reported to owner in time for insurance claim",
+        "Account manager left without handover — service continuity failure",
+        "Missed scheduled check-ins",
+        "Income significantly below peak potential"
+      ],
+      "close_approach_when_mentioned": "Name the specific failure: damage reporting SLA, account manager continuity, check-in reliability. Show Stayful's systematic checkout process and named property manager model."
+    },
+    {
+      "name": "Clifton Valley Lets",
+      "entries": ["015"],
+      "market": "Bristol",
+      "observed_failure_patterns": [
+        "Credibility concern from owner about new manager",
+        "Reviews momentum worry at transition"
+      ],
+      "close_approach_when_mentioned": "Address the reviews question directly: Stayful doesn't lose reviews on switch if the listing is migrated correctly. Named accountability is the core differentiator."
+    },
+    {
+      "name": "Hello Guest",
+      "entries": ["043"],
+      "market": "Derby",
+      "observed_failure_patterns": [
+        "Only 3 reviews in 5+ months of trading",
+        "Income below self-management benchmark",
+        "6-month contract term created anxiety about switching again"
+      ],
+      "close_approach_when_mentioned": "Frame Stayful's initial 6-month term as a structured performance period, not a lock-in. 3 reviews in 5 months is a listing and pricing problem — explain what causes this and how Stayful avoids it."
+    },
+    {
+      "name": "Residential Estates/Guests",
+      "entries": ["046", "047"],
+      "market": "Hull",
+      "observed_failure_patterns": [
+        "Pooled listing: lead's photos used to promote whole building",
+        "Shared reviews across multiple apartments",
+        "£1,600 toilet leak — maintenance failure not caught in check-out",
+        "4G WiFi caused lost Amazon relocation client and negative review",
+        "£42/month software charge (additional fee model)"
+      ],
+      "close_approach_when_mentioned": "Individual listing identity is the direct counter. Systematic maintenance check-out is the direct counter. Transparent fee model (no software charge) is the direct counter."
+    },
+    {
+      "name": "Nice Living",
+      "entries": ["060"],
+      "market": "Coventry",
+      "observed_failure_patterns": [
+        "Company winding down due to double council tax penalty exposure",
+        "Operational uncertainty for existing clients"
+      ],
+      "close_approach_when_mentioned": "Not a quality failure — a regulatory/business viability failure. Opportunity: portfolio migration. Stayful's stability and track record are the close."
+    }
+  ],
+  "general_competitor_objection_handling": {
+    "rule": "Never criticise competitors by name in conversation. Describe Stayful's process instead.",
+    "template": "I won't speak to how [provider] runs their business. What I can tell you is exactly how we handle [the specific thing that went wrong].",
+    "comparison_questions_to_give_leads": [
+      "Do I get my own individual listing or am I pooled with other properties?",
+      "What is your damage reporting SLA from checkout?",
+      "Who is my named contact and what happens if they leave?",
+      "What are all the fees — including software charges, photography, onboarding?",
+      "What happens in your worst month for a property like mine?"
+    ]
+  }
+}

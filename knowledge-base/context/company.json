@@ -1,0 +1,52 @@
+{
+  "schema_version": "3.0",
+  "last_updated": "2026-06-14",
+  "name": "Stayful",
+  "type": "Short-term letting (STL) property management",
+  "hq": "Leicestershire, UK",
+  "operational_regions": [
+    "Leicestershire",
+    "Leeds",
+    "Birmingham",
+    "Derby",
+    "Coventry",
+    "Bristol",
+    "Manchester",
+    "York",
+    "Hull",
+    "Harrogate",
+    "North East (Newcastle, Durham, Darlington)"
+  ],
+  "founder": "Zac",
+  "contact_email": "zac@stayful.co.uk",
+  "website": "stayful.co.uk",
+  "lead_portal": "lucy.stayful.co.uk",
+  "portfolio_size": "~70 properties (as of 2026-Q2)",
+  "management_model": "Full management only — no partial services",
+  "platforms": ["Airbnb", "Booking.com", "Direct bookings (~40% of portfolio revenue)"],
+  "payout_schedule": "1st–5th of every month, without exception",
+  "communication_model": "Slack-based — named property manager, direct line",
+  "no_onboarding_fee": true,
+  "no_photography_fee": true,
+  "no_setup_fee_from_stayful": true,
+  "maintenance_markup": false,
+  "services_included_in_fee": [
+    "Listing creation and optimisation",
+    "Professional photography coordination",
+    "Real-time dynamic pricing",
+    "Guest communications (pre, during, post)",
+    "Check-in and check-out management",
+    "Linen and towel management",
+    "Cleaning coordination",
+    "Maintenance triage and call-out coordination",
+    "Monthly payout and statement",
+    "Damage reporting and insurance claim support"
+  ],
+  "owner_responsibilities": [
+    "Utilities (in owner name)",
+    "Maintenance work costs (at cost, no markup from Stayful)",
+    "Insurance (STL-appropriate policy)",
+    "Compliance: gas safety cert, EPC, HMO licence if applicable",
+    "Mortgage consent to let / BTL mortgage with STL clause"
+  ]
+}

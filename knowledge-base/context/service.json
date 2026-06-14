@@ -1,0 +1,50 @@
+{
+  "schema_version": "3.0",
+  "last_updated": "2026-06-14",
+  "contract": {
+    "initial_term_months": 6,
+    "initial_term_start": "from date of agreement signing (not go-live date)",
+    "notice_period_after_initial": "3 months rolling",
+    "minimum_contract": "6 months from signature"
+  },
+  "onboarding_timeline": {
+    "agreement_to_live_weeks": "2-3",
+    "steps": [
+      "Management agreement signed",
+      "Compliance check (gas cert, EPC, insurance)",
+      "Professional photography",
+      "Listing creation and optimisation",
+      "Pricing calibration",
+      "Go live on Airbnb + Booking.com"
+    ],
+    "note": "If property needs furnishing, add 4-8 weeks for that phase"
+  },
+  "listing_model": {
+    "type": "Individual property listing",
+    "pooled": false,
+    "note": "Each property has its own listing, photos, and reviews. Properties are NOT pooled or grouped."
+  },
+  "pricing": {
+    "model": "Dynamic pricing algorithm, updates every 24 hours",
+    "platforms": ["Airbnb", "Booking.com"],
+    "direct_booking": "~40% of portfolio via direct booking infrastructure"
+  },
+  "communication": {
+    "channel": "Slack",
+    "model": "Named property manager, direct message line",
+    "response_sla": "Same business day for operational queries"
+  },
+  "damage_reporting": {
+    "sla": "Within 24 hours of checkout",
+    "method": "Photographic documentation",
+    "insurance_support": "Stayful assists with Airbnb AirCover or standalone STL insurance claims"
+  },
+  "owner_calendar_access": {
+    "type": "Full real-time access",
+    "blocking": "Owner can block dates at any time for personal use"
+  },
+  "guest_standards": {
+    "screening": "Profile review, review history check, decline criteria for high-risk bookings",
+    "party_protection": "Noise monitoring available on request, booking length restrictions in party-risk areas"
+  }
+}
