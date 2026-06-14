@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "031",
+  "meeting_date": "2026-03-12",
+  "lead": {
+    "name": "Kes Kessington",
+    "email": "keskessington@atnproperty.com",
+    "monday_id": "11475779335",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "M13 0NW",
+    "bedrooms": 0,
+    "address": ""
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 0,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "c2cf625b-7884-41c4-9d98-57a133387ead",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["property performance", "current challenges", "revenue analysis", "profitability", "management service", "contract terms", "pricing", "payouts", "tools", "guest vetting", "deposits", "property protection", "responsibilities", "onboarding"],
+    "objections": ["R2R margin too thin after rent + management fees"],
+    "exact_language": [],
+    "key_insight": "R2R Manchester underperforming listing. Thin margin after rent + fees. Direct booking strategy insufficient to close gap. Classic R2R abandonment pattern."
+  },
+  "intelligence": {
+    "profile_type": "R2R",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "lost",
+    "outcome_reason": "r2r_thin_margins"
+  }
+}

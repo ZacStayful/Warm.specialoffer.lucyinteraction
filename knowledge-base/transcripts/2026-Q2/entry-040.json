@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "040",
+  "meeting_date": "2026-05-20",
+  "lead": {
+    "name": "Mateusz Chmielewski",
+    "email": "mc.mateuszchmielewski@gmail.com",
+    "monday_id": "",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "Location TBC",
+    "bedrooms": 0,
+    "address": "semi-furnished, street-level entrance, 1 parking permit"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 14796,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 1233,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 13,
+    "offer_expiry": "2026-05-31"
+  },
+  "meeting": {
+    "granola_id": "e3d4bbad-438f-44bc-80a0-df6fb8857a55",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["property options", "STL vs sell vs LTL", "income projections", "calendar blocking", "flexibility", "sale compatibility"],
+    "objections": ["want flexibility to use property occasionally and sell if good offer comes"],
+    "exact_language": ["market conditions poor due to new legislation", "won't go below certain price", "want flexibility to use property occasionally and sell if good offer comes"],
+    "key_insight": "Polish owners based overseas. Property on market but won't sell below floor price. STL as holding strategy. Calendar blocking + sale-compatible notice period are the key messages."
+  },
+  "intelligence": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "status-quo-resistant",
+    "delay_signals": ["DLY-MOV"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "warm",
+    "outcome_reason": ""
+  }
+}

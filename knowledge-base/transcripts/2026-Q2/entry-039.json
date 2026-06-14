@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "039",
+  "meeting_date": "2026-05-21",
+  "lead": {
+    "name": "Henry Roberts",
+    "email": "chubbanaz@outlook.com",
+    "monday_id": "",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "Liverpool",
+    "bedrooms": 0,
+    "address": "Bevington Bush, Liverpool"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 13331,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 1111,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 13,
+    "offer_expiry": "2026-05-31"
+  },
+  "meeting": {
+    "granola_id": "34f61182-19b3-43cb-89d5-77a976b7ae40",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["current provider failures", "income analysis", "operational improvements", "service model", "transition", "second property"],
+    "objections": ["needs to check MyProperty Host contract notice period"],
+    "exact_language": ["considerably down from last year", "should be hitting double in peak months", "currently around break-even"],
+    "key_insight": "EX-STL Liverpool. Peak-season underperformance (May-Aug) creates real urgency. Potential second property in Burton on Trent = multi-property client."
+  },
+  "intelligence": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "loss-averse-switcher",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-MGMT", "GL-TIME"],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

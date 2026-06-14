@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "047",
+  "meeting_date": "2026-05-22",
+  "lead": {
+    "name": "Isobel Cameron-Heslop",
+    "email": "cameronheslop@gmail.com",
+    "monday_id": "11866753807",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "HU1 1PE",
+    "bedrooms": 1,
+    "address": "Apartment 5 Middleton Chambers, 33 Lowgate, Hull"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 29000,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 57,
+    "offer_pct": 13,
+    "offer_expiry": "2026-05-31"
+  },
+  "meeting": {
+    "granola_id": "dd8eb2de-92cc-4022-9fa2-221c2a310382",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["maintenance failures", "hotel-style listing", "WiFi issues", "London-base objection", "software fee objection", "individual listing identity", "transition"],
+    "objections": ["hotel-style listing with whole building", "4G WiFi connectivity", "£1,600 maintenance failure", "London-based concern", "£42/month software charge"],
+    "exact_language": ["they just left the toilet leak — it caused £1,600 damage", "my pictures are being used to promote the whole building", "I lost an Amazon relocation client because the Wi-Fi was too unreliable", "I just want someone to actually manage it properly", "I'll have a think over the long weekend"],
+    "key_insight": "Web meeting 2 for Isobel. High intent. WiFi fibre installation (LSH managing) is critical path. Software fee objection outstanding. Individual listing + maintenance batching are the wins. Offer expires 31 May."
+  },
+  "intelligence": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "betrayal-damaged",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-MGMT"],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

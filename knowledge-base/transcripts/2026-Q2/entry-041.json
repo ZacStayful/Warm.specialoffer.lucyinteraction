@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "041",
+  "meeting_date": "2026-05-20",
+  "lead": {
+    "name": "Prasad J",
+    "email": "prasadjosh@gmail.com",
+    "monday_id": "",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "Manchester",
+    "bedrooms": 3,
+    "address": "3-bed detached with garden, 2-car parking"
+  },
+  "financial": {
+    "mortgage_monthly": 825,
+    "stl_net_annual": 21600,
+    "ltl_net_annual": 18000,
+    "stl_net_monthly": 1800,
+    "adr": 180,
+    "occupancy_pct": 60,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "756f6771-8bce-4f51-bde5-c154e4e6391a",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["financial projections", "competition analysis", "setup timeline", "calendar blocking", "personal use"],
+    "objections": [],
+    "exact_language": ["concerns about new tenant rights regulations", "daughter studying at Manchester University"],
+    "key_insight": "PURCH pre-keys. Mortgage application in progress. 8-10 weeks to keys. Calendar blocking for daughter at Manchester Uni is key feature. 2-3 week setup turnaround from keys to live."
+  },
+  "intelligence": {
+    "profile_type": "PURCH",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": ["DLY-PUR"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "warm",
+    "outcome_reason": ""
+  }
+}

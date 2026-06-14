@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "046",
+  "meeting_date": "2026-05-22",
+  "lead": {
+    "name": "Isobel Cameron-Heslop",
+    "email": "cameronheslop@gmail.com",
+    "monday_id": "11866753807",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "Hull",
+    "bedrooms": 0,
+    "address": "Ground floor flat with terrace and parking, Hull city centre"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 29000,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 71,
+    "offer_pct": 13,
+    "offer_expiry": "2026-05-31"
+  },
+  "meeting": {
+    "granola_id": "dd8eb2de-92cc-4022-9fa2-221c2a310382",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["Residential Estates failures", "maintenance transparency", "individual listing vs hotel-style", "WiFi connectivity", "transition process", "income projections"],
+    "objections": ["£1,600 toilet leak damage from current provider", "hotel-style listing with shared reviews", "4G WiFi caused lost relocation client and negative reviews"],
+    "exact_language": ["lumped in with other apartments", "my photos being used to promote the whole building", "wiped out an entire month", "I just want someone to actually manage it properly"],
+    "key_insight": "Switch from Residential Estates/Guests. Individual listing identity is the core differentiator. Maintenance reliability > revenue projections for this lead type."
+  },
+  "intelligence": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "betrayal-damaged",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-MGMT"],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

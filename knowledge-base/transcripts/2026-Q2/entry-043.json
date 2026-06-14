@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "043",
+  "meeting_date": "2026-05-19",
+  "lead": {
+    "name": "Joseph Steadyford",
+    "email": "steadyford@outlook.com",
+    "monday_id": "",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "Derby",
+    "bedrooms": 3,
+    "address": "3-bed flat, Derby"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 19200,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 1600,
+    "adr": 172,
+    "occupancy_pct": 60,
+    "offer_pct": 13,
+    "offer_expiry": "2026-05-31"
+  },
+  "meeting": {
+    "granola_id": "02804182-116d-4532-906e-f316caa767f4",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["current provider performance", "listing improvements", "last-minute bookings", "review accumulation", "contract terms", "transition timeline"],
+    "objections": ["concern about 6-month minimum term given financial pressure"],
+    "exact_language": ["only 3 reviews in 5+ months", "below standard compared to self-management", "current financial pressure"],
+    "key_insight": "EX-STL burned by Hello Guest (3 reviews in 5+ months, last-minute bookings disabled). Under financial pressure. 6-month term concern is key - frame as structured performance period. Self-management was his benchmark."
+  },
+  "intelligence": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "betrayal-damaged",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-MGMT"],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

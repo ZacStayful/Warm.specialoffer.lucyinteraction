@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "026",
+  "meeting_date": "2026-04-08",
+  "lead": {
+    "name": "Nina Rueschen",
+    "email": "rueschen@bluewin.ch",
+    "monday_id": "11680205793",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "HA9 9RD",
+    "bedrooms": 3,
+    "address": ""
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 39235,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 13,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "ee744c71-564d-49b7-a953-2a758470c0a8",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["property overview", "refurb plan", "revenue estimates", "financial comparison", "short-let model", "operations", "onboarding", "pricing"],
+    "objections": ["speaking with two other companies", "refurb not complete by deadline", "new boiler decisions pending"],
+    "exact_language": ["speaking with two other companies", "surprisingly high", "want to see how it goes"],
+    "key_insight": "Strong overseas profile - no mortgage Wembley 3-bed. Lost to competitor or deferred. Concert season demand. May re-engage."
+  },
+  "intelligence": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "social-proof-dependent",
+    "delay_signals": ["DLY-FUR"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "lost",
+    "outcome_reason": "competitor_chosen_or_deferred"
+  }
+}

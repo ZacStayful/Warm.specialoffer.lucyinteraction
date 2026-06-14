@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "045",
+  "meeting_date": "2026-05-21",
+  "lead": {
+    "name": "Henry Roberts",
+    "email": "Hroberts199023@gmail.com",
+    "monday_id": "12057393975",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "L3 6DP",
+    "bedrooms": 1,
+    "address": "Apartment 807, 7 Bevington Bush, Liverpool"
+  },
+  "financial": {
+    "mortgage_monthly": 700,
+    "stl_net_annual": 13331,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 1100,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 13,
+    "offer_expiry": "2026-05-31"
+  },
+  "meeting": {
+    "granola_id": "34f61182-19b3-43cb-89d5-77a976b7ae40",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["MyProperty Host failures", "income projections", "service model", "direct bookings", "transition", "notice period", "second property"],
+    "objections": ["notice period with MyProperty Host unclear"],
+    "exact_language": ["around break-even", "should be hitting double in peak months", "damage not reported", "account manager left"],
+    "key_insight": "CONVERTED Liverpool EX-STL. MyProperty Host systemically failed (missed check-ins, damage concealment, account manager left). 26% direct booking conversion rate and Slack model addressed all pain points."
+  },
+  "intelligence": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "betrayal-damaged",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-MGMT", "GL-TIME"],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

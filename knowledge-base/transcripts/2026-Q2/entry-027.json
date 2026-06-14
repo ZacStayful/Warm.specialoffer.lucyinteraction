@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "027",
+  "meeting_date": "2026-04-08",
+  "lead": {
+    "name": "Liam Yardley",
+    "email": "liam.yardley@gmail.com",
+    "monday_id": "11618839816",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "BD1 5HT",
+    "bedrooms": 1,
+    "address": ""
+  },
+  "financial": {
+    "mortgage_monthly": 550,
+    "stl_net_annual": 7366,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "b349bdf6-c0f2-4eaf-b778-8420e93bfa0a",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["owner preferences", "risk tolerance", "guaranteed rent vs short-let", "financial projections", "local market context"],
+    "objections": ["wants guaranteed rent - Stayful cannot offer on 1-bed", "variable income unacceptable"],
+    "exact_language": ["very much hell bent on the guaranteed rent", "low-risk predictable income", "hands-off investment"],
+    "key_insight": "DISQUALIFY: Guaranteed rent seeker on 1-bed. Stayful cannot offer on 1-bed. Pre-qualify out in first call."
+  },
+  "intelligence": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "certainty-seeker",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "lost",
+    "outcome_reason": "guaranteed_rent_seeker_product_mismatch_1bed"
+  }
+}

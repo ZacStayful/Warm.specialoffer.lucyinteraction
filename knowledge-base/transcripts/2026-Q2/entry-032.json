@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "032",
+  "meeting_date": "2026-03-11",
+  "lead": {
+    "name": "Rebecca Hutchinson",
+    "email": "marbecpropertyltd@gmail.com",
+    "monday_id": "11453936644",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "M16 0XX",
+    "bedrooms": 1,
+    "address": ""
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 0,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "0185c47f-1519-48db-9e63-930e1dbaf315",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["property details", "development status", "financial projections", "profitability plan", "direct bookings", "guest screening", "insurance", "property protection", "owner responsibilities", "management platform", "onboarding", "timeline", "market competition", "dynamic pricing"],
+    "objections": ["off-plan completion June 2026 - property not yet complete"],
+    "exact_language": [],
+    "key_insight": "Off-plan 1-bed Manchester completing June 2026. Engaged but timeline-blocked. Follow up at key receipt."
+  },
+  "intelligence": {
+    "profile_type": "PURCH",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": ["DLY-PUR"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "delayed",
+    "outcome_reason": "DLY-MOV"
+  }
+}

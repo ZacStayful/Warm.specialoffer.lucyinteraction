@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "038",
+  "meeting_date": "2026-05-22",
+  "lead": {
+    "name": "Isobel Cameron-Heslop",
+    "email": "cameronheslop@gmail.com",
+    "monday_id": "",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "Hull",
+    "bedrooms": 0,
+    "address": "Ground floor terrace flat, Hull city centre"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 29000,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 2417,
+    "adr": 0,
+    "occupancy_pct": 71,
+    "offer_pct": 13,
+    "offer_expiry": "2026-05-31"
+  },
+  "meeting": {
+    "granola_id": "dd8eb2de-92cc-4022-9fa2-221c2a310382",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["current provider failures", "income analysis", "individual listing vs hotel-style", "WiFi connectivity", "maintenance transparency", "transition logistics"],
+    "objections": [],
+    "exact_language": ["broadly in line", "cancelled out entire month's earnings", "lost Amazon relocation client due to poor connectivity"],
+    "key_insight": "EX-STL Hull. Measures manager on operational reliability not revenue. £1,600 toilet leak + lost relocation client are the key wounds. Individual listing identity wins this."
+  },
+  "intelligence": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "betrayal-damaged",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-MGMT"],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

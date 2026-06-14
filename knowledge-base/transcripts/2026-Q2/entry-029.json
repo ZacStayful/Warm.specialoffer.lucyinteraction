@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "029",
+  "meeting_date": "2026-03-18",
+  "lead": {
+    "name": "Shoaib Khalid",
+    "email": "shoaib.fsd.undp@gmail.com",
+    "monday_id": "11514528972",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "NG8 4AZ",
+    "bedrooms": 0,
+    "address": ""
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 0,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "142680c7-45b7-42b3-9257-7c4200e4dc6e",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["revenue projections", "LTL comparison", "service model", "fees", "payout structure", "contract terms", "risk", "performance concerns", "property condition", "onboarding"],
+    "objections": ["contract terms and performance concerns", "risk concerns"],
+    "exact_language": [],
+    "key_insight": "Nottingham furnished STL Switch. Fully furnished (lower setup barrier) yet still abandoned. Contract terms + performance concerns = key blocker."
+  },
+  "intelligence": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "status-quo-resistant",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "lost",
+    "outcome_reason": "contract_terms_and_performance_concerns"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "036",
+  "meeting_date": "2026-05-06",
+  "lead": {
+    "name": "Vanessa Wilson-Wood",
+    "email": "vanessa_w-w@hotmail.co.uk",
+    "monday_id": "11908410085",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "NG2 4FW",
+    "bedrooms": 3,
+    "address": "1 Lyndhurst Road, Sneinton, Nottingham"
+  },
+  "financial": {
+    "mortgage_monthly": 480,
+    "stl_net_annual": 16319,
+    "ltl_net_annual": 9871,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 13,
+    "offer_expiry": "2026-05-15"
+  },
+  "meeting": {
+    "granola_id": "0e3b3dad-0747-42f6-8ca6-ddb7bcfacc09",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["current provider performance", "income analysis", "financial comparison", "platform strategy", "service differentiators", "offer terms"],
+    "objections": ["will we actually hit projected income with only 4 reviews?", "is short-let really better than guaranteed long-let?", "why would Stayful be better than Pass the Keys?", "what about Jan-Apr performance?", "what about the June booking?"],
+    "exact_language": ["they promised us £1,500 to £2,000 and we haven't got close", "we're both teachers we need this to work", "it's the inconsistency that worries me", "the June booking shows it can work", "I don't want to make another mistake with another company"],
+    "key_insight": "Betrayal-damaged EX-STL. PTK promised £1,500-2,000, delivered ~£1,000 peak. Close on credibility gap not income ceiling. June £1,500/wk booking is concrete proof point. Teacher mindset = consistency over hype."
+  },
+  "intelligence": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "betrayal-damaged",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-MGMT"],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

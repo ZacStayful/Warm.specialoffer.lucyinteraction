@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "035",
+  "meeting_date": "2026-03-09",
+  "lead": {
+    "name": "Mitchell Thomas",
+    "email": "trademt94@outlook.com",
+    "monday_id": "11450724256",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "DE7 8AF",
+    "bedrooms": 6,
+    "address": ""
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 0,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "a0af5377-81e6-4466-9d9e-40a5a7c09723",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["shared accommodation challenges", "property configuration", "performance expectations", "cost structure", "alternative strategy"],
+    "objections": ["6-bed shared accommodation - outside Stayful model"],
+    "exact_language": [],
+    "key_insight": "DISQUALIFY: Stayful cannot manage shared accommodation (individual rooms, shared kitchen, HMO). Must be caught in first call not at web meeting stage."
+  },
+  "intelligence": {
+    "profile_type": "R2R",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "lost",
+    "outcome_reason": "shared_accommodation_outside_stayful_model"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "030",
+  "meeting_date": "2026-03-17",
+  "lead": {
+    "name": "Hany Rashwan",
+    "email": "hrashwan7@gmail.com",
+    "monday_id": "11503154761",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "B16 8JG",
+    "bedrooms": 0,
+    "address": ""
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 0,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "dfad497c-382c-4d14-b692-ae1dfff2694f",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["income potential", "financial structure", "short-let operations", "profitability plan", "guest vetting", "risk management", "cleaning", "maintenance", "local team", "property setup", "furnishing", "licensing", "regulations", "tax", "lender", "onboarding", "next steps", "stakeholder roles"],
+    "objections": [],
+    "exact_language": [],
+    "key_insight": "Analytical lead with spouse. 9 topics covered including licensing, regulations, tax, lender. September 2026 implementation timeline. Comprehensive questioning profile."
+  },
+  "intelligence": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": ["DLY-TEN"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "delayed",
+    "outcome_reason": "DLY-TEN"
+  }
+}

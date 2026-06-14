@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "042",
+  "meeting_date": "2026-05-19",
+  "lead": {
+    "name": "Sunjana Islam",
+    "email": "sunjanaislam@hotmail.co.uk",
+    "monday_id": "",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "Hayton Park Rd",
+    "bedrooms": 2,
+    "address": "2-bed flat, Hayton Park Road"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 24150,
+    "ltl_net_annual": 10800,
+    "stl_net_monthly": 2012,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "2a97bd5b-06fc-422f-9d82-85101fec3794",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["revenue comparison", "LTL vs STL", "competitor comparison", "renovation timeline", "partner decision"],
+    "objections": ["comparing quotes from other companies (Pass the Keys named)", "needs to discuss with partner"],
+    "exact_language": ["approximately double current rental income", "already has built-in furniture", "comparing quotes from other companies"],
+    "key_insight": "Active competitor comparison (PTK). Two-person decision, partner away. Renovation mid-July. LTL tenant vacated. £2,012/month STL vs £900 LTL. Don't push before July 1."
+  },
+  "intelligence": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "social-proof-dependent",
+    "delay_signals": ["DLY-FUR"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "warm",
+    "outcome_reason": ""
+  }
+}

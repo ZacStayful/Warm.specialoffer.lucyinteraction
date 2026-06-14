@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "034",
+  "meeting_date": "2026-03-09",
+  "lead": {
+    "name": "Taj Khan",
+    "email": "tajkhanijau@hotmail.co.uk",
+    "monday_id": "10945481296",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "HG1 5JX",
+    "bedrooms": 2,
+    "address": "Apartment 1 Mowbray House, Harrogate"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 0,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 13,
+    "offer_expiry": "2026-03-18"
+  },
+  "meeting": {
+    "granola_id": "124004b1-6f2e-48e6-8b7f-29e9fe123127",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["income estimate", "financials", "profitability", "booking strategy", "Airbnb", "Booking.com", "direct bookings", "property protection", "guest vetting", "operational tools", "listing optimization", "photography", "platform performance", "onboarding", "fees", "scale-up potential", "furnishing"],
+    "objections": [],
+    "exact_language": [],
+    "key_insight": "CONVERTED - signed at 13% before 18 Mar 2026. Harrogate market strength + portfolio scale-up potential (19-apt block). Fast-path single-meeting conversion. No major objections."
+  },
+  "intelligence": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "fast-path-gain-focused",
+    "delay_signals": [],
+    "green_light_signals": ["GL-SELF", "GL-TIME"],
+    "outcome": "converted",
+    "outcome_reason": ""
+  }
+}

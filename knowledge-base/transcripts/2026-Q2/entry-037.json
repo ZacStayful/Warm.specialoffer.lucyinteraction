@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "037",
+  "meeting_date": "2026-05-07",
+  "lead": {
+    "name": "Jack Mitchell",
+    "email": "jacksrmitchell@live.co.uk",
+    "monday_id": "11928280535",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "BS3 4LA",
+    "bedrooms": 3,
+    "address": "64 Duncary Road, Bristol"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 65752,
+    "ltl_net_annual": 30000,
+    "stl_net_monthly": 5479,
+    "adr": 400,
+    "occupancy_pct": 82,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "fa2097b3-f9bc-4fe4-8d69-f4b5d378306f",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["revenue projections", "demand drivers", "year 1 expectations", "service structure", "furnishing"],
+    "objections": [],
+    "exact_language": [],
+    "key_insight": "Meeting cut short by connection issues - never reached objections. Tenants leaving, no buyer interest = STL is live option. Rebook required. £65,752 net vs £30k LTL is compelling."
+  },
+  "intelligence": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "urgency-driven",
+    "delay_signals": ["DLY-TEN"],
+    "green_light_signals": ["GL-SELF", "GL-TIME"],
+    "outcome": "warm",
+    "outcome_reason": ""
+  }
+}

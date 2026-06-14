@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "044",
+  "meeting_date": "2026-05-18",
+  "lead": {
+    "name": "Gareth Howard",
+    "email": "garethdavidhoward@gmail.com",
+    "monday_id": "",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "M16 0NY",
+    "bedrooms": 1,
+    "address": "Flat 57, 4 Botanical Avenue, Trafford Gardens, Stretford, Manchester"
+  },
+  "financial": {
+    "mortgage_monthly": 650,
+    "stl_net_annual": 19000,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 1583,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 13,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "093c6cbc-9ac2-4da5-888e-f51ff356c706",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["property setup", "completion logistics", "furnishing", "photography", "business rates conversion", "go-live timeline"],
+    "objections": [],
+    "exact_language": [],
+    "key_insight": "CONVERTED - existing client (Suffolk) adding Manchester 1-bed. Keys May 29, target live mid-June for summer peak. 13% rate matched to Suffolk. Critical path: keys → photos → furnishing → live."
+  },
+  "intelligence": {
+    "profile_type": "PURCH",
+    "emotional_profile": "fast-path-gain-focused",
+    "delay_signals": [],
+    "green_light_signals": ["GL-SELF", "GL-TIME"],
+    "outcome": "converted",
+    "outcome_reason": ""
+  }
+}
