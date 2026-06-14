@@ -1,0 +1,126 @@
+{
+  "schema_version": "3.0",
+  "generated_at": "2026-06-14",
+  "objections": [
+    {
+      "id": "OBJ-001",
+      "text": "What happens in the quiet months? / Income consistency",
+      "frequency": "very_high",
+      "profile_types": ["STL-SW", "ABROAD"],
+      "emotional_profiles": ["certainty-seeker", "analytical-evaluator"],
+      "example_entries": ["007", "027", "055", "056", "062"],
+      "response": "The honest answer: January-March are the quietest months. For a typical property, you're looking at 50-60% of peak rates. But here's the comparison that matters — even our quietest month for a 2-bed in Newcastle came in at £900 net. A long-term let on the same property would give you roughly £750. So STL still wins in our worst case. The payout on the 1st-5th of every month is guaranteed from our side — we send it regardless of when we received the funds.",
+      "do_not_say": "We never have quiet months / Income is always strong"
+    },
+    {
+      "id": "OBJ-002",
+      "text": "I want to understand the costs / What are all the fees?",
+      "frequency": "very_high",
+      "profile_types": ["STL-SW", "ABROAD", "PURCH"],
+      "emotional_profiles": ["analytical-evaluator"],
+      "example_entries": ["007", "050", "056", "057", "062"],
+      "response": "Our management fee is 15% + VAT of gross revenue. That covers everything: listing creation, professional photography, pricing optimisation, guest comms, check-in, linen, cleaning coordination, and maintenance triage. The things you pay separately: utilities in your name (we pass through), any maintenance work (at cost, no markup), and your own insurance. There are no onboarding fees, no photography fees, no setup fee from Stayful. The only variable cost you'll see from us is the management fee percentage.",
+      "do_not_say": "There are basically no costs / It's all included"
+    },
+    {
+      "id": "OBJ-003",
+      "text": "How do I manage it when I'm abroad? / Managing remotely",
+      "frequency": "high",
+      "profile_types": ["ABROAD"],
+      "emotional_profiles": ["analytical-evaluator", "certainty-seeker"],
+      "example_entries": ["050", "054", "056"],
+      "response": "This is exactly what full management means. You get access to a Slack channel — one message and your property manager picks it up. We handle maintenance call-outs, emergency repairs, guest issues, cleaning, and check-ins. You don't need to be in the country. We have owners based in Qatar, the US, Indonesia, Turkey — they get a monthly payout and a message if something significant happens. The Slack model means you have visibility without needing to act.",
+      "do_not_say": "You don't need to do anything at all"
+    },
+    {
+      "id": "OBJ-004",
+      "text": "What about damage? / Party risk / Guest quality",
+      "frequency": "high",
+      "profile_types": ["STL-SW", "EX-STL"],
+      "emotional_profiles": ["loss-averse-switcher", "certainty-seeker"],
+      "example_entries": ["015", "058", "059"],
+      "response": "We report damage within 24 hours of checkout — photographically documented, with insurance claim support. This is the main failure point at most other companies: they discover damage days later or don't tell you until it's too late to claim. Our check-out process is systematic, not voluntary. For larger properties or university-area locations, we apply additional deposit screening and we decline bookings that don't meet our guest profile criteria. We've managed ~70 properties and our damage rate is well below industry average.",
+      "do_not_say": "Damage is very rare / It almost never happens"
+    },
+    {
+      "id": "OBJ-005",
+      "text": "How are you different from [Pass the Keys / MyProperty Host / etc]?",
+      "frequency": "high",
+      "profile_types": ["EX-STL"],
+      "emotional_profiles": ["loss-averse-switcher", "betrayal-damaged"],
+      "example_entries": ["036", "043", "045", "046", "047"],
+      "response": "I won't say they're a bad company — I don't know their internal situation. What I can tell you is exactly how we do the three things that seem to have gone wrong for you. [Then address specifically: income underperformance, damage reporting, communication, or listing identity — whichever was their pain point.] We don't pool properties in shared listings. Each property has its own listing, its own photos, its own reviews. You're not competing with 40 other flats in our portfolio — you're running your own brand.",
+      "do_not_say": "They're rubbish / We're so much better / [Competitor name] always underdelivers"
+    },
+    {
+      "id": "OBJ-006",
+      "text": "The 6-month minimum term worries me",
+      "frequency": "medium",
+      "profile_types": ["SELL", "ABROAD", "STL-SW"],
+      "emotional_profiles": ["analytical-evaluator"],
+      "example_entries": ["043", "064"],
+      "response": "The 6-month initial term runs from the date we sign the agreement — not from when the property goes live. So if you sign today and we go live in 3 weeks, your initial period ends 6 months from today. After that, it's 3 months' rolling notice — you can exit any time. For most owners, by 6 months they're well into income generation and have no reason to leave. But it's worth being clear: the 6-month term is a structured performance period for us to prove our value, not a lock-in.",
+      "do_not_say": "It's just 6 months, don't worry about it"
+    },
+    {
+      "id": "OBJ-007",
+      "text": "I want guaranteed income / Can you guarantee X per month?",
+      "frequency": "medium",
+      "profile_types": ["STL-SW"],
+      "emotional_profiles": ["certainty-seeker"],
+      "example_entries": ["027"],
+      "response": "We don't offer a guaranteed rent model — and the providers who do are typically offering you a lower figure than STL can achieve, then keeping the upside. What we can show you is a realistic floor: what your property earns in our worst-performing months, based on comparable properties. For most 2+ bed properties, that floor exceeds what guaranteed rent schemes offer. For 1-bed properties in lower-demand locations, the gap may be smaller — in which case, I'd rather be honest than promise something that doesn't hold.",
+      "do_not_say": "We can basically guarantee the income / The figures are very reliable"
+    },
+    {
+      "id": "OBJ-008",
+      "text": "STL vs LTL — isn't a guaranteed rent easier?",
+      "frequency": "high",
+      "profile_types": ["STL-SW", "PURCH"],
+      "emotional_profiles": ["analytical-evaluator", "certainty-seeker"],
+      "example_entries": ["007", "004", "005", "053"],
+      "response": "LTL is simpler but the income gap is significant. For your property, we're projecting £X net per month STL vs roughly £Y on a long let. That's £Z extra per year. The trade-off is that STL has variable months — but even your lowest month on STL tends to match or beat LTL when you properly cost it: LTL net needs to account for void periods, wear and tear, and no management fee doesn't mean no cost.",
+      "do_not_say": "STL is always better than LTL"
+    },
+    {
+      "id": "OBJ-009",
+      "text": "We need to discuss it / I need to talk to my partner/husband/wife",
+      "frequency": "medium",
+      "profile_types": ["STL-SW", "PURCH"],
+      "emotional_profiles": ["analytical-evaluator"],
+      "example_entries": ["004", "042"],
+      "response": "Absolutely — this is a significant decision. Can I ask: is there a specific part of the numbers or the model that you'd want to walk through together? I can put together a one-page summary of the key figures for your property — monthly projections, the fee structure, and how the contract works — so you both have the same information. When do you think you'd have that conversation?",
+      "do_not_say": "Sure, take your time / Just let me know when you decide"
+    },
+    {
+      "id": "OBJ-010",
+      "text": "I'm looking at other companies too",
+      "frequency": "medium",
+      "profile_types": ["STL-SW", "ABROAD"],
+      "emotional_profiles": ["analytical-evaluator", "fast-path-gain-focused"],
+      "example_entries": ["026", "042"],
+      "response": "That makes sense — you should compare. When you're talking to them, the questions I'd ask are: what are my property's actual comps on Airbnb right now? How do they handle damage reporting? Do I get my own listing or am I pooled with other properties? What's their communication model — am I calling a call centre or a person? And what happens if income misses projection in month 3? The answers will tell you a lot about how they operate day-to-day.",
+      "do_not_say": "We're definitely the best / You should choose us over them"
+    },
+    {
+      "id": "OBJ-011",
+      "text": "Setup costs are high / I don't want to spend on furnishing",
+      "frequency": "medium",
+      "profile_types": ["STL-SW", "ABROAD"],
+      "emotional_profiles": ["analytical-evaluator"],
+      "example_entries": ["019", "055"],
+      "response": "The setup cost is a one-time investment that typically pays back in 2-4 months of STL income. For an unfurnished 4-bed, you're typically looking at £5,000-£9,000 for a full furnish to STL standard. We can help you prioritise: there are items that guests genuinely care about (mattress quality, linen, WiFi, photography) and items that don't move the rating. You don't need to spend everything at once — we can stage it.",
+      "do_not_say": "Setup is cheap / You don't need much"
+    },
+    {
+      "id": "OBJ-012",
+      "text": "Stayful is relatively new / small / only 70 properties",
+      "frequency": "low",
+      "profile_types": ["EX-STL"],
+      "emotional_profiles": ["loss-averse-switcher", "analytical-evaluator"],
+      "example_entries": ["058"],
+      "response": "We've been operating for X years and manage ~70 properties. I'd rather be honest about that than inflate it. What the size means for you: you get a named person who manages your property, not an anonymous call centre. If something goes wrong, you message directly on Slack and I pick it up. The larger agencies often lose that quality of communication at scale — that's exactly what you've described experiencing. Our size is our advantage in that context.",
+      "do_not_say": "70 is actually lots / We're growing very fast"
+    }
+  ]
+}

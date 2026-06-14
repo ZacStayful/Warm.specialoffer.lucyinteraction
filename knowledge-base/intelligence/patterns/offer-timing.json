@@ -1,0 +1,62 @@
+{
+  "schema_version": "3.0",
+  "generated_at": "2026-06-14",
+  "offer_config": {
+    "offer_pct": 13,
+    "standard_fee_pct": 15,
+    "discount_pct": 2,
+    "vat_additional": true
+  },
+  "summary": {
+    "entries_with_offer": 26,
+    "entries_without_offer": 34,
+    "offer_rate_pct": 43,
+    "all_offer_entries_are_special_offer_applied": true
+  },
+  "by_profile_type": {
+    "STL-SW": {"total": 23, "with_offer": 10, "offer_rate": "43%", "notes": "Offer applied when certainty-seeker or DLY-OTH leads need an anchor"},
+    "EX-STL": {"total": 10, "with_offer": 8, "offer_rate": "80%", "notes": "High offer rate — offer functions as trust bridge not just incentive for switchers"},
+    "PURCH": {"total": 9, "with_offer": 1, "offer_rate": "11%", "notes": "Low offer rate — PURCH leads close on product fit and setup timeline"},
+    "ABROAD": {"total": 7, "with_offer": 5, "offer_rate": "71%", "notes": "High offer rate — departure date alignment creates natural urgency window"},
+    "SELL": {"total": 5, "with_offer": 3, "offer_rate": "60%", "notes": "SELL bridge leads need the certainty of an offer alongside the flexible exit"},
+    "R2R": {"total": 6, "with_offer": 0, "offer_rate": "0%", "notes": "R2R leads never receive offers — either lost on margin or the model doesn't apply"}
+  },
+  "by_emotional_profile": {
+    "analytical-evaluator": {"offer_tendency": "medium", "note": "Offer helps close analysis paralysis — gives them something to decide on"},
+    "certainty-seeker": {"offer_tendency": "high", "note": "Offer acts as permanent floor on fees — reduces the perceived income risk"},
+    "loss-averse-switcher": {"offer_tendency": "high", "note": "Offer reduces financial downside of trying a new provider"},
+    "betrayal-damaged": {"offer_tendency": "high", "note": "Offer is the trust bridge — entry 036 key example"},
+    "urgency-driven": {"offer_tendency": "high", "note": "Offer expiry creates dual urgency with natural time pressure"},
+    "fast-path-gain-focused": {"offer_tendency": "medium", "note": "Offer useful as differentiator vs competitors"}
+  },
+  "converted_without_offer": {
+    "entries": ["034", "044"],
+    "lesson": "Strong intent + right product + clear next step = conversion without incentive. Don't automatically apply offer to every lead."
+  },
+  "timing_patterns": [
+    "ABROAD leads: offer applied within 24-48h of meeting, tied to departure date",
+    "EX-STL leads: offer extended 7-14 days to allow competitor contract review",
+    "SELL bridge: offer applied in same session — they need security of the decision",
+    "June 2026 batch: all expires June 14-30 or July 1 — 7-30 day windows",
+    "DLY-FUR leads: offer expiry set beyond renovation completion estimate",
+    "Offer never applied to R2R (model mismatch or margin issue)"
+  ],
+  "offer_expiry_entries": [
+    {"entry": "036", "offer_expiry": "2026-05-15", "profile": "EX-STL", "outcome": "special_offer_applied"},
+    {"entry": "038", "offer_expiry": "2026-05-31", "profile": "EX-STL", "outcome": "special_offer_applied"},
+    {"entry": "039", "offer_expiry": "2026-05-31", "profile": "EX-STL", "outcome": "special_offer_applied"},
+    {"entry": "043", "offer_expiry": "2026-05-31", "profile": "EX-STL", "outcome": "special_offer_applied"},
+    {"entry": "045", "offer_expiry": "2026-05-31", "profile": "EX-STL", "outcome": "special_offer_applied"},
+    {"entry": "050", "offer_expiry": "2026-06-14", "profile": "ABROAD", "outcome": "special_offer_applied"},
+    {"entry": "056", "offer_expiry": "2026-06-15", "profile": "STL-SW", "outcome": "special_offer_applied"},
+    {"entry": "052", "offer_expiry": "2026-06-22", "profile": "SELL", "outcome": "special_offer_applied"},
+    {"entry": "057", "offer_expiry": "2026-06-22", "profile": "STL-SW", "outcome": "special_offer_applied"},
+    {"entry": "053", "offer_expiry": "2026-06-23", "profile": "STL-SW", "outcome": "special_offer_applied"},
+    {"entry": "059", "offer_expiry": "2026-06-23", "profile": "STL-SW", "outcome": "special_offer_applied"},
+    {"entry": "060", "offer_expiry": "2026-06-25", "profile": "EX-STL", "outcome": "special_offer_applied"},
+    {"entry": "061", "offer_expiry": "2026-06-25", "profile": "STL-SW", "outcome": "special_offer_applied"},
+    {"entry": "054", "offer_expiry": "2026-06-30", "profile": "ABROAD", "outcome": "special_offer_applied"},
+    {"entry": "055", "offer_expiry": "2026-06-30", "profile": "STL-SW", "outcome": "special_offer_applied"},
+    {"entry": "062", "offer_expiry": "2026-07-01", "profile": "STL-SW", "outcome": "special_offer_applied"}
+  ]
+}

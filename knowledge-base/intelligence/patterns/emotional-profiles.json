@@ -1,0 +1,182 @@
+{
+  "schema_version": "3.0",
+  "generated_at": "2026-06-14",
+  "total_entries_analysed": 60,
+  "profiles": {
+    "analytical-evaluator": {
+      "count": 39,
+      "pct": 65,
+      "description": "Seeks to understand all variables before deciding. Responds to data, structured comparisons, and logical reasoning. Will ask about every cost line.",
+      "common_objections": [
+        "income consistency",
+        "cost transparency",
+        "STL vs LTL comparison",
+        "what happens in the worst months?"
+      ],
+      "what_works": [
+        "detailed month-by-month projections",
+        "worst-case scenario modelling",
+        "explicit cost breakdown (management fee, utilities, cleaning)",
+        "ADR and occupancy rate explanation"
+      ],
+      "what_fails": [
+        "pressure tactics",
+        "vague income promises",
+        "avoiding the downside question",
+        "skipping the fee breakdown"
+      ],
+      "representative_entries": ["003", "004", "005", "006", "008", "009", "010", "013", "016", "040", "051", "061", "064"],
+      "typical_outcome": "warm or special_offer_applied after 1-2 follow-ups",
+      "follow_up_cadence": "3-5 days — give time to review but not so long they go cold"
+    },
+    "certainty-seeker": {
+      "count": 6,
+      "pct": 10,
+      "description": "Needs predictability more than income maximisation. Will sacrifice upside for consistency. Worst-month question is the real close.",
+      "common_objections": [
+        "what happens in quiet months?",
+        "income instability vs guaranteed LTL",
+        "January-March concern",
+        "can I rely on this?"
+      ],
+      "what_works": [
+        "worst-month floor figure (e.g. even January = £X)",
+        "historic portfolio consistency data",
+        "payout record (1st-5th every month, never missed)",
+        "offer as certainty anchor — locks in the lower fee permanently"
+      ],
+      "what_fails": [
+        "leading with peak season projections",
+        "optimistic tone only",
+        "pushing urgency without addressing stability",
+        "avoiding the quiet month question"
+      ],
+      "representative_entries": ["007", "027", "055", "056", "057", "062"],
+      "typical_outcome": "special_offer_applied — offer functions as certainty bridge",
+      "follow_up_cadence": "2-3 days — they have a decision timeline in mind, move alongside it"
+    },
+    "loss-averse-switcher": {
+      "count": 10,
+      "pct": 17,
+      "description": "Previously used an STL manager they're unhappy with. Core fear: making the same mistake with a new provider. Income is secondary to reliability.",
+      "common_objections": [
+        "how are you different from [previous provider]?",
+        "what happens when there's damage?",
+        "I don't want to go through this again",
+        "credibility of Stayful at ~70 properties"
+      ],
+      "what_works": [
+        "acknowledge the specific failure of the previous provider",
+        "show exactly how Stayful handles that exact scenario differently",
+        "named accountability — they deal with a specific person, not a call centre",
+        "damage reporting: within 24h, photographic evidence, insurance process",
+        "individual listing identity (not pooled)"
+      ],
+      "what_fails": [
+        "pivoting to income before trust is established",
+        "generic 'we're better' claims with no specifics",
+        "minimising or dismissing their past experience",
+        "guaranteeing revenue figures too early"
+      ],
+      "representative_entries": ["015", "031", "038", "039", "043", "045", "046", "047", "058", "060"],
+      "named_previous_providers": ["Pass the Keys", "MyProperty Host", "Clifton Valley Lets", "Hello Guest", "Residential Estates/Guests", "Nice Living"],
+      "typical_outcome": "special_offer_applied when trust issue is directly addressed",
+      "follow_up_cadence": "24-48h — strike while trust window is open"
+    },
+    "betrayal-damaged": {
+      "count": 1,
+      "pct": 2,
+      "description": "Deeper version of loss-averse. Feels personally let down by specific broken promises. 'They promised £1,500-2,000 and we got £1,000.' Income claim damage is the wound.",
+      "common_objections": [
+        "they promised X and delivered Y",
+        "I don't want to make another mistake with another company",
+        "the June booking shows it can work but I need to know you can sustain it"
+      ],
+      "what_works": [
+        "acknowledge the specific broken promise without excusing it",
+        "explain exactly what caused the underperformance (reviews maturity, listing quality)",
+        "show what Stayful does at that exact failure point",
+        "offer as trust bridge — lower fee reduces perceived risk of trying again"
+      ],
+      "what_fails": [
+        "immediately countering with higher projections",
+        "minimising the past experience",
+        "skipping to the close",
+        "guaranteeing income figures"
+      ],
+      "representative_entries": ["036"],
+      "typical_outcome": "special_offer_applied — very price-sensitive, needs offer",
+      "follow_up_cadence": "3-5 days — need time to process trust conversation"
+    },
+    "urgency-driven": {
+      "count": 2,
+      "pct": 3,
+      "description": "Active financial pressure or vacancy cost is the primary driver. Every week of delay has a price tag they already know.",
+      "common_objections": [
+        "compliance items outstanding (certs, repairs)",
+        "areas they want locked",
+        "setup timeline"
+      ],
+      "what_works": [
+        "income-per-day-vacant calculation",
+        "fast-track setup narrative (2-3 weeks from agreement to live)",
+        "clear next steps with ownership",
+        "compliance checklist so they know what to action"
+      ],
+      "what_fails": [
+        "slow follow-up",
+        "dwelling on objections",
+        "vague setup timeline",
+        "adding friction to the onboarding process"
+      ],
+      "representative_entries": ["053", "059"],
+      "typical_outcome": "special_offer_applied — moves fast when gates are cleared",
+      "follow_up_cadence": "same day or next morning — urgency profile expects speed"
+    },
+    "fast-path-gain-focused": {
+      "count": 2,
+      "pct": 3,
+      "description": "Excited by the income opportunity. Already researching multiple providers. Low friction, high intent. Will move fast if Stayful moves fast.",
+      "common_objections": [
+        "comparing against other companies",
+        "fee structure vs competitor"
+      ],
+      "what_works": [
+        "income projection clarity upfront",
+        "simple onboarding process narrative",
+        "fast proposal turnaround",
+        "offer to differentiate on value not just price"
+      ],
+      "what_fails": [
+        "slow follow-up after meeting",
+        "complex documentation",
+        "under-delivering on projected figures in Year 1"
+      ],
+      "representative_entries": ["017", "026"],
+      "typical_outcome": "special_offer_applied or lost to competitor — window is short",
+      "follow_up_cadence": "within 24h — competitor is also following up"
+    },
+    "social-proof-dependent": {
+      "count": 0,
+      "pct": 0,
+      "description": "Needs to hear from similar property owners before deciding. Reviews and case studies are primary close tools.",
+      "common_objections": ["can I speak to someone who uses you?", "what have other similar owners done?"],
+      "what_works": ["named case studies", "similar property results", "Trustpilot and Google reviews"],
+      "what_fails": ["financial projections only", "no reference points"],
+      "representative_entries": [],
+      "typical_outcome": "not observed in this dataset",
+      "follow_up_cadence": "N/A"
+    },
+    "status-quo-resistant": {
+      "count": 0,
+      "pct": 0,
+      "description": "Actively resisting change even when numbers work. Inertia is the primary barrier.",
+      "common_objections": ["it's fine as is", "I don't want the hassle"],
+      "what_works": ["low-effort switching narrative", "what-if income modelling"],
+      "what_fails": ["complex onboarding", "high switching cost framing"],
+      "representative_entries": [],
+      "typical_outcome": "not observed in this dataset",
+      "follow_up_cadence": "N/A"
+    }
+  }
+}

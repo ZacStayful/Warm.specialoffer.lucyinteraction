@@ -1,0 +1,139 @@
+{
+  "schema_version": "3.0",
+  "generated_at": "2026-06-14",
+  "total_lost": 12,
+  "total_entries": 60,
+  "lost_rate_pct": 20,
+  "categories": {
+    "product_mismatch": {
+      "count": 2,
+      "pct_of_lost": 17,
+      "description": "Lead wants something Stayful doesn't offer or has a property type outside Stayful's model.",
+      "entries": [
+        {
+          "code": "guaranteed_rent_seeker_product_mismatch_1bed",
+          "entry": "027",
+          "lead": "Liam Yardley",
+          "postcode": "BD1 5HT",
+          "exact_quote": "very much hell bent on the guaranteed rent",
+          "lesson": "Pre-qualify guaranteed rent expectations in first contact. 1-bed properties at lower price points can't generate enough margin for guaranteed rent. Disqualify early."
+        },
+        {
+          "code": "shared_accommodation_outside_stayful_model",
+          "entry": "035",
+          "lead": "Mitchell Thomas",
+          "postcode": "DE7 8AF",
+          "exact_quote": "6-bed shared accommodation",
+          "lesson": "Stayful manages whole properties only. HMO/shared-room lettings are outside the model. Clarify in first contact."
+        }
+      ]
+    },
+    "financial_case_failed": {
+      "count": 3,
+      "pct_of_lost": 25,
+      "description": "The financial case for STL with Stayful did not clear the lead's threshold.",
+      "entries": [
+        {
+          "code": "financial_comparison_setup_costs_not_compelling",
+          "entry": "019",
+          "lead": "Boglarka Glenister",
+          "postcode": "BB3 8UX",
+          "lesson": "For unfurnished ABROAD leads, lead with net-of-setup Year 1 vs Year 2 trajectory. Don't let setup cost dominate Year 1 analysis without context."
+        },
+        {
+          "code": "r2r_thin_margins",
+          "entry": "031",
+          "lead": "Kes Kessington",
+          "postcode": "M13 0NW",
+          "lesson": "R2R Manchester — rent + management fees consumed STL income. Pre-qualify R2R margin before meeting. Required: STL yield > rent + mgmt fee + utilities + profit margin."
+        },
+        {
+          "code": "developer_competing_management_overseas_owner",
+          "entry": "033",
+          "lead": "Mohimi Ovbiagele",
+          "postcode": "LE1 6TH",
+          "lesson": "Developer management bundled at purchase is hard to break. For off-plan purchases with overseas owners, engage before keys and before developer handover conversation."
+        }
+      ]
+    },
+    "r2r_structural": {
+      "count": 2,
+      "pct_of_lost": 17,
+      "description": "R2R deal structurally unviable due to rent level.",
+      "entries": [
+        {
+          "code": "r2r_rent_too_high",
+          "entry": "024",
+          "lead": "Rasheed Ajani",
+          "postcode": "S26 4QA",
+          "lesson": "R2R Sheffield: £1,000/month rent near-zero margin. R2R viability formula: STL net monthly > rent + utilities + 15% mgmt + desired profit. If not, disqualify before meeting."
+        }
+      ]
+    },
+    "competitor_won": {
+      "count": 1,
+      "pct_of_lost": 8,
+      "description": "Lead chose a competitor or indefinitely deferred.",
+      "entries": [
+        {
+          "code": "competitor_chosen_or_deferred",
+          "entry": "026",
+          "lead": "Nina Rueschen",
+          "postcode": "HA9 9RD",
+          "lesson": "ABROAD Switzerland lead speaking to two other companies. Refurb delay + active competitor follow-up = lost. For ABROAD leads actively comparing, accelerate the offer and shorten follow-up cycle."
+        }
+      ]
+    },
+    "timing_structural": {
+      "count": 2,
+      "pct_of_lost": 17,
+      "description": "Decision timing made Stayful engagement structurally unattractive.",
+      "entries": [
+        {
+          "code": "signing_deadline_passed",
+          "entry": "022",
+          "lead": "Ada Madu",
+          "postcode": "NE5 3BR",
+          "lesson": "R2R Newcastle: good deal (£14k/yr profit) abandoned. R2R leads are deadline-sensitive — landlord signing window closes fast. Build deadline urgency from first call."
+        },
+        {
+          "code": "short_sale_timeline_switch_unattractive",
+          "entry": "023",
+          "lead": "Will Hargreaves",
+          "postcode": "NG7 1AY",
+          "lesson": "EX-STL Nottingham on active Airbnb with another manager, property on sale. If sale timeline < 3 months, switching managers has negative ROI for the lead. Don't push."
+        }
+      ]
+    },
+    "personal_concerns": {
+      "count": 2,
+      "pct_of_lost": 17,
+      "description": "Lead had personal concerns that blocked conversion.",
+      "entries": [
+        {
+          "code": "tax_and_flexibility_concerns",
+          "entry": "028",
+          "lead": "Gary Johnston",
+          "postcode": "CH2 2BT",
+          "lesson": "Chester 3-bed: tax/business rates concern + personal use flexibility. These are legitimate addressable barriers but require proactive handling. Suggest accountant consultation and clarify calendar blocking for personal use upfront."
+        },
+        {
+          "code": "contract_terms_and_performance_concerns",
+          "entry": "029",
+          "lead": "Shoaib Khalid",
+          "postcode": "NG8 4AZ",
+          "lesson": "Fully furnished Nottingham property — should have converted but contract terms and performance guarantee expectations blocked it. Stayful doesn't offer performance guarantees — this must be positioned as risk-sharing, not liability avoidance."
+        }
+      ]
+    }
+  },
+  "lost_prevention_rules": [
+    "Pre-qualify guaranteed rent seekers in first call — especially 1-bed properties",
+    "Pre-qualify R2R leads: rent must allow positive margin after all costs",
+    "For off-plan PURCH overseas leads, engage before developer handover",
+    "For ABROAD leads comparing providers, accelerate offer within 24h",
+    "If active sale timeline < 3 months and they have another STL manager, don't push switch",
+    "Always surface 'business rates' as a topic for STL-SW leads with existing commercial awareness",
+    "Never let personal use flexibility concern go unaddressed — calendar blocking is the answer"
+  ]
+}

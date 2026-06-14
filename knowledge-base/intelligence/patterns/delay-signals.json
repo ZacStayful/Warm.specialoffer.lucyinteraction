@@ -1,0 +1,83 @@
+{
+  "schema_version": "3.0",
+  "generated_at": "2026-06-14",
+  "total_entries": 60,
+  "signals": {
+    "DLY-TEN": {
+      "label": "Tenant timing",
+      "count": 2,
+      "pct": 3,
+      "description": "Current or recently vacated tenant. Cannot list until tenancy formally ends.",
+      "typical_window_weeks": "2-8",
+      "best_action": "Confirm tenancy end date precisely. Sign agreement now — Stayful can begin onboarding in parallel. First live date is tenant exit + 2-3 weeks for setup.",
+      "representative_entries": ["030", "037"],
+      "risk": "Tenant extends or squats. Keep warm with monthly income reminder. If 8+ weeks away, suggest light touch follow-up cadence.",
+      "example_entry": {
+        "entry": "037",
+        "lead": "Jack Mitchell",
+        "situation": "Tenants leaving Bristol 3-bed BS3. Meeting was cut short but tenancy end creates natural start date."
+      }
+    },
+    "DLY-FUR": {
+      "label": "Furnishing / renovation incomplete",
+      "count": 3,
+      "pct": 5,
+      "description": "Property needs furnishing or refurbishment before listing. Owner knows this. Timeline depends on their pace.",
+      "typical_window_weeks": "4-12",
+      "best_action": "Offer furnishing consultation. Stayful can recommend suppliers and advise on what matters for guest scores. Signing now lets setup planning run in parallel.",
+      "representative_entries": ["042", "051"],
+      "risk": "Renovation takes longer than planned — typical delay doubles. Set a check-in at midpoint.",
+      "example_entry": {
+        "entry": "051",
+        "lead": "Don Yoo",
+        "situation": "Coventry 5-bed purchased for STL. Renovation 2-3 months. Year 1 figures slightly under £1k/mo target — Year 2 trajectory + direct bookings are the close."
+      }
+    },
+    "DLY-PUR": {
+      "label": "Purchase completion pending",
+      "count": 3,
+      "pct": 5,
+      "description": "Lead doesn't yet own the property — off-plan, exchange complete, or awaiting key handover.",
+      "typical_window_weeks": "4-16",
+      "best_action": "Sign agreement before keys. Developer management relationship is the risk — engage early and lock in before handover.",
+      "representative_entries": ["032", "041", "044"],
+      "risk": "Developer offers bundled management at key handover (see entries 033, PURCH lost pattern). Pipeline closed early wins.",
+      "example_entry": {
+        "entry": "044",
+        "lead": "Gareth Howard",
+        "situation": "Keys May 29. Existing Stayful client expanding to Manchester 1-bed. Converted immediately. Critical path: photos → furnishing → live mid-June before summer."
+      }
+    },
+    "DLY-MOV": {
+      "label": "Moving / relocating abroad",
+      "count": 5,
+      "pct": 8,
+      "description": "Owner is moving away — either already abroad or leaving within weeks. STL is the plan for while they're gone.",
+      "typical_window_weeks": "2-10 before departure",
+      "best_action": "Tie decision to departure date. Calculate income per week of delay. Stayful handles everything remotely — this is the ideal use case.",
+      "representative_entries": ["014", "017", "054", "064"],
+      "risk": "Post-departure follow-up is harder. Decisions made before they leave are 3x more likely to convert.",
+      "example_entry": {
+        "entry": "054",
+        "lead": "Laura Shaw",
+        "situation": "Returns to Indonesia June 30. Competing LTL offer is live. Even worst month (Sept ~£800) > LTL (£644). Shower recurring issue must be resolved pre-listing."
+      }
+    },
+    "DLY-OTH": {
+      "label": "Other / unspecified delay",
+      "count": 47,
+      "pct": 78,
+      "description": "Catch-all for general hesitation: more research, spouse/partner decision, price comparison, or unvoiced concern. Most common delay code by far.",
+      "typical_window_weeks": "1-4",
+      "best_action": "Surface the real gate. Ask directly: 'Is there a specific thing holding you back from moving forward this week?' Most DLY-OTH leads have a real objection they haven't voiced.",
+      "representative_entries": ["003", "004", "005", "006", "007", "008", "009", "010"],
+      "risk": "Without surfacing the real gate, lead goes cold within 2-3 weeks. DLY-OTH with no follow-up = lost.",
+      "sub_patterns": [
+        "Two-person decision (spouse/partner) — entry 004: needs to review with wife",
+        "Provider comparison — entry 042: comparing Pass the Keys",
+        "First investment property hesitation — entry 007: 'it could be an excuse'",
+        "Research mode — most early-stage warm entries"
+      ]
+    }
+  }
+}

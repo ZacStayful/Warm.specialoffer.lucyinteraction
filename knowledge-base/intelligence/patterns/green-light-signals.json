@@ -1,0 +1,74 @@
+{
+  "schema_version": "3.0",
+  "generated_at": "2026-06-14",
+  "total_entries": 60,
+  "signals": {
+    "GL-SELF": {
+      "label": "Self-motivated",
+      "count": 48,
+      "pct": 80,
+      "description": "Lead independently identified STL as the right move for their property. Done their own research. Has come to the meeting with intent.",
+      "typical_behaviours": [
+        "booked meeting proactively",
+        "done own income research",
+        "comparing multiple providers",
+        "knows the fee structure exists"
+      ],
+      "close_approach": "Validate their thinking, add specificity to their numbers, then close on process. Don't re-sell the STL concept — they already bought it. Sell Stayful over alternatives.",
+      "representative_entries": ["003", "004", "005", "006", "007", "008", "009", "010", "051", "063", "064"],
+      "note": "GL-SELF is the baseline signal. Most entries carry this. The close is about Stayful vs alternatives, not STL vs LTL."
+    },
+    "GL-MGMT": {
+      "label": "Management pain with current provider",
+      "count": 13,
+      "pct": 22,
+      "description": "Lead is currently being managed by an STL company and it's going wrong. Income underperformance, damage concealment, communication failures, pooled listings. Switching intent is high.",
+      "typical_behaviours": [
+        "names the current provider unprompted",
+        "describes specific failure incident",
+        "has looked at what peak income should be",
+        "expresses frustration not just dissatisfaction"
+      ],
+      "close_approach": "Acknowledge their specific pain point. Show exactly how Stayful handles that failure mode differently. Don't generalise. Don't criticise the provider by name — describe your process instead.",
+      "representative_entries": ["015", "036", "038", "039", "043", "045", "046", "047", "058", "060"],
+      "named_competitors_by_entry": {
+        "015": "Clifton Valley Lets",
+        "036": "Pass the Keys",
+        "039": "MyProperty Host",
+        "043": "Hello Guest",
+        "045": "MyProperty Host",
+        "046": "Residential Estates/Guests",
+        "047": "Residential Estates/Guests",
+        "058": "unspecified",
+        "060": "Nice Living"
+      },
+      "common_failures_cited": [
+        "income significantly below what was promised",
+        "damage not reported or reported too late to claim",
+        "pooled listing identity — photos used for whole building",
+        "WiFi/connectivity failures causing guest complaints",
+        "account manager left without handover",
+        "only 3 reviews in 5+ months of trading"
+      ]
+    },
+    "GL-TIME": {
+      "label": "External time pressure",
+      "count": 5,
+      "pct": 8,
+      "description": "External deadline creating real urgency: departure date, seasonal peak window, vacancy cost accumulating, or tax year consideration.",
+      "typical_behaviours": [
+        "mentions a specific date unprompted",
+        "references ongoing cost of vacancy",
+        "wants to start immediately",
+        "already knows income per week missed"
+      ],
+      "close_approach": "Quantify the cost of delay. Calculate income per week missed. Tie the 13% offer to the deadline to create dual urgency. Move fast on follow-up.",
+      "representative_entries": ["034", "039", "044", "059", "062"],
+      "example_applications": [
+        "Entry 059 Shahid: 6-bed vacant 6 months, £1,500/month ongoing costs — every week without STL income = £375 loss",
+        "Entry 062 Kuldip: October half-term Alton Towers proximity = £1,928 net that month — signing before August captures this",
+        "Entry 044 Gareth: Keys May 29, must be live mid-June to capture summer peak"
+      ]
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": "3.0",
+  "generated_at": "2026-06-14",
+  "questions": [
+    {
+      "id": "Q-001",
+      "question": "What is Stayful's management fee?",
+      "answer": "15% + VAT of gross revenue. After the 13% offer (where applied), it's 13% + VAT. The fee covers everything — listing management, pricing, guest communications, check-in coordination, linen management, cleaning coordination, and maintenance triage. There are no hidden fees, no onboarding charges.",
+      "topics": ["fees", "management"]
+    },
+    {
+      "id": "Q-002",
+      "question": "How much can I earn?",
+      "answer": "Income depends on property size, location, quality of listing, and seasonality. For reference: a 2-bed in Newcastle NE2 projects ~£1,940/month net. A 6-bed in Birmingham B36 projects ~£4,088/month. A 1-bed in Birmingham B12 projects ~£815/month net (£9,785/year). We always provide a property-specific projection based on Airbnb comps before you commit to anything.",
+      "topics": ["income", "projections"]
+    },
+    {
+      "id": "Q-003",
+      "question": "When do I get paid?",
+      "answer": "Payout is made on the 1st-5th of every month, every month, without exception. This is one of the non-negotiables Stayful has maintained since launch.",
+      "topics": ["payout", "income"]
+    },
+    {
+      "id": "Q-004",
+      "question": "What is the minimum contract term?",
+      "answer": "The initial term is 6 months from the date the management agreement is signed — not from the go-live date. After the initial 6 months, it's 3 months' rolling notice. You can exit any time after the initial term.",
+      "topics": ["contract", "exit", "terms"]
+    },
+    {
+      "id": "Q-005",
+      "question": "Can I still use my property?",
+      "answer": "Yes. You block dates on the calendar and guests cannot book those nights. You have full calendar visibility and can block in advance at any time. We typically ask for notice where possible so we can avoid short gaps, but there's no restriction on owner use.",
+      "topics": ["personal use", "calendar"]
+    },
+    {
+      "id": "Q-006",
+      "question": "What happens if there's damage?",
+      "answer": "We document the checkout photographically and report damage to you within 24 hours. We then initiate the insurance claim process — Airbnb AirCover or standalone STL insurance depending on your policy. This is the area where most STL managers fail: they either don't check or don't report in time for you to claim. Our systematic checkout process solves this.",
+      "topics": ["damage", "insurance", "operations"]
+    },
+    {
+      "id": "Q-007",
+      "question": "Do I need a specific mortgage type for STL?",
+      "answer": "You need to check your current mortgage terms. Most residential mortgages don't permit STL. You'll typically need either a buy-to-let mortgage with an STL clause, or a consent to let from your lender. This is your responsibility to resolve — we can advise on what questions to ask your lender. Some lenders have become more permissive on this recently.",
+      "topics": ["mortgage", "legal"]
+    },
+    {
+      "id": "Q-008",
+      "question": "What platforms do you list on?",
+      "answer": "Primarily Airbnb and Booking.com, with ~40% of our portfolio revenue coming from direct bookings (our own booking infrastructure). We don't use VRBO as a core channel. Our pricing algorithm adjusts rates in real-time across all platforms to maximise yield.",
+      "topics": ["platforms", "bookings"]
+    },
+    {
+      "id": "Q-009",
+      "question": "What areas do you cover?",
+      "answer": "Our core operational area is the Midlands (Leicester, Birmingham, Derby, Coventry) and Yorkshire (Leeds, York, Hull, Harrogate). We've expanded to manage properties in Bristol, London, Manchester, and the North East. Each new area goes through a local demand assessment — not all locations are viable for STL.",
+      "topics": ["geography", "areas"]
+    },
+    {
+      "id": "Q-010",
+      "question": "How long does it take to get my property live?",
+      "answer": "From signed agreement to live bookings is typically 2-3 weeks. This includes photography, listing creation, pricing setup, and compliance checks (gas safety, EPC, HMO if applicable). If the property needs furnishing, that's additional — typically 4-8 weeks for a full furnish project.",
+      "topics": ["onboarding", "timeline"]
+    },
+    {
+      "id": "Q-011",
+      "question": "What is the 13% offer?",
+      "answer": "Where Stayful has an active special offer, the management fee is reduced from 15% to 13% + VAT and locked in permanently — it doesn't revert after a promotional period. The offer is time-limited and applied to specific leads based on their situation. If you have an offer with an expiry date, signing before that date locks in the 13% rate for the life of the contract.",
+      "topics": ["offer", "fees"]
+    },
+    {
+      "id": "Q-012",
+      "question": "Who manages my property day-to-day?",
+      "answer": "You'll have a named property manager who is your direct contact on Slack. They handle guest communications, maintenance triage, cleaning coordination, and check-in management. You're not going through a call centre — it's a direct line.",
+      "topics": ["operations", "management"]
+    }
+  ]
+}

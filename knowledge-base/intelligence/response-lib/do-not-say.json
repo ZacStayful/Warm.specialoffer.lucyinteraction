@@ -1,0 +1,78 @@
+{
+  "schema_version": "3.0",
+  "generated_at": "2026-06-14",
+  "rules": [
+    {
+      "id": "DNS-001",
+      "phrase": "We can basically guarantee the income",
+      "why": "Stayful does not offer guaranteed rent. Making this claim creates false expectations and sets up a trust failure. See entry 036 (betrayal-damaged) for the consequence.",
+      "alternative": "We can show you what comparable properties earned in their worst month, which gives you a realistic floor to plan from."
+    },
+    {
+      "id": "DNS-002",
+      "phrase": "Income is always consistent / We never have quiet months",
+      "why": "STL income is seasonal. Claiming otherwise is demonstrably false and will destroy trust at first winter payout. Certainty-seekers in particular will hold this against you.",
+      "alternative": "January-March are quieter — here's what that actually looks like in numbers for your property type."
+    },
+    {
+      "id": "DNS-003",
+      "phrase": "[Competitor name] is rubbish / always underperforms / is a bad company",
+      "why": "Directly criticising named competitors is unprofessional and backfires. The lead chose that company originally — insulting it insults their judgment.",
+      "alternative": "I won't speak to how they run their business. What I can tell you is exactly how we handle [the specific thing that went wrong]."
+    },
+    {
+      "id": "DNS-004",
+      "phrase": "It's just 6 months, don't worry about it",
+      "why": "Minimising the contract term concern without explaining it creates distrust. The lead has a specific anxiety — dismissing it doesn't resolve it.",
+      "alternative": "The 6 months runs from signing, not from go-live. After that it's 3 months' rolling notice — full flexibility."
+    },
+    {
+      "id": "DNS-005",
+      "phrase": "STL is always better than LTL",
+      "why": "It's not always better for every property. 1-beds in low-demand markets, properties with recurring maintenance issues, or very low-margin R2R setups may not work. False universalism costs credibility.",
+      "alternative": "For your specific property, here's the comparison: [specific numbers]."
+    },
+    {
+      "id": "DNS-006",
+      "phrase": "You don't need to do anything at all",
+      "why": "Fully managed doesn't mean truly zero involvement. Owners still need to deal with compliance (gas certs, EPC), major maintenance decisions, and insurance. Overclaiming zero effort sets up disappointment.",
+      "alternative": "Our goal is to make your time involvement as close to zero as possible on the day-to-day. The things that will still need you: major maintenance sign-offs, insurance renewals, compliance certs."
+    },
+    {
+      "id": "DNS-007",
+      "phrase": "70 properties is actually a lot / We're growing very fast",
+      "why": "Defensiveness about portfolio size is unconvincing. Leads see through it. The size concern is really about accountability quality — address that directly.",
+      "alternative": "At our size, you get a named person managing your property, not a call centre. That's the trade-off vs a bigger company."
+    },
+    {
+      "id": "DNS-008",
+      "phrase": "Just take your time / Let me know when you decide",
+      "why": "Passive follow-up loses warm leads. After 2-3 weeks without engagement, leads go cold. 'Take your time' is the death of momentum.",
+      "alternative": "When do you think you'll have that conversation with [partner]? I'll follow up on [specific date] — just to make sure you have everything you need."
+    },
+    {
+      "id": "DNS-009",
+      "phrase": "We can definitely get you £X per month",
+      "why": "Income projections are projections, not guarantees. Using 'definitely' or 'will' instead of 'project' or 'expect' creates liability and trust damage when reality differs.",
+      "alternative": "Based on comparable properties in your area, we project £X per month in year one."
+    },
+    {
+      "id": "DNS-010",
+      "phrase": "[When lead has had damage from previous provider] Oh that shouldn't happen / That's unusual",
+      "why": "Minimising their experience makes them feel unheard and suggests you don't take damage seriously. Loss-averse-switchers need acknowledgment, not minimisation.",
+      "alternative": "That's exactly the kind of thing that should have been caught and reported within 24 hours. Here's how our checkout process works."
+    },
+    {
+      "id": "DNS-011",
+      "phrase": "R2R is difficult but...",
+      "why": "If R2R margin doesn't work, say it clearly. Hedging gives false hope and wastes everyone's time. See entries 024, 031, 035.",
+      "alternative": "For R2R to work, the rent needs to leave room for management fee, utilities, and profit. At £X rent on this property type, I want to run the numbers honestly before we go further."
+    },
+    {
+      "id": "DNS-012",
+      "phrase": "VRBO is not important",
+      "why": "Some leads specifically ask about VRBO (see entry 050 Helen Bias). Dismissing a platform they know invalidates their research. Explain why Airbnb and Booking.com are prioritised.",
+      "alternative": "We focus on Airbnb and Booking.com because that's where the volume and review infrastructure lives. VRBO has a smaller UK guest base — we monitor it but it's not a primary channel for UK properties."
+    }
+  ]
+}

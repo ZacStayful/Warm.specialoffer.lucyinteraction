@@ -1,0 +1,62 @@
+{
+  "schema_version": "3.0",
+  "generated_at": "2026-06-14",
+  "scripts": [
+    {
+      "id": "CLOSE-STL-SW",
+      "profile": "STL-SW",
+      "label": "STL Switch — standard close",
+      "use_when": "Lead is warm, numbers work, no major objection surfaced.",
+      "script": "So based on what we've covered — your property projects at £X net per month, compared to £Y on a long let. Even in your worst months you're looking at £Z, which is close to LTL anyway. The management fee is 15% — or 13% if we get the agreement signed before [date]. The next step is: I'll send you the management agreement and a property-specific action plan today. If you're happy with both, you just sign the agreement and we're off. Setup takes 2-3 weeks from there. Are there any questions about the process before I send those across?",
+      "notes": "Keep momentum. Don't re-open closed objections. Send the agreement the same day."
+    },
+    {
+      "id": "CLOSE-EX-STL",
+      "profile": "EX-STL",
+      "label": "EX-STL — trust-first close",
+      "use_when": "Lead has had a bad experience with another provider. Trust must come before close.",
+      "script": "What I'm hearing is that the income potential isn't in question — you know what the property can do. The question is whether you trust the management to deliver. So let me be direct: the specific thing that went wrong with [previous provider] — [describe their specific failure] — is something we handle differently. [Explain the specific difference.] The offer I want to put forward is this: 13% management fee, locked in, with a 6-month initial term where we're accountable to the performance standard we've discussed today. If we're not delivering by month 3, that's a conversation I want to have — not one you have to chase. Does that give you enough to move forward?",
+      "notes": "Name the specific failure. Don't be generic. Don't push income projections until trust is established."
+    },
+    {
+      "id": "CLOSE-ABROAD",
+      "profile": "ABROAD",
+      "label": "ABROAD — departure date close",
+      "use_when": "Lead is moving abroad or already overseas. Departure date creates natural urgency.",
+      "script": "The way I see it: you're leaving [date]. If we sign the management agreement this week, we can have the property live in [X] weeks — before you go, with setup complete and first bookings in the calendar. If we wait until after you leave, you've lost [Y] weeks of peak income and everything needs to happen remotely. The offer of 13% is available until [date] — if that's after your departure, it makes sense to get this done now while you're here to handle any setup questions directly. What's holding things back?",
+      "notes": "Calculate income per week of delay. Have the departure date in hand. The offer expiry and departure date should overlap."
+    },
+    {
+      "id": "CLOSE-PURCH",
+      "profile": "PURCH",
+      "label": "Purchase — pipeline close",
+      "use_when": "Lead doesn't own the property yet — awaiting completion or keys.",
+      "script": "The timing on this is actually ideal — signing the agreement now means everything is ready for when you get the keys. We can have photography booked, furnishing sourced, and listing drafted in advance. Your first live date could be within 3 weeks of key handover. The one thing to avoid is getting to keys and then starting the management conversation — that's when developer-appointed managers, family decisions, and cold feet tend to derail things. Lock in the plan now and the execution is seamless.",
+      "notes": "Address developer management risk proactively for off-plan leads. Speed to income is the message."
+    },
+    {
+      "id": "CLOSE-SELL",
+      "profile": "SELL",
+      "label": "SELL bridge — exit-friendly close",
+      "use_when": "Lead wants to sell and is using STL as income bridge while property is on market.",
+      "script": "The key thing here is the exit is clean. After the initial 6 months, it's 3 months' rolling notice — so if you accept an offer on the property, you give us 3 months' notice and we wrap up bookings within that window. We won't book beyond your notice period. In the meantime, you're earning £X per month instead of zero while you wait for the right buyer. This is exactly what a bridge strategy looks like — income while you wait, clean exit when you sell. Shall we get the agreement in motion?",
+      "notes": "Emphasise clean exit. Don't hide the contract terms — they're the fear. The 3-month notice period is actually good for SELL leads."
+    },
+    {
+      "id": "CLOSE-CERTAINTY",
+      "profile": "certainty-seeker emotional overlay",
+      "label": "Certainty-seeker overlay (add to any base script)",
+      "use_when": "Lead's primary concern is income stability. Add to any base close script.",
+      "script": "[Before the main close] I want to give you the worst-case number before I give you the best case, because I think that's what actually matters to you. In January — our quietest month — a property like yours would net approximately £X. That's after our fee. On a long let, you'd be getting £Y. So even in our worst month, STL still comes out ahead. Now, with that floor established, here's what the rest of the year looks like...",
+      "notes": "Always lead with the floor for certainty-seekers. Never start with peak projections."
+    },
+    {
+      "id": "CLOSE-OFFER-EXPIRY",
+      "profile": "all — offer expiry urgency",
+      "label": "Offer expiry close (where offer is in play)",
+      "use_when": "Lead has a live offer with an expiry date. Use when close is delayed.",
+      "script": "I want to flag that the 13% offer expires on [date] — that's [X days] away. After that, the standard rate is 15%. I'm not trying to rush you, but the difference on your property's income is [calculate: 2% of annual gross] per year, permanently. If you're leaning toward moving forward, getting the agreement signed before [date] makes the decision more valuable for you. What would it take to get there?",
+      "notes": "Calculate the annual saving. Concrete number is more powerful than percentage."
+    }
+  ]
+}
