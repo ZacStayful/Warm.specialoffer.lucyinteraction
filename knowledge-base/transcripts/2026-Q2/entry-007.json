@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "007",
+  "meeting_date": "2026-03-16",
+  "lead": {
+    "name": "Karan Kaushik",
+    "email": "karan2012kaushik@gmail.com",
+    "monday_id": "11484810594",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "DE1 3AZ",
+    "bedrooms": 5,
+    "address": "24c North Street, Derby"
+  },
+  "financial": {
+    "mortgage_monthly": 800,
+    "stl_net_annual": 24205,
+    "ltl_net_annual": 18000,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "e8a8c49d-84b7-411f-b0f4-c0fb04dc119d",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["Owner background", "Long let vs short let", "Stayful service model", "Operations", "Property setup"],
+    "objections": ["Setup effort + income instability vs £1,700 guaranteed LTL"],
+    "exact_language": ["first investment property", "it could be an excuse"],
+    "key_insight": "£2,017/mo vs £1,550 net + ltd company tax advantage. Setup cost and simpler path are the barriers."
+  },
+  "intelligence": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "certainty-seeker",
+    "delay_signals": ["DLY-FUR"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "warm",
+    "outcome_reason": ""
+  }
+}

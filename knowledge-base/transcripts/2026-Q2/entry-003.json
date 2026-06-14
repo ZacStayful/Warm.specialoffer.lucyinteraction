@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "003",
+  "meeting_date": "2026-04-27",
+  "lead": {
+    "name": "Brandon Schraeder",
+    "email": "elderredrasputin@yahoo.com",
+    "monday_id": "11831753795",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "YO31 7JS",
+    "bedrooms": 1,
+    "address": "4 St Maurices Court York"
+  },
+  "financial": {
+    "mortgage_monthly": 450,
+    "stl_net_annual": 31588,
+    "ltl_net_annual": 10390,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "6b9bb616-933a-4e14-89e4-feff08b51b41",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["Income Projections", "Property Details", "Fees", "Operations", "Calendar Access", "Mortgage"],
+    "objections": [],
+    "exact_language": [],
+    "key_insight": "Purchase for STL. Projections exceeded lead expectations; fully hands-off model."
+  },
+  "intelligence": {
+    "profile_type": "PURCH",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": ["DLY-PUR"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "warm",
+    "outcome_reason": ""
+  }
+}

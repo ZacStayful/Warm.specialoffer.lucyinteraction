@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "014",
+  "meeting_date": "2026-04-17",
+  "lead": {
+    "name": "Andrew McIntee",
+    "email": "amcintee@me.com",
+    "monday_id": "11708157973",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "HG2 8AW",
+    "bedrooms": 3,
+    "address": ""
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 26000,
+    "ltl_net_annual": 18000,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "27f21a7f-68b1-4e01-b3ca-9c30b0eddd4f",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["property background", "relocation timeline", "revenue analysis", "fees", "calendar access", "booking platforms"],
+    "objections": ["relocation timeline uncertainty"],
+    "exact_language": [],
+    "key_insight": "ABROAD Harrogate 3-bed. STL net £26k vs LTL £18k. Remote management needed."
+  },
+  "intelligence": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": ["DLY-MOV"],
+    "green_light_signals": ["GL-TIME"],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

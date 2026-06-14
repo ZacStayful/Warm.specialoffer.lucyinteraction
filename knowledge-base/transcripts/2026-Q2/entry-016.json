@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "016",
+  "meeting_date": "2026-03-25",
+  "lead": {
+    "name": "Ihsan ul-Haq Bashir",
+    "email": "ihsan.bashir@hotmail.co.uk",
+    "monday_id": "11578213915",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "EC4M 7BY",
+    "bedrooms": 2,
+    "address": "Almond Lodge, Warwick Lane, City of London"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 0,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "67e6d405-391e-4aff-8740-bec61e355150",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["income estimate", "regulatory concerns", "current tenancy", "portfolio context", "STL operations", "security"],
+    "objections": ["regulatory/licensing concerns", "past negative letting experiences"],
+    "exact_language": [],
+    "key_insight": "City of London 2-bed. Regulatory concerns addressed. Part of wider portfolio."
+  },
+  "intelligence": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "status-quo-resistant",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

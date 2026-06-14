@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "017",
+  "meeting_date": "2026-03-23",
+  "lead": {
+    "name": "Magdalena Towler",
+    "email": "magdalena.towler@gmail.com",
+    "monday_id": "11350407818",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "TQ1 4QS",
+    "bedrooms": 4,
+    "address": "Torquay"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 35000,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 13,
+    "offer_expiry": "2026-04-10"
+  },
+  "meeting": {
+    "granola_id": "47385609-0e57-4380-9c9a-776c64e63a4d",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["income projection", "management model", "key safes", "parking", "overseas ownership"],
+    "objections": ["remote management as overseas owner"],
+    "exact_language": [],
+    "key_insight": "ABROAD Turkey-based owner. 4-bed Torquay no mortgage. 13% offer. Fully managed service essential."
+  },
+  "intelligence": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": ["DLY-MOV"],
+    "green_light_signals": ["GL-SELF", "GL-TIME"],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

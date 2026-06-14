@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "010",
+  "meeting_date": "2026-03-09",
+  "lead": {
+    "name": "Gareth Moses",
+    "email": "gareth.moses97@gmail.com",
+    "monday_id": "11434803394",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "DL16",
+    "bedrooms": 3,
+    "address": "Spennymoor, County Durham"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 0,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "ec8b7133-8f60-44d6-b8d3-f918b96e31ee",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": [],
+    "objections": [],
+    "exact_language": [],
+    "key_insight": "Large extended 3-bed Spennymoor County Durham. STL Switch. Warm."
+  },
+  "intelligence": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "warm",
+    "outcome_reason": ""
+  }
+}

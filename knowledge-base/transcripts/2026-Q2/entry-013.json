@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "013",
+  "meeting_date": "2026-04-20",
+  "lead": {
+    "name": "Sarah Stephens",
+    "email": "sarahxxstephens1210@gmail.com",
+    "monday_id": "11702343600",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "SG19 2AX",
+    "bedrooms": 3,
+    "address": "Sandy, Bedfordshire"
+  },
+  "financial": {
+    "mortgage_monthly": 1300,
+    "stl_net_annual": 24838,
+    "ltl_net_annual": 18000,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "a4108f14-4a04-4dbe-9f70-691f78029bb9",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["sale timeline", "revenue projection", "setup cost", "contract"],
+    "objections": ["two failed sales", "property condition under LTL"],
+    "exact_language": [],
+    "key_insight": "SELL bridge strategy. Renovated 3-bed Sandy SG19. 2 failed sales. STL as income while waiting for right buyer."
+  },
+  "intelligence": {
+    "profile_type": "SELL",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

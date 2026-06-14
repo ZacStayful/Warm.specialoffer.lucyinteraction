@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "023",
+  "meeting_date": "2026-04-09",
+  "lead": {
+    "name": "Will Hargreaves",
+    "email": "willhargreaves499@yahoo.co.uk",
+    "monday_id": "11629133110",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "NG7 1AY",
+    "bedrooms": 2,
+    "address": "Nottingham"
+  },
+  "financial": {
+    "mortgage_monthly": 550,
+    "stl_net_annual": 0,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "f5a8574b-bfa8-4e2e-8992-477850634d18",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["property background", "income history", "issues with current manager", "STL vs sale timeline", "Stayful service model"],
+    "objections": ["short sale timeline makes switching management companies unattractive"],
+    "exact_language": [],
+    "key_insight": "SELL+EX-STL. Already on Airbnb with other manager. Short sale timeline = no point switching."
+  },
+  "intelligence": {
+    "profile_type": "SELL",
+    "emotional_profile": "status-quo-resistant",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "lost",
+    "outcome_reason": "short_sale_timeline_switch_unattractive"
+  }
+}

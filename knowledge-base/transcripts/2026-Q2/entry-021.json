@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "021",
+  "meeting_date": "2026-04-20",
+  "lead": {
+    "name": "Alan Forsyth",
+    "email": "alan@hockleydevelopments.com",
+    "monday_id": "11766235187",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "NG5 4AA",
+    "bedrooms": 1,
+    "address": ""
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 12000,
+    "ltl_net_annual": 9600,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "d3d397a8-e852-4b33-8e83-04bced05b655",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["portfolio analysis", "STL vs LTL per unit", "developer economics"],
+    "objections": ["1-bed Nottingham STL margins barely exceed LTL after utilities"],
+    "exact_language": ["30% higher income", "justify the extra complexity", "six or seven long-term a few short-term"],
+    "key_insight": "Extended intelligence: Developer portfolio 14 units. Margin constraint is structural for 1-bed Nottingham STL."
+  },
+  "intelligence": {
+    "profile_type": "PURCH",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "warm",
+    "outcome_reason": ""
+  }
+}

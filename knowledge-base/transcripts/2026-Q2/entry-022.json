@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "022",
+  "meeting_date": "2026-04-13",
+  "lead": {
+    "name": "Ada Madu",
+    "email": "info@placerental.co.uk",
+    "monday_id": "11684337667",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "NE5 3BR",
+    "bedrooms": 4,
+    "address": "Newcastle"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 0,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "f3466593-51a3-44c4-a0fb-0f1d9fd609c2",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["R2R deal viability", "income analysis", "management terms", "signing deadline"],
+    "objections": ["signing deadline 24 April passed"],
+    "exact_language": [],
+    "key_insight": "Good R2R deal (£14k/yr profit) abandoned. Signing deadline + R2R complexity = common abandonment even when deal is viable."
+  },
+  "intelligence": {
+    "profile_type": "R2R",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "lost",
+    "outcome_reason": "signing_deadline_passed"
+  }
+}

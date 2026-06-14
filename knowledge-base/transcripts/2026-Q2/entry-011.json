@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "011",
+  "meeting_date": "2026-04-27",
+  "lead": {
+    "name": "Laura Duncker",
+    "email": "lauraduncker@hotmail.com",
+    "monday_id": "11854617634",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "DE4",
+    "bedrooms": 4,
+    "address": "Matlock, Derbyshire"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 38233,
+    "ltl_net_annual": 18857,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "2d87f424-bdf2-4d4b-afb5-e58edd3ad350",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["property sale", "relocation plans", "revenue projection", "management scope", "fees", "listing quality", "contract terms"],
+    "objections": ["sale timeline compatibility"],
+    "exact_language": [],
+    "key_insight": "STL Switch Matlock 4-bed. Also on market. STL net £38,233 vs LTL £18,857."
+  },
+  "intelligence": {
+    "profile_type": "SELL",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

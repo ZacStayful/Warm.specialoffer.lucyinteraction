@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "012",
+  "meeting_date": "2026-04-24",
+  "lead": {
+    "name": "Mike Ralston",
+    "email": "mike@ralston.tv",
+    "monday_id": "11766125431",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "BS21 7AP",
+    "bedrooms": 7,
+    "address": "North Somerset"
+  },
+  "financial": {
+    "mortgage_monthly": 2970,
+    "stl_net_annual": 29700,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "f1851dd2-9c19-4328-b793-5252b0d0a09f",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["income estimate", "refurb cost", "LTL comparison", "management model"],
+    "objections": ["£25-30k refurb needed", "property on market 5 years", "LTL was £6k/mo - very high bar"],
+    "exact_language": [],
+    "key_insight": "7-bed country property on market 5 years. STL bridge while listing. Large refurb needed. Previous LTL income was very high benchmark."
+  },
+  "intelligence": {
+    "profile_type": "SELL",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": ["DLY-FUR"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

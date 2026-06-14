@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "020",
+  "meeting_date": "2026-04-20",
+  "lead": {
+    "name": "Alan Forsyth",
+    "email": "alan@hockleydevelopments.com",
+    "monday_id": "11766235187",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "NG5 4AA",
+    "bedrooms": 1,
+    "address": ""
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 12000,
+    "ltl_net_annual": 9600,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "d3d397a8-e852-4b33-8e83-04bced05b655",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["property overview", "short-let revenue estimate", "cost assumptions", "STL vs LTL comparison", "mixed letting strategy"],
+    "objections": ["thin margin for developer - needs >30% uplift"],
+    "exact_language": ["30% higher income", "justify the extra complexity"],
+    "key_insight": "Developer 14 x 1-bed Nottingham. STL margin too thin without >30% uplift. Mixed letting strategy preferred."
+  },
+  "intelligence": {
+    "profile_type": "PURCH",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "warm",
+    "outcome_reason": ""
+  }
+}

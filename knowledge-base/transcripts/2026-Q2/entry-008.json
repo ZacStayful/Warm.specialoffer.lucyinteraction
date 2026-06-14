@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "008",
+  "meeting_date": "2026-03-16",
+  "lead": {
+    "name": "Haider Ibrahim",
+    "email": "hhi1990@hotmail.com",
+    "monday_id": "11499573311",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "B73 6TY",
+    "bedrooms": 3,
+    "address": "59 Banners Gate Road, Birmingham"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 0,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "73b5161a-e60e-4f8f-8e2d-eeebc533d61d",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["income analysis", "management model", "property setup"],
+    "objections": [],
+    "exact_language": [],
+    "key_insight": "STL Switch Birmingham 3-bed Sutton Coldfield. Warm lead."
+  },
+  "intelligence": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "warm",
+    "outcome_reason": ""
+  }
+}

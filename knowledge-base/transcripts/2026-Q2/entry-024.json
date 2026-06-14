@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "024",
+  "meeting_date": "2026-04-09",
+  "lead": {
+    "name": "Rasheed Ajani",
+    "email": "abdulmumin201719@gmail.com",
+    "monday_id": "11674996852",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "S26 4QA",
+    "bedrooms": 2,
+    "address": "Sheffield"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 0,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "2b67053a-d488-482a-a5e7-b1ff0d7bbd03",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["R2R financial viability", "rent negotiation", "STL projections"],
+    "objections": ["rent £1,000/month near zero margin at STL rates"],
+    "exact_language": [],
+    "key_insight": "R2R Sheffield. £1,000 rent too high. Needs £800. 20% landlord rent reduction very difficult. R2R viability gate: rent level > geography."
+  },
+  "intelligence": {
+    "profile_type": "R2R",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-SELF"],
+    "outcome": "lost",
+    "outcome_reason": "r2r_rent_too_high"
+  }
+}

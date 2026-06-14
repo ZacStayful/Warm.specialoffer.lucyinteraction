@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "015",
+  "meeting_date": "2026-04-09",
+  "lead": {
+    "name": "Karl Manning",
+    "email": "manningkarl@hotmail.com",
+    "monday_id": "11672459959",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "BS14 9HB",
+    "bedrooms": 6,
+    "address": "18 Kinsale Road, Bristol"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 0,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "d3fb16d1-ac5a-4ddf-92bc-8b0841e8e850",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": ["current performance", "issues with Clifton Valley Lets", "income estimate", "reviews importance", "Stayful services"],
+    "objections": ["credibility concern about new manager", "reviews momentum worry"],
+    "exact_language": [],
+    "key_insight": "EX-STL Bristol 6-bed. Unhappy with Clifton Valley Lets. Loss-averse switcher."
+  },
+  "intelligence": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "loss-averse-switcher",
+    "delay_signals": ["DLY-OTH"],
+    "green_light_signals": ["GL-MGMT"],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}
