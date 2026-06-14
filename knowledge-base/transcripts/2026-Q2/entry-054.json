@@ -1,0 +1,56 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "054",
+  "meeting_date": "2026-06-03",
+  "lead": {
+    "name": "Laura Shaw",
+    "email": "lauraemilyshaw@hotmail.com",
+    "monday_id": "12139798139",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "DN9 1JZ",
+    "bedrooms": 2,
+    "address": ""
+  },
+  "financial": {
+    "mortgage_monthly": 600,
+    "stl_net_annual": 0,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 1742,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 13,
+    "offer_expiry": "2026-06-30"
+  },
+  "meeting": {
+    "granola_id": "37a81716-c49d-4156-9981-e5ceea93bbe5",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": [],
+    "objections": [
+      "how do I manage property when I'm in Indonesia?",
+      "recurring shower/water tank issues",
+      "there's a tenant interested in the property"
+    ],
+    "exact_language": [
+      "managing the property remotely",
+      "the shower pump's been replaced six times in four years",
+      "there's someone interested in renting it",
+      "I'm only here for about a month",
+      "I want to understand the costs properly"
+    ],
+    "key_insight": "Time-pressured ABROAD profile - returns to Indonesia June 30. Competing LTL offer is live risk. Recurring shower must be resolved pre-listing. Even Sept (lowest: ~£800) > LTL (£644)."
+  },
+  "intelligence": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": [
+      "DLY-MOV"
+    ],
+    "green_light_signals": [
+      "GL-SELF"
+    ],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

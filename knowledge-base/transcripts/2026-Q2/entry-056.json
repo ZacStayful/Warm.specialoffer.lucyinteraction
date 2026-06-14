@@ -1,0 +1,56 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "056",
+  "meeting_date": "2026-06-05",
+  "lead": {
+    "name": "Afnan Hassan",
+    "email": "afnan.emad@yahoo.com",
+    "monday_id": "12146949014",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "HU5 5XW",
+    "bedrooms": 2,
+    "address": ""
+  },
+  "financial": {
+    "mortgage_monthly": 475,
+    "stl_net_annual": 0,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 1400,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 13,
+    "offer_expiry": "2026-06-15"
+  },
+  "meeting": {
+    "granola_id": "da96e7b8-314b-41d6-91b8-d51df5e10115",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": [],
+    "objections": [
+      "hands-off management while splitting time between UK and Qatar",
+      "income consistency in winter",
+      "cost structure transparency",
+      "guest type and damage protection"
+    ],
+    "exact_language": [
+      "completely hands-off",
+      "between the UK and Qatar",
+      "want to decide by end of today",
+      "one more company meeting"
+    ],
+    "key_insight": "Hull property, already renovated and furnished. Short-let nets £859/month more than LTL which doesn't even cover mortgage (£475). Decision expected same-day 5 June. NB: presentation showed wrong demand drivers (West Midlands instead of Hull) - corrected in action plan."
+  },
+  "intelligence": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "certainty-seeker",
+    "delay_signals": [
+      "DLY-OTH"
+    ],
+    "green_light_signals": [
+      "GL-SELF"
+    ],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

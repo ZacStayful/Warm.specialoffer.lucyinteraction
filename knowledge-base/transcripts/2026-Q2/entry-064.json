@@ -1,0 +1,56 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "064",
+  "meeting_date": "2026-06-12",
+  "lead": {
+    "name": "Abby Thomas",
+    "email": "abbythomas_96@hotmail.com",
+    "monday_id": "12245819243",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "YO24 2HU",
+    "bedrooms": 2,
+    "address": "19 Turnmire Road, Dringhouses, York"
+  },
+  "financial": {
+    "mortgage_monthly": 600,
+    "stl_net_annual": 0,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 2115,
+    "adr": 209,
+    "occupancy_pct": 68,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "185df00f-5616-4a55-8f3c-648f1a998bd5",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": [],
+    "objections": [
+      "minimum contract is 9 months not 7.5 (misunderstanding - needs correction)",
+      "competition in York is high",
+      "cost transparency",
+      "damage/theft concern"
+    ],
+    "exact_language": [
+      "~£2k/month would cover travel costs and ongoing bills; revenue is a bonus",
+      "I've really liked the additional information you guys have provided",
+      "we are limited to 7-7.5 months rental",
+      "I interpret your minimum management duration as 9 months"
+    ],
+    "key_insight": "ABROAD profile moving abroad Sep 21 - Apr 27. York = one of UK's best STL markets. Key misunderstanding: 6-month initial term from agreement date not go-live. If signed June, initial term ends Dec, exits Apr = perfect match. York Christmas market = strong start."
+  },
+  "intelligence": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": [
+      "DLY-MOV"
+    ],
+    "green_light_signals": [
+      "GL-SELF"
+    ],
+    "outcome": "warm",
+    "outcome_reason": ""
+  }
+}

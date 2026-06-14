@@ -1,0 +1,58 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "050",
+  "meeting_date": "2026-05-27",
+  "lead": {
+    "name": "Helen Bias",
+    "email": "hmb_mubs@hotmail.com",
+    "monday_id": "12090939515",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "ST10",
+    "bedrooms": 6,
+    "address": "The George Inn, Leek Rd, Waterhouses, Staffordshire"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 90000,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 952,
+    "occupancy_pct": 0,
+    "offer_pct": 13,
+    "offer_expiry": "2026-06-14"
+  },
+  "meeting": {
+    "granola_id": "08eae3a7-791e-4e58-8052-f5ef944b69f3",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": [],
+    "objections": [
+      "managing the property remotely",
+      "want to understand the costs more",
+      "want more control over pricing",
+      "not being kept informed",
+      "why no VRBO?"
+    ],
+    "exact_language": [
+      "managing the property remotely",
+      "I want to understand the costs more",
+      "not being kept informed",
+      "the fee structure",
+      "I need to decide before I go back"
+    ],
+    "key_insight": "6-bed large group property - first of this type in Stayful pipeline. Sister has Cornwall properties = pipeline. June 1 closing call is the window before she returns to US."
+  },
+  "intelligence": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": [
+      "DLY-OTH"
+    ],
+    "green_light_signals": [
+      "GL-SELF"
+    ],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

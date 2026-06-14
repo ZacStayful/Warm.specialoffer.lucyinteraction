@@ -1,0 +1,56 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "061",
+  "meeting_date": "2026-06-11",
+  "lead": {
+    "name": "Natalia Pozo Recio",
+    "email": "natalia@mozpoz.com",
+    "monday_id": "12240322186",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "BN6 8RX",
+    "bedrooms": 4,
+    "address": ""
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 37647,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 3137,
+    "adr": 355,
+    "occupancy_pct": 56,
+    "offer_pct": 13,
+    "offer_expiry": "2026-06-25"
+  },
+  "meeting": {
+    "granola_id": "",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": [],
+    "objections": [
+      "revenue roughly as expected - not dramatically higher",
+      "oil heating - EPCR compliance concern",
+      "no Slack experience"
+    ],
+    "exact_language": [
+      "roughly what I expected",
+      "bad tenants",
+      "Section 21 changes",
+      "potential sale",
+      "business WhatsApp (Slack)"
+    ],
+    "key_insight": "4-bed Sussex bungalow, fully furnished, freshly renovated, adjacent to owner's home. Motivated by Section 21 changes + bad tenants + sale optionality. Income = confirmation not surprise. Pitch: flexibility and control."
+  },
+  "intelligence": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": [
+      "DLY-OTH"
+    ],
+    "green_light_signals": [
+      "GL-SELF"
+    ],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

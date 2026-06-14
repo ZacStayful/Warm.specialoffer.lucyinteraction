@@ -1,0 +1,53 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "058",
+  "meeting_date": "2026-06-09",
+  "lead": {
+    "name": "Martyn De Vere",
+    "email": "hod@gmx.com",
+    "monday_id": "11554710025",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "BS3 1AE",
+    "bedrooms": 2,
+    "address": "17 Murray Street, Bedminster, Bristol"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 24956,
+    "ltl_net_annual": 14278,
+    "stl_net_monthly": 2080,
+    "adr": 194,
+    "occupancy_pct": 67,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": [],
+    "objections": [
+      "previous agency didn't tell me until it was too late to claim damage",
+      "party damage risk - university area",
+      "Stayful's age/size (~70 properties)"
+    ],
+    "exact_language": [
+      "too late",
+      "relatively new company"
+    ],
+    "key_insight": "EX-STL with damage trauma at core. Daughter lived there during uni - now vacant. Also on Rightmove weighing sell vs STL. Decision gate: management competence and damage communication standards."
+  },
+  "intelligence": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "loss-averse-switcher",
+    "delay_signals": [
+      "DLY-OTH"
+    ],
+    "green_light_signals": [
+      "GL-MGMT"
+    ],
+    "outcome": "warm",
+    "outcome_reason": ""
+  }
+}

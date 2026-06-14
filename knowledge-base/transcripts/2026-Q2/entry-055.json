@@ -1,0 +1,58 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "055",
+  "meeting_date": "2026-06-03",
+  "lead": {
+    "name": "Rona Woodward",
+    "email": "sandrwoodward@btinternet.com",
+    "monday_id": "11892030490",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "PR4 2BF",
+    "bedrooms": 4,
+    "address": ""
+  },
+  "financial": {
+    "mortgage_monthly": 584,
+    "stl_net_annual": 29497,
+    "ltl_net_annual": 13764,
+    "stl_net_monthly": 0,
+    "adr": 274,
+    "occupancy_pct": 56,
+    "offer_pct": 13,
+    "offer_expiry": "2026-06-30"
+  },
+  "meeting": {
+    "granola_id": "53d68223-d6e6-49ea-960b-ed78ae67f289",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": [],
+    "objections": [
+      "quiet months could challenge profitability vs £2,500 LTL",
+      "unfurnished - setup cost is key consideration",
+      "reviewing with other service providers"
+    ],
+    "exact_language": [
+      "quiet months could challenge profitability",
+      "long-term rental equivalent",
+      "Steven is completing the new flooring",
+      "we live 12 minutes away",
+      "pet-friendly potential",
+      "Ribby Hall creates overflow demand",
+      "decision before June 30th"
+    ],
+    "key_insight": "Certainty-seeker. Key: even worst month (£1,526) beats properly-costed LTL net. Ribby Hall proximity + 6+ parking spaces are USPs. Two-person decision with Steven (builder doing flooring)."
+  },
+  "intelligence": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "certainty-seeker",
+    "delay_signals": [
+      "DLY-OTH"
+    ],
+    "green_light_signals": [
+      "GL-SELF"
+    ],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

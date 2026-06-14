@@ -1,0 +1,51 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "053",
+  "meeting_date": "2026-06-02",
+  "lead": {
+    "name": "Chun",
+    "email": "artboatproperty@gmail.com",
+    "monday_id": "12023582722",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "NE2 1NQ",
+    "bedrooms": 2,
+    "address": ""
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 0,
+    "ltl_net_annual": 11092,
+    "stl_net_monthly": 1940,
+    "adr": 167,
+    "occupancy_pct": 72,
+    "offer_pct": 13,
+    "offer_expiry": "2026-06-23"
+  },
+  "meeting": {
+    "granola_id": "785576bf-b0fd-488b-9fa3-f5444707a13a",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": [],
+    "objections": [
+      "wants to research upgrade costs before deciding"
+    ],
+    "exact_language": [
+      "wants to research upgrade costs before deciding",
+      "400/month utilities budget"
+    ],
+    "key_insight": "Frictionless profile: no mortgage, vacant, furnished. NE2 is extremely strong Stayful market. Primary gate: upgrade cost research. Checklist delivery accelerates decision."
+  },
+  "intelligence": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "urgency-driven",
+    "delay_signals": [
+      "DLY-OTH"
+    ],
+    "green_light_signals": [
+      "GL-SELF"
+    ],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

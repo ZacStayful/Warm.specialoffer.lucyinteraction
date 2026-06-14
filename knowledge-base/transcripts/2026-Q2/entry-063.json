@@ -1,0 +1,56 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "063",
+  "meeting_date": "2026-06-12",
+  "lead": {
+    "name": "Vishal Beeharry",
+    "email": "vishalbeeharry001@gmail.com",
+    "monday_id": "12215503255",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "CV34",
+    "bedrooms": 2,
+    "address": "39 Hill Street, Warwick CV34 5NX"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 0,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 0,
+    "occupancy_pct": 0,
+    "offer_pct": 0,
+    "offer_expiry": ""
+  },
+  "meeting": {
+    "granola_id": "",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": [],
+    "objections": [
+      "figures from deal sources felt unverified",
+      "licensing/planning concern (resolved)",
+      "third-room conversion viability",
+      "one bathroom for 3 bedrooms"
+    ],
+    "exact_language": [
+      "figures from deal sources felt unverified",
+      "decision expected within the week",
+      "ruled out London Cambridge and Cardiff",
+      "targeting contractors primarily HS2/M4 Junction 15"
+    ],
+    "key_insight": "Touchstone Education R2R lead. First-time investor. Tight margins (£399/month after rent and bills). Needs furnishing quote. Decision expected within the week. Follow-up: June 17."
+  },
+  "intelligence": {
+    "profile_type": "R2R",
+    "emotional_profile": "analytical-evaluator",
+    "delay_signals": [
+      "DLY-OTH"
+    ],
+    "green_light_signals": [
+      "GL-SELF"
+    ],
+    "outcome": "warm",
+    "outcome_reason": ""
+  }
+}

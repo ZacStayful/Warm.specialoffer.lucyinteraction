@@ -1,0 +1,57 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "059",
+  "meeting_date": "2026-06-09",
+  "lead": {
+    "name": "Shahid Mahmood",
+    "email": "sm07@hotmail.co.uk",
+    "monday_id": "12213945950",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "B36 8ED",
+    "bedrooms": 6,
+    "address": ""
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 49060,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 4088,
+    "adr": 379,
+    "occupancy_pct": 68,
+    "offer_pct": 13,
+    "offer_expiry": "2026-06-23"
+  },
+  "meeting": {
+    "granola_id": "bc72712a-cb04-412a-abe8-d060ab79699b",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": [],
+    "objections": [
+      "wants certain areas locked (office/conservatory)",
+      "wants weekly inspections",
+      "gas and electrical certs not in place",
+      "conservatory leak needs addressing"
+    ],
+    "exact_language": [
+      "the family moved out 6 months ago",
+      "I need income ASAP",
+      "I don't want to sell or do a traditional rental",
+      "certain areas will remain locked",
+      "I'd like weekly property inspections"
+    ],
+    "key_insight": "6-bed Birmingham, vacant 6 months, £1,500/month ongoing costs. High urgency. Fully furnished. Straightforward conversion - risk is procedural delay not decision reluctance."
+  },
+  "intelligence": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "urgency-driven",
+    "delay_signals": [
+      "DLY-OTH"
+    ],
+    "green_light_signals": [
+      "GL-TIME"
+    ],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

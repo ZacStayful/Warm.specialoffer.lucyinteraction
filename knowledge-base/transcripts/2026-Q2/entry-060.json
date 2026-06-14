@@ -1,0 +1,53 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "060",
+  "meeting_date": "2026-06-11",
+  "lead": {
+    "name": "Prakash Shanthenu",
+    "email": "prakash.shanthenu@gmail.com",
+    "monday_id": "12211182490",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "CV6 3FZ",
+    "bedrooms": 4,
+    "address": "52 Sandy Lane, CV6 3FZ, Coventry"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 25200,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 250,
+    "occupancy_pct": 54,
+    "offer_pct": 13,
+    "offer_expiry": "2026-06-25"
+  },
+  "meeting": {
+    "granola_id": "",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": [],
+    "objections": [
+      "mild - decorating/touch-up costs (90-95% ready)"
+    ],
+    "exact_language": [
+      "they're winding down — facing the double council tax penalty",
+      "I'd want to start with 2 and see how it goes",
+      "properties are 90-95% ready",
+      "I'll send you the listing links"
+    ],
+    "key_insight": "Portfolio of 6 STL properties in Coventry. Current manager (Nice Living) winding down due to council tax penalty. Start with 2, migrate rest based on performance. Portfolio relationship opportunity."
+  },
+  "intelligence": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "loss-averse-switcher",
+    "delay_signals": [
+      "DLY-OTH"
+    ],
+    "green_light_signals": [
+      "GL-MGMT"
+    ],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

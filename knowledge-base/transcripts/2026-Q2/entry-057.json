@@ -1,0 +1,55 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "057",
+  "meeting_date": "2026-06-08",
+  "lead": {
+    "name": "Harnaik Grewal",
+    "email": "harnaikg13@gmail.com",
+    "monday_id": "12182149382",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "B12 9BB",
+    "bedrooms": 1,
+    "address": ""
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 9785,
+    "ltl_net_annual": 6875,
+    "stl_net_monthly": 0,
+    "adr": 153,
+    "occupancy_pct": 65,
+    "offer_pct": 13,
+    "offer_expiry": "2026-06-22"
+  },
+  "meeting": {
+    "granola_id": "0f34dae4-5ced-480e-8800-662fc7350142",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": [],
+    "objections": [
+      "income consistency",
+      "cost structure understanding",
+      "wrong type of guests",
+      "remortgage from residential to BTL pending (Oct 2026)"
+    ],
+    "exact_language": [
+      "income consistency",
+      "I want to understand the costs more",
+      "wrong type of guests"
+    ],
+    "key_insight": "Remortgaging residential to BTL (completes Oct). Top-floor Birmingham flat with concierge and parking - premium USPs. Early start July/Aug would capture shoulder season and build reviews before Sep uni intake."
+  },
+  "intelligence": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "certainty-seeker",
+    "delay_signals": [
+      "DLY-OTH"
+    ],
+    "green_light_signals": [
+      "GL-SELF"
+    ],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}

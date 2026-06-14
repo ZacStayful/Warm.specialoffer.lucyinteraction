@@ -1,0 +1,52 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "062",
+  "meeting_date": "2026-06-11",
+  "lead": {
+    "name": "Kuldip Sanghera",
+    "email": "Kul_nisa@hotmail.co.uk",
+    "monday_id": "12204858250",
+    "phone": ""
+  },
+  "property": {
+    "postcode": "ST1",
+    "bedrooms": 2,
+    "address": "41 Balfour Street, Hanley, Stoke-on-Trent"
+  },
+  "financial": {
+    "mortgage_monthly": 0,
+    "stl_net_annual": 19735,
+    "ltl_net_annual": 0,
+    "stl_net_monthly": 0,
+    "adr": 159,
+    "occupancy_pct": 65,
+    "offer_pct": 13,
+    "offer_expiry": "2026-07-01"
+  },
+  "meeting": {
+    "granola_id": "",
+    "transcript_source": "drive_intelligence_summary",
+    "topics": [],
+    "objections": [
+      "income consistency (verbatim primary concern)",
+      "cost transparency"
+    ],
+    "exact_language": [
+      "income consistency",
+      "I want to understand the costs more"
+    ],
+    "key_insight": "Expansion-minded lead. First property = gateway to portfolio. October Alton Towers half term (£1,928 net) is urgency anchor. Portfolio fee progression 15%>13%>12%."
+  },
+  "intelligence": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "certainty-seeker",
+    "delay_signals": [
+      "DLY-OTH"
+    ],
+    "green_light_signals": [
+      "GL-TIME"
+    ],
+    "outcome": "special_offer_applied",
+    "outcome_reason": ""
+  }
+}
