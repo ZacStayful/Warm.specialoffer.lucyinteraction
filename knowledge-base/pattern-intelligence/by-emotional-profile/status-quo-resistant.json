@@ -1,0 +1,55 @@
+{
+  "schema_version": "3.0",
+  "archetype_id": "status-quo-resistant",
+  "archetype_label": "Status Quo Resistant",
+  "description": "Happy enough with current arrangement. STR must overcome the inertia of doing nothing. Often exploring out of curiosity rather than genuine intent to change. Highest loss rate of all archetypes. Low conversion without a specific trigger event.",
+  "lead_entries": ["009", "010", "020", "023", "029", "030"],
+  "lead_count": 6,
+  "leads_converted": 0,
+  "leads_active": 2,
+  "leads_lost": 4,
+  "conversion_rate_pct": 0,
+  "avg_conversion_likelihood": 28,
+  "top_fears": [
+    "disrupting a working arrangement",
+    "STR being more hassle than it is worth",
+    "losing their current stable income",
+    "regretting making a change that cannot be undone"
+  ],
+  "top_questions": [
+    "Why should I change from what I am doing now?",
+    "Is it really worth the hassle?",
+    "What if it does not work out?",
+    "Can I go back to LTL if needed?"
+  ],
+  "what_resonates": [
+    "concrete income gap — STR net materially higher than LTL",
+    "framing as fully managed (no extra work for owner)",
+    "exit clause — not permanent",
+    "specific comparable property examples in their area"
+  ],
+  "what_to_avoid": [
+    "generic claims about STR being better",
+    "ignoring their satisfaction with status quo",
+    "high pressure close",
+    "making the change sound complicated"
+  ],
+  "ideal_response_pattern": "Acknowledge that their current arrangement is fine then quantify exactly what they are leaving on the table then make the change sound zero-effort then give them a no-risk exit",
+  "closing_approach": "Low-pressure. Leave them with one clear number: how much more they could earn. Let them come back when the trigger hits. Do not chase aggressively.",
+  "typical_blockers": [
+    "genuinely content with LTL",
+    "does not want the uncertainty of STR",
+    "exploring but not committed to change"
+  ],
+  "follow_up_strategy": "Quarterly check-in. When LTL tenant gives notice, that is the trigger moment. Flag them for re-engagement at that point.",
+  "lost_leads": [
+    {"entry": "020", "name": "Boglarka", "lost_reason": "Decided to sell property instead of STR."},
+    {"entry": "023", "name": "Oliver", "lost_reason": "Happy with LTL, not motivated enough to change."},
+    {"entry": "029", "name": "Gary", "lost_reason": "Preferred to stay self-managing LTL."},
+    {"entry": "030", "name": "Shoaib", "lost_reason": "Went with competitor or stayed with status quo."}
+  ],
+  "notable_leads": [
+    {"entry": "009", "name": "Linda", "outcome": "NURTURE", "note": "Has existing tenant. Will reconsider when tenant exits."},
+    {"entry": "010", "name": "Gareth M", "outcome": "NURTURE", "note": "Exploring options but not ready to commit."}
+  ]
+}

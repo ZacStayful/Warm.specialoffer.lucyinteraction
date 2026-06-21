@@ -1,0 +1,61 @@
+{
+  "schema_version": "3.0",
+  "archetype_id": "certainty-seeker",
+  "archetype_label": "Certainty Seeker",
+  "description": "Needs proof, guarantees, and predictability before committing. Asks detailed what-if questions. May go silent after positive meeting while seeking internal certainty.",
+  "lead_entries": ["001", "004", "005", "008", "013", "031", "053", "055", "057", "062", "064"],
+  "lead_count": 11,
+  "leads_converted": 0,
+  "leads_active": 9,
+  "leads_lost": 2,
+  "conversion_rate_pct": 0,
+  "avg_conversion_likelihood": 52,
+  "top_fears": [
+    "property gets damaged and I am left out of pocket",
+    "income is not reliable month to month",
+    "management company disappears or underperforms",
+    "losing control over my own property",
+    "not being able to access property when I need it"
+  ],
+  "top_questions": [
+    "What happens if a guest damages the property?",
+    "What is your average occupancy rate?",
+    "Can I block out dates for personal use?",
+    "How quickly do you respond to maintenance issues?",
+    "What happens if you cannot fill my calendar?",
+    "What does your management agreement say exactly?"
+  ],
+  "what_resonates": [
+    "250 pound guest damage waiver per booking",
+    "Airbnb AirCover platform insurance layer",
+    "consistent 1st-5th payout, never missed",
+    "Zac personally available for questions",
+    "real booking calendars shown as proof",
+    "6-month exit clause framed as safety net not lock-in",
+    "zero upfront fees removes financial risk of trying",
+    "direct messaging between Zac and each guest"
+  ],
+  "what_to_avoid": [
+    "vague or optimistic income promises without data",
+    "rushing to close before all questions answered",
+    "dismissing damage concerns",
+    "overstating occupancy without evidence",
+    "high-pressure urgency tactics"
+  ],
+  "ideal_response_pattern": "Acknowledge the fear explicitly then provide the concrete mechanism that prevents it then give a real example then restate the protection in plain language",
+  "closing_approach": "Document-led close: offer to send management agreement so they can review exact terms. No pressure. Follow up in 5-7 days with a specific question about what they need to feel ready.",
+  "typical_blockers": [
+    "needs to speak to partner before deciding",
+    "wants to review full contract terms",
+    "waiting for confidence in income projections",
+    "wants to see proof of occupancy from similar properties"
+  ],
+  "follow_up_strategy": "Send management agreement plus one example occupancy calendar from a comparable property. Subject line: The exact terms, no pressure to sign. Follow up call in 7 days.",
+  "notable_leads": [
+    {"entry": "001", "name": "Kiran Kaur", "outcome": "NURTURE", "note": "Hospital proximity gave certainty about demand. Responded well to occupancy data."},
+    {"entry": "008", "name": "Haider Ali", "outcome": "READY_SOON", "note": "Multiple reassurance questions. Responded well to damage protection detail."},
+    {"entry": "055", "name": "Rona", "outcome": "DELAYED", "note": "Needs to furnish first. Certainty seeker will want proof of returns before furnishing spend."},
+    {"entry": "062", "name": "Kuldip Sanghera", "outcome": "DELAYED", "note": "Revised entry. Had questions about tenant exit timeline."},
+    {"entry": "064", "name": "Abby Thomas", "outcome": "ACTIVE", "note": "Second meeting. Needs certainty on income before tenant leaves."}
+  ]
+}

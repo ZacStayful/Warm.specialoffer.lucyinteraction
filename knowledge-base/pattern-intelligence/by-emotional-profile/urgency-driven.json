@@ -1,0 +1,52 @@
+{
+  "schema_version": "3.0",
+  "archetype_id": "urgency-driven",
+  "archetype_label": "Urgency Driven",
+  "description": "Ready to move fast. Has a clear timeline pressure (tenant leaving, property sitting empty, financial need). Responds to quick onboarding and immediate action. Can go cold if momentum is lost.",
+  "lead_entries": ["011", "019", "042", "054", "059", "066", "068", "069"],
+  "lead_count": 8,
+  "leads_converted": 1,
+  "leads_active": 6,
+  "leads_lost": 1,
+  "conversion_rate_pct": 12,
+  "avg_conversion_likelihood": 67,
+  "top_fears": [
+    "losing income while property sits empty",
+    "missing the busy season",
+    "onboarding taking too long",
+    "waiting too long and losing momentum"
+  ],
+  "top_questions": [
+    "How quickly can you list the property?",
+    "What do you need from me to get started?",
+    "When could the property go live?",
+    "How soon will I receive my first payment?"
+  ],
+  "what_resonates": [
+    "quick onboarding process: photography in days not weeks",
+    "property can go live within 1-2 weeks of signing",
+    "first payout on 1st-5th of following month",
+    "Zac handles everything — no work required from lead",
+    "immediate action plan: clear next steps"
+  ],
+  "what_to_avoid": [
+    "slow follow-up that kills momentum",
+    "complicated onboarding process",
+    "waiting to send documents",
+    "missing their follow-up window"
+  ],
+  "ideal_response_pattern": "Match their energy then confirm exact timeline then give them the next concrete step immediately then send the action plan same day",
+  "closing_approach": "Strike while hot. Send management agreement within 24 hours. Offer to book photography immediately. Frame signing as starting not committing.",
+  "typical_blockers": [
+    "minor delay waiting for tenant to leave",
+    "partner needs to agree on timeline",
+    "property not quite ready yet"
+  ],
+  "follow_up_strategy": "Follow up within 48 hours. Do not wait a week. If no response in 3 days, call directly.",
+  "notable_leads": [
+    {"entry": "019", "name": "Taj", "outcome": "CONVERTED", "note": "CONVERTED. Hospital proximity created urgency about demand. 13%+VAT deadline offer closed the deal. Urgency-driven lead that needed both time pressure and income certainty."},
+    {"entry": "066", "name": "Olalekan Oyewole", "outcome": "READY_NOW", "note": "High urgency. Property ready. Needs quick action."},
+    {"entry": "069", "name": "Aaron", "outcome": "READY_NOW", "note": "Most urgent recent lead. Ready to proceed."},
+    {"entry": "059", "name": "Shahid Mahmood", "outcome": "READY_SOON", "note": "Revised entry from 042. Good conversion candidate."}
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "3.0",
+  "archetype_id": "social-proof-dependent",
+  "archetype_label": "Social Proof Dependent",
+  "description": "Needs to hear from others before deciding. Testimonials, case studies, and portfolio examples carry more weight than Zac's own claims. Often overlaps with betrayal-damaged archetype. Asks who else in their situation has signed with Stayful.",
+  "lead_entries": ["015", "036", "051b"],
+  "lead_count": 3,
+  "leads_converted": 0,
+  "leads_active": 3,
+  "leads_lost": 0,
+  "conversion_rate_pct": 0,
+  "avg_conversion_likelihood": 45,
+  "top_fears": [
+    "being the first person to try something unproven",
+    "making a decision others have not validated",
+    "trusting claims with no external verification"
+  ],
+  "top_questions": [
+    "Can I speak to one of your existing owners?",
+    "Do you have any testimonials?",
+    "How many properties do you manage?",
+    "Can you show me results from similar properties?"
+  ],
+  "what_resonates": [
+    "portfolio of 70 properties as proof of scale",
+    "Airbnb Superhost status as third-party validation",
+    "specific comparable property income examples",
+    "willingness to connect them with an existing owner",
+    "Google reviews and platform ratings"
+  ],
+  "what_to_avoid": [
+    "relying only on Zac's own claims",
+    "vague references to other owners without specifics",
+    "resisting requests to speak to existing clients"
+  ],
+  "ideal_response_pattern": "Provide third-party evidence then offer a specific owner reference if appropriate then show verified platform metrics then use portfolio size as credibility anchor",
+  "closing_approach": "Offer to connect them with an existing owner in a similar situation. This single action often closes the deal for social-proof-dependent leads.",
+  "follow_up_strategy": "Send platform profile links and specific comparable income examples. If owner reference was offered, follow up to confirm connection happened.",
+  "notable_leads": [
+    {"entry": "015", "name": "Karl", "outcome": "NURTURE", "note": "Also betrayal-damaged. Double archetype. Needs both social proof and trust rebuilding."},
+    {"entry": "036", "name": "Vanessa", "outcome": "NURTURE", "note": "Also betrayal-damaged. Previous agent stole income. Testimonials particularly important."},
+    {"entry": "051b", "name": "Nathan Chadwick", "outcome": "ACTIVE", "note": "Appeared alongside Don in entry 051. Social proof important for confidence."}
+  ]
+}

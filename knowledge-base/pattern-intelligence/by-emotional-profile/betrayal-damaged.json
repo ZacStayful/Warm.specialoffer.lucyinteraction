@@ -1,0 +1,60 @@
+{
+  "schema_version": "3.0",
+  "archetype_id": "betrayal-damaged",
+  "archetype_label": "Betrayal Damaged",
+  "description": "Had a bad experience with a previous STR management company or letting agent. Carries distrust. Takes longer to rebuild confidence. Requires specific detailed responses to past failures — never minimise the previous harm. Once trust is rebuilt, extremely loyal.",
+  "lead_entries": ["015", "016", "017", "036", "041", "043", "045", "046", "047", "058"],
+  "lead_count": 10,
+  "leads_converted": 0,
+  "leads_active": 8,
+  "leads_lost": 2,
+  "conversion_rate_pct": 0,
+  "avg_conversion_likelihood": 44,
+  "top_fears": [
+    "being let down again by another management company",
+    "repeating the same bad experience",
+    "trusting someone who cannot deliver",
+    "handing over control and losing it again"
+  ],
+  "top_questions": [
+    "How are you different from my last agent?",
+    "What happens if things go wrong?",
+    "Who do I contact if there is a problem?",
+    "What are your specific processes for handling my previous failure point?"
+  ],
+  "what_resonates": [
+    "Zac personally handles all guest communication — not a call centre",
+    "direct Zac WhatsApp access for owners",
+    "small portfolio (70 properties) means personal service",
+    "specific response to whatever went wrong before",
+    "management agreement protecting owner interests",
+    "verifiable track record: portfolio age, payout history"
+  ],
+  "what_to_avoid": [
+    "minimising or dismissing their previous bad experience",
+    "vague claims without specific process backing",
+    "sounding like every other management company",
+    "rushing past their concerns to close"
+  ],
+  "ideal_response_pattern": "Let them tell the full story then validate the harm fully then explain the specific mechanism that prevents that exact failure then make a concrete promise with accountability",
+  "closing_approach": "Go slow. Let them lead. Never push for quick close. Send management agreement as proof of formal commitment. Offer reference from another owner in similar situation.",
+  "typical_blockers": [
+    "trust not yet rebuilt after previous agent",
+    "needs more time and evidence",
+    "partner equally scarred by previous experience"
+  ],
+  "follow_up_strategy": "Monthly low-key check-in. Share positive outcomes from other owners with permission. Let time and evidence rebuild trust.",
+  "critical_notes": [
+    "Entry 016 Ihsan: EXTREME SENSITIVITY. Previous property used as brothel. Never minimise. Address operational guest vetting in full detail. This is a trust rebuilding case above all others.",
+    "Entry 043 and 058 Martyn De Vere: Deeply betrayal-damaged. Previous agent caused serious financial and emotional harm. Requires exceptional patience.",
+    "Entry 045 Henry Roberts: Previous agent failed on maintenance response. Specific mechanism required: Zac's 24h maintenance protocol."
+  ],
+  "notable_leads": [
+    {"entry": "015", "name": "Karl", "outcome": "NURTURE", "note": "Also social-proof-dependent. Needs testimonials from other owners."},
+    {"entry": "016", "name": "Ihsan", "outcome": "NURTURE", "note": "BROTHEL TRAUMA. Extreme sensitivity. Never minimise. Full guest vetting detail required."},
+    {"entry": "036", "name": "Vanessa", "outcome": "NURTURE", "note": "Also social-proof-dependent. Previous agent stole income. Needs verified track record."},
+    {"entry": "043", "name": "Martyn De Vere", "outcome": "NURTURE", "note": "Deeply damaged. Entry 058 is more recent update. Handle with maximum patience."},
+    {"entry": "045", "name": "Henry Roberts", "outcome": "NURTURE", "note": "Previous agent failure on maintenance. Needs maintenance protocol detail."},
+    {"entry": "046", "name": "Isobel Cameron-Heslop", "outcome": "ACTIVE", "note": "Second meeting happened (entry 047). Trust being rebuilt."}
+  ]
+}

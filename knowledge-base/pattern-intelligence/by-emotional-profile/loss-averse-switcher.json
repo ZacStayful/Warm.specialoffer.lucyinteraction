@@ -1,0 +1,55 @@
+{
+  "schema_version": "3.0",
+  "archetype_id": "loss-averse-switcher",
+  "archetype_label": "Loss-Averse Switcher",
+  "description": "Currently receiving stable LTL income and fears losing it by switching to STR. The potential gain must be made to feel safe, not just larger. Pain of losing current income outweighs excitement about projected gains.",
+  "lead_entries": ["002", "017", "028", "038", "054", "056"],
+  "lead_count": 6,
+  "leads_converted": 0,
+  "leads_active": 5,
+  "leads_lost": 1,
+  "conversion_rate_pct": 0,
+  "avg_conversion_likelihood": 48,
+  "top_fears": [
+    "STR income less reliable than current LTL rent",
+    "void periods leave me worse off than I am now",
+    "guests will damage property more than tenants",
+    "the switch is irreversible and I will regret it",
+    "my current tenant may leave and I cannot get a new one"
+  ],
+  "top_questions": [
+    "What is your average occupancy rate?",
+    "What happens in January and slow months?",
+    "How does your income compare to my current rent?",
+    "Can I switch back to LTL if STR does not work?",
+    "What are your void periods like?"
+  ],
+  "what_resonates": [
+    "showing STR net income is materially higher than their current LTL",
+    "seasonal income data showing winter floors",
+    "framing STR trial as reversible decision",
+    "zero upfront cost removes the risk of trying",
+    "month by month actual payout data not just projections",
+    "positioning current LTL rent as the floor not the ceiling"
+  ],
+  "what_to_avoid": [
+    "optimistic income projections without seasonal context",
+    "dismissing their current stable income",
+    "claiming STR is always better than LTL",
+    "pressure tactics that increase perceived risk"
+  ],
+  "ideal_response_pattern": "Validate the current arrangement then show the gap between LTL and STR net clearly then frame the switch as low-risk and reversible then give a seasonal floor so they know the worst case",
+  "closing_approach": "Show STR net income vs their current LTL side by side with real figures. Propose a start date after tenant exits. Emphasise zero setup cost.",
+  "typical_blockers": [
+    "current tenant has not yet given notice",
+    "worried about void periods in winter",
+    "partner wants to keep the certainty of LTL"
+  ],
+  "follow_up_strategy": "Send a month-by-month income estimate for their area with seasonal lows shown explicitly. Subject: Your numbers, best and worst case. This removes the unknown that scares them.",
+  "notable_leads": [
+    {"entry": "002", "name": "Avik Pal", "outcome": "DELAYED", "note": "Current tenant. Classic loss aversion. Needs tenant exit before switching."},
+    {"entry": "017", "name": "Magdalena", "outcome": "NURTURE", "note": "Also betrayal-damaged. Double archetype. Lost previous agent trust AND fears income loss."},
+    {"entry": "038", "name": "Noemi", "outcome": "READY_SOON", "note": "Part of multi-lead entry 038. Currently LTL. Responded to income gap numbers."},
+    {"entry": "056", "name": "Afnan", "outcome": "READY_SOON", "note": "Needs tenant exit. Strong candidate once clear."}
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": "3.0",
+  "archetype_id": "fast-path-gain-focused",
+  "archetype_label": "Fast Path Gain Focused",
+  "description": "Motivated primarily by maximum income as fast as possible. Often early-stage excitement without full appreciation of what STR management involves. High representation in R2R operators who had 100% loss rate. When non-R2R, can convert if income numbers are compelling.",
+  "lead_entries": ["003", "006", "007", "022", "025", "026", "027", "032", "050", "060"],
+  "lead_count": 10,
+  "leads_converted": 0,
+  "leads_active": 4,
+  "leads_lost": 6,
+  "conversion_rate_pct": 0,
+  "avg_conversion_likelihood": 38,
+  "top_fears": [
+    "leaving income on the table",
+    "management fee eating too much of the profit",
+    "being outperformed by a competitor service"
+  ],
+  "top_questions": [
+    "What is your maximum achievable income for my property?",
+    "Why 15% — is that negotiable?",
+    "What is the net income after all your fees?",
+    "How do you compare to competitors on income?"
+  ],
+  "what_resonates": [
+    "STR income significantly higher than LTL net",
+    "transparent fee structure with no hidden costs",
+    "income projections backed by real comparable data",
+    "fast onboarding to start earning quickly",
+    "dynamic pricing optimisation explained"
+  ],
+  "what_to_avoid": [
+    "aggressive fee negotiation — slippery slope",
+    "overselling income projections",
+    "matching or beating R2R proposals",
+    "promising specific income figures without context"
+  ],
+  "ideal_response_pattern": "Lead with income numbers then show the management fee as a small percentage of additional gain over LTL then frame Stayful as income maximiser not income extractor",
+  "closing_approach": "Income-first presentation. Show the full STR net vs LTL gap. 15% management fee looks small when the gain is large.",
+  "typical_blockers": [
+    "fee negotiation stalls",
+    "comparing with DIY management cost",
+    "R2R commercial lease complications"
+  ],
+  "follow_up_strategy": "Send STR net analyser output showing income breakdown. Include the fee calculation showing net gain over LTL after management fee.",
+  "r2r_warning": "R2R operators in this archetype (022, 025, 027, 032) all abandoned. R2R commercial lease model does not work with Stayful owner-management model. 100% historical loss rate. Flag any new R2R lead immediately.",
+  "london_warning": "Entry 006 (Elliot, W4 postcode): 90-day London STR restriction applies. Verify planning status before progressing any London property.",
+  "notable_leads": [
+    {"entry": "003", "name": "Brandon", "outcome": "NURTURE", "note": "Income motivated. Manageable."},
+    {"entry": "006", "name": "Elliot", "outcome": "DELAYED", "note": "W4 LONDON. 90-day restriction must be verified. High gain motivation."},
+    {"entry": "050", "name": "Helen", "outcome": "READY_SOON", "note": "Good candidate. Property ready. Income-focused but manageable."},
+    {"entry": "060", "name": "Prakash", "outcome": "ACTIVE", "note": "Recent lead. Fast-path focused. Needs income data to convert."}
+  ],
+  "lost_leads": [
+    {"entry": "022", "name": "Ada", "lost_reason": "R2R operator. Abandoned — commercial lease model incompatible."},
+    {"entry": "025", "name": "Rasheed", "lost_reason": "R2R operator. Abandoned — commercial lease model incompatible."},
+    {"entry": "026", "name": "Nina", "lost_reason": "Purchasing property — timing out. May return."},
+    {"entry": "027", "name": "Liam", "lost_reason": "R2R operator. Abandoned."},
+    {"entry": "032", "name": "Kes", "lost_reason": "R2R operator. Abandoned."}
+  ]
+}

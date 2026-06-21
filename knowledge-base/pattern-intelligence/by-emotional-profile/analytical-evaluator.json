@@ -1,0 +1,59 @@
+{
+  "schema_version": "3.0",
+  "archetype_id": "analytical-evaluator",
+  "archetype_label": "Analytical Evaluator",
+  "description": "Needs data, spreadsheets, and logical proof before deciding. Will ask detailed questions about fee structures, ROI calculations, occupancy rates, and want to see the STR net analyser. Decision is rational, not emotional. Slowest conversion cycle but highest loyalty once converted.",
+  "lead_entries": ["012", "014", "018", "021", "024", "033", "063", "065", "068", "069b", "070"],
+  "lead_count": 11,
+  "leads_converted": 1,
+  "leads_active": 8,
+  "leads_lost": 2,
+  "conversion_rate_pct": 9,
+  "avg_conversion_likelihood": 54,
+  "top_fears": [
+    "numbers do not add up once all costs accounted for",
+    "fee structure is more complex than presented",
+    "occupancy data is cherry-picked not representative",
+    "making an emotional decision they later regret financially"
+  ],
+  "top_questions": [
+    "What is the exact fee breakdown?",
+    "What are average occupancy rates for my area?",
+    "Can I see the STR net analyser output?",
+    "What is the total cost of setting up?",
+    "How does your 15% compare to competitors?",
+    "What is net profit after all platform fees?",
+    "Can I have the figures in writing?"
+  ],
+  "what_resonates": [
+    "STR net analyser showing real projected income",
+    "transparent fee structure: 15% management plus VAT, no hidden fees",
+    "Airbnb platform fee is separate (3%) and visible",
+    "actual payout history from comparable properties",
+    "detailed comparison: STR net vs LTL net vs mortgage",
+    "zero upfront cost reduces break-even calculation",
+    "written documents: management agreement, action plan, quote"
+  ],
+  "what_to_avoid": [
+    "vague income claims without supporting data",
+    "rushing past their questions to close",
+    "oversimplifying the fee structure",
+    "making claims that cannot be documented"
+  ],
+  "ideal_response_pattern": "Answer every question directly with numbers then provide the written breakdown then offer to send the STR net analyser then invite follow-up questions",
+  "closing_approach": "Send full written package: management agreement, STR net analyser output, action plan. Give them time to review. Follow up with: Any numbers you would like me to clarify?",
+  "typical_blockers": [
+    "still running their own numbers",
+    "comparing with another management company",
+    "wants to see actual performance data not projections",
+    "accountant or financial adviser needs to review"
+  ],
+  "follow_up_strategy": "Send the full document pack. Schedule a follow-up call specifically framed as a Q and A session for their remaining questions. Never rush.",
+  "notable_leads": [
+    {"entry": "014", "name": "Andrew McIntee", "outcome": "READY_SOON", "note": "EXCEPTIONAL OFFER: 12%+VAT — only case in entire portfolio. Analytical enough to push on fees. Do not replicate without explicit Zac approval."},
+    {"entry": "018", "name": "Rebecca Chmiel", "outcome": "NURTURE", "note": "Detailed fee questions. Needs written breakdown."},
+    {"entry": "021", "name": "Alan", "outcome": "NURTURE", "note": "Requested STR net analyser."},
+    {"entry": "063", "name": "Vishal Beeharry", "outcome": "DELAYED", "note": "R2R operator with analytical mindset. High risk profile. Needs detailed commercial viability analysis."},
+    {"entry": "070", "name": "Marcus", "outcome": "READY_SOON", "note": "Most recent entry. Analytical. Purchasing property — needs proof of returns before committing."}
+  ]
+}
