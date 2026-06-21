@@ -1,0 +1,40 @@
+{
+  "schema_version": "3.0",
+  "delay_code": "DLY-TEN",
+  "delay_label": "Tenant in Place",
+  "description": "Lead has an existing tenant with a current tenancy agreement. Cannot list on STR until tenant exits. Timeline depends on notice period and tenant cooperation.",
+  "lead_entries": ["002", "009", "013", "034", "056", "062", "064"],
+  "lead_count": 7,
+  "avg_delay_months": 3,
+  "conversion_rate_pct": 0,
+  "active_count": 7,
+  "typical_timeline": "1-6 months depending on tenancy agreement and notice period",
+  "key_questions_to_ask": [
+    "When does the current tenancy end?",
+    "Is it a fixed term or rolling monthly?",
+    "Has the tenant been given notice?",
+    "Is there any reason the tenant might not leave on time?"
+  ],
+  "what_to_do": [
+    "Set a provisional start date based on tenancy end",
+    "Schedule a follow-up call 4 weeks before that date",
+    "Send action plan and management agreement now so they are ready to sign when tenant leaves",
+    "Keep warm with monthly check-ins"
+  ],
+  "what_not_to_do": [
+    "pressure lead to evict tenant early",
+    "assume tenancy will end on time",
+    "lose contact during the wait period"
+  ],
+  "risk_factors": [
+    "tenant refuses to leave — legal process can extend to 6+ months",
+    "lead loses interest during the wait",
+    "lead keeps renewing tenancy with current tenant"
+  ],
+  "follow_up_cadence": "Monthly until 6 weeks before tenancy end, then weekly",
+  "notable_leads": [
+    {"entry": "002", "name": "Avik Pal", "note": "Classic DLY-TEN. Loss-averse-switcher archetype. Will need income comparison data when ready."},
+    {"entry": "009", "name": "Linda", "note": "Status-quo-resistant. May renew tenancy. Monitor closely."},
+    {"entry": "064", "name": "Abby Thomas", "note": "Active follow-up. Second meeting happened. Ready to sign when tenant exits."}
+  ]
+}

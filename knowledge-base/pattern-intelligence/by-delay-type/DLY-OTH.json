@@ -1,0 +1,37 @@
+{
+  "schema_version": "3.0",
+  "delay_code": "DLY-OTH",
+  "delay_label": "Other Delay",
+  "description": "Delay does not fit standard categories. May include: waiting for building work, planning permission, partner agreement, financial review, or other personal circumstances.",
+  "lead_entries": ["001", "007", "011", "012", "015", "017", "021", "024", "031", "033", "036", "037", "041", "042", "043", "045", "046", "047", "051", "053", "054", "057", "058", "060", "065", "067", "069b"],
+  "lead_count": 27,
+  "avg_delay_months": 3,
+  "conversion_rate_pct": 0,
+  "active_count": 24,
+  "leads_lost": 3,
+  "sub_categories": [
+    {"code": "DLY-OTH-BUILD", "description": "Waiting for building work, renovation, or refurbishment to complete"},
+    {"code": "DLY-OTH-PART", "description": "Waiting for partner or spouse agreement"},
+    {"code": "DLY-OTH-FIN", "description": "Waiting for financial situation to stabilise"},
+    {"code": "DLY-OTH-PLAN", "description": "Waiting for planning permission or regulatory clearance"},
+    {"code": "DLY-OTH-PERS", "description": "Personal circumstances — bereavement, health, family"}
+  ],
+  "key_questions_to_ask": [
+    "What specifically needs to happen before you can start?",
+    "What is the expected timeline for that?",
+    "Is there anything I can help with in the meantime?",
+    "Would it help to have the documents ready now?"
+  ],
+  "what_to_do": [
+    "Identify the specific blocker",
+    "Set a realistic timeline",
+    "Keep warm with relevant check-ins",
+    "Send relevant documents in advance to reduce friction at signing"
+  ],
+  "follow_up_cadence": "Monthly for most. Adjust based on urgency of specific blocker.",
+  "notable_leads": [
+    {"entry": "001", "name": "Kiran Kaur", "note": "Building confidence. No standard delay code. Patience required."},
+    {"entry": "036", "name": "Vanessa", "note": "Betrayal-damaged. Needs trust rebuilding — that is the delay."},
+    {"entry": "043", "name": "Martyn De Vere", "note": "Deeply betrayal-damaged. Time is the delay. Entry 058 is the updated version."}
+  ]
+}

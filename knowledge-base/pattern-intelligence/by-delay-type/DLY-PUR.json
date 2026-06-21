@@ -1,0 +1,41 @@
+{
+  "schema_version": "3.0",
+  "delay_code": "DLY-PUR",
+  "delay_label": "Purchasing Property",
+  "description": "Lead is currently in the process of purchasing a property specifically for STR. Has not yet completed on the purchase. Timeline depends on conveyancing and mortgage completion.",
+  "lead_entries": ["005", "026", "068", "070"],
+  "lead_count": 4,
+  "avg_delay_months": 4,
+  "conversion_rate_pct": 0,
+  "active_count": 3,
+  "leads_lost": 1,
+  "typical_timeline": "2-6 months depending on chain and mortgage complexity",
+  "key_questions_to_ask": [
+    "Where are you in the purchase process?",
+    "Do you have a solicitor instructed?",
+    "Is there a chain?",
+    "Do you have a target completion date?"
+  ],
+  "what_to_do": [
+    "Validate their STR income expectations against realistic projections for that property",
+    "Flag any restrictions early — London 90-day rule, leasehold restrictions",
+    "Send management agreement to sign now — can start immediately on completion",
+    "Keep warm with quarterly check-ins if timeline is long"
+  ],
+  "what_not_to_do": [
+    "over-promise on income before seeing the actual property",
+    "forget to check for planning or lease restrictions on their specific property"
+  ],
+  "risk_factors": [
+    "purchase falls through — lead disappears",
+    "mortgage conditions restrict STR use",
+    "leasehold covenant prohibits short-term letting",
+    "lead buys different property than planned"
+  ],
+  "follow_up_cadence": "Monthly until exchange, then weekly as completion approaches",
+  "notable_leads": [
+    {"entry": "005", "name": "Nicholas", "note": "Also DLY-FUR. Buying then furnishing. Long pipeline but committed."},
+    {"entry": "026", "name": "Nina", "note": "Lost — purchase fell through or timing out. Classic DLY-PUR risk."},
+    {"entry": "070", "name": "Marcus", "note": "Most recent. Analytical. Needs income proof to validate purchase decision."}
+  ]
+}

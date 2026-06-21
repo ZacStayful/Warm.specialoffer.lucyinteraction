@@ -1,0 +1,40 @@
+{
+  "schema_version": "3.0",
+  "profile_type": "STL-SW",
+  "profile_label": "Self-Managing STR Switcher",
+  "description": "Currently self-managing their own short-term let via Airbnb or similar. Considering handing over to Stayful. Main drivers: reducing workload, income optimisation, or can no longer manage themselves.",
+  "lead_entries": ["001", "003", "004", "006", "007", "008", "009", "010", "011", "012", "013", "015", "016", "017", "021", "024", "028", "031", "033", "034", "036", "037", "050", "051", "053", "054", "055", "056", "060", "061", "065", "066", "070"],
+  "lead_count": 33,
+  "leads_converted": 0,
+  "leads_active": 28,
+  "leads_lost": 5,
+  "conversion_rate_pct": 0,
+  "avg_conversion_likelihood": 52,
+  "key_drivers": [
+    "time commitment becoming too high",
+    "income could be optimised with professional management",
+    "moving away and cannot manage remotely",
+    "guest issues becoming difficult to handle alone",
+    "wanting professional pricing and booking optimisation"
+  ],
+  "key_objections": [
+    "15% management fee on top of current platform fees",
+    "loss of control over their own listing",
+    "concern that Stayful cannot match their own occupancy",
+    "not wanting to change what is already working"
+  ],
+  "what_resonates": [
+    "income comparison showing Stayful net vs their current DIY net",
+    "time saving calculation",
+    "professional photography improving booking rate",
+    "dynamic pricing outperforming manual pricing",
+    "scale benefits: Stayful direct bookings (40%) reducing platform fees"
+  ],
+  "pitch_angle": "You are doing great work managing yourself. Stayful can do what you do, earn more, and take the work off your plate entirely. Your income goes up, your time commitment goes to zero.",
+  "closing_approach": "Show the income uplift over their current self-managed income. Be specific about what Stayful does differently. Make the time saving concrete.",
+  "notable_leads": [
+    {"entry": "006", "name": "Elliot", "note": "LONDON W4. 90-day restriction. Verify planning before progressing."},
+    {"entry": "019", "name": "Taj", "note": "CONVERTED. Was urgency-driven. Hospital proximity plus deadline offer closed."},
+    {"entry": "066", "name": "Olalekan", "note": "READY_NOW. Positive conversion candidate."}
+  ]
+}

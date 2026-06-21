@@ -1,0 +1,37 @@
+{
+  "schema_version": "3.0",
+  "profile_type": "ABROAD",
+  "profile_label": "Living Abroad or Remote Management",
+  "description": "Lead lives overseas or far from the property. STR is attractive because full management handles everything. Cannot manage themselves due to distance. High motivation to hand over fully.",
+  "lead_entries": ["028", "033", "065"],
+  "lead_count": 3,
+  "leads_converted": 0,
+  "leads_active": 3,
+  "leads_lost": 0,
+  "conversion_rate_pct": 0,
+  "avg_conversion_likelihood": 58,
+  "key_drivers": [
+    "cannot manage property from overseas",
+    "wants completely hands-off income",
+    "full management model is a necessity not a preference"
+  ],
+  "key_objections": [
+    "concerned about trust — hard to verify from abroad",
+    "concerned about tax implications of overseas owner",
+    "wants regular detailed reporting"
+  ],
+  "what_resonates": [
+    "full management model — nothing required from owner",
+    "digital reporting and monthly statements",
+    "Zac personally handles everything",
+    "UK-based bank account for payouts is straightforward",
+    "no need to be present for anything"
+  ],
+  "pitch_angle": "You are abroad — you need someone you can trust completely. Stayful does everything: guests, maintenance, cleaning, pricing, payouts. You receive money on the 1st-5th every month and see a statement. That is your entire involvement.",
+  "tax_note": "Non-UK resident owners may have UK tax obligations on STR income. Not Stayful's advice to give, but flag early and recommend accountant review.",
+  "notable_leads": [
+    {"entry": "028", "name": "Marnus", "note": "Relocating. Full management a necessity."},
+    {"entry": "033", "name": "Rebecca H", "note": "Analytical evaluator. Remote or abroad. Needs detailed income breakdown."},
+    {"entry": "065", "name": "Victor", "note": "Recent lead. Analytical. Good candidate."}
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "3.0",
+  "delay_code": "DLY-FUR",
+  "delay_label": "Unfurnished Property",
+  "description": "Property needs to be furnished before it can be listed on STR platforms. Lead is willing to invest but needs confidence in returns before spending on furnishing.",
+  "lead_entries": ["004", "005", "037", "055"],
+  "lead_count": 4,
+  "avg_delay_months": 2,
+  "conversion_rate_pct": 0,
+  "active_count": 4,
+  "typical_timeline": "1-3 months for furnishing, depending on budget and availability",
+  "key_questions_to_ask": [
+    "What is your furnishing budget?",
+    "Do you have any furniture already?",
+    "Are you planning to use IKEA or a furnishing package?",
+    "Do you need guidance on what Airbnb guests expect?"
+  ],
+  "what_to_do": [
+    "Provide Stayful furnishing guidance and checklist",
+    "Give a clear income projection to justify the furnishing investment",
+    "Offer to advise on furnishing choices that photograph well",
+    "Set a realistic go-live date once furnishing is complete"
+  ],
+  "what_not_to_do": [
+    "pressure them to rush furnishing",
+    "leave them without guidance on what is needed"
+  ],
+  "risk_factors": [
+    "furnishing budget runs out before property is ready",
+    "lead stalls on furnishing decisions",
+    "income projection not compelling enough to justify investment"
+  ],
+  "follow_up_cadence": "Bi-weekly during furnishing period. Offer practical help to maintain momentum.",
+  "notable_leads": [
+    {"entry": "004", "name": "Robert", "note": "Certainty-seeker. Needs confidence in income before spending on furnishing."},
+    {"entry": "005", "name": "Nicholas", "note": "Also DLY-PUR — purchasing the property first, then furnishing. Double delay."},
+    {"entry": "055", "name": "Rona", "note": "Needs to furnish. Certainty-seeker. Send comparable furnished property income data to justify investment."}
+  ]
+}

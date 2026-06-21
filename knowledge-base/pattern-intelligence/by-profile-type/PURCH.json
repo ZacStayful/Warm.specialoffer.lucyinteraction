@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.0",
+  "profile_type": "PURCH",
+  "profile_label": "Purchasing",
+  "description": "Lead does not yet own the property. Purchasing specifically for STR purposes, or considering STR as the use case before completing. Longest pipeline. High intent if purchase completes.",
+  "lead_entries": ["005", "026", "068", "070"],
+  "lead_count": 4,
+  "leads_converted": 0,
+  "leads_active": 3,
+  "leads_lost": 1,
+  "conversion_rate_pct": 0,
+  "avg_conversion_likelihood": 48,
+  "key_drivers": [
+    "buying specifically for STR income",
+    "wants to make sure STR is viable before completing purchase",
+    "STR income to offset mortgage"
+  ],
+  "key_objections": [
+    "purchase may fall through",
+    "STR income projections uncertain before seeing property",
+    "mortgage restrictions may prohibit STR"
+  ],
+  "what_resonates": [
+    "income projections showing STR as viable mortgage offset strategy",
+    "specific comparable properties in target area",
+    "guidance on what makes a good STR property",
+    "Stayful can advise on property choice before purchase completes"
+  ],
+  "pitch_angle": "You are buying specifically for income. Stayful can tell you whether this specific property is a good STR and what income to expect — before you complete. We can advise on which properties in your target area perform best.",
+  "critical_checks": [
+    "Confirm no London 90-day restriction",
+    "Check lease or freehold — many new builds prohibit STR",
+    "Verify mortgage type allows STR use",
+    "Confirm no planning restrictions on short-term letting"
+  ],
+  "notable_leads": [
+    {"entry": "005", "name": "Nicholas", "note": "Also DLY-FUR. Long pipeline but committed to STR from the start."},
+    {"entry": "026", "name": "Nina", "note": "Lost — purchase timing or fell through. Classic risk."},
+    {"entry": "068", "name": "Jamie", "note": "Analytical evaluator. High value if purchase completes."},
+    {"entry": "070", "name": "Marcus", "note": "Most recent. Analytical. Needs income proof to validate purchase decision."}
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "3.0",
+  "profile_type": "R2R",
+  "profile_label": "Rent-to-Rent Operator",
+  "description": "Lead has a commercial lease on a property (not the owner) and operates it as a short-term let. Does not own the property. Stayful's model requires owner consent and owner as the contracting party. 100% historical loss rate — all R2R leads except Vishal have abandoned.",
+  "lead_entries": ["022", "025", "027", "032", "035", "063"],
+  "lead_count": 6,
+  "leads_converted": 0,
+  "leads_active": 1,
+  "leads_lost": 5,
+  "conversion_rate_pct": 0,
+  "loss_rate_pct": 83,
+  "historical_loss_note": "Every completed R2R engagement has abandoned. Entry 063 Vishal Beeharry is the only currently active R2R lead and is classified high risk.",
+  "why_r2r_fails": [
+    "Stayful contracts with the property owner, not a lessee",
+    "Owner consent required for STR — most landlords prohibit it in commercial leases",
+    "R2R operator does not have authority to grant STR access",
+    "Commercial lease likely has residential subletting restrictions",
+    "R2R model creates unresolvable liability chain for Stayful"
+  ],
+  "what_to_do_with_r2r_leads": [
+    "Clarify the lease situation immediately on first meeting",
+    "Check whether the landlord has consented to STR",
+    "If landlord not involved, explain Stayful cannot proceed without owner contract",
+    "Redirect: can Stayful speak to the actual property owner?",
+    "If owner willing to engage directly, convert to standard owner meeting"
+  ],
+  "active_r2r_lead": {
+    "entry": "063",
+    "name": "Vishal Beeharry",
+    "outcome": "DELAYED",
+    "note": "Analytical evaluator. Still active but high risk. Needs landlord consent verification. Track carefully.",
+    "risk_level": "HIGH"
+  },
+  "lost_r2r_leads": [
+    {"entry": "022", "name": "Ada", "lost_reason": "Commercial lease model incompatible with Stayful owner-management model."},
+    {"entry": "025", "name": "Rasheed", "lost_reason": "Abandoned — R2R model."},
+    {"entry": "027", "name": "Liam", "lost_reason": "Abandoned — R2R model."},
+    {"entry": "032", "name": "Kes", "lost_reason": "Abandoned — R2R model."},
+    {"entry": "035", "name": "Cassidy", "lost_reason": "Abandoned — R2R model."}
+  ],
+  "flag_for_review": "Any new R2R lead should be flagged immediately to Zac before significant time is invested."
+}

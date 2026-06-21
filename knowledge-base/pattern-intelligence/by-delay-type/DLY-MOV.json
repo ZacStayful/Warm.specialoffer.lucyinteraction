@@ -1,0 +1,39 @@
+{
+  "schema_version": "3.0",
+  "delay_code": "DLY-MOV",
+  "delay_label": "Moving Out or Relocating",
+  "description": "Lead currently lives in the property or is moving out to a new location. Property cannot be listed until they have vacated and it is guest-ready.",
+  "lead_entries": ["008", "016", "028", "061"],
+  "lead_count": 4,
+  "avg_delay_months": 2,
+  "conversion_rate_pct": 0,
+  "active_count": 4,
+  "typical_timeline": "1-4 months depending on new property readiness",
+  "key_questions_to_ask": [
+    "When do you expect to move out?",
+    "Where are you moving to?",
+    "Will the property need any work before listing?",
+    "Are you leaving furniture in place?"
+  ],
+  "what_to_do": [
+    "Set a provisional go-live date",
+    "Discuss property readiness and any prep needed",
+    "Send management agreement in advance — ready to sign on move-out day",
+    "Schedule photography for the week after move-out"
+  ],
+  "what_not_to_do": [
+    "pressure lead on move-out timing",
+    "leave a gap in contact during the move"
+  ],
+  "risk_factors": [
+    "move delayed — timeline extends",
+    "lead decides not to list after seeing cost of property prep",
+    "emotional attachment to the property inhibits signing"
+  ],
+  "follow_up_cadence": "Every 2-3 weeks until move-out confirmed, then immediately on move-out day",
+  "notable_leads": [
+    {"entry": "008", "name": "Haider Ali", "note": "Certainty-seeker. Moving out. Strong candidate once clear."},
+    {"entry": "016", "name": "Ihsan", "note": "BROTHEL TRAUMA SENSITIVITY. Moving out. Needs full guest vetting detail before signing."},
+    {"entry": "028", "name": "Marnus", "note": "Loss-averse-switcher. Relocating. Needs income comparison to LTL."}
+  ]
+}

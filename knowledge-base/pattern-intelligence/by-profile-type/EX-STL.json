@@ -1,0 +1,41 @@
+{
+  "schema_version": "3.0",
+  "profile_type": "EX-STL",
+  "profile_label": "Existing STL Currently With Another Agent",
+  "description": "Lead currently has a property managed by a competitor STR management company. Unhappy with current agent — typically due to underperformance, poor communication, or trust issues. Switching consideration.",
+  "lead_entries": ["002", "014", "018", "019", "038", "046", "047", "057", "062", "064", "068", "069"],
+  "lead_count": 12,
+  "leads_converted": 2,
+  "leads_active": 9,
+  "leads_lost": 1,
+  "conversion_rate_pct": 17,
+  "avg_conversion_likelihood": 61,
+  "key_drivers": [
+    "unhappy with current agent's performance",
+    "poor communication from current agent",
+    "income lower than expected",
+    "management fee higher than with Stayful",
+    "trust broken with current agent"
+  ],
+  "key_objections": [
+    "locked into current contract",
+    "not wanting the hassle of switching",
+    "concerned Stayful is not better than current agent"
+  ],
+  "what_resonates": [
+    "specific comparison of Stayful fee vs their current agent fee",
+    "personal Zac contact vs account manager model",
+    "small portfolio (70 properties) vs large corporate agent",
+    "willingness to review their contract and advise on exit",
+    "showing what income improvement is possible"
+  ],
+  "pitch_angle": "You are already in STR — the question is whether you are with the right partner. Stayful is smaller, faster, and more personal. Zac handles everything directly. No account managers, no call centres.",
+  "closing_approach": "Review their current contract with them. If there is an exit clause, identify it. Offer to start planning from their exit date now.",
+  "notable_leads": [
+    {"entry": "014", "name": "Andrew McIntee", "note": "EXCEPTIONAL 12%+VAT offer — do not replicate without Zac approval. Analytical-evaluator who pushed on fees."},
+    {"entry": "019", "name": "Taj", "note": "CONVERTED. Was with Urban Rest. Switched to Stayful."},
+    {"entry": "044", "name": "Gareth Howard", "note": "CONVERTED. Was already a Stayful client from a previous property. Re-engaged with new property."},
+    {"entry": "046", "name": "Isobel Cameron-Heslop", "note": "Second meeting (entry 047). Betrayal-damaged. Trust being rebuilt."},
+    {"entry": "068", "name": "Jamie", "note": "Analytical. Purchasing new property. High value lead."}
+  ]
+}
