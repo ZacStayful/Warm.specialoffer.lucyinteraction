@@ -1,0 +1,90 @@
+{
+  "schema_version": "3.0",
+  "kb_version": "1.0.0",
+  "generated_date": "2026-06-21",
+  "generated_by": "Stayful Meeting Agent Knowledge Base Builder v3.0",
+  "repo": "zacstayful/warm.specialoffer.lucyinteraction",
+  "branch": "claude/beautiful-mendel-ma5rzk",
+  "last_entry_number": "070",
+  "total_entries_in_kb": 70,
+  "missing_entry_numbers": ["048", "049"],
+  "missing_entry_reason": "These entry numbers do not exist in Google Drive source data",
+  "run_type": "FIRST_RUN",
+  "source": "Google Drive intelligence entries read via MCP",
+  "file_counts": {
+    "transcripts": 70,
+    "pattern_intelligence_emotional_profile": 8,
+    "pattern_intelligence_delay_type": 5,
+    "pattern_intelligence_profile_type": 6,
+    "pattern_intelligence_standalone": 2,
+    "pattern_intelligence_total": 21,
+    "response_library": 4,
+    "playbook": 4,
+    "context": 5,
+    "manifest": 1,
+    "total_kb_files": 105
+  },
+  "directory_structure": {
+    "knowledge-base/transcripts/2026-Q2/": "70 lead entry files (entry-001.json through entry-070.json, with sub-entries 051b, 069b; entry 067 is duplicate of 066)",
+    "knowledge-base/pattern-intelligence/by-emotional-profile/": "8 archetype analysis files",
+    "knowledge-base/pattern-intelligence/by-delay-type/": "5 delay type files",
+    "knowledge-base/pattern-intelligence/by-profile-type/": "6 profile type files",
+    "knowledge-base/pattern-intelligence/": "2 standalone analysis files (lost-reason-patterns, offer-timing-intelligence)",
+    "knowledge-base/response-library/": "4 response library files",
+    "knowledge-base/playbook/": "4 playbook markdown files",
+    "knowledge-base/context/": "5 context reference files",
+    "knowledge-base/": "manifest.json (this file)"
+  },
+  "commit_history": [
+    {"commit": 1, "sha": "3f59abc8", "description": "Transcripts entries 001-025", "files": 25},
+    {"commit": 2, "sha": "e3364ef3", "description": "Transcripts entries 026-047", "files": 22},
+    {"commit": 3, "sha": "5afc56b2", "description": "Transcripts entries 050-070", "files": 23},
+    {"commit": 4, "sha": "acef29f7", "description": "Pattern intelligence by-emotional-profile (8 files)", "files": 8},
+    {"commit": 5, "sha": "7628ca25", "description": "Pattern intelligence by-delay-type and by-profile-type (11 files)", "files": 11},
+    {"commit": 6, "sha": "e56146bd", "description": "Pattern intelligence standalone (2 files)", "files": 2},
+    {"commit": 7, "sha": "8438d0a1", "description": "Response library (4 files)", "files": 4},
+    {"commit": 8, "sha": "4cded0f3", "description": "Playbook (4 files)", "files": 4},
+    {"commit": 9, "sha": "5ff4011c", "description": "Context files (5 files)", "files": 5},
+    {"commit": 10, "sha": "pending", "description": "Manifest (this file)", "files": 1}
+  ],
+  "pipeline_summary": {
+    "total_leads": 70,
+    "converted": 2,
+    "active_pipeline": 50,
+    "lost": 14,
+    "conversion_rate_pct": 3
+  },
+  "converted_leads": [
+    {"entry": "019", "name": "Taj", "conversion_factors": "Hospital proximity + 13%+VAT deadline offer + Urban Rest underperforming"},
+    {"entry": "044", "name": "Gareth Howard", "conversion_factors": "Existing Stayful client on another property, trust already established, new property needed same management"}
+  ],
+  "critical_flags": [
+    {"entry": "006", "name": "Elliot", "flag": "London W4 — 90-day STR restriction. Verify planning status before proceeding."},
+    {"entry": "014", "name": "Andrew McIntee", "flag": "EXCEPTIONAL 12%+VAT offer — only instance in portfolio. Do not replicate without Zac approval."},
+    {"entry": "016", "name": "Ihsan", "flag": "BROTHEL TRAUMA — extreme sensitivity. Full guest vetting discussion required. Never minimise."},
+    {"entry": "052", "name": "Unknown", "flag": "London SE25 — 90-day restriction. Verify planning before proceeding."},
+    {"entry": "063", "name": "Vishal Beeharry", "flag": "R2R — only active R2R lead. High risk. Verify landlord consent."},
+    {"entry": "067", "name": "Olalekan Oyewole", "flag": "Duplicate of entry 066. Same meeting. entry-067.json references entry-066 as canonical."}
+  ],
+  "pattern_highlights": [
+    "R2R profile: 83% loss rate (5 of 6 abandoned). Only Vishal (063) still active.",
+    "SELL profile: 100% loss rate (3 of 3 lost).",
+    "status-quo-resistant archetype: 67% loss rate.",
+    "EX-STL profile has highest conversion rate (17%) — leads already committed to managed STR.",
+    "Both conversions were EX-STL profile leads.",
+    "betrayal-damaged archetype: 0% loss rate — patience with these leads pays off.",
+    "Deadline + reduced fee (13%) was effective in the one case where it was tried (Taj)."
+  ],
+  "offer_constraints": {
+    "default_rate": "15%+VAT",
+    "tactical_close_rate": "13%+VAT (EX-STL with fee objection, 2+ follow-ups, specific deadline)",
+    "exceptional_rate": "12%+VAT ONLY with explicit Zac approval — used once (entry 014 Andrew McIntee only)"
+  },
+  "next_run_instructions": {
+    "check_last_entry_number": "070",
+    "start_from": "071",
+    "skip_entries": ["048", "049"],
+    "update_pattern_files": true,
+    "update_manifest": true
+  }
+}
