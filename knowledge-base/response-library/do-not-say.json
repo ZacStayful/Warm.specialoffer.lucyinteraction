@@ -1,0 +1,115 @@
+{
+  "schema_version": "3.0",
+  "file": "do-not-say",
+  "description": "Phrases that have been identified as counterproductive, misleading, or damaging in Stayful sales meetings. Each entry includes the forbidden phrase, why it fails, and a safer alternative.",
+  "forbidden_phrases": [
+    {
+      "id": "DNS-001",
+      "phrase": "We guarantee X income per month",
+      "why_forbidden": "STR income cannot be guaranteed. Making a guarantee creates a legal and trust liability.",
+      "safe_alternative": "Based on comparable properties in your area, our data shows an average of X per month. I'll show you the month-by-month breakdown."
+    },
+    {
+      "id": "DNS-002",
+      "phrase": "We can negotiate on the fee",
+      "why_forbidden": "Opens fee negotiation from a position of weakness. 15% should be held as the standard. Tactical reductions are available but should never be offered proactively.",
+      "safe_alternative": "15% is our management fee. Let me show you what you actually keep after it — the number is higher than you might expect."
+    },
+    {
+      "id": "DNS-003",
+      "phrase": "We always achieve 90%+ occupancy",
+      "why_forbidden": "Factually false for winter months. Sets expectations that will not be met. Destroys trust when January comes.",
+      "safe_alternative": "Summer months we're typically 85-90%+. January is our lowest, around 60%. The annual average across comparable properties is around 75-80%."
+    },
+    {
+      "id": "DNS-004",
+      "phrase": "Your previous management company was terrible",
+      "why_forbidden": "Unprofessional. Lead may have mixed feelings. Positions Stayful as negative rather than better.",
+      "safe_alternative": "It sounds like that experience was really frustrating. Here's specifically how we handle [their issue]."
+    },
+    {
+      "id": "DNS-005",
+      "phrase": "Don't worry about damage, it almost never happens",
+      "why_forbidden": "Dismisses a genuine concern. Certainty-seekers will disengage when concerns are waved away.",
+      "safe_alternative": "It's a fair concern. Here's exactly how it's handled: the £250 damage waiver, the AirCover platform insurance, and the guest vetting process."
+    },
+    {
+      "id": "DNS-006",
+      "phrase": "Take all the time you need",
+      "why_forbidden": "Kills momentum. Vague permission to delay is not helpful for either party.",
+      "safe_alternative": "Of course. What specifically do you need to feel ready? Let's get that in front of you now and agree on when we'll speak next."
+    },
+    {
+      "id": "DNS-007",
+      "phrase": "STR is always better than LTL",
+      "why_forbidden": "Not always true. Some properties or personal situations genuinely suit LTL better. Overclaiming damages credibility.",
+      "safe_alternative": "For your specific property and situation, the data shows STR generates [X] more per year. Let me show you the comparison."
+    },
+    {
+      "id": "DNS-008",
+      "phrase": "Rent-to-rent is fine, we can work with that",
+      "why_forbidden": "R2R model is structurally incompatible with Stayful in most cases. Saying yes without verifying landlord consent creates a serious liability.",
+      "safe_alternative": "Let me understand the lease arrangement first. Does your landlord know you're running STR? We'd need them as the contracting party."
+    },
+    {
+      "id": "DNS-009",
+      "phrase": "Your property will be perfect for Airbnb",
+      "why_forbidden": "Overselling without data. If performance disappoints, trust is destroyed.",
+      "safe_alternative": "Based on what you've told me, I'd expect your property to perform like [comparable]. Let me pull the STR net analyser to confirm."
+    },
+    {
+      "id": "DNS-010",
+      "phrase": "We manage hundreds of properties" [if untrue]",
+      "why_forbidden": "Stayful manages approximately 70 properties. Overstating scale is a lie that can be easily checked.",
+      "safe_alternative": "We have around 70 properties across Leicestershire and Leeds. That means Zac knows every owner personally. You won't be a number."
+    },
+    {
+      "id": "DNS-011",
+      "phrase": "The London 90-day rule doesn't apply to you",
+      "why_forbidden": "Do NOT make this claim without verifying planning status. Incorrect advice could expose the owner to enforcement action.",
+      "safe_alternative": "For London properties, there's a 90-day annual limit under planning rules unless you have an exemption. We'd need to verify your property's planning status before proceeding."
+    },
+    {
+      "id": "DNS-012",
+      "phrase": "STR income is very stable month to month",
+      "why_forbidden": "It isn't. Seasonal variance is real. Claiming otherwise builds false expectations.",
+      "safe_alternative": "There is seasonal variation — summer peaks, winter dips. The annual average is strong. Here's the month-by-month breakdown."
+    },
+    {
+      "id": "DNS-013",
+      "phrase": "Tax isn't really an issue",
+      "why_forbidden": "Tax is absolutely an issue for some owners, especially overseas residents. This is not Stayful's area to dismiss.",
+      "safe_alternative": "Tax treatment varies by situation. I'd recommend running it past your accountant. I'm not a tax adviser, but I can share how most of our owners handle it."
+    },
+    {
+      "id": "DNS-014",
+      "phrase": "Just sign and you can sort the details later",
+      "why_forbidden": "Rushing anyone to sign without understanding the agreement creates churn, disputes, and damaged trust.",
+      "safe_alternative": "Read through the agreement at your own pace. Here are the three main things to look at: [explain]. Any questions before you sign?"
+    },
+    {
+      "id": "DNS-015",
+      "phrase": "[Minimising the brothel/serious trauma]" [re: entry 016 Ihsan],
+      "why_forbidden": "NEVER minimise what happened to Ihsan. His property was used for criminal activity under a previous management arrangement. This caused severe personal harm. Full operational guest vetting detail is required.",
+      "safe_alternative": "What happened to you was completely unacceptable and I understand why trust is the core issue. Let me walk you through exactly how we vet every guest before they step foot in a property."
+    },
+    {
+      "id": "DNS-016",
+      "phrase": "We can do 12% for you" [unless it's entry 014 Andrew McIntee]",
+      "why_forbidden": "12%+VAT has been offered exactly once in the entire portfolio history. It is an exceptional case. Offering it without Zac's explicit approval is not permitted.",
+      "safe_alternative": "Our standard rate is 15%. For the right situation, 13% is possible. Anything below that requires specific approval."
+    },
+    {
+      "id": "DNS-017",
+      "phrase": "Our competitors aren't as good as us" [naming them]",
+      "why_forbidden": "Naming and criticising competitors is unprofessional and can backfire. Let Stayful's model speak for itself.",
+      "safe_alternative": "I'll let you compare us directly. Here's specifically what Stayful does: [list the differentiators without naming competitors]."
+    },
+    {
+      "id": "DNS-018",
+      "phrase": "We'll take any property",
+      "why_forbidden": "Stayful is selective. Not every property is suitable for STR. Taking poor-fit properties damages portfolio quality and owner satisfaction.",
+      "safe_alternative": "Let me assess whether your property is a good fit first. Not every property performs well on STR and I'd rather tell you that upfront than sign you up and disappoint you."
+    }
+  ]
+}

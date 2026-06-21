@@ -1,0 +1,71 @@
+{
+  "schema_version": "3.0",
+  "file": "closing-scripts",
+  "description": "Tested closing scripts for different scenarios and archetypes. Use as guidance, not scripts verbatim. Adapt to the specific lead and conversation.",
+  "scripts": [
+    {
+      "id": "CLOSE-001",
+      "scenario": "Urgency-driven lead who is ready",
+      "archetype": "urgency-driven",
+      "green_lights": ["GL-TIME", "GL-SELF"],
+      "script": "You've said you want to get this live as soon as possible. Here's what happens next: I send you the management agreement today, you sign it, and we book the photographer for [specific near date]. The listing goes live within a week. First bookings usually come in within 24-48 hours of going live. Do you want me to send the agreement now while we're on the call?",
+      "notes": "Speed and specificity are key. Give them exact dates. Make the next step immediate and concrete."
+    },
+    {
+      "id": "CLOSE-002",
+      "scenario": "Certainty-seeker who has seen everything but not committed",
+      "archetype": "certainty-seeker",
+      "green_lights": ["GL-TIME"],
+      "script": "I know you like to have everything clear before deciding, which I respect. You've seen the management agreement, the income figures, the damage protection terms. Is there one specific thing that you still need to feel ready? Not trying to rush you — I just want to make sure I've given you everything you need.",
+      "notes": "Name the certainty need explicitly. Don't push. Identify the one remaining gap and fill it."
+    },
+    {
+      "id": "CLOSE-003",
+      "scenario": "Deadline offer for a stalled interested lead",
+      "archetype": "urgency-driven or analytical-evaluator",
+      "green_lights": ["GL-MGMT", "GL-TIME"],
+      "script": "I want to offer you something. If you're able to sign the management agreement by [specific date — end of month or similar], I can hold the rate at 13% rather than our standard 15% for the initial 12 months. After that date it goes back to 15%. It's not pressure — if you need more time, we stay at 15%. But if you were going to do this anyway, this saves you money. Shall I send the agreement with the 13% noted?",
+      "notes": "Only use for EX-STL or clear high-intent leads who have stalled after 2+ follow-ups. Date must be specific. Frame as a benefit, not a pressure."
+    },
+    {
+      "id": "CLOSE-004",
+      "scenario": "Analytical evaluator who has run the numbers",
+      "archetype": "analytical-evaluator",
+      "green_lights": ["GL-SELF"],
+      "script": "You've had the figures, the agreement, and the analyser. Based on your own numbers, does the case stack up? [Wait for their answer.] If yes: great — the next step is straightforward. If no: what number is wrong? Let me fix it or explain it.",
+      "notes": "Analytical leads respond to being asked directly for their conclusion. Don't oversell — ask them to make their own case."
+    },
+    {
+      "id": "CLOSE-005",
+      "scenario": "Lead who needs to speak to partner",
+      "archetype": "certainty-seeker",
+      "green_lights": [],
+      "script": "Completely understand. I'll send everything over now so you both have it in front of you. Can I suggest a quick call with both of you on [day]? Often easier to answer questions together than through messages. Alternatively, I can put together a one-page summary for you to share with them — just the key numbers and terms. Which would be more helpful?",
+      "notes": "Offer both a call and a summary. Either option keeps momentum. Always confirm a specific follow-up date."
+    },
+    {
+      "id": "CLOSE-006",
+      "scenario": "Betrayal-damaged lead who is warming up but not there yet",
+      "archetype": "betrayal-damaged",
+      "green_lights": [],
+      "script": "I'm not going to push for a decision today. You've been let down before and it makes complete sense that you want to be sure. What I'd like to do is stay in touch, give you time to feel confident, and answer any questions that come up. Is a monthly check-in call something that would work for you? No agenda — just keeping the conversation going.",
+      "notes": "Never rush betrayal-damaged leads. Monthly check-in is appropriate. Trust is built over time."
+    },
+    {
+      "id": "CLOSE-007",
+      "scenario": "DLY-TEN lead with tenant leaving in 4-6 weeks",
+      "archetype": "any",
+      "green_lights": ["GL-TIME"],
+      "script": "Your tenant's leaving in [X] weeks. That's actually perfect timing. Let's sign the agreement now so we're ready to move immediately when they're out. I can have the photographer booked for the day after their last night — sometimes we can even shoot while the property is being cleaned. This way you have zero gap between tenant leaving and first STR booking.",
+      "notes": "The imminent tenant exit is the trigger. Convert the delay into urgency. Act on the window."
+    },
+    {
+      "id": "CLOSE-008",
+      "scenario": "Loss-averse lead who keeps comparing to LTL income",
+      "archetype": "loss-averse-switcher",
+      "green_lights": [],
+      "script": "Let me put the worst case on the table. If we have a bad January and February — which does happen — your net income would be around X per month. That's [equal to / slightly below / above] your current LTL rent of Y. Every other month is higher. Is that worst case something you can absorb, given the annual total is significantly higher?",
+      "notes": "Show the floor, not just the ceiling. Loss-averse leads need to know the worst case before they can commit."
+    }
+  ]
+}

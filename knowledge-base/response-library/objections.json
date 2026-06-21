@@ -1,0 +1,161 @@
+{
+  "schema_version": "3.0",
+  "file": "objections",
+  "description": "Scripted responses to the most common objections raised across 70 Stayful sales meetings. Each response includes the objection trigger, the underlying fear, and a tested response framework.",
+  "objections": [
+    {
+      "id": "OBJ-001",
+      "objection": "15% is too high",
+      "underlying_fear": "Management fee eats too much of the profit",
+      "frequency": "HIGH",
+      "archetypes": ["analytical-evaluator", "fast-path-gain-focused"],
+      "response": "The 15% is our management fee. But let's look at what you actually keep. Your current LTL income is X per month. Stayful STR net, after our fee and all platform costs, is Y per month. That's Z more in your pocket. The 15% isn't a cost — it's how you access income that wouldn't exist otherwise.",
+      "supporting_data": "Show the STR net analyser. Make the fee look small relative to the income uplift.",
+      "if_still_objecting": "Offer to send the full breakdown in writing. For high-value EX-STL leads who are committed but fee-blocked, 13% is available as a tactical close.",
+      "never_say": "We can negotiate on the fee."
+    },
+    {
+      "id": "OBJ-002",
+      "objection": "What happens if a guest damages my property?",
+      "underlying_fear": "I will be left out of pocket and Stayful won't cover it",
+      "frequency": "HIGH",
+      "archetypes": ["certainty-seeker", "betrayal-damaged"],
+      "response": "Every booking includes a £250 damage waiver built into the guest payment. On top of that, Airbnb provides AirCover — up to £3 million in host guarantee protection. Zac also has a direct line to every guest and vets profiles before accepting. In practice, significant damage is extremely rare — and when it does happen, there is a clear claims process.",
+      "supporting_data": "Can reference specific damage incidents handled cleanly if appropriate.",
+      "if_still_objecting": "Offer to include the damage protection mechanism in the management agreement so it is formally documented.",
+      "never_say": "Damage almost never happens, don't worry about it."
+    },
+    {
+      "id": "OBJ-003",
+      "objection": "I'm worried about void periods / what if you can't fill it?",
+      "underlying_fear": "STR income is unreliable, especially in winter",
+      "frequency": "HIGH",
+      "archetypes": ["loss-averse-switcher", "certainty-seeker"],
+      "response": "Let me show you what the income actually looks like month by month. Winter is slower — I won't pretend it isn't. But even in January, comparable properties in your area generate X. The annual average, including summer peaks, is Y. That's still materially above your current LTL rent of Z.",
+      "supporting_data": "Show seasonal income data. Give a specific January floor figure.",
+      "if_still_objecting": "Remind them they can exit on 3 months' notice if it doesn't work. The risk is capped.",
+      "never_say": "We always achieve 90%+ occupancy year-round."
+    },
+    {
+      "id": "OBJ-004",
+      "objection": "I need to think about it",
+      "underlying_fear": "Not yet ready to commit — may be certainty gap or decision fatigue",
+      "frequency": "HIGH",
+      "archetypes": ["certainty-seeker", "status-quo-resistant", "betrayal-damaged"],
+      "response": "Of course. What specifically would help you feel ready to decide? Is it the income figures, the contract terms, talking to someone else who's done it? Tell me the one thing that would move you forward and I'll get it to you today.",
+      "supporting_data": "Identify the specific gap. Send the relevant document the same day.",
+      "if_still_objecting": "Set a specific follow-up time, not 'I'll be in touch'. Agree on a call date before ending the meeting.",
+      "never_say": "Take all the time you need, no rush at all."
+    },
+    {
+      "id": "OBJ-005",
+      "objection": "I need to speak to my partner first",
+      "underlying_fear": "Can't make unilateral decision / partner may not agree",
+      "frequency": "HIGH",
+      "archetypes": ["certainty-seeker"],
+      "response": "Completely understand. Would it help if I sent over the management agreement and income breakdown so you both have it in front of you when you discuss? I can also jump on a quick call with both of you if that would help — sometimes easier to ask questions together.",
+      "supporting_data": "Send documents immediately. Offer joint call proactively.",
+      "if_still_objecting": "Schedule a specific follow-up call for after the partner conversation. Don't leave it open-ended.",
+      "never_say": "Just sign up and your partner will see it makes sense."
+    },
+    {
+      "id": "OBJ-006",
+      "objection": "How do I know you're different from my last management company?",
+      "underlying_fear": "Will get let down again like before",
+      "frequency": "MEDIUM",
+      "archetypes": ["betrayal-damaged", "social-proof-dependent"],
+      "response": "Tell me specifically what went wrong with them. I want to understand exactly what happened before I make any claim about being different. [Listen fully.] OK — here's specifically how we handle that: [address their exact failure point]. I manage 70 properties personally. When something goes wrong, you call me directly, not a call centre.",
+      "supporting_data": "Address their specific failure point, not generic claims.",
+      "if_still_objecting": "Offer to connect them with an existing owner who had a similar bad experience elsewhere. Social proof from a peer is more powerful than Zac's own claims.",
+      "never_say": "All management companies make mistakes, that's just how it is."
+    },
+    {
+      "id": "OBJ-007",
+      "objection": "I'm worried about the type of guests",
+      "underlying_fear": "Property used for parties, antisocial behaviour, or (in extreme cases) illegal activities",
+      "frequency": "MEDIUM",
+      "archetypes": ["certainty-seeker", "betrayal-damaged"],
+      "response": "Guest vetting is done before every booking. We review every profile: reviews from other hosts, booking history, and direct communication before accepting. We don't accept instant book on problematic booking patterns. One and two-night bookings on weekends are treated with more scrutiny. Guests also agree to our house rules, and we can add a security deposit for additional protection.",
+      "supporting_data": "For entry 016 Ihsan specifically: address brothel concern in full operational detail — guest identity verification, ID checking, no back-to-back one-night weekend bookings without profile review, direct pre-stay messaging protocol.",
+      "if_still_objecting": "Offer to show them the exact vetting process in writing as part of the management agreement.",
+      "never_say": "We've never had a problem with guests."
+    },
+    {
+      "id": "OBJ-008",
+      "objection": "I want to manage it myself to save the fee",
+      "underlying_fear": "15% is a lot of money for something I could do myself",
+      "frequency": "MEDIUM",
+      "archetypes": ["fast-path-gain-focused", "status-quo-resistant"],
+      "response": "What is your time worth per hour? Self-managing a busy STR property typically takes 15-20 hours a month once you account for guest communication, check-ins, key management, cleaning coordination, maintenance, and platform optimisation. At professional rates, that's 300-400 pounds of your time. Plus, Stayful's dynamic pricing and direct booking network (40% of bookings) typically adds 10-15% to gross income compared to self-managed listings. The fee pays for itself.",
+      "supporting_data": "Show a specific income comparison between a self-managed and Stayful-managed comparable property if available.",
+      "if_still_objecting": "Let them try managing it themselves first if they're unsure. Offer to revisit in 6 months. Many come back.",
+      "never_say": "It's really not that much work, you'll be fine."
+    },
+    {
+      "id": "OBJ-009",
+      "objection": "The contract length is too long",
+      "underlying_fear": "Locked in if it doesn't work",
+      "frequency": "MEDIUM",
+      "archetypes": ["certainty-seeker", "status-quo-resistant"],
+      "response": "It's a 6-month initial term, then 3 months' notice after that. The 6 months lets us complete a full seasonal cycle — you see summer and shoulder season. After that, you're on rolling 3-month notice. It's not a trap — it's so we can make the investment in your property (photography, listing creation, pricing setup) knowing we have time to deliver results.",
+      "supporting_data": "Frame the 6-month term as an investment protection for both sides, not a lock-in.",
+      "if_still_objecting": "The management agreement protects the owner as much as Stayful. Offer to walk through the exit clauses specifically.",
+      "never_say": "It's only 6 months, it'll fly by."
+    },
+    {
+      "id": "OBJ-010",
+      "objection": "I'm not sure STR is right for my property",
+      "underlying_fear": "Property won't perform well enough to make it worthwhile",
+      "frequency": "MEDIUM",
+      "archetypes": ["certainty-seeker", "analytical-evaluator"],
+      "response": "Let me run the STR net analyser for your specific property. Based on your postcode, bedroom count, and comparable properties, here's what similar properties achieve. [Show figures.] The question isn't whether STR works in general — it's whether it works for YOUR specific property. The data says [X].",
+      "supporting_data": "Always run the STR net analyser before this objection surfaces. Have the figures ready.",
+      "if_still_objecting": "Invite them to review comparable properties on Airbnb in their area to see live pricing themselves.",
+      "never_say": "Every property does well on Airbnb."
+    },
+    {
+      "id": "OBJ-011",
+      "objection": "Can I use the property myself during certain times?",
+      "underlying_fear": "Losing access to my own property",
+      "frequency": "MEDIUM",
+      "archetypes": ["certainty-seeker"],
+      "response": "Yes, absolutely. You block out whatever dates you want in the calendar. We just ask for as much notice as possible so we don't take bookings for those periods. Your property — you decide when it's available.",
+      "supporting_data": "No specific data needed. This is a simple yes.",
+      "if_still_objecting": "N/A — this objection is resolved by the simple yes.",
+      "never_say": "You can use it but it reduces your income."
+    },
+    {
+      "id": "OBJ-012",
+      "objection": "I've heard STR income is unreliable",
+      "underlying_fear": "Month-to-month variability is stressful",
+      "frequency": "LOW",
+      "archetypes": ["loss-averse-switcher"],
+      "response": "STR income does vary month to month — that's true. But look at the annual picture. Over a full year, the average monthly income for comparable properties in your area is X. Even the worst month, January, generates Y. That compares to your current LTL of Z. The variability exists, but so does the premium.",
+      "supporting_data": "Show annual average not just peak months.",
+      "if_still_objecting": "Remind them of the 3-month exit clause after the initial 6 months. The risk is bounded.",
+      "never_say": "STR income is very stable."
+    },
+    {
+      "id": "OBJ-013",
+      "objection": "I need to think about the tax implications",
+      "underlying_fear": "STR income changes my tax situation in ways I don't understand",
+      "frequency": "LOW",
+      "archetypes": ["analytical-evaluator"],
+      "response": "Completely reasonable concern. STR income is taxable as rental income, same as LTL. The main difference is that furnished holiday let rules may apply depending on occupancy, which can have certain advantages. I'd recommend speaking to your accountant about your specific situation — I'm not a tax adviser. What I can say is that many of our owners find the tax position is similar to or better than LTL.",
+      "supporting_data": "Not Stayful's advice to give. Recommend accountant.",
+      "if_still_objecting": "Offer to wait until they've spoken to their accountant and follow up after.",
+      "never_say": "Tax isn't really an issue, don't worry about it."
+    },
+    {
+      "id": "OBJ-014",
+      "objection": "What's your occupancy rate?",
+      "underlying_fear": "The headline income figure is based on unrealistic occupancy",
+      "frequency": "HIGH",
+      "archetypes": ["analytical-evaluator", "certainty-seeker"],
+      "response": "Across the portfolio, we average around 75-80% occupancy annually. In summer, 90%+. In January, closer to 60%. I show you the full picture — not just the peak. The STR net analyser figures I've shared use realistic occupancy by month, not best case.",
+      "supporting_data": "Always use realistic figures. Never inflate occupancy to make income look better.",
+      "if_still_objecting": "Offer to show them comparable property booking calendars on Airbnb directly.",
+      "never_say": "We regularly achieve 95% occupancy."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "3.0",
+  "file": "questions",
+  "description": "Recommended questions for Zac to ask during sales meetings, organised by meeting stage. Built from analysis of what information was missing in loss cases and what accelerated conversion in win cases.",
+  "meeting_stages": [
+    {
+      "stage": "opening",
+      "label": "Meeting Opening (first 5 minutes)",
+      "purpose": "Establish context, understand what they already know, and identify the lead's energy level",
+      "questions": [
+        {"q": "How did you first hear about Stayful?", "why": "Reveals referral source and sets context for their level of knowledge about STR"},
+        {"q": "What was it about the idea of short-term letting that made you want to explore it?", "why": "Reveals primary motivation before any pitch. Listen carefully — this tells you the archetype."},
+        {"q": "What are you currently doing with the property?", "why": "Establishes baseline: LTL, self-managed STR, empty, or PURCH"}
+      ]
+    },
+    {
+      "stage": "discovery",
+      "label": "Discovery (5-20 minutes)",
+      "purpose": "Build full picture of the property, the lead's situation, and the real decision factors",
+      "questions": [
+        {"q": "Tell me about the property — bedrooms, location, what's it like?", "why": "Essential for STR net analyser. Also gives lead a chance to talk about something they care about."},
+        {"q": "What's the postcode?", "why": "Needed for accurate income projection. Also reveals London 90-day risk."},
+        {"q": "Is it currently furnished or unfurnished?", "why": "Identifies DLY-FUR. Also affects income projection."},
+        {"q": "Who lives there or who has access right now?", "why": "Identifies DLY-TEN, DLY-MOV. Critical for timeline."},
+        {"q": "What's your mortgage or rent on the property per month?", "why": "Establishes the financial baseline. The STR income vs mortgage gap is often the closing argument."},
+        {"q": "If you have an LTL in place, what are you receiving in rent?", "why": "Establishes the comparison point for loss-averse-switcher leads."},
+        {"q": "Have you had any experience with short-term letting before, either yourself or with another company?", "why": "Identifies EX-STL, R2R, or betrayal-damaged. Changes the entire pitch approach."},
+        {"q": "Is there a reason you're exploring this now rather than earlier?", "why": "Reveals the trigger event. Urgency-driven leads will give a clear trigger. Status-quo-resistant leads often can't answer this clearly."},
+        {"q": "Who else is involved in this decision?", "why": "Identify partner, spouse, business partner. If partner not in meeting, plan for it."},
+        {"q": "When would you realistically be able to start?", "why": "Establishes timeline. Identifies delay type and sets up action plan dates."}
+      ]
+    },
+    {
+      "stage": "pitch",
+      "label": "During Pitch",
+      "purpose": "Check comprehension and surface objections in real time",
+      "questions": [
+        {"q": "Does that figure make sense given your current rent?", "why": "Checks whether the income gap is landing. If they're not reacting positively, probe."},
+        {"q": "Is the 15% management fee the kind of thing you'd want to understand better?", "why": "Surfaces the fee objection before it becomes a blocker at close."},
+        {"q": "What questions does this raise for you?", "why": "Open invitation to surface objections now rather than after the meeting when they go quiet."}
+      ]
+    },
+    {
+      "stage": "close",
+      "label": "Closing",
+      "purpose": "Test commitment level and identify what is needed to convert",
+      "questions": [
+        {"q": "On a scale of 1 to 10, where are you on this right now?", "why": "Direct temperature check. Anything below 7 needs probing. 7-8 needs a specific action to close. 9-10 needs a document sent immediately."},
+        {"q": "What would it take to get from where you are to signing?", "why": "Surfaces the specific blocker. Don't guess — ask directly."},
+        {"q": "Is there a reason not to get the agreement sent over today so you have it?", "why": "Soft close. Sending the agreement is a low-commitment step that keeps momentum."},
+        {"q": "When can we speak again to move this forward?", "why": "Always end with a specific next step and date. Never leave a meeting with 'I'll be in touch'."},
+        {"q": "Is there anything I haven't covered that you'd want to know before deciding?", "why": "Catch-all for unspoken objections. Always ask before ending."}
+      ]
+    },
+    {
+      "stage": "follow-up-call",
+      "label": "Follow-Up Call",
+      "purpose": "Re-establish the conversation and move toward close",
+      "questions": [
+        {"q": "Have you had a chance to look at the documents I sent?", "why": "Establishes whether they engaged with the material."},
+        {"q": "Did anything stand out as a question or concern?", "why": "Surfaces blockers that emerged after they read the agreement."},
+        {"q": "Has anything changed since we last spoke?", "why": "May reveal a new trigger (tenant gave notice, partner agreed, financial change) that moves them to READY_NOW."}
+      ]
+    }
+  ]
+}
