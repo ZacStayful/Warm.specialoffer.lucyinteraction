@@ -1,0 +1,55 @@
+{
+  "schema_version": "3.0",
+  "file": "lost-reason-patterns",
+  "description": "Analysis of all lost leads across the 70-entry knowledge base. Identifies patterns in why leads were lost and what could have been done differently.",
+  "total_entries": 70,
+  "total_lost": 14,
+  "loss_rate_pct": 20,
+  "lost_leads": [
+    {"entry": "020", "name": "Boglarka", "profile": "SELL", "archetype": "status-quo-resistant", "reason": "Decided to sell property instead of STR. Could not make STR income compelling enough vs sale."},
+    {"entry": "022", "name": "Ada", "profile": "R2R", "archetype": "fast-path-gain-focused", "reason": "R2R model — landlord consent not secured. Structurally incompatible."},
+    {"entry": "023", "name": "Oliver", "profile": "SELL", "archetype": "status-quo-resistant", "reason": "Status-quo-resistant. Did not see compelling reason to change from selling."},
+    {"entry": "025", "name": "Rasheed", "profile": "R2R", "archetype": "fast-path-gain-focused", "reason": "R2R model. Abandoned."},
+    {"entry": "026", "name": "Nina", "profile": "PURCH", "archetype": "fast-path-gain-focused", "reason": "Purchase fell through or timing out. DLY-PUR risk materialised."},
+    {"entry": "027", "name": "Liam", "profile": "R2R", "archetype": "fast-path-gain-focused", "reason": "R2R model. Abandoned."},
+    {"entry": "029", "name": "Gary", "profile": "SELL", "archetype": "status-quo-resistant", "reason": "Status-quo-resistant sell profile. Did not convert."},
+    {"entry": "030", "name": "Shoaib", "profile": "STL-SW", "archetype": "status-quo-resistant", "reason": "Status-quo-resistant. No compelling trigger to change."},
+    {"entry": "032", "name": "Kes", "profile": "R2R", "archetype": "fast-path-gain-focused", "reason": "R2R model. Abandoned."},
+    {"entry": "035", "name": "Cassidy", "profile": "R2R", "archetype": "fast-path-gain-focused", "reason": "R2R model. Abandoned."}
+  ],
+  "loss_by_profile_type": {
+    "R2R": {"count": 5, "total_in_profile": 6, "loss_rate_pct": 83},
+    "SELL": {"count": 3, "total_in_profile": 3, "loss_rate_pct": 100},
+    "STL-SW": {"count": 2, "total_in_profile": 33, "loss_rate_pct": 6},
+    "PURCH": {"count": 1, "total_in_profile": 4, "loss_rate_pct": 25},
+    "EX-STL": {"count": 1, "total_in_profile": 12, "loss_rate_pct": 8},
+    "ABROAD": {"count": 0, "total_in_profile": 3, "loss_rate_pct": 0}
+  },
+  "loss_by_archetype": {
+    "status-quo-resistant": {"count": 4, "total_in_archetype": 6, "loss_rate_pct": 67},
+    "fast-path-gain-focused": {"count": 5, "total_in_archetype": 10, "loss_rate_pct": 50},
+    "analytical-evaluator": {"count": 1, "total_in_archetype": 11, "loss_rate_pct": 9},
+    "urgency-driven": {"count": 1, "total_in_archetype": 8, "loss_rate_pct": 12},
+    "certainty-seeker": {"count": 0, "total_in_archetype": 11, "loss_rate_pct": 0},
+    "loss-averse-switcher": {"count": 0, "total_in_archetype": 6, "loss_rate_pct": 0},
+    "betrayal-damaged": {"count": 0, "total_in_archetype": 10, "loss_rate_pct": 0},
+    "social-proof-dependent": {"count": 0, "total_in_archetype": 3, "loss_rate_pct": 0}
+  },
+  "top_loss_reasons": [
+    {"reason": "R2R structural incompatibility", "count": 5, "preventable": false, "note": "R2R model fundamentally incompatible with Stayful. Cannot be converted without direct owner engagement."},
+    {"reason": "Status quo preference with no trigger", "count": 3, "preventable": true, "note": "These leads needed a compelling income gap or a life event trigger. Quarterly re-engagement recommended."},
+    {"reason": "Decided to sell instead", "count": 3, "preventable": false, "note": "SELL profile leads had 100% loss rate. Decision to sell driven by factors beyond Stayful's control."},
+    {"reason": "Purchase fell through", "count": 1, "preventable": false, "note": "PURCH lead whose transaction did not complete. Not controllable."},
+    {"reason": "Competitor preference or churn", "count": 1, "preventable": true, "note": "EX-STL or STL-SW who chose different agent. Requires stronger differentiation on personal service."}
+  ],
+  "preventable_losses": 4,
+  "structural_losses": 10,
+  "key_insights": [
+    "R2R and SELL profiles are structurally high-loss — time investment should be minimal until structural blockers resolved",
+    "Status-quo-resistant leads need a life event trigger (tenant leaving, moving, financial pressure) — cannot be forced",
+    "Loss rate excluding R2R and SELL drops to approximately 6% — highly effective pipeline",
+    "Betrayal-damaged and certainty-seeker leads have 0% loss rate — patience pays off",
+    "PURCH leads need regular contact — purchase fall-through is the main risk"
+  ],
+  "pipeline_health": "Strong. 80% of leads remain active or nurture. Only 4 losses were potentially avoidable."
+}

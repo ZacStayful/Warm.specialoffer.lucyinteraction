@@ -1,0 +1,98 @@
+{
+  "schema_version": "3.0",
+  "file": "offer-timing-intelligence",
+  "description": "Analysis of offer use, timing, and effectiveness across all entries. Includes standard offer conditions, exceptional offers, and deadline psychology patterns.",
+  "default_rate": {
+    "rate": "15%+VAT",
+    "condition": "All standard leads",
+    "note": "This is the default. Do not reduce without good reason. Opening position should always be 15%."
+  },
+  "standard_offer": {
+    "rate": "13%+VAT",
+    "condition": "EX-STL leads or high-value competitive situations where 15% is a stated barrier to signing",
+    "note": "13% is the tactical reduction from 15%. Still profitable. Use when 15% is the objection and lead quality justifies it.",
+    "conversion_example": "Entry 019 Taj — 13%+VAT with deadline. CONVERTED."
+  },
+  "exceptional_offer": {
+    "rate": "12%+VAT",
+    "condition": "EXCEPTIONAL — SINGLE CASE IN ENTIRE PORTFOLIO",
+    "entry": "014",
+    "lead": "Andrew McIntee",
+    "note": "12%+VAT was offered exactly once. Do not replicate without explicit Zac approval. This was an exceptional competitive situation with a high-value analytical-evaluator who pushed hard on fees.",
+    "approved_by": "Zac",
+    "replication_status": "NEVER without explicit approval"
+  },
+  "deadline_psychology": {
+    "effectiveness": "HIGH",
+    "conversion_evidence": "Entry 019 Taj converted with a combination of income certainty (hospital proximity) AND a deadline offer. The deadline created urgency that closed the gap between interest and action.",
+    "how_to_use": [
+      "Set a specific date, not a vague soon",
+      "Tie to something real — month end, quarter end, photography slot availability",
+      "State clearly what expires: the reduced rate returns to 15% after the date",
+      "Follow up the day before the deadline"
+    ],
+    "when_to_use": [
+      "Lead is clearly interested but not converting after 2+ follow-ups",
+      "Urgency-driven archetype who needs an external push",
+      "EX-STL who is comparing options and needs to decide",
+      "End of quarter when timing is natural"
+    ],
+    "when_not_to_use": [
+      "Certainty-seeker who will feel rushed and disengage",
+      "Betrayal-damaged who will feel pressured and lose trust",
+      "Lead who has not yet seen the full picture",
+      "First or second meeting — too early"
+    ]
+  },
+  "green_light_signals": {
+    "GL-SELF": {
+      "code": "GL-SELF",
+      "description": "Self-managing and ready to hand over",
+      "conversion_rate_modifier": "+15%",
+      "note": "Lead has property and is already doing STR. Just needs to switch management. Fastest path to signing."
+    },
+    "GL-MGMT": {
+      "code": "GL-MGMT",
+      "description": "Currently with management company and ready to switch",
+      "conversion_rate_modifier": "+20%",
+      "note": "Already committed to managed STR. Comparing providers. High conversion probability when differentiation is clear."
+    },
+    "GL-TIME": {
+      "code": "GL-TIME",
+      "description": "Ready to start within 2 months",
+      "conversion_rate_modifier": "+25%",
+      "note": "Clear and near timeline. Property ready or nearly ready. Closing window is short — act fast or lose momentum."
+    }
+  },
+  "offer_usage_summary": {
+    "entries_with_reduced_rate": ["014", "019"],
+    "entries_at_12pct": ["014"],
+    "entries_at_13pct": ["019"],
+    "entries_at_15pct_default": "all remaining 68 entries",
+    "total_with_reduced_rate": 2,
+    "conversions_with_reduced_rate": 2,
+    "conversion_rate_among_offer_leads": 100
+  },
+  "converted_leads_summary": [
+    {
+      "entry": "019",
+      "name": "Taj",
+      "offer": "13%+VAT with deadline",
+      "archetype": "urgency-driven",
+      "profile": "EX-STL",
+      "green_lights": ["GL-TIME", "GL-MGMT"],
+      "conversion_factors": ["hospital proximity proved demand certainty", "13% offer removed fee objection", "deadline forced decision", "previous agent (Urban Rest) underperforming"]
+    },
+    {
+      "entry": "044",
+      "name": "Gareth Howard",
+      "offer": "15%+VAT standard",
+      "archetype": "analytical-evaluator",
+      "profile": "EX-STL",
+      "green_lights": ["GL-MGMT"],
+      "conversion_factors": ["existing Stayful client on another property", "trust already established", "new property needed same management", "no fee objection from existing relationship"]
+    }
+  ],
+  "key_insight": "Both converted leads were EX-STL profile. The highest conversion probability combination is EX-STL profile plus GL-MGMT green light. Deadline offer accelerates but trust and clear income gap are the primary drivers.",
+  "caution": "Reducing the fee too early removes a future lever. Keep 15% as the standard opening position and treat reduction as a closing tool, not an opening position."
+}
