@@ -1,0 +1,113 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "070",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-19",
+  "transcript_quality": "summary_only",
+  "lead_name": "Marcus Maxson",
+  "email": "mvtelero@gmail.com",
+  "monday_id": "11949406817",
+  "granola_meeting_id": "",
+  "address": "37 Balfour Road, Stapleford NG9 7GA",
+  "bedrooms": 1,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "Primary residence owner who travels frequently; wants professional STL management while away. 1-bed flat, 37 Balfour Road, Stapleford NG9 7GA. Key safe already in place. Property available from 16th August 2026 (Marcus away through end of year). Source: inline meeting summary (not Granola).",
+  "emotional_profile": "Pragmatic and analytical. Proactively raised ramp-up timeline, seasonality, and worst-case projections — research-led behaviour. Knows about Airbnb algorithm boosts and competitor review counts. Needs to trust Stayful can run everything hands-off while abroad. Clear go-live date set.",
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13% + VAT",
+  "offer_expiry": "2026-07-03",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-MOV"],
+  "delay_trigger_phrases": [
+    "Away from 16th August through end of year",
+    "Come back with a decision"
+  ],
+  "delay_timeline": "Property available from 16th August 2026. On-site windows: 3rd-4th and 11th-14th August for inspection/photography.",
+  "has_delay": true,
+  "green_light_types": ["GL-TIME"],
+  "green_light_trigger_phrases": [
+    "Target live date 16th August",
+    "Available for on-site visits 3rd-4th August and 11th-14th August"
+  ],
+  "has_green_light": true,
+  "entry_class": "READY_SOON",
+  "top_objections": [
+    {
+      "text": "Will income be lower initially until reviews build?",
+      "zac_response": "Yes — expect slightly lower returns until ~10-15 good reviews achieved. Worst-case ~15% below projections. New listings also get a platform boost in month one.",
+      "resolved": true
+    },
+    {
+      "text": "What is the seasonality pattern? When are the best and worst months?",
+      "zac_response": "July and August are best months. March is worst. Launching in August is good timing — rough season is ahead, not immediately behind.",
+      "resolved": true
+    },
+    {
+      "text": "What if projections aren't hit — what's the worst case?",
+      "zac_response": "~15% below projections until reviews build. Estimated 10-14 months to reach full competitive performance.",
+      "resolved": true
+    },
+    {
+      "text": "How does the Airbnb new listing algorithm boost work?",
+      "zac_response": "New listings get elevated visibility on platform in month one. Drop-off won't be severe as reviews start to accumulate.",
+      "resolved": true
+    }
+  ],
+  "top_questions": [
+    {
+      "text": "How long until I reach full revenue potential?",
+      "answer": "Estimated 10-14 months to reach full competitive performance. New listings get a platform boost in month one. Worst-case ~15% below projections until reviews build."
+    },
+    {
+      "text": "What are the best and worst months seasonally?",
+      "answer": "July and August are best. March is worst. Launching in August means the tough season comes later, not immediately."
+    },
+    {
+      "text": "How do I block dates or communicate ad hoc when I'm abroad?",
+      "answer": "Blocking via centralised calendar and Slack — drop a message to flag blocked dates or trigger a clean. Key safe means Marcus doesn't need to be present for any operational tasks."
+    },
+    {
+      "text": "What happens to my personal belongings while guests are in?",
+      "answer": "Recommend locking personal items in a restricted room or cupboard that guests never access."
+    }
+  ],
+  "what_moved_them": [
+    "Key safe already in place — eliminates biggest practical onboarding friction",
+    "Blocking via Slack and live calendar — visible, low-friction control from abroad",
+    "Personal items locked in a restricted room — simple practical solution accepted",
+    "6-month fixed term with 3-month rolling notice — not a long lock-in",
+    "Seasonality timing — launching at the start of a good period (August)"
+  ],
+  "what_fell_flat": [],
+  "conversion_gaps": [
+    {
+      "gap": "Offer expires 3 July — tight window, decision still pending",
+      "category": "urgency",
+      "how_to_fill": "Send written summary confirming discount. Highlight that delay past 3 July costs ~£167/week in missed August income."
+    },
+    {
+      "gap": "Decision not made on call — 'come back with a decision'",
+      "category": "commitment",
+      "how_to_fill": "Written summary with all discussed points to facilitate decision. Touch base before 3 July deadline."
+    }
+  ],
+  "offer_framing": "13% + VAT (standard 15%), expires 3 July 2026. Launching in August — good seasonal window. Delay past 3 July costs ~£167/week in missed August income.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "Touch base in a couple of weeks",
+  "zac_income_intro": "Figures based on comparable nearby properties (avg. 4.9 rating, ~73 reviews). Expect slightly lower returns until ~10-15 good reviews achieved. Worst-case: ~15% below projections.",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [
+    "New listings get a platform boost in month one — drop-off won't be severe",
+    "Worst-case: ~15% below projections until reviews build",
+    "Damage cover: up to £100,000 insurance for major incidents beyond the deposit",
+    "Payouts: statement on the 1st, payment between 1st and 5th for prior month's bookings"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "",
+  "ltl_monthly": ""
+}

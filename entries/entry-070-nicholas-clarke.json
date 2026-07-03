@@ -1,0 +1,126 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "070",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-26",
+  "transcript_quality": "good",
+  "lead_name": "Nicholas Clarke",
+  "email": "nickgclarke@icloud.com",
+  "monday_id": "12335729171",
+  "granola_meeting_id": "eca47cee-1b28-4093-af96-75875eaa0abd",
+  "address": "10 Kingston Road, Oxford OX2 6EF",
+  "bedrooms": 0,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "First-time STL setup from existing primary home. Self-contained basement studio, 10 Kingston Road, Oxford OX2 6EF. Own street-level access, kitchenette (hob, microwave, sink, no oven). No separate bedroom — competes with hotels/serviced accommodation. Residential mortgage with 90-day restriction on stays under 28 nights.",
+  "emotional_profile": "Highly motivated — property nearly ready, numbers make sense. Initial scepticism about software figures resolved honestly on call. Analytical: raised tax, compliance, mortgage restriction in detail. Needs wife buy-in before signing.",
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13% + VAT",
+  "offer_expiry": "2026-07-17",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-OTH"],
+  "delay_trigger_phrases": [
+    "I'll have a chat with my wife about it — she obviously makes decisions",
+    "I just wanted to check it with my mortgage lender"
+  ],
+  "delay_timeline": "~1 month (targeting late July 2026 live date)",
+  "has_delay": true,
+  "green_light_types": ["GL-TIME"],
+  "green_light_trigger_phrases": [
+    "I'd be open to that",
+    "Target live date approximately one month away"
+  ],
+  "has_green_light": true,
+  "entry_class": "READY_SOON",
+  "top_objections": [
+    {
+      "text": "Initial £73,620 gross figure flagged as suspicious — seemed too high for a studio",
+      "zac_response": "Acknowledged honestly in real time; revised range to £34k–£43k gross from Oxford comparables; corrected figures sent in follow-up email",
+      "resolved": true
+    },
+    {
+      "text": "Mortgage 90-day restriction on stays under 28 nights",
+      "zac_response": "Highlighted that 28+ night bookings don't count toward cap; long-stay blend worth exploring with mortgage lender",
+      "resolved": true
+    },
+    {
+      "text": "Short-let-only contract — wants to confirm terms before signing",
+      "zac_response": "Zac to confirm with partner by EOD 26 June 2026 whether Stayful can accommodate short-let-only basis",
+      "resolved": false
+    },
+    {
+      "text": "Are you Oxford-based?",
+      "zac_response": "Midlands/Leeds HQ, local Oxford cleaning and maintenance teams in place",
+      "resolved": true
+    },
+    {
+      "text": "Do laundry fees count towards the rental room allowance?",
+      "zac_response": "Suggested trading company structure — company pays lodger allowance of ~£7k/year tax-free, additional profits at corp tax rate",
+      "resolved": true
+    }
+  ],
+  "top_questions": [
+    {
+      "text": "Does the rental room allowance and laundry fee treatment work under a trading company structure?",
+      "answer": "Trading company suggested: company pays ~£7k/year lodger allowance tax-free, additional profits taxed at corp tax rate. Nick to confirm with accountant."
+    },
+    {
+      "text": "Is PAT testing mandatory for STL?",
+      "answer": "Not mandatory for short-term lets. EPC valid ~5 years (fine since bought 1 year ago). Gas safety annual. STL insurance required."
+    },
+    {
+      "text": "Can we sign on a short-let-only basis while I confirm mortgage restriction with lender?",
+      "answer": "Zac to confirm with partner by EOD whether short-let-only contract is possible."
+    },
+    {
+      "text": "Do 28-night stays count toward the 90-day mortgage restriction cap?",
+      "answer": "No — stays of 28 nights or more do not count toward the 90-day cap. Worth exploring long-stay blend with mortgage lender."
+    }
+  ],
+  "what_moved_them": [
+    "Trading company tax structure suggestion — visibly interested, hadn't thought of it",
+    "Long-stay workaround for 90-day mortgage restriction — 'I'd be open to that'",
+    "Zac's honesty in real time about the initial figures being wrong — built trust",
+    "13% management fee offer (discounted from 15%)",
+    "Stayful covering everything on the management side"
+  ],
+  "what_fell_flat": [
+    "Initial £73k software figures flagged as suspicious by Zac himself on the call — trust risk, though recovered well"
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Wife buy-in not established on call",
+      "category": "third_party",
+      "how_to_fill": "Frame the 17 July offer deadline with the July income opportunity (~£2,700 peak month) in follow-up email"
+    },
+    {
+      "gap": "Short-let-only contract terms not yet confirmed by Zac's partner",
+      "category": "product",
+      "how_to_fill": "Confirm by EOD 26 June as promised; include confirmation in follow-up email"
+    },
+    {
+      "gap": "Mortgage lender response unknown",
+      "category": "legal_structural",
+      "how_to_fill": "Reassure that 28-night stays don't count; this can be resolved in parallel with contract signing"
+    }
+  ],
+  "offer_framing": "13% + VAT (discounted from 15%), expires 17 July 2026. Peak July income of ~£2,700 is material urgency lever. Frictionless setup (~£675 cost).",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "Touch base in a couple of weeks",
+  "zac_income_intro": "Revised Oxford comparable range: large double room nearby ~£34k gross, self-contained annex with parking ~£43k gross. Nick's studio falls between — corrected midpoint £40k Y2 gross / £21,600 net.",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [
+    "28+ night bookings don't count toward the 90-day cap — worth exploring with your mortgage lender",
+    "PAT testing not mandatory for short-term lets",
+    "EPC is fine — bought a year ago, valid for ~5 more years"
+  ],
+  "zac_analogies": [
+    "Trading company structure: company pays Nick a lodger allowance of ~£7k/year tax-free, additional profits at corp tax rate"
+  ],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "~£1,800",
+  "ltl_monthly": ""
+}

@@ -1,0 +1,133 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "070",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-25",
+  "transcript_quality": "good",
+  "lead_name": "Hannah Robbins",
+  "email": "robbins.hannah@googlemail.com",
+  "monday_id": "12350222803",
+  "granola_meeting_id": "128aa551-8f00-4590-81b1-aa2f2aa9cb79",
+  "address": "7 Cranbrook Road, Flat 3, Bristol BS6 7BJ",
+  "bedrooms": 1,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Existing property switching from personal/vacant use to STL. 1-bed flat, 7 Cranbrook Road, Flat 3, Bristol BS6 7BJ. Owned 11 years. Currently empty — Hannah living at boyfriend's in Wimbledon Hill. Fully furnished (Scandi style), personal items to remove. Managed block with 4 neighbours; resident management company in place. Lease residential use clause issue. Kitchen needs work (new floor, general tidying).",
+  "emotional_profile": "Thoughtful and cautious — explicitly flagged 'early stage'. Primary objective is covering costs; confirmed figures achieve this. Not in a rush (no mortgage dependency on this income). Structural and legal concerns dominate. Engaged with Ltd company structure. Likes Slack. Patient lead — do not push urgency.",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-OTH", "DLY-FUR"],
+  "delay_trigger_phrases": [
+    "Just to manage your expectations — it's really early stage",
+    "My neighbours and management company may object to short-term letting",
+    "The kitchen needs work"
+  ],
+  "delay_timeline": "No confirmed start date; follow-up from 8th July 2026. Ltd company setup, lease/neighbour resolution, and kitchen work all outstanding.",
+  "has_delay": true,
+  "green_light_types": ["GL-TIME"],
+  "green_light_trigger_phrases": [
+    "I'll explore that [Ltd company structure]",
+    "Goal number one is covering costs — confirmed figures achieve this"
+  ],
+  "has_green_light": true,
+  "entry_class": "DELAYED",
+  "top_objections": [
+    {
+      "text": "My neighbours and management company may object to short-term letting",
+      "zac_response": "Ltd company as trading entity holds tenancy agreement; applies for business rates via VOA. Personal ownership stays personal — no stamp duty issue on remortgage.",
+      "resolved": false
+    },
+    {
+      "text": "There are residential use clauses in my lease — what do people typically do?",
+      "zac_response": "Ltd company structure: trading entity holds the STL agreement, not personal lease. VOA business rates registration removes council tax risk.",
+      "resolved": false
+    },
+    {
+      "text": "I want weekday-only lets to avoid neighbour issues and attract professional/corporate guests",
+      "zac_response": "Flagged income limitation of weekday-only. Recommended Minut noise/occupancy sensor as alternative to weekday-only restriction.",
+      "resolved": true
+    },
+    {
+      "text": "What about Bristol's proposed 90-day cap — is that going to be a problem?",
+      "zac_response": "Not yet enforceable. Only Greater London has a firm rule. Councils likely to move to licensing rather than outright bans.",
+      "resolved": true
+    },
+    {
+      "text": "Are there upfront costs beyond the management fee?",
+      "zac_response": "Photography ~£250 paid separately. No onboarding or setup fee from Stayful.",
+      "resolved": true
+    }
+  ],
+  "top_questions": [
+    {
+      "text": "Can I do weekday-only letting to avoid neighbour issues?",
+      "answer": "Possible but limits income significantly. Minut noise/occupancy sensor recommended as alternative — monitors guest behaviour without restricting booking days."
+    },
+    {
+      "text": "Is Bristol's 90-day cap enforceable?",
+      "answer": "Not yet enforceable. Only Greater London has a firm rule. Councils likely to move to licensing rather than outright bans on STL."
+    },
+    {
+      "text": "How do I handle the residential use clause in my lease?",
+      "answer": "Ltd company as trading entity holds the tenancy agreement; applies for business rates via VOA. Personal ownership stays personal — no stamp duty issue on remortgage."
+    },
+    {
+      "text": "What standard does the kitchen need to be?",
+      "answer": "Functionality prioritised over aesthetics. Professional photography is the key listing differentiator."
+    },
+    {
+      "text": "Are there upfront costs?",
+      "answer": "Photography ~£250 paid separately by Hannah. No onboarding or setup fee from Stayful."
+    }
+  ],
+  "what_moved_them": [
+    "Income figures cover costs — confirmed as satisfying her primary objective",
+    "Minut noise/occupancy sensor approach — 'that's interesting, I don't know' (positive signal, engaged with the idea)",
+    "Ltd company / tenancy agreement structure — 'I'll explore that' (actively useful, new to her)",
+    "Slack communication — 'I love Slack, so I was very pleased to see it'",
+    "Professional photography as the key listing differentiator"
+  ],
+  "what_fell_flat": [
+    "Weekday-only letting not fully accommodated — Hannah's initial preference can't be optimally met without significant income sacrifice"
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Lease clause and neighbour/management company approval needed before onboarding",
+      "category": "legal_structural",
+      "how_to_fill": "Provide Ltd company setup guidance in follow-up email; confirm VOA business rates process"
+    },
+    {
+      "gap": "Ltd company not yet set up for this purpose",
+      "category": "legal_structural",
+      "how_to_fill": "Recommend she speaks to accountant; offer to refer if needed"
+    },
+    {
+      "gap": "Kitchen work outstanding before photography can proceed",
+      "category": "property_readiness",
+      "how_to_fill": "Confirm minimum standard for onboarding — functionality over aesthetics; photography can proceed with minor kitchen work in progress"
+    }
+  ],
+  "offer_framing": "No offer made. Patient lead — do not push urgency. Mirror her language: 'covering costs', 'privacy', 'professional tenants'.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "Follow up from 8th July onwards",
+  "zac_income_intro": "Annual gross £51,120 / annual net £26,585 (~£2,215/month). Year 1 conservative 80% ramp: £21,268 net. LTL comparison £14,785/year. STL uplift +£11,800/year (+80%). Worst month Jan £1,657 net. Best month Jul £2,747 net.",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [
+    "Bristol 90-day cap not yet enforceable — only Greater London has a firm rule",
+    "Councils likely to move to licensing rather than outright bans",
+    "VOA business rates registration avoids double council tax risk",
+    "Ramp-up caveat: 18 months to 2 years to reach consistent top-of-market rates — acknowledged from the outset"
+  ],
+  "zac_analogies": [
+    "Minut noise/occupancy sensor as an alternative to weekday-only restrictions — monitors behaviour without limiting bookings",
+    "Ltd company as trading entity holds tenancy agreement — personal ownership stays personal, no stamp duty issue on remortgage"
+  ],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "~£2,215",
+  "ltl_monthly": "~£1,232"
+}
