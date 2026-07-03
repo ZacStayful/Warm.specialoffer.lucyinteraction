@@ -1,0 +1,78 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "068",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-17",
+  "transcript_quality": "good",
+  "lead_name": "Jamie Proudfoot",
+  "email": "jproudfoot@live.co.uk",
+  "monday_id": "12256993455",
+  "granola_meeting_id": "04548651-ad8d-42b2-8d6c-cf85d52d385a-00best9l",
+  "address": "106 Kestrel Road, Corby, NN17 5FP",
+  "bedrooms": 4,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "Moving to Vietnam on 14 July (4 weeks away). Property currently listed for sale with Good Move (~3 weeks, not selling). Mortgage £1,400/month, total bills ~£1,800/month. Traditional LTL would still run at a loss after bills. STL explored as alternative. Critical blocker: estate management company covenant may restrict STL — must be confirmed before anything progresses.",
+  "emotional_profile": "Pragmatic and time-pressured — flying in 4 weeks. Frustrated property isn't selling. Open to STL as Plan B to cover bills. Not a classic STL enthusiast; primarily wants the property to pay for itself while he's in Vietnam. The contractor demand story (construction project directly opposite) resonated well.",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-LGL", "DLY-MOV"],
+  "delay_trigger_phrases": [
+    "Management company already restricts things like garage modifications",
+    "Estate management company covenant may restrict STL",
+    "Touch base in a couple of weeks once I have the answer",
+    "Flying July 14"
+  ],
+  "delay_timeline": "Jamie flies 14 July. Must confirm covenant clearance before proceeding. Expected to contact Zac late June / early July once he has the answer.",
+  "has_delay": true,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "NURTURE",
+  "top_objections": [
+    {"text": "Leasehold/covenant restriction: estate management company has strict rules; STL not yet confirmed as permitted", "zac_response": "Acknowledged as a hard gate — must be confirmed before proceeding. Nothing else can progress until cleared.", "resolved": false},
+    {"text": "Figure accuracy: comparable data from nearby properties, not the estate itself — accuracy uncertain", "zac_response": "Acknowledged; early mover advantage on estate if covenant clears (no direct comparable STL properties)", "resolved": false},
+    {"text": "Cash flow timing: bills come out 1st; Stayful pays 1st-5th — tight timing", "zac_response": "Moving bill payment dates from 1st to ~15th of month — Jamie acknowledged this is manageable", "resolved": true},
+    {"text": "Maintenance costs and sign-off process from Vietnam", "zac_response": "Maintenance pre-approved up to £300; anything above requires Slack sign-off", "resolved": true},
+    {"text": "Location is fairly remote/rural, not a typical tourist draw", "zac_response": "Large construction project directly across the road is primary demand driver; Amazon and RS Components also within commuting distance", "resolved": true}
+  ],
+  "top_questions": [
+    {"text": "Does the estate management company covenant allow short-term letting?", "answer": "Unknown — Jamie must check directly with the management company. This is the critical gate before anything else can proceed."},
+    {"text": "Will STL significantly outperform LTL for this property?", "answer": "STL Y2 net ~£1,217/month vs LTL ~£1,217/month — essentially identical in net income terms. The real value is operational control: no sitting tenant, clean sale option when ready, fully managed from Vietnam via Slack."},
+    {"text": "How does Stayful handle maintenance when I'm in Vietnam?", "answer": "Pre-approved up to £300 with no need to contact you; anything above requires Slack sign-off from you."}
+  ],
+  "what_moved_them": [
+    "Contractor bookings as primary demand driver — large construction project directly opposite the property",
+    "Weak competition on the estate (no direct comparable STL properties = early mover advantage)",
+    "Fully managed hands-off service while in Vietnam",
+    "Maintenance pre-approval process up to £300 with Slack for anything above",
+    "Monthly statements with full visibility"
+  ],
+  "what_fell_flat": [
+    "STL does not dramatically outperform LTL on net income for this property — both ~£1,217/month Y2 average",
+    "Rural/non-tourist location needed active demand-driver framing to overcome"
+  ],
+  "conversion_gaps": [
+    {"gap": "Covenant clearance is a hard gate — nothing progresses until confirmed", "category": "legal", "how_to_fill": "Jamie to contact estate management company directly and confirm STL is permitted before Zac can proceed with onboarding"},
+    {"gap": "STL vs LTL income delta is negligible — value proposition is operational not financial", "category": "positioning", "how_to_fill": "Lead on control (no sitting tenant, clean sale option, full management from Vietnam) rather than income uplift"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "Annual gross £26,604, annual net to owner £14,602 (£1,217/month average). Year 1 at 80% ramp: £21,283 gross / £11,682 net. ADR ~£172/night. LTL monthly net equivalent ~£1,217/month — essentially identical to Y2 STL net.",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [
+    "Maintenance is pre-approved up to £300 — we don't need to bother you for anything small",
+    "You've got a construction project directly across the road — that's your demand driver, not tourists",
+    "No sitting tenant means a clean sale the moment you're ready — STL keeps that option open"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£1,400/month mortgage; ~£1,800/month total bills",
+  "str_net_monthly": "~£1,217/month (£14,602/year Y2 average)",
+  "ltl_monthly": "~£1,217/month (equivalent Y2 comparison)"
+}

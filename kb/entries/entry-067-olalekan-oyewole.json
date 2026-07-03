@@ -1,0 +1,75 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "067",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-17",
+  "transcript_quality": "good",
+  "lead_name": "Olalekan Oyewole",
+  "email": "oyewole_99@yahoo.com",
+  "monday_id": "12251222693",
+  "granola_meeting_id": "c4db5043-3c61-4ff9-a0a7-addd27f00d93-00best9l",
+  "address": "71 Chesterfield Road, Ponders End, Enfield, EN3 6BE",
+  "bedrooms": 3,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "Second KB entry for same Olalekan Oyewole meeting (2026-06-17). Moving abroad; property owned outright — no mortgage. Monthly running costs ~£252/month (gas £42, WiFi £35, council tax £175). One room may be missing a bed. Departing the country; needs property generating income before departure. Turkey Street National Rail station ~3 min walk (Lea Valley line).",
+  "emotional_profile": "No financial pressure from mortgage but motivated to maximise idle asset value while abroad. Key risk is post-departure decision delays — Slack channel and full remote management capability need to be foregrounded. Setup barrier is minimal.",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-MOV"],
+  "delay_trigger_phrases": [
+    "Arrange key safes before departure",
+    "Book kickoff call once agreement returned",
+    "One room may be missing a bed"
+  ],
+  "delay_timeline": "Departing imminently; agreement signing is next trigger; kickoff call to follow; go-live ~2-3 weeks from agreement",
+  "has_delay": true,
+  "green_light_types": ["GL-TIME"],
+  "green_light_trigger_phrases": [
+    "Arrange key safes before departure",
+    "Moving abroad",
+    "Book kickoff call once agreement returned"
+  ],
+  "has_green_light": true,
+  "entry_class": "READY_SOON",
+  "top_objections": [
+    {"text": "Ramp-up period: expects 10-15% below projections initially, 6-10 months to full figures", "zac_response": "Acknowledged honestly; break-even is minimal given no mortgage", "resolved": true},
+    {"text": "Competition noted: moderate, average ~19 reviews per listing in the area", "zac_response": "Transport links (Turkey Street 3 min) and Barnet Hospital nearby (~12.77km) provide non-leisure demand", "resolved": false},
+    {"text": "One room may be missing a bed — to confirm via photos", "zac_response": "Stayful can order furniture and handle setup if needed", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "Can Stayful fully manage the property while I am abroad?", "answer": "Yes — full remote management. Central booking calendar, Slack channel, monthly income statement on 1st, payout between 1st and 5th. Owner does not need to be in the country."},
+    {"text": "How quickly can we go live?", "answer": "2-3 weeks from signed agreement; first bookings within 72 hours of going live"}
+  ],
+  "what_moved_them": [
+    "Clear profit position: all net income above £252/month running costs is clear profit with no mortgage",
+    "Simple setup: only photos (~£250) and key safes (~£30) needed",
+    "Fast go-live: 2-3 weeks from signed agreement, first bookings within 72 hours",
+    "Full remote management — owner doesn't need to be in the country",
+    "Booking calendar visibility + monthly statements"
+  ],
+  "what_fell_flat": [],
+  "conversion_gaps": [
+    {"gap": "Risk of going cold after departure if decision not made before leaving", "category": "timing", "how_to_fill": "Create urgency: July peak at £2,343 net — sign before departure to capture peak month from day one"},
+    {"gap": "Missing bed in one room is an unknown pre-sign", "category": "operational", "how_to_fill": "Request photos immediately; confirm whether bed purchase is needed; Stayful can order and arrange"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "Gross revenue ~£37,608/year; net ~£19,554 (~£1,630/month). Worst month February ~£1,132; best month July ~£2,343. Ramp-up: 6-10 months to full figures, expect 10-15% below initially.",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [
+    "You don't need to be in the country — we handle everything",
+    "First bookings within 72 hours of going live",
+    "Monthly statement hits on the 1st, payout between 1st and 5th — wherever you are in the world"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "none (cash property, fully owned)",
+  "str_net_monthly": "~£1,630/month (~£19,554/year)",
+  "ltl_monthly": ""
+}

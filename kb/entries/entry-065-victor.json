@@ -1,0 +1,71 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "065",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-16",
+  "transcript_quality": "good",
+  "lead_name": "Victor (Taoyuanqing)",
+  "email": "taoyuanqing@gmail.com",
+  "monday_id": "12014212606",
+  "granola_meeting_id": "c62ae67b-a28e-4e06-95b3-ec9508bea832",
+  "address": "56 Philadelphia House, 6 Cross Bedford Street, Sheffield, S6 3BS",
+  "bedrooms": 2,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "Property is already operating as STL via a rent-to-rent agency at a fixed £900/month. Furnished and at spec. Victor (taoyuanqing@gmail.com) and a second participant (lichunxiaouk@gmail.com) — likely joint owners or couple. Seeking professional direct management to own the listing, reviews, and income visibility themselves.",
+  "emotional_profile": "Familiar with STL concept but zero direct ownership of listing, reviews, or income visibility. Detail-oriented — wants full cost transparency and to be kept informed. The financial case for switching is marginal; primary levers are control, AirCover protection, and flexibility.",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-TEN"],
+  "delay_trigger_phrases": [
+    "Negotiate with the existing rent-to-rent operator to leave furnishings in place",
+    "Reviews: can reviews survive the R2R-to-owner transition?"
+  ],
+  "delay_timeline": "Pending: sharing Airbnb listing link; negotiating exit from R2R operator; assessing listing transfer feasibility",
+  "has_delay": true,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "NURTURE",
+  "top_objections": [
+    {"text": "Understanding all the costs involved (management fees, platform fees, cleaning, software)", "zac_response": "Costs walked through in detail during the meeting", "resolved": true},
+    {"text": "Not being kept informed — wants full visibility on what's happening with the property", "zac_response": "Slack channel, live calendar, monthly income statements offered", "resolved": true},
+    {"text": "Review building for a new or transferred listing — can reviews survive the R2R-to-owner transition?", "zac_response": "Assessed on case-by-case basis; listing transfer possible if existing photos and reviews are strong", "resolved": false},
+    {"text": "Photography uncertainty — will existing listing photos work or is a new shoot needed?", "zac_response": "Assess existing listing first; if reviews flag photo mismatch, arrange new shoot; if reviews strong, try listing transfer", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "Can Stayful transfer the existing Airbnb listing and reviews rather than starting a new one?", "answer": "Assessed on a case-by-case basis — need to review existing listing. If photos and reviews are strong, listing transfer is the preferred route. If reviews are weak or photo mismatch exists, fresh listing with new shoot."},
+    {"text": "How does Stayful handle bad reviews?", "answer": "Snagging process: property inspection triggered, then contractors if needed. ~1 in 4 bookings converts to a review; majority are 5-star."}
+  ],
+  "what_moved_them": [
+    "AirCover protection — £2.5M damage cover vs zero under current R2R arrangement",
+    "Full visibility and control — Slack channel, live calendar, monthly statements",
+    "Practical negotiation strategy: ask existing R2R operator to leave furnishings in place",
+    "Honest framing of the ramp-up phase — no oversell"
+  ],
+  "what_fell_flat": [
+    "Financial uplift case is marginal: STL Y2 net ~£10,066 vs current R2R fixed £10,800 — switching is not obviously financially superior"
+  ],
+  "conversion_gaps": [
+    {"gap": "Financial case for switching is marginal (STL Y2 net ~£10,066 vs R2R fixed ~£10,800)", "category": "financial", "how_to_fill": "Frame the conversion on control, AirCover, listing ownership, personal use flexibility, and upside potential — not pure income lift"},
+    {"gap": "Listing transfer feasibility unknown until Airbnb link reviewed", "category": "operational", "how_to_fill": "Victor to share existing Airbnb listing link; assess photos and reviews; confirm transfer or fresh listing route before moving forward"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "Gross ~£18,251/year; net ~£10,066/year (~£839/month average). Peak month July ~£1,077 net. Top-performing comparable listings hitting ~£40,000 gross. Comparables all within 1km.",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [
+    "If we can do a listing transfer — keep the existing photos and reviews — go-live is rapid and you could capture July peak",
+    "AirCover is £2.5M damage cover — that's protection you currently have zero of under the R2R arrangement"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£450/month",
+  "str_net_monthly": "~£839/month (~£10,066/year)",
+  "ltl_monthly": "£900/month (current R2R fixed income)"
+}

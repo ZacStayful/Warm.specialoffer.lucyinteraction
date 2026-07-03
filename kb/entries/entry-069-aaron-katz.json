@@ -1,0 +1,79 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "069",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-18",
+  "transcript_quality": "partial",
+  "lead_name": "Aaron Katz",
+  "email": "aharon.katz66@gmail.com",
+  "monday_id": "12290339325",
+  "granola_meeting_id": "",
+  "address": "114 Fifth Avenue, Tang Hall, York, YO31 0UW",
+  "bedrooms": 3,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "Moving abroad end of June through at least winter. Specifically timing move to capture peak summer and autumn demand. 3-bed house in York, 15 min walk from city centre. No mortgage — all STL net is clear cash flow. Property has parking, garden, AC (rare for York summer), and a smart electric door lock. One bedroom converted to office but single bed retained. Recently renovated kitchen, hard floors.",
+  "emotional_profile": "High-intent, time-aware, and pragmatic. No mortgage means all income is profit — clear financial framing. Timing urgency is the primary conversion lever: leaving end of June, needs to sign now to go live for July peak. Main risk is he overthinks it while abroad and goes cold. Smart lock battery dependency is a minor operational flag post-launch.",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-MOV"],
+  "delay_trigger_phrases": [
+    "Moving abroad end of June",
+    "Property live approximately 2 weeks after signing"
+  ],
+  "delay_timeline": "Leaving end of June. To sign agreement and send property photos immediately. Property live ~2 weeks after signing. Kickoff call to follow agreement.",
+  "has_delay": true,
+  "green_light_types": ["GL-TIME"],
+  "green_light_trigger_phrases": [
+    "Moving abroad end of June",
+    "Timing the move to capture peak summer and autumn demand",
+    "Property live approximately 2 weeks after signing",
+    "Snagging inspection will catch anything critical"
+  ],
+  "has_green_light": true,
+  "entry_class": "READY_NOW",
+  "top_objections": [
+    {"text": "New listing disadvantage — York averages 4.8 stars and ~100 reviews; new listing starts at bottom of algorithm", "zac_response": "Year 1 expected 10-20% below projections acknowledged; York case study (17 Park Crescent) showed strong results despite same ramp-up challenge", "resolved": true},
+    {"text": "Smart electric door lock practicality — battery needs monthly replacement, makes noise before dying", "zac_response": "Operational flag noted for post-launch monitoring; key fob + app-controlled is generally more flexible for guests", "resolved": false},
+    {"text": "Personal belongings storage security with guests in the property", "zac_response": "Attic for main items, lockable wardrobe in office room for sensitive belongings", "resolved": true}
+  ],
+  "top_questions": [
+    {"text": "Is AC actually a differentiator in York?", "answer": "Yes — Aaron noted it's rare for York in summer; it's a genuine competitive advantage that will show in listing performance during peak months."},
+    {"text": "How does the new listing ramp-up work in York's competitive market?", "answer": "York averages 4.8 stars / ~100 reviews. New listing starts at the bottom of the algorithm. Year 1 expected 10-20% below projections. York case study (17 Park Crescent) achieved £54,687 gross / £34,726 net in Jan-Dec 2025 — real results reassure on achievability."},
+    {"text": "Can personal items be stored securely while the property is let?", "answer": "Personal belongings go to attic; sensitive items in a lockable wardrobe in the office room. Guests do not have access to either."}
+  ],
+  "what_moved_them": [
+    "AC as a competitive differentiator — Aaron noted it's rare for York in summer",
+    "No-mortgage framing — all net income is clear cash flow (291% uplift vs LTL of £741/month)",
+    "York case study (17 Park Crescent) real results reassured on achievability despite new listing ramp-up",
+    "Timing urgency — leaving end of June, wants property earning during peak summer from day one"
+  ],
+  "what_fell_flat": [
+    "New listing disadvantage acknowledged — needed case study to offset concern"
+  ],
+  "conversion_gaps": [
+    {"gap": "Risk of going cold while abroad if agreement not signed before departure", "category": "timing", "how_to_fill": "Create urgency: leaving end of June = needs to sign now for July go-live. If cold post-departure, time-limited offer could be the trigger."},
+    {"gap": "Smart lock battery dependency is a post-launch operational risk", "category": "operational", "how_to_fill": "Flag to property management team pre-launch; establish monthly battery check-in protocol"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "Gross ~£66,900/year, net £34,785/year (£2,899/month avg). Monthly range: £1,983 (January) to £3,865 (August). Long-let equivalent: £741/month / £8,888/year net. STL net uplift +291%.",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [
+    "AC is genuinely rare in York in summer — that's a real differentiator that will show in your listing",
+    "17 Park Crescent achieved £54,687 gross / £34,726 net in 2025 — that's real money, not a projection",
+    "No mortgage means every pound above zero is profit — the maths is very clean for you"
+  ],
+  "zac_analogies": [
+    "17 Park Crescent York (3-bed): £54,687 gross / £34,726 net Jan-Dec 2025 — used as reassurance case study"
+  ],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "none (no mortgage)",
+  "str_net_monthly": "~£2,899/month (£34,785/year)",
+  "ltl_monthly": "£741/month (£8,888/year net)"
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "064",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-12",
+  "transcript_quality": "good",
+  "lead_name": "Abby Thomas",
+  "email": "abbythomas_96@hotmail.com",
+  "monday_id": "12245819243",
+  "granola_meeting_id": "185df00f-5616-4a55-8f3c-648f1a998bd5-00best9l",
+  "address": "19 Turnmire Road, Dringhouses, York, YO24 2HU",
+  "bedrooms": 2,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "Moving abroad for a 7-month round-the-world trip (Japan, Philippines, Vietnam, Cambodia, Indonesia, Malaysia, Australia, New Zealand) departing 21 September. Property in Dringhouses York — nearly renovation-complete. Revenue is a bonus not the primary driver; £2k/month would cover travel and bills. Arranged sabbaticals from work. Follow-up from entry 038.",
+  "emotional_profile": "Organised and research-oriented — competitive-shopping but Stayful is ahead on information quality (her own words). Revenue framed as bonus rather than necessity, so financial bar is low. Primary concern is whether STL fits within her travel window and that the contract terms work out.",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-MOV"],
+  "delay_trigger_phrases": [
+    "We are limited to 7-7.5 months rental",
+    "I interpret your minimum management duration as 9 months",
+    "Leaving September 21, property vacant by September 23 at latest"
+  ],
+  "delay_timeline": "Leaving 21 September; targeting go-live late September; returning last week of April 2027. Contract term clarification needed within ~2 weeks.",
+  "has_delay": true,
+  "green_light_types": ["GL-TIME"],
+  "green_light_trigger_phrases": [
+    "Leaving September 21 — clear deadline",
+    "Targeting done within two weeks (renovation)",
+    "Abby to review agreement and confirm go-ahead, ideally within the next two weeks"
+  ],
+  "has_green_light": true,
+  "entry_class": "NURTURE",
+  "top_objections": [
+    {"text": "Contract term perceived as 9-month minimum (6-month initial + 3-month notice = 9 months)", "zac_response": "Initial term starts from agreement date not go-live date; signing June + going live September means 6-month term ends December 2026, 3-month notice from January 2027 exits April 2027 — matching her travel window exactly", "resolved": false},
+    {"text": "Competition in York is high — will her property perform in a crowded market?", "zac_response": "Property USPs (garden, parking, workspace, smart TVs, location near racecourse) offset competition; York case study shared showing actual results exceeded projections", "resolved": true},
+    {"text": "Understanding all the costs involved", "zac_response": "Costs walked through in presentation before the call", "resolved": true},
+    {"text": "Biggest worry: damage or theft from guests", "zac_response": "AirCover £2.5M protection discussed; Stayful's guest screening process explained", "resolved": true}
+  ],
+  "top_questions": [
+    {"text": "Is the minimum commitment really 9 months with the 3-month notice period?", "answer": "No — the 6-month initial term starts from agreement signing date, not go-live date. Signing in June and going live in September means the initial term expires in December 2026; giving notice in January 2027 exits in April 2027, matching her return date."},
+    {"text": "Will her property perform given high York competition?", "answer": "York is one of the UK's strongest STL markets. Property USPs (parking, garden, workspace, 10-min bus to city, racecourse proximity) differentiate strongly. Case study: comparable 3-bed exceeded projections on net income."}
+  ],
+  "what_moved_them": [
+    "Case study results exceeded projections — actual net higher than projected net despite lower gross",
+    "Property-specific USPs: garden, driveway parking, workspace, smart TVs, bus stop 10-20m away, racecourse under 10 min walk",
+    "York framed as one of the UK's strongest and best northern STL markets",
+    "Quality of information differentiated Stayful: 'I've really liked the additional information you guys have provided'"
+  ],
+  "what_fell_flat": [
+    "High competition framing in York — needed to be countered with USP differentiation"
+  ],
+  "conversion_gaps": [
+    {"gap": "Contract term misunderstanding — Abby believes minimum is 9 months", "category": "trust", "how_to_fill": "Explicitly correct in writing before she compares with other companies: initial term begins at agreement date, not go-live date. Worked example with her specific dates."},
+    {"gap": "Active competitive shopping — other companies being consulted", "category": "competitive", "how_to_fill": "Lead on information quality and responsiveness; Abby has self-identified Stayful as ahead on this metric"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "Projected net revenue ~£2,115/month based on £209/night at 68% occupancy, drawn from 12 comparable established properties nearby.",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [
+    "York is one of the best short-let markets in the UK — best in the north",
+    "Actual net exceeded projection on the case study despite lower gross — that's what matters",
+    "Your property's amenities offset the competition really well"
+  ],
+  "zac_analogies": [
+    "17 Park Crescent York case study: £55k gross / £35k net actual vs £60k/£31k projected — actual net beat projection"
+  ],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£600/month",
+  "str_net_monthly": "~£2,115/month",
+  "ltl_monthly": ""
+}

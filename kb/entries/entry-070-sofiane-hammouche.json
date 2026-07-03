@@ -1,0 +1,86 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "070",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-26",
+  "transcript_quality": "good",
+  "lead_name": "Sofiane Hammouche",
+  "email": "hammouche.sofiane@outlook.com",
+  "monday_id": "12308483870",
+  "granola_meeting_id": "9f748b3e-ca19-4fed-a6d4-6bd86cca4618",
+  "address": "6 Jenks Avenue, Kinver, Staffordshire, DY7",
+  "bedrooms": 3,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "10-year property investor (buy, renovate, rent) concluding BTL margins are insufficient and pivoting to STL. Kinver property (3-bed semi at 6 Jenks Avenue) mid-renovation — ~5-6 weeks from completion. Plans to sell property into his limited company, refinance, and use equity to acquire a second property in the village (detached riverside cottage already identified). Partner has hotel housekeeping background, 5 min from property — will handle changeovers as invoiced contractor, saving ~£10,958/year in cleaning costs. Noted 12% management fee discount at 3+ properties as relevant.",
+  "emotional_profile": "Commercially sophisticated and portfolio-minded. 'This is potentially the start to something a lot bigger.' Wants data-driven reassurance on winter occupancy and long-term model viability. Prefers phone and email over Slack. Needs 3-year revenue projection for bank refinancing — a hard commitment from Zac.",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-REN"],
+  "delay_trigger_phrases": [
+    "Works ~5-6 weeks from completion",
+    "No specific follow-up meeting date agreed",
+    "Zac to arrange property visit once renovation nears completion"
+  ],
+  "delay_timeline": "Renovation ~5-6 weeks from completion as of 2026-06-26. Sofiane to send photos/video; Zac to prepare 3-year projection after receiving photos; property visit arranged once renovation nears completion.",
+  "has_delay": true,
+  "green_light_types": ["GL-PORT"],
+  "green_light_trigger_phrases": [
+    "This is potentially the start to something a lot bigger",
+    "If this works, I'm actually converting the riverside cottage next",
+    "Can you do a business plan — three years, your expectation for the first year, second year, third year"
+  ],
+  "has_green_light": true,
+  "entry_class": "NURTURE",
+  "top_objections": [
+    {"text": "Winter occupancy / non-leisure demand: how does Stayful fill the property in January-March without leisure travellers?", "zac_response": "Corporate/contractor demand from Kidderminster, Stourbridge, and Wolverhampton within commuting distance; low local competition means fewer alternatives for contractors", "resolved": true},
+    {"text": "Ramp-up period: wants realistic expectations on time to top 10% ranking", "zac_response": "7-10 months given low local competition; Sofiane accepted this framing", "resolved": true},
+    {"text": "Airbnb fee confusion: heard Airbnb is moving to 15% host-only fee; worried how that interacts with 15% management fee", "zac_response": "Clarified context and how Stayful's 15% management fee relates to platform fees independently", "resolved": true},
+    {"text": "Direct bookings: strong preference for reducing platform dependency", "zac_response": "Stayful operates its own direct booking site — had not known this; resonated strongly", "resolved": true},
+    {"text": "Communication preference: does not want to use Slack; prefers phone and email", "zac_response": "Partially resolved on the call — communication preference noted", "resolved": false},
+    {"text": "Management fee flexibility: asked about discounts", "zac_response": "12%+VAT available at 3+ properties — relevant to his expansion plan", "resolved": true}
+  ],
+  "top_questions": [
+    {"text": "How does Stayful fill the property in winter without leisure demand?", "answer": "Corporate and contractor demand from Kidderminster, Stourbridge, and Wolverhampton within commuting distance. Low local competition in Kinver means few STL alternatives for contractors needing nearby accommodation."},
+    {"text": "Is there a management fee discount for multiple properties?", "answer": "Yes — 12%+VAT at 3+ properties (vs standard 15%+VAT). Relevant to Sofiane's plan to convert the riverside cottage and potentially a third property."},
+    {"text": "Can you provide a 3-year revenue projection for bank refinancing?", "answer": "Yes — Zac to prepare 3-year business plan after receiving property photos/video. This is needed for Sofiane's limited company refinancing."}
+  ],
+  "what_moved_them": [
+    "Partner handling changeovers — immediately understood the financial significance (~£12,000 additional to household income annually)",
+    "Direct booking capability through Stayful's own site — had not known Stayful operated one; resonated strongly",
+    "Low local competition in Kinver (high house prices limiting supply) — confirmed his own observation",
+    "Manchester 3-bed comparable (projected £62k, achieved £56k — net came in higher due to direct bookings)",
+    "Portfolio pathway — 12% management fee at 3+ properties is directly relevant to his expansion vision"
+  ],
+  "what_fell_flat": [
+    "Slack as primary communication channel — Sofiane does not want to use Slack; prefers phone and email"
+  ],
+  "conversion_gaps": [
+    {"gap": "3-year revenue projection needed for bank refinancing before Sofiane can proceed", "category": "operational", "how_to_fill": "Zac to prepare 3-year business plan after receiving photos/video from Sofiane. This is a hard commitment and a strong conversion tool."},
+    {"gap": "Renovation not complete — property not ready to list for ~5-6 weeks", "category": "timing", "how_to_fill": "Use the 5-6 week window to complete 3-year projection, arrange property visit, and confirm furnishing/setup plan so onboarding is immediate once renovation completes"},
+    {"gap": "Communication channel preference (no Slack)", "category": "relationship", "how_to_fill": "Accommodate phone and email as primary; offer Slack as optional rather than mandatory"}
+  ],
+  "offer_framing": "12%+VAT at 3+ properties noted but no formal offer made",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "Annual gross ~£60,876, net ~£31,652 (£2,638/month) at £277 ADR and 57% occupancy. Partner handling changeovers saves ~£10,958/year — effectively lifting net to ~£42,600/year at full run-rate. Long-let comparison: £1,026/month (£12,312/year).",
+  "zac_transition_phrases": [
+    "I think we're in phase on that end"
+  ],
+  "zac_reassurance_phrases": [
+    "Your partner doing changeovers is genuinely a structural advantage — that's ~£12,000 more in your pocket every year",
+    "We have our own direct booking site — repeat guests and referrals go through us, not through Airbnb",
+    "Kinver has high house prices which limits supply — there aren't many STL properties for contractors to choose from"
+  ],
+  "zac_analogies": [
+    "Manchester 3-bed comparable: projected £62k gross, achieved £56k gross — but net came in higher due to direct bookings reducing platform commission"
+  ],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "~£1,700/month (to be refinanced via limited company)",
+  "str_net_monthly": "~£2,638/month standard (£31,652/year); ~£3,550/month with partner cleaning arrangement (£42,600/year)",
+  "ltl_monthly": "£1,026/month (£12,312/year)"
+}
