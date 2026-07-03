@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "051",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-28",
+  "transcript_quality": "good",
+  "lead_name": "Nathan Chadwick",
+  "email": "nathan@kennedychadwickestates.com",
+  "monday_id": "11959023274",
+  "granola_meeting_id": "8f7c965e-a7a7-4ec2-aa90-095b42e824f6",
+  "address": "375 Rossendale Road, Burnley BB11 5HP",
+  "bedrooms": 3,
+  "profile_type": "EX-STL",
+  "outcome": "Warm",
+  "offer_made": false,
+  "has_delay": true,
+  "has_green_light": true,
+  "entry_class": "READY_SOON",
+  "rent_mortgage": "£750/month interest-only (~£1,100 total monthly costs)",
+  "str_net_monthly": "£952",
+  "ltl_monthly": "£1,300"
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "069",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-18",
+  "transcript_quality": "good",
+  "lead_name": "Jeanne George",
+  "email": "jeanne.george@btinternet.com",
+  "monday_id": "12299466275",
+  "granola_meeting_id": "8d898e05-e286-4cc7-b7de-c86cd556a010-00best9l",
+  "address": "Filton, Bristol, BS34",
+  "bedrooms": 1,
+  "profile_type": "PURCH",
+  "outcome": "Warm",
+  "offer_made": false,
+  "has_delay": true,
+  "has_green_light": false,
+  "entry_class": "NURTURE",
+  "rent_mortgage": "none (purchase, no mortgage mentioned)",
+  "str_net_monthly": "~£1,700/month (~£20,000/year)",
+  "ltl_monthly": ""
+}

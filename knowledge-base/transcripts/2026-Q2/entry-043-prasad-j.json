@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "043",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-20",
+  "transcript_quality": "summary only — Granola meeting notes",
+  "lead_name": "Prasad J",
+  "email": "prasadjosh@gmail.com",
+  "monday_id": "12007027845",
+  "granola_meeting_id": "756f6771-8bce-4f51-bde5-c154e4e6391a",
+  "address": "Manchester (exact address not captured — property 8–10 weeks from keys at meeting date)",
+  "bedrooms": 3,
+  "profile_type": "PURCH",
+  "outcome": "Warm",
+  "offer_made": false,
+  "has_delay": true,
+  "has_green_light": false,
+  "entry_class": "Warm",
+  "rent_mortgage": "£800–850/month mortgage",
+  "str_net_monthly": "£1,800",
+  "ltl_monthly": "£1,500"
+}

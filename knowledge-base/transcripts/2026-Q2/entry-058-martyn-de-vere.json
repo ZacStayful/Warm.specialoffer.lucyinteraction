@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "058",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-09",
+  "transcript_quality": "Manual",
+  "lead_name": "Martyn De Vere",
+  "email": "hod@gmx.com",
+  "monday_id": "11554710025",
+  "granola_meeting_id": "",
+  "address": "17 Murray Street, Bedminster, Bristol BS3 1AE",
+  "bedrooms": 2,
+  "profile_type": "EX-STL",
+  "outcome": "Warm",
+  "offer_made": false,
+  "has_delay": true,
+  "has_green_light": true,
+  "entry_class": "READY_SOON",
+  "rent_mortgage": "",
+  "str_net_monthly": "£2,080",
+  "ltl_monthly": "£1,190"
+}

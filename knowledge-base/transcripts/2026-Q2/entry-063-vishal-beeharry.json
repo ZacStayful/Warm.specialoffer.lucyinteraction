@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "063",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-12",
+  "transcript_quality": "partial",
+  "lead_name": "Vishal Beeharry",
+  "email": "vishalbeeharry001@gmail.com",
+  "monday_id": "12215503255",
+  "granola_meeting_id": "",
+  "address": "39 Hill Street, Warwick, CV34 5NX",
+  "bedrooms": 2,
+  "profile_type": "R2R",
+  "outcome": "Warm",
+  "offer_made": false,
+  "has_delay": true,
+  "has_green_light": true,
+  "entry_class": "READY_SOON",
+  "rent_mortgage": "£1,200/month (R2R rent to owner)",
+  "str_net_monthly": "~£2,099/month (~£25,192/year)",
+  "ltl_monthly": ""
+}

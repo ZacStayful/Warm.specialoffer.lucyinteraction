@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "069",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-18",
+  "transcript_quality": "partial",
+  "lead_name": "Aaron Katz",
+  "email": "aharon.katz66@gmail.com",
+  "monday_id": "12290339325",
+  "granola_meeting_id": "",
+  "address": "114 Fifth Avenue, Tang Hall, York, YO31 0UW",
+  "bedrooms": 3,
+  "profile_type": "ABROAD",
+  "outcome": "Warm",
+  "offer_made": false,
+  "has_delay": true,
+  "has_green_light": true,
+  "entry_class": "READY_NOW",
+  "rent_mortgage": "none (no mortgage)",
+  "str_net_monthly": "~£2,899/month (£34,785/year)",
+  "ltl_monthly": "£741/month (£8,888/year net)"
+}

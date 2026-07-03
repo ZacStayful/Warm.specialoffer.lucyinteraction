@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "070",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-25",
+  "transcript_quality": "good",
+  "lead_name": "Hannah Robbins",
+  "email": "robbins.hannah@googlemail.com",
+  "monday_id": "12350222803",
+  "granola_meeting_id": "128aa551-8f00-4590-81b1-aa2f2aa9cb79",
+  "address": "7 Cranbrook Road, Flat 3, Bristol BS6 7BJ",
+  "bedrooms": 1,
+  "profile_type": "STL-SW",
+  "outcome": "Warm",
+  "offer_made": false,
+  "has_delay": true,
+  "has_green_light": true,
+  "entry_class": "DELAYED",
+  "rent_mortgage": "",
+  "str_net_monthly": "~£2,215",
+  "ltl_monthly": "~£1,232"
+}

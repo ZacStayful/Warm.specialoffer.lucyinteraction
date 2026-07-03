@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "052",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-29",
+  "transcript_quality": "good",
+  "lead_name": "Sam Corbett",
+  "email": "samcorbett@hotmail.co.uk",
+  "monday_id": "12099561694",
+  "granola_meeting_id": "a7b19d23-d71d-4124-9da0-6d7ecf908e46",
+  "address": "Chester city centre CH1 4JZ",
+  "bedrooms": 2,
+  "profile_type": "STL-SW",
+  "outcome": "Warm",
+  "offer_made": false,
+  "has_delay": true,
+  "has_green_light": true,
+  "entry_class": "READY_SOON",
+  "rent_mortgage": "£25k remaining balance (remortgage September 2026)",
+  "str_net_monthly": "£1,700",
+  "ltl_monthly": ""
+}

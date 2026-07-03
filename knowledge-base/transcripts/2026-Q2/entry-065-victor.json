@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "065",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-16",
+  "transcript_quality": "good",
+  "lead_name": "Victor (Taoyuanqing)",
+  "email": "taoyuanqing@gmail.com",
+  "monday_id": "12014212606",
+  "granola_meeting_id": "c62ae67b-a28e-4e06-95b3-ec9508bea832",
+  "address": "56 Philadelphia House, 6 Cross Bedford Street, Sheffield, S6 3BS",
+  "bedrooms": 2,
+  "profile_type": "EX-STL",
+  "outcome": "Warm",
+  "offer_made": false,
+  "has_delay": true,
+  "has_green_light": false,
+  "entry_class": "NURTURE",
+  "rent_mortgage": "£450/month",
+  "str_net_monthly": "~£839/month (~£10,066/year)",
+  "ltl_monthly": "£900/month (current R2R fixed income)"
+}

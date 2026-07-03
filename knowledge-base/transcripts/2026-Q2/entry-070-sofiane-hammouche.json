@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "070",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-26",
+  "transcript_quality": "good",
+  "lead_name": "Sofiane Hammouche",
+  "email": "hammouche.sofiane@outlook.com",
+  "monday_id": "12308483870",
+  "granola_meeting_id": "9f748b3e-ca19-4fed-a6d4-6bd86cca4618",
+  "address": "6 Jenks Avenue, Kinver, Staffordshire, DY7",
+  "bedrooms": 3,
+  "profile_type": "STL-SW",
+  "outcome": "Warm",
+  "offer_made": false,
+  "has_delay": true,
+  "has_green_light": true,
+  "entry_class": "NURTURE",
+  "rent_mortgage": "~£1,700/month (to be refinanced via limited company)",
+  "str_net_monthly": "~£2,638/month standard (£31,652/year); ~£3,550/month with partner cleaning arrangement (£42,600/year)",
+  "ltl_monthly": "£1,026/month (£12,312/year)"
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "071",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-26",
+  "transcript_quality": "poor",
+  "lead_name": "Ben Lam",
+  "email": "benlamcm@gmail.com",
+  "monday_id": "12310564216",
+  "granola_meeting_id": "6a96977a-32e3-4ecb-bc1a-9fac1eedf3b1",
+  "address": "2 Fort Terrace, Bridlington YO15 2PE",
+  "bedrooms": 2,
+  "profile_type": "PURCH",
+  "outcome": "Warm",
+  "offer_made": false,
+  "has_delay": true,
+  "has_green_light": false,
+  "entry_class": "NURTURE",
+  "rent_mortgage": "",
+  "str_net_monthly": "~£1,405",
+  "ltl_monthly": "~£990"
+}
