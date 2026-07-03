@@ -1,0 +1,81 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "043",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-20",
+  "transcript_quality": "summary only — Granola meeting notes",
+  "lead_name": "Prasad J",
+  "email": "prasadjosh@gmail.com",
+  "monday_id": "12007027845",
+  "granola_meeting_id": "756f6771-8bce-4f51-bde5-c154e4e6391a",
+  "address": "Manchester (exact address not captured — property 8–10 weeks from keys at meeting date)",
+  "bedrooms": 3,
+  "profile_type": "PURCH",
+  "lead_profile_text": "First Manchester STL property — purchasing a detached 3-bed house with garden and 2-car parking. Currently owns a buy-to-let portfolio in Belfast (apartments unsuitable for STR due to legal/management constraints). Daughter studying at Manchester University. 8–10 weeks to keys at time of meeting.",
+  "emotional_profile": "Analytical and financially minded — mortgage-to-income calculation was primary lens throughout. Engaged positively; asked substantive questions rather than objection-raising questions. Experienced landlord from Belfast portfolio — will read agreement carefully.",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["purchase-timeline"],
+  "delay_trigger_phrases": [
+    "follow-up in ~6 weeks when mortgage/handover dates confirmed",
+    "8–10 weeks to keys"
+  ],
+  "delay_timeline": "8–10 weeks to keys from meeting date (2026-05-20); follow-up call in ~6 weeks once mortgage/handover dates confirmed",
+  "has_delay": true,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "Warm",
+  "top_objections": [
+    {
+      "text": "What happens in the worst months — can I cover the mortgage in January and March?",
+      "zac_response": "Seasonal pattern presented: worst Jan–Mar, best Jul–Aug, small December uptick. Year-average positive but worst-case months framed around survivability.",
+      "resolved": false
+    },
+    {
+      "text": "Will the competition analysis hold up — what if occupancy doesn't hit 60%?",
+      "zac_response": "Competitor analysis: avg 40 reviews, 4.4 rating; Stayful targets 4.6–4.7. 60% occupancy projection and 803 Eastbank Tower case study discussed.",
+      "resolved": false
+    },
+    {
+      "text": "How does the new tenant rights legislation (May 2026) actually help me vs long-let?",
+      "zac_response": "New tenant rights legislation makes long-let riskier; STL avoids these regulatory risks and provides flexibility.",
+      "resolved": true
+    }
+  ],
+  "top_questions": [
+    {
+      "text": "My mortgage is about 800 to 850 — does it stack up in the slower months?",
+      "answer": "Net revenue ~£1,800/month after platform fees, management, cleaning. Annual profit ~£7,200 after £800 mortgage + ~£400 bills. Jan–Mar are worst months; worst-case months need survivability framing."
+    },
+    {
+      "text": "Can I block the property for personal use when my daughter is at Manchester University?",
+      "answer": "Yes — calendar blocking available for personal use at any time."
+    }
+  ],
+  "what_moved_them": [
+    "Case study — 803 Eastbank Tower Manchester grossed £56,920 gross in 2025; Prasad noted this directly",
+    "Business rates vs council tax guidance included in service",
+    "Personal use calendar blocking for when daughter is at university",
+    "2–3 week setup turnaround — quicker than expected",
+    "No onboarding fee"
+  ],
+  "what_fell_flat": [],
+  "conversion_gaps": [],
+  "offer_framing": "No offer made at meeting. Standard rate 15%+VAT, 6-month minimum, 3-month notice, no onboarding fees.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£800–850/month mortgage",
+  "str_net_monthly": "£1,800",
+  "ltl_monthly": "£1,500"
+}

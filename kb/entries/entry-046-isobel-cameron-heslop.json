@@ -1,0 +1,85 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "046",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-22",
+  "transcript_quality": "summary only — Granola meeting notes; Meeting 1 of 2",
+  "lead_name": "Isobel Cameron-Heslop",
+  "email": "cameronheslop@gmail.com",
+  "monday_id": "11866753807",
+  "granola_meeting_id": "dd8eb2de-92cc-4022-9fa2-221c2a310382",
+  "address": "Hull city centre (ground floor flat with private terrace and parking; full address in entry-047)",
+  "bedrooms": 1,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "Existing STL owner switching management company after 2 years with Residential Estates/Guests. Three main issues: (1) maintenance failures — toilet leak left unaddressed caused £1,600 damage wiping out entire month's earnings; fridge freezer breakdown during 3-month relocation booking; (2) no individual property identity — lumped into hotel-style listing with shared reviews and shared photos; (3) Wi-Fi problems — 4G mobile router, lost Amazon relocation client, negative reviews about connectivity. LSH managing fibre installation (currently delayed).",
+  "emotional_profile": "Not a concept-validation lead — understands STL and is already earning from it. Switch decision entirely about service quality and trust. Does not need to be sold on STL; needs confidence Stayful won't repeat the same failures. Analytical.",
+  "outcome": "Special Offer Applied",
+  "lost_reason": "",
+  "had_meeting_2": true,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "2026-05-31",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["decision-window", "wifi-blocker"],
+  "delay_trigger_phrases": [
+    "Isobel to decide over long weekend, respond next week",
+    "LSH fibre installation is the critical path item"
+  ],
+  "delay_timeline": "Decision over long weekend; respond next week. Wi-Fi fibre installation (LSH) must be resolved before go-live.",
+  "has_delay": true,
+  "green_light_types": ["GL-MGMT"],
+  "green_light_trigger_phrases": [
+    "current income approximately £1,330/month average at 57% occupancy with current provider"
+  ],
+  "has_green_light": true,
+  "entry_class": "Special Offer Applied",
+  "top_objections": [
+    {
+      "text": "Current provider caused £1,600 damage through unaddressed toilet leak — how will Stayful prevent this?",
+      "zac_response": "Maintenance logging, batching and monthly reporting via Slack; no markup on contractors — transparent, proactive system",
+      "resolved": true
+    },
+    {
+      "text": "Hotel-style listing with shared reviews and shared photos is harming her property's individual identity",
+      "zac_response": "Individual property listing confirmed as immediate fix — own listing, own reviews, own photos for Isobel's property only",
+      "resolved": true
+    },
+    {
+      "text": "Wi-Fi problem (4G mobile router) led to negative reviews and a lost Amazon relocation client",
+      "zac_response": "Wi-Fi must be resolved before go-live; LSH fibre installation tracked as critical path item",
+      "resolved": false
+    },
+    {
+      "text": "Concern about transition logistics — how to switch without disruption to existing bookings",
+      "zac_response": "Transition process: 1-month notice to current company, Stayful builds new listing from existing info, kickoff call to finalise",
+      "resolved": true
+    }
+  ],
+  "top_questions": [],
+  "what_moved_them": [
+    "Individual property listing (vs hotel-style shared listing) — explicit reaction; addresses biggest frustration directly",
+    "Maintenance logging, batching and monthly reporting via Slack — transparent system",
+    "No markup on contractors or cleaning (trust/transparency angle)",
+    "Property's unique strengths highlighted: terrace, parking, smart TV, better furnishing than competitors",
+    "Low competition in Hull = faster listing traction (avg 4.7 rating, 19 reviews per listing)"
+  ],
+  "what_fell_flat": [],
+  "conversion_gaps": [
+    {
+      "gap": "Wi-Fi situation (4G router) — must be resolved before go-live; source of negative reviews and lost Amazon relocation client",
+      "category": "infrastructure",
+      "how_to_fill": "Track LSH fibre installation progress and confirm timeline before go-live. Do not proceed to live listing until Wi-Fi issue resolved."
+    }
+  ],
+  "offer_framing": "13%+VAT, expires 31 May 2026. No onboarding costs — property already furnished and photographed. Parking £63/month; potentially double-charged to guests.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "Not discussed",
+  "str_net_monthly": "£1,330 current (57% occupancy with Residential Estates/Guests); Stayful projection ~£2,417/month (£29k net annual at 71% occupancy)",
+  "ltl_monthly": "Not stated"
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "043",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-19",
+  "transcript_quality": "summary only — no call recording on file",
+  "lead_name": "Joseph Steadyford",
+  "email": "steadyford@outlook.com",
+  "monday_id": "",
+  "granola_meeting_id": "02804182-116d-4532-906e-f316caa767f4",
+  "address": "Derby (exact address/postcode not captured)",
+  "bedrooms": 3,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "Existing STL property with Hello Guest since December 2025 — severely underperforming. Only 3 reviews in 5+ months; last-minute bookings disabled; poor platform visibility; communication issues due to Hello Guest's volume-based approach. Previously self-managed with better results. Break-even requirement 14–16 nights/month. Currently under financial pressure.",
+  "emotional_profile": "Cautiously engaged — burned by prior management contract with Hello Guest. Under financial pressure. Responds to logic (immediate listing improvements) and social proof (review accumulation speed vs Hello Guest). Fast mover once confidence is established.",
+  "outcome": "Special Offer Applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "2026-05-31",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "Follow-up call scheduled 22 May 2026; offer expires 31 May 2026",
+  "has_delay": false,
+  "green_light_types": ["GL-MGMT"],
+  "green_light_trigger_phrases": [
+    "Only 3 reviews in 5+ months",
+    "below standard compared to self-management",
+    "current financial pressure"
+  ],
+  "has_green_light": true,
+  "entry_class": "Special Offer Applied",
+  "top_objections": [
+    {
+      "text": "Concern about 6-month minimum term given current financial pressure — has already been burned by a management contract with Hello Guest",
+      "zac_response": "Framed 6 months as a structured performance period with defined review point, not a lock-in; proposed June 1st start date with immediate cutoff possible; Zac to send management agreement with discount offer",
+      "resolved": false
+    }
+  ],
+  "top_questions": [
+    {
+      "text": "What protections and review points exist within the 6-month minimum term?",
+      "answer": "Stayful proposes defined month-3 performance review point with explicit exit conditions — follow-up call 22 May to clarify"
+    }
+  ],
+  "what_moved_them": [
+    "Last-minute bookings being re-enabled — a significant ongoing revenue leak under Hello Guest",
+    "Listing improvements: dedicated workspace (currently unadvertised), gated car park with CCTV (currently unadvertised), free street parking as backup option"
+  ],
+  "what_fell_flat": [],
+  "conversion_gaps": [
+    {
+      "gap": "6-month minimum term commitment under financial pressure after prior bad management contract",
+      "category": "commitment-risk",
+      "how_to_fill": "Provide clear, specific response to 6-month term — define month-3 performance review point and explicit exit conditions. Frame as structured performance period, not a repeat of Hello Guest experience."
+    }
+  ],
+  "offer_framing": "13%+VAT (reduced from 15%) if signed by 31 May 2026. June 1st start date proposed.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "Unconfirmed",
+  "str_net_monthly": "£1,600",
+  "ltl_monthly": "Not stated"
+}

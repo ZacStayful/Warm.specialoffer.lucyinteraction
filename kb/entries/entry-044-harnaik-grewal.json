@@ -1,0 +1,73 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "044",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-08",
+  "transcript_quality": "summary only — no call recording on file",
+  "lead_name": "Harnaik Grewal",
+  "email": "harnaikg13@gmail.com",
+  "monday_id": "",
+  "granola_meeting_id": "0f34dae4-5ced-480e-8800-662fc7350142",
+  "address": "Birmingham city centre (top-floor apartment with concierge and designated parking; exact postcode not captured)",
+  "bedrooms": 1,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Residential property owner switching to STL. Currently on residential mortgage at £845/month; remortgaging to BTL in October 2026 (expected £500–600/month). Property owned jointly with ex-partner — Harnaik keeping it. Two blockers: (1) short-let clause in lease must be confirmed with building management; (2) HSBC mortgage permission for STL needed before or must wait until October BTL remortgage.",
+  "emotional_profile": "Engaged and positive — forward-planning, not reactive. Methodical; wants to check the right boxes before proceeding. No explicit objections raised; blockers are open legal/financial questions he needs to resolve.",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "2026-06-22",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["legal-blocker", "mortgage-blocker"],
+  "delay_trigger_phrases": [
+    "confirm short-let permissions in lease agreement",
+    "discuss early-start option with HSBC before October remortgage"
+  ],
+  "delay_timeline": "Blocked by lease clause confirmation and HSBC permission; if must wait for BTL remortgage, October 2026 earliest start",
+  "has_delay": true,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "Warm",
+  "top_objections": [],
+  "top_questions": [
+    {
+      "text": "Does my lease allow short-let?",
+      "answer": "Must be confirmed with building management or solicitor before proceeding — not confirmed on call"
+    },
+    {
+      "text": "Will HSBC allow me to operate STL on my current residential mortgage before October?",
+      "answer": "Must be confirmed with HSBC directly — options are explicit consent now or waiting until October BTL remortgage"
+    }
+  ],
+  "what_moved_them": [
+    "York 3-bed case study showing actual figures came within range of projections — provides confidence in Zac's numbers",
+    "Concierge and parking surfaced as competitive advantages for the listing (rare in Birmingham city centre)"
+  ],
+  "what_fell_flat": [],
+  "conversion_gaps": [
+    {
+      "gap": "Short-let clause in lease unconfirmed — if prohibited, deal cannot proceed regardless of enthusiasm",
+      "category": "legal",
+      "how_to_fill": "Proactively help Harnaik contact building management or solicitor to confirm; offer to draft the query if Harnaik is unsure who to contact"
+    },
+    {
+      "gap": "HSBC mortgage permission for STL unconfirmed on current residential mortgage",
+      "category": "mortgage",
+      "how_to_fill": "Clarify whether explicit consent is possible now or if October BTL remortgage is the only path; do not push for signature until both blockers are resolved"
+    }
+  ],
+  "offer_framing": "13%+VAT (reduced from standard) if signed by 22 June 2026. Year-1 adjusted (×0.75) is near-breakeven on current £845 mortgage — real financial story emerges after October remortgage reduces costs to ~£855/month.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£845/month (current residential mortgage)",
+  "str_net_monthly": "£1,600",
+  "ltl_monthly": "Not captured"
+}
