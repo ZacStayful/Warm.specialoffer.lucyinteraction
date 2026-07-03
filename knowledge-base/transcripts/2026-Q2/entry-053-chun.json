@@ -3,23 +3,127 @@
   "entry_number": "053",
   "quarter": "2026-Q2",
   "meeting_date": "2026-06-02",
-  "transcript_quality": "good",
+  "transcript_quality": "high",
   "lead_name": "Chun",
   "email": "artboatproperty@gmail.com",
   "monday_id": "12023582722",
   "granola_meeting_id": "785576bf-b0fd-488b-9fa3-f5444707a13a",
-  "address": "59 Goldspink Lane, Newcastle City Centre NE2 1NQ",
+  "address": "59 Goldspink Lane, Newcastle City Centre, NE2 1NQ",
   "bedrooms": 2,
   "profile_type": "STL-SW",
+  "lead_profile_text": "STL-SW — switching vacant property to short-let. 2-bed furnished flat owned outright (no mortgage). Currently vacant. Found Stayful through Google search — high-intent. Needs property upgrade before listing: smart TV, kitchen amenities, bathroom amenities, professional photography. Deal Analyser PDF is image-only — figures from Granola and Monday columns. Y1 net £18,487; Y2 net £23,287; long-let comparison £11,092 annually.",
+  "emotional_profile": "Pragmatic and research-led — found Stayful via Google search showing active consideration. No financial pressure (no mortgage). Primary gate is upgrade cost research. High-intent frictionless conversion profile once upgrade costs are understood.",
   "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
   "offer_made": true,
   "offer_rate": "13% + VAT",
   "offer_expiry": "2026-06-23",
   "offer_accepted_at_meeting": false,
+  "delay_types": ["Upgrade cost research (~2 weeks)"],
+  "delay_trigger_phrases": [
+    "wants to research upgrade costs before deciding",
+    "70-90 reviews needed"
+  ],
+  "delay_timeline": "~2 weeks (upgrade cost research); follow-up call in ~2 weeks; offer expiry 23 June 2026",
   "has_delay": true,
+  "green_light_types": [
+    "No mortgage — owned outright, maximum flexibility",
+    "Property currently vacant — can start immediately once upgraded",
+    "Property already furnished",
+    "Found via Google search — active high-intent consideration",
+    "Special offer with June 23 expiry creates genuine urgency",
+    "£1,940/month net exceeded expectations at meeting"
+  ],
+  "green_light_trigger_phrases": [
+    "wants to research upgrade costs before deciding",
+    "400/month utilities budget",
+    "£1,940/month net exceeded expectations"
+  ],
   "has_green_light": true,
   "entry_class": "READY_SOON",
-  "rent_mortgage": "",
-  "str_net_monthly": "£1,940",
-  "ltl_monthly": "£924"
+  "top_objections": [
+    {
+      "text": "Wants to research upgrade costs before making a decision",
+      "zac_response": "Zac committed to providing a property checklist detailing required upgrades and estimated costs. Upgrade list delivery accelerates the decision.",
+      "resolved": false
+    },
+    {
+      "text": "Performance expectations during initial ramp period — Year 1 will be lower than full projections",
+      "zac_response": "Year 1 projected 20% lower during ramp. Year 2 full projection: £23,287 net. NE2 is an extremely strong Stayful market. Manchester case study: 35k net vs 32k projected — we tend to outperform.",
+      "resolved": true
+    },
+    {
+      "text": "Upgrade requirements needed to reach Airbnb standard — smart TV, kitchen, bathroom amenities, photography",
+      "zac_response": "Checklist to be provided. Upgrade costs are one-time; payback within Year 1 given strong income projections.",
+      "resolved": false
+    }
+  ],
+  "top_questions": [
+    {
+      "text": "What income can 59 Goldspink Lane, NE2 generate?",
+      "answer": "£1,940/month net average. £167/night, 72% occupancy. Range: £1,216 (October) to £2,538 (April). Y1 net £18,487 (conservative ramp). Y2 net £23,287 at full performance. ~£1,000/month more than long-let (LTL annual £11,092)."
+    },
+    {
+      "text": "What upgrades does the property need before listing?",
+      "answer": "Smart TV, kitchen amenities, bathroom amenities, professional photography. Checklist to be provided by Zac."
+    },
+    {
+      "text": "What is the management fee?",
+      "answer": "Standard 15% + VAT. Reduced to 13% + VAT if agreement signed by 23 June 2026."
+    },
+    {
+      "text": "How long before the property achieves full income projections?",
+      "answer": "Year 1 projected ~20% lower during ramp-up (70-90 reviews and 4.5-4.8 rating needed for full projections). Year 2 reaches full performance: £23,287 net."
+    },
+    {
+      "text": "What are the contract terms?",
+      "answer": "6-month fixed term then 3-month notice period."
+    },
+    {
+      "text": "How does Stayful compare to managing it myself?",
+      "answer": "Manchester case study: 35k net actual vs 32k projected — Stayful delivered above projection. Full end-to-end service, nothing for owner to manage."
+    }
+  ],
+  "what_moved_them": [
+    "£1,940/month net exceeded expectations — strongest immediate positive reaction at meeting",
+    "13% + VAT vs standard 15% + VAT special offer",
+    "Manchester case study delivering 35k net vs 32k projected — above-projection proof point",
+    "Full end-to-end service — nothing to manage"
+  ],
+  "what_fell_flat": [
+    "Upgrade requirement creates a cost research hurdle before decision",
+    "Year 1 ramp period acknowledged — may reduce perceived urgency of signing quickly"
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Upgrade cost research not yet complete — primary gate to decision",
+      "category": "Practical blocker",
+      "how_to_fill": "Deliver Stayful upgrade checklist with indicative costs immediately. Frame as one-time investment with Year 1 payback timeline."
+    },
+    {
+      "gap": "June 23 offer expiry — 2-week window overlaps with upgrade research timeline",
+      "category": "Urgency",
+      "how_to_fill": "Frame checklist delivery as enabling the June 23 decision. Upgrade research and offer expiry timelines align — decision can be made before expiry."
+    }
+  ],
+  "offer_framing": "13% + VAT (vs standard 15%) — saving 2 percentage points — if agreement signed by 23 June 2026. NE2 is an extremely strong Stayful market; offer is genuine.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "Based on 12 comparable Newcastle NE2 properties: £1,940/month net average, £167/night, 72% occupancy. Year 2 at full performance: £23,287 net. Approximately £1,000/month more than long-let.",
+  "zac_transition_phrases": [
+    "NE2 is one of our strongest markets — the comparable data is from 12 properties in your immediate area",
+    "The Manchester case study shows we tend to outperform projections, not fall short",
+    "The upgrade checklist I'm sending will give you exact costs — that's your final piece before a decision"
+  ],
+  "zac_reassurance_phrases": [
+    "No mortgage means you have maximum flexibility — the upgrade is an investment with quick payback",
+    "Year 1 is conservative while reviews build — Year 2 is where the full numbers land",
+    "The June 23 deadline is real — this is a genuine rate, not a sales device"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "None (owned outright)",
+  "str_net_monthly": "1940",
+  "ltl_monthly": "924"
 }

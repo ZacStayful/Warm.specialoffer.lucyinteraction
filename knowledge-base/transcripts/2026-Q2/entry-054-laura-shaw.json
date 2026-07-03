@@ -3,7 +3,7 @@
   "entry_number": "054",
   "quarter": "2026-Q2",
   "meeting_date": "2026-06-03",
-  "transcript_quality": "good",
+  "transcript_quality": "high",
   "lead_name": "Laura Shaw",
   "email": "lauraemilyshaw@hotmail.com",
   "monday_id": "12139798139",
@@ -11,15 +11,134 @@
   "address": "60a Station Road, Epworth, DN9 1JZ",
   "bedrooms": 2,
   "profile_type": "ABROAD",
+  "lead_profile_text": "ABROAD profile — lives in Indonesia, back in UK for ~1 month before returning. 2-bed cottage on long-let for 4 years; most recent tenant left last week, property now vacant and unfurnished. Considering STL vs new long-term tenant (interested party already in play). Recurring maintenance issue: shower pump replaced 6 times in 4 years — electric shower installation recommended before listing. Setup Quote SQ-2026-054: furnished 2-bed, £5,480, break-even 5 months.",
+  "emotional_profile": "Pragmatic and cost-focused. Time-pressured by UK return timeline (June 30 deadline aligns with offer expiry). Live LTL competitor offer creates genuine decision tension. Analytical — wants all-months comparison before deciding. Needs remote management reassurance above all.",
   "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
   "offer_made": true,
   "offer_rate": "13% + VAT",
   "offer_expiry": "2026-06-30",
   "offer_accepted_at_meeting": false,
-  "has_delay": true,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "",
+  "has_delay": false,
+  "green_light_types": [
+    "Property vacant and ready — tenant just departed",
+    "Time-pressured by UK departure (June 30 deadline aligns with offer expiry)",
+    "STL vs LTL comparison: all 12 months STL net exceed LTL net (even September STL ~£800 vs LTL £644)",
+    "Special offer 13% + VAT made at meeting",
+    "Maintenance issue (shower) can be resolved as part of Stayful setup",
+    "Uplift: £1,098/month more via STL than LTL"
+  ],
+  "green_light_trigger_phrases": [
+    "I'm only here for about a month",
+    "Managing the property remotely",
+    "I want to understand the costs properly",
+    "There's someone interested in renting it"
+  ],
   "has_green_light": true,
   "entry_class": "READY_SOON",
+  "top_objections": [
+    {
+      "text": "How do I manage the property when I'm in Indonesia? — core concern about remote hands-off operation",
+      "zac_response": "Stayful handles everything remotely — no physical presence needed. Slack channel, monthly statements 1st-5th, maintenance coordination up to £300 without approval. Full remote management model.",
+      "resolved": true
+    },
+    {
+      "text": "What about the shower and water tank issues? — pump replaced 6 times in 4 years",
+      "zac_response": "Electric shower installation recommended before listing to permanently resolve recurring pump issue. Stayful can coordinate this as part of the setup process.",
+      "resolved": true
+    },
+    {
+      "text": "How do the costs work? — wanting clarity on what she actually nets after all deductions",
+      "zac_response": "STL projected net £1,742/month. Costs: guest covers cleaning; owner covers mortgage £600, insurance, utilities, council tax, gas safety. Maintenance auto-threshold £300.",
+      "resolved": true
+    },
+    {
+      "text": "There's a tenant interested in the property — competing LTL offer is live",
+      "zac_response": "All 12 months STL net exceed LTL net. Even September (lowest STL month ~£800) beats LTL net £644. Full year uplift: £1,098/month. Year 1 conservative (80%): £16,723 net vs LTL £7,722 net.",
+      "resolved": true
+    }
+  ],
+  "top_questions": [
+    {
+      "text": "How much more will STL generate vs long-let?",
+      "answer": "STL projected net £1,742/month (£20,904/year) vs LTL net £644/month (£7,722/year). Uplift: £1,098/month. Year 1 conservative at 80%: £16,723 net. Every month of STL exceeds LTL net — even September (STL ~£800 vs LTL £644)."
+    },
+    {
+      "text": "How does Stayful manage the property when I'm in Indonesia?",
+      "answer": "Fully remote operation — Slack channel updates, monthly statements 1st-5th, maintenance handled without owner presence. Maintenance up to £300 automatic; above that requires owner approval via message. No physical presence ever needed."
+    },
+    {
+      "text": "What about the recurring shower pump problem?",
+      "answer": "Electric shower installation recommended before listing to permanently resolve the pump replacement cycle. Stayful can coordinate this as part of the setup process."
+    },
+    {
+      "text": "What is the management fee?",
+      "answer": "Standard 15% + VAT. Special offer: 13% + VAT if agreement signed by 30 June 2026."
+    },
+    {
+      "text": "What does the setup quote cover?",
+      "answer": "SQ-2026-054: Furnished 2-bed setup at £5,480. Break-even in approximately 5 months at projected income levels."
+    },
+    {
+      "text": "What are the contract terms?",
+      "answer": "6-month initial term then 3-month rolling notice."
+    },
+    {
+      "text": "What nightly rate and occupancy should I expect?",
+      "answer": "£205 nightly rate, 64% occupancy. Year 1 conservative projection at 80% of full performance: £16,723 net."
+    }
+  ],
+  "what_moved_them": [
+    "Income projection showing all 12 months STL net above LTL net — even September at ~£800 vs LTL £644",
+    "Maintenance transparency — up to £300 handled without approval, nothing for Laura to manage from Indonesia",
+    "Stayful handles everything remotely — no physical presence ever required",
+    "Special offer 13% saving vs standard 15% — concrete benefit"
+  ],
+  "what_fell_flat": [
+    "Competing LTL tenant offer still live — interested tenant represents a real alternative",
+    "Property currently unfurnished — setup investment required before listing"
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Competing LTL tenant offer is live — real alternative to STL",
+      "category": "Competitor risk",
+      "how_to_fill": "Emphasise all-months STL > LTL comparison. Quantify 5-year income gap: £13,182/year uplift x 5 years = £65,910 more via STL. LTL tenant may not materialise anyway."
+    },
+    {
+      "gap": "Property unfurnished — setup investment and coordination needed before launch",
+      "category": "Setup friction",
+      "how_to_fill": "Setup Quote SQ-2026-054 already prepared (£5,480, 5-month break-even). Stayful can coordinate full furnishing setup remotely. Frame as one-time investment."
+    },
+    {
+      "gap": "No follow-up call booked — June 30 deadline approaching",
+      "category": "Urgency",
+      "how_to_fill": "Book a follow-up call before June 30. Offer expiry and UK departure date are the same — decision must happen before she returns to Indonesia."
+    }
+  ],
+  "offer_framing": "13% + VAT (vs standard 15%) — saving 2 percentage points — if agreement signed by 30 June 2026. Aligns with Laura's UK departure date back to Indonesia. Hard deadline, genuine urgency.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "STL projected net £1,742/month versus LTL net £644/month. That's £1,098/month more — every single month. Even your lowest STL month (September, ~£800) beats what you'd get from a long-term tenant.",
+  "zac_transition_phrases": [
+    "Even in the worst month — September — STL at ~£800 net beats long-let at £644 net",
+    "The shower pump issue is actually easy to fix permanently — we can coordinate an electric shower installation as part of setup",
+    "You never need to be here — the whole operation runs remotely through Slack and monthly statements"
+  ],
+  "zac_reassurance_phrases": [
+    "You don't need to be in the country for any of this to work",
+    "Maintenance up to £300 is automatic — you'll never get a call at 2am in Indonesia",
+    "Monthly statements on 1st-5th — you always know exactly what's happening",
+    "The June 30 deadline aligns with your departure — designed to give you time to decide before you leave"
+  ],
+  "zac_analogies": [
+    "Long-let is like renting a car for £644 a month when you could Airbnb the same car for £1,742 — and we do all the driving"
+  ],
+  "meeting_duration_mins": 0,
   "rent_mortgage": "£600/month",
-  "str_net_monthly": "£1,742",
-  "ltl_monthly": "£644"
+  "str_net_monthly": "1742",
+  "ltl_monthly": "644"
 }

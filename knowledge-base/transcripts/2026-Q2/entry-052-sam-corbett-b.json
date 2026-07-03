@@ -3,20 +3,140 @@
   "entry_number": "052",
   "quarter": "2026-Q2",
   "meeting_date": "2026-05-29",
-  "transcript_quality": "good",
+  "transcript_quality": "high",
   "lead_name": "Sam Corbett",
   "email": "samcorbett@hotmail.co.uk",
   "monday_id": "12099561694",
   "granola_meeting_id": "a7b19d23-d71d-4124-9da0-6d7ecf908e46",
-  "address": "62 Catherine Street, Chester CH1 4JZ",
+  "address": "62 Catherine Street, Chester city centre, CH14JZ",
   "bedrooms": 2,
   "profile_type": "STL-SW",
+  "lead_profile_text": "NHS physiotherapist switching from lodger arrangement to STL at 62 Catherine Street. 2 double bedrooms, small third room. Friend currently lodging, moving out in ~6 months. Moving in with partner 2 streets away. Mortgage remortgage due September 2026 — weighing holiday let / BTL company / clear £25k balance. Primary goal: consistent passive income with minimal hassle to reduce NHS hours and fund private clinic build. Not interested in portfolio growth or leveraging. Annual gross £20,405, net £10,109.",
+  "emotional_profile": "Lifestyle-income lead — wants maximum simplicity, minimum involvement. Values passive income over portfolio building. NHS professional building private practice — passive income is the bridge to that transition. Concerned about guest quality (wants healthcare profile, fears party guests). Financially analytical with measured decision pace.",
   "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
   "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["Friend occupying property (~6 months)", "Mortgage structure decision (September 2026)", "Travel mid-June to end July"],
+  "delay_trigger_phrases": [
+    "I'll need to speak to my mortgage broker about this",
+    "Friend moving out in ~6 months",
+    "Away mid-June to end of July",
+    "I'd prefer to clear the mortgage for maximum flexibility and simplicity"
+  ],
+  "delay_timeline": "September 2026 (mortgage decision); friend departs October/November 2026; natural live date November 2026 to capture Chester Christmas markets",
   "has_delay": true,
+  "green_light_types": [
+    "Clear lifestyle motivation — private clinic funding and NHS hour reduction",
+    "Chester ranked as one of most consistent STL markets in England",
+    "Action plan responses showed 'happy with all of it'",
+    "Natural November live date aligns with Chester Christmas markets",
+    "Property transition to partner imminent — no lodger complexity after friend departs"
+  ],
+  "green_light_trigger_phrases": [
+    "I want consistent passive income with minimal hassle",
+    "I'm not interested in building a portfolio",
+    "I'd prefer to clear the mortgage for maximum flexibility and simplicity",
+    "NHS physio — building a private clinic on the side",
+    "Getting the right type of guests"
+  ],
   "has_green_light": true,
-  "entry_class": "READY_SOON",
-  "rent_mortgage": "£25k remaining balance (remortgage September 2026)",
-  "str_net_monthly": "£1,700",
+  "entry_class": "DELAYED",
+  "top_objections": [
+    {
+      "text": "What type of guests will the property attract? — specifically wants NHS and healthcare workers, concerned about parties or problem tenants",
+      "zac_response": "Countess of Chester Hospital makes NHS and healthcare workers the natural primary guest at 62 Catherine Street. Guest screening with deposits and ID checks filters party bookings.",
+      "resolved": true
+    },
+    {
+      "text": "Council tax — what happens during the transition period?",
+      "zac_response": "Council tax premium initially applies during STL transition; transitions to zero business rates after approximately 1 year.",
+      "resolved": true
+    },
+    {
+      "text": "Mortgage structure — holiday let vs BTL company vs clearing £25k balance — unclear on best path",
+      "zac_response": "Stayful can operate under any structure. September remortgage is natural decision window. Recommended speaking to mortgage broker specialist.",
+      "resolved": false
+    },
+    {
+      "text": "Away mid-June to end of July — not a decision period",
+      "zac_response": "Acknowledged — follow-up contact set for early August. No pressure during travel period.",
+      "resolved": true
+    }
+  ],
+  "top_questions": [
+    {
+      "text": "What income can Chester city centre generate?",
+      "answer": "£1,700/month average (£20,405 gross / £10,109 net annually). £165 nightly rate, 65% occupancy. £1,200-£2,000 monthly range. One of the most consistent STL income projections in England."
+    },
+    {
+      "text": "What type of guests will stay at 62 Catherine Street?",
+      "answer": "Countess of Chester Hospital drives NHS and healthcare worker demand year-round. Chester Racecourse, University of Chester, and 400+ annual events attract professional and leisure guests. Guest screening actively filters party bookings."
+    },
+    {
+      "text": "What happens with council tax when switching to STL?",
+      "answer": "Council tax premium applies initially; transitions to zero business rates after approximately 1 year of STL operation."
+    },
+    {
+      "text": "Which mortgage structure should I use?",
+      "answer": "Holiday let mortgage, BTL with company structure, or clear the £25k balance are the three main options. Each has different tax and operational implications. Recommended: speak to a mortgage broker before the September remortgage date."
+    },
+    {
+      "text": "What does Stayful's management service include?",
+      "answer": "Full guest communication, cleaning coordination, booking calendar access, Slack channel, monthly statements 1st-5th, quarterly performance calls. Complete hands-off for the owner."
+    },
+    {
+      "text": "What are the agreement terms?",
+      "answer": "6-month initial term then 3-month rolling notice. Action plan responses showed 'happy with all of it'."
+    }
+  ],
+  "what_moved_them": [
+    "Chester demand drivers — hospital workers, racecourse, 400+ events. Low-hassle management appeal.",
+    "Monthly statements and Slack communication — passive management structure matched his lifestyle goal",
+    "Income figure significantly above current lodger situation",
+    "Countess of Chester Hospital specifically as NHS guest demand driver — directly relevant to his professional identity"
+  ],
+  "what_fell_flat": [
+    "Mortgage structure complexity — unresolved, requires external broker sign-off",
+    "No urgency lever — no offer or expiry date, slow engagement pace ahead"
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Mortgage structure decision blocking commitment — requires broker input before September",
+      "category": "Practical blocker",
+      "how_to_fill": "Connect Sam with mortgage broker contacts specialising in holiday let / STL. Follow up early August with mortgage pathway confirmed."
+    },
+    {
+      "gap": "No urgency lever — no special offer or expiry date",
+      "category": "Urgency",
+      "how_to_fill": "At August follow-up, frame Chester Christmas markets (November-December peak) as seasonal urgency. Time-sensitive offer tied to autumn sign date."
+    },
+    {
+      "gap": "Slow engagement gap — no contact until early August",
+      "category": "Nurture",
+      "how_to_fill": "Single mid-July check-in message. Christmas markets framing. No pressure — Sam is travelling and will not respond before then."
+    }
+  ],
+  "offer_framing": "No offer made — standard 15% + VAT discussed. No special rate or expiry date offered.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "£1,700/month average — one of the most consistent income projections we see in England. Chester has four major demand pillars: a large hospital, a university, a racecourse, and 400+ annual events.",
+  "zac_transition_phrases": [
+    "The Countess of Chester Hospital makes NHS and healthcare workers your primary guest — exactly what you want",
+    "The mortgage question needs your broker's input — we can work with whichever structure you land on",
+    "If you're live by November, you're capturing Chester Christmas markets — that's a major December uplift"
+  ],
+  "zac_reassurance_phrases": [
+    "This is completely passive once it's set up — monthly statements, Slack updates, nothing for you to manage",
+    "NHS and healthcare workers are inherently low-risk guests — professional, reliable, no parties",
+    "The £200 deposit and ID checks mean you're not getting party groups"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "Mortgage in place (remortgage due September 2026, ~£25k balance to clear)",
+  "str_net_monthly": "1700",
   "ltl_monthly": ""
 }

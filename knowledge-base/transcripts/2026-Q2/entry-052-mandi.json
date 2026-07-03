@@ -3,22 +3,124 @@
   "entry_number": "052",
   "quarter": "2026-Q2",
   "meeting_date": "2026-06-01",
-  "transcript_quality": "partial",
+  "transcript_quality": "medium",
   "lead_name": "Mandi",
   "email": "chhokerm@hotmail.co.uk",
   "monday_id": "12149975076",
   "granola_meeting_id": "",
-  "address": "Flat 2, 63 Albert Road, South Norwood SE25 4JD",
+  "address": "Flat 2, 63 Albert Road, South Norwood, SE25 4JD",
   "bedrooms": 1,
   "profile_type": "SELL",
+  "lead_profile_text": "Sell-profile lead using STL as a bridge while property is on market awaiting asking price. Already listed on an STR platform but struggling with weekday occupancy — good weekend bookings, cannot fill midweek slots. Wants NHS/contractor-type guests. Plans to handle all furnishing herself so no setup quote needed. SE25 — Selhurst Park (Crystal Palace FC) nearby as demand driver. Competition in SE25 is low. Source: manual meeting summary, no Granola recording.",
+  "emotional_profile": "Practical and cost-conscious. Motivated by selling — STL is a bridge, not a long-term strategy. Needs confidence in weekday occupancy before fully committing. Looking for clarity on what is truly essential before investing further.",
   "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
   "offer_made": true,
   "offer_rate": "13% + VAT",
   "offer_expiry": "2026-06-22",
   "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "",
   "has_delay": false,
+  "green_light_types": [
+    "Already operating on STR platform — understands the model",
+    "Special offer made (13% + VAT, expires 22 June 2026)",
+    "Practical decision-making style — got clear equipment checklist answers",
+    "Low competition in SE25 validated her property's position"
+  ],
+  "green_light_trigger_phrases": [
+    "I'm getting lots of weekend stays but not getting weekday stays",
+    "I really want to get more contractors",
+    "The competition in the area is quite low",
+    "Direct booking potential was fairly high"
+  ],
   "has_green_light": true,
-  "entry_class": "READY_NOW",
+  "entry_class": "READY_SOON",
+  "top_objections": [
+    {
+      "text": "Weekday occupancy — not getting enough midweek bookings with current platform",
+      "zac_response": "NHS and healthcare workers from SE25 area are natural weekday guests. Stayful's multi-platform approach and NHS guest framing specifically addresses weekday fill.",
+      "resolved": true
+    },
+    {
+      "text": "Not confident about achieving asking price on sale in near term — primary motivation for STL bridge",
+      "zac_response": "STL as bridge fully acknowledged — 3-month rolling notice gives full flexibility to exit when buyer is found.",
+      "resolved": true
+    },
+    {
+      "text": "Wanted clarity on essential vs non-essential equipment before committing further investment",
+      "zac_response": "Full breakdown given: cameras not essential (Airbnb prohibits interior cameras), PIR/motion sensors not essential, fire blankets and smoke detectors essential, smart thermostat essential, key safe essential.",
+      "resolved": true
+    },
+    {
+      "text": "General uncertainty about whether income projections are achievable given current underperformance",
+      "zac_response": "Low competition in SE25 and high direct booking potential validated her property's market position. Weekday gap attributed to platform limitations, not property quality.",
+      "resolved": false
+    }
+  ],
+  "top_questions": [
+    {
+      "text": "What equipment is essential vs non-essential for STL?",
+      "answer": "Essential: fire blankets, smoke detectors, smart thermostat, key safe. Not essential: interior cameras (Airbnb prohibits them), PIR/motion sensors."
+    },
+    {
+      "text": "How do I get more weekday bookings — specifically contractors and NHS staff?",
+      "answer": "SE25 is well-placed for NHS and healthcare workers — Stayful's multi-platform approach including direct bookings specifically attracts contractor and professional guests. NHS framing in listing description is key."
+    },
+    {
+      "text": "What is the management fee and offer?",
+      "answer": "Standard 15% + VAT. Special offer: 13% + VAT if signed by 22 June 2026."
+    },
+    {
+      "text": "Can I still sell the property while it's on short-let?",
+      "answer": "Yes — 3-month rolling notice after initial 6-month term. Stayful can work around viewings. Full exit flexibility when buyer is found."
+    },
+    {
+      "text": "What is the competitive landscape in SE25?",
+      "answer": "Competition in SE25 is notably low. Direct booking potential is high. Selhurst Park (Crystal Palace FC) is a significant demand driver. Property amenities described as strong relative to local competition."
+    }
+  ],
+  "what_moved_them": [
+    "Low competition in SE25 well received — less competition for her bookings",
+    "High direct booking potential was a positive data point",
+    "Property amenities noted as strong vs local competition",
+    "Cameras not required — removes a perceived barrier and cost",
+    "Smart thermostat framed as essential remote management tool at low cost"
+  ],
+  "what_fell_flat": [
+    "Income projection confidence not fully established — current underperformance created scepticism",
+    "No specific weekday occupancy rate or income figure given for SE25"
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "No specific weekday occupancy data or NHS guest booking statistics for SE25",
+      "category": "Income confidence",
+      "how_to_fill": "Follow up with SE25-specific data on NHS and contractor guest rates. Show comparable properties' weekday vs weekend split under Stayful management."
+    },
+    {
+      "gap": "Current underperformance on her own listing creating income scepticism",
+      "category": "Social proof",
+      "how_to_fill": "Share Stayful case study from comparable 1-bed London property — weekday occupancy improvement under professional management."
+    }
+  ],
+  "offer_framing": "13% + VAT (vs standard 15%) — 3 weeks to sign by 22 June 2026. No next meeting agreed.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "Competition in SE25 is low and direct booking potential is high — your property is well positioned. The weekday gap you're experiencing is a platform issue, not a property issue.",
+  "zac_transition_phrases": [
+    "The Selhurst Park demand driver covers your weekends — the NHS and healthcare angle fills the week",
+    "Competition in SE25 is low — you're not fighting for bookings",
+    "The cameras question comes up a lot — Airbnb prohibits interior cameras anyway, so you don't need them"
+  ],
+  "zac_reassurance_phrases": [
+    "The 3-month rolling notice gives you full flexibility — when your buyer comes, you can exit",
+    "Fire safety is non-negotiable — everything else on that checklist is optional",
+    "Smart thermostat means you never need to be there to manage temperature"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
   "rent_mortgage": "",
   "str_net_monthly": "",
   "ltl_monthly": ""

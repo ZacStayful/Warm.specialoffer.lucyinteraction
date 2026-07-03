@@ -3,7 +3,7 @@
   "entry_number": "051",
   "quarter": "2026-Q2",
   "meeting_date": "2026-05-28",
-  "transcript_quality": "good",
+  "transcript_quality": "high",
   "lead_name": "Nathan Chadwick",
   "email": "nathan@kennedychadwickestates.com",
   "monday_id": "11959023274",
@@ -11,12 +11,145 @@
   "address": "375 Rossendale Road, Burnley BB11 5HP",
   "bedrooms": 3,
   "profile_type": "EX-STL",
+  "lead_profile_text": "Kennedy Chadwick Estates (Nathan, partner, stepdad, ~1 year in property development). Live Airbnb: former home, active since March, ~£2,500/month gross at 60% occupancy (~£1,800 profit after bills) — self-managed bar laundry. 375 Rossendale Road: £117k purchase, £275k expected valuation post-renovation, high-end finishes (granite countertops throughout), £10k additional furnishing needed, ready in ~2 weeks. Third house + land for two additional properties in pipeline. Separate: call with Tracy (mum) 2 June re Dugdale Street property (separate pipeline lead).",
+  "emotional_profile": "Systems-thinking entrepreneur — values scalability over manual effort. Emotionally invested in renovation quality (first major project, £100k+ exposure). Actively frustrated by Booking.com damage experience. Clear business identity as 'entrepreneurs not cleaners'.",
   "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
   "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["Property not yet ready (~2 weeks)", "LTL test strategy under consideration"],
+  "delay_trigger_phrases": [
+    "Test the long-term rental market first",
+    "Could we test long-let for a month first?",
+    "Property ready in approximately 2 weeks",
+    "Two simultaneous changeovers and we'd need to hire cleaners anyway"
+  ],
+  "delay_timeline": "~2 weeks for property readiness; potential 1-2 month LTL trial if that strategy is pursued",
   "has_delay": true,
+  "green_light_types": [
+    "Already operating STL successfully — no income discovery needed",
+    "Scalability need clearly articulated by Nathan himself",
+    "Ambitious 3-4 property pipeline already visible",
+    "Booking.com damage pain point is live and unresolved — Stayful directly addresses it",
+    "Action plan delivered within 15-20 minutes of call as committed"
+  ],
+  "green_light_trigger_phrases": [
+    "We don't want to become manual cleaners — we're entrepreneurs",
+    "Two changeovers at the same time and we'd need to hire cleaners anyway",
+    "We have a third house and land for two more properties",
+    "Airbnb guests are excellent — it's Booking.com that's the problem"
+  ],
   "has_green_light": true,
   "entry_class": "READY_SOON",
+  "top_objections": [
+    {
+      "text": "Two simultaneous changeovers — risk of becoming manual cleaners instead of entrepreneurs",
+      "zac_response": "Stayful handles all cleaning coordination and changeovers end-to-end. Nathan and his team are freed from all operational cleaning responsibilities.",
+      "resolved": true
+    },
+    {
+      "text": "Booking.com guest quality — drug preparation incidents, £200 dining table destroyed, compensation still pending after difficult claims process",
+      "zac_response": "£200 security deposit, ID checks, damage history screening. Stayful's active guest vetting model versus Booking.com's open booking approach.",
+      "resolved": true
+    },
+    {
+      "text": "Worst month STL projection (~£952) vs total monthly costs (~£1,100) — small potential monthly loss in worst case",
+      "zac_response": "Worst month is one in 12 — full year average significantly outperforms. LTL at £1,300-1,400 is aspirational and carries void risk. Honest framing applied in action plan.",
+      "resolved": false
+    },
+    {
+      "text": "£100k renovation investment exposed to guest damage — emotional attachment to first major renovation (granite countertops throughout, high-end finishes, £10k additional furnishings)",
+      "zac_response": "AirCover protection, £200 deposit, ID checks, damage claim support from Stayful team. Proactive guest quality management mitigates risk.",
+      "resolved": true
+    },
+    {
+      "text": "Considering testing long-let for one month before committing to STL — lower perceived risk",
+      "zac_response": "Honest LTL vs STL comparison in action plan. STL significantly outperforms over full year. Cost of 1-month delay quantified. 3-week setup timeline means STL can start immediately.",
+      "resolved": false
+    }
+  ],
+  "top_questions": [
+    {
+      "text": "What realistic income can 375 Rossendale Road generate via STL?",
+      "answer": "Worst month ~£952 net. Full year average significantly above that. LTL comparator: estate agent quote £1,300-1,400/month — aspirational, void risk applies. Honest framing in action plan."
+    },
+    {
+      "text": "How does Stayful prevent and manage guest damage — specifically vs Booking.com?",
+      "answer": "£200 security deposit, ID checks with damage history, AirCover protection, active damage claim support. Unlike Booking.com's open platform, Stayful actively screens guests before confirming."
+    },
+    {
+      "text": "Can Stayful manage multiple properties as we scale to 3-4?",
+      "answer": "Yes — portfolio partnership model. Each property managed independently but operationally coordinated through one team. Owner calendar visibility across all properties."
+    },
+    {
+      "text": "Are changeovers and cleaning fully handled?",
+      "answer": "Yes — full end-to-end cleaning coordination included. All changeovers managed by Stayful. Nathan and his team have zero manual cleaning involvement."
+    },
+    {
+      "text": "What are the contract terms and exit options?",
+      "answer": "6-month initial term then 3-month rolling notice. No long-term lock-in after initial period."
+    },
+    {
+      "text": "What about the Dugdale Street property (Tracy's property)?",
+      "answer": "Separate pipeline — call with Tracy (Nathan's mum) booked for 2 June. Not part of this engagement."
+    }
+  ],
+  "what_moved_them": [
+    "Guest screening with deposits and ID checks — directly resolved the live Booking.com damage frustration",
+    "Scalability pitch: freeing Nathan and team to be entrepreneurs, not manual cleaners",
+    "Slack channel and owner calendar visibility across multiple properties",
+    "Monthly statement and professional reporting structure",
+    "Action plan delivered within 15-20 minutes of call — execution speed built trust"
+  ],
+  "what_fell_flat": [
+    "Worst month projection (£952 vs £1,100 monthly costs) — tight margin honestly acknowledged but not resolved as a concern",
+    "LTL test strategy still live — Nathan not fully convinced to skip the one-month long-let test"
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Tight margin on Rossendale Road worst month (£952 vs £1,100 costs)",
+      "category": "Income confidence",
+      "how_to_fill": "Show full 12-month net range. Frame worst month as 1 in 12. Model LTL void risk realistically — 4-8 weeks to let plus agent fees vs instant STL income."
+    },
+    {
+      "gap": "LTL test strategy — Nathan considering one month long-let trial first",
+      "category": "Decision hesitation",
+      "how_to_fill": "Quantify cost of delay: one month LTL at £1,300 vs one month STL average plus void risk. Contrast with 3-week STL setup timeline."
+    },
+    {
+      "gap": "No urgency lever — no offer or expiry date created",
+      "category": "Urgency",
+      "how_to_fill": "Property ready in 2 weeks is natural urgency. Consider time-sensitive onboarding rate offer."
+    },
+    {
+      "gap": "Portfolio partnership pitch informal — not yet formalised",
+      "category": "Strategic positioning",
+      "how_to_fill": "Formal portfolio partnership proposal when third property enters pipeline. Position Stayful as Nathan's management infrastructure as he scales."
+    }
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "Your existing Airbnb generates ~£2,500/month gross at 60% occupancy — you already know STL works. The Rossendale Road figures are tighter but the year average significantly outperforms LTL, and this becomes the template for the portfolio.",
+  "zac_transition_phrases": [
+    "The reason this works for you is scalability — you can't manage 3 properties without becoming the operation",
+    "What Stayful gives you is the management infrastructure without the headcount",
+    "The Booking.com experience is exactly why guest screening matters — we built our process around preventing that"
+  ],
+  "zac_reassurance_phrases": [
+    "We take on all changeovers — you are never the manual cleaner",
+    "The £200 deposit and ID checks are specifically designed to protect high-end renovated properties",
+    "AirCover protection means your renovation investment is covered",
+    "Your calendar is always yours — block personal access any time"
+  ],
+  "zac_analogies": [
+    "Two simultaneous changeovers without management is like running two restaurants as the only waiter — it simply doesn't scale"
+  ],
+  "meeting_duration_mins": 0,
   "rent_mortgage": "£750/month interest-only (~£1,100 total monthly costs)",
-  "str_net_monthly": "£952",
-  "ltl_monthly": "£1,300"
+  "str_net_monthly": "952",
+  "ltl_monthly": "1350"
 }

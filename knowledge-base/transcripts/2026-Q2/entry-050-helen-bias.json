@@ -3,23 +3,158 @@
   "entry_number": "050",
   "quarter": "2026-Q2",
   "meeting_date": "2026-05-27",
-  "transcript_quality": "good",
+  "transcript_quality": "high",
   "lead_name": "Helen Bias",
   "email": "hmb_mubs@hotmail.com",
   "monday_id": "12090939515",
   "granola_meeting_id": "08eae3a7-791e-4e58-8052-f5ef944b69f3",
-  "address": "The George Inn, Leek Road, Waterhouses, Staffordshire ST10 3HW",
+  "address": "The George Inn, Leek Rd, Waterhouses, Staffordshire ST10 3HW",
   "bedrooms": 6,
   "profile_type": "ABROAD",
+  "lead_profile_text": "Moving to US; 6-bed large group property (The George Inn, Waterhouses). Managed remotely. No direct comparable in current Stayful portfolio. Sister has Cornwall properties — pipeline opportunity. First large-format group property in Stayful pipeline.",
+  "emotional_profile": "Analytically engaged and time-pressured — real US departure deadline creates genuine urgency. Remote management reassurance is primary emotional need. Thinking expansively (sister Cornwall properties).",
   "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
   "offer_made": true,
   "offer_rate": "13% + VAT",
   "offer_expiry": "2026-06-14",
   "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "",
   "has_delay": false,
+  "green_light_types": [
+    "Time pressure (US departure end of next week)",
+    "Special offer with hard expiry (June 14)",
+    "Follow-up call booked (Monday 1 June)",
+    "Both parties agreed action items",
+    "Sister Cornwall pipeline mentioned — expansive engagement"
+  ],
+  "green_light_trigger_phrases": [
+    "I need to decide before I go back",
+    "Let's have a call Monday 1 June to review the materials",
+    "I'll send the photos by the weekend",
+    "My sister has properties in Cornwall"
+  ],
   "has_green_light": true,
   "entry_class": "READY_SOON",
+  "top_objections": [
+    {
+      "text": "Managing the property remotely — returning to US and cannot be on-site",
+      "zac_response": "Slack channel with dedicated team, monthly statements 1st-5th, quarterly inspections — full visibility without physical presence needed",
+      "resolved": true
+    },
+    {
+      "text": "I want to understand the costs more — full cost transparency required",
+      "zac_response": "Full cost breakdown: guest pays cleaning (~£200/stay), owner covers mortgage, insurance, utilities, council tax, annual gas safety. Maintenance auto-threshold £300/month",
+      "resolved": true
+    },
+    {
+      "text": "I'd like more control over pricing — wants oversight of dynamic pricing decisions",
+      "zac_response": "Dynamic pricing reviewed weekly with manual oversight — owner can input preferences and floor rates",
+      "resolved": false
+    },
+    {
+      "text": "Not being kept informed — key emotional need around communication and visibility",
+      "zac_response": "Dedicated Slack channel, monthly statements, quarterly performance reviews address this directly",
+      "resolved": true
+    },
+    {
+      "text": "The fee structure — analytical concern, wants to know exactly what's included",
+      "zac_response": "13% + VAT (discounted from 15%) covers end-to-end: cleaning coordination, maintenance, guest vetting, platform management, reporting",
+      "resolved": true
+    },
+    {
+      "text": "Why doesn't Stayful use VRBO given its off-season performance and improved pricing tools vs Airbnb?",
+      "zac_response": "Reviews concentrated on Airbnb and Booking.com to drive platform ranking — VRBO dilutes review base",
+      "resolved": false
+    },
+    {
+      "text": "Hot tub — questioned whether to add one",
+      "zac_response": "Mutually agreed to defer — assess property performance first before adding maintenance complexity",
+      "resolved": true
+    }
+  ],
+  "top_questions": [
+    {
+      "text": "What is the forecasted net revenue for the property?",
+      "answer": "~£90,000 annually net. Comparable large-format properties earning £120-150k. Average nightly rate £952. Low occupancy expected due to large capacity group bookings. Peak season (August) doubles February revenue."
+    },
+    {
+      "text": "What is the management fee and what does it include?",
+      "answer": "Standard 15% + VAT. Reduced to 13% + VAT if signed by 14 June 2026. Includes: cleaning, maintenance coordination, guest vetting, platform management, monthly statements, quarterly inspections."
+    },
+    {
+      "text": "How does guest vetting and property protection work for a high-value property?",
+      "answer": "£500 security deposit (elevated for property value), ID checks with damage history screening, £100k damage cover per stay."
+    },
+    {
+      "text": "What is the timeline from contract signing to going live?",
+      "answer": "3 weeks from contract to go-live — includes photographer, cleaner inspection, snagging list."
+    },
+    {
+      "text": "How are maintenance and repairs handled remotely?",
+      "answer": "Automatic approval for work up to £300/month; above that requires owner sign-off. Coordinated through dedicated team. Owner notified via Slack."
+    },
+    {
+      "text": "What platforms will the property be listed on?",
+      "answer": "Airbnb, Booking.com, and Stayful direct booking site. VRBO not currently used — reviews concentrated on main channels to build ranking."
+    },
+    {
+      "text": "Should we add a hot tub?",
+      "answer": "Mutually agreed to defer — wait to assess performance and occupancy before introducing hot tub maintenance complexity."
+    }
+  ],
+  "what_moved_them": [
+    "6 years trading and 80 properties — scale gave credibility",
+    "£500 security deposit noted positively — showed Stayful takes property protection seriously for high-value property",
+    "Quarterly inspections — reassured Helen on property oversight from a distance",
+    "Monthly statements on 1st-5th — very specific timeline gave confidence",
+    "3 weeks contract to live — shorter timeline than expected",
+    "Sister's Cornwall properties mentioned — Helen thinking expansively and genuinely engaged"
+  ],
+  "what_fell_flat": [
+    "VRBO exclusion not fully resolved — Helen questioned this given its off-season performance",
+    "Pricing control — dynamic pricing model left residual concern about autonomy"
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "No worst-case monthly floor provided for large-format group property",
+      "category": "Income confidence",
+      "how_to_fill": "Provide seasonal monthly range (floor and ceiling) for 6-bed group properties at follow-up call on June 1"
+    },
+    {
+      "gap": "VRBO question not satisfactorily answered",
+      "category": "Platform strategy",
+      "how_to_fill": "Prepare concise explanation of why review concentration on Airbnb and Booking.com outperforms VRBO distribution at this stage"
+    },
+    {
+      "gap": "Pricing oversight mechanism not fully explained",
+      "category": "Control and autonomy",
+      "how_to_fill": "Show Helen the owner pricing input process — she can set floor rates and flag preferences"
+    }
+  ],
+  "offer_framing": "13% + VAT (vs standard 15%) — saving 2 percentage points — if agreement signed by 14 June 2026, aligned with Helen's US departure timeline.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "Comparable properties earning £120-150k annually. Conservative forecast for Helen's property is ~£90,000 net based on large-format group booking profile. Average nightly rate £952 with seasonal variation.",
+  "zac_transition_phrases": [
+    "The reason we focus on Airbnb and Booking.com is to concentrate reviews — spreading across VRBO dilutes that",
+    "Because you're moving to the US, the Slack channel becomes your eyes and ears on the property",
+    "3 weeks from contract to go-live — that fits well before your departure"
+  ],
+  "zac_reassurance_phrases": [
+    "You won't need to be physically present for any of this",
+    "Monthly statements land 1st to 5th every month — you'll always know exactly what's happening",
+    "Quarterly inspection calls mean nothing falls through the cracks",
+    "We hold a £500 deposit specifically because of the property's value — higher than our standard"
+  ],
+  "zac_analogies": [
+    "The Slack channel is like having a property manager in your pocket — wherever you are in the US"
+  ],
+  "meeting_duration_mins": 0,
   "rent_mortgage": "",
-  "str_net_monthly": "£7,500",
+  "str_net_monthly": "7500",
   "ltl_monthly": ""
 }

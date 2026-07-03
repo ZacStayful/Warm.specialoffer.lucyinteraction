@@ -3,7 +3,7 @@
   "entry_number": "051",
   "quarter": "2026-Q2",
   "meeting_date": "2026-06-01",
-  "transcript_quality": "good",
+  "transcript_quality": "high",
   "lead_name": "Don Yoo",
   "email": "dongyoonyoo10@gmail.com",
   "monday_id": "12082840653",
@@ -11,12 +11,128 @@
   "address": "Binley, Coventry CV3 2QG",
   "bedrooms": 5,
   "profile_type": "PURCH",
+  "lead_profile_text": "Purchased specifically for STL. 3-bed house converting garage to bedroom + loft conversion. Final configuration: 5 bedrooms, 2 toilets. Renovation timeline 2-3 months. All work fire-compliant for Airbnb. Professional/academic guest profile preferred. Target £1,000+/month profit after mortgage.",
+  "emotional_profile": "Motivated and financially analytical. Clear income target with a specific gap to close. Renovation-dependent timeline. Prefers professional and academic guests. Measured optimism with realistic expectations.",
   "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
   "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["Renovation dependency", "Timeline-based delay"],
+  "delay_trigger_phrases": [
+    "I'll complete the renovation over the next 2-3 months",
+    "Renovation timeline: 2-3 months from now"
+  ],
+  "delay_timeline": "August/September 2026 (renovation completion); follow-up call 10 August 2026 at 12pm",
   "has_delay": true,
+  "green_light_types": [
+    "Bought specifically for STL — no inertia from existing use",
+    "Follow-up call booked August 10 at 12pm via Google Meet",
+    "100/100 direct booking potential score landed positively",
+    "Fire-compliant renovation already planned for Airbnb regulations"
+  ],
+  "green_light_trigger_phrases": [
+    "My target is £1,000+ monthly profit after mortgage",
+    "I want to get the right type of guests",
+    "I'll complete the renovation over the next 2-3 months",
+    "Fire doors and interlinked alarms — all fire-compliant"
+  ],
   "has_green_light": true,
-  "entry_class": "READY_SOON",
-  "rent_mortgage": "",
-  "str_net_monthly": "£1,805",
+  "entry_class": "DELAYED",
+  "top_objections": [
+    {
+      "text": "Year 1 projection of ~£800/month after mortgage falls short of his £1,000 target",
+      "zac_response": "Year 1 is conservative — 5-bed will sit in premium bracket above the 4-bed comparable used in analysis. Year 2 trajectory with direct bookings (30-40%) bridges the gap. ADR premium for 5-bed to be modelled at August call.",
+      "resolved": false
+    },
+    {
+      "text": "Interest in ensuring the right type of guests — professional and academic profile preferred",
+      "zac_response": "Coventry's proximity to university and hospital drives professional and academic guest base naturally. Guest screening with ID checks and £200 deposit in place.",
+      "resolved": true
+    },
+    {
+      "text": "Renovation timeline dependency — cannot commit fully until renovation confirmed on track",
+      "zac_response": "August 10th follow-up call timed for renovation near-completion. No pressure to commit before then.",
+      "resolved": true
+    }
+  ],
+  "top_questions": [
+    {
+      "text": "What is the projected monthly revenue for the property?",
+      "answer": "Conservative estimate based on 4-bed comparison: £1,805 net monthly. 58% occupancy, £196 average daily rate. Seasonal range: January £1,329 to July £2,284. 5-bed configuration will sit in premium bracket above these figures."
+    },
+    {
+      "text": "What is the management fee?",
+      "answer": "15% + VAT standard. No special offer made at this meeting."
+    },
+    {
+      "text": "What type of guests can I expect?",
+      "answer": "Near University of Coventry and Coventry University Hospital — strong professional and academic guest base. 2,000+ annual events in Coventry. Guest screening with ID checks and £200 security deposit."
+    },
+    {
+      "text": "What platforms will the property be listed on?",
+      "answer": "Airbnb, Booking.com, and Stayful direct booking site. 100/100 score for direct booking potential in Coventry."
+    },
+    {
+      "text": "What services are included in management?",
+      "answer": "Full guest communication, cleaning and maintenance coordination, monthly statements 1st-5th, Slack communication with 24-hour response, quarterly performance review calls, £100k damage insurance per stay."
+    },
+    {
+      "text": "What is the direct booking potential and how long does it take?",
+      "answer": "100/100 score for direct booking potential. 30-40% direct bookings typical within 12-18 months — this is where the £1,000/month target becomes achievable."
+    },
+    {
+      "text": "Can you help with furnishing and setup?",
+      "answer": "Setup assistance available including furnishing guidance and professional photography coordination."
+    }
+  ],
+  "what_moved_them": [
+    "Market conditions described as highly favourable — competition averaging only 4.5 stars with 36 reviews",
+    "100/100 direct booking potential score",
+    "Coventry's proximity to university and hospital — aligns with his preferred professional guest profile",
+    "Slack communication and 24-hour response time",
+    "Full guest communication and maintenance coordination included — nothing for him to manage"
+  ],
+  "what_fell_flat": [
+    "Year 1 income projection (~£800 after mortgage) did not meet his £1,000 target — left an unresolved gap",
+    "No offer or incentive — no urgency lever created"
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "£800 vs £1,000/month gap after mortgage in Year 1 projection",
+      "category": "Income confidence",
+      "how_to_fill": "Present 5-bed ADR premium vs 4-bed comparable at August call. Model Year 2 trajectory with direct booking ramp. Show monthly peaks (August £2,284) clearly."
+    },
+    {
+      "gap": "Renovation completion confirmation needed before commitment can progress",
+      "category": "Timeline dependency",
+      "how_to_fill": "August 10th call — confirm renovation on track, re-run figures with 5-bed config, move to contract if confirmed."
+    },
+    {
+      "gap": "No offer or incentive created at meeting — no urgency lever",
+      "category": "Urgency",
+      "how_to_fill": "Consider time-sensitive offer at August 10th call if renovation is confirmed — e.g. reduced rate for early sign before busy autumn season."
+    }
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "Conservative estimate based on 4-bed comparison: £1,805 net monthly, 58% occupancy. 5-bed configuration sits in premium bracket — Year 2 with direct bookings makes the £1,000+ target very achievable.",
+  "zac_transition_phrases": [
+    "The market conditions are particularly favourable right now — competition averaging only 36 reviews",
+    "100 out of 100 for direct booking potential — that's among the highest scores I've seen",
+    "Near the university and hospital, we typically see professional and academic guests — exactly the profile you want"
+  ],
+  "zac_reassurance_phrases": [
+    "You don't need to worry about the renovation timeline — the August call gives you the space to complete it",
+    "Guest screening with ID checks and deposits means you get the right type of guest",
+    "Maintenance approval above £300 always goes through you first"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "Mortgage in place (monthly amount not disclosed)",
+  "str_net_monthly": "1805",
   "ltl_monthly": ""
 }
