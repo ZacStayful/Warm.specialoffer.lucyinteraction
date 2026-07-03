@@ -1,0 +1,74 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "036",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-06",
+  "transcript_quality": "detailed",
+  "lead_name": "Vanessa Wilson-Wood",
+  "email": "vanessa_w-w@hotmail.co.uk",
+  "monday_id": "11908410085",
+  "granola_meeting_id": "0e3b3dad-0747-42f6-8ca6-ddb7bcfacc09",
+  "address": "1 Lyndhurst Road, NG2 4FW",
+  "bedrooms": 3,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "EX-STL switching from Pass the Keys (20% fee). 3 bed house, Sneinton, Nottingham NG2. Started STL January 2026. After 4+ months with PTK: only 4 reviews, peak gross month ~£1,000 vs promised £1,500-2,000. Mortgage £480/month + ~£250/month bills. Stayful projecting £31,000 gross/yr, ~£16,319 net. LTL estimate £9,871/year. June booking of £1,500/week already confirmed validating nightly rate. Vanessa and partner are both teachers — income consistency is critical.",
+  "emotional_profile": "Financially pressured teacher; values consistency and transparency over hype; burned by PTK underperformance and broken promises; motivated to make STL work but anxious about winter reliability and making another mistake; responds to honesty and concrete proof points",
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13% + VAT",
+  "offer_expiry": "2026-05-15",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": ["considering her options before the 15 May deadline", "it's the inconsistency that worries me", "guaranteed rent just feels safer"],
+  "delay_timeline": "decision by 2026-05-15",
+  "has_delay": true,
+  "green_light_types": ["GL-MGMT"],
+  "green_light_trigger_phrases": ["already taking the step into STL", "the June booking shows it can work", "I don't want to make another mistake with another company"],
+  "has_green_light": true,
+  "entry_class": "READY_SOON",
+  "top_objections": [
+    {"text": "Will we actually hit the projected income with only 4 reviews right now?", "zac_response": "June booking of £1,500/week already validates nightly rate; honest ramp-up acknowledgement given", "resolved": false},
+    {"text": "Is short-let really better than guaranteed long-let? We need consistency.", "zac_response": "STL net £16,319 vs LTL £9,871 — £6,448/year advantage presented; Nottingham year-round demand fundamentals explained", "resolved": false},
+    {"text": "Why would Stayful be better than Pass the Keys who made similar promises?", "zac_response": "4-platform listing vs PTK Airbnb-only; Slack comms; directly employed team; dynamic pricing updated daily; 13% vs 20% fee", "resolved": false},
+    {"text": "What happens if projections aren't hit — especially January to April?", "zac_response": "Nottingham demand: universities, QMC hospital, 1,000+ local events; honest seasonal context given", "resolved": false},
+    {"text": "What about the June £1,500/week booking — does switching management affect it?", "zac_response": "", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "How does the 13% Stayful fee compare to Pass the Keys 20%?", "answer": "13%+VAT vs PTK 20% — significant saving clearly calculable on projected income figures"},
+    {"text": "What platforms will the property be listed on?", "answer": "4 platforms (Airbnb, Booking.com plus direct booking channels) vs PTK Airbnb-only"},
+    {"text": "What are the projected annual income figures?", "answer": "£31,000 gross annually, ~£16,319 net to Vanessa after fees; vs LTL £9,871/year — £6,448/year STL advantage"}
+  ],
+  "what_moved_them": [
+    "4-platform listing vs Airbnb-only — tangible differentiator she had not expected",
+    "Honest acknowledgement that year 1 will be below full-potential while reviews build — trusted Stayful's candour vs PTK's promises",
+    "June booking of £1,500/week already in place — concrete proof point validating nightly rate and demand",
+    "Slack communication model vs poor PTK communication she has experienced",
+    "13% vs 20% fee — significant saving she could clearly calculate herself"
+  ],
+  "what_fell_flat": [
+    "No second meeting agreed — left decision entirely to lead with only deadline pressure",
+    "Winter income consistency concern not fully resolved — anxiety remains",
+    "Trust gap from PTK experience not fully bridged at meeting; credibility gap still open"
+  ],
+  "conversion_gaps": [
+    {"gap": "Trust gap — PTK made similar promises; Stayful must win on proof not promises", "category": "trust", "how_to_fill": "Share verified case studies from comparable Nottingham EX-STL switches; concrete review velocity data; documented communication SLAs"},
+    {"gap": "Winter income anxiety unresolved — Jan-Apr consistency concern", "category": "financials", "how_to_fill": "Provide seasonal booking data for NG2 area; QMC hospital and Nottingham university year-round demand evidence"},
+    {"gap": "No follow-up meeting booked — decision left to lead alone before 15 May deadline", "category": "process", "how_to_fill": "Always book a follow-up call before any offer expiry; never leave a switching decision to solo reflection without a scheduled touchpoint"}
+  ],
+  "offer_framing": "13% + VAT switching incentive vs standard 15% — explicit comparison to PTK's 20% fee; framed as reward for switching to a better operator, not desperation; valid until 15 May 2026",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "£31,000 projected gross annually, ~£16,319 net to Vanessa after Stayful fees, cleaning and platform costs — vs LTL £9,871/year, a £6,448/year advantage for short-letting",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [
+    "Honest acknowledgement that year 1 income will be below full-potential while reviews build",
+    "June £1,500/week booking is concrete proof that nightly rate and demand are already validated"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£480/month mortgage + ~£250/month bills",
+  "str_net_monthly": "~£1,360",
+  "ltl_monthly": "~£823"
+}

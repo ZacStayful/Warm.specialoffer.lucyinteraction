@@ -1,0 +1,61 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "032",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-03-11",
+  "transcript_quality": "summary",
+  "lead_name": "Rebecca Hutchinson",
+  "email": "marbecpropertyltd@gmail.com",
+  "monday_id": "11453936644",
+  "granola_meeting_id": "0185c47f-1519-48db-9e63-930e1dbaf315",
+  "address": "M16 0XX",
+  "bedrooms": 1,
+  "profile_type": "PURCH",
+  "lead_profile_text": "Purchase — Off-plan 1 bed Manchester (Old Trafford area). STL mortgage arranged. Off-plan completion June 2026. Financial projections, direct bookings, guest screening and onboarding discussed.",
+  "emotional_profile": "Long-term investor with pragmatic expectations; blocked purely by property completion date; engaged and progressed",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-PUR"],
+  "delay_trigger_phrases": ["off-plan completion June 2026", "property not yet complete"],
+  "delay_timeline": "June 2026",
+  "has_delay": true,
+  "green_light_types": ["GL-TIME"],
+  "green_light_trigger_phrases": ["follow up around June 2026 when keys received"],
+  "has_green_light": true,
+  "entry_class": "READY_SOON",
+  "top_objections": [
+    {"text": "Same-block competition — multiple Airbnbs in same building", "zac_response": "Location demand offsets internal competition", "resolved": false},
+    {"text": "New listing ramp-up period — 3-6 months to build reviews", "zac_response": "Acknowledged honestly; lead accepted given long-term investment mindset", "resolved": true}
+  ],
+  "top_questions": [
+    {"text": "What income can I realistically expect?", "answer": "Financial projections presented — gross and net figures outlined"},
+    {"text": "What does the onboarding process look like for a new property?", "answer": "Onboarding timeline and process explained"}
+  ],
+  "what_moved_them": [
+    "STL mortgage already arranged — no consent to let barrier",
+    "Location demand fundamentals — Manchester off-plan area",
+    "Long-term investment mindset — realistic about initial ramp-up"
+  ],
+  "what_fell_flat": [
+    "Completion date means no action possible until June 2026"
+  ],
+  "conversion_gaps": [
+    {"gap": "Off-plan completion delay — onboarding not possible until June 2026", "category": "timing", "how_to_fill": "Light-touch follow-up in May 2026 ahead of completion; keep engagement warm"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "STL mortgage",
+  "str_net_monthly": "",
+  "ltl_monthly": ""
+}

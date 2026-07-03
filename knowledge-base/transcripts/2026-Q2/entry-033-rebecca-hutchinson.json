@@ -1,0 +1,66 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "033",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-03-11",
+  "transcript_quality": "detailed",
+  "lead_name": "Rebecca Hutchinson",
+  "email": "marbecpropertyltd@gmail.com",
+  "monday_id": "11453936644",
+  "granola_meeting_id": "0185c47f-1519-48db-9e63-930e1dbaf315",
+  "address": "Victory Place, Warwick Road, M16 0XX",
+  "bedrooms": 1,
+  "profile_type": "PURCH",
+  "lead_profile_text": "Purchase — Off-plan 1 bed top-floor apartment, Victory Place, Warwick Road, Old Trafford (between Old Trafford Football Ground and Emirates Cricket Ground). STL mortgage arranged. Due complete June 2026. 15 of 86 apartments in block permitted as Airbnb. Marbec Property Ltd. Gross ~£26,000/yr, £116 nightly, 63% occupancy, net ~£16-17k/yr before mortgage and bills.",
+  "emotional_profile": "Long-term investor; pragmatic expectations — 'long-term investment rather than major extra income'; not chasing huge returns; responded well to honesty about review ramp-up; blocked purely by completion date",
+  "outcome": "In the Future",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-PUR"],
+  "delay_trigger_phrases": ["off-plan completing June 2026", "awaiting completion"],
+  "delay_timeline": "June 2026",
+  "has_delay": true,
+  "green_light_types": ["GL-TIME"],
+  "green_light_trigger_phrases": ["Zac to follow up ~May 2026", "follow up when keys received"],
+  "has_green_light": true,
+  "entry_class": "READY_SOON",
+  "top_objections": [
+    {"text": "Same-block competition — up to 15 Airbnbs in same 86-unit building", "zac_response": "Stadium proximity events demand offsets block competition; dynamic pricing captures event uplift", "resolved": false},
+    {"text": "New listing starts slow — 3-6 months to build reviews before full income potential", "zac_response": "Honestly acknowledged; lead's long-term investment mindset meant she accepted this", "resolved": true},
+    {"text": "Key access restrictions per block management rules", "zac_response": "Key safe, KeyNest or smart lock options outlined subject to block management approval", "resolved": true}
+  ],
+  "top_questions": [
+    {"text": "What income can I realistically expect from this property?", "answer": "Gross ~£26,000/yr, £116 nightly, 63% occupancy, net ~£16-17k/yr before mortgage and bills"},
+    {"text": "How does guest access work given block management restrictions?", "answer": "Key safe, KeyNest or smart lock — subject to block management rules; options exist"},
+    {"text": "How competitive is the local market with other Airbnbs in the same block?", "answer": "Stadium proximity demand offsets block competition; dynamic pricing updated daily captures event rate uplift"}
+  ],
+  "what_moved_them": [
+    "Stadium proximity — Old Trafford Football Ground and Emirates Cricket Ground events demand",
+    "STL mortgage already in place — no consent to let barrier",
+    "Long-term investment mindset — not expecting huge returns; ramp-up accepted",
+    "Contract sent for review — progressed to next stage pre-completion"
+  ],
+  "what_fell_flat": [
+    "Completion date means no onboarding action possible until June 2026"
+  ],
+  "conversion_gaps": [
+    {"gap": "Off-plan completion blocks all onboarding until June 2026", "category": "timing", "how_to_fill": "Zac to follow up ~May 2026 pre-completion; light-touch engagement to keep warm without pressure"}
+  ],
+  "offer_framing": "No offer made at this stage — timing not right; contract sent for review to maintain momentum",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "Gross ~£26,000/yr, £116 nightly, 63% occupancy, net ~£16-17k/yr before mortgage and bills",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [
+    "Honest acknowledgement that year 1 income will be below full-potential while reviews build"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "STL mortgage",
+  "str_net_monthly": "~£1,375",
+  "ltl_monthly": ""
+}

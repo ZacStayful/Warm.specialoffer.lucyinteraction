@@ -1,0 +1,56 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "035",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-03-09",
+  "transcript_quality": "summary",
+  "lead_name": "Mitchell Thomas",
+  "email": "trademt94@outlook.com",
+  "monday_id": "11450724256",
+  "granola_meeting_id": "a0af5377-81e6-4466-9d9e-40a5a7c09723",
+  "address": "DE7 8AF",
+  "bedrooms": 6,
+  "profile_type": "R2R",
+  "lead_profile_text": "R2R — 6 bed shared accommodation, Derby DE7. Individual rooms with shared kitchen and facilities (HMO-style). Outside Stayful operating model. Directed to supported living or HMO management provider. Should have been disqualified at first call, not web meeting stage.",
+  "emotional_profile": "Disqualified at web meeting due to model mismatch — not a financial viability issue",
+  "outcome": "Dead",
+  "lost_reason": "model_mismatch_shared_accommodation",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "",
+  "has_delay": false,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "LOST",
+  "top_objections": [
+    {"text": "Shared accommodation (individual rooms, shared kitchen) is outside Stayful operating model", "zac_response": "Directed to supported living or HMO management provider", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "Can Stayful manage a 6-bed shared accommodation property?", "answer": "No — Stayful cannot manage shared accommodation; referred to supported living or HMO management provider"}
+  ],
+  "what_moved_them": [],
+  "what_fell_flat": [
+    "Stayful cannot manage shared accommodation — automatic model disqualification",
+    "This type of property should be screened and redirected at first call, not at web meeting stage — wasted sales capacity"
+  ],
+  "conversion_gaps": [
+    {"gap": "Shared accommodation slipped through initial qualification to web meeting stage", "category": "qualification", "how_to_fill": "Add explicit shared accommodation screening question to initial call — if property has individual lettable rooms with shared facilities, redirect immediately to HMO specialist"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "",
+  "ltl_monthly": ""
+}

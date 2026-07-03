@@ -1,0 +1,59 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "033",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-03-09",
+  "transcript_quality": "summary",
+  "lead_name": "Mohimi Ovbiagele",
+  "email": "mohimi@yahoo.com",
+  "monday_id": "11456568753",
+  "granola_meeting_id": "09202cac-1f19-42f6-8c09-d4e7b1fdecab",
+  "address": "LE1 6TH",
+  "bedrooms": 2,
+  "profile_type": "PURCH",
+  "lead_profile_text": "Purchase — 2 bed Leicester city centre. Owner based in Lagos, Nigeria. Developer offering competing management service — primary conversion barrier.",
+  "emotional_profile": "International owner (Lagos-based); developer relationship likely prioritised by default; difficult conversion pattern — developer proximity wins against third-party management",
+  "outcome": "Dead",
+  "lost_reason": "developer_management_chosen",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "special offer (rate unspecified in notes)",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "",
+  "has_delay": false,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "LOST",
+  "top_objections": [
+    {"text": "Developer offering competing management service — built-in relationship", "zac_response": "Stayful projections, profitability plan, guest vetting and reporting tools presented", "resolved": false},
+    {"text": "International owner (Lagos-based) — remote decision making with less opportunity to build trust", "zac_response": "", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "How do Stayful's projections compare to what the developer is offering?", "answer": "Stayful profitability plan presented; commercial terms and special offer discussed"},
+    {"text": "What are owner stays and reporting tools like?", "answer": "Owner stays and reporting tools covered in meeting"}
+  ],
+  "what_moved_them": [],
+  "what_fell_flat": [
+    "Developer relationship wins by default for international owner — convenience and existing trust override performance arguments",
+    "Remote decision-making by international owner reduces Stayful's ability to build in-meeting rapport"
+  ],
+  "conversion_gaps": [
+    {"gap": "Developer competing management offering — not identified pre-meeting", "category": "competition", "how_to_fill": "Pre-qualify whether developer is offering management; if yes, prepare direct developer comparison deck before web meeting"},
+    {"gap": "International owner — limited async trust-building before meeting", "category": "trust", "how_to_fill": "Remote onboarding case studies; emphasise Slack communication and owner dashboard tools in follow-up"}
+  ],
+  "offer_framing": "Commercial terms and special offer discussed at meeting — insufficient to overcome developer relationship",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "",
+  "ltl_monthly": ""
+}

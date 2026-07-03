@@ -1,0 +1,59 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "031",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-03-12",
+  "transcript_quality": "summary",
+  "lead_name": "Kes Kessington",
+  "email": "keskessington@atnproperty.com",
+  "monday_id": "11475779335",
+  "granola_meeting_id": "c2cf625b-7884-41c4-9d98-57a133387ead",
+  "address": "M13 0NW",
+  "bedrooms": 0,
+  "profile_type": "R2R",
+  "lead_profile_text": "R2R — Manchester M13. Existing rent-to-rent property underperforming on online platforms. Margin too thin after rent to landlord, platform fees, and Stayful management fee layer. Classic R2R abandonment pattern.",
+  "emotional_profile": "Business-minded R2R operator struggling with margins; open to solutions but cost structure made Stayful management financially unviable",
+  "outcome": "Dead",
+  "lost_reason": "r2r_margins_too_thin",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "",
+  "has_delay": false,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "LOST",
+  "top_objections": [
+    {"text": "R2R margin too thin after rent to landlord, platform fees, and Stayful management fee added on top", "zac_response": "", "resolved": false},
+    {"text": "Property already underperforming on online platforms — baseline is low", "zac_response": "", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "Can Stayful's direct booking strategy and profitability plan close the margin gap?", "answer": "Direct booking strategy discussed but insufficient to overcome the three-layer cost structure (rent + platform fees + management fee)"}
+  ],
+  "what_moved_them": [
+    "Direct booking strategy discussed as potential uplift mechanism"
+  ],
+  "what_fell_flat": [
+    "Three-layer cost structure (landlord rent + platform fees + management fee) makes Stayful unviable for R2R",
+    "Platform underperformance meant even improved management could not generate sufficient margin"
+  ],
+  "conversion_gaps": [
+    {"gap": "R2R cost structure fundamentally incompatible with adding a management fee layer", "category": "financials", "how_to_fill": "Pre-qualify R2R leads on margin before web meeting; if net after rent is below ~£X threshold, redirect or disqualify before committing to a full meeting"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "",
+  "ltl_monthly": ""
+}

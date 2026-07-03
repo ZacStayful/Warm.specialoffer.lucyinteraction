@@ -1,0 +1,60 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "029",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-03-18",
+  "transcript_quality": "summary",
+  "lead_name": "Shoaib Khalid",
+  "email": "shoaib.fsd.undp@gmail.com",
+  "monday_id": "11514528972",
+  "granola_meeting_id": "142680c7-45b7-42b3-9257-7c4200e4dc6e",
+  "address": "NG8 4AZ",
+  "bedrooms": 0,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "STL Switch — fully furnished Nottingham property switching from standard tenancy to short-term letting. Contract terms and performance guarantees were the key objection.",
+  "emotional_profile": "Risk-averse; concerned about performance guarantees and contractual commitments; fully furnished property reduces setup friction but trust gap was decisive",
+  "outcome": "Dead",
+  "lost_reason": "contract_and_performance_concerns",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "",
+  "has_delay": false,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "LOST",
+  "top_objections": [
+    {"text": "Contract terms and performance risk — concerned about guarantees and what happens if performance falls short", "zac_response": "", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "How does STL revenue compare to current long-term tenancy income?", "answer": "Revenue projections presented showing uplift vs LTL"},
+    {"text": "What are the fees and payout structure?", "answer": "Management fee and monthly payout structure explained"}
+  ],
+  "what_moved_them": [
+    "Fully furnished property reduces setup barrier",
+    "Nottingham city centre location well-suited for STL demand"
+  ],
+  "what_fell_flat": [
+    "Contract terms could not resolve performance concern",
+    "Risk profile of STL too high relative to guaranteed tenancy income"
+  ],
+  "conversion_gaps": [
+    {"gap": "Contract and performance risk anxiety — no performance evidence or guarantees offered", "category": "trust", "how_to_fill": "Share verified occupancy data from comparable Nottingham properties; consider a short trial period framing"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "",
+  "ltl_monthly": ""
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "026",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-04-08",
+  "transcript_quality": "detailed",
+  "lead_name": "Nina Rueschen",
+  "email": "rueschen@bluewin.ch",
+  "monday_id": "11680205793",
+  "granola_meeting_id": "ee744c71-564d-49b7-a953-2a758470c0a8",
+  "address": "HA9 9RD",
+  "bedrooms": 3,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "STL Switch — Overseas Owner (Switzerland). 3 bed semi, Wembley HA9. No mortgage. STL net ~£39,235/yr. Mother moved to retirement property leaving house empty. Target May/June for Wembley concert season.",
+  "emotional_profile": "Analytical overseas owner evaluating 3 providers simultaneously; valued transparency and manageable portfolio size; cautious but financially well-placed with no mortgage pressure",
+  "outcome": "Abandoned",
+  "lost_reason": "competitor_chosen_or_deferred",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%",
+  "offer_expiry": "2026-04-30",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": ["speaking with two other companies", "want to see how it goes"],
+  "delay_timeline": "",
+  "has_delay": false,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "LOST",
+  "top_objections": [
+    {"text": "Speaking with 2 other providers — competitive evaluation underway", "zac_response": "", "resolved": false},
+    {"text": "Refurb not complete by deadline — new boiler, laminate flooring, repainting needed", "zac_response": "", "resolved": false},
+    {"text": "New boiler and smart thermostat decisions still pending", "zac_response": "", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "What is the management fee and can it be reduced?", "answer": "13% if signed by end of April — standard rate is higher"},
+    {"text": "How does remote management work for an overseas owner based in Switzerland?", "answer": "Full remote management handled by Stayful team; smart thermostat recommended for remote control"}
+  ],
+  "what_moved_them": [
+    "No mortgage means all STL income is pure profit",
+    "Concert season demand — Wembley events driving occupancy and nightly rates",
+    "Remote management capability suited to Swiss-based owner",
+    "Transparency of operations and manageable portfolio size (~70 properties)"
+  ],
+  "what_fell_flat": [],
+  "conversion_gaps": [
+    {"gap": "Competing provider evaluation — did not differentiate strongly enough to end comparison", "category": "competition", "how_to_fill": "Re-approach if competitor underperforms; strong profile — no mortgage, overseas owner, concert season timing"},
+    {"gap": "Refurb timeline pressure created hesitation before onboarding", "category": "timing", "how_to_fill": "Offer flexible start date post-refurb; decouple signing from onboarding timeline"}
+  ],
+  "offer_framing": "13% management fee if signed by end of April — reduced from standard to capture Wembley concert season window",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "Gross £68-69k/yr, £274 nightly, 69% occupancy, net ~£39,235/yr",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£0",
+  "str_net_monthly": "£3,270",
+  "ltl_monthly": ""
+}
