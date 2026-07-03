@@ -1,0 +1,67 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "021",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-04-20",
+  "transcript_quality": "good",
+  "lead_name": "Alan Forsyth",
+  "email": "alan@hockleydevelopments.com",
+  "monday_id": "11766235187",
+  "granola_meeting_id": "d3d397a8-e852-4b33-8e83-04bced05b655",
+  "address": "NG5 4AA, Nottingham Sherwood",
+  "bedrooms": 1,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Developer with newly completed block of 14 x 1-bed flats in Nottingham Sherwood. Deciding between: sell block, LTL all, or STL some/all. Per flat: gross ~£23,000/yr (£103.98/night, 62% occ), net ~£12,000/yr before utilities. Utilities ~£300/mo per flat leaves net ~£700/mo. LTL gross £800-850/mo per flat. STL advantage minimal after utilities. Developer needs >30% STL uplift to justify complexity — current 1-bed Nottingham projections do not meet this threshold. Recommended: mixed strategy (some LTL for stability, some STL for upside). Short 11-minute meeting.",
+  "emotional_profile": "Analytical developer mindset. Sets a clear 30% uplift threshold before accepting STL complexity. Pragmatic about mixed strategies. Not emotionally invested in STL — purely financial decision. Language: '30% higher income to justify the extra complexity', 'six or seven long-term, a few short-term'.",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "",
+  "has_delay": false,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "NURTURE",
+  "top_objections": [
+    {"text": "STL advantage over LTL is minimal for 1-bed Nottingham after utilities — doesn't meet 30% uplift threshold", "zac_response": "Mixed strategy recommended — some LTL for stability, some STL for upside; can pilot STL on a subset before committing full portfolio", "resolved": false},
+    {"text": "Added complexity of managing STL across 14 units needs to be justified by significant income uplift", "zac_response": "Framed as selective STL — not all 14 units need to switch; start with 3-4 as a pilot", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "What is the realistic net income per flat from STL vs LTL?", "answer": "STL gross ~£23,000/yr, net ~£12,000/yr before utilities; LTL ~£9,600/yr — marginal uplift after £300/mo utilities per unit"},
+    {"text": "What strategy is recommended for a developer portfolio of 14 x 1-bed flats?", "answer": "Mixed strategy — some LTL for stable income, some STL for upside; needs >30% uplift to justify full STL conversion"},
+    {"text": "Can we pilot STL on a subset of units first?", "answer": "Yes — recommended approach for large portfolios to test STL performance before full commitment"}
+  ],
+  "what_moved_them": [
+    "Mixed strategy concept resonated — doesn't have to be all-or-nothing",
+    "Zac was transparent that 1-bed Nottingham STL advantage is marginal — built trust through honesty"
+  ],
+  "what_fell_flat": [
+    "STL income projections for 1-bed Nottingham don't meet Alan's own 30% uplift threshold",
+    "Meeting was very short (11 minutes) — insufficient depth of engagement",
+    "No strong conversion momentum developed in a short session"
+  ],
+  "conversion_gaps": [
+    {"gap": "STL financials for 1-bed Nottingham don't meet developer's 30% uplift threshold", "category": "income_confidence", "how_to_fill": "Identify which units in the block have best STL potential (corner units, higher floors, better specification) — target those for pilot; avoid trying to convert marginal units"},
+    {"gap": "Short 11-minute meeting — insufficient to build relationship or full conviction", "category": "engagement", "how_to_fill": "Book a longer follow-up session specifically on portfolio strategy; share developer client case studies who ran mixed LTL/STL portfolios"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "Per flat: gross ~£23,000/yr at £103.98/night and 62% occupancy — net ~£12,000/yr before utilities of ~£300/mo",
+  "zac_transition_phrases": [
+    "30% higher income to justify the extra complexity",
+    "six or seven long-term, a few short-term"
+  ],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 11,
+  "rent_mortgage": "",
+  "str_net_monthly": "~£1,000/mo per unit (~£12,000/yr)",
+  "ltl_monthly": "~£800-850/mo per unit (~£9,600/yr)"
+}

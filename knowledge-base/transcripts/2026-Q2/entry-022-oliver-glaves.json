@@ -1,0 +1,61 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "022",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-04-10",
+  "transcript_quality": "partial",
+  "lead_name": "Oliver Glaves",
+  "email": "oliverglaves@hotmail.com",
+  "monday_id": "11667339782",
+  "granola_meeting_id": "4aa2d426-ac0e-476c-a51b-e64cee22f5ef",
+  "address": "Flat 12 Furnival Street Sheffield, S1 4LG",
+  "bedrooms": 1,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "1-bed Sheffield city centre flat currently on traditional tenancy. Very low mortgage of £260/mo. Evaluating switch from LTL to STL. Outcome: Abandoned — LTL vs STL margin marginal given low mortgage; setup costs were likely the decisive barrier.",
+  "emotional_profile": "Cautious evaluator. Very low mortgage (£260/mo) means the existing LTL is already comfortable — limited financial pain driving change. Setup cost deterred without compelling income uplift.",
+  "outcome": "Abandoned",
+  "lost_reason": "LTL vs STL margin too thin given very low £260/mo mortgage; setup costs too high to justify switch",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "",
+  "has_delay": false,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "LOST",
+  "top_objections": [
+    {"text": "STL income advantage over LTL is marginal when mortgage is only £260/mo — LTL already covers costs comfortably", "zac_response": "Financial projections and LTL comparison presented — but income advantage insufficient to overcome setup cost concern", "resolved": false},
+    {"text": "Setup costs for Airbnb conversion are hard to justify given thin margins", "zac_response": "Airbnb setup requirements and timeline outlined — but cost recovery timeline too long for this low-mortgage profile", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "How much more can I earn on STL vs keeping the tenancy?", "answer": "Financial projections vs current LTL presented at meeting — specific figures not captured in summary"},
+    {"text": "What are the setup requirements and costs for Airbnb?", "answer": "Airbnb setup requirements and launch timeline discussed — furnishing, photography, and listing setup required"},
+    {"text": "How does platform management and owner oversight work?", "answer": "Platform performance monitoring and owner oversight tools outlined"}
+  ],
+  "what_moved_them": [],
+  "what_fell_flat": [
+    "Very low £260/mo mortgage removes the financial pain point that usually drives STL conversion",
+    "Setup costs too high relative to incremental STL income over LTL",
+    "Abandoned without further engagement"
+  ],
+  "conversion_gaps": [
+    {"gap": "Ultra-low mortgage removes financial pain that drives STL switch decisions", "category": "income_confidence", "how_to_fill": "For STL Switch leads with very low mortgages, lead with capital compounding angle — STL income funds next property purchase faster; frame as wealth acceleration not cost reduction"},
+    {"gap": "Setup costs are a hard barrier when income uplift is marginal", "category": "cost_barrier", "how_to_fill": "Offer phased setup or lighter-touch starting point to reduce upfront commitment; show payback period on setup investment"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£260/mo",
+  "str_net_monthly": "",
+  "ltl_monthly": ""
+}

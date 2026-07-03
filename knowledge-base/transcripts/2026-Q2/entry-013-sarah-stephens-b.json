@@ -1,0 +1,73 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "013-b",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-04-20",
+  "transcript_quality": "good",
+  "lead_name": "Sarah Stephens",
+  "email": "sarahxxstephens1210@gmail.com",
+  "monday_id": "11702343600",
+  "granola_meeting_id": "a4108f14-4a04-4dbe-9f70-691f78029bb9",
+  "address": "71 Station Road Sandy, SG19 2AX",
+  "bedrooms": 3,
+  "profile_type": "SELL",
+  "lead_profile_text": "Renovated 3-bed on market ~1 year. Two failed sales. Sandy SG19. Lives 1.5hrs away — needs managed service. Mortgage £1,300/mo residential. STL gross ~£46,688/yr (£200 nightly, 65% occ). Net ~£24,278/yr (~£2,023/mo). Bills ~£5,000/yr. Property profitable after all costs. New burst of viewings at time of meeting. Partner risk-averse, was not on call.",
+  "emotional_profile": "Practically minded. Wants property to work financially while on market. Partner is risk-averse and wasn't on call — requires second-hand persuasion. Language: 'protect the property from being battered', 'risk-averse partner', 'purely financial sense'.",
+  "outcome": "Special offer applied",
+  "lost_reason": "No response after offer expired 1 May 2026",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%",
+  "offer_expiry": "2026-05-01",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": ["Sarah to review with partner", "risk-averse partner"],
+  "delay_timeline": "",
+  "has_delay": false,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "NURTURE",
+  "top_objections": [
+    {"text": "Partner is risk-averse and needs figures to confirm property covers all costs before committing", "zac_response": "Net income ~£24,278/yr (~£2,023/mo) clearly exceeds mortgage £1,300/mo + bills ~£5,000/yr — property profitable after all costs", "resolved": true},
+    {"text": "New burst of viewings — property may sell before STL decision is made", "zac_response": "STL and sales listing can run simultaneously; STL earns income during the sales wait", "resolved": false},
+    {"text": "Early termination concern if property sells", "zac_response": "Early termination available at £1,000 fee — modest vs potential STL income", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "Will it actually cover all the costs including the mortgage?", "answer": "Yes — STL net ~£24,278/yr (~£2,023/mo) comfortably exceeds £1,300/mo mortgage + ~£417/mo bills"},
+    {"text": "How long does onboarding take?", "answer": "~3 weeks from signing to going live"},
+    {"text": "Can we stay on the market while doing STL?", "answer": "Yes — property can remain listed for sale and do STL simultaneously"}
+  ],
+  "what_moved_them": [
+    "Property clearly profitable after ALL costs — partner's core concern directly addressed",
+    "13% urgency mechanism with 1 May deadline",
+    "Can remain on market simultaneously — no either/or decision required"
+  ],
+  "what_fell_flat": [
+    "Partner not on the call — couldn't close the decision maker directly",
+    "New burst of viewings distracted decision — 'may just sell it'",
+    "No response after offer expiry — follow-up attempts unsuccessful"
+  ],
+  "conversion_gaps": [
+    {"gap": "Risk-averse partner not present on call — second-hand persuasion required", "category": "decision_maker", "how_to_fill": "Always ask if partner/spouse can join; if not, send joint summary email with clear cost vs income table for non-present partner to review"},
+    {"gap": "Active sale viewings created 'wait and see' mindset", "category": "urgency", "how_to_fill": "Frame STL as a hedge against sale falling through again — two failed sales already; STL earns while listing continues"},
+    {"gap": "Offer expired without conversion", "category": "follow_through", "how_to_fill": "Re-engage 4-6 weeks post-expiry with updated projections or new offer mechanism"}
+  ],
+  "offer_framing": "13% management fee (vs standard 15%) if signed by 1 May 2026 — framed as saving on costs while property earns income on market",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "Gross ~£46,688/yr at £200/night and 65% occupancy — net ~£24,278/yr after all costs",
+  "zac_transition_phrases": [
+    "protect the property from being battered",
+    "purely financial sense"
+  ],
+  "zac_reassurance_phrases": [
+    "can remain on market simultaneously",
+    "property profitable after all costs"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£1,300/mo",
+  "str_net_monthly": "~£2,023/mo (~£24,278/yr)",
+  "ltl_monthly": "~£1,500/mo (~£18,000/yr)"
+}

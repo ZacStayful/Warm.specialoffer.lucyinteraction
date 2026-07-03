@@ -1,0 +1,58 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "024",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-04-09",
+  "transcript_quality": "partial",
+  "lead_name": "Rasheed Ajani",
+  "email": "abdulmumin201719@gmail.com",
+  "monday_id": "11674996852",
+  "granola_meeting_id": "2b67053a-d488-482a-a5e7-b1ff0d7bbd03",
+  "address": "8 Alpina Way Sheffield, S26 4QA",
+  "bedrooms": 2,
+  "profile_type": "R2R",
+  "lead_profile_text": "Rent-to-rent deal on 2-bed Sheffield property. Margins too thin after rent to landlord plus Stayful management fees plus setup costs. Geographic preferences not met — Sheffield not preferred area. Outcome: Abandoned — R2R financial model did not stack up.",
+  "emotional_profile": "Entrepreneurial R2R investor. Numbers-focused. Abandoned quickly when financial model did not work.",
+  "outcome": "Abandoned",
+  "lost_reason": "R2R margin too thin — rent + Stayful management fees + setup costs leave insufficient profit; Sheffield not preferred geographic area",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "",
+  "has_delay": false,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "LOST",
+  "top_objections": [
+    {"text": "R2R margins too thin after rent + management fees + setup costs", "zac_response": "Financial analysis presented — deal structure does not stack up at proposed rent level", "resolved": false},
+    {"text": "Sheffield not the preferred geographic area for the lead", "zac_response": "Geographic preferences discussed; Sheffield noted as suboptimal location for lead's operations", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "Is this R2R deal financially viable with Stayful management?", "answer": "No — margins after rent, management fees, and setup costs are insufficient"},
+    {"text": "What contract terms and management model would apply to an R2R arrangement?", "answer": "Standard management model explained — but R2R adds rent layer that makes economics unworkable at this rent level"}
+  ],
+  "what_moved_them": [],
+  "what_fell_flat": [
+    "R2R financial model fundamentally unviable at proposed rent level",
+    "Sheffield geography not preferred by lead"
+  ],
+  "conversion_gaps": [
+    {"gap": "R2R model requires significant landlord rent reduction that rarely materialises", "category": "deal_structure", "how_to_fill": "Qualify R2R leads early on rent level vs STL gross revenue ceiling — if landlord asking price leaves thin margin before management fees and setup, advise walking away before investing meeting time"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "",
+  "ltl_monthly": ""
+}

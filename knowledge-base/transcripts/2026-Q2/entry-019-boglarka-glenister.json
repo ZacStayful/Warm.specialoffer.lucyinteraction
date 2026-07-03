@@ -1,0 +1,62 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "019",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-04-27",
+  "transcript_quality": "partial",
+  "lead_name": "Boglarka Glenister",
+  "email": "boglarka_glenister@hotmail.com",
+  "monday_id": "11810082372",
+  "granola_meeting_id": "371dad5d-cd2d-441b-8654-c474c65ce1eb",
+  "address": "2 Pendleton Ave Rossendale, BB3 8UX",
+  "bedrooms": 5,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "5-bed renovated family home in Rossendale Lancashire. Moving abroad. Evaluating STL vs LTL conversion. Large setup costs for 5-bed property assessed. Financial comparison presented. Outcome: Abandoned — likely deterred by large 5-bed setup costs and timing uncertainty.",
+  "emotional_profile": "Moving abroad — needs remote management solution. Concerned about setup costs and financial viability for a large property. Possibly deterred by high upfront investment required for 5-bed Airbnb conversion.",
+  "outcome": "Abandoned",
+  "lost_reason": "Likely deterred by large 5-bed setup costs and timing uncertainty; moved abroad",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-MOV"],
+  "delay_trigger_phrases": ["moving abroad", "timing for next steps discussed"],
+  "delay_timeline": "",
+  "has_delay": true,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "LOST",
+  "top_objections": [
+    {"text": "Large setup costs for 5-bed property — high upfront investment required", "zac_response": "Furnishing and setup costs assessed at meeting; financial comparison presented but did not overcome objection", "resolved": false},
+    {"text": "Financial viability — is STL significantly better than LTL for a 5-bed?", "zac_response": "Financial comparison presented — STL vs LTL case made but not compelling enough given setup cost", "resolved": false},
+    {"text": "Property safety and guest risk concerns", "zac_response": "Safety requirements and property protection measures outlined", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "How does STL income compare to long-term let for a 5-bed?", "answer": "Financial comparison presented at meeting — specific figures not captured in summary"},
+    {"text": "What are the setup/furnishing costs for a 5-bed?", "answer": "Assessed at meeting — significant investment required for full 5-bed fit-out"},
+    {"text": "How are guests managed and risks handled when owner is abroad?", "answer": "Full management service handles all guest communication, key handover, and issue resolution remotely"}
+  ],
+  "what_moved_them": [],
+  "what_fell_flat": [
+    "Large setup costs for 5-bed deterred commitment",
+    "Financial viability unclear given high setup investment relative to projected returns",
+    "Timing uncertainty of moving abroad created complexity"
+  ],
+  "conversion_gaps": [
+    {"gap": "5-bed setup costs too high relative to projected income", "category": "income_confidence", "how_to_fill": "Show setup cost amortisation over 12-24 months vs LTL alternative; present actual 5-bed Lancashire comparable earnings"},
+    {"gap": "Moving abroad adds logistical complexity — hesitant about remote management", "category": "trust", "how_to_fill": "Emphasise remote landlord portfolio; share case studies of owners managed fully remotely from abroad"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "",
+  "ltl_monthly": ""
+}

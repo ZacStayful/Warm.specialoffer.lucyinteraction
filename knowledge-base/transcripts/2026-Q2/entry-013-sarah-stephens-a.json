@@ -1,0 +1,60 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "013-a",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-04-20",
+  "transcript_quality": "partial",
+  "lead_name": "Sarah Stephens",
+  "email": "sarahxxstephens1210@gmail.com",
+  "monday_id": "11702343600",
+  "granola_meeting_id": "a4108f14-4a04-4dbe-9f70-691f78029bb9",
+  "address": "71 Station Road Sandy, SG19 2AX",
+  "bedrooms": 3,
+  "profile_type": "SELL",
+  "lead_profile_text": "Renovated 3-bed on market ~1 year. Two failed sales. Sandy, Bedfordshire. Mortgage £1,300/mo. STL net £24,838/yr. LTL £18,000/yr. Setup £15,600. Special offer applied; offer expired May 2026 with no response.",
+  "emotional_profile": "Financially pragmatic. Wants to make property work while on market. Offer expired May 2026 with no response to follow-up attempts.",
+  "outcome": "Special offer applied",
+  "lost_reason": "No response after offer expired May 2026",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%",
+  "offer_expiry": "2026-05-01",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "",
+  "has_delay": false,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "NURTURE",
+  "top_objections": [
+    {"text": "Financial viability — does STL income cover all costs?", "zac_response": "STL net £24,838/yr clearly covers £1,300/mo mortgage plus bills", "resolved": true}
+  ],
+  "top_questions": [
+    {"text": "Will STL income cover mortgage and running costs?", "answer": "Yes — STL net £24,838/yr exceeds £1,300/mo mortgage and annual bills"},
+    {"text": "What are the contract terms?", "answer": "Standard 6-month minimum with 3-month notice; early termination available"}
+  ],
+  "what_moved_them": [
+    "Property clearly profitable after all costs",
+    "13% discounted management offer with 1 May deadline"
+  ],
+  "what_fell_flat": [
+    "No response after offer expiry",
+    "Follow-up attempts in May unsuccessful"
+  ],
+  "conversion_gaps": [
+    {"gap": "Offer expired without response", "category": "follow_through", "how_to_fill": "Re-engage with refreshed offer or updated projections"}
+  ],
+  "offer_framing": "13% management fee if signed by 1 May 2026. Special offer expiry email sent 1 May 2026.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "STL net £24,838/yr vs LTL £18,000/yr — clear STL advantage covering all costs",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£1,300/mo",
+  "str_net_monthly": "~£2,070/mo (~£24,838/yr)",
+  "ltl_monthly": "~£1,500/mo (~£18,000/yr)"
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "025",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-04-09",
+  "transcript_quality": "good",
+  "lead_name": "Rasheed Ajani",
+  "email": "abdulmumin201719@gmail.com",
+  "monday_id": "11674996852",
+  "granola_meeting_id": "2b67053a-d488-482a-a5e7-b1ff0d7bbd03",
+  "address": "8 Alpina Way Sheffield, S26 4QA",
+  "bedrooms": 2,
+  "profile_type": "R2R",
+  "lead_profile_text": "R2R deal on 2-bed unfurnished Sheffield property. Rasheed based in Manchester. Landlord asking £1,000/mo, Rasheed targeting £800/mo. Property available 1 May. Gross ~£29,400/yr (£131/night, 62% occ). At £1,000/mo rent + bills (~£400/mo): overhead ~£16,800/yr = near-zero profit. At £800/mo rent: ~£3-4k/yr net profit possible. Setup cost ~£3-5k hard to recover. Sheffield too far from Manchester. Zac advised walking away if landlord won't reduce.",
+  "emotional_profile": "Entrepreneurial. Manchester-based, looking for R2R opportunities. Optimistic about STL income but constrained by landlord's rent demands. Needs 20% rent reduction from landlord — Zac acknowledged this is rare. Language: 'doesn't work', 'walk away', 'closer to Manchester', 'not much opportunity in this deal'.",
+  "outcome": "Abandoned",
+  "lost_reason": "Landlord won't reduce rent from £1,000/mo to viable ~£800/mo. At £1,000 rent profit near zero. Setup cost ~£3-5k unrecoverable. Sheffield too far from Rasheed's Manchester base.",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": ["property available 1 May"],
+  "delay_timeline": "Property available from 1 May 2026",
+  "has_delay": false,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "LOST",
+  "top_objections": [
+    {"text": "Landlord asking £1,000/mo rent — too high for R2R viability", "zac_response": "At £1,000/mo rent + ~£400/mo bills, overhead ~£16,800/yr vs gross ~£29,400/yr leaves near-zero after management fees. Needs £800/mo rent to work — Zac advised walking away if landlord won't reduce.", "resolved": false},
+    {"text": "Setup cost ~£3-5k hard to recover from thin margins", "zac_response": "Acknowledged — setup cost unrecoverable if margins remain minimal", "resolved": false},
+    {"text": "Sheffield too far from Manchester — geographic barrier to operations", "zac_response": "Stayful manages remotely but Rasheed prefers to operate closer to Manchester", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "Does this R2R deal work financially at £1,000/mo rent?", "answer": "No — at £1,000/mo rent + £400/mo bills, overhead ~£16,800/yr. Gross ~£29,400/yr leaves near-zero after 15% management fee. Deal needs ~£800/mo rent to be viable."},
+    {"text": "What profit could I make if I negotiate the rent to £800/mo?", "answer": "At £800/mo rent + bills: overhead ~£14,400/yr. Gross ~£29,400/yr = ~£15,000 gross margin before fees — approximately £3-4k/yr net profit at 15% fee."},
+    {"text": "Is Sheffield a good area for STL performance?", "answer": "Sheffield has STL potential but is not Stayful's primary market — and adds geographic friction for a Manchester-based operator"}
+  ],
+  "what_moved_them": [],
+  "what_fell_flat": [
+    "Landlord's rent demand of £1,000/mo destroys R2R margins",
+    "Sheffield distance from Manchester adds operational friction",
+    "Setup cost ~£3-5k with no clear payback timeline at thin margins",
+    "Zac's honest advice to walk away — no conversion path available"
+  ],
+  "conversion_gaps": [
+    {"gap": "R2R viability gate is rent level — 20% discount from landlord is required and very rarely achieved", "category": "deal_structure", "how_to_fill": "Build R2R pre-qualification checklist: check rent vs STL gross revenue ceiling before booking meeting. If landlord asking >75% of STL gross, flag as marginal and advise on rent negotiation strategy before investing full meeting time."},
+    {"gap": "Setup costs (~£3-5k) unrecoverable on thin R2R margins", "category": "cost_barrier", "how_to_fill": "For R2R leads, present setup cost as a key viability factor upfront — explore minimalist/phased setup to reduce entry cost and shorten payback period"},
+    {"gap": "Geographic preference mismatch — lead wants Manchester area, deal is Sheffield", "category": "geography", "how_to_fill": "Capture geographic preference before meeting; if deal location doesn't match, explore whether Stayful can help identify better-located opportunities in lead's preferred area"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "Walk away if the landlord won't reduce — not much opportunity in this deal",
+  "zac_income_intro": "Gross ~£29,400/yr at £131/night and 62% occupancy — but rent of £1,000/mo plus bills eats nearly all of it",
+  "zac_transition_phrases": [
+    "doesn't work",
+    "not much opportunity in this deal"
+  ],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£1,000/mo (landlord asking) / £800/mo (Rasheed's target)",
+  "str_net_monthly": "~£0/mo at £1,000 rent (~£250-333/mo at £800 rent)",
+  "ltl_monthly": ""
+}

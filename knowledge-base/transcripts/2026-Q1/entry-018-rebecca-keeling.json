@@ -1,0 +1,63 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "018",
+  "quarter": "2026-Q1",
+  "meeting_date": "2026-03-20",
+  "transcript_quality": "partial",
+  "lead_name": "Rebecca Keeling",
+  "email": "rebecca.keeling3@gmail.com",
+  "monday_id": "11527972072",
+  "granola_meeting_id": "c1dfb332-3eda-43bb-8b79-6ae64cf6d147",
+  "address": "46 Bosworth House Leicester, LE1 6TH",
+  "bedrooms": 1,
+  "profile_type": "PURCH",
+  "lead_profile_text": "New purchase — 1-bed Leicester city centre apartment. Evaluating STL vs LTL financial viability. Direct booking strategy and long-term profitability discussed. Special offer applied at meeting. Offer expired March 2026. No response to follow-up calls in April.",
+  "emotional_profile": "Analytically minded — focused on financial comparison of STL vs LTL. New investor evaluating income maximisation options for new purchase.",
+  "outcome": "Special offer applied",
+  "lost_reason": "No response after offer expired March 2026; follow-up calls in April unanswered",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "",
+  "offer_expiry": "2026-03-31",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-PUR"],
+  "delay_trigger_phrases": ["new purchase", "Leicester city centre new purchase"],
+  "delay_timeline": "",
+  "has_delay": true,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "DELAYED",
+  "top_objections": [
+    {"text": "Financial viability — is STL significantly better than LTL for a 1-bed city centre?", "zac_response": "Income analysis and LTL comparison presented showing STL advantage; direct booking strategy outlined", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "What is the income difference between STL and LTL for this property?", "answer": "Income analysis presented at meeting — specific figures not captured in summary"},
+    {"text": "What are all the costs including Stayful fees and VAT?", "answer": "Full cost structure including 15%+VAT fee explained at meeting"},
+    {"text": "How does the billing and owner communication work?", "answer": "Monthly payout 1st-5th of month; owner access to reporting"}
+  ],
+  "what_moved_them": [
+    "Income analysis showing STL advantage over LTL",
+    "Direct booking strategy and long-term profitability outlined",
+    "Special offer applied at meeting"
+  ],
+  "what_fell_flat": [
+    "No response after offer expiry",
+    "Follow-up calls in April went unanswered"
+  ],
+  "conversion_gaps": [
+    {"gap": "Lead went cold after offer expiry with no response", "category": "follow_through", "how_to_fill": "Re-engage once purchase completes — send timing-based follow-up when likely to have completed"},
+    {"gap": "1-bed city centre STL vs LTL margin may be thin", "category": "income_confidence", "how_to_fill": "Lead with comparable Leicester city centre STL performance data; show real occupancy rates for 1-bed city apartments"}
+  ],
+  "offer_framing": "Special offer applied at meeting — specific rate not captured in summary. Offer expired March 2026.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "",
+  "ltl_monthly": ""
+}

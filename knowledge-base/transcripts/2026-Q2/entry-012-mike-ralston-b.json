@@ -1,0 +1,69 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "012",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-04-24",
+  "transcript_quality": "good",
+  "lead_name": "Mike Ralston",
+  "email": "mike@ralston.tv",
+  "monday_id": "11766125431",
+  "granola_meeting_id": "f1851dd2-9c19-4328-b793-5252b0d0a09f",
+  "address": "BS21 7AP, North Somerset",
+  "bedrooms": 7,
+  "profile_type": "SELL",
+  "lead_profile_text": "7-bed country property on market for 5 years. Mike and Louise attending. Refurb needed (~1 month away, investing £25-30k). Previous LTL ~£6,000/mo. STL net ~£29,400-30,000/yr. Mortgage £2,970/mo. Primary goal: reduce outgoings while property continues selling. Comparing 2-3 other STL agents. Karl's current operator did a 21-day corporate stay.",
+  "emotional_profile": "Pragmatic and cost-focused. Not trying to maximise profit — wants to reduce outgoings while waiting for sale. Cautious evaluator comparing multiple agents. Interested but not urgent.",
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%",
+  "offer_expiry": "2026-05-08",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-OTH"],
+  "delay_trigger_phrases": ["investing £25-30k to refurbish", "refurb ~1 month away", "new photography needed after refurb"],
+  "delay_timeline": "~1 month",
+  "has_delay": true,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "DELAYED",
+  "top_objections": [
+    {"text": "Comparing 2-3 other STL management agents before deciding", "zac_response": "13% discounted fee offer with deadline to incentivise decision ahead of competitor evaluation", "resolved": false},
+    {"text": "7-bed has limited comparable data — projection less accurate", "zac_response": "Net ~£29,400-30,000/yr presented as a range with acknowledged uncertainty for large properties", "resolved": false},
+    {"text": "Mortgage at £2,970/mo barely covered by STL net income", "zac_response": "Framed as covering outgoings while selling — not a profit play; STL pays for itself during the sales process", "resolved": true}
+  ],
+  "top_questions": [
+    {"text": "What is the management fee?", "answer": "13% if signed before 8 May (discounted from standard 15%)"},
+    {"text": "Can the property stay on the market while doing STL?", "answer": "Yes — STL and sales listing are compatible and can run simultaneously"},
+    {"text": "How are large properties and guest groups handled?", "answer": "Full guest vetting applied; large group bookings managed with appropriate oversight"}
+  ],
+  "what_moved_them": [
+    "STL income reduces mortgage outgoings while property remains on market",
+    "Renter legislation concerns validated — STL avoids tenant rights exposure",
+    "13% management fee with 8 May deadline created pricing urgency"
+  ],
+  "what_fell_flat": [
+    "Still evaluating other providers — no urgency to decide now",
+    "No clear commitment signal at meeting end",
+    "May update: Karl's operator did a 21-day corporate stay — temporarily satisfied with existing setup"
+  ],
+  "conversion_gaps": [
+    {"gap": "Competing with 2-3 other agents being evaluated concurrently", "category": "competition", "how_to_fill": "Share portfolio case studies and client testimonials specific to large/unique properties; emphasise Stayful track record vs generic agents"},
+    {"gap": "STL income only marginally covers mortgage — weak financial case", "category": "income_confidence", "how_to_fill": "Pull comparable 7-bed Somerset STL data; explore whether corporate/extended stays could uplift average rate"}
+  ],
+  "offer_framing": "13% management fee (vs standard 15%) if signed before 8 May 2026 — reduces cost while property continues selling",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "STL net ~£29,400-30,000/yr covers the £2,970/mo mortgage while the property stays on the market",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [
+    "reduce outgoings, not to maximise profit",
+    "can remain on market simultaneously"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£2,970/mo",
+  "str_net_monthly": "~£2,450/mo (~£29,400-30,000/yr)",
+  "ltl_monthly": "~£6,000/mo (previous LTL rate)"
+}
