@@ -1,0 +1,64 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "041",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-19",
+  "transcript_quality": "Medium",
+  "lead_name": "Joseph",
+  "email": "steadyford@outlook.com",
+  "monday_id": "12041288784",
+  "granola_meeting_id": "02804182-116d-4532-906e-f316caa767f4",
+  "address": "Apartment 8, Burgess Mill, 20 Manchester Street, Derby, DE23 6XL",
+  "bedrooms": 3,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "3-bed flat managed by Hello Guest since December 2025. Only 3 reviews in 5+ months; last-minute/same-day bookings disabled; extremely poor platform visibility. Previous self-management (1 year) achieved better booking rates. Break-even requirement: 14-16 nights/month. Gated car park with CCTV currently available but not advertised in listing. Financial pressure cited in relation to 6-month minimum term.",
+  "emotional_profile": "Risk-averse about commitment terms due to Hello Guest failure. Frustrated by high-volume impersonal management. Motivated by better performance, immediate transition capability, and zero upfront fees.",
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": true,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "2026-05-31",
+  "offer_accepted_at_meeting": true,
+  "delay_types": ["financial pressure concern about 6-month minimum term commitment"],
+  "delay_trigger_phrases": ["current financial pressure", "only 3 reviews in 5 months", "I can't even accept same day bookings"],
+  "delay_timeline": "Targeted June 1st 2026 start date",
+  "has_delay": true,
+  "green_light_types": ["no upfront fees resonated given financial pressure", "immediate transition capability", "June 1st live date aligns with peak season", "dedicated Slack channel vs Hello Guest impersonal comms", "gated car park + CCTV identified as unlocked revenue USP"],
+  "green_light_trigger_phrases": ["below standard compared to when I was doing it myself", "only 3 reviews in 5 months", "I can't even accept same day bookings"],
+  "has_green_light": true,
+  "entry_class": "READY_SOON",
+  "top_objections": [
+    {"text": "Concerned about committing to a 6-month minimum term given current financial pressure", "zac_response": "Frame break-even as achievable from month 1; no upfront fees removes immediate cost barrier", "resolved": false},
+    {"text": "Frustration with Hello Guest — high-volume, impersonal communication", "zac_response": "Dedicated Slack channel; personalised approach contrasted directly with Hello Guest scale model", "resolved": true},
+    {"text": "Questions about how pricing decisions are made (automated vs manual oversight)", "zac_response": "Automated pricing software with manual oversight from Stayful team", "resolved": true}
+  ],
+  "top_questions": [
+    {"text": "How are pricing decisions made?", "answer": "Automated pricing software with manual oversight from Stayful team"},
+    {"text": "Can the transition from Hello Guest happen immediately?", "answer": "Yes — immediate cutoff possible; June 1st start date proposed"}
+  ],
+  "what_moved_them": [
+    "No upfront fees or onboarding costs — critical given financial pressure",
+    "Immediate transition capability and June 1st live date",
+    "Dedicated Slack channel vs Hello Guest impersonal communication",
+    "Gated car park and CCTV identified as unlocked revenue opportunity not currently advertised"
+  ],
+  "what_fell_flat": [
+    "6-month minimum term — stated financial pressure concern not fully resolved"
+  ],
+  "conversion_gaps": [
+    {"gap": "6-month minimum term concern not fully resolved", "category": "risk", "how_to_fill": "Show projected nights needed to break even vs current Hello Guest near-zero performance; frame month 1 as achievable break-even"},
+    {"gap": "Hospital location data in projections flagged for correction", "category": "accuracy", "how_to_fill": "Verify and correct hospital proximity data in projections before sending management agreement"}
+  ],
+  "offer_framing": "13%+VAT (reduced from 15%+VAT standard) if signed by 31 May 2026; no onboarding fees; June 1st start date proposed. 6-month minimum term, 3-month notice.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "£172 average nightly rate at 60% occupancy, £1,600/month net revenue (after fees, cleaning, management). Peak season May–September. Competitive benchmark: 130-140 average reviews needed for market position.",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": ["dedicated Slack channel for direct communication", "no upfront fees or onboarding costs", "immediate transition from Hello Guest possible", "guest vetting: ID checks, £200 deposit, up to £100k damage cover"],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "£1,600",
+  "ltl_monthly": ""
+}
