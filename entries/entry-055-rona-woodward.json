@@ -1,0 +1,96 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "055",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-03",
+  "transcript_quality": "High",
+  "lead_name": "Rona Woodward",
+  "email": "sandrwoodward@btinternet.com",
+  "monday_id": "11892030490",
+  "granola_meeting_id": "53d68223-d6e6-49ea-960b-ed78ae67f289",
+  "address": "8 The Ferns, Kirkham, Preston, PR4 2BF",
+  "bedrooms": 4,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "4 double bedrooms plus potential 5th via study conversion. Completely unfurnished — husband Steven (builder) completing new flooring. Nice cul-de-sac, parking for 6+ cars, 10 minutes from Blackpool Victoria Hospital, adjacent to Ribby Hall Holiday Village (5-star resort). Rona and Steven live 12 minutes from the property and will handle maintenance themselves.",
+  "emotional_profile": "Certainty-seeker. Primary concern is reliable month-to-month income, not just peak figures. Two-person decision with Steven. Comparing Stayful against other service providers before deciding.",
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "2026-06-30",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["competitor comparison", "partner decision"],
+  "delay_trigger_phrases": ["reviewing with other service providers alongside Stayful before making a decision", "decision before June 30th"],
+  "delay_timeline": "Decision before 30 June 2026",
+  "has_delay": true,
+  "green_light_types": ["income interested", "proximity demand driver", "unique property features"],
+  "green_light_trigger_phrases": ["Ribby Hall overflow demand — proximity to 5-star resort as direct demand driver", "parking for 6+ cars as a significant competitive advantage", "pet-friendly potential with laminate flooring"],
+  "has_green_light": true,
+  "entry_class": "READY_SOON",
+  "top_objections": [
+    {
+      "text": "Quiet months could challenge profitability vs £2,500 long-term rental equivalent",
+      "zac_response": "Annual comparison shown: £29,497 STL net vs ~£13,764 LTL net. Even worst month (£1,526 March) beats properly-costed LTL net.",
+      "resolved": true
+    },
+    {
+      "text": "Property is completely unfurnished — setup cost and process are a key consideration before committing",
+      "zac_response": "Steven (builder husband) completing new flooring — minimal practical barrier once done. Stayful handles photography and setup checklist.",
+      "resolved": false
+    },
+    {
+      "text": "Reviewing with other service providers alongside Stayful before making a decision",
+      "zac_response": "13%+VAT special offer expires 30 June — creates concrete decision deadline.",
+      "resolved": false
+    }
+  ],
+  "top_questions": [
+    {
+      "text": "Is the income reliable month-to-month, not just at peak?",
+      "answer": "Annual comparison presented: even worst month (£1,526 net) beats properly-costed LTL net. £29,497 vs ~£13,764 annually."
+    },
+    {
+      "text": "What would converting the study to a 5th bedroom add?",
+      "answer": "Increases capacity to 8–10 guests and boosts revenue approximately 10%."
+    }
+  ],
+  "what_moved_them": [
+    "Ribby Hall overflow demand — proximity to 5-star resort as direct demand driver",
+    "Parking for 6+ cars as significant competitive advantage in the Fylde market",
+    "Large entertaining space and pet-friendly potential with laminate flooring",
+    "£274 nightly rate and Blackpool Victoria Hospital demand driver",
+    "6-month initial term structure (fixed, then rolling 3-month notice)"
+  ],
+  "what_fell_flat": [
+    "£1,526 quiet-month floor vs Rona's £2,500/month LTL reference created concern"
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Steven (key decision-maker) not present on call — reviewing separately",
+      "category": "partner influence",
+      "how_to_fill": "Action plan addresses income security framing directly for Steven's review. Ensure it covers practical setup feasibility (flooring, furnishing timeline)."
+    },
+    {
+      "gap": "Competitor proposals being reviewed simultaneously",
+      "category": "competitor comparison",
+      "how_to_fill": "Follow up before 30 June with income security narrative; lead with annual comparison rather than peak figures."
+    }
+  ],
+  "offer_framing": "13%+VAT (from 15%), expires 30 June 2026. Led with income security (annual stack) rather than peak month ceiling. Ribby Hall proximity as unique demand driver.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "Decision needed before 30 June 2026 to retain the discounted rate",
+  "zac_income_intro": "Average net £2,450/month, low season (March) £1,500 net, peak season (August) £3,900 net, based on £274 ADR and 56% occupancy. Expect 15% less in first year while building reviews.",
+  "zac_transition_phrases": [
+    "Ribby Hall creates overflow demand",
+    "Converting the study to a 5th bedroom would increase capacity and boost revenue approximately 10%"
+  ],
+  "zac_reassurance_phrases": [
+    "Even the worst month (£1,526 net) beats a properly-costed long-term let net"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£584/month mortgage",
+  "str_net_monthly": "£2,450",
+  "ltl_monthly": "~£1,147 net (Rona referenced £2,500 gross LTL)"
+}

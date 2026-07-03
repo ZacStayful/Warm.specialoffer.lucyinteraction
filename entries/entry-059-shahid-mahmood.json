@@ -1,0 +1,96 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "059",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-09",
+  "transcript_quality": "High",
+  "lead_name": "Shahid Mahmood",
+  "email": "sm07@hotmail.co.uk",
+  "monday_id": "12213945950",
+  "granola_meeting_id": "bc72712a-cb04-412a-abe8-d060ab79699b",
+  "address": "Ward End, Birmingham B36 8ED",
+  "bedrooms": 6,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "6-bedroom detached house over 3 storeys, Ward End, Birmingham. Family moved out 6 months ago; property vacant and costing £1,500/month. Fully furnished. Certain areas to remain locked (office, conservatory with leak). 1GB Virgin fibre installed. Gas and electrical certificates still needed. Follow-up from entry 042.",
+  "emotional_profile": "High-intent, financially motivated with a clear urgency driver — £1,500/month ongoing costs on a vacant property. Already ruled out selling and traditional rental. Only risk is procedural delay (certificates, conservatory, kickoff scheduling), not decision reluctance.",
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": true,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "2026-06-23",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["compliance documentation", "property readiness (conservatory leak)"],
+  "delay_trigger_phrases": ["Gas and electrical safety certificates not yet in place", "Conservatory with a leak — certain areas will remain locked", "target: progress ASAP due to ongoing monthly costs"],
+  "delay_timeline": "ASAP — procedural only, kickoff after agreement signed",
+  "has_delay": true,
+  "green_light_types": ["financially motivated", "urgency driver (vacancy cost)", "property fully furnished"],
+  "green_light_trigger_phrases": ["I need income ASAP", "I don't want to sell or do a traditional rental", "fully furnished property"],
+  "has_green_light": true,
+  "entry_class": "READY_NOW",
+  "top_objections": [
+    {
+      "text": "Wants certain areas locked — office and conservatory with leak",
+      "zac_response": "Standard procedure — three key safes recommended; locked rooms excluded from guest access at setup.",
+      "resolved": true
+    },
+    {
+      "text": "Wants weekly property inspections between guest stays",
+      "zac_response": "To be discussed at kickoff call — expectation management needed on inspection frequency.",
+      "resolved": false
+    },
+    {
+      "text": "Gas and electrical safety certificates not yet in place",
+      "zac_response": "Owner action required before listing — cannot go live without these certificates.",
+      "resolved": false
+    }
+  ],
+  "top_questions": [
+    {
+      "text": "Can certain rooms remain locked and inaccessible to guests?",
+      "answer": "Yes — standard practice. Three key safes recommended: guests, cleaners, landlord access. Locked rooms simply excluded from the listing."
+    },
+    {
+      "text": "What inspections can be carried out between guest stays?",
+      "answer": "To be discussed at kickoff — regular inspections are possible but scope and frequency needs aligning with cleaning schedule."
+    }
+  ],
+  "what_moved_them": [
+    "£1,500/month ongoing vacancy cost — STL clearly and immediately solves his financial problem",
+    "Property fully furnished — no furnishing costs, fast path to listing",
+    "13%+VAT offer with a clear deadline creating a concrete decision point",
+    "Case study reference: 3-bed Manchester property achieved £56k gross / £36k net in first year"
+  ],
+  "what_fell_flat": [],
+  "conversion_gaps": [
+    {
+      "gap": "Gas and electrical safety certificates not in place — cannot go live without these",
+      "category": "compliance/readiness",
+      "how_to_fill": "Chase Shahid to arrange certificates immediately; provide list of local approved engineers if helpful."
+    },
+    {
+      "gap": "Conservatory leak unresolved — guest access boundary needs confirming",
+      "category": "property readiness",
+      "how_to_fill": "Confirm at kickoff that conservatory stays locked; plan for repair timeline that won't delay listing."
+    }
+  ],
+  "offer_framing": "13%+VAT expires 23 June 2026. Framed squarely against £1,500/month ongoing vacancy cost. ASAP urgency to stop the financial bleed.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "Sign before 23 June to lock in the 13% rate and we move forward immediately to kickoff",
+  "zac_income_intro": "Average net revenue £4,088/month (£49,060/year) after all fees. Nightly rate £379 at 68% occupancy. Range: £2,912 in February to £4,677 in October.",
+  "zac_transition_phrases": [
+    "Family moved out 6 months ago — that's £9,000 in ongoing costs while the property sits empty",
+    "Three key safes: guests, cleaners, landlord access — locked rooms simply don't exist to guests"
+  ],
+  "zac_reassurance_phrases": [
+    "Property already fully furnished — fastest possible path to going live",
+    "Locked rooms are completely standard — we simply exclude them from the listing"
+  ],
+  "zac_analogies": [
+    "3-bed Manchester property: £56k gross / £36k net in first year — comparable trajectory for a large property"
+  ],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£1,500/month total costs (mortgage, rates, water, utilities)",
+  "str_net_monthly": "£4,088",
+  "ltl_monthly": ""
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "062",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-11",
+  "transcript_quality": "Manual",
+  "lead_name": "Kuldip Sanghera",
+  "email": "Kul_nisa@hotmail.co.uk",
+  "monday_id": "12204858250",
+  "granola_meeting_id": "",
+  "address": "41 Balfour Street, Hanley, Stoke-on-Trent",
+  "bedrooms": 2,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "2-bed unfurnished house, Hanley, Stoke-on-Trent. Currently tenanted — family with young children leaving mid-to-late July 2026. Primary motivation: better returns than long-let and flexibility to sell. Actively interested in acquiring more properties to short-let. Original first-pass intelligence entry.",
+  "emotional_profile": "Expansion-minded lead. Primary conversion gate is income consistency. Building a detailed business case with specific interest in multiple expansion markets (Manchester, Liverpool, Leeds). Flexibility to sell is a stated priority alongside income.",
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "2026-07-01",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["tenant timeline", "property readiness (unfurnished)"],
+  "delay_trigger_phrases": ["family leaving mid-to-late July 2026", "completely unfurnished", "hasn't inspected in a while — condition unknown"],
+  "delay_timeline": "Tenant out mid-to-late July; setup August; realistic go-live September 2026",
+  "has_delay": true,
+  "green_light_types": ["income motivated", "expansion minded", "STL model understood"],
+  "green_light_trigger_phrases": ["better returns than long-let", "flexibility to sell", "actively looking to buy more properties", "consistent income"],
+  "has_green_light": true,
+  "entry_class": "READY_SOON",
+  "top_objections": [
+    {
+      "text": "Can I expect consistent income every month? — primary stated concern",
+      "zac_response": "Monthly range shown: £1,084 (Jan) to £2,129 (Aug). October half term / Alton Towers anchor. All months above bills.",
+      "resolved": false
+    },
+    {
+      "text": "Wanted to understand the full costs before committing",
+      "zac_response": "Bills ~£400/month shared; management fee 13%+VAT; setup and furnishing costs outlined.",
+      "resolved": false
+    },
+    {
+      "text": "Interest in other cities suggests she is still evaluating the overall STL model",
+      "zac_response": "Manchester strong; Liverpool selective; Leeds strong; Scotland ruled out. Cities near hospitals/universities/transport hubs perform reliably.",
+      "resolved": true
+    }
+  ],
+  "top_questions": [
+    {
+      "text": "What markets work well for STL portfolio expansion?",
+      "answer": "Manchester: strong. Liverpool: good weekends, weak weekdays. Leeds: strong. Scotland: ruled out due to licensing."
+    },
+    {
+      "text": "What are the monthly costs I am responsible for?",
+      "answer": "~£400/month covering gas, electric, water, WiFi, council tax — all owner responsibility."
+    }
+  ],
+  "what_moved_them": [
+    "Specific monthly range (£1,084–£2,129) helped ground the income picture",
+    "Flexibility to sell while managing on STL directly relevant to her situation",
+    "Expansion portfolio angle matched her growth mindset",
+    "13%+VAT offer with clear deadline created concrete decision point"
+  ],
+  "what_fell_flat": [],
+  "conversion_gaps": [
+    {
+      "gap": "Unfurnished property requires setup investment and tenant move-out before going live",
+      "category": "timing/readiness",
+      "how_to_fill": "Send setup guide immediately; confirm exact tenant move-out date; target September go-live for October Alton Towers half-term peak."
+    }
+  ],
+  "offer_framing": "13%+VAT expires 1 July 2026. October half term framing as first peak anchor. Portfolio fee progression path as expansion incentive.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "Confirm the tenant move-out date and sign before 1 July to lock in 13% — we can have you live in September for October half term",
+  "zac_income_intro": "Net ~£1,650/month average (~£19,700/year), nightly rate ~£159, occupancy ~65%. Range from ~£1,084 in January to ~£2,129 in August.",
+  "zac_transition_phrases": [
+    "Cities near hospitals, universities, and transport hubs perform reliably",
+    "Flexibility to sell — we manage the property while you keep your exit options open"
+  ],
+  "zac_reassurance_phrases": [
+    "Consistent income every month — even January at £1,084 is well above your £400/month bills"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "£1,650",
+  "ltl_monthly": ""
+}
