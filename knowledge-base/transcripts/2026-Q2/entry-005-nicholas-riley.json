@@ -1,0 +1,58 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "005",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-04-09",
+  "transcript_quality": "summary_only",
+  "lead_name": "Nicholas Riley",
+  "email": "nicholas@rileydirect.com",
+  "monday_id": "11692608888",
+  "granola_meeting_id": "cc9c049b-5035-42cf-a5e3-20a0a31dafdc",
+  "address": "Laburnum Cottage 171 Main Street Repton DE65 6FB",
+  "bedrooms": 3,
+  "profile_type": "SELL",
+  "lead_profile_text": "Sell STL — selling property, STL in the meantime. Owner relocating to London on rental basis while Repton property remains on the market.",
+  "emotional_profile": "",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-MOV"],
+  "delay_trigger_phrases": ["Owner relocating to London on rental basis"],
+  "delay_timeline": "",
+  "has_delay": true,
+  "green_light_types": ["GL-TIME"],
+  "green_light_trigger_phrases": ["property on market — income needed during sales period", "relocating to London"],
+  "has_green_light": true,
+  "entry_class": "READY_SOON",
+  "top_objections": [
+    {"text": "Furnishing requirements before onboarding", "zac_response": "", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "Can STL generate meaningful income during the sales period?", "answer": "Yes — agreement that the property could generate meaningful income during the sales process, with Stayful handling all operations"},
+    {"text": "What is the timeline and furnishing requirement for onboarding?", "answer": "Discussed at meeting; furnishing requirements assessed"}
+  ],
+  "what_moved_them": [
+    "Agreement that property can generate income during sales period",
+    "Fully managed service removes operational burden during relocation"
+  ],
+  "what_fell_flat": [],
+  "conversion_gaps": [
+    {"gap": "Furnishing/timeline requirements not yet resolved", "category": "readiness", "how_to_fill": "Send furnishing checklist and onboarding timeline"},
+    {"gap": "No financial figures captured in this entry", "category": "data", "how_to_fill": "Obtain and log STL income projections and any mortgage/ownership cost details"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "",
+  "ltl_monthly": ""
+}

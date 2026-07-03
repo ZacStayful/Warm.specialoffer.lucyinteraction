@@ -1,0 +1,59 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "003",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-04-27",
+  "transcript_quality": "summary_only",
+  "lead_name": "Brandon Schraeder",
+  "email": "elderredrasputin@yahoo.com",
+  "monday_id": "11831753795",
+  "granola_meeting_id": "6b9bb616-933a-4e14-89e4-feff08b51b41",
+  "address": "4 St Maurices Court York YO31 7JS",
+  "bedrooms": 1,
+  "profile_type": "PURCH",
+  "lead_profile_text": "Purchase — buying flat for STL near York Minster. Plans to run as holiday let for 8-10 years, using personally for ~10 days per year. Full management model for overseas/absent owner confirmed. (Note: title says Existing STL but PROFILE content explicitly states Purchase.)",
+  "emotional_profile": "analytical-evaluator",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-PUR"],
+  "delay_trigger_phrases": ["goal to purchase a one-bedroom flat", "purchasing flat near York Minster"],
+  "delay_timeline": "",
+  "has_delay": true,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "DELAYED",
+  "top_objections": [
+    {"text": "Management and platform fees circa 30-32% of revenue", "zac_response": "Confirmed broadly in line with expectations; York is a particularly strong STL market", "resolved": true},
+    {"text": "Setup cost of £7,200", "zac_response": "", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "What are the projected net income figures?", "answer": "~£60,000 annual gross, ~£31,500 net after all fees"},
+    {"text": "Can Stayful provide an income projection letter for my mortgage broker?", "answer": "Yes, Zac offered this"}
+  ],
+  "what_moved_them": [
+    "Income projections exceeded own expectations (£31,500 net vs £30,000 gross assumption)",
+    "York described as a particularly strong STL market",
+    "Full management model confirmed for overseas/absent owner"
+  ],
+  "what_fell_flat": [],
+  "conversion_gaps": [
+    {"gap": "Purchase not yet completed — property not yet owned", "category": "timing", "how_to_fill": "Stay in touch during purchase process; send income projection letter for mortgage broker"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£400-500/month (interest-only, estimated)",
+  "str_net_monthly": "£2,632",
+  "ltl_monthly": "£866"
+}

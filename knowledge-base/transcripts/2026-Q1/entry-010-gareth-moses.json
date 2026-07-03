@@ -1,0 +1,64 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "010",
+  "quarter": "2026-Q1",
+  "meeting_date": "2026-03-09",
+  "transcript_quality": "summary_only",
+  "lead_name": "Gareth Moses",
+  "email": "gareth.moses97@gmail.com",
+  "monday_id": "11434803394",
+  "granola_meeting_id": "ec8b7133-8f60-44d6-b8d3-f918b96e31ee",
+  "address": "Spennymoor County Durham DL16",
+  "bedrooms": 3,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "STL Switch — Renovation Delay. Large property (3-bed + extension, farmhouse feel). Works away most of the time. No long-term tenant wanted. Needs STL income to cover £1,000-1,200/mo mortgage. Builder delays ongoing as of April 2026 — update: 'sounds mostly cosmetic'. Target guest type: contractor/worker stays rather than tourist short breaks.",
+  "emotional_profile": "",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-OTH"],
+  "delay_trigger_phrases": ["builder delays ongoing", "builder still not finished April 2026", "sounds mostly cosmetic", "renovation not complete"],
+  "delay_timeline": "May/June 2026 when renovation complete",
+  "has_delay": true,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "DELAYED",
+  "top_objections": [
+    {"text": "Builder delays — property not ready for launch", "zac_response": "Follow-up planned end of April; Apr update shows mostly cosmetic issues remaining", "resolved": false},
+    {"text": "Mortgage £1,000-1,200/mo is high relative to ~£1,500/mo net — thin margin", "zac_response": "Net income covers mortgage with surplus; worker demand provides stability", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "Can STL income cover my mortgage?", "answer": "Gross ~£28,578/yr, net ~£18,400/yr (~£1,533/mo). Covers mortgage with some surplus"},
+    {"text": "What type of guests would I get?", "answer": "Worker-type demand: contractors, hospital/solar project workers — suited to longer stays rather than tourist short breaks"},
+    {"text": "Can I switch from council tax to business rates?", "answer": "Yes — potential zero rates via business rates switch discussed"}
+  ],
+  "what_moved_them": [
+    "Net income covers mortgage",
+    "Worker demand stability — contractor/project workers provide reliable bookings",
+    "Council tax to business rates switch (potential zero rates)",
+    "Hands-off model for travelling owner"
+  ],
+  "what_fell_flat": [
+    "Thin margin between mortgage costs and projected STL net"
+  ],
+  "conversion_gaps": [
+    {"gap": "Renovation not yet complete — builder delays", "category": "timing", "how_to_fill": "Re-engage May/June 2026 when cosmetic work is complete"},
+    {"gap": "Margin concern — mortgage close to projected net income", "category": "financial", "how_to_fill": "Discuss refinancing to IO BTL to reduce mortgage costs; model the revised margin"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£1,000-1,200/month",
+  "str_net_monthly": "£1,533",
+  "ltl_monthly": "£650"
+}

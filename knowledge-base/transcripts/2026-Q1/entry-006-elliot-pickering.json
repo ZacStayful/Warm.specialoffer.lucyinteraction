@@ -1,0 +1,58 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "006",
+  "quarter": "2026-Q1",
+  "meeting_date": "2026-03-18",
+  "transcript_quality": "summary_only",
+  "lead_name": "Elliot Pickering",
+  "email": "elliotcraig.pickering@yahoo.com",
+  "monday_id": "11513156253",
+  "granola_meeting_id": "de3a8b81-74a0-443b-b2af-54ae467fca65",
+  "address": "185 Southfield Road London W4 5LB",
+  "bedrooms": 0,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "STL Switch — existing LTL property in Chiswick/West London converting to STL. LTL tenancy status not explicitly stated at meeting.",
+  "emotional_profile": "",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-TEN"],
+  "delay_trigger_phrases": ["existing long-let property converting to STL"],
+  "delay_timeline": "",
+  "has_delay": true,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "DELAYED",
+  "top_objections": [
+    {"text": "Local presence and coverage for Chiswick/West London area", "zac_response": "Local presence and coverage confirmed for the area", "resolved": true}
+  ],
+  "top_questions": [
+    {"text": "What is the income estimate for short letting?", "answer": "Income estimates presented and compared to current long-let return"},
+    {"text": "What are the fees and platform commissions?", "answer": "Full fee structure covering platform and management commissions explained"}
+  ],
+  "what_moved_them": [
+    "Income projections vs current LTL return",
+    "Fully managed service model explained"
+  ],
+  "what_fell_flat": [],
+  "conversion_gaps": [
+    {"gap": "No financial figures captured", "category": "data", "how_to_fill": "Obtain mortgage, STL and LTL figures for this property"},
+    {"gap": "Existing tenancy may need to end before STL conversion", "category": "timing", "how_to_fill": "Confirm tenant notice/end date and build onboarding timeline"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "",
+  "ltl_monthly": ""
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "007-A",
+  "quarter": "2026-Q1",
+  "meeting_date": "2026-03-16",
+  "transcript_quality": "summary_only",
+  "lead_name": "Karan Kaushik",
+  "email": "karan2012kaushik@gmail.com",
+  "monday_id": "11484810594",
+  "granola_meeting_id": "e8a8c49d-84b7-411f-b0f4-c0fb04dc119d",
+  "address": "24c North Street Derby DE1 3AZ",
+  "bedrooms": 5,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "STL Switch — Rational Evaluator. First investment property owned via limited company with wife. Currently receiving LTL offers of £1,700/mo unfurnished. Evaluating whether higher STL income justifies full furnishing investment. Undecided — acknowledges income case but calls it 'possibly an excuse not to do the harder thing'.",
+  "emotional_profile": "analytical-evaluator",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-FUR"],
+  "delay_trigger_phrases": ["unfurnished — full setup needed", "full furnishing investment needed", "first investment property"],
+  "delay_timeline": "",
+  "has_delay": true,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "DELAYED",
+  "top_objections": [
+    {"text": "Setup cost and effort barrier — property is unfurnished and requires full investment", "zac_response": "Furnishing price quote to be sent to make investment case clear", "resolved": false},
+    {"text": "Income instability vs £1,700/mo guaranteed LTL offer", "zac_response": "STL net £2,017/mo vs LTL net £1,550/mo — significant material advantage of £467/mo", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "How does the STL net compare to the LTL offers I'm receiving?", "answer": "STL gross ~£41,000/yr, net ~£24,205/yr (£2,017/mo) vs LTL £1,700/mo (~£1,550 net after agent). STL advantage ~£467/mo"},
+    {"text": "How does the limited company structure affect the STL option?", "answer": "Ltd company structure suits STL tax treatment"}
+  ],
+  "what_moved_them": [
+    "STL net materially higher (£2,017 vs £1,550 net)",
+    "Ltd company structure suits STL tax treatment",
+    "Property control vs tenancy arrangement"
+  ],
+  "what_fell_flat": [
+    "Setup cost and furnishing effort — LTL is the simpler path"
+  ],
+  "conversion_gaps": [
+    {"gap": "Full furnishing cost not yet quantified", "category": "cost", "how_to_fill": "Send furnishing price estimate to make the investment payback case clear"},
+    {"gap": "Income instability perception vs guaranteed LTL offer", "category": "trust", "how_to_fill": "Provide income report with historical occupancy/performance data"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£800/month (IO)",
+  "str_net_monthly": "£2,017",
+  "ltl_monthly": "£1,700"
+}

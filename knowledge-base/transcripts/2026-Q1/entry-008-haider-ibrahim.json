@@ -1,0 +1,66 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "008",
+  "quarter": "2026-Q1",
+  "meeting_date": "2026-03-16",
+  "transcript_quality": "summary_only",
+  "lead_name": "Haider Ibrahim",
+  "email": "hhi1990@hotmail.com",
+  "monday_id": "11499573311",
+  "granola_meeting_id": "73b5161a-e60e-4f8f-8e2d-eeebc533d61d",
+  "address": "59 Banners Gate Road Birmingham B73 6TY",
+  "bedrooms": 3,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "STL Switch — Relocating. May relocate to another city with family (3 young children). Weighing sell vs STL vs LTL. LTL quotes received: £1,200-1,300/mo. Property needs painting and garden tidying before launch. 3-6 month decision window tied to relocation plans. Wife alignment required.",
+  "emotional_profile": "loss-averse-switcher",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-MOV", "DLY-OTH"],
+  "delay_trigger_phrases": ["may relocate to another city", "3-6 month decision window tied to relocation plans", "property needs painting, garden tidying", "wife needs to align"],
+  "delay_timeline": "by the summer",
+  "has_delay": true,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "DELAYED",
+  "top_objections": [
+    {"text": "Residential mortgage risk from running STL", "zac_response": "Phased approach: run initial 6 months on existing residential mortgage, then review for IO BTL switch — start STL, gather evidence, then approach lender", "resolved": false},
+    {"text": "Wife needs to align before any decision", "zac_response": "", "resolved": false},
+    {"text": "Property needs preparation before launch (painting, garden)", "zac_response": "", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "How does STL compare to LTL financially?", "answer": "STL gross ~£35,978/yr, net ~£22,500/yr (~£1,875/mo) vs LTL £1,200-1,300/mo. STL advantage ~£675/mo"},
+    {"text": "What about the residential mortgage risk?", "answer": "Phased approach: test STL on residential mortgage first 6 months, then switch to IO BTL to reduce mortgage costs"}
+  ],
+  "what_moved_them": [
+    "STL net significantly above LTL (£675/mo uplift)",
+    "Phased mortgage approach reduced risk perception",
+    "Direct booking stability framing",
+    "Named team members for accountability"
+  ],
+  "what_fell_flat": [
+    "Wife alignment still outstanding",
+    "Property prep cost still unresolved"
+  ],
+  "conversion_gaps": [
+    {"gap": "Wife not present at meeting — key decision-maker not engaged", "category": "stakeholder", "how_to_fill": "Get wife on follow-up call; send joint-readable summary"},
+    {"gap": "Property needs prep before launch", "category": "readiness", "how_to_fill": "Agree timeline for painting/garden; offer launch prep checklist"},
+    {"gap": "Relocation timeline uncertain", "category": "timing", "how_to_fill": "Check in on relocation decision progress by summer 2026"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£929/month (repayment)",
+  "str_net_monthly": "£1,875",
+  "ltl_monthly": "£1,200-1,300"
+}

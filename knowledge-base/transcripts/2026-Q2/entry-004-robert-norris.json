@@ -1,0 +1,60 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "004",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-04-20",
+  "transcript_quality": "summary_only",
+  "lead_name": "Robert Norris",
+  "email": "r.m.norris@hotmail.co.uk",
+  "monday_id": "11725841191",
+  "granola_meeting_id": "2459aaa3-284f-4d07-af34-3b63262485a9",
+  "address": "30 Wolsingham Terrace Darlington DL1 2JZ",
+  "bedrooms": 3,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "STL Switch — weighing selling vs STL conversion due to low LTL income and regulatory concerns. Has a stated minimum threshold of £750/month net to consider keeping the property. Two-person decision with wife.",
+  "emotional_profile": "loss-averse-switcher",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "",
+  "has_delay": false,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "NURTURE",
+  "top_objections": [
+    {"text": "Weighing whether to sell rather than convert to STL", "zac_response": "STL projections (~£1,600/mo net) clearly exceed stated minimum threshold of £750/mo", "resolved": false},
+    {"text": "Two-person decision — needs wife's input before committing", "zac_response": "Follow-up call agreed after Robert's holiday (around the 29th)", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "Can STL generate enough to make it worth keeping the property?", "answer": "Projections indicate ~£1,600/mo net before owner costs, well above the £750 target"},
+    {"text": "What does the management model look like day-to-day?", "answer": "Fully hands-off: Stayful handles guests, maintenance, cleaning; owner handles mortgage, utilities, Wi-Fi"}
+  ],
+  "what_moved_them": [
+    "Projections clearly exceeding his stated minimum threshold (£750 target vs £1,600 projected)",
+    "Fully hands-off model addressed management burden concern",
+    "Case studies from Darlington area"
+  ],
+  "what_fell_flat": [],
+  "conversion_gaps": [
+    {"gap": "Two-person decision — wife not on call", "category": "stakeholder", "how_to_fill": "Ensure wife is present on follow-up call; send written summary of projections they can review together"},
+    {"gap": "Setup quote not yet provided", "category": "process", "how_to_fill": "Send setup quote based on property photos"}
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£320/month",
+  "str_net_monthly": "£1,200",
+  "ltl_monthly": "£583"
+}
