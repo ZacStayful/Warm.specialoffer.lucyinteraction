@@ -1,0 +1,80 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "054",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-03",
+  "transcript_quality": "good",
+  "lead_name": "Laura Shaw",
+  "email": "lauraemilyshaw@hotmail.com",
+  "monday_id": "12139798139",
+  "granola_meeting_id": "37a81716-c49d-4156-9981-e5ceea93bbe5",
+  "address": "60a Station Road, Epworth, DN9 1JZ",
+  "bedrooms": 2,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "Currently based in Indonesia, back in UK for ~1 month. LTL landlord for 4 years — most recent tenant just left. Property currently vacant and unfurnished. Competing LTL offer live (interested party). Recurring shower pump issue (replaced 6 times in 4 years). Mortgage £600/month.",
+  "emotional_profile": "Motivated but cautious. Time-pressured by imminent return to Indonesia. Competing LTL offer is live risk. Needs complete hands-off management reassurance and full cost transparency.",
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13% + VAT",
+  "offer_expiry": "2026-06-30",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-UPG"],
+  "delay_trigger_phrases": [
+    "shower pump's been replaced six times in four years",
+    "property is currently unfurnished",
+    "electric shower installation recommended before listing"
+  ],
+  "delay_timeline": "Must resolve within Laura's UK stay — before June 30",
+  "has_delay": true,
+  "green_light_types": ["GL-TIME"],
+  "green_light_trigger_phrases": [
+    "I'm only here for about a month",
+    "decision deadline aligns with Laura's UK stay before returning to Indonesia"
+  ],
+  "has_green_light": true,
+  "entry_class": "READY_SOON",
+  "top_objections": [
+    {"text": "How do I manage the property when I'm in Indonesia?", "zac_response": "Complete remote operation — Slack, monthly statements, £300 maintenance cap without approval needed", "resolved": true},
+    {"text": "What about the shower and water tank recurring issues?", "zac_response": "Electric shower installation recommended pre-listing; Stayful can coordinate contractor", "resolved": false},
+    {"text": "How do the costs work — what do I actually net after all deductions?", "zac_response": "Full cost breakdown: STL £1,742/month net vs LTL £644/month — even September worst month beats LTL", "resolved": true},
+    {"text": "There's a tenant interested in the property", "zac_response": "All 12 STL months net above LTL including September (£800 STL vs £644 LTL)", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "How does remote management work?", "answer": "Complete remote operation — Stayful handles all guest management, maintenance coordination (£300 cap), monthly statements and Slack updates"},
+    {"text": "What needs to happen before the property can list?", "answer": "Electric shower installation, furnishing required — Stayful can assist with checklist and contractor coordination"},
+    {"text": "What is the income comparison vs continuing with LTL?", "answer": "STL £1,742/month net vs LTL £644/month net — uplift £1,098/month; all 12 months net above LTL even in worst month (Sep: £800 vs £644)"}
+  ],
+  "what_moved_them": [
+    "All 12 months net above LTL — even September at £800 vs LTL £644",
+    "Maintenance transparency — up to £300 without approval needed",
+    "Stayful handles everything remotely — no physical presence required",
+    "Special offer of 13% saving vs standard 15%"
+  ],
+  "what_fell_flat": [
+    "Competing LTL tenant offer not fully displaced — still live risk",
+    "Shower/water tank recurring issue creates legitimate pre-listing barrier"
+  ],
+  "conversion_gaps": [
+    {"gap": "Competing LTL offer is live — real alternative with interested tenant", "category": "competition", "how_to_fill": "Emphasise all-12-months-above-LTL chart; worst month £800 vs LTL £644 — STL wins every single month"},
+    {"gap": "Property not ready to list — furnishing and shower fix required", "category": "readiness", "how_to_fill": "Send setup quote and contractor coordination offer; Stayful can manage setup before she returns to Indonesia"}
+  ],
+  "offer_framing": "13% + VAT if signed by June 30 — framed around Laura's UK departure deadline as a natural and genuine close window",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "Sign before June 30 — we can coordinate the shower fix and setup while you're still here; by the time you land in Indonesia it's running",
+  "zac_income_intro": "STL £1,742/month net vs your current LTL £644/month. Even your worst month on STL — September at £800 — beats what you'd get from a long-term tenant.",
+  "zac_transition_phrases": [
+    "The key thing for your situation is that you never need to be here",
+    "Even in the worst month — September — you net £800 versus £644 on a long let"
+  ],
+  "zac_reassurance_phrases": [
+    "Up to £300 maintenance — we handle it and tell you after; above £300 we check with you first",
+    "Monthly statement, Slack channel — you'll always know exactly what's happening from Indonesia"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£600/month",
+  "str_net_monthly": "£1,742",
+  "ltl_monthly": "£644"
+}

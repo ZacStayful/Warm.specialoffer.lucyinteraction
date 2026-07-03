@@ -1,0 +1,76 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "052",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-01",
+  "transcript_quality": "partial",
+  "lead_name": "Mandi",
+  "email": "chhokerm@hotmail.co.uk",
+  "monday_id": "12149975076",
+  "granola_meeting_id": "",
+  "address": "Flat 2, 63 Albert Road, South Norwood SE25 4JD",
+  "bedrooms": 1,
+  "profile_type": "SELL",
+  "lead_profile_text": "Bridge STL strategy — looking to sell 1-bed flat but lacking confidence in near-term sale price. Already self-listing on STL platform, struggling with weekday occupancy. Plans to handle all furnishing herself; no setup quote needed.",
+  "emotional_profile": "Pragmatic and cautious. Already in the STL world but underperforming. Wants proof that weekday occupancy is solvable. Practical focus on cost clarity and essential setup requirements.",
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13% + VAT",
+  "offer_expiry": "2026-06-22",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "",
+  "has_delay": false,
+  "green_light_types": ["GL-INTENT"],
+  "green_light_trigger_phrases": [
+    "I'm getting lots of weekend stays but not getting weekday stays",
+    "I really want to get more contractors"
+  ],
+  "has_green_light": true,
+  "entry_class": "READY_NOW",
+  "top_objections": [
+    {"text": "Weekday occupancy — not getting enough midweek bookings currently", "zac_response": "NHS/healthcare and contractor demand in SE25; direct booking strategy targets midweek corporate guests", "resolved": false},
+    {"text": "Not confident about achieving asking price on sale", "zac_response": "STL as bridge strategy — income while property remains on market, exit flexibility with 3-month notice", "resolved": true},
+    {"text": "Wanted clarity on essential equipment requirements before listing", "zac_response": "Itemised essential vs non-essential list provided: smart thermostat, key safe, fire blanket/detectors essential; cameras not required", "resolved": true},
+    {"text": "Whether income projections are achievable given current underperformance", "zac_response": "Low competition in SE25, direct booking potential, Selhurst Park demand driver — projections justified by market data", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "Do I need cameras?", "answer": "Not essential — Airbnb prohibits interior cameras; exterior optional but not required"},
+    {"text": "Do I need a smart thermostat?", "answer": "Yes — essential for remote management; low cost, high value for guest satisfaction"},
+    {"text": "What type of guests will the property attract?", "answer": "NHS/healthcare workers primary weekday guest type for SE25; Selhurst Park (Crystal Palace FC) events drive weekend demand"}
+  ],
+  "what_moved_them": [
+    "Low competition in SE25 — less competitive for bookings",
+    "Direct booking potential for the area was positive data point",
+    "Property amenities noted as strong vs local competition",
+    "Cameras not required — removed perceived barrier/cost",
+    "Smart thermostat framed as essential remote management tool at low cost"
+  ],
+  "what_fell_flat": [
+    "Income projection credibility uncertain given current self-managed underperformance"
+  ],
+  "conversion_gaps": [
+    {"gap": "Weekday occupancy problem not demonstrably solved in meeting", "category": "proof", "how_to_fill": "Send SE25 weekday occupancy data or NHS/contractor booking case study before June 22 expiry"},
+    {"gap": "No next meeting to follow up offer expiry", "category": "urgency", "how_to_fill": "Proactive outreach before June 22 — email or call to confirm decision"}
+  ],
+  "offer_framing": "13% + VAT vs standard 15% — framed as limited window to lock in reduced rate before June 22",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "Low competition in SE25, direct booking potential high — property amenities strong vs comparable listings in the area",
+  "zac_transition_phrases": [
+    "The NHS and contractor demand in SE25 is exactly what fills midweek gaps",
+    "The 3-month rolling notice means you can exit cleanly when a buyer comes through"
+  ],
+  "zac_reassurance_phrases": [
+    "Smart thermostat is low cost and gives you full remote control",
+    "You don't need cameras — Airbnb prohibits interior ones anyway"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "",
+  "ltl_monthly": ""
+}
