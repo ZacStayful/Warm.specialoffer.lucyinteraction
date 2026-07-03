@@ -1,0 +1,67 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "037",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-07",
+  "transcript_quality": "partial — Granola summary captured; full transcript unavailable (paid tier required)",
+  "lead_name": "Jack Mitchell",
+  "email": "jacksrmitchell@live.co.uk",
+  "monday_id": "11928280535",
+  "granola_meeting_id": "fa2097b3-f9bc-4fe4-8d69-f4b5d378306f",
+  "address": "64 Duncary Road, Bristol BS3 4LA",
+  "bedrooms": 3,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "STL Switch + Sell. 3-bed house, 64 Duncary Road, Bristol BS3 4LA. Tenants have given notice; property also listed for sale with no buyer interest. Unfurnished, modern, underfloor heating, small courtyard garden, street parking only. Currently let at £2,500/month (long-let). Gross STR potential £126,000/year.",
+  "emotional_profile": "Motivated — genuine transition event (tenants leaving). Technical disruption cut the meeting short before objections or Q&A stage. The sell angle is secondary; no buyer interest makes STR the live option.",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "",
+  "has_delay": false,
+  "green_light_types": ["GL-TIME"],
+  "green_light_trigger_phrases": ["Tenants have given notice", "property will be vacant"],
+  "has_green_light": true,
+  "entry_class": "READY_NOW",
+  "top_objections": [
+    {"text": "None captured — meeting cut off before objections stage", "zac_response": "", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "None captured — meeting did not reach Q&A stage", "answer": ""}
+  ],
+  "what_moved_them": [
+    "Revenue figures (£126k gross / £65,752 net vs £30k long-let) presented and accepted without pushback",
+    "Summer timing for setup noted as optimal — received positively",
+    "Demand drivers: Bristol Royal Hospital proximity, university, 9 transport links, 500+ events"
+  ],
+  "what_fell_flat": [
+    "Meeting cut short by repeated connection failures — Jack never got to ask questions or push back"
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Meeting not completed — Jack left early due to connection delays and never reached objections or questions stage",
+      "category": "meeting_completion",
+      "how_to_fill": "Priority rebook for a complete web meeting; acknowledge the technical frustration warmly but move quickly to the income opportunity"
+    }
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "£126,000 gross annual revenue potential based on 12 comparable local properties; net payout £65,752/year (~£5,400/month); average nightly rate £400, 82% occupancy",
+  "zac_transition_phrases": ["Summer setup timing noted as optimal", "Year 1 expectations: 20–30% slower initially until listing establishes"],
+  "zac_reassurance_phrases": [
+    "Stayful handles furnishing — owner retains furniture ownership",
+    "Viewing management via online calendar portal",
+    "Notice flexibility if property sells depending on existing bookings"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "~£5,479",
+  "ltl_monthly": "~£2,500"
+}

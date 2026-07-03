@@ -1,0 +1,68 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "039",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-21",
+  "transcript_quality": "none — no call recording on file; no Granola summary; entry reconstructed from meeting notes",
+  "lead_name": "Henry Roberts",
+  "email": "chubbanaz@outlook.com",
+  "monday_id": "",
+  "granola_meeting_id": "34f61182-19b3-43cb-89d5-77a976b7ae40",
+  "address": "Bevington Bush, Liverpool (exact address not captured)",
+  "bedrooms": 0,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "EX-STL — Managed by MyProperty Host, Liverpool property at Bevington Bush. Significant underperformance: occupancy considerably down year-on-year; currently around break-even when should be hitting double in peak months (May–Aug). Account manager left with poor handover; guests waiting for keys; missed check-ins — systemic failures. Potential second property in Burton on Trent if Henry converts (multi-property client opportunity).",
+  "emotional_profile": "Engaged and action-oriented. Primary pain is operational failure compounded by peak-season underperformance costing real money right now. Fast mover — materials received within 20 minutes of call ending.",
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "2026-05-31",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "Henry to review current MyProperty Host contract for notice period; no timeline stated",
+  "has_delay": false,
+  "green_light_types": ["GL-MGMT"],
+  "green_light_trigger_phrases": ["significantly underperforming", "should be hitting double in peak months", "account manager left with poor handover", "guests waiting for keys", "missed check-ins"],
+  "has_green_light": true,
+  "entry_class": "READY_NOW",
+  "top_objections": [
+    {"text": "None explicitly captured — lead was engaged throughout", "zac_response": "", "resolved": true}
+  ],
+  "top_questions": [
+    {"text": "What is the transition process from MyProperty Host to Stayful?", "answer": "Henry to review current contract for notice period; once known, transition timeline can be confirmed; action plan, summary, and agreement sent within 20 minutes of call"},
+    {"text": "What are the direct booking rates and communication model?", "answer": "26% direct booking conversion target; Slack channel, quarterly calls, monthly statements 1st–5th; listed on Airbnb, Booking.com, and direct"}
+  ],
+  "what_moved_them": [
+    "26% direct booking conversion rate",
+    "Operational service model — Slack channel, monthly statements, quarterly calls — addressing communication and performance visibility concern",
+    "Peak-season urgency framing — May–August revenue being lost with current manager right now"
+  ],
+  "what_fell_flat": [
+    "Nothing flagged"
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Henry needs to review MyProperty Host contract for notice period before committing to a transition date",
+      "category": "contractual",
+      "how_to_fill": "Frame urgency around May–August peak window being lost with current manager; once notice period confirmed, path to switch is clear"
+    }
+  ],
+  "offer_framing": "13%+VAT reduced from 15%; expires 31 May 2026. No onboarding cost. Listed on Airbnb, Booking.com, and direct. Potential second property in Burton on Trent noted.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "Action plan, meeting summary, and agreement terms sent within 15–20 minutes of call ending",
+  "zac_income_intro": "£25,636 gross / £13,331 net (~£1,111/month); 26% direct booking conversion target; demand: hospital, university, transport links, comedy club",
+  "zac_transition_phrases": [
+    "Location demand: hospital, university, transport links, comedy club — competition not highly competitive (low average ratings)"
+  ],
+  "zac_reassurance_phrases": [
+    "Slack channel, quarterly calls, monthly statements 1st–5th"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "~£1,111",
+  "ltl_monthly": ""
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "038",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-12",
+  "transcript_quality": "partial — Granola summary available; full transcript unavailable",
+  "lead_name": "Abby Thomas",
+  "email": "abbythomas_96@hotmail.com",
+  "monday_id": "",
+  "granola_meeting_id": "185df00f-5616-4a55-8f3c-648f1a998bd5",
+  "address": "2-bed house, York (exact postcode not captured)",
+  "bedrooms": 2,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "ABROAD — Property owner vacating for ~7-month overseas trip (Japan, Philippines, Vietnam, Cambodia, Indonesia, Malaysia, Australia, New Zealand). Departing Heathrow 21 Sept 2026; returning last week of April 2027. Employer sabbatical arranged. 2-bed York house: king bedroom + second double with standing desk workspace; smart TVs throughout; garden; driveway (4–5 cars); road parking nearby. Renovation near-complete — minor painting and fence work within 2 weeks of call. STL revenue to cover ongoing property costs and travel expenses.",
+  "emotional_profile": "Positive and engaged but evaluating competitors. STL is the enabling mechanism for the trip, not income-maximisation. Realistic financial expectations (~£2k/month target). Quality of information provision is her stated differentiator for Stayful.",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-MOV"],
+  "delay_trigger_phrases": ["flying from Heathrow 21 Sept", "property vacant from ~23 Sept 2026", "returning last week of April 2027"],
+  "delay_timeline": "Property available from 23 September 2026; onboarding within 3 weeks of move-out date to go live",
+  "has_delay": true,
+  "green_light_types": ["GL-TIME"],
+  "green_light_trigger_phrases": ["flying from Heathrow 21 Sept", "employer sabbatical arranged", "trip booked"],
+  "has_green_light": true,
+  "entry_class": "READY_SOON",
+  "top_objections": [
+    {"text": "Comparing Stayful against other companies", "zac_response": "Quality and volume of information provided differentiates Stayful", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "Are additional safety certifications needed for a temporary STL arrangement?", "answer": "No additional certifications required; new boiler already installed and serviced annually — will be serviced again before departure"}
+  ],
+  "what_moved_them": [
+    "I've really liked the additional information you guys have provided",
+    "York case study: comparable 3-bed projected £31k net, actual £35k net — net exceeded projection",
+    "Projected net of £2,115/month marginally exceeds her own £2,000/month threshold",
+    "Workspace (standing desk) in second bedroom highlighted as competitive advantage for contractor/business traveller guests"
+  ],
+  "what_fell_flat": [
+    "Nothing flagged — lead was positive throughout"
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Comparing Stayful against competitor companies — she has calls booked with competitors",
+      "category": "competitive_comparison",
+      "how_to_fill": "High-quality timely follow-up pack reinforcing information advantage; include clear September prep timeline and explicit note on what happens if she returns early"
+    }
+  ],
+  "offer_framing": "Agreement sent for review at standard terms; 2-week review window requested",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "Abby to review within 2 weeks and confirm; onboarding, kickoff call, and photos closer to September with up to 3 weeks from move-out date to go live",
+  "zac_income_intro": "Projected net revenue of ~£2,115/month (£209/night, 68% occupancy) drawn from comparable established properties nearby",
+  "zac_transition_phrases": [
+    "York is one of the best STL markets in the UK, particularly the north",
+    "Amenities (garden, driveway, workspace, smart TVs, location near racecourse and bus stop) offset high local competition"
+  ],
+  "zac_reassurance_phrases": [
+    "No additional safety certifications needed for a temporary STL arrangement",
+    "New boiler already installed and serviced annually — will be serviced again before departure"
+  ],
+  "zac_analogies": [
+    "Comparable York 3-bed: projected £60k gross/£31k net, actual £55k gross/£35k net — net exceeded projection"
+  ],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "~£2,115",
+  "ltl_monthly": ""
+}

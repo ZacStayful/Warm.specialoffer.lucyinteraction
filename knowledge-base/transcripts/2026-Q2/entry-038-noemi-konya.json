@@ -1,0 +1,73 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "038",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-12",
+  "transcript_quality": "partial — Granola meeting summary available; call recording on Monday (file_mm1daxvv) but full transcript not accessible",
+  "lead_name": "Noemi Konya",
+  "email": "noemi0610@gmail.com",
+  "monday_id": "11975955407",
+  "granola_meeting_id": "b93d9f4b-6c8a-4716-beaf-a54a409a8095",
+  "address": "74 Torworth Road, Borehamwood, WD6 4ES",
+  "bedrooms": 4,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "ABROAD — Owner moving to Spain for 1-year trial from ~end July 2026. 4-bed house, 74 Torworth Road, Borehamwood, WD6 4ES. Furnished (owner retaining furniture for return); bar area with tap, large garden. Children's bedrooms require repaint to neutral; bunk beds require replacement with double + single setup. Partner's company requires periodic UK access — calendar blocking essential. Partner has not yet attended a meeting; follow-up call 21 May with partner present.",
+  "emotional_profile": "Motivated by hard departure timeline (end of July), not abstract interest. No financial objections raised — figures accepted without challenge. Partner's sign-off is the remaining gate. Calendar-blocking and property protection details are the key operational requirements.",
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "2026-05-31",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-MOV"],
+  "delay_trigger_phrases": ["relocating to Spain for 1-year trial", "moving out approximately end of July 2026", "targeting August 2026 launch"],
+  "delay_timeline": "Departing end of July 2026; August 2026 launch targeted",
+  "has_delay": true,
+  "green_light_types": ["GL-TIME"],
+  "green_light_trigger_phrases": ["moving out approximately end of July 2026", "hard departure timeline", "1 year trial — she is planning to return"],
+  "has_green_light": true,
+  "entry_class": "READY_SOON",
+  "top_objections": [
+    {"text": "Most bookings come within 30 days — can partner's periodic UK access needs be accommodated?", "zac_response": "Date blocking is possible; existing bookings cannot be cancelled but dates must be planned in advance", "resolved": true},
+    {"text": "Partner's company requires UK access flexibility", "zac_response": "Calendar blocking confirmed as possible; Stayful to confirm in writing before 21 May follow-up call", "resolved": true}
+  ],
+  "top_questions": [
+    {"text": "Can partner's company periodic UK visits be accommodated within the STL calendar?", "answer": "Yes — date blocking is possible with caveat that existing bookings cannot be cancelled; advance planning required since most bookings come in within 30 days of arrival"},
+    {"text": "Can partner's maintenance team be used for property maintenance?", "answer": "Yes — subject to meeting Stayful's requirements (weekend/out-of-hours availability, specific response times); payments up to £300/month deductible from monthly statements"}
+  ],
+  "what_moved_them": [
+    "Calendar access for date-blocking — directly resolved the partner's UK access requirement",
+    "Income figures (£86,961 gross / £45,222 net vs £16,800 LTL) — compelling uplift not challenged",
+    "Property protection measures: ID checks, £200 security deposit, £100,000 insurance, 1–3 annual inspections",
+    "30–40% direct bookings from trusted repeat guests"
+  ],
+  "what_fell_flat": [
+    "30-day booking window caveat raised concern — resolved but should not be re-surfaced in follow-up"
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Partner has not attended a meeting and has not yet agreed — 21 May partner call is his first exposure",
+      "category": "partner_gate",
+      "how_to_fill": "Send pre-call summary email to Noemi before 21 May that she can forward to her partner; ensure he arrives informed rather than cold; confirm calendar-blocking in writing before the call"
+    }
+  ],
+  "offer_framing": "13%+VAT reduced from 15%; expires 31 May 2026. 6-month fixed term, 3-month notice period. No onboarding cost. Partner call 21 May before offer expiry.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "Follow-up call scheduled Thursday 21 May 2026 at 09:00 with partner present, ahead of 31 May offer expiry deadline",
+  "zac_income_intro": "£86,961 gross / £45,222 net annually at £441/night and 54% occupancy; against long-let of £16,800/year — annual uplift +£30,102 (+199% vs LTL net)",
+  "zac_transition_phrases": [
+    "Low competition market analysis — competitors averaging 24 reviews and 4.7 rating"
+  ],
+  "zac_reassurance_phrases": [
+    "£200 security deposit per guest, ID checks for all guests, £100,000 insurance, 1–3 annual inspections",
+    "30–40% direct bookings from trusted repeat guests",
+    "Monthly income and maintenance reports via dedicated Slack channel",
+    "Partner's maintenance team can be used subject to meeting Stayful's requirements; payments up to £300/month deductible from monthly statements"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "£1,390/month",
+  "str_net_monthly": "~£3,769",
+  "ltl_monthly": "~£1,260"
+}

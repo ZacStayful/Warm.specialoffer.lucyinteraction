@@ -1,0 +1,68 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "038",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-22",
+  "transcript_quality": "none — no Granola summary available; no call recording on file",
+  "lead_name": "Isobel Cameron-Heslop",
+  "email": "cameronheslop@gmail.com",
+  "monday_id": "",
+  "granola_meeting_id": "dd8eb2de-92cc-4022-9fa2-221c2a310382",
+  "address": "Ground floor terrace flat, Hull city centre (exact address not captured)",
+  "bedrooms": 0,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "EX-STL — With Residential Estates/Guests for 2 years. Active dissatisfaction: toilet leak left unaddressed caused £1,600 damage (wiped out entire month's earnings); fridge-freezer breakdown during 3-month relocation booking nearly caused cancellation; 4G Wi-Fi causing connectivity complaints and lost Amazon relocation client with negative reviews; property listed hotel-style with shared reviews and photos used to promote other units. Current occupancy 57% vs 71% market. Ground floor terrace (uncommon in Hull city centre); parking at £63/month.",
+  "emotional_profile": "Engaged and detail-oriented. Measures manager on operational reliability, not revenue. Reference points for failure are the £1,600 toilet leak and lost Amazon relocation client. Close to switching — avoid overcomplicating the close.",
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "2026-05-31",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "Deciding over long weekend; responding next week",
+  "has_delay": false,
+  "green_light_types": ["GL-MGMT"],
+  "green_light_trigger_phrases": ["been with Residential Estates/Guests for 2 years and is actively dissatisfied", "clearly close to switching"],
+  "has_green_light": true,
+  "entry_class": "READY_NOW",
+  "top_objections": [
+    {"text": "None explicitly raised — lead was receptive throughout the meeting", "zac_response": "", "resolved": true}
+  ],
+  "top_questions": [
+    {"text": "How does the transition to a new manager work?", "answer": "1-month notice to current company; Stayful creates a new individual listing — no shared hotel-style listing; fibre broadband installation already in progress via LSH managing the building"}
+  ],
+  "what_moved_them": [
+    "Individual property listings vs hotel-style listing — directly addressed core pain point",
+    "No markup on contractors/cleaning — addressed revenue leakage concern",
+    "Hull market analysis: low competition, avg 4.7 rating, avg 19 reviews; strong demand from hospital, university, transport links"
+  ],
+  "what_fell_flat": [
+    "Revenue upside projections — she considers herself already broadly in line with Stayful estimates; revenue is not her primary driver"
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Personal consideration time over long weekend — no structural blocker identified",
+      "category": "timing",
+      "how_to_fill": "Direct comparison showing Stayful individual listing vs Residential Estates/Guests hotel-style listing; Hull-specific social proof on individual property reviews"
+    }
+  ],
+  "offer_framing": "13%+VAT reduced from 15%; expires 31 May 2026. Contract: 6-month minimum, 3-month notice, no onboarding cost.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "Isobel deciding over the long weekend; will respond next week",
+  "zac_income_intro": "£31k gross / £29k net projected; current occupancy 57% vs 71% market — gap attributable to listing quality and connectivity issues",
+  "zac_transition_phrases": [
+    "Hull: low competition area, avg 4.7 rating, avg 19 reviews — strong demand from hospital, university, transport"
+  ],
+  "zac_reassurance_phrases": [
+    "Fibre broadband installation in progress via LSH managing the building — connectivity issue resolves regardless of manager switch",
+    "Individual listing — every review attached to your specific property, not a shared hotel-style listing"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "~£2,417",
+  "ltl_monthly": ""
+}

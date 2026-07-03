@@ -1,0 +1,59 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "037",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-07",
+  "transcript_quality": "none — meeting incomplete; no Granola summary generated; transcript unavailable",
+  "lead_name": "Jack Mitchell",
+  "email": "jacksrmitchell@live.co.uk",
+  "monday_id": "11928280535",
+  "granola_meeting_id": "fa2097b3-f9bc-4fe4-8d69-f4b5d378306f",
+  "address": "64 Duncary Road, Bristol BS3 4LA",
+  "bedrooms": 3,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "STL Switch. 3-bed house, 64 Duncary Road, Bristol BS3 4LA. Owner-occupier; mortgage status unconfirmed — call cut short. Management agreement already attached to Monday item prior to meeting. Lead received Stayful income analysis ahead of call. Meeting aborted before substantive stage due to repeated connection failures. Treat as first-contact situation.",
+  "emotional_profile": "Intent genuine — signed up and attended promptly. Meeting never reached substance. No emotional read available.",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "",
+  "has_delay": false,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "NURTURE",
+  "top_objections": [
+    {"text": "None captured — meeting cut off before objections stage", "zac_response": "", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "None captured — meeting incomplete", "answer": ""}
+  ],
+  "what_moved_them": [],
+  "what_fell_flat": [
+    "Repeated connection failures prevented any substantive meeting content"
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Meeting never reached a substantive stage — treat as first contact",
+      "category": "meeting_completion",
+      "how_to_fill": "Rebook and lead with the LTL vs STR gap (£14,224 LTL vs £34,388 STR net) — compelling case requiring no hard sell; BS3 is excellent postcode for STR"
+    }
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "~£2,866",
+  "ltl_monthly": "~£1,185"
+}

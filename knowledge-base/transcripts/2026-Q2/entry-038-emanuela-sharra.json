@@ -1,0 +1,74 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "038",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-22",
+  "transcript_quality": "none — Granola summary not recorded for this meeting; no transcript available",
+  "lead_name": "Emanuela Sharra",
+  "email": "contact@vellaukproperties.co.uk",
+  "monday_id": "11996414192",
+  "granola_meeting_id": "36073576-3b85-4723-8e0d-10c76857b798",
+  "address": "25 Park Road Mansfield Woodhouse, Mansfield, NG19 8EF (current property — analysis area only; lead intends to purchase a separate property for STL)",
+  "bedrooms": 3,
+  "profile_type": "PURCH",
+  "lead_profile_text": "PURCH — Director of Vella UK Properties (vellaukproperties.co.uk). Looking to purchase a separate property specifically for STL operation from day one. Existing property at NG19 8EF is not intended for STL. Purchase timeline and target property not confirmed. Professional property background — portfolio thinker, higher due diligence bar than a typical landlord.",
+  "emotional_profile": "Professional and analytical. Engaged with pre-qual (income figures landed positively). Flagged cost understanding, pricing control, and damage/theft as concerns. Medium-pace decision-maker (~5 weeks from initial contact to meeting).",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": ["DLY-PUR"],
+  "delay_trigger_phrases": ["purchase a separate property specifically for short-term letting", "purchase timeline and target property not confirmed"],
+  "delay_timeline": "Unknown — purchase property not yet identified; follow-up date 29 June 2026",
+  "has_delay": true,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "DELAYED",
+  "top_objections": [
+    {"text": "I'd like more control over pricing", "zac_response": "", "resolved": false},
+    {"text": "Main concern: Understanding all the costs", "zac_response": "", "resolved": false},
+    {"text": "Biggest worry about guests: Damage or theft", "zac_response": "", "resolved": false}
+  ],
+  "top_questions": [
+    {"text": "What influence does the owner retain over nightly rates within Stayful's management model?", "answer": ""},
+    {"text": "What is the guest verification and damage protection process?", "answer": ""}
+  ],
+  "what_moved_them": [
+    "Income figures landed positively — pre-qual response: 'Income picture: Yes — more confident now'"
+  ],
+  "what_fell_flat": [
+    "Granola summary unavailable — cannot confirm what resonated or fell flat in the meeting itself"
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Purchase property has not yet been identified — cannot sign management agreement until property is known",
+      "category": "purchase_dependency",
+      "how_to_fill": "Stay in contact through purchase process; run fresh Deal Analyser on new postcode as soon as property is identified — this is the closing tool, not the current NG19 8EF figures"
+    },
+    {
+      "gap": "Pricing control concern — she wants involvement in pricing decisions",
+      "category": "control_objection",
+      "how_to_fill": "Explicitly explain what pricing influence owner retains; frame dynamic pricing as optimised yield management on her behalf rather than surrendered control"
+    },
+    {
+      "gap": "Damage and theft concern unresolved",
+      "category": "risk_objection",
+      "how_to_fill": "Provide specifics: guest verification process, damage deposit policy, insurance partnership"
+    }
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "",
+  "zac_income_intro": "NG19 8EF area analysis: £25,008 gross / £13,005 net annually; £154/night ADR; 45% occupancy; vs £7,722/year long-let equivalent (illustrative — not the target purchase property)",
+  "zac_transition_phrases": [],
+  "zac_reassurance_phrases": [],
+  "zac_analogies": [],
+  "meeting_duration_mins": 30,
+  "rent_mortgage": "£400/month",
+  "str_net_monthly": "~£1,084",
+  "ltl_monthly": "~£644"
+}

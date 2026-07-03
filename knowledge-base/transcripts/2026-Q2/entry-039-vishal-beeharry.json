@@ -1,0 +1,75 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "039",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-06-12",
+  "transcript_quality": "partial — Granola meeting summary available; full transcript unavailable",
+  "lead_name": "Vishal Beeharry",
+  "email": "vishalbeeharry001@gmail.com",
+  "monday_id": "",
+  "granola_meeting_id": "457f52ec-5ccf-490e-8d47-781469476d49",
+  "address": "2-bed house, Warwick (exact postcode not captured)",
+  "bedrooms": 2,
+  "profile_type": "R2R",
+  "lead_profile_text": "R2R — Rent-to-Rent SA via Touchstone Education programme. New property investor. Targeting Warwick 2-bed: king bedroom + small double, 1 bathroom, unfurnished, near-new carpet. Owners in France (non-resident), happy to allow SA without AST. Tenants vacating end of June 2026. Viewing booked Tuesday 16 June. Third-room (dining room) conversion to bedroom discussed. Previously rejected London (90-day/licensing risk), Cambridge, and Cardiff (figures didn't stack). NOTE: All prior R2R entries (021, 024, 031, 035) resulted in Lost — margin viability after rent + bills + management fee is the historical pattern failure.",
+  "emotional_profile": "Detail-oriented property investor educated via Touchstone. Sceptical of unverified deal-source figures — credibility and accuracy build more trust than salesmanship. Fast mover — decision expected within the week; follow-up call booked.",
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "Decision expected within the week; follow-up call Wed 17 June 2026 at 1:00 PM",
+  "has_delay": false,
+  "green_light_types": [],
+  "green_light_trigger_phrases": [],
+  "has_green_light": false,
+  "entry_class": "NURTURE",
+  "top_objections": [
+    {"text": "Figures from deal sources felt unverified", "zac_response": "Walked through actual local comp data (1.5km radius, real properties) to address directly", "resolved": true},
+    {"text": "Licensing/planning concern — potential material change of use or HMO implications for third bedroom", "zac_response": "Not a material change of use; council tax can be switched to business rates (~1 year process, likely zero-rated)", "resolved": true}
+  ],
+  "top_questions": [
+    {"text": "What is the viable STL revenue for this Warwick 2-bed?", "answer": "~£2,100/month net average from 1.5km radius comps; best performer in area ~£46k gross/year; expect ~20% below average until reviews build"},
+    {"text": "Is converting the dining room to a third bedroom permissible?", "answer": "Not a material change of use; council tax can be switched to business rates; recommend conversion if rooms are large enough, else games room with sofa bed"}
+  ],
+  "what_moved_them": [
+    "Zac walking through actual local comp data (1.5km radius, real properties) — directly addressed the unverified-figures concern",
+    "HS2/M4 Junction 15 contractor demand angle (~12 min drive)",
+    "Hospital and ~2,000 local events/year as demand drivers"
+  ],
+  "what_fell_flat": [
+    "Nothing flagged — engagement was on data credibility, not product fit"
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "R2R rent cost to owners not confirmed — deal viability entirely unknown until rent is established",
+      "category": "margin_viability",
+      "how_to_fill": "Confirm rent before Jun 17 follow-up; if rent exceeds ~£1,200/month, surplus after £500 bills + management is negligible — say so clearly rather than letting deal drag (all 4 prior R2R entries Lost for this reason)"
+    },
+    {
+      "gap": "Furnishing quote outstanding — Zac to provide once deal sheet and AI photos received from Vishal",
+      "category": "cost_clarity",
+      "how_to_fill": "Obtain deal sheet and AI-generated furnished photos; produce furnishing quote for Jun 17 call"
+    }
+  ],
+  "offer_framing": "",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "Zac to send summary email, net figures, action plan, and management agreement same day; follow-up call Wed 17 June at 1:00 PM",
+  "zac_income_intro": "~£2,100/month net average from 1.5km radius comps; best performer in area ~£46k gross/year; expect ~20% below average until reviews build",
+  "zac_transition_phrases": [
+    "HS2/M4 Junction 15 contractor demand — ~12 min drive"
+  ],
+  "zac_reassurance_phrases": [
+    "Not a material change of use for third bedroom conversion",
+    "Council tax can be switched to business rates (~1 year process, likely zero-rated)"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "~£2,100",
+  "ltl_monthly": ""
+}

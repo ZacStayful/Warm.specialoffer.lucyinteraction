@@ -1,0 +1,82 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "039",
+  "quarter": "2026-Q2",
+  "meeting_date": "2026-05-18",
+  "transcript_quality": "partial — Granola meeting summary available; full transcript unavailable",
+  "lead_name": "Julia Norman",
+  "email": "julia@jfnconsulting.co.uk",
+  "monday_id": "12033503765",
+  "granola_meeting_id": "104b27cf-6aee-4d76-9c91-41a3870ad7b2",
+  "address": "3-bed house, Huddersfield, HD (exact postcode not captured)",
+  "bedrooms": 3,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "STL Switch — Second Home / Personal Use. 3-bed house, Huddersfield. Completely unfurnished but move-in ready: new kitchen, decent carpets and decoration, small tidy rear garden needing outdoor furniture. Sleeps 6 without sofa bed. Property currently vacant. Julia's goal: rental income while retaining ~1 week/month personal use throughout winter (6 months) plus occasional summer days. Income target ~£15,000/year net — equivalent to a traditional long-let. Mortgage position unconfirmed.",
+  "emotional_profile": "Pragmatic and income-focused but motivated by personal use control. Not a yield-maximiser — wants to match LTL equivalent while retaining calendar access. Conservative £15k target already comfortably exceeded by £20,500 net projection.",
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13%+VAT",
+  "offer_expiry": "2026-05-31",
+  "offer_accepted_at_meeting": false,
+  "delay_types": [],
+  "delay_trigger_phrases": [],
+  "delay_timeline": "Follow-up call 22 May 2026; wants to launch June 2026 to catch peak season",
+  "has_delay": false,
+  "green_light_types": ["GL-TIME"],
+  "green_light_trigger_phrases": ["property is currently vacant", "June would be ideal to get started", "unfurnished but move-in ready"],
+  "has_green_light": true,
+  "entry_class": "READY_NOW",
+  "top_objections": [
+    {"text": "How does personal use blocking work in practice?", "zac_response": "Calendar control via Stayful calendar and Slack; dates blocked in advance; cleaning costs apply to personal use turnovers", "resolved": true},
+    {"text": "The market seems quite competitive already", "zac_response": "Competitive market acknowledged; comparable properties averaging 4.7–4.8 ratings across 138+ reviews; year 1 ramp-up expected", "resolved": false},
+    {"text": "Cost of getting the unfurnished property ready", "zac_response": "Furnishing/setup quote to be sent by Zac after the meeting", "resolved": false},
+    {"text": "Year 1 ramp-up — how long before projections are reached?", "zac_response": "Ramp-up acknowledged in projections; typical year 1 performance", "resolved": false},
+    {"text": "Maintenance process while guests are present", "zac_response": "Maintenance coordination fully handled by Stayful", "resolved": true}
+  ],
+  "top_questions": [
+    {"text": "What day-to-day management does Julia remain responsible for?", "answer": "Guest communication, dynamic pricing, maintenance coordination, cleaning, and multi-platform listing all handled by Stayful; Julia retains calendar control only"},
+    {"text": "How does personal use blocking work?", "answer": "Dates blocked via Stayful calendar and Slack; recommend avoiding June, July, August (peak); recommended personal use months: February, November, January"}
+  ],
+  "what_moved_them": [
+    "Net income projection of £20,500 significantly exceeds her £15,000 target — visibly moved the conversation",
+    "Personal use flexibility — she retains full calendar control",
+    "Dedicated Slack channel and monthly statement process gave practical confidence",
+    "Pets welcome and flexible cancellation noted positively (revenue boosters)",
+    "June peak season launch timing created genuine urgency"
+  ],
+  "what_fell_flat": [
+    "Market competitiveness concern not fully resolved — Huddersfield has established well-reviewed properties with 138+ reviews"
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Furnishing/setup quote outstanding — property is unfurnished; practical barrier until cost and timeline are known",
+      "category": "setup_cost",
+      "how_to_fill": "Send furnishing quote before or at the 22 May follow-up call; concrete cost and timeline will remove the main practical barrier"
+    },
+    {
+      "gap": "Mortgage position unconfirmed — potential lender restriction on STL use",
+      "category": "mortgage_restriction",
+      "how_to_fill": "Clarify on 22 May follow-up call to ensure no lender restrictions on STL use"
+    }
+  ],
+  "offer_framing": "13%+VAT reduced from standard 18%; expires 31 May 2026. Positioned against June peak season launch window — urgency is genuine given the seasonal timing.",
+  "zac_opening_phrase": "",
+  "zac_close_phrase": "Follow-up call Friday 22 May 2026 at 10:15am via Google Meet; Zac to send pricing analysis, furnishing/setup quote, contract terms, and account reviews/case studies",
+  "zac_income_intro": "£39,000 gross annually, £20,500 net after platform fees, cleaning, and management — comfortably exceeds your £15,000 target even with personal use months factored in",
+  "zac_transition_phrases": [
+    "Best months are June, July, and August — recommend avoiding personal use during peak",
+    "Recommended personal use months: February, November, January (low demand)"
+  ],
+  "zac_reassurance_phrases": [
+    "You retain full calendar control",
+    "Dedicated Slack channel and monthly statements",
+    "Pets welcome and flexible cancellation — revenue boosters"
+  ],
+  "zac_analogies": [],
+  "meeting_duration_mins": 0,
+  "rent_mortgage": "",
+  "str_net_monthly": "~£1,708",
+  "ltl_monthly": "~£1,250"
+}
