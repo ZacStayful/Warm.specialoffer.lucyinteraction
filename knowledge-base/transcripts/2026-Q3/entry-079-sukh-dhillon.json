@@ -1,0 +1,271 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "079",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-07-31",
+  "transcript_quality": "full",
+  "lead_name": "Sukh Dhillon",
+  "email": "sukhramdhillon@hotmail.co.uk",
+  "monday_id": "12589090686",
+  "address": "King William Street ST66EQ",
+  "bedrooms": 2,
+  "profile_type": "PURCH",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "certainty-seeker",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "",
+  "language_signals": [],
+  "portfolio_flag": false,
+  "outcome": "Abandoned",
+  "lost_reason": "Decided to long let property",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-PUR",
+      "trigger_phrase": "I'm completing on that week or two should be done going through final completion documents.",
+      "context": "Opening of the call, describing where he is in the property purchase process — still finalising completion paperwork, not yet legally completed.",
+      "timeline_given": "1-2 weeks",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-FUR",
+      "trigger_phrase": "Yes.",
+      "context": "Near the end of the call Zac asks 'I'm assuming this property's been bought without any furniture or anything, is that right?' and Sukh confirms it is completely unfurnished, triggering a £4,000-£6,000 fit-out cost discussion.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "Not currently going. Probably the best thing for another meeting now.",
+      "context": "Closing moment — lead declines to commit on the call and proposes a second meeting instead, with no date or time agreed.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "I'd rather get guaranteed income and work with individual or team to manage that.",
+      "context": "Describing what he wants from the outset — full hands-off management rather than self-management, which is exactly Stayful's offering.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "I'm completing on that week or two should be done going through final completion documents.",
+      "context": "Gives a concrete, near-term (1-2 week) timeline for when the property becomes available to onboard, rather than an open-ended or distant date.",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": ""
+  },
+  "meeting_flow": {
+    "opening_phrase": "Hi, Sukha. How you doing?",
+    "rapport_topics": ["brief how-are-you check-in only, no substantive small talk"],
+    "pivot_to_business": "I thought I'd start just by understanding a bit more about your sort of current situation and situation with the property.",
+    "income_intro": "we can go through some short-term let figures for you, and then we can go through some bits about our service then, see if it sort of lines up with what you're looking for",
+    "post_income_silence": "",
+    "how_it_works_transition": "So we have a rolling agreement, or we can have a fixed term agreement. The main difference is the rolling agreement is an upfront cost of 400 pound plus VAT. If you're wanting a fixed term, we do a six month fixed term, but then there's no upfront cost with that.",
+    "pre_close_setup": "Just going into a bit more on the property, I'm assuming this property's been bought without any furniture or anything. Is that right?",
+    "close_phrase": "Yeah, that's fine. Is there any questions around the service or is it just about the.",
+    "meeting_2_ask": "Not currently going. Probably the best thing for another meeting now. (lead-initiated, no date/time set)",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 77
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "what I'm looking to do is just maximize my rent and get [rent] guarantee... I'd rather get guaranteed income and work with individual or team to manage that",
+      "category": "goal_expectation",
+      "meeting_phase": "opening",
+      "zac_responded_with": "So you're looking for Airbnb management of that, of the property? Is that right? To get the most return?",
+      "lead_follow_up": "I don't mind if it's airbnb... I get paid each month [regardless of] what's being treated as [ ] with Airbnb or whatever you want to call.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "I've had a look at you. The marketing 850. Some after up to a thousand guaranteed. So that's where I'm at, really.",
+      "category": "objection",
+      "meeting_phase": "early income discussion",
+      "zac_responded_with": "we don't offer any sort of guaranteed returns... that's just the nature of the industry... net revenue per year of around 19,000 pounds, about 1500, 1600 pound per month",
+      "lead_follow_up": "It's a huge interest in the area from the Airbnb.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "A rolling contract month on month or is it. How much I did.",
+      "category": "contract_terms_question",
+      "meeting_phase": "mid meeting",
+      "zac_responded_with": "So we have a rolling agreement, or we can have a fixed term agreement. The main difference is the rolling agreement is an upfront cost of 400 pound plus VAT... six month fixed term, no upfront cost",
+      "lead_follow_up": "You could offer me rent for three months and then there could be no bookings three months and I'll be left with nothing.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "You could offer me rent for three months and then there could be no bookings three months and I'll be left with nothing.",
+      "category": "objection",
+      "meeting_phase": "mid meeting",
+      "zac_responded_with": "I've never had a situation where someone went three months and had nothing at all.",
+      "lead_follow_up": "What's the word? What's the worst figure that you can get him on, roughly?",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "what bills would I have to pay? Because other [buildings] included in your cost is in my [court]",
+      "category": "cost_clarification",
+      "meeting_phase": "mid meeting",
+      "zac_responded_with": "you have to pay all the bills. So, like electric water, Wi-Fi council tax, things like that.",
+      "lead_follow_up": "They could use it quite long, and I'll be, like, I'll be stuck without [control].",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "What's your direct line to call you? Could you drop me your number?",
+      "category": "trust_building",
+      "meeting_phase": "late meeting",
+      "zac_responded_with": "I'll send it to you in an email after. So you've got everything on one email.",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Let me have a thing. So all of a thing cannot be introduced.",
+      "category": "decision_deferral",
+      "meeting_phase": "closing",
+      "zac_responded_with": "Yeah, that's fine. Is there any questions around the service or is it just about the.",
+      "lead_follow_up": "Not currently going. Probably the best thing for another meeting now.",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "No itemised furnishing quote given — only a £4,000-£6,000 range for an unfurnished 2-bed, despite the lead completing within 1-2 weeks and needing a concrete fit-out cost decision immediately.",
+      "category": "pricing_quote",
+      "evidence": "Probably looking in the region as sort of four to six thousand pounds, I'd say, to do that.",
+      "how_to_fill": "Generate the itemised setup quote before next contact (ref reserved SQ-2026-079 per intelligence doc, not yet generated) so the fit-out decision can be made alongside completion.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "No second meeting booked — lead proposed 'another meeting' but no date/time was captured or sent via Calendly.",
+      "category": "booking_followup",
+      "evidence": "Not currently going. Probably the best thing for another meeting now.",
+      "how_to_fill": "Propose specific meeting slots within 48 hours, before the 1-2 week completion window closes and the furnishing decision has to be made without Stayful.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Guaranteed-rent expectation never fully reconciled — lead's opening framing ('maximise rent and get guaranteed income') was answered with a flat no-guarantee disclaimer rather than a direct guaranteed-vs-maximise comparison, and the contradiction was never explicitly resolved in his favour.",
+      "category": "objection_positioning",
+      "evidence": "I'd rather get guaranteed income and work with individual or team to manage that.",
+      "how_to_fill": "Directly address the 'guaranteed vs maximise' contradiction early with a side-by-side floor comparison (LTL guaranteed £640/mo vs STL worst-month £931/best-average £1,577) so the guarantee-seeking need is met with real numbers, not just a disclaimer.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Phone number not given verbally when the lead explicitly asked for it, deferred to a later email instead.",
+      "category": "rapport_access",
+      "evidence": "What's your direct line to call you? Could you drop me your number? / I'll send it to you in an email after.",
+      "how_to_fill": "Give the direct number verbally in the moment, or follow up by text within the hour rather than folding it into a later email.",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Framing the seasonal worst-case (January net ~£900-£1,000) as already matching or beating the guaranteed-rent figures he had seen elsewhere (£850-£1,000).",
+      "lead_response": "Make sense? You know, I'll thank you. What's your direct line to call you?",
+      "phase": "mid-to-late meeting",
+      "archetype_relevant": ["certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Smart thermostat offered as a remote cost-control answer to his bills/utility-cost worry.",
+      "lead_response": "Moved on from the bills objection to asking about the peak-month upside rather than pressing further.",
+      "phase": "mid meeting",
+      "archetype_relevant": ["certainty-seeker", "analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Being given an open choice of rolling vs fixed-term contract rather than being pushed toward the longer commitment.",
+      "lead_response": "Engaged further with a detailed void-period question rather than disengaging.",
+      "phase": "mid meeting",
+      "archetype_relevant": ["certainty-seeker"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Zac's first answer to the guaranteed-rent question was a flat 'we don't offer guaranteed returns' before any reassuring data was given.",
+      "lead_response": "Continued pressing indirectly, later raising the three-month-void-period fear.",
+      "recovery_attempted": "Zac followed up immediately with average/best/worst-case figures.",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Lead's void-period fear ('three months and no bookings, left with nothing') was first met with a personal-experience reassurance ('I've never had that') rather than data.",
+      "lead_response": "Pressed further, asking directly for 'the worst figure' rather than accepting the anecdotal reassurance.",
+      "recovery_attempted": "Zac supplied the January worst-case net figure (~£900-£1,000).",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "Bills responsibility (electric, water, Wi-Fi, council tax all owner-paid) came as new information, and the lead worried a guest could run up utility costs with no control from 45 miles away.",
+      "lead_response": "Pushed further on unpredictable costs (electric vehicle charging etc.).",
+      "recovery_attempted": "Smart thermostat + remote-control framing offered.",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "Hi, Sukha. How you doing?",
+      "I thought I'd start just by understanding a bit more about your sort of current situation and situation with the property."
+    ],
+    "transition_phrases": [
+      "we can go through some short-term let figures for you, and then we can go through some bits about our service then, see if it sort of lines up with what you're looking for",
+      "Just going into a bit more on the property, I'm assuming this property's been bought without any furniture or anything."
+    ],
+    "reassurance_phrases": [
+      "I've never had a situation where someone went three months and had nothing at all.",
+      "you're never in the position you was saying earlier with those costs in mind where you're not making anything at all or losing money"
+    ],
+    "emphasis_phrases": [
+      "net revenue per year of around 19,000 pounds, about 1500, 1600 pound per month",
+      "between 900 and a thousand pound of net revenue [in January]",
+      "we could probably get to where we're at the top of the market in maybe sort of six to nine months"
+    ],
+    "analogies_used": [],
+    "numbers_framing": "Leads with the average/expected net figure first (~£19k/yr, £1,500-1,600/mo), then anchors the floor (January worst-case ~£900-£1,000) directly against the lead's own guaranteed-rent competitor figure (£850-£1,000), then closes with the ceiling (August ~£2,200-£2,300) — average, then floor, then ceiling.",
+    "objection_handling_pattern": "On the guaranteed-income objection: states plainly that Stayful doesn't guarantee returns and frames it as an industry norm, then immediately pivots to average/best/worst-case data rather than debating the principle. On the void-period objection: leads with personal track record ('I've never had that') before backing it with the actual worst-case number."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "PURCH",
+    "emotional_profile": "certainty-seeker",
+    "what_they_focused_on": [
+      "guaranteed/reliable monthly payout",
+      "worst-case/floor income figure",
+      "who pays which bills",
+      "contract commitment length and void-period risk",
+      "furnishing cost as an immediate cash decision"
+    ],
+    "what_they_needed_most": [
+      "a concrete worst-case number that beats the guaranteed-rent marketing he'd already seen",
+      "reassurance he wouldn't need to be operationally involved from 45 miles away",
+      "an itemised (not ranged) furnishing cost given completion is 1-2 weeks out"
+    ],
+    "what_fell_flat": [
+      "the direct 'we don't guarantee returns' answer, given before any supporting data, landed as a rejection of what he'd come in wanting",
+      "being told his direct phone number would come 'in an email after' rather than given there and then"
+    ],
+    "recommended_meeting_adjustment": "For PURCH leads who open with a guaranteed-rent anchor, lead with the worst-case/floor figure before restating that Stayful doesn't guarantee returns — the floor number does the reassurance work the disclaimer alone can't, avoiding the early friction seen here. Also produce the itemised furnishing quote inside the call (or same-day) rather than a range, since this profile is often mid-completion with fit-out cash decisions due immediately."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
