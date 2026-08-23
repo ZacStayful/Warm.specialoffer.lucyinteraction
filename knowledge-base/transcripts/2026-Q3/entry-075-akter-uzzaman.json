@@ -1,0 +1,235 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "075",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-07-27",
+  "transcript_quality": "full",
+  "lead_name": "Akter Uzzaman",
+  "email": "akterims@yahoo.com",
+  "monday_id": "12448549230",
+  "address": "42 Bridgegate Drive, Hull, HU9 1SY",
+  "bedrooms": 3,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "loss-averse-switcher",
+  "conversion_likelihood": 95,
+  "profile_confidence": "high",
+  "primary_blocker": "",
+  "language_signals": [
+    "The trust is the main thing for me.",
+    "I just want to take a risk on not going to the traditional rental market.",
+    "I don't want to take the [risk]... they are all rubbish (re: long-let horror stories).",
+    "As long as it comes around 50k mark net I don't mind how much you take like 15%."
+  ],
+  "portfolio_flag": true,
+  "outcome": "Customer",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-TEN",
+      "trigger_phrase": "So they're going back to their country. On 2nd of September.",
+      "context": "Existing tenants (a Turkish couple, originally placed via letting agency WH Brown, self-managed by Akter since year one) still occupy the property and are only vacating on 2 September, so the property is not immediately available for STR handover.",
+      "timeline_given": "Tenants leave 2nd September 2026; target go-live mid-September 2026",
+      "resolved_in_meeting": true
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "So I will I'll talk to the... these are called from wh brown their letting agency no I'm gonna go ahead with airbnb okay.",
+      "context": "Akter explicitly decided mid-call to reject renewing with his existing letting agency (WH Brown) and commit to Stayful instead.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "In fact after one year I get rid of the letting agent. I said I will manage myself because they don't have to do anything.",
+      "context": "Akter is sole decision-maker for the property (self-managed for the past year, director of his own limited company), with no third party needed to approve switching to Stayful.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "2nd of September there will be moving out... do you think you can get it ready by September.",
+      "context": "Clear near-term availability date, with the outgoing tenants leaving most of their furniture behind, removing the usual furniture-sourcing delay and giving a concrete go-live target of mid-September.",
+      "strength": "strong"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": ""
+  },
+  "meeting_flow": {
+    "opening_phrase": "All right. How you doing? All right, actor. How you doing?",
+    "rapport_topics": [
+      "Where each of them is currently based (Zac in Leicestershire, Akter having moved to Chelmsford)",
+      "Reason Akter moved away from Hull (family / kids' education)"
+    ],
+    "pivot_to_business": "Well, thanks for coming on. I thought I'd just start by understanding a bit more about sort of your current situation... short letting. And then we can go through the income projections and go to our service, see if it lines up with what you're looking for.",
+    "income_intro": "So this is the income that we've managed to do for the property. We're looking at a net revenue... of around 20,500 per year. About 1,700 pounds per month. That's based on occupancy rate of about 60 and 180 pound nightly rate.",
+    "post_income_silence": "None — Akter responded immediately with a clarifying question ('Based on my property or is it just in general?'), showing active engagement rather than a pause.",
+    "how_it_works_transition": "I mean, really, we deal with everything to do with short letting the property. So listing your multiple platforms, dynamic pricing... check in and screening guests to make sure that I'm not letting bad guests into the property... boils down into three different bits of software.",
+    "pre_close_setup": "All right, actor, I'll send a bit of a summary of what we've spoken about on an email into, like, with an action plan. I'll send our management agreement over. She have a read of some of the terms. If you want to send me back some photos, we could put a bit of a plan together on how we're going to manage the transition.",
+    "close_phrase": "All right. I'll send everything over to you now then. Actually, the next sort of 20 minutes or so.",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 35
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "Based on my property or is it just in general? ... Is it cross or net this figure?",
+      "category": "clarifying_question",
+      "meeting_phase": "income_presentation",
+      "zac_responded_with": "This is based off of your property... That's net. Let's figure.",
+      "lead_follow_up": "Okay that's absolutely fine.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Do I need any sort of special permission or anything from council? ... Is there any other compliance issues you find when you do the Airbnb.",
+      "category": "compliance_objection",
+      "meeting_phase": "income_presentation",
+      "zac_responded_with": "No, not in Hull. If you was within London, there are compliance rules. But there's nothing really concrete at the moment... basic fire safety, smoke, gas safety.",
+      "lead_follow_up": "Yeah that's usually what you do every year isn't it? ... this is this is how to anyway whether it's tenant or shortlet or whatever.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "How long have you been doing this, are you established business? ... I think it was pass the keys we heard about pass the keys.",
+      "category": "credibility_objection",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "I've done this for six years now... about 20 places that we've managed now... I know Pass the Keys, they operate on a franchise model... they're quite a big operator.",
+      "lead_follow_up": "Yeah.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "What's the commission model with you, is it based on percentage or is it based on monthly?",
+      "category": "pricing_question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "It's 15 plus vat of the gross bookings that come in... after Airbnb/booking.com take their commission, then we'll take our commission, which is 15 as well, plus vat.",
+      "lead_follow_up": "As long as it comes around 50k mark net I don't mind how much you take like 15% it because you are responsible for bringing in the short term.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Do you think you can get it live before... end of September because they will be leaving by second so do you think it will be you will have enough time.",
+      "category": "timeline_concern",
+      "meeting_phase": "close",
+      "zac_responded_with": "It would definitely be within September... middle of September, probably latest, we could probably go live.",
+      "lead_follow_up": "I think I think you can get ready by September. I just want to take a risk on not going to the traditional rental market.",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Bedroom count was never confirmed verbally on the call and conflicts with the Monday CRM record.",
+      "category": "data_accuracy",
+      "evidence": "The transcript never states an explicit bedroom count for 42 Bridgegate Drive; the Monday board field text5 shows '3 bedroom', while the source intelligence document flags a discrepancy against meeting notes suggesting 2 bed, 'needs reconciling'.",
+      "how_to_fill": "Confirm bedroom count directly from the tenant's video tour / photos already promised, or ask Akter directly, and update the Monday record.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "No specific date/time was locked in for the property inspection or WhatsApp photo/video hand-off.",
+      "category": "next_steps_definition",
+      "evidence": "Zac: 'I'll send you an email after this call... send us to them then on WhatsApp.' Akter: 'if you can do ask me to do the next step when you're gonna send some of your representative then I can talk to my tenant' — no concrete date or time was set.",
+      "how_to_fill": "Pin a specific inspection/visit date before ending the call rather than leaving it open-ended and dependent on Akter's follow-up.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Current/previous rent figure is inconsistent between what the lead stated verbally and the Monday CRM record.",
+      "category": "data_accuracy",
+      "evidence": "Akter states verbally: 'at the moment I'm getting around 900 pounds... could rent it to 1,000 pounds maybe' (long-term rent), while Monday column text_mm26pf4c (rent/mortgage) shows '600'.",
+      "how_to_fill": "Update the Monday rent/mortgage field with the verified £900/month figure from the call before it feeds any future materials.",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Akter unprompted volunteering his friend's cannabis-cultivation horror story (two properties used to grow cannabis, police involvement, significant damage, 3-month void) while explaining why long-term letting now feels too risky.",
+      "lead_response": "So he had two times in two properties so I think he sold one of his property now... I don't want to take the [risk]... they are all rubbish.",
+      "phase": "objection_handling / late meeting",
+      "archetype_relevant": ["loss-averse-switcher", "betrayal-damaged"]
+    },
+    {
+      "what_caused_shift": "Zac framing the low local competition (35 reviews average, 4.9 rating) and a realistic path to a top-10 listing within about six months.",
+      "lead_response": "Yeah expected. Okay.",
+      "phase": "income_presentation",
+      "archetype_relevant": ["analytical-evaluator", "fast-path-gain-focused"]
+    },
+    {
+      "what_caused_shift": "Zac confirming the outgoing tenant's furniture and video tour would likely be sufficient, meaning no new furniture purchase or long setup delay.",
+      "lead_response": "I think I think you can get ready by September. I just want to take a risk on not going to the traditional rental market.",
+      "phase": "close",
+      "archetype_relevant": ["fast-path-gain-focused", "certainty-seeker"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Initial ambiguity over whether the quoted income figures (£20,500/yr net) were generic marketing numbers or specific to Akter's own property.",
+      "lead_response": "Based on my property or is it just in general?",
+      "recovery_attempted": "Zac immediately clarified: 'This is based off of your property... I based off of 42 Bridgegate Drive.'",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "All right. How you doing?",
+      "Well, thanks for coming on. I thought I'd just start by understanding a bit more about sort of your current situation."
+    ],
+    "transition_phrases": [
+      "Just to go into a bit more detail in the figures.",
+      "I mean, really, we deal with everything to do with short letting the property.",
+      "I mean, really, our steps now would be..."
+    ],
+    "reassurance_phrases": [
+      "Yeah, yeah, I understand.",
+      "No, not in Hull... nothing to stop you short-letting the property.",
+      "It would definitely be within September."
+    ],
+    "emphasis_phrases": [
+      "This is based off of your property.",
+      "That's net.",
+      "We show are always net of those costs anyway.",
+      "Our management fee's attached to it as well... we know if we're missing the mark."
+    ],
+    "analogies_used": [],
+    "numbers_framing": "Zac anchors every figure as net-of-fees (net revenue ~£20,500/yr, ~£1,700/month, worst month £1,300-£1,400, best month £1,900-£2,000), explicitly clarifies 'net' vs 'gross' when questioned, and ties Stayful's own 15%+VAT commission to hitting those same projected numbers to build shared incentive.",
+    "objection_handling_pattern": "Briefly validates the concern ('Yeah, yeah, I understand'), gives a direct factual answer (e.g. no Hull-specific compliance rules, six years/20 properties track record vs a named competitor), then moves straight back to the next practical step — no hard-sell, letting the lead's own fear of long-let risk do most of the persuading."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "loss-averse-switcher",
+    "what_they_focused_on": [
+      "Avoiding long-term-let tenant risk (Renters' Rights Act, rogue tenants, a friend's cannabis-cultivation disaster)",
+      "Net income figures and realistic worst/best-case monthly numbers",
+      "Trust and reliability of the management company versus a named competitor (Pass the Keys)",
+      "Practical logistics of reusing the outgoing tenant's furniture and hitting a fast go-live timeline"
+    ],
+    "what_they_needed_most": [
+      "Reassurance that Stayful is an established, trustworthy operator with a comparable track record",
+      "Confidence the transition could happen quickly and cheaply (no furniture purchase, tight but workable timeline)",
+      "Validation that short-letting removes the specific risks he had already been burned by (rogue tradesmen, a failed sale, tenancy horror stories)"
+    ],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": "Lock in a specific date/time for the property inspection and WhatsApp photo/video hand-off before ending the call rather than leaving next steps open-ended, and proactively reconcile the bedroom count and rent figures against the Monday record so downstream materials (action plan, agreement) are accurate."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
