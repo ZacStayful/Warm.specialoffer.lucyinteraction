@@ -1,0 +1,218 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "075",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-07-29",
+  "transcript_quality": "full",
+  "lead_name": "Dexter Sinclair",
+  "email": "Dextersinclair1@gmail.com",
+  "monday_id": "12569558802",
+  "address": "21 Caroline Street, BD18 4PD",
+  "bedrooms": 2,
+  "profile_type": "PURCH",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "analytical-evaluator",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Confidence in managing the property remotely from Vietnam",
+  "language_signals": [
+    "Retain access during home visits",
+    "events & weekend visitors"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13% + VAT",
+  "offer_expiry": "2026-08-30",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "there is at the end of august there is a period where there's some work in the cellar that's happening, but that's we would test the property wouldn't be available in that time... our mind is really probably to probably to wait until the end from the end of august and then go live",
+      "context": "A fire-doors quote was expected imminently and cellar work was scheduled for end of August; Dexter's preference was to wait for the cellar work to finish before going live rather than launch mid-work.",
+      "timeline_given": "End of August completion, targeting 1 September go-live",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "we're just sort of looking at and comparing sort of management companies and looking at that",
+      "context": "Actively shopping and comparing management companies right now, not just researching in the abstract.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "all of the certificates, we just got a new electrical unit built in that was done last week. We just done the gas safety as well",
+      "context": "Property already furnished, gas safety and electrical certificates completed, and a digital lock with online-controlled expiring keypads already installed — nearly all pre-launch readiness work already done by the lead themselves.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "probably to wait until the end from the end of august and then go live as soon as that's done",
+      "context": "Concrete, near-term go-live target (1 September) rather than a vague or distant timeframe.",
+      "strength": "medium"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "close",
+    "green_lights_present_at_offer": ["GL-MGMT", "GL-SELF", "GL-TIME"],
+    "delays_present_at_offer": ["DLY-OTH"],
+    "what_immediately_preceded_offer": "Dexter confirmed the cellar-work timeline (end of August) and said he'd rather wait until it's done before going live, prompting Zac to propose doing Stayful's onboarding work across August so they could go live 1 September.",
+    "how_zac_framed_offer": "Framed as a discretionary discount he was 'happy to do' (13% + VAT), explicitly time-boxed to signing before 30 August so it aligned naturally with Dexter's own end-of-August completion timeline, with confirmation to follow by email.",
+    "expiry_stated_as": "Based off signing before the 30th of August",
+    "lead_response_to_offer": "Yeah, yeah. Same perspective.",
+    "offer_outcome": "Applied, not accepted live — Dexter said he'd review everything (agreement, action plan, discount) over the weekend and would be in touch from Monday 3 August onwards, ahead of returning to work in Vietnam."
+  },
+  "meeting_flow": {
+    "opening_phrase": "You're an interesting short letting and then we can sort of go from there.",
+    "rapport_topics": ["teaching abroad in Vietnam", "international school / curriculum", "work visas", "coming home for winter and summer breaks"],
+    "pivot_to_business": "I suppose I'm going to start by going through some income projections, if you like, and we can touch a little bit on how some of our service will integrate with what you're looking to achieve, really.",
+    "income_intro": "So this is what we've managed to get together as far as income projection for the property... we're looking at about 24,200 pound a year, about 2,000 pound per month.",
+    "post_income_silence": "",
+    "how_it_works_transition": "Okay, I'll just touch base on, obviously, you were saying a bit about how you can access property. So I'll touch on that briefly. So big part, well, we really will manage the property end to end. But what you'll see is sort of three bits of software.",
+    "pre_close_setup": "Really in terms of what if were to choose to choose Stayful what would either be onboarding process be like — to which Zac responded: I mean, to be honest, in your instance, it sounds like things are pretty well organized and you've got a lot of things lined up, which is, is ideal for us, really.",
+    "close_phrase": "something I'm happy to do as well, Dexter is I'm happy to do a small discount on our management to 13 plus vat... it'd be based off signing before the 30th of August.",
+    "meeting_2_ask": "Do you know, it might be a good time to, to touch base again? — lead: this start of Monday maybe would be or from Monday onwards would be good.",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 72
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "we sort of know, we know that we definitely want to have as a holiday as opposed to a regular letting",
+      "category": "goal-clarification",
+      "meeting_phase": "opening",
+      "zac_responded_with": "Proceeded directly into income projections for the property.",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I think it's sort of in sort of bit of both really... one of the reasons why we're going for holiday, that's opposed to sort of a regular is to have the access to the property when we're back.",
+      "category": "motivation-priority",
+      "meeting_phase": "income discussion",
+      "zac_responded_with": "Acknowledged, then flagged the competitive local market and ~12 month ramp-up period to set expectations.",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "how does that work with your companies visiting normally? Do you have specific cleaners or do you work with local ones... I know with the cleaning the vids, it's charged over the connection. What would be sort of like an average figure for that?",
+      "category": "operational-question",
+      "meeting_phase": "service scope",
+      "zac_responded_with": "Explained the cleaner vetting framework (per-changeover pricing including linen/supplies, before/after photos) and offered to use Dexter's existing local cleaner subject to vetting; gave ~£100/changeover as a rough figure.",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "In terms of for you, are you based in London? Where's sort of the main base? You have people nearby or is it also done online?",
+      "category": "trust-logistics",
+      "meeting_phase": "mid-meeting",
+      "zac_responded_with": "Explained Stayful's Leicestershire/Leeds base, described nationwide coverage via local contractor teams coordinated by a centralized team.",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "What we have is we have a digital lock which is installed. And then we're currently just getting an extra bit which means that it can all be controlled on online so you can set expiring keypads.",
+      "category": "logistics-clarification",
+      "meeting_phase": "how-it-works / access",
+      "zac_responded_with": "Accepted the digital lock as sufficient, confirming no key safe was needed.",
+      "lead_follow_up": "",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "No verbal commitment or signature secured at the meeting itself",
+      "category": "commitment-gap",
+      "evidence": "we can chat probably the start of next week, probably best. I've got to go back to... I can look at all the emails and stuff and then I guess the, yeah, this start of Monday maybe would be or from Monday onwards would be good.",
+      "how_to_fill": "Send the agreement and action plan immediately after the call with a clear, dated call-to-action tied to the 30 August discount deadline, and follow up early the following week as agreed.",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Setup cost and onboarding process not fully resolved for the lead despite being covered in the meeting",
+      "category": "information-gap",
+      "evidence": "Action plan response (2026-08-04): S3 biggest question — \"The setup cost and process\"",
+      "how_to_fill": "Explicitly restate the zero-upfront-fee model (no onboarding, photography, or setup cost) and re-walk the kickoff-call stages in the follow-up, since this remained the lead's top question after the meeting.",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac accepting the already-installed digital lock (with online-controlled expiring keypads) as a sufficient access solution rather than requiring a key safe.",
+      "lead_response": "Yeah, well, yeah, that's fine, though. So that's part sorted.",
+      "phase": "how-it-works / access logistics",
+      "archetype_relevant": ["certainty-seeker", "analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Zac offering a discounted management rate (13% + VAT) explicitly timed to align with Dexter's own end-of-August completion timeline.",
+      "lead_response": "Yeah, yeah. Same perspective.",
+      "phase": "close",
+      "archetype_relevant": ["fast-path-gain-focused", "certainty-seeker"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Zac himself flagged that the income projection range looked more volatile than expected: \"if I'm honest, what I'm looking at this, this seems more up and down than I was expecting.\"",
+      "lead_response": "Yeah.",
+      "recovery_attempted": "Zac reassured the figures were pulled from real comparable data rather than estimated, and contextualised the volatility as a sign of a genuinely competitive, profitable local market.",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "Dexter was unfamiliar with Slack, the platform used for ongoing communication.",
+      "lead_response": "Uh, no, I haven't. No, that's a new thing for me.",
+      "recovery_attempted": "Zac reframed it as simply \"like a business WhatsApp, really\".",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": ["I suppose I'm going to start by going through some income projections, if you like, and we can touch a little bit on how some of our service will integrate with what you're looking to achieve, really."],
+    "transition_phrases": [
+      "Okay, I'll just touch base on, obviously, you were saying a bit about how you can access property. So I'll touch on that briefly.",
+      "I suppose I'll cover a bit on sort of how we pay out, get customers."
+    ],
+    "reassurance_phrases": [
+      "this is accurate data because, I mean, it's not even had to go off a kilometer to get this information",
+      "it sounds like things are pretty well organized and you've got a lot of things lined up, which is, is ideal for us, really"
+    ],
+    "emphasis_phrases": [
+      "we do estimate that it will obviously fluctuate",
+      "there is going to be a ramp up period",
+      "the upside is to that is obviously these properties are profitable and make money because they wouldn't be this competitive if they wasn't"
+    ],
+    "analogies_used": ["It just, it's just like a business WhatsApp, really."],
+    "numbers_framing": "Leads with the annual net figure (£24,200 / ~£2,000pm) framed explicitly as post-fee 'net revenue', then gives the monthly range (£1,100 worst to £4,000 best), pre-empts the volatility reaction by contextualising it against a competitive local market with a roughly 12-month ramp-up period (starting ~20% below projection), then lands on Stayful's 4.9-star / 136-review local track record as proof.",
+    "objection_handling_pattern": "Acknowledges the concern directly, reframes competition/volatility as evidence of a genuinely profitable market rather than a risk signal, then rebuilds confidence with concrete operational specifics (booking software, cleaner vetting framework, access tech)."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "PURCH",
+    "emotional_profile": "analytical-evaluator",
+    "what_they_focused_on": [
+      "remote management logistics from Vietnam",
+      "retaining his own vetted cleaner rather than switching",
+      "digital lock / access solution",
+      "step-by-step onboarding process",
+      "company's operational base and coverage area"
+    ],
+    "what_they_needed_most": [
+      "confidence the property could be managed effectively while overseas",
+      "reassurance his own cleaner could be retained (subject to vetting)",
+      "clarity on contract terms and the exact onboarding stages"
+    ],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": "For remote/overseas PURCH leads, foreground the remote-management proof points (booking software, local contractor network, centralized Slack coordination) earlier in the call — before the income figures — since operational trust in remote management, not financial viability, is the real gating concern for this archetype."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "About what I expected",
+    "s2_ltl_thinking": "Short-let clearly makes more sense",
+    "s3_biggest_question": "The setup cost and process",
+    "s4_readiness": "Nearly there — just a couple of questions",
+    "s3_matches_meeting_gap": true,
+    "s4_contradicts_meeting": false
+  }
+}
