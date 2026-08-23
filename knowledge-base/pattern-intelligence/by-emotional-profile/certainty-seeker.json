@@ -1,0 +1,345 @@
+{
+  "schema_version": "3.0",
+  "archetype": "certainty-seeker",
+  "archetype_description": "Needs to be sure before acting. Driven by proof, data, and guarantees.",
+  "total_entries": 10,
+  "last_updated": "2026-08-21",
+  "what_they_focus_on": [
+    {
+      "point": "The worst-case/floor monthly income figure and whether it still covers mortgage and bills",
+      "frequency": 7,
+      "confidence": 0.7,
+      "last_seen": "2026-08-21"
+    },
+    {
+      "point": "Hands-off/remote management logistics while abroad or living far from the property",
+      "frequency": 5,
+      "confidence": 0.5,
+      "last_seen": "2026-07-31"
+    },
+    {
+      "point": "Contract terms — exit process, notice period and commitment length",
+      "frequency": 4,
+      "confidence": 0.4,
+      "last_seen": "2026-08-21"
+    },
+    {
+      "point": "Legal, regulatory or licensing compliance risk of short-letting the property",
+      "frequency": 4,
+      "confidence": 0.4,
+      "last_seen": "2026-08-21"
+    },
+    {
+      "point": "Trust and credibility of the management company itself (local presence, financial safety, ability to verify)",
+      "frequency": 3,
+      "confidence": 0.3,
+      "last_seen": "2026-08-21"
+    },
+    {
+      "point": "Guest vetting and damage/theft protection for the property",
+      "frequency": 3,
+      "confidence": 0.3,
+      "last_seen": "2026-08-21"
+    },
+    {
+      "point": "Proof via real comparable case studies rather than raw projections",
+      "frequency": 3,
+      "confidence": 0.3,
+      "last_seen": "2026-07-31"
+    },
+    {
+      "point": "Whether income is guaranteed/fixed versus variable, often benchmarked against a guaranteed-rent offer",
+      "frequency": 3,
+      "confidence": 0.3,
+      "last_seen": "2026-07-31"
+    },
+    {
+      "point": "Itemised bills and ongoing holding costs (council tax, utilities)",
+      "frequency": 2,
+      "confidence": 0.2,
+      "last_seen": "2026-07-31"
+    },
+    {
+      "point": "Maintenance cost anxiety carried over from a prior bad contractor or agent experience",
+      "frequency": 2,
+      "confidence": 0.2,
+      "last_seen": "2026-07-21"
+    }
+  ],
+  "questions_they_ask": [
+    {
+      "question": "Is that figure before or after all the costs — what do I actually get in my hand?",
+      "frequency": 3,
+      "confidence": 0.3,
+      "last_seen": "2026-08-03",
+      "best_answer": "Broke the net figure down line by line (mortgage, ~£500 bills buffer, or the specific cost stack) so the lead could see exactly what was already deducted.",
+      "what_lands": "A concrete, itemised walk-through rather than restating the same headline number."
+    },
+    {
+      "question": "What happens in a quiet/worst month — will I still cover my mortgage and bills?",
+      "frequency": 4,
+      "confidence": 0.4,
+      "last_seen": "2026-08-03",
+      "best_answer": "Ran the worst-month arithmetic live (e.g. '£2,100 payout in the quietest month, even 20% wrong we're still profitable') rather than citing the average.",
+      "what_lands": "Explicit worst-case arithmetic that proves the floor is still safe, not a general reassurance."
+    },
+    {
+      "question": "Where do your income figures actually come from — are they credible?",
+      "frequency": 3,
+      "confidence": 0.3,
+      "last_seen": "2026-08-21",
+      "best_answer": "Cited the number of comparable properties, the radius used, and a stated accuracy band (e.g. 'within about a 10% accuracy range').",
+      "what_lands": "Naming the methodology (comparable count, radius, accuracy band) rather than asserting the number."
+    },
+    {
+      "question": "How does the exit / notice / contract-end process work?",
+      "frequency": 4,
+      "confidence": 0.4,
+      "last_seen": "2026-08-21",
+      "best_answer": "Explained the fixed term and notice period plainly (e.g. six-month fixed term, three-month notice, an agreed cut-off date after which ties are cut) and confirmed bookings already taken would still be serviced.",
+      "what_lands": "A plain, specific mechanic rather than a vague 'we'll sort it out'."
+    },
+    {
+      "question": "What guest vetting and damage protection do you have?",
+      "frequency": 3,
+      "confidence": 0.3,
+      "last_seen": "2026-08-21",
+      "best_answer": "Walked through security deposit range, ID/background checks, and insurance cover for major incidents, plus a monthly spend-notification threshold.",
+      "what_lands": "Concrete mechanics (deposit amount, insurance ceiling, threshold) rather than a general 'don't worry'."
+    },
+    {
+      "question": "Is the income guaranteed, or could I get a guaranteed-rent deal elsewhere instead?",
+      "frequency": 3,
+      "confidence": 0.3,
+      "last_seen": "2026-07-31",
+      "best_answer": "Confirmed Stayful doesn't offer guaranteed returns, framed this as an industry norm, then immediately anchored the floor month against the guaranteed-rent figure the lead had already seen.",
+      "what_lands": "Leading with the floor number so it beats the guaranteed-rent comparison, rather than the no-guarantee line landing first."
+    },
+    {
+      "question": "Which bills am I responsible for and how much are they?",
+      "frequency": 2,
+      "confidence": 0.2,
+      "last_seen": "2026-07-31",
+      "best_answer": "Itemised council tax, gas, electricity, water and Wi-Fi with a specific monthly estimate.",
+      "what_lands": "A specific number rather than a category list."
+    },
+    {
+      "question": "Is there a licence or legal compliance requirement I need to meet?",
+      "frequency": 2,
+      "confidence": 0.2,
+      "last_seen": "2026-07-31",
+      "best_answer": "Confirmed there's no short-let licensing requirement outside London, and listed the basic fire/smoke safety items needed.",
+      "what_lands": "A direct yes/no plus the short, concrete compliance checklist."
+    },
+    {
+      "question": "Do you only offer full management, or is a partial service available?",
+      "frequency": 1,
+      "confidence": 0.1,
+      "last_seen": "2026-07-21",
+      "best_answer": "Explained Stayful only offers full management because partial control makes it hard to deliver a good service.",
+      "what_lands": "A clear, honest rationale rather than a hedge."
+    },
+    {
+      "question": "How does the process actually work while I'm not there / abroad?",
+      "frequency": 2,
+      "confidence": 0.2,
+      "last_seen": "2026-07-30",
+      "best_answer": "Described the key-safe setup, remote-management precedent with other overseas/absent owners, and monthly itemised statements.",
+      "what_lands": "Naming other remote/abroad owners already managed successfully."
+    }
+  ],
+  "objections_they_raise": [
+    {
+      "objection": "Company trust — 'are you actually established/local here?'",
+      "frequency": 3,
+      "best_response": "Cite the specific number of nearby comparable listings and years of operation rather than a vague tenure claim.",
+      "resolution_rate": 0.0
+    },
+    {
+      "objection": "Skepticism the projected figures are inflated or a sales number",
+      "frequency": 3,
+      "best_response": "Explain the methodology (comparable count, radius, ramp-up period) rather than simply reasserting the figure.",
+      "resolution_rate": 0.67
+    },
+    {
+      "objection": "Guaranteed rent elsewhere would be simpler/safer than variable short-let income",
+      "frequency": 3,
+      "best_response": "Anchor the worst-case month directly against the guaranteed-rent figure the lead already has, showing it matches or beats it.",
+      "resolution_rate": 0.67
+    },
+    {
+      "objection": "Vacancy/void risk — 'what if it doesn't book at all for months?'",
+      "frequency": 2,
+      "best_response": "Cite direct track record ('I've never had a situation where someone went three months with nothing') then back it with the worst-case number.",
+      "resolution_rate": 1.0
+    },
+    {
+      "objection": "Maintenance/damage cost anxiety carried over from a bad prior experience",
+      "frequency": 3,
+      "best_response": "Walk through the tiered maintenance process, a spend pre-approval threshold, and an onboarding form that reduces recurring issues.",
+      "resolution_rate": 1.0
+    },
+    {
+      "objection": "Mortgage compliance risk of short-letting on a residential/BTL mortgage",
+      "frequency": 1,
+      "best_response": "Frame Stayful (the management company), not the owner, as the entity technically short-letting, and recommend staying on the current mortgage for optionality.",
+      "resolution_rate": 1.0
+    },
+    {
+      "objection": "Change of use / planning permission risk",
+      "frequency": 1,
+      "best_response": "Where genuinely unsure, say so plainly and suggest a workaround (second-home framing, SPV) with a specialist to confirm, rather than guessing.",
+      "resolution_rate": 0.0
+    },
+    {
+      "objection": "Fee/percentage feels too high relative to what's covered",
+      "frequency": 1,
+      "best_response": "Break the fee into what it actually covers (deposit handling, insurance, notification threshold) and confirm it's a flat, transparent percentage.",
+      "resolution_rate": 1.0
+    }
+  ],
+  "what_moves_them": [
+    {
+      "point": "Worst-case-month arithmetic proving costs are still covered",
+      "frequency": 3,
+      "evidence": "'if we're looking at costs of 1500, 1600, the net revenue on the quietest month is 2100... even if I'm 20 wrong, we should, we're still profitable'"
+    },
+    {
+      "point": "A real, honest case study or named local comparable proving the model works",
+      "frequency": 4,
+      "evidence": "Manchester 3-bed case study: projected £62k gross/£32.5k net, achieved £56.9k gross (-10%) but £36k net (above target)"
+    },
+    {
+      "point": "Concrete operational security mechanics rather than vague reassurance",
+      "frequency": 3,
+      "evidence": "Two-key-safe setup (rotating guest codes, static maintenance code) offered directly in response to a belongings-security concern"
+    },
+    {
+      "point": "Honest ramp-up/downside disclosure volunteered before it's asked",
+      "frequency": 3,
+      "evidence": "'year-one figures would run 15-20% below the modelled potential and full run-rate takes 12-18 months' — offered unprompted"
+    },
+    {
+      "point": "Being given a real choice or flexibility (contract type, personal-use calendar) rather than being pushed",
+      "frequency": 2,
+      "evidence": "Open choice between rolling and fixed-term contract; unlimited personal-use calendar blocking"
+    },
+    {
+      "point": "A specific, checkable diagnosis of why a current arrangement is underperforming",
+      "frequency": 1,
+      "evidence": "Naming the listing's exact percentile (bottom 10%) tied to its 4.58 rating rather than a generic 'we're better' pitch"
+    }
+  ],
+  "what_falls_flat": [
+    {
+      "point": "The average/headline income figure alone, without a worst-case breakdown",
+      "frequency": 2,
+      "evidence": "'initial average net income framing (£3,373/month) did not land until broken down into a specific worst-case payout number'"
+    },
+    {
+      "point": "A vague answer on local presence or trust when concrete proof was actually available",
+      "frequency": 2,
+      "evidence": "Zac's answer to 'you are not located in Bristol are you' was only 'I've managed in Bristol for about a year, maybe two' when 12 comparable listings were already on screen"
+    },
+    {
+      "point": "Promised follow-ups (a clarity check, a phone number, a viewing) left undelivered or deferred",
+      "frequency": 3,
+      "evidence": "Hospital-distance 'clarity check' promised but never confirmed as sent; phone number deferred to 'an email after' when asked for directly"
+    },
+    {
+      "point": "No firm next-meeting date or time locked in, letting momentum die",
+      "frequency": 3,
+      "evidence": "'we could probably follow up sort of next week' with no specific date/time actually booked in Calendly"
+    },
+    {
+      "point": "A flat 'we don't guarantee returns' stated before any supporting data",
+      "frequency": 1,
+      "evidence": "First answer to a guaranteed-rent-anchored lead was a plain no-guarantee disclaimer before any floor number was given"
+    },
+    {
+      "point": "Technical failures (screen share not working, illegible figures) undermining confidence in the numbers",
+      "frequency": 1,
+      "evidence": "Screen share failed for the entire call; lead saw no chart, comparables or case studies"
+    }
+  ],
+  "language_to_mirror": [
+    {
+      "phrase": "is the figure am I getting in my hand?",
+      "frequency": 1,
+      "context": "Pressing for what 'net' actually means personally, not just a headline number"
+    },
+    {
+      "phrase": "I'd be surprised if it reaches that, but maybe I'm wrong",
+      "frequency": 1,
+      "context": "Politely skeptical of the upper end of an income range"
+    },
+    {
+      "phrase": "not getting the bucket [booked]... being at the other side of the world",
+      "frequency": 1,
+      "context": "The underlying abroad-income-reliability worry, often surfacing late in the call"
+    },
+    {
+      "phrase": "so there is no way we can chase the company for compensation",
+      "frequency": 1,
+      "context": "Worry about the management company's financial stability/legitimacy"
+    },
+    {
+      "phrase": "I've had another conversation with another agent to see what their view was",
+      "frequency": 1,
+      "context": "Cross-checking Stayful's numbers against a competitor's quote"
+    },
+    {
+      "phrase": "you could offer me rent for three months and then there could be no bookings three months and I'll be left with nothing",
+      "frequency": 1,
+      "context": "Voicing the void-period/worst-case fear directly"
+    },
+    {
+      "phrase": "I've got the general concerns of, like, how well they're gonna look after the place",
+      "frequency": 1,
+      "context": "General unease about a lived-in/family home being entrusted to guests"
+    }
+  ],
+  "meeting_guidance": {
+    "opening_approach": "Establish process rigor and credibility early rather than jumping straight to the headline income figure, since this archetype tests the honesty of the numbers before trusting them.",
+    "what_to_lead_with": "Lead with the worst-case/floor monthly net figure and prove it directly against their known fixed costs (mortgage, bills), then reinforce with a real comparable case study.",
+    "what_to_avoid": "Avoid vague reassurance on trust/legitimacy questions — have a concrete named comparable, review count, or reference ready rather than a generic tenure claim, and never leave a promised follow-up (a call, a number, a check) undelivered.",
+    "close_approach": "Close by restating the downside-protected floor number and locking a concrete, dated next step rather than an open 'let's touch base' — this archetype's momentum dies without a firm follow-up.",
+    "offer_framing": "Frame any discount against a real, external deadline (a mortgage switch, a lease renewal) rather than an artificial countdown, since manufactured urgency reads as pressure to this archetype."
+  },
+  "delay_signal_pattern": "Certainty-seekers most commonly delay on tenancy or property-readiness timing (DLY-TEN, DLY-FUR) and life-event moves (DLY-MOV) — usually waiting on an external, verifiable event (tenant notice, furnishing, purchase completion) rather than genuine reluctance. DLY-OTH appears in 7 of 10 entries and frequently reflects wanting further proof or a second conversation before committing.",
+  "green_light_pattern": "Green lights are dominated by GL-MGMT (10/10) — a stated preference for fully hands-off, full management — combined with GL-TIME (7/10, an external forcing deadline like a mortgage switch or relocation) and GL-SELF (3/10, the lead proactively raising signing before the next call).",
+  "profile_type_intersections": {
+    "STL-SW": {
+      "count": 4,
+      "notes": ""
+    },
+    "EX-STL": {
+      "count": 1,
+      "notes": ""
+    },
+    "PURCH": {
+      "count": 2,
+      "notes": ""
+    },
+    "SELL": {
+      "count": 0,
+      "notes": ""
+    },
+    "ABROAD": {
+      "count": 3,
+      "notes": ""
+    },
+    "R2R": {
+      "count": 0,
+      "notes": ""
+    }
+  },
+  "conversion_data": {
+    "total": 10,
+    "ready_now": 0,
+    "delayed": 10,
+    "lost": 2,
+    "conversion_rate": 0.1,
+    "most_common_lost_reason": "Decided to long let property"
+  }
+}
