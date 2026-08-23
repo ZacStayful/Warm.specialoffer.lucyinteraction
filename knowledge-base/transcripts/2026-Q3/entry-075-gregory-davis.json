@@ -1,0 +1,236 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "075",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-07-29",
+  "transcript_quality": "full",
+  "lead_name": "Gregory Davis",
+  "email": "gregoryjamesdavis@gmail.com",
+  "monday_id": "12598162450",
+  "address": "20 Museum Court, Lincoln LN2 1JB",
+  "bedrooms": 2,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "Reduce management costs before his current fee rises from 20% to 24% at renewal (~Sep/Oct 2026), while preserving his established 80-review Airbnb listing",
+  "property_situation": "EX-STL — live on Airbnb since 2020, currently managed by another company for ~4 years; 80 reviews, 4.84 rating; ~80% booked since March, back-to-back in August; Nov–Jan historically quiet (current company secures 4-month winter long-lets); review gap Oct 2024–Sep 2025; priced ~20% above comparable Lincoln listings; also owns a second Airbnb property (outbuilding) in London",
+  "property_type": "2-bed / 3-bath leasehold apartment, gated cul-de-sac development, city centre",
+  "emotional_profile": "analytical-evaluator",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Needs 2-3 weeks to confirm his renewing mortgage rate, check whether October remains empty on the booking calendar, and speak to his current management company before committing to switch",
+  "language_signals": [
+    "I'll get there I'll probably take more than a week I probably take about two or three weeks",
+    "get back to you in like a few days",
+    "I'll have a panic attack in the corner",
+    "bring it on"
+  ],
+  "portfolio_flag": true,
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13% + VAT",
+  "offer_expiry": "2026-08-30",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "I'll probably take about two or three weeks because I'll get the mortgage approved, see what the numbers are, see if October remains completely empty",
+      "context": "Needs to confirm his renewing mortgage rate and check whether October stays empty on the booking calendar (the intended migration window) before committing to switch.",
+      "timeline_given": "2-3 weeks",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "I'll have a speak with them and this is this whole thing is going to come as part of a big conversation anyway",
+      "context": "Needs to speak with his current management company (who charge 20%, rising to 24%) before he can proceed with the switch and coordinate a booking cut-off/transfer.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "Mortgage is I think September October this year",
+      "context": "Current management fee increase (20%→24%) and mortgage rate renewal both land in the same Sep/Oct 2026 window, creating a concrete forcing deadline that aligns with wanting to switch soon; October/November also happens to be his quietest season, making it a natural migration window.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "I'm sure they wouldn't mind that. I mean I have all the logins and I can just change the email addresses",
+      "context": "Gregory has full access/control of his existing listing, no operational complaints against his current provider, and is willing to hand over credentials to migrate once he decides.",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "close",
+    "green_lights_present_at_offer": ["GL-TIME", "GL-MGMT"],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "Zac wrapping up the meeting, saying he'd send over the management agreement and put together an action plan with timeframes for the property",
+    "how_zac_framed_offer": "Introduced casually as a follow-up action item rather than a time-pressured pitch — 'I'll put in the discount as well for you. So it'll be 13% instead of 15.'",
+    "expiry_stated_as": "Not stated verbally in the transcript; expiry (30 August 2026) recorded separately in Monday.com",
+    "lead_response_to_offer": "Positive but non-committal — 'last yeah bring it on' — immediately pivoted to needing to sort his mortgage rate before he could properly commit",
+    "offer_outcome": "Pending at end of call — no verbal acceptance or next meeting booked; Gregory said he'd return in 2-3 weeks once his mortgage rate, October's bookings, and a conversation with his current management company were resolved"
+  },
+  "meeting_flow": {
+    "opening_phrase": "Hi Greg, how are you?",
+    "rapport_topics": ["technical/loading issues at the start of the call", "how he's doing ('manic, but yeah, good getting there')"],
+    "pivot_to_business": "Well, thanks for coming on. I thought I'd start just by sort of understanding a bit more about your situation, situation with the property. Then we can go through some income estimates and our service if it sort of lines up what you're looking for.",
+    "income_intro": "So we charge, I'm sure you've seen 15% plus VAT for the service. But I mean, I could just go through some income estimations to start with so we can say what we can say we are estimating to achieve. So about 66,000 of gross, 34,000 of net, which is about sort of 2800, 2900 pound a month.",
+    "post_income_silence": "",
+    "how_it_works_transition": "As far as the service is concerned, again most likely probably quite similar. We'll deal with everything to do with managing the property, checking and check out, dynamic pricing, screening guests, set it up on multiple platforms, maintenance cleaning, you know, everything really.",
+    "pre_close_setup": "Is there anything you want to go through specifically about the income... This is a cost statement exercise. I mean, any specific questions you got about the service or I can just go through it.",
+    "close_phrase": "A couple of things I'll do after this call is I'll send you over our agreement so you can have a look. Any questions? Let me know. I'll put a bit of like an action plan together so we have a bit of an idea on, you know, time frames in specific of what needs doing for this property. I'll put in the discount as well for you. So it'll be 13% instead of 15.",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 52
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "Basically it's purely financial because the rates are going up as soon as it renews in like six months time... every percentage now counts",
+      "category": "financial_trigger",
+      "meeting_phase": "discovery",
+      "zac_responded_with": "Acknowledged and moved directly into the income estimation, presenting the projected gross/net figures",
+      "lead_follow_up": "I mean, probably... revenue is about half that... 1600 a month on a excellent month",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I mean, probably like, what does it make? I would say probably revenue is about half that. Maybe... 1600 a month on a excellent month, I'd say maybe to max.",
+      "category": "objection",
+      "meeting_phase": "income presentation",
+      "zac_responded_with": "Asked about review count/listing specifics and offered to review the actual listing post-call; identified a ~1 year review gap (Oct 2024–Sep 2025) as a likely explanation for the underperformance",
+      "lead_follow_up": "It's got 80 reviews, 4.84... all of the reviews about 70 plus who can't operate the front door lock",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Is it the best thing to do it in like the down period so maybe November... October is completely empty so that's probably a good one",
+      "category": "operational_question",
+      "meeting_phase": "how it works",
+      "zac_responded_with": "Confirmed October/November (his naturally quiet season) as the ideal migration window and explained the deactivation/transfer mechanics via Stayful's Airbnb account manager",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "It's a leasehold so it's just so much less of a nightmare... the insurance covers the airbnb abilities of it as well so it's pretty good",
+      "category": "positive_context",
+      "meeting_phase": "discovery",
+      "zac_responded_with": "Acknowledged this as a rare, favourable situation for a leasehold STR property",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I'll get there I'll probably take more than a week I probably take about two or three weeks because I'll get the mortgage approved, see what the numbers are, see if October remains completely empty",
+      "category": "closing_barrier",
+      "meeting_phase": "close",
+      "zac_responded_with": "Accepted the timeline without pushing, offered to touch base in a couple of days or the following week",
+      "lead_follow_up": "",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Gregory did not send the Airbnb listing link during or immediately after the call as Zac requested",
+      "category": "missing_information",
+      "evidence": "Zac: 'after this call, if you could send me the listing link, I can have a look at it'; no confirmation in transcript that it was sent, and the intelligence doc confirms it was still outstanding",
+      "how_to_fill": "Explicitly re-request the listing link at the next touchpoint before proceeding further",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "No firm next meeting was booked — the call ended on a vague 'touch base in a couple of days or next week'",
+      "category": "no_next_step_locked",
+      "evidence": "Zac: 'we'll say we'll touch base a couple of days or next week'; no next meeting was found on record",
+      "how_to_fill": "Lock a specific follow-up date/time before ending the call rather than an open-ended timeframe",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "No explicit confirmation of how Gregory's current management company would respond to a booking cut-off / cooperate with the transfer",
+      "category": "unconfirmed_dependency",
+      "evidence": "Gregory: 'they're very responsive it's just they charge like 24%... I'll have a speak with them'",
+      "how_to_fill": "Offer to speak directly with the current management company, or give Gregory a simple script/talking points for that conversation",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac confirming the existing 80-review, 4.84-star listing could be migrated (with an Airbnb account manager's help) rather than reset from scratch",
+      "lead_response": "Yeah, I'm sure they wouldn't mind that. I mean I have all the logins and I can just change the email addresses",
+      "phase": "how it works",
+      "archetype_relevant": ["analytical-evaluator", "loss-averse-switcher"]
+    },
+    {
+      "what_caused_shift": "Zac agreeing that Gregory's existing backup lockbox/fob solution was the right fix for the pin-lock issue older guests struggle with",
+      "lead_response": "Implicit agreement/relief — no further pushback on the topic",
+      "phase": "Q&A",
+      "archetype_relevant": ["certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "13% + VAT discount offered near the close",
+      "lead_response": "last yeah bring it on",
+      "phase": "close",
+      "archetype_relevant": ["fast-path-gain-focused"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Zac's income projection (~£2,800-2,900/month) didn't match Gregory's own actual revenue (~£1,600/month on a strong month)",
+      "lead_response": "I mean, probably like, what does it make? I would say probably revenue is about half that.",
+      "recovery_attempted": "Zac asked about review count/listing details and offered to review the actual listing after the call to identify gaps, later attributing the shortfall to a review gap and ~20% price premium rather than the projection being unrealistic",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "Technical/connectivity issues at the very start of the call",
+      "lead_response": "Sorry, I know why nothing is working... I'm not sure why this is working. So I haven't really used.",
+      "recovery_attempted": "Zac reassured it was likely a loading issue and moved on",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": ["Hi Greg, how are you?", "Well, thanks for coming on."],
+    "transition_phrases": [
+      "I thought I'd start just by sort of understanding a bit more about your situation, situation with the property. Then we can go through some income estimates and our service if it sort of lines up what you're looking for.",
+      "As far as the service is concerned, again most likely probably quite similar.",
+      "Is there anything you want to go through specifically about the income..."
+    ],
+    "reassurance_phrases": [
+      "I don't think this is unrealistic because it sounds like the property is quite good and has been performing.",
+      "We've got an account manager, an Airbnb account manager. So I'm sure he could help with this process.",
+      "I reckon that's probably the best thing that we'd recommend to do as well, if I'm being honest."
+    ],
+    "emphasis_phrases": [
+      "It's not about the listing itself. It's about the reviews attached to this listing.",
+      "We could probably get back to where he was, maybe just over a year.",
+      "Every percentage now counts diversity."
+    ],
+    "analogies_used": [],
+    "numbers_framing": "Led with headline gross/net figures (£66k gross / £34k net, ~£2,800-2,900/month) before dwelling on fees, then reconciled the lead's own lower actual revenue against the projection with specific, concrete factors (review gap dates, ~20% price premium) rather than disputing his numbers",
+    "objection_handling_pattern": "Validates the lead's own data point first, then supplies a specific, evidence-based explanation (review gap, price premium) rather than defending the projection in the abstract; reframes potential negatives (review reset risk, migration downtime) as manageable and time-limited rather than dismissing the concern"
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "analytical-evaluator",
+    "what_they_focused_on": [
+      "fee percentage vs current 20%→24% renewal",
+      "protecting his 80-review/4.84-star listing history",
+      "operational mechanics of the migration/deactivation process",
+      "how his own actual revenue compares to Zac's projection",
+      "timing around his mortgage renewal"
+    ],
+    "what_they_needed_most": [
+      "a concrete, credible explanation for why his own revenue is lower than the projection",
+      "reassurance that he wouldn't lose his review history by switching",
+      "clarity on exact migration mechanics and timing"
+    ],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": "For analytical EX-STL switchers driven by fee increases rather than service failures, lead with the listing-migration mechanics and review-preservation plan earlier — before the income projection — since protecting existing history is the primary anchor, and be ready to proactively reconcile projected figures against the lead's own actual performance data rather than waiting for pushback."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
