@@ -1,0 +1,94 @@
+{
+  "schema_version": "3.0",
+  "profile_type": "EX-STL",
+  "profile_description": "Already short-letting, switching management company",
+  "total_entries": 17,
+  "last_updated": "2026-08-10",
+  "typical_situation": "Lead is already running the property as a short-let, either self-managed or through another management company (e.g. Pass the Keys, Hello Guest, MyProperty Host, Residential Estates), and is dissatisfied with underperformance — low reviews, poor occupancy vs the local market, operational failures like missed check-ins or unresolved maintenance, or a fee increase at renewal.",
+  "typical_motivation": "Fix chronic underperformance or reduce management fees so the property finally hits the net income originally expected from short-letting, without having to become hands-on themselves.",
+  "typical_timeline": "Gated by the notice period owed to the current management company (often weeks to a few months), sometimes deliberately timed to a natural quiet season for a clean handover of an established, review-rich listing.",
+  "most_common_emotional_profiles": [
+    {"archetype": "certainty-seeker", "count": 3, "percentage": 17.6},
+    {"archetype": "analytical-evaluator", "count": 2, "percentage": 11.8},
+    {"archetype": "growth-oriented-investor", "count": 2, "percentage": 11.8},
+    {"archetype": "pragmatic-cost-focused", "count": 1, "percentage": 5.9},
+    {"archetype": "fast-path-gain-focused", "count": 1, "percentage": 5.9}
+  ],
+  "most_common_delays": [
+    {"delay_type": "DLY-OTH", "count": 3, "percentage": 17.6},
+    {"delay_type": "LTL-test-strategy-consideration", "count": 2, "percentage": 11.8},
+    {"delay_type": "property-not-yet-ready", "count": 2, "percentage": 11.8}
+  ],
+  "most_common_green_lights": [
+    {"green_light_type": "GL-MGMT", "count": 7, "percentage": 41.2},
+    {"green_light_type": "GL-TIME", "count": 2, "percentage": 11.8},
+    {"green_light_type": "action-plan-delivered-as-promised", "count": 2, "percentage": 11.8},
+    {"green_light_type": "GL-SELF", "count": 1, "percentage": 5.9},
+    {"green_light_type": "scalability-need-self-articulated", "count": 2, "percentage": 11.8}
+  ],
+  "what_meeting_should_lead_with": "Skip re-pitching short-letting as a concept — this lead already believes in it. Lead instead with a specific, evidenced diagnosis of why the current setup underperforms (reviews, pricing, listing structure, communication) and only then contrast Stayful's model point-by-point against the current company, backed with real numbers and concrete proof points.",
+  "top_questions": [
+    {"question": "How does Stayful's fee and service actually compare to my current management company?", "frequency": 4, "confidence": 0.9, "best_answer": "Give a direct side-by-side: fee percentage, number of listing platforms, communication model (e.g. Slack, monthly statements), and whether listings are individual vs shared/hotel-style."},
+    {"question": "What income can I realistically expect — including the worst-case month?", "frequency": 5, "confidence": 0.9, "best_answer": "Give both a worst-case and average figure, and frame any single weak month honestly as 1-in-12 against the full-year average."},
+    {"question": "Why aren't we getting bookings under our current setup?", "frequency": 2, "confidence": 0.8, "best_answer": "Diagnose concretely — review count/velocity vs local competitors, rating percentile, pricing without reviews to justify it — and state plainly that it's a listing/management issue, not a property issue."},
+    {"question": "What are the contract terms, minimum term, and exit options?", "frequency": 3, "confidence": 0.8, "best_answer": "Explain the 6-month initial term with 3-month rolling notice afterward, and offer a defined early review point (e.g. month 3) with explicit exit conditions for leads wary after a bad prior contract."},
+    {"question": "How does Stayful prevent or handle guest damage compared to my current platform/company?", "frequency": 3, "confidence": 0.8, "best_answer": "Explain the guest security deposit, ID checks with damage-history screening, and platform damage protection (e.g. AirCover), contrasted with the lead's specific bad experience."},
+    {"question": "How does the transition/migration process actually work — will I lose my reviews or momentum?", "frequency": 3, "confidence": 0.7, "best_answer": "Confirm the existing review history and rating can typically migrate with account-manager support, listings are set up individually (not shared), and outline the notice-period mechanics with the current company."},
+    {"question": "Can Stayful scale with me as I grow to multiple properties?", "frequency": 2, "confidence": 0.6, "best_answer": "Yes — describe the portfolio-partnership model: each property independently managed but coordinated through one team, with owner calendar visibility across the whole portfolio."},
+    {"question": "What platforms will the property be listed on?", "frequency": 2, "confidence": 0.6, "best_answer": "Multi-platform (Airbnb, Booking.com) plus direct booking channels, contrasted against a single-platform current setup."},
+    {"question": "Do I need to register for VAT / how does the payout work for tax purposes?", "frequency": 1, "confidence": 0.4, "best_answer": "Clarify the owner receives a net payout rather than being the one directly short-letting, so the guest-facing turnover figure is not automatically the owner's own taxable turnover — but recommend the owner confirm with their accountant."},
+    {"question": "Should I add extra amenities (e.g. a hot tub) to boost bookings?", "frequency": 1, "confidence": 0.4, "best_answer": "Advise against unnecessary added risk/cost where the property already performs well without it — added amenities add failure points that can generate bad reviews."}
+  ],
+  "top_objections": [
+    {"objection": "Scepticism that Stayful's projected income will actually be hit, given a prior manager made similar promises that weren't delivered", "frequency": 3, "resolution_rate": 0.33, "best_response": "Lead with concrete, already-in-hand proof points (a confirmed booking, a comparable case study) and an honest acknowledgement that year one may run below full potential while reviews build — candour lands better than a bigger promise."},
+    {"objection": "6-month minimum term feels risky, especially after being burned by a previous management contract", "frequency": 1, "resolution_rate": 0.0, "best_response": "Reframe the term as a structured performance period with a defined early review point (e.g. month 3) and explicit exit conditions, not a blind lock-in."},
+    {"objection": "Tight margin in the worst-case month against fixed monthly costs", "frequency": 2, "resolution_rate": 0.0, "best_response": "Show the full 12-month range and frame the weak month as 1-in-12 against the full-year average, and compare realistically against the void risk and agent fees of the long-let alternative."},
+    {"objection": "Considering testing a long-let for a month first as a lower-risk trial before committing to switch", "frequency": 2, "resolution_rate": 0.0, "best_response": "Quantify the concrete cost of that month's delay against the STL average net for the same month, and contrast the 3-week STL setup timeline with the LTL search timeline."},
+    {"objection": "Worried that scaling to multiple properties turns them into unpaid manual cleaners rather than freeing them up", "frequency": 2, "resolution_rate": 1.0, "best_response": "Confirm Stayful takes on all cleaning coordination and changeovers end-to-end across every property in the portfolio — the owner is never the operative."},
+    {"objection": "Guest damage/quality risk on a high-value or recently renovated property", "frequency": 2, "resolution_rate": 1.0, "best_response": "Walk through the security deposit, ID checks with damage-history screening, and platform damage protection, tied directly to the lead's specific bad experience."},
+    {"objection": "STL income needs to beat a guaranteed long-let, and consistency (especially in quieter months) is the real concern", "frequency": 1, "resolution_rate": 0.0, "best_response": "Present the net STL-vs-LTL advantage plainly and back quieter-month performance with local year-round demand drivers (hospitals, universities, transport, events)."},
+    {"objection": "Fee framed initially as a cut of gross turnover rather than net income, making it feel larger than it is", "frequency": 1, "resolution_rate": 1.0, "best_response": "Reframe explicitly around the absolute net figure the owner actually receives, not a percentage-of-gross framing."}
+  ],
+  "top_conversion_gaps": [
+    {"gap": "No firm next-step date or follow-up meeting locked in before an offer deadline — decision left to the lead alone", "category": "no clear next-step commitment", "frequency": 2, "how_to_fill": "Always book a specific follow-up call before any offer expiry rather than leaving a switching decision to solo reflection."},
+    {"gap": "Decision-making spouse or partner was not on the call and has not heard the figures or reasoning directly", "category": "decision_maker", "frequency": 2, "how_to_fill": "Provide a short, forwardable written summary (net figures, self-manage/current-company comparison) the lead can walk their partner through, and hold to a specific chase date."},
+    {"gap": "Trust gap from a previous management company's broken promises not fully bridged in the meeting", "category": "trust", "frequency": 2, "how_to_fill": "Share verified case studies from comparable EX-STL switches, concrete review-velocity data, and documented communication SLAs rather than relying on the pitch alone."},
+    {"gap": "Handover/notice-period date with the current management company mentioned verbally but not confirmed in writing", "category": "operational/logistics", "frequency": 2, "how_to_fill": "Get written confirmation of the exact listing-closure/notice date from the current provider to firm up the onboarding timeline."},
+    {"gap": "Tight worst-month margin acknowledged but left unresolved as a live concern", "category": "income_confidence", "frequency": 2, "how_to_fill": "Show the full 12-month net range and realistically model the long-let alternative's void risk and letting-agent fees alongside it."},
+    {"gap": "No urgency lever (offer or expiry date) created to prompt a timely decision", "category": "urgency", "frequency": 2, "how_to_fill": "Use a natural trigger already present (e.g. property ready in 2 weeks, quiet season approaching) or a time-sensitive onboarding rate to create momentum."},
+    {"gap": "Portfolio/multi-property partnership pitch discussed informally but never formalised", "category": "strategic_positioning", "frequency": 2, "how_to_fill": "Put together a formal portfolio-partnership proposal once a second or third property enters the pipeline, positioning Stayful as ongoing management infrastructure."},
+    {"gap": "Promotional rate or offer expiry not logged in the CRM despite being referenced", "category": "CRM data integrity", "frequency": 1, "how_to_fill": "Confirm and log any verbally offered rate and its expiry immediately after the call so pipeline status stays accurate."},
+    {"gap": "Signed contract stalls after being sent, with only repeated similar email chases and no reply", "category": "stalled decision", "frequency": 1, "how_to_fill": "Escalate from repeated similar chases to a scheduled phone call or a genuine time-limited incentive to re-engage."},
+    {"gap": "No setup quote or break-even figure produced in writing, leaving a cost question unanswered", "category": "missing_deliverable", "frequency": 1, "how_to_fill": "Proactively send a setup quote/break-even figure even when not explicitly requested, removing residual friction before a lead consults a co-decision-maker."}
+  ],
+  "what_moves_them": [
+    {"point": "Being shown the underperformance is a diagnosable listing/management-company issue, not a property issue, with a concrete benchmark", "frequency": 3},
+    {"point": "Concrete proof points already in hand (a confirmed booking, a real comparable case study) validating the income projection", "frequency": 3},
+    {"point": "Operational differentiators laid out plainly against the current company — guest screening/deposits, individual (not shared) listing, multi-platform reach, reporting cadence", "frequency": 6},
+    {"point": "Fast, tangible execution — action plan and agreement delivered within 15-20 minutes of the call ending", "frequency": 2},
+    {"point": "Explicit 'you'll never be the manual cleaner' scalability framing for owners growing a portfolio", "frequency": 2},
+    {"point": "Zac actively advising against unnecessary spend, read by the lead as advisor behaviour rather than a sales push", "frequency": 1}
+  ],
+  "language_to_use": [
+    {"phrase": "This isn't a property issue you're having. It's a listing-establishment issue and it's a management-company issue.", "context": "Reframing blame for underperformance away from the property itself, toward a fixable operational cause"},
+    {"phrase": "I'm not going to sit here and say it's not going to be positive, because it will be", "context": "Confident but honest reassurance that avoids sounding like an overpromise"},
+    {"phrase": "We take on all the changeovers — you're never the manual cleaner", "context": "Growth-oriented, multi-property leads worried about scaling turning them into unpaid operational staff"},
+    {"phrase": "Two simultaneous changeovers without a management company is like running two restaurants as the only waiter — it doesn't scale", "context": "Analogy for portfolio-growth leads weighing whether to self-manage as they add properties"},
+    {"phrase": "Every review attached to your specific property, not a shared hotel-style listing", "context": "Leads frustrated with a pooled or hotel-style listing under their current provider"}
+  ],
+  "presentation_section_priority": [
+    "Diagnose specifically why the current management setup underperforms (reviews, pricing, listing structure, communication) using their own numbers",
+    "Contrast Stayful's model point-by-point against the current company (fee, platforms, guest screening, reporting cadence, individual vs shared listing)",
+    "Present income figures with an honest worst-case/average range and concrete proof points already in hand",
+    "Cover transition and handover mechanics (notice period, listing migration, review continuity) to remove logistics anxiety",
+    "Close on contract terms, any scale/portfolio angle if relevant, and a deadline-bound offer"
+  ],
+  "conversion_data": {
+    "total": 17,
+    "ready_now": 3,
+    "delayed": 14,
+    "had_meeting_2": 1,
+    "converted_to_customer": 0,
+    "most_common_lost_reason": ""
+  }
+}
