@@ -1,0 +1,236 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "075",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-07-31",
+  "transcript_quality": "full",
+  "lead_name": "Alice Axtell",
+  "email": "alice.axtell@icloud.com",
+  "monday_id": "12436459800",
+  "address": "Mill House, Whitbeck, Cumbria LA19 5UP",
+  "bedrooms": 3,
+  "profile_type": "PURCH",
+  "lead_profile_text": "Looking to buy a property for short term letting",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "certainty-seeker",
+  "conversion_likelihood": 55,
+  "profile_confidence": "High",
+  "primary_blocker": "Property purchase not yet complete — decision is tied to completion of the house purchase (still listed, no offer confirmed), compounded by an unresolved change-of-use/planning objection raised by a competing agent that Zac could not answer on the call.",
+  "language_signals": [
+    "It is better than I thought.",
+    "I've had another conversation with another agent to see what their view was. And their numbers were less than yours.",
+    "I don't want to go down the road with a property that's currently a fully residential buy it with the view to do this and then find out I can't actually rent it out.",
+    "we don't live anywhere near the lake district we're like four and a half hours away. So if there's a problem we have no hope in hell of getting there anytime soon.",
+    "you probably don't want to go too hard too soon because otherwise I'll be in a negative return on investment for a while"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-PUR",
+      "trigger_phrase": "That house is listed for sale at 420 grand. So obviously we'd hope that we could maybe get a little bit of a deal on it.",
+      "context": "The property is still on the open market / not yet under offer, and Alice's purchase (part inherited money, part mortgage) has not been finalised, so onboarding is tied to completion rather than being actionable now.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "they seemed to suggest to me that I shouldn't look at any property that doesn't already have the use for holiday lets because they said that actually in the lakes at the moment getting a change of use is quite difficult",
+      "context": "A competing agent warned Alice that change-of-use permission for short lets is difficult to obtain in the Lake District. Zac had no direct answer on the call ('I've not got too much... I've never heard of that before'), leaving a live planning-risk doubt over whether this specific property can legally be run as a holiday let.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "we don't live anywhere near the lake district we're like four and a half hours away. So if there's a problem we have no hope in hell of getting there anytime soon.",
+      "context": "Alice states she needs genuinely hands-off management because she lives 4.5 hours from the property — this is a structural requirement, not a preference, making Stayful's full-service model a hard need rather than an optional upsell.",
+      "strength": "strong"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": ""
+  },
+  "meeting_flow": {
+    "opening_phrase": "Hi Alice, how you doing?",
+    "rapport_topics": [
+      "apology for having to reschedule the call a few times",
+      "general how-are-you check-in"
+    ],
+    "pivot_to_business": "no problems by understanding a bit more about sort of your current situation in your situation with the property and interest in short letting. And then we could go through our figures for the property and our service.",
+    "income_intro": "we've got gross revenue for the property you inquired about, which was the one in Cumbria. 42,250 with a net revenue, which is 21 or 22,000, let's call it.",
+    "post_income_silence": "",
+    "how_it_works_transition": "In terms of, I know you were saying earlier about, you know, how to book the property and our services. So to give you just an idea of that. So we will list your multiple different platforms.",
+    "pre_close_setup": "So what I'll do after this call Alice is I'll just send a bit of summary of everything that we've spoken about I'll send over our agreement just so you've got it to hand if obviously you decide to buy this property",
+    "close_phrase": "No problem no problem all right well thanks have a good day I'll send that over to you the next sort of like I say 20 minutes if you want to send me back the the link and then we can we can.",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 65
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "I've had another conversation with another agent to see what their view was. And their numbers were less than yours.",
+      "category": "competitor comparison / trust objection",
+      "meeting_phase": "income_presentation",
+      "zac_responded_with": "Walked through comparable-property data and set ramp-up expectations (~20% lower income in year one, roughly 12-15 months to reach the local average of ~96 reviews) to explain why figures can differ.",
+      "lead_follow_up": "The income makes sense.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "some of the feedback I had from another agent was they seemed to suggest to me that I shouldn't look at any property that doesn't already have the use for holiday lets because they said that actually in the lakes at the moment getting a change of use is quite difficult",
+      "category": "planning/compliance objection",
+      "meeting_phase": "objection_handling",
+      "zac_responded_with": "Admitted he didn't know ('I've not got too much... I've never heard of that before'), suggested arguing the property is a second home rather than a use change, and floated an SPV/limited-company ownership structure with an accountant's input.",
+      "lead_follow_up": "Okay, it's almost like a sublet from the business.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "I know one company that I spoke to said that basically the more personal use I have, the more the fee changes do you have anything like that on your fees or your fee static.",
+      "category": "fee question",
+      "meeting_phase": "service_explanation",
+      "zac_responded_with": "Confirmed the 15% fee is static and only applies to guest bookings — personal use has no effect on it, and dates can be blocked freely via the central calendar.",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "with this obviously being the first time we've done something like this, we're probably not the most up to speed with all of the regulations and requirements with these things... I was told that in terms of setting a property up again for the first time with like all of the fire regs and everything can be a little bit expensive.",
+      "category": "compliance cost concern",
+      "meeting_phase": "service_explanation",
+      "zac_responded_with": "Reassured that compliance is currently simple (smoke alarms, fire blankets, extinguishers), said fire doors can be deferred roughly 6 months, and advised controlling setup cost and testing the idea before spending further.",
+      "lead_follow_up": "you probably don't want to go too hard too soon because otherwise I'll be in a negative return on investment for a while.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "we don't live anywhere near the lake district we're like four and a half hours away. So if there's a problem we have no hope in hell of getting there anytime soon.",
+      "category": "hands-off management concern",
+      "meeting_phase": "service_explanation",
+      "zac_responded_with": "Reassured that fully remote ownership is normal, cited managing for owners abroad, and said onboarding does not require being near the property.",
+      "lead_follow_up": "Perfect thank you.",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Change-of-use / planning risk for short lets in the Lakes, raised by a competing agent, was left unanswered on the call.",
+      "category": "unresolved objection",
+      "evidence": "Yeah, I've not got too much... I've never heard of that before in the lake district.",
+      "how_to_fill": "Get a written answer from Westmorland & Furness Council planning on change-of-use for short lets in the Whitbeck/Millom area and send it to Alice proactively rather than waiting for her to ask again.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "No follow-up call or Calendly booking was set before the meeting ended.",
+      "category": "no follow-up scheduled",
+      "evidence": "So what I'll do after this call Alice is I'll just send a bit of summary of everything that we've spoken about I'll send over our agreement just so you've got it to hand",
+      "how_to_fill": "Proactively propose and book a specific follow-up call instead of leaving next contact to an open-ended email exchange.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Lender-ready income projection for the mortgage application was promised but not sent during the call, and no timeline was set.",
+      "category": "financing dependency",
+      "evidence": "you're going to run into potential like mortgage... they're going to want to see from a management company like ours what the income projections are when you get to that point let me know on an email I can send you some figures",
+      "how_to_fill": "Send the lender-ready projection pack proactively now, and flag clearly that most lenders will not underwrite against projected STL income for a first holiday-let purchase.",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac presented net income figures (~£21-22k/yr) which landed higher than Alice expected.",
+      "lead_response": "It is better than I thought.",
+      "phase": "income_presentation",
+      "archetype_relevant": ["certainty-seeker", "analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Zac was upfront about the ramp-up period (~20% lower income in year one, 12-15 months to reach the local average of ~96 reviews) rather than only presenting best-case numbers, contrasting with a competitor's unexplained lower quote.",
+      "lead_response": "The income makes sense.",
+      "phase": "income_presentation",
+      "archetype_relevant": ["analytical-evaluator", "certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Zac explained the personal-use calendar-blocking mechanism and confirmed the management fee does not change with personal use.",
+      "lead_response": "Thank you.",
+      "phase": "service_explanation",
+      "archetype_relevant": ["certainty-seeker"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Alice raised the competing agent's change-of-use/planning warning and Zac had no direct answer.",
+      "lead_response": "Okay. / it was just one person that had said that to me... it was a potential concern",
+      "recovery_attempted": "Zac suggested framing the property as a second home and exploring an SPV/limited-company structure with an accountant, and said he would research the point himself.",
+      "resolved": false
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "Hi Alice, how you doing?",
+      "Thanks for coming on."
+    ],
+    "transition_phrases": [
+      "Well, if I'm honest, I mean, looking at the figures I've got in front of me, which I can share my screen and show you.",
+      "In terms of, I know you were saying earlier about, you know, how to book the property and our services.",
+      "A couple of other things to go through on how the service works."
+    ],
+    "reassurance_phrases": [
+      "I wouldn't let it all get too daunting for you because it's not as complicated as people might make it out to be if I'm being honest.",
+      "don't worry about that... you won't need to be at the property or near the property to come on board.",
+      "we manage for people that were in other countries"
+    ],
+    "emphasis_phrases": [
+      "the more rural you get, the more important that becomes",
+      "you want to keep cost reasonably controllable",
+      "test the idea first"
+    ],
+    "analogies_used": [
+      "buying it as a second house and Airbnb-ing it while you're not there",
+      "the property/trading structure as effectively a sublet from the business (lead's phrase, confirmed by Zac)"
+    ],
+    "numbers_framing": "Led with gross then net, itemised the deductions (booking fees ~15%, cleaning/laundry ~18%, management 15%), then showed the monthly spread (Jan low ~£1,200 vs summer peak ~£3,000) and used comparable-property ramp-up data (~96 avg reviews, ~20% lower income in ramp-up, 12-15 months to reach competitiveness) to pre-empt and contextualise the competitor's lower quote.",
+    "objection_handling_pattern": "Acknowledges uncertainty honestly when he doesn't know an answer (change of use) rather than guessing, reframes structural risk via a workaround (second-home framing, SPV), and defers firm legal/compliance detail to a specialist (accountant) rather than overpromising."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "PURCH",
+    "emotional_profile": "certainty-seeker",
+    "what_they_focused_on": [
+      "cross-referencing income figures against a competing agent's quote",
+      "personal-use mechanics and whether she'd actually get to enjoy the property",
+      "change of use / planning risk",
+      "hands-off management logistics given the 4.5-hour distance",
+      "sequencing and controlling setup/compliance cost"
+    ],
+    "what_they_needed_most": [
+      "evidence that Stayful's numbers were trustworthy against a lower competing quote",
+      "a definitive, written answer on change-of-use / planning risk",
+      "reassurance that full management genuinely means zero on-site involvement"
+    ],
+    "what_fell_flat": [
+      "Zac had no answer on the change-of-use / planning question raised by a competitor"
+    ],
+    "recommended_meeting_adjustment": "Have a written change-of-use answer for Lake District / protected-area postcodes ready to quote live on the call, rather than admitting no knowledge in the moment — this lead's blockers are evidential, not emotional, so unanswered questions carry more weight than they would for other profiles."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
