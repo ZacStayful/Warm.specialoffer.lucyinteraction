@@ -1,0 +1,65 @@
+{
+  "schema_version": "3.0",
+  "profile_type": "R2R",
+  "profile_description": "Rent-to-rent arrangement",
+  "total_entries": 6,
+  "last_updated": "2026-06-12",
+  "typical_situation": "Lead is negotiating or has already secured a rent-to-rent deal on someone else's property (typically a 1-2 bed flat, unfurnished, sourced via a deal-finding network or property education programme such as Touchstone) and wants Stayful to manage it as a short-let once they control the lease.",
+  "typical_motivation": "Build short-let income or a small portfolio without owning property, using rent-to-rent as a low-capital entry route into STL investing.",
+  "typical_timeline": "Entirely deal-dependent — tied to landlord rent negotiation and the property's vacant-possession date; leads decide fast once the numbers are confirmed, and abandon just as fast when they aren't.",
+  "most_common_emotional_profiles": [
+    {"archetype": "growth-oriented-investor", "count": 2, "percentage": 33.3},
+    {"archetype": "pragmatic-cost-focused", "count": 2, "percentage": 33.3},
+    {"archetype": "fast-path-gain-focused", "count": 1, "percentage": 16.7}
+  ],
+  "most_common_delays": [],
+  "most_common_green_lights": [],
+  "what_meeting_should_lead_with": "Lead with an honest, transparent margin calculation (landlord rent vs STL gross revenue vs Stayful's management fee vs setup cost) before anything else — R2R leads live or die entirely on whether the numbers stack up, and Zac's willingness to say plainly 'this doesn't work, walk away' when they don't builds more trust than a soft pitch would.",
+  "top_questions": [
+    {"question": "Does this R2R deal work financially once rent, Stayful's management fee, and setup costs are all stacked?", "frequency": 4, "confidence": 0.9, "best_answer": "Almost never at the landlord's initial asking rent — walk through gross STL revenue minus rent minus bills minus the 15%+VAT management fee; the deal typically needs the landlord to accept roughly 20% below asking rent before there is any real margin, and Zac says so directly rather than softening it."},
+    {"question": "What management model and contract terms would apply to an R2R arrangement?", "frequency": 1, "confidence": 0.5, "best_answer": "Standard Stayful management terms apply, but the extra rent layer on top means the economics must be checked before the model itself is even relevant."},
+    {"question": "Is [the deal's location] a good area for STL performance?", "frequency": 1, "confidence": 0.5, "best_answer": "Assessed on real local comps and demand drivers (major employers, transport links, hospitals, events calendar) rather than generic city-level reputation."},
+    {"question": "Can Stayful manage a shared/HMO-style accommodation property (individual lettable rooms, shared kitchen)?", "frequency": 1, "confidence": 0.6, "best_answer": "No — outside Stayful's operating model; redirect to a supported-living or HMO management specialist."},
+    {"question": "What realistic net STL revenue can I expect for this specific property, based on comparable local listings?", "frequency": 1, "confidence": 0.5, "best_answer": "Pull real 1-2km radius comps rather than generic averages, and set expectations for a ramp-up period (roughly 20% below average) until reviews build."},
+    {"question": "Would converting a spare room (e.g. dining room) into an extra bedroom trigger planning, licensing, or council tax issues?", "frequency": 1, "confidence": 0.5, "best_answer": "Not normally a material change of use; council tax can usually be switched to business rates, which is often zero-rated for a small property."}
+  ],
+  "top_objections": [
+    {"objection": "Margin is too thin once landlord rent, platform fees, and Stayful's management fee are all layered on top of each other", "frequency": 5, "resolution_rate": 0.0, "best_response": "Present the full layered cost math transparently and, when it genuinely doesn't work, advise the lead to walk away or renegotiate rent rather than trying to talk them past the numbers."},
+    {"objection": "Deal location is geographically inconvenient / too far from the lead's own base of operations", "frequency": 2, "resolution_rate": 0.0, "best_response": "Acknowledge the friction honestly; Stayful can manage remotely, but this rarely overcomes a lead's stated location preference for their own R2R portfolio."},
+    {"objection": "Property type (shared/HMO accommodation) is outside Stayful's operating model", "frequency": 1, "resolution_rate": 0.0, "best_response": "State clearly that Stayful cannot manage this model and redirect immediately to an HMO or supported-living specialist rather than continuing the meeting."},
+    {"objection": "Deal-source income figures feel unverified or salesy", "frequency": 1, "resolution_rate": 1.0, "best_response": "Replace deal-source projections with Stayful's own real comparable-property data for the specific micro-location — credibility and accuracy land better than optimistic figures."},
+    {"objection": "Converting a room could trigger planning/licensing or HMO risk", "frequency": 1, "resolution_rate": 1.0, "best_response": "Clarify it is not normally a material change of use and explain the business-rates council tax route directly, with a fallback option (e.g. games room with sofa bed) if room size is marginal."}
+  ],
+  "top_conversion_gaps": [
+    {"gap": "R2R deals reach web-meeting stage without the rent-vs-viability math being pre-qualified", "category": "qualification / deal_structure", "frequency": 3, "how_to_fill": "Pre-qualify R2R leads on rent vs STL gross revenue ceiling before booking the web meeting; if the landlord's asking rent leaves a thin margin after Stayful's fee and setup costs, flag or redirect before investing meeting time."},
+    {"gap": "Setup costs (typically £3-5k) are unrecoverable on already-thin R2R margins", "category": "cost_barrier", "frequency": 1, "how_to_fill": "Present setup cost as a key viability factor upfront for R2R leads and explore a minimal/phased setup to reduce entry cost and shorten payback."},
+    {"gap": "Lead's geographic operating preference not captured before the meeting", "category": "geography", "frequency": 1, "how_to_fill": "Capture the lead's preferred operating area before the meeting; if the specific deal doesn't match, be upfront rather than let it surface as a late objection."},
+    {"gap": "Shared accommodation / HMO-style properties slip through initial qualification to web-meeting stage", "category": "qualification", "frequency": 1, "how_to_fill": "Add an explicit shared-accommodation/HMO screening question to the first call so disqualified property types never reach a full web meeting."},
+    {"gap": "Deal rent not yet confirmed with the landlord, leaving viability genuinely unknown until it is", "category": "margin_viability", "frequency": 1, "how_to_fill": "Push for rent confirmation before the follow-up call, and state plainly (rather than letting the deal drag) if the resulting margin will be negligible."}
+  ],
+  "what_moves_them": [
+    {"point": "Real local demand drivers (major employer/infrastructure proximity, hospital, events calendar) used to support the revenue case", "frequency": 2},
+    {"point": "Being shown actual comparable-property data instead of generic or deal-source figures", "frequency": 1},
+    {"point": "Discussion of a direct-booking strategy as a possible margin-uplift lever", "frequency": 1}
+  ],
+  "language_to_use": [
+    {"phrase": "Not much opportunity in this deal", "context": "Honest, no-spin framing when the R2R margin math genuinely does not work, said plainly rather than softened"},
+    {"phrase": "I'd walk away if the landlord won't reduce", "context": "Direct advice against a bad deal — builds trust even in a meeting that doesn't convert"},
+    {"phrase": "Not a material change of use", "context": "Reassurance when a lead asks about converting a room into an extra bedroom"}
+  ],
+  "presentation_section_priority": [
+    "Confirm the deal structure and rent level first — this is the hard viability gate for every R2R lead",
+    "Show real, location-specific comparable STL revenue figures rather than generic or deal-source estimates",
+    "Walk through the full layered cost math (rent + Stayful management fee + setup cost) transparently, including honest advice to walk away if it doesn't work",
+    "Only once the numbers clear, cover the management model and how Stayful operates day-to-day",
+    "Address property-type compliance questions (HMO/shared accommodation, room conversions) early to avoid wasted time on disqualified property types"
+  ],
+  "conversion_data": {
+    "total": 6,
+    "ready_now": 5,
+    "delayed": 1,
+    "had_meeting_2": 0,
+    "converted_to_customer": 0,
+    "most_common_lost_reason": "R2R margins too thin after rent, Stayful management fees, and setup costs"
+  }
+}
