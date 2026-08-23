@@ -1,0 +1,229 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "073",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-07-09",
+  "transcript_quality": "full",
+  "lead_name": "Jamaen Cole",
+  "email": "jamaencole@hotmail.co.uk",
+  "monday_id": "12160628833",
+  "address": "22 Acton Road, Long Eaton, Nottingham, NG10 1FR",
+  "bedrooms": 3,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "Something else",
+  "stl_goal": "Cover the £1,244/month mortgage and generate income from the property while relocating for a new job, without needing to self-manage it",
+  "property_situation": "Owner-occupied for ~2 years; relocating for a new job end of July/early August 2026; consent to let already agreed with lender; nearly all furniture staying in place, only personal items being removed",
+  "property_type": "3-bedroom house",
+  "emotional_profile": "certainty-seeker",
+  "conversion_likelihood": 80,
+  "profile_confidence": "High",
+  "primary_blocker": "Awaiting confirmed relocation/start date from his new employer before he can sign the agreement and set a go-live timeline",
+  "language_signals": [
+    "Repeated brief agreeable affirmations (\"That's cool\", \"That makes sense\", \"Got it, got it\")",
+    "Detail-checking/clarifying question pattern before commitment (asked about Renters' Rights Act, cleaning charges, liability, waste collection, and figures accuracy)",
+    "Proactive self-initiated timeline management (\"I'll definitely let you know as soon as I've got that date\")"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Abandoned",
+  "lost_reason": "None",
+  "had_meeting_2": true,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-MOV",
+      "trigger_phrase": "I've got a call this afternoon with my new company to finalize some data and whatnot... I'll have a better idea about timeframes",
+      "context": "Jamaen is relocating for a new job end of July/early August and is awaiting his employer's confirmation of his exact start/relocation date before he can commit to a Stayful go-live date and sign the agreement",
+      "timeline_given": "Expected to know later the same day (9 July) after his afternoon call with his new employer",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "Management involvement: No — happy to hand it all over",
+      "context": "Pre-qual presentation response indicating he wants full management handover with no self-management involvement, consistently repeated across 6 presentation views (2026-06-01 to 06-03)",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "The house is pretty much ready to go to pieces. I've got like two more rooms to give a fresh coat of paint, that's about it",
+      "context": "Property is furnished and nearly move-in ready for STR, with consent to let already agreed with the lender and only minor cosmetic work remaining before his end-of-July/early-August departure",
+      "strength": "strong"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": ""
+  },
+  "meeting_flow": {
+    "opening_phrase": "Hi, Jamaen. How you doing?",
+    "rapport_topics": ["Jamaen joining the call on the move / logistics of joining"],
+    "pivot_to_business": "I thought I'd start just by understanding a bit more about your sort of current situation, interested in short letting, and we can go through some figures, and then get any questions",
+    "income_intro": "",
+    "post_income_silence": "",
+    "how_it_works_transition": "",
+    "pre_close_setup": "I mean, is everything else looking good for you, Jamaen, on this?",
+    "close_phrase": "So just drop me an email and obviously you've got the information together and we could put some timelines in place",
+    "meeting_2_ask": "No formal next meeting booked — Zac asked Jamaen to email once his relocation/start date is confirmed so they can set a go-live timeline; Zac noted he needs a few weeks' notice to onboard smoothly",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "I'm assuming that the contract... is in line with the new Renters' Rights Act?",
+      "category": "clarifying question - contract",
+      "meeting_phase": "opening / contract review",
+      "zac_responded_with": "Short letting isn't tied to the same regulations, so it doesn't really apply to what we're doing here",
+      "lead_follow_up": "Got that. That's cool",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "The cleaning and linen section says charges will be to the guest when possible — is that something you'd arrange?",
+      "category": "clarifying question - operations",
+      "meeting_phase": "mid-call Q&A",
+      "zac_responded_with": "It's automatic — the cleaning cost is bundled into the nightly price (e.g. a £100 clean included in the per-night rate), not billed separately to the owner",
+      "lead_follow_up": "That's cool",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "On the waste management side — is bin collection the responsibility of the cleaning company or the person in the property?",
+      "category": "clarifying question - operations",
+      "meeting_phase": "mid-call Q&A",
+      "zac_responded_with": "Cleaners are told to put bins out ahead of the nearest collection date; if there's overflow, commercial waste collection is arranged ad hoc or monthly; the process has improved a lot recently",
+      "lead_follow_up": "That's cool",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "The limitation of liability says the agent isn't liable for guest actions or non-compliance — what does that refer to?",
+      "category": "clarifying question - contract/liability",
+      "meeting_phase": "mid-call Q&A",
+      "zac_responded_with": "We're not liable for every guest action, but double bookings and complaints are on us; insurance and security deposits cover guest damage",
+      "lead_follow_up": "That makes sense. That's all good, that's fine. That's literally my question, I didn't have that many, to be fair",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "You mentioned in the email you changed nothing on the hospital — I think it's 20-25 minutes away by train, not close. Did that change the figures in a negative way?",
+      "category": "figures accuracy check",
+      "meeting_phase": "mid-call",
+      "zac_responded_with": "I wouldn't say so — the figures are based on comparable properties' actual performance, not proximity estimates, so it doesn't directly impact the numbers; I'll do a quick clarity check after this call and let you know",
+      "lead_follow_up": "It's pretty essential, not [an issue] — I've rented in the area before and found people working at hospitals renting nearby, so I think it should be alright. That's all been no problem for me",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "I've got a call this afternoon with my new company to finalize some dates... it's really a case of tying things up on my side with relocation and then signing the contract",
+      "category": "timeline / external blocker",
+      "meeting_phase": "closing",
+      "zac_responded_with": "That makes complete sense — let me know what's covered on that call and we can work out a timeline; it's nice to have a few weeks' notice ahead of time so onboarding is smoother",
+      "lead_follow_up": "Exactly. I'll definitely do that... I'll let you know as soon as I've got that date later on today",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "No confirmed go-live/relocation date secured by end of call",
+      "category": "timeline / external blocker",
+      "evidence": "Jamaen: \"I'll definitely let you know as soon as I've got that date later on today\"",
+      "how_to_fill": "Proactive same-day or next-day follow-up (call/WhatsApp) to capture the confirmed date directly rather than waiting passively for his email",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Zac's promised hospital-removal 'clarity check' on the figures was never confirmed as delivered in the record",
+      "category": "open action item",
+      "evidence": "Zac: \"I'll just read a few clarity checks on it after this call and let you know\"",
+      "how_to_fill": "Send a short written follow-up confirming the figures are unaffected by the hospital correction to close the loop and reinforce trust",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Despite a frictionless, no-objection call and a 'High' conversion probability rating, no agreement was signed and no further meeting was booked",
+      "category": "conversion failure despite high-probability signals",
+      "evidence": "Monday CRM status5 = \"Abandoned\"; no special offer applied; agreement file present but no evidence of signature/return; no meeting 2 date beyond this rescheduled call",
+      "how_to_fill": "Structured proactive follow-up cadence (call/WhatsApp/email) initiated by Stayful after the employer-date call, rather than leaving the next step solely dependent on the lead emailing in",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac's clear, concrete answers to each operational/contract question (Renters' Rights Act non-applicability, bundled cleaning costs, liability scope, bin logistics)",
+      "lead_response": "Repeated agreeable affirmations — \"That's cool\", \"That makes sense\", \"Got it, got it\"",
+      "phase": "mid-call, contract Q&A",
+      "archetype_relevant": ["certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Zac's confident anecdote about strong Long Eaton demand even for a very plainly-furnished comparable property (\"no lampshades... just a bare light... but we have managed to get diary bookings from it\")",
+      "lead_response": "\"Nice one, that sounds good\"",
+      "phase": "closing",
+      "archetype_relevant": ["certainty-seeker", "loss-averse-switcher"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Lead raised that removing the Nottingham City Hospital demand-driver claim (corrected after he flagged it was actually a 20-25 minute drive, not close) might have reduced the projected figures",
+      "lead_response": "Asked directly whether it changed the figures negatively",
+      "recovery_attempted": "Zac reassured him the figures are built from comparable properties' actual performance rather than proximity estimates, so it's unlikely to matter, and promised a clarity check",
+      "resolved": false
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "Hi, [name]. How you doing?",
+      "I thought I'd start just by understanding a bit more about your current situation, interested in short letting, and we can go through some figures, and then get any questions"
+    ],
+    "transition_phrases": [
+      "I mean, is everything else looking good for you... on this?",
+      "Yeah, sure, that makes complete sense",
+      "So just drop me an email and... we can put some timelines in place"
+    ],
+    "reassurance_phrases": [
+      "I wouldn't say so, no",
+      "It doesn't directly impact the figures because the figures are based off comparable properties, not estimates",
+      "We have the insurance covering it in place, we have the security deposits as an example"
+    ],
+    "emphasis_phrases": [
+      "It's automatic",
+      "That's on us",
+      "It's got a lot better recently in managing that process"
+    ],
+    "analogies_used": [
+      "Describing rough demand estimates as 'a bit like a guesstimate' compared to the actual comparable-property data used for the figures",
+      "The 'bare light, no lampshades' plain comparable property that still achieved diary bookings, used as proof-of-demand evidence"
+    ],
+    "numbers_framing": "Zac did not re-quote specific figures this call — he reassured qualitatively (\"the figures look good\") and pointed to comparable-property performance rather than restating numbers, since this was a follow-up/operational call rather than the original figures presentation",
+    "objection_handling_pattern": "For each operational question, Zac gives a short direct answer, then a concrete mechanic or example (bundled cleaning cost, bin-day process, double-booking liability example), then checks understanding (\"Does that make sense?\") before moving on"
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "certainty-seeker",
+    "what_they_focused_on": [
+      "Contract mechanics (Renters' Rights Act applicability)",
+      "Cost bundling (cleaning/linen)",
+      "Liability boundaries",
+      "Waste/bin logistics",
+      "Whether a factual correction (hospital distance) had quietly worsened his income figures"
+    ],
+    "what_they_needed_most": [
+      "Operational certainty and concrete mechanics before signing",
+      "Confirmation that a corrected inaccuracy hadn't reduced his projected numbers"
+    ],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": "For certainty-seeking ABROAD leads who are otherwise fully bought-in on the figures, proactively close the loop on any promised follow-ups (e.g. the hospital clarity check) in writing immediately after the call, and don't leave the next step solely dependent on the lead initiating contact — this lead ultimately moved to Abandoned status despite a frictionless, no-objection call and a 'High' conversion rating, suggesting the passive 'wait for his email' close let momentum die once his relocation logistics took over."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
