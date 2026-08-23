@@ -1,0 +1,266 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "075",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-08-03",
+  "transcript_quality": "full",
+  "lead_name": "Indra Bassi",
+  "email": "indrabassi@hotmail.co.uk",
+  "monday_id": "12518650698",
+  "address": "46 Berlington Court, Caxton Gate, Redcliff Mead Lane, Redcliffe, Bristol BS1 6FB",
+  "bedrooms": 2,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "certainty-seeker",
+  "conversion_likelihood": 65,
+  "profile_confidence": "high",
+  "primary_blocker": "Setup quote and next steps are blocked pending the lead sending photos/video of the property so Zac can price the furnishing setup",
+  "language_signals": [
+    "exploratory framing ('give it a go', 'a different option') rather than committed language",
+    "already knew about the second-home council tax premium before Zac explained it -- a test question, not a genuine gap in knowledge",
+    "asked 'does it need any input from us' in two different forms across the call -- hands-off involvement is the real buying criterion, above income",
+    "used 'we' throughout -- joint decision with a partner, both voices present on the call"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-FUR",
+      "trigger_phrase": "So the property would, would need fully furnishing",
+      "context": "Property is unfurnished (white goods only). Zac told the lead directly he needs photos/video of the property before he can price the furnishing setup, so the setup quote -- the next concrete step toward signing -- cannot be produced until then.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "We want something where somebody takes control and we are not involved other than paying a commission or whatever.",
+      "context": "Stated as their opening requirement before any figures were discussed -- matches Stayful's full-management, hands-off model almost word for word.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "we have completely refurbished it now, and it's ready to let now",
+      "context": "Property is vacant, fully refurbished, and immediately lettable -- no tenancy, move, or purchase blocker; the only pending item is the furnishing quote itself.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "Interesting, you know, if your projections show that we can get that sort of income, you know, that's what we were looking at.",
+      "context": "The closest the lead came to a personal commitment signal on the call -- conditional but genuine interest in proceeding if the figures hold up.",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "no offer made"
+  },
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start just by understanding your sort of current situation and situation with the property and interest, you know, in short letting. Then we can go through some figures in our service.",
+    "rapport_topics": [
+      "property history and recent refurbishment",
+      "previous tenant of 8 years, only 2-3 tenants across 15 years",
+      "proximity to Bristol Temple Meads and the city centre"
+    ],
+    "pivot_to_business": "Well, what I can do is I can share my screen and we can go through some of the income projections for you if you just give me a minute.",
+    "income_intro": "So we're looking at a net income of about 2400 pound per month. So that's average. And that's after basically all of the cost that we have.",
+    "post_income_silence": "",
+    "how_it_works_transition": "Screen share failed entirely, so 'how it works' was answered reactively rather than as a planned transition -- in response to the lead's own question 'How does it work? ... do you pay us a fixed amount ... or does it vary?', Zac explained payout is on income actually received.",
+    "pre_close_setup": "Based off of what we're, what we've discussed, I mean, does it look like it'd be of interest to you, or is it look like it's something that wouldn't work for you?",
+    "close_phrase": "I can send you a detailed sort of action plan slash summary of everything we've spoken about. I'll send over our agreement as well.",
+    "meeting_2_ask": "we could probably follow up sort of next week, have a call and go through it in a bit more detail",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 70
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "Can I just ask, so what happens if it doesn't let for part of the month, or some month for some reason it doesn't let at all?",
+      "category": "vacancy/risk objection",
+      "meeting_phase": "income discussion",
+      "zac_responded_with": "We can only pay out on income that we receive... this is why we go through these projections with people, so they understand and are aware of all the risks that come with it.",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "How does it work? So do we go by what you earn per month, or do you pay us a fixed, like, amount for the year less your commission, or does it vary?",
+      "category": "guaranteed-rent probe",
+      "meeting_phase": "income discussion",
+      "zac_responded_with": "If you're wanting something that's stable but a much lower return, long-letting is the option... but in your position the risk is very, very low because you don't have any mortgage.",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Other than paying the mortgage, we have to pay the bills. We don't have a mortgage on it. So which bills would that involve? ... 400 pounds per year?",
+      "category": "cost clarification",
+      "meeting_phase": "early / income intro",
+      "zac_responded_with": "Council tax, gas, electricity, water and Wi-Fi... probably around sort of 400 pound... per month.",
+      "lead_follow_up": "400 pounds per year? (checking whether the figure was annual or monthly)",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Who pays the council tax on the flat? Does it count as a second home? ... the council tax is twice if it's your second home, a personal name.",
+      "category": "council tax / second home",
+      "meeting_phase": "mid-call",
+      "zac_responded_with": "I would quite heavily advise putting it in a limited company because you can then apply for something that's called small business rates relief... it will lower your council tax bill to zero.",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "So does it need any input from us? We don't need to go to the flat or do anything there?",
+      "category": "hands-off confirmation",
+      "meeting_phase": "logistics",
+      "zac_responded_with": "The property would need fully furnishing, we can do that for you... I'd need somewhere to pick the keys up from, and some photos of the property ahead of time so I can price something up.",
+      "lead_follow_up": "Unfurnished just with white goods.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "[garbled] ...reject the cat [guests] ... make sure they need when they come and go that way in the same condition",
+      "category": "damage/condition concern",
+      "meeting_phase": "late",
+      "zac_responded_with": "We do ID checks for every guest and we do security deposits as well... if we do have some kind of bad experience, or things stolen or broken, we claim our security deposit.",
+      "lead_follow_up": "",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "No visual presentation was ever shown -- the lead saw no chart, comparables, or case studies because the screen share failed for the entire call.",
+      "category": "presentation delivery failure",
+      "evidence": "We can just see your face. We can't see a computer or anything.",
+      "how_to_fill": "The written action plan and follow-up email must carry the full figures and visual load that the live call never delivered.",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Year-one bills-adjusted uplift over staying long-let is marginal (about +£2,037/yr) and the lead has not yet run this maths themselves.",
+      "category": "financial objection risk",
+      "evidence": "BILLS-ADJUSTED REALITY: Y1 £18,226 vs LTL £16,189 = +£2,037/yr -- year one is close to a wash.",
+      "how_to_fill": "Pre-empt explicitly in the action plan and email rather than let the lead discover it unprompted.",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Setup quote cannot be finalised until the lead sends photos or video of the property.",
+      "category": "operational blocker",
+      "evidence": "I would need some photos of the property ahead of time so I can actually price something up for you.",
+      "how_to_fill": "Chase the lead directly for photos/video -- it is the only thing standing between now and a signable proposition.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "No concrete follow-up meeting date or time was actually booked despite verbal intent to reconnect.",
+      "category": "next-steps gap",
+      "evidence": "we could probably follow up sort of next week, have a call and go through it in a bit more detail -- but no specific date/time was agreed, so nothing was booked in Calendly.",
+      "how_to_fill": "Offer a concrete meeting 2 slot alongside the furnishing quote once photos arrive.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "One figure was misspoken live -- the worst month was stated as roughly £1,400 moments after £1,900 (January) had already been quoted for the same worst-case month.",
+      "category": "delivery error",
+      "evidence": "even on a worst month you're still going to be making sort of 1400 pound -- stated shortly after quoting January at £1,900.",
+      "how_to_fill": "Ensure the written follow-up materials show the correct £1,895-£1,900 floor so the misspoken figure is not what sticks.",
+      "filled_in_action_plan": true
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac's council-tax business-rates relief advice -- the route to reduce council tax on the second home to zero.",
+      "what_lead_said": "",
+      "lead_response": "Most engaged point of the call; the lead followed up immediately with clarifying questions about the second-home premium.",
+      "phase": "mid-call",
+      "archetype_relevant": ["certainty-seeker", "analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Zac's framing of the hands-off model matching the lead's stated requirement almost word for word ('The only thing you'll have to deal with is paying the mortgage and the bills... we'll deal with everything else').",
+      "lead_response": "Yeah -- immediate agreement, no resistance.",
+      "phase": "early",
+      "archetype_relevant": ["certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Direct income comparison against their known long-let baseline (short-let framed as roughly £500-£2,000/month more).",
+      "lead_response": "Interesting, you know, if your projections show that we can get that sort of income, you know, that's what we were looking at.",
+      "phase": "income discussion",
+      "archetype_relevant": ["analytical-evaluator", "fast-path-gain-focused"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Zac's screen share never worked for the entire call -- his laptop froze and he attempted sharing at least three times before abandoning it.",
+      "lead_response": "We can just see your face. We can't see a computer or anything.",
+      "recovery_attempted": "Zac talked the figures through verbally instead and promised to send everything over by email within 20 minutes.",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Figures were delivered out of order and one was misspoken (worst month stated as roughly £1,400 shortly after quoting £1,900 for January).",
+      "lead_response": "No visible pushback in the transcript, likely masked by the ongoing screen-share confusion.",
+      "recovery_attempted": "None live; relies entirely on the written action plan carrying the correct figures.",
+      "resolved": false
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "I thought I'd start just by understanding your sort of current situation and situation with the property and interest, you know, in short letting. Then we can go through some figures in our service."
+    ],
+    "transition_phrases": [
+      "What I can do is I can share my screen and we can go through some of the income projections for you",
+      "Just taking you through the income",
+      "Based off of what we've discussed, does it look like it'd be of interest to you, or is it look like it's something that wouldn't work for you?"
+    ],
+    "reassurance_phrases": [
+      "the risk is pretty, pretty negligible, if I'm honest",
+      "there's not really a terrible amount of risk here",
+      "even with the double council tax in place, you're still going to be making more on a short let than on a long"
+    ],
+    "emphasis_phrases": [
+      "The only thing you'll have to deal with is paying the mortgage and the bills, essentially. And we'll deal with everything else.",
+      "you can then apply for something that's called small business rates relief... it will lower your council tax bill to zero"
+    ],
+    "analogies_used": [],
+    "numbers_framing": "Delivered net income verbally as a monthly average (about £2,400/month) framed against a worst month (about £1,900 in January, misspoken once as £1,400) and a best month (about £3,200 in July), then directly compared against their known prior long-let rent (£1,200-£1,500/month) to show a roughly £500-£2,000/month uplift.",
+    "objection_handling_pattern": "Acknowledges the objection briefly, reframes toward low risk given the property has no mortgage, then pivots to a direct comparison against the lead's own known long-let baseline rather than dwelling on downside scenarios."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "certainty-seeker",
+    "what_they_focused_on": [
+      "level of personal involvement required",
+      "bills and council tax costs",
+      "downside/vacancy risk",
+      "whether income is guaranteed or variable"
+    ],
+    "what_they_needed_most": [
+      "confirmation of a fully hands-off arrangement",
+      "a clear, itemised bills number",
+      "reassurance on worst-case months",
+      "reassurance the property condition is protected"
+    ],
+    "what_fell_flat": [
+      "the entire visual presentation -- screen share never worked, so no chart, comparables, or case studies were seen",
+      "verbal-only delivery of monthly figures, which was disordered and included one misspoken number"
+    ],
+    "recommended_meeting_adjustment": "Have a backup ready for screen-share failure before the call (e.g. pre-send the presentation link so the lead can follow along on their own device), and script the worst/best month figures precisely to avoid live misstatement."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
