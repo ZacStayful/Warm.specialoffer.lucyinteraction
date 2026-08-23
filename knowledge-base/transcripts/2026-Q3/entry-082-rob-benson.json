@@ -1,0 +1,268 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "082",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-08-14",
+  "transcript_quality": "full",
+  "lead_name": "Rob Benson",
+  "email": "robbenson166@gmail.com",
+  "monday_id": "12738036275",
+  "address": "Falling Water, Gloucester Road, Rudgeway, Bristol BS35 3SF",
+  "bedrooms": 4,
+  "profile_type": "PURCH",
+  "lead_profile_text": "Looking to buy a property for short term letting",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "analytical-evaluator",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Construction not yet complete (property ~3-4 weeks from finish, not furnished or photo-ready) — no firm handover/launch date could be set; secondary unresolved risk around whether his new-build mortgage lender permits short-letting.",
+  "language_signals": [
+    "long-term-asset-holding-language",
+    "low-touch-management-preference",
+    "analytical-decomposition-of-revenue-model",
+    "comfortable-with-breakeven-downside",
+    "capital-secure-via-other-income-streams"
+  ],
+  "portfolio_flag": true,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "the building game is never that predictable",
+      "context": "Property is still under construction, ~3-4 weeks from completion and not yet furnished or photo-ready; Rob declined to commit to a handover date until he can confirm contractor progress.",
+      "timeline_given": "3-4 weeks to completion; Rob to confirm contractor progress in ~2 weeks and prefers a follow-up call next week rather than fixing a date now",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "the more I can raise the mortgage, the met... mortgage they just want to see rentals because it's a new house they want to see comparables",
+      "context": "Lender for the new-build mortgage may require rental comparables and limit borrowing, and it is not established whether his mortgage product even permits short-letting; raised by Rob but not pursued in depth on the call.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "I don't want to be super hands-on if I'm honest, because I've got lots of other things to do.",
+      "context": "Rob explicitly wants Stayful to run the letting rather than doing it himself, despite already self-managing long-term-let flats — a clear management-readiness signal.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "I'd be interested to see what that was.",
+      "context": "Rob engaged positively when Zac offered to price the cosmetic/furnishing setup, rather than declining and saying he'd do it himself.",
+      "strength": "moderate"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "I'm literally three weeks away from finishing... within a month's time, it'll be ready",
+      "context": "A concrete, bounded near-term completion window was given despite his reluctance to fix an exact next-call date.",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "no_offer_made"
+  },
+  "meeting_flow": {
+    "opening_phrase": "I thought start just by understanding a bit more about your sort of current situation and how we can help.",
+    "rapport_topics": [
+      "Rob's part-time hobby developing houses and this being his first self-developed high-end Airbnb project",
+      "eco/off-grid house specification (Tesla batteries, triple glazing, near-passive-house standard)",
+      "location and access to Bristol, Bath, Cheltenham and the Cotswolds"
+    ],
+    "pivot_to_business": "So we've managed to do some income projections for you based off of this.",
+    "income_intro": "So we've managed to do some income projections for you based off of this. So we're looking for this property about 8,000 of gross revenue, 42,000 Revenue a year. It's about three and a half thousand a month.",
+    "post_income_silence": "None — Rob responded immediately with a data-reliability objection rather than pausing.",
+    "how_it_works_transition": "I mean, touching the first question, the only thing that we really sort of need to get started on our side of things is obviously property to be fully furnished, which I can give you a price for that, or I can give you a free self guide...",
+    "pre_close_setup": "I mean, then normally, if we're doing that as well, we probably, if we can say we'll do maybe another call when we're nearing the end.",
+    "close_phrase": "Okay, well, a couple of things I do then after this call for you, Rob, is I'll send you over our management agreement so you've got it. You can read some of the terms and stuff, and then I'll just summarize what we've spoken about in an email.",
+    "meeting_2_ask": "As far as arranging that call, I mean, are you right to look at doing that now, or is it a bit up in the [air]? — Rob declined to fix a date, citing unpredictable build timelines, and proposed reconnecting next week once contractor items were confirmed.",
+    "total_duration_mins": 10,
+    "talk_ratio_zac_pct": 40
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "if I'm totally honest, I wasn't sure given the information that I gave you, whether that would be precise enough for you to be able to calculate to a degree of reliability",
+      "category": "forecast_reliability_objection",
+      "meeting_phase": "income presentation",
+      "zac_responded_with": "Explained the model runs on bedrooms, bathrooms, parking and address-based competition, and that figures tie together more precisely once photos are provided.",
+      "lead_follow_up": "Accepted the explanation and moved on to describing the property in more detail.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "forgive me, Zac. I'm probably being thick, but what do you think after your assessment of my bills is do you think I'll be left with each month?",
+      "category": "needs_arithmetic_spelled_out",
+      "meeting_phase": "income presentation",
+      "zac_responded_with": "Walked through the sum live: ~£3,500 average net minus ~£300 bills minus ~£2,300 mortgage, landing on ~£800-900/month average, break-even worst case, ~£2,500 best case.",
+      "lead_follow_up": "Reframed that he isn't chasing maximum monthly income but a long-term asset-holding strategy.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "there's two parts. One is what is achievable as a rent. And secondly, what is the occupancy rate? ... those are obviously the two parts of the equation that drive the ultimate Revenue.",
+      "category": "self-directed_model_decomposition",
+      "meeting_phase": "income presentation",
+      "zac_responded_with": "Confirmed the two inputs directly: ~50% occupancy at £440/night.",
+      "lead_follow_up": "Moved on to ask about comparables and competition.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "what do I do next to get to a position where you're confident that the numbers you're telling me are solid, and secondly, then obviously how we go about trying to get the thing let and get the revenue started",
+      "category": "sequencing_question",
+      "meeting_phase": "transition to next steps",
+      "zac_responded_with": "Explained the furnishing/setup requirements, that Stayful can price the setup, and the ~1-2 week (or ~3 week with setup) onboarding timeline once photo-ready.",
+      "lead_follow_up": "Confirmed he was ~3-4 weeks from completion and would send photos/plans after the call.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "the more I can raise the mortgage, the... mortgage they just want to see rentals because it's a new house they want to see comparables",
+      "category": "mortgage_underwriting_risk",
+      "meeting_phase": "income presentation",
+      "zac_responded_with": "No direct response on the call — the conversation moved on to the rent/occupancy decomposition question.",
+      "lead_follow_up": "Did not raise it again on the call.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "the building game is never that predictable",
+      "category": "timeline_uncertainty",
+      "meeting_phase": "close / meeting 2 ask",
+      "zac_responded_with": "Accepted this and did not push for a fixed date.",
+      "lead_follow_up": "Proposed reconnecting next week once contractor items are confirmed, rather than waiting the full two weeks Zac suggested.",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Mortgage/lending permission for short-let use on a new-build not addressed",
+      "category": "risk-unaddressed",
+      "evidence": "Rob raised that lenders 'want to see comparables' for a new house and this was not pursued in depth on the call.",
+      "how_to_fill": "Raise explicitly and provide short-let mortgage guidance or a lender referral before Rob signs anything; add a mortgage-permission qualifying question at enquiry stage.",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "No follow-up call date locked in",
+      "category": "no-meeting-2-booked",
+      "evidence": "'the building game is never that predictable... let's perhaps try and next week is probably better'",
+      "how_to_fill": "Trigger the chase off the arrival of Rob's photos rather than a fixed calendar date; recommended chase week commencing 2026-08-17.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "PropertyData valuation range (£306,000-£414,000) likely understated against Monday's recorded £590,000 purchase/value, which also affects the mortgage/lender conversation",
+      "category": "data-quality",
+      "evidence": "Presentation DATA ISSUES note: 'For a near-Passive-House new build with a double garage this is very likely understated.'",
+      "how_to_fill": "Correct the valuation range in the presentation/analyser before it is used again, particularly given Rob's live lender conversation.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Presentation slide displayed nonsense investment-returns math (£590,000 purchase price mapped into the monthly-mortgage field)",
+      "category": "data-quality",
+      "evidence": "'Net income vs £590,000/mo mortgage — 0.0x — £3,544/mo net covers £590,000 — £-586,456 clear' shown on the live client-facing slide.",
+      "how_to_fill": "Fix the presentation generator's field mapping between purchase price and monthly mortgage (second consecutive run with this class of bug).",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac directly confirmed the mortgage would be comfortably covered by the projected income",
+      "lead_response": "I don't see a situation where you're going to be struggling to find the money for the mortgage — landed as the direct answer to Rob's real underlying question.",
+      "phase": "income presentation",
+      "archetype_relevant": ["certainty-seeker", "analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Low-competition finding presented alongside a named local comparable (Foxholes Barn)",
+      "lead_response": "I know some of those, like Foxholes Barn. I know what it is because I live locally... It is quite unique.",
+      "phase": "comparables discussion",
+      "archetype_relevant": ["analytical-evaluator", "certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Offer to price the furnishing/cosmetic setup so Rob doesn't have to organise it himself",
+      "lead_response": "I've got lots of things to do. Don't worry... I'd be interested to see what that was.",
+      "phase": "next steps / close",
+      "archetype_relevant": ["fast-path-gain-focused"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Rob directly questioned whether the forecast could be reliable given the limited information he'd provided",
+      "lead_response": "I wasn't sure given the information that I gave you, whether that would be precise enough for you to be able to calculate to a degree of reliability.",
+      "recovery_attempted": "Zac explained the model's inputs (bedrooms, bathrooms, parking, address-based comps) and that precision improves once photos are supplied.",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "Screen-share technical difficulty when Rob tried to show photos of the property",
+      "lead_response": "It's frustrating that.",
+      "recovery_attempted": "Zac told him he could simply send the photos after the call instead of fighting the screen-share.",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "Rob raised new-build mortgage/lender comparable requirements as a live concern",
+      "lead_response": "Raised it once, unprompted, then did not press further when the conversation moved on.",
+      "recovery_attempted": "None on the call — only addressed afterward in the action plan and follow-up email.",
+      "resolved": false
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "I thought start just by understanding a bit more about your sort of current situation and how we can help."
+    ],
+    "transition_phrases": [
+      "So we've managed to do some income projections for you based off of this.",
+      "I mean, touching the first question, the only thing that we really sort of need to get started on our side of things is..."
+    ],
+    "reassurance_phrases": [
+      "These figures, it gets more tied together once we've got some photos.",
+      "I don't see a situation where you're going to be struggling to find the money for the mortgage as an example."
+    ],
+    "emphasis_phrases": [
+      "I think there's a lot of good signs here, like achieving this income is realistic. There's quite little competition and the property is quite unique as well."
+    ],
+    "analogies_used": [],
+    "numbers_framing": "Presented average/worst/best-case monthly net figures (~£3,500 average, ~£2,600 worst, ~£5,500 best) built on 50% occupancy and £440 ADR, framed as already net of platform commissions, cleaning, laundry and management fee, so Rob only needed to subtract his own mortgage and bills.",
+    "objection_handling_pattern": "Acknowledges the reliability objection directly, then grounds it in the specific inputs the model uses (bedrooms/bathrooms/parking/address comparables), and defers full precision to post-photo refinement rather than over-claiming accuracy up front."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "PURCH",
+    "emotional_profile": "analytical-evaluator",
+    "what_they_focused_on": [
+      "forecast reliability and data provenance",
+      "decomposing the rate x occupancy = revenue math himself",
+      "the actual monthly cash left after mortgage and bills",
+      "delegating furnishing/setup rather than doing it himself"
+    ],
+    "what_they_needed_most": [
+      "the monthly net figure spelled out in plain arithmetic",
+      "explicit confidence that the mortgage would be serviceable",
+      "confirmation of low competition and the property's uniqueness"
+    ],
+    "what_fell_flat": [
+      "new-build mortgage/lender underwriting question raised but not addressed in depth on the call",
+      "screen-share/photo-sharing technical friction that stopped him showing the property live"
+    ],
+    "recommended_meeting_adjustment": "For developer-owner/analytical leads with other income streams, lead with an explanation of model reliability and named local comparables before the headline figure, present the honest (not smoothed) year-one number since downside risk doesn't concern them, and proactively raise short-let mortgage/lender permission rather than waiting for the lead to bring it up."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
