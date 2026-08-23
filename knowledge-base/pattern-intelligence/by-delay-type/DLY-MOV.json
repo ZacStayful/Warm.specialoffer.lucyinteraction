@@ -1,0 +1,49 @@
+{
+  "schema_version": "3.0",
+  "delay_type": "DLY-MOV",
+  "delay_description": "Moving abroad / leaving residence — must physically move out",
+  "total_entries": 8,
+  "last_updated": "2026-07-30",
+  "trigger_phrases": [
+    {"phrase": "Relocating abroad with a firm departure date already set", "frequency": 2},
+    {"phrase": "Relocating and needs a remote/hands-off management solution while away", "frequency": 2},
+    {"phrase": "Considering relocating to another city — decision window still open", "frequency": 1},
+    {"phrase": "Must sell/complete on another property before they can vacate this one", "frequency": 1},
+    {"phrase": "Relocating for work — awaiting employer's confirmed start/move date", "frequency": 1},
+    {"phrase": "Extended annual travel sets the earliest realistic launch window", "frequency": 1}
+  ],
+  "typical_timeline": {
+    "most_common_months": 3,
+    "range_min_months": 1,
+    "range_max_months": 8,
+    "notes": "Departure timing ranged from same-day confirmation (awaiting an employer call that afternoon) to an eight-month annual travel cycle; most concrete departure dates clustered around two to three months out from the call."
+  },
+  "what_leads_focus_on_while_waiting": [
+    {"concern": "Whether remote/hands-off management actually works when they're not in the country", "frequency": 3},
+    {"concern": "Getting a firm departure date confirmed (from an employer, a sale, or their own plans) before committing to a go-live date", "frequency": 3},
+    {"concern": "Coordinating the exact onboarding/go-live date around the move-out window", "frequency": 2},
+    {"concern": "A prerequisite sale of another property needed to fund or enable the move", "frequency": 1},
+    {"concern": "Partner/family sign-off on the plan before proceeding", "frequency": 1}
+  ],
+  "emotional_profiles_most_common": [
+    {"profile": "certainty-seeker", "count": 4},
+    {"profile": "loss-averse-switcher", "count": 2},
+    {"profile": "analytical-evaluator", "count": 1},
+    {"profile": "unspecified", "count": 1}
+  ],
+  "how_to_handle_in_meeting": {
+    "acknowledge_phrase": "That makes complete sense — let me know what's covered on that call and we can work out a timeline; it's nice to have a few weeks' notice ahead of time so onboarding is smoother.",
+    "timeline_question": "Once you've got your move/departure date confirmed, roughly how much notice would you want to give us to get everything onboarded and live before you go?",
+    "reframe_approach": "Treat the departure date as the trigger for a pre-planned onboarding window, not as a reason to pause the conversation — agree now what happens in the weeks immediately after they leave.",
+    "how_to_keep_engaged": "Ask for a specific update point tied to their own confirmation event (employer call, sale completion, visa date) and reassure them concretely that remote ownership is normal (cite managing for owners already abroad).",
+    "what_to_write_to_monday": "Log the expected departure/vacate date, what it's contingent on (employer confirmation, a sale, visa), and the notice period the lead wants before going live, so the follow-up is timed to their real trigger event."
+  },
+  "conversion_after_delay": {
+    "total": 8,
+    "eventually_converted": 1,
+    "conversion_rate": 0.13,
+    "avg_months_to_convert": 0,
+    "drop_off_reason": "Likely deterred by large 5-bed setup costs and timing uncertainty; moved abroad"
+  },
+  "do_not_attempt_offer_because": "The lead is not yet physically out of the property (or not yet certain when they will be), so there is no date Stayful can realistically go live by — a signing deadline set before their actual move-out date only pressures a decision the lead cannot yet act on."
+}
