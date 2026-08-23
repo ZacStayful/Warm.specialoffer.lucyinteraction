@@ -1,0 +1,228 @@
+{
+  "schema_version": "3.0",
+  "total_lost_entries": 13,
+  "last_updated": "2026-07-31",
+  "by_reason": {
+    "Likely deterred by large 5-bed setup costs and timing uncertainty; moved abroad": {
+      "count": 1,
+      "percentage": 7.7,
+      "emotional_profiles": {
+        "Moving abroad — needs remote management solution. Concerned about setup costs and financial viability for a large property. Possibly deterred by high upfront investment required for 5-bed Airbnb conversion.": 1
+      },
+      "profile_types": {
+        "ABROAD": 1
+      },
+      "typical_conversion_gaps_at_abandonment": [
+        "income_confidence",
+        "trust"
+      ],
+      "was_offer_made": 0,
+      "was_offer_not_made": 1,
+      "meeting_phase_of_abandonment": "",
+      "prevention_approach": "Show setup cost amortisation over 12-24 months vs LTL alternative; present actual 5-bed Lancashire comparable earnings Emphasise remote landlord portfolio; share case studies of owners managed fully remotely from abroad"
+    },
+    "LTL vs STL margin too thin given very low £260/mo mortgage; setup costs too high to justify switch": {
+      "count": 1,
+      "percentage": 7.7,
+      "emotional_profiles": {
+        "Cautious evaluator. Very low mortgage (£260/mo) means the existing LTL is already comfortable — limited financial pain driving change. Setup cost deterred without compelling income uplift.": 1
+      },
+      "profile_types": {
+        "STL-SW": 1
+      },
+      "typical_conversion_gaps_at_abandonment": [
+        "income_confidence",
+        "cost_barrier"
+      ],
+      "was_offer_made": 0,
+      "was_offer_not_made": 1,
+      "meeting_phase_of_abandonment": "",
+      "prevention_approach": "For STL Switch leads with very low mortgages, lead with capital compounding angle — STL income funds next property purchase faster; frame as wealth acceleration not cost reduction Offer phased setup or lighter-touch starting point to reduce upfront commitment; show payback period on setup investment"
+    },
+    "R2R margin too thin — rent + Stayful management fees + setup costs leave insufficient profit; Sheffield not preferred geographic area": {
+      "count": 1,
+      "percentage": 7.7,
+      "emotional_profiles": {
+        "Entrepreneurial R2R investor. Numbers-focused. Abandoned quickly when financial model did not work.": 1
+      },
+      "profile_types": {
+        "R2R": 1
+      },
+      "typical_conversion_gaps_at_abandonment": [
+        "deal_structure"
+      ],
+      "was_offer_made": 0,
+      "was_offer_not_made": 1,
+      "meeting_phase_of_abandonment": "",
+      "prevention_approach": "Qualify R2R leads early on rent level vs STL gross revenue ceiling — if landlord asking price leaves thin margin before management fees and setup, advise walking away before investing meeting time"
+    },
+    "Landlord won't reduce rent from £1,000/mo to viable ~£800/mo. At £1,000 rent profit near zero. Setup cost ~£3-5k unrecoverable. Sheffield too far from Rasheed's Manchester base.": {
+      "count": 1,
+      "percentage": 7.7,
+      "emotional_profiles": {
+        "Entrepreneurial. Manchester-based, looking for R2R opportunities. Optimistic about STL income but constrained by landlord's rent demands. Needs 20% rent reduction from landlord — Zac acknowledged this is rare. Language: 'doesn't work', 'walk away', 'closer to Manchester', 'not much opportunity in this deal'.": 1
+      },
+      "profile_types": {
+        "R2R": 1
+      },
+      "typical_conversion_gaps_at_abandonment": [
+        "deal_structure",
+        "cost_barrier",
+        "geography"
+      ],
+      "was_offer_made": 0,
+      "was_offer_not_made": 1,
+      "meeting_phase_of_abandonment": "",
+      "prevention_approach": "Build R2R pre-qualification checklist: check rent vs STL gross revenue ceiling before booking meeting. If landlord asking >75% of STL gross, flag as marginal and advise on rent negotiation strategy before investing full meeting time. For R2R leads, present setup cost as a key viability factor upfront — explore minimalist/phased setup to reduce entry cost and shorten payback period"
+    },
+    "competitor_chosen_or_deferred": {
+      "count": 1,
+      "percentage": 7.7,
+      "emotional_profiles": {
+        "Analytical overseas owner evaluating 3 providers simultaneously; valued transparency and manageable portfolio size; cautious but financially well-placed with no mortgage pressure": 1
+      },
+      "profile_types": {
+        "STL-SW": 1
+      },
+      "typical_conversion_gaps_at_abandonment": [
+        "competition",
+        "timing"
+      ],
+      "was_offer_made": 1,
+      "was_offer_not_made": 0,
+      "meeting_phase_of_abandonment": "",
+      "prevention_approach": "Re-approach if competitor underperforms; strong profile — no mortgage, overseas owner, concert season timing Offer flexible start date post-refurb; decouple signing from onboarding timeline"
+    },
+    "contract_and_performance_concerns": {
+      "count": 1,
+      "percentage": 7.7,
+      "emotional_profiles": {
+        "Risk-averse; concerned about performance guarantees and contractual commitments; fully furnished property reduces setup friction but trust gap was decisive": 1
+      },
+      "profile_types": {
+        "STL-SW": 1
+      },
+      "typical_conversion_gaps_at_abandonment": [
+        "trust"
+      ],
+      "was_offer_made": 0,
+      "was_offer_not_made": 1,
+      "meeting_phase_of_abandonment": "",
+      "prevention_approach": "Share verified occupancy data from comparable Nottingham properties; consider a short trial period framing"
+    },
+    "r2r_margins_too_thin": {
+      "count": 1,
+      "percentage": 7.7,
+      "emotional_profiles": {
+        "Business-minded R2R operator struggling with margins; open to solutions but cost structure made Stayful management financially unviable": 1
+      },
+      "profile_types": {
+        "R2R": 1
+      },
+      "typical_conversion_gaps_at_abandonment": [
+        "financials"
+      ],
+      "was_offer_made": 0,
+      "was_offer_not_made": 1,
+      "meeting_phase_of_abandonment": "",
+      "prevention_approach": "Pre-qualify R2R leads on margin before web meeting; if net after rent is below ~£X threshold, redirect or disqualify before committing to a full meeting"
+    },
+    "developer_management_chosen": {
+      "count": 1,
+      "percentage": 7.7,
+      "emotional_profiles": {
+        "International owner (Lagos-based); developer relationship likely prioritised by default; difficult conversion pattern — developer proximity wins against third-party management": 1
+      },
+      "profile_types": {
+        "PURCH": 1
+      },
+      "typical_conversion_gaps_at_abandonment": [
+        "competition",
+        "trust"
+      ],
+      "was_offer_made": 1,
+      "was_offer_not_made": 0,
+      "meeting_phase_of_abandonment": "",
+      "prevention_approach": "Pre-qualify whether developer is offering management; if yes, prepare direct developer comparison deck before web meeting Remote onboarding case studies; emphasise Slack communication and owner dashboard tools in follow-up"
+    },
+    "model_mismatch_shared_accommodation": {
+      "count": 1,
+      "percentage": 7.7,
+      "emotional_profiles": {
+        "Disqualified at web meeting due to model mismatch — not a financial viability issue": 1
+      },
+      "profile_types": {
+        "R2R": 1
+      },
+      "typical_conversion_gaps_at_abandonment": [
+        "qualification"
+      ],
+      "was_offer_made": 0,
+      "was_offer_not_made": 1,
+      "meeting_phase_of_abandonment": "",
+      "prevention_approach": "Add explicit shared accommodation screening question to initial call — if property has individual lettable rooms with shared facilities, redirect immediately to HMO specialist"
+    },
+    "Unspecified": {
+      "count": 3,
+      "percentage": 23.1,
+      "emotional_profiles": {
+        "certainty-seeker": 1,
+        "analytical-evaluator": 1
+      },
+      "profile_types": {
+        "ABROAD": 2,
+        "PURCH": 1
+      },
+      "typical_conversion_gaps_at_abandonment": [
+        "timeline / external blocker",
+        "open action item",
+        "conversion failure despite high-probability signals",
+        "purchase_dependency",
+        "contract_review",
+        "information_gap",
+        "trust_in_projections",
+        "decision-maker absence",
+        "next-step definition",
+        "urgency not converted to deadline"
+      ],
+      "was_offer_made": 0,
+      "was_offer_not_made": 3,
+      "meeting_phase_of_abandonment": "",
+      "prevention_approach": "Proactive same-day or next-day follow-up (call/WhatsApp) to capture the confirmed date directly rather than waiting passively for his email Send a short written follow-up confirming the figures are unaffected by the hospital correction to close the loop and reinforce trust"
+    },
+    "Decided to long let property": {
+      "count": 1,
+      "percentage": 7.7,
+      "emotional_profiles": {
+        "certainty-seeker": 1
+      },
+      "profile_types": {
+        "PURCH": 1
+      },
+      "typical_conversion_gaps_at_abandonment": [
+        "pricing_quote",
+        "booking_followup",
+        "objection_positioning",
+        "rapport_access"
+      ],
+      "was_offer_made": 0,
+      "was_offer_not_made": 1,
+      "meeting_phase_of_abandonment": "",
+      "prevention_approach": "Generate the itemised setup quote before next contact (ref reserved SQ-2026-079 per intelligence doc, not yet generated) so the fit-out decision can be made alongside completion. Propose specific meeting slots within 48 hours, before the 1-2 week completion window closes and the furnishing decision has to be made without Stayful."
+    }
+  },
+  "cross_reference": [
+    {
+      "pattern": "profile_type R2R + rent/margin viability gate",
+      "description": "3 of the 4 lost R2R-profile leads (of 6 total R2R meetings) were lost specifically because rent-to-rent economics did not clear the bar — landlord rent level left insufficient margin after Stayful's management fee and setup costs; the remaining lost R2R lead (1) was disqualified on model mismatch (shared accommodation) rather than margin.",
+      "frequency": 3,
+      "prevention": "Pre-qualify R2R leads on rent level versus STL gross-revenue ceiling before booking the web meeting, so deals where the margin structurally cannot work are filtered out early."
+    },
+    {
+      "pattern": "profile_type PURCH + decision made during the purchase window",
+      "description": "3 of 18 total PURCH-profile leads were lost while the property purchase itself was still in progress — each either chose an alternative (developer management, long-letting instead) or lost momentum before legal completion.",
+      "frequency": 3,
+      "prevention": "Run a structured, proactive check-in cadence with PURCH-profile leads through to legal completion rather than an open-ended follow-up, since the competing decision (or drop-off) tends to happen inside that window."
+    }
+  ]
+}
