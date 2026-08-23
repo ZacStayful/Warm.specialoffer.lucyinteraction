@@ -1,0 +1,212 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "075",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-07-21",
+  "transcript_quality": "full",
+  "lead_name": "Raj Biring",
+  "email": "rajbiring@gmail.com",
+  "monday_id": "12475242928",
+  "address": "37 Uttoxxetter road Stoke on trent",
+  "bedrooms": 4,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "Escape the HMO management burden and maximise income remotely (190 miles away, based in Southampton) after a nightmare tenant caused a court order and severe property damage",
+  "property_situation": "Five-bed HMO owned since October 2021; council ruled the fifth room too small for occupancy so it was converted to a kitchenette. A tenant caused a court order and left the house badly damaged; property is now undergoing a full refurb (kitchen, four en-suites, carpets, storm-damaged room) before it can be listed as a short-let.",
+  "property_type": "4-bed en-suite house (converted from a 5-bed HMO, 5th room now an upstairs kitchenette)",
+  "emotional_profile": "loss-averse-switcher",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Refurbishment timeline — kitchen and four en-suites still to be completed, no fixed completion date given, so follow-up is refurb-driven rather than calendar-driven",
+  "language_signals": [],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-FUR",
+      "trigger_phrase": "We'll have staging costs as well, won't you?",
+      "context": "Property is mid-refurb: furniture cleared out after storm damage, kitchen being refurbished, four en-suites to be re-clad/gutted, carpets needed. Raj is still deciding whether to supply washing machine/fridge freezer himself or wait for Stayful staging. No fixed date given for refurb completion.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "That's the final stop. No, he had more. No, we're not doing it.",
+      "context": "Raj is fully done with the HMO/self-management model after a tenant required a court order and trashed the house; actively wants a professional management company to take over.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "We bought a five bed HMO first October 2021.",
+      "context": "Property is already owned outright since 2021 with no pending purchase or sale — no external transactional gate on proceeding, only the refurb.",
+      "strength": "moderate"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "I'll send you now for, like, very soon.",
+      "context": "Raj began sending laser-measured floor plans and photos during the call itself and asked directly what to do next to pursue it further, showing active momentum on the parts within his control.",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": ""
+  },
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd just start by just understanding a bit more about your current situation with the property.",
+    "rapport_topics": [
+      "Family interruptions (son's friend visiting, son needing a football pump)",
+      "Wife's new Airbnb-cleaning business prompting Raj to consider short-lets",
+      "Zac's holiday (closing remark)"
+    ],
+    "pivot_to_business": "Once you've got a management company in place and our service in place, I think the real hassle factor in terms of day-to-day market is going to be very similar. So the real question is which one's going to make more revenue.",
+    "income_intro": "So net revenues, this is what you can expect as a payout each month. There's about 3,700 pound per month.",
+    "post_income_silence": "",
+    "how_it_works_transition": "You're not allowed to have cameras inside the property. But we already have a vetting process for guests. So just give you a bit of a guide of what that is like or what that process is.",
+    "pre_close_setup": "Let's just get the nuts and bolts of it. I mean, I'm pretty keen to go with you because I think, you know, you've done proper forecasting already.",
+    "close_phrase": "I'll send a sort of like an outline estimated like setup costs as well and I'll send our agreements so you can have a read of the terms as well and stuff like that. And then yeah, we can reconvene.",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "Are you sure about that?",
+      "category": "objection-income-credibility",
+      "meeting_phase": "income reveal",
+      "zac_responded_with": "We normally would say this is within a sort of 10% accuracy range. It's very rare I'll have it below 10%.",
+      "lead_follow_up": "So you're saying that there's definitely enough demand there.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "If they're contractors, they're probably going to be Monday to Friday and going back home — weekends, can anything be done?",
+      "category": "objection-seasonal-demand",
+      "meeting_phase": "income reveal",
+      "zac_responded_with": "You'll still get weekends — everywhere in the country will have a level of leisure demand, not just business-to-business. Figures are based on 12 comparable properties of similar size and spec within about 8km.",
+      "lead_follow_up": "Right.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "So as I don't need to be fearful that you might only cover my cost, I think 1500 pound or two thousand pound a month, it won't be as low as that.",
+      "category": "objection-cost-coverage",
+      "meeting_phase": "income Q&A / low season discussion",
+      "zac_responded_with": "It shouldn't be — nothing is saying to me that you should have a loss making month if that's what your costs are.",
+      "lead_follow_up": "Okay, because I go, what we have is four ensuites...",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "You'd love cameras to watch over people. I don't get the house in trashed again.",
+      "category": "objection-damage-protection",
+      "meeting_phase": "pre-close",
+      "zac_responded_with": "You're not allowed cameras inside, but we have a vetting process — a security deposit of around £400, ID checks reviewing guest history across platforms, and insurance cover for serious damage like a deliberate fire.",
+      "lead_follow_up": "Okay, so they checked in, cleaner's comment. So it's closely monitored compared to any other platform. Okay, great.",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "No fixed refurb completion date — conversion is entirely gated by Raj's own building works, not by the sales process",
+      "category": "timeline",
+      "evidence": "No fixed refurb completion date yet, so this lead is time-gated by his own building works, not by sales process — follow up is refurb-timeline-driven, not calendar-driven.",
+      "how_to_fill": "Maintain light-touch WhatsApp check-ins tied to refurb milestones (kitchen done, en-suites done) rather than a fixed calendar follow-up cadence",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Setup quote and agreement not yet reviewed by Raj, who is price-sensitive given he is already spending heavily on the refurb itself",
+      "category": "pricing",
+      "evidence": "Genuinely price-sensitive on setup cost given he's already spending heavily on the refurb itself; he is meticulous and detail-oriented (laser-measured every room) and expected to scrutinise the setup quote and agreement closely.",
+      "how_to_fill": "Send a clearly itemised setup quote emphasising Stayful charges no upfront/onboarding/photography/setup fee itself, to offset concern about stacking costs on top of his refurb spend",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac praised the rear side-road access for contractor vans as 'a fantastic plus'",
+      "lead_response": "Yeah — Raj continued elaborating on the access details enthusiastically, describing space for three to four transit vans",
+      "phase": "refurb/logistics discussion",
+      "archetype_relevant": ["analytical-evaluator", "loss-averse-switcher"]
+    },
+    {
+      "what_caused_shift": "Zac confirmed nothing indicated a loss-making month against his mortgage/cost floor",
+      "lead_response": "Okay, because I go, what we have is four ensuites — moved straight into detailed refurb planning with increased engagement",
+      "phase": "income Q&A",
+      "archetype_relevant": ["loss-averse-switcher", "certainty-seeker"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Zac presenting the ~£3,700/month net income figure",
+      "lead_response": "Are you sure about that? — direct challenge to the figure",
+      "recovery_attempted": "Zac cited the ~10% accuracy range as the basis for confidence in the number",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "Discussion of no interior cameras being allowed, raised straight after Raj referenced his HMO tenant trashing the house",
+      "lead_response": "I don't get the house in trashed again — implicit anxiety about repeat damage without visual monitoring",
+      "recovery_attempted": "Zac walked through the vetting process step by step: security deposit, ID/history checks, insurance cover for serious damage",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "I thought I'd just start by just understanding a bit more about your current situation with the property."
+    ],
+    "transition_phrases": [
+      "So the real question is which one's going to make more revenue.",
+      "So really you're going to send me over some information about the property."
+    ],
+    "reassurance_phrases": [
+      "We normally would say this is within a sort of 10% accuracy range.",
+      "Nothing is saying to me that you should have a loss making month if that's what your costs are.",
+      "That's, yeah, that's a fantastic plus."
+    ],
+    "emphasis_phrases": [
+      "Net average is about 44 [thousand], per year.",
+      "If you're at 680, this should be a very profitable property for you."
+    ],
+    "analogies_used": [],
+    "numbers_framing": "Led with the net monthly payout figure (~£3,700/month) before breaking it into seasonal range (low season £2,200-2,300, peak £5,000-5,900) and then an annualised net average (~£44k), grounding all of it in 12 comparable listings within roughly 8km and a stated ~10% accuracy range, with an explicit caveat of 10-20% below forecast in year one before reviews establish.",
+    "objection_handling_pattern": "Acknowledges the objection directly, cites underlying data (comparable count, radius, accuracy range) to substantiate the figures, then reframes toward reassurance; for risk/damage concerns, explains the vetting/insurance process point by point rather than dismissing the worry."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "loss-averse-switcher",
+    "what_they_focused_on": [
+      "Whether the income figures are credible and achievable",
+      "Guest vetting and protection against repeat property damage",
+      "Whether weekday-heavy contractor demand leaves weekends empty",
+      "Confirmation that net income reliably covers his mortgage/cost floor"
+    ],
+    "what_they_needed_most": [
+      "Concrete proof behind the income figures (comparable count, radius, stated accuracy range)",
+      "Reassurance the new model won't repeat the HMO damage experience he just lived through",
+      "Explicit confirmation of downside protection (no loss-making months)"
+    ],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": "For HMO-exit leads with a recent bad-tenant trauma (court order, damage), introduce the guest vetting/damage-protection process earlier in the call rather than near the close — it pre-empts his strongest emotional concern before he has to raise it himself."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "Higher than I thought",
+    "s2_ltl_thinking": "Short-let clearly makes more sense",
+    "s3_biggest_question": "Whether the income is really achievable",
+    "s4_readiness": "Ready to sign the agreement",
+    "s3_matches_meeting_gap": true,
+    "s4_contradicts_meeting": true
+  }
+}
