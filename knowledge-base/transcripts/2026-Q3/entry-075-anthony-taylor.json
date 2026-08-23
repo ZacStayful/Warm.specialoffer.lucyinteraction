@@ -1,0 +1,249 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "075",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-07-28",
+  "transcript_quality": "full",
+  "lead_name": "Anthony Taylor",
+  "email": "anthony@bellwoodslane.co.uk",
+  "monday_id": "12582497885",
+  "address": "919 Ecclesall Road, Sheffield, S11 8TL",
+  "bedrooms": 4,
+  "profile_type": "PURCH",
+  "lead_profile_text": "Something else",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "analytical-evaluator",
+  "conversion_likelihood": 75,
+  "profile_confidence": "high",
+  "primary_blocker": "Property purchase not yet completed at time of meeting — offer provisionally accepted but not yet at exchange of legals, vendor (described as away at a family wedding) still deciding whether to proceed.",
+  "language_signals": [
+    "this thing absolutely potentially slaps",
+    "there's enough juice in this squeeze for us",
+    "I don't see how this isn't a winner",
+    "I'm just ultimately a bit torn",
+    "I'm really hoping that phone call is telling me I can go ahead and buy this tomorrow"
+  ],
+  "portfolio_flag": true,
+  "outcome": "Abandoned",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-PUR",
+      "trigger_phrase": "we're not the point of legals yet",
+      "context": "Anthony has a provisionally accepted offer on the property via modern method of auction but nothing legally exchanged; vendor (a large family) was mid-way through a five-day wedding at the time of the call and had not confirmed they'd proceed. Zac's phone rang mid-meeting with the auctioneer calling about the purchase price, underscoring the deal was still live and unresolved.",
+      "timeline_given": "Targeting 28-day completion (vs the standard 56 days offered), aiming to be live and taking bookings by mid-September",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-TEN",
+      "trigger_phrase": "for some reason they've gone and tenanted this thing",
+      "context": "The vendor has let the property to tenants since it went unsold at auction; condition has slipped as a result (not trashed, but not in the state originally presented). Adds uncertainty around when the property will be vacant and refurb-ready once purchase completes.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "we would look at the price we were going in at to complete 28 days an absolute maximum",
+      "context": "Anthony is pursuing the purchase aggressively with no other viewings on the property, wants a fast 28-day completion rather than the standard 56, a 7-10 day (max 2 week) refurb, and to be live and taking bookings by mid-September — a fully self-imposed, tight timeline.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "if you can send me kind of what you mentioned report whatever contract all that kind of stuff",
+      "context": "Explicitly asked Zac to send the analysis report and the management contract by the end of the call, and said he'd send over the property listing for Zac to review comparables and lock in pricing — concrete next steps toward signing.",
+      "strength": "strong"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": ""
+  },
+  "meeting_flow": {
+    "opening_phrase": "Anthony, how you doing?",
+    "rapport_topics": [
+      "the feast-or-famine rhythm of Anthony's sourcing business",
+      "Anthony's recent, self-taught deep-dive into short-let ('never done SA... started downloading it')",
+      "the mutual connection (Alex) who introduced them"
+    ],
+    "pivot_to_business": "Well, I mean, I'd had here the property that you're looking at. Is this property you own me or are you looking to buy it or what's the situation with it?",
+    "income_intro": "Well, just going through the figures then quickly, we can also go through some more granular information on that as well. So we're looking at a net revenue of about 28,9 000, called it a year. About 2400 per month.",
+    "post_income_silence": "",
+    "how_it_works_transition": "Yeah, sure. So we deal with everything to do with running the property as a short let. Just give you an idea of what that looks like a bit.",
+    "pre_close_setup": "I mean, anything I'd probably say is, like our contract. So we have a six month fixed term on the agreement, three month notice.",
+    "close_phrase": "What I'll do after this call is I'll just summarize everything we've spoken about, put it into, you know, an action plan, which you'll have. I'll send you over our agreements. You have a read of some of the terms, any questions, let me know.",
+    "meeting_2_ask": "We'll just keep in touch as the property progresses",
+    "total_duration_mins": 54,
+    "talk_ratio_zac_pct": 50
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "What are you basing that off of but you got 250 a night and 60 occupancy there... just just so there's not so I see why our numbers are different right so you're not got mortgage repayments in there",
+      "category": "clarifying_question",
+      "meeting_phase": "income_presentation",
+      "zac_responded_with": "Broke down ADR (£255) and occupancy (59%) and the three cost lines separating gross from net: online platform fees, 15% management, and ~18% cleaning/laundry; confirmed mortgage is excluded from the net figures.",
+      "lead_follow_up": "Cross-checked Zac's gross revenue figure (£564xx) against his own spreadsheet calculation and confirmed they were 'about there'",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "with your net numbers you're taking into account with that bills council tax TV internet insurance all that's in the net numbers you're presenting there",
+      "category": "clarifying_question",
+      "meeting_phase": "income_presentation",
+      "zac_responded_with": "Clarified net revenue only covers cleaning, platform, and management fees; suggested budgeting an extra £500-600/month for all bills on top of the mortgage for a 4-bed house",
+      "lead_follow_up": "Yeah. Probably low I think I've gone about 400 in here but yeah that's fine",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I'm just ultimately a bit torn. He's sort of suggesting... focus being on direct bookings, the contractor lets etc... what's the advantage to your approach versus his approach I guess ultimately would be my question",
+      "category": "competitor_comparison",
+      "meeting_phase": "management_explanation",
+      "zac_responded_with": "Validated the other advisor's approach rather than dismissing it, then reframed platform-first-plus-direct-bookings as risk diversification: platforms are the stable base, direct bookings are 'the icing on the cake', and solely relying on either channel is riskier long-term",
+      "lead_follow_up": "You have to have the established listing so you have the backup plan so almost like no matter what... build the online presence in that first period of time",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Is there a situation... where it becomes a bit of a saturated market up there with this stuff, or is the demand consistently... buoyant",
+      "category": "market_risk_concern",
+      "meeting_phase": "management_explanation",
+      "zac_responded_with": "Explained demand in Sheffield is consistently strong and that supply competition drops significantly at 3+ and especially 4-5 bed properties since there are far fewer of them than 1-2 bed listings",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "what is the actual optimal number of guests we should be able to accommodate... trade-off between giving up that dining room... versus adding the capacity to that second bed",
+      "category": "strategy_question",
+      "meeting_phase": "management_explanation",
+      "zac_responded_with": "Recommended keeping the dining room as a games room (pool table, arcade machine) rather than converting to a 5th bedroom, since the property has only 2 bathrooms and this differentiates the listing while raising nightly rate and guest quality",
+      "lead_follow_up": "Sweet that makes total sense... you're going to get higher quality guests, I don't want it to be a party flop house... rather be something as maybe a bit more of a premium listing",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Purchase not yet legally completed — outcome outside Anthony's or Stayful's control at time of meeting",
+      "category": "purchase_dependency",
+      "evidence": "we're not the point of legals yet... vendor is a big Asian family they're in a big five day wedding through tomorrow",
+      "how_to_fill": "Zac/Lucy to proactively check in on purchase progress rather than wait passively, given the tight, self-imposed 28-day completion target and live auctioneer call happening during the meeting itself",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Management agreement sent but not yet reviewed by Anthony",
+      "category": "contract_review",
+      "evidence": "I'll send you over our agreements. You have a read of some of the terms, any questions, let me know. (Monday call brief for the follow-up call: 'find out whether he's reviewed the agreement... if he hasn't seen the agreement yet, understand what's holding him back')",
+      "how_to_fill": "Follow up specifically on agreement review status and any sticking points before the next call",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Property listing link not yet sent to Zac for comparables and pricing lock-in",
+      "category": "information_gap",
+      "evidence": "I'll ping you over the listing as well and you can just... if you got any thoughts on that (Monday call brief: 'send over the property listing so I could assess comparables and lock in pricing strategy ahead of your 28-day completion target')",
+      "how_to_fill": "Chase for the listing link so Zac can finalise comparable-based pricing ahead of go-live",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Lingering doubt about whether the income projections are genuinely achievable, despite accepting the figures live on the call",
+      "category": "trust_in_projections",
+      "evidence": "Action plan response S3: 'Whether the income is really achievable' — submitted the same day, despite saying live on the call 'that makes total sense' multiple times when reconciling his own spreadsheet against Zac's numbers",
+      "how_to_fill": "Reinforce with additional case-study proof points and ramp-up transparency in follow-up materials/action plan",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac's games-room-over-5th-bedroom recommendation as a differentiation strategy",
+      "lead_response": "Sweet that makes total sense... you're going to get higher quality guests, I don't want it to be a party flop house... rather be something as maybe a bit more of a premium listing potentially even if it sacrifices a couple [of beds]",
+      "phase": "management_explanation",
+      "archetype_relevant": ["analytical-evaluator", "status-quo-resistant"]
+    },
+    {
+      "what_caused_shift": "Zac's Manchester 3-bed case study showing actual results landed almost exactly on the conservative/worst-case projection given",
+      "lead_response": "Basically exactly what you said after a couple months... that's exactly basically spot on... your worst case scenario number that you presented really",
+      "phase": "income_presentation",
+      "archetype_relevant": ["analytical-evaluator", "certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Zac reframing platform-first vs direct-booking-first as resilience/diversification rather than an either/or choice against the competing advice Anthony had received",
+      "lead_response": "That's not yeah that makes that makes total sense... being a bit more nuanced... I think there's more nuanced approach rather than leaning straight the contractor market... gives us the resiliency",
+      "phase": "management_explanation",
+      "archetype_relevant": ["analytical-evaluator", "loss-averse-switcher"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Anthony's answer to Zac's opening question about whether he already owned the property or was looking to buy it was unclear ('Kind of for exactly what he's saying'), forcing Zac to re-ask the question directly",
+      "lead_response": "Okay we're we I think. Tricky one with the vendor so yeah we are we had an offer that was kind of provisionally accepted...",
+      "recovery_attempted": "Zac re-asked plainly: 'so I had here the property information. Is this property you're looking at buying or is this a...'",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "Anthony, how you doing?",
+      "Well, thanks for. Thanks for coming on."
+    ],
+    "transition_phrases": [
+      "Well, just going through the figures then quickly, we can also go through some more granular information on that as well.",
+      "Okay. I mean, I can go through a bit about the surveys or I can go through a bit about some, you know, the direct booking potential and people who book, it's up to you which one.",
+      "Yeah, sure. So we deal with everything to do with running the property as a short let."
+    ],
+    "reassurance_phrases": [
+      "I'd rather work on sort of conservative estimate than I would... do it in a number based off of that",
+      "we always want to err on the side of caution a bit",
+      "you know, it gets better every year, really"
+    ],
+    "emphasis_phrases": [
+      "we're now at the top of the market",
+      "you need to have multiple, you know, arrows in the quiver, so to speak",
+      "you don't want an investment that's three years. You want an investment that's 20 years."
+    ],
+    "analogies_used": [
+      "arrows in the quiver (having multiple booking channels)",
+      "icing on the cake (direct bookings as an optimisation layer on top of platform bookings)",
+      "bread and butter (the online platform as the stable revenue base)"
+    ],
+    "numbers_framing": "Leads with the net payout figure first (~£2,411/month average), then unbundles it into the three deduction categories (platform fees, 15% management, ~18% cleaning/laundry), states a worst-to-best monthly range (£1,900-£3,600) rather than a single number, and backs the conservative framing with a real case study (a Manchester 3-bed) where actual year-one results landed almost exactly on the worst-case projection given at the time — building credibility through demonstrated conservatism rather than optimistic promises.",
+    "objection_handling_pattern": "Doesn't dismiss the competing advisor's contrasting approach — validates it first ('I would guarantee you he's going to list on an online platform as well'), then reframes the disagreement as risk diversification rather than a right-vs-wrong choice (platform as stable base, direct bookings as the icing on top), and closes the loop by tying it back to the lead's own stated long-term investment horizon."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "PURCH",
+    "emotional_profile": "analytical-evaluator",
+    "what_they_focused_on": [
+      "independently verifying net income figures against his own spreadsheet built from Zac's analyser tool and a second tool (Property Market Intel)",
+      "comparing Stayful's platform-first strategy against a competing advisor's (Alex) contractor/direct-booking-first strategy",
+      "bedroom vs amenity-space configuration (5th bedroom vs games room)",
+      "long-term market saturation and demand durability in Sheffield given the scale of capital committed",
+      "cash-flow viability versus a straight buy-to-let/rent-to-rent alternative on the same property"
+    ],
+    "what_they_needed_most": [
+      "rigorous, defensible numbers he could independently reconcile against his own modelling",
+      "reassurance that the platform-first approach wasn't inferior to the contractor-direct approach he'd heard elsewhere",
+      "confidence the market wouldn't saturate given how much capital is being left in the deal"
+    ],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": "For analytical-evaluator PURCH leads who are actively cross-shopping advice from other operators or advisors, proactively surface the platform-vs-direct-booking philosophical difference early and frame it as risk diversification (not an inferior alternative) before the lead has to raise it as a direct comparison; lean on hard, verifiable case-study proof points early, since this archetype anchors trust in checkable data over persuasive framing."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "About what I expected",
+    "s2_ltl_thinking": "Short-let clearly makes more sense",
+    "s3_biggest_question": "Whether the income is really achievable",
+    "s4_readiness": "Need more time to think this over",
+    "s3_matches_meeting_gap": true,
+    "s4_contradicts_meeting": true
+  }
+}
