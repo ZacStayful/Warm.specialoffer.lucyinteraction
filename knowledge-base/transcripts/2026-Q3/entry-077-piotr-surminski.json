@@ -1,0 +1,261 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "077",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-07-28",
+  "transcript_quality": "full",
+  "lead_name": "Piotr Surminski",
+  "email": "peteopole@gmail.com",
+  "monday_id": "12648041050",
+  "address": "10 Ulverston Crescent, Broughton, Milton Keynes, MK10",
+  "bedrooms": 1,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "analytical-evaluator",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Leasehold: needs freeholder (Guinness Housing Association) consent to short-let, considered likely to be refused; shared-equity partner (also Guinness HA) consent also required. Residential mortgage prohibits long-letting but does not itself block short-letting. Lead is proceeding with full awareness of this unresolved risk.",
+  "language_signals": [
+    "I'm not even looking to totally cover all the costs — sometimes £200-300 or whatever there is would do.",
+    "I hardly ever use my flat.",
+    "I have full flexibility.",
+    "Please don't be afraid that I'll be coming very often.",
+    "This is my decision if I want to do it or not."
+  ],
+  "portfolio_flag": false,
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13% + VAT",
+  "offer_expiry": "2026-08-30",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "if I ask guinness housing association they will they will probably say no",
+      "context": "Property is leasehold with 75% shared equity held by Guinness Housing Association; both freeholder consent (to short-let) and shared-equity partner consent are needed and Piotr believes formal consent would likely be refused.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "probably to have up to date the electrical and gas certificate",
+      "context": "Lead raised that up-to-date gas and electrical safety certificates are likely required before the property can be rented to guests.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "so you have the clean company or service company to fix anything to clean after",
+      "context": "Lead confirmed and welcomed the fully-managed, hands-off model given how much he travels and how little time he spends at the property.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "I'm very flexible very easy like with all arrangements that we can we can do",
+      "context": "Lead is willing to travel back to the UK to prepare the flat and sign before the 30 August offer deadline, with no fixed schedule constraints.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "So is it like this my decision or you also you know you will need to know like formally that I can do it",
+      "context": "Lead frames the decision to proceed as his own to make, indicating personal readiness to move forward despite the unresolved freeholder/equity consent risk.",
+      "strength": "medium"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "closing",
+    "green_lights_present_at_offer": ["GL-MGMT", "GL-TIME", "GL-SELF"],
+    "delays_present_at_offer": ["DLY-OTH"],
+    "what_immediately_preceded_offer": "Zac confirmed he would send a summary, action plan, and both contract options after the call.",
+    "how_zac_framed_offer": "Framed as an unprompted extra gesture to make things 'a bit more profitable' — a discount from 15% to 13% + VAT, conditional on signing before 30 August.",
+    "expiry_stated_as": "30th of August",
+    "lead_response_to_offer": "Initially misunderstood the deadline as only three days away ('I saw that I have three days to decide'); once clarified to end of August, responded positively ('okay yeah sure') and indicated he'd likely go with the 6-month fixed option, though wanted both contract options sent over to compare.",
+    "offer_outcome": "Not accepted/signed within the call — lead verbally leaning toward the 6-month fixed 13%+VAT option but said he wants to review both the fixed and rolling contract options before deciding, with signing expected before the 30 August expiry."
+  },
+  "meeting_flow": {
+    "opening_phrase": "How are you? ... One thing I just wanted to touch on briefly is obviously saw you inquired with us and normally we go through an income projection, but I can't seem to find the details of the property on our records. Do you have the address and I can run the analysis now on the call?",
+    "rapport_topics": [],
+    "pivot_to_business": "One thing I just wanted to touch on briefly is obviously saw you inquired with us and normally we go through an income projection, but I can't seem to find the details of the property on our records.",
+    "income_intro": "Well based off of the analysis that we've done which was for the postcode that you mentioned... it's about 11,700 of gross and about 6100 of net and that's per year, it's about 508 pound a month so it would cover the cost of the mortgage from what you're saying.",
+    "post_income_silence": "",
+    "how_it_works_transition": "Yeah, yeah. I mean, I can show you that quickly now if you like. So just so we can cover how that side of things works. So what you'll get access to as part of being on board is like a centralized booking calendar.",
+    "pre_close_setup": "All right well what I'll do then after this call is I'll just send a bit of a summary of everything we've spoken about, I'll also put in like a bit of an action plan so we've got some estimated sort of time frames as well.",
+    "close_phrase": "I'm happy to do as well just to make a bit more profitable for you a small discount on our management of 13% instead of 15, but it'd be based off of signing before the 30th of August.",
+    "meeting_2_ask": "We can touch base in a couple of weeks (no specific date/time agreed).",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "Should we be looking at the mortgage that I'm actually paying or how much the flat should generate — because some people could have a mortgage of 200 pounds and others 900?",
+      "category": "clarification",
+      "meeting_phase": "income discussion",
+      "zac_responded_with": "This is what the net revenue is what we're estimating — this is what you can expect as a payout each month. If you knew the exact mortgage figure I can enter it so we can see how profitable it would be.",
+      "lead_follow_up": "Because I already paid off half the mortgage in 15 years, and someone who just bought it would have the full mortgage — so it all depends.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Is it possible to generate more with a long-term let — I was comparing the prices, because a long-term let could be £700 plus bills?",
+      "category": "comparison/objection",
+      "meeting_phase": "income discussion",
+      "zac_responded_with": "If you're just looking at making more money you'd bet on long-letting — we estimated about £800/month net long-let versus £500 short-let — but it doesn't always work out that way.",
+      "lead_follow_up": "It's not always the case, but even if it fluctuates month to month, £200-300 would do — I have full flexibility and don't need it to cover everything.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Do you have a minimum profitability threshold to take on a property — because you also have costs (cleaning company, maintenance) so it has to be worth the hassle for you too?",
+      "category": "mutual-fit concern",
+      "meeting_phase": "service discussion",
+      "zac_responded_with": "We don't have that threshold — what we focus on is whether the property is profitable for you and fits your requirements. For your situation this works because you still need access and you're already paying for the property every month regardless, so any income is a cost-saving exercise as much as a profit-making one.",
+      "lead_follow_up": "Yeah yeah exactly good.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Is it my decision to proceed, or do you also need to formally know that I'm allowed to short-let given the shared equity and leasehold?",
+      "category": "compliance/permission concern",
+      "meeting_phase": "situation assessment",
+      "zac_responded_with": "If you want us to short-let it and there aren't any obvious blockages we don't mind proceeding — I'm just making you aware there may be things you want to address, or you may be fine proceeding, but they can have potential implications.",
+      "lead_follow_up": "Yeah exactly yeah of course.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "How expensive are the maintenance services — I've heard some agencies charge a lot and some have their own in-house maintenance teams rather than using local companies?",
+      "category": "cost/fees question",
+      "meeting_phase": "service discussion",
+      "zac_responded_with": "Probably safe to expect about 5% of revenue toward upkeep and maintenance as a rule of thumb, though that's across the board — flats typically cost less to maintain than older houses.",
+      "lead_follow_up": "But services are generally quite expensive... okay anyway.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I saw that I only have three days to decide on the offer.",
+      "category": "clarification",
+      "meeting_phase": "closing",
+      "zac_responded_with": "It won't be three days, no — end of August, end of August.",
+      "lead_follow_up": "Right, August, okay, next month, okay yeah sure.",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Freeholder (Guinness Housing Association) consent for short-letting not obtained and believed likely to be refused",
+      "category": "legal/permission",
+      "evidence": "if I ask guinness housing association they will they will probably say no",
+      "how_to_fill": "Point to the friend on the same shared-equity scheme who has been short-letting successfully for years without issue; make clear the risk is the lead's own decision and document that awareness so expectations are managed going forward.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Shared-equity partner (same landlord, Guinness HA) may separately need to approve the arrangement",
+      "category": "legal/permission",
+      "evidence": "shared equity so I know that many people you know rent out but maybe you shouldn't... I don't know how to go about this",
+      "how_to_fill": "",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "No specific meeting-2 date or time was booked before the call ended",
+      "category": "follow-up/scheduling",
+      "evidence": "we can touch base in a couple of weeks (no date/time specified)",
+      "how_to_fill": "Book a concrete follow-up call/date before ending future calls of this type rather than leaving it open-ended.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Photos/videos of the property had not yet been sent at end of call, needed to finalise listing and photography plan",
+      "category": "onboarding logistics",
+      "evidence": "I will send you the photos yeah",
+      "how_to_fill": "Prompt follow-up request for photos/videos shortly after the call.",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac reframed the projected income as a cost-offset against the existing £500/month mortgage rather than a profit-maximisation exercise.",
+      "lead_response": "Yeah yeah exactly good.",
+      "phase": "service discussion",
+      "archetype_relevant": ["analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Confirmation there is no cap or limit on how often the lead can block out personal-use dates.",
+      "lead_response": "That's flexible, okay... so it's all flexible so you can do as much.",
+      "phase": "service discussion",
+      "archetype_relevant": ["analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Reassurance that Stayful has no minimum profitability threshold and takes the property on because it works for both sides.",
+      "lead_response": "Yeah yeah exactly good.",
+      "phase": "service discussion",
+      "archetype_relevant": ["analytical-evaluator"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Piotr misunderstood the offer deadline, believing he only had three days to decide instead of until 30 August.",
+      "lead_response": "I saw that I have three days to decide okay.",
+      "recovery_attempted": "Zac immediately corrected: 'it won't be three days no, end of August, end of August.'",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "Stayful's website assessment tool had told Piotr the property was 'not suitable' / generated too low income.",
+      "lead_response": "it gave me the result like no we can take this property because it's not suitable or it generates too low income",
+      "recovery_attempted": "Zac explained the automated tool doesn't account for his personal situation — he still pays for the property regardless and long-letting isn't a real option given the mortgage type — so any short-let income is a net gain.",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "How are you?",
+      "One thing I just wanted to touch on briefly is obviously saw you inquired with us and normally we go through an income projection, but I can't seem to find the details of the property on our records."
+    ],
+    "transition_phrases": [
+      "While that's running through...",
+      "Okay the next part then I suppose we can go through is the income side of things.",
+      "I suppose the only part[s] cover is the payouts and how we pay you out."
+    ],
+    "reassurance_phrases": [
+      "We don't have that [minimum profitability threshold] — what we focus on is is the property profitable for you the customer and does it fit within your requirements.",
+      "Any amount that you're really making is a cost saving exercise for you as well as much as a profit making exercise.",
+      "There's no limit — you can book out the property as many times as you like."
+    ],
+    "emphasis_phrases": [
+      "This works well for us because our services are useful to you and there's an ongoing interest to keep the property long term.",
+      "We already manage this area."
+    ],
+    "analogies_used": [],
+    "numbers_framing": "Led with the annual gross/net figures (£11,700 gross / £6,100 net), converted them to a monthly average (£508/month), and directly compared that to the lead's stated £500/month mortgage to make the cost-offset framing land immediately. Also broke out seasonal swing (January low ~£300-350, September peak ~£600-700) and floated an upside scenario (~£1,000/month once reviews grow past 27) to manage expectations while showing headroom, and openly acknowledged the automated comparables were skewed down by mismatched room-vs-flat listings.",
+    "objection_handling_pattern": "Acknowledges the lead's underlying point and confirms the numbers behind it (e.g. agrees long-letting would in theory earn more), then reframes back to the lead's own stated constraints and goals (mortgage type disallows long-letting, needs ongoing personal access, isn't trying to maximise profit) to show short-letting is still the right fit despite the lower theoretical ceiling."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "analytical-evaluator",
+    "what_they_focused_on": [
+      "exact income calculation methodology (mortgage-linked vs generic average)",
+      "short-let vs long-let income comparison",
+      "leasehold/shared-equity consent risk",
+      "personal-use booking calendar mechanics and flexibility",
+      "maintenance/repair cost structure and billing responsibility",
+      "whether Stayful has a minimum profitability threshold to accept the property"
+    ],
+    "what_they_needed_most": [
+      "reassurance that the arrangement isn't one-sided and genuinely benefits Stayful too",
+      "confirmation of full, uncapped personal-use flexibility for his unpredictable travel pattern",
+      "clarity that income projections are independent of his specific personal mortgage figure"
+    ],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": "For ABROAD/absentee-owner leads motivated by cost-offset rather than profit maximisation, lead with the 'cost saving against an unavoidable outgoing' framing earlier in the call rather than mid-call, and proactively volunteer the mutual-benefit / no-minimum-threshold reassurance before the lead has to ask for it — this profile's self-justifying language ('is this worth it for you too?') signals they need permission to feel like a low-effort, undemanding client."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
