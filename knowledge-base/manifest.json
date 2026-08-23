@@ -1,0 +1,98 @@
+{
+  "schema_version": "3.0",
+  "last_entry_number": "084",
+  "total_transcripts": 103,
+  "summary_only_count": 2,
+  "playbook_version": 1,
+  "last_run_at": "2026-08-23T08:05:00Z",
+
+  "quarterly_index": {
+    "2026-Q1": {"count": 6, "first": "006", "last": "018", "path": "transcripts/2026-Q1/"},
+    "2026-Q2": {"count": 72, "first": "003", "last": "071", "path": "transcripts/2026-Q2/"},
+    "2026-Q3": {"count": 25, "first": "072", "last": "084", "path": "transcripts/2026-Q3/"}
+  },
+
+  "outcome_breakdown": {
+    "READY_NOW": 27,
+    "READY_SOON": 0,
+    "DELAYED": 76,
+    "NURTURE": 0,
+    "LOST": 13
+  },
+
+  "delay_breakdown": {
+    "DLY-TEN": 7,
+    "DLY-FUR": 11,
+    "DLY-PUR": 10,
+    "DLY-MOV": 8,
+    "DLY-OTH": 24
+  },
+
+  "green_light_breakdown": {
+    "GL-SELF": 0,
+    "GL-MGMT": 0,
+    "GL-TIME": 0
+  },
+
+  "archetype_breakdown": {
+    "certainty-seeker": 10,
+    "loss-averse-switcher": 5,
+    "analytical-evaluator": 14,
+    "urgency-driven": 0,
+    "status-quo-resistant": 0,
+    "betrayal-damaged": 0,
+    "social-proof-dependent": 0,
+    "fast-path-gain-focused": 1,
+    "unassigned": 73
+  },
+
+  "training_status": {
+    "total_meetings": 103,
+    "confidence": "strong",
+    "thresholds": {
+      "low": "< 15", "building": "15-30",
+      "good": "30-50", "strong": "50+"
+    },
+    "data_gaps": [
+      "This was the first successful full build: manifest.json, pattern-intelligence/, response-library/, playbook/, and context/ did not exist before this run despite 71 transcripts already sitting in GitHub — likely a prior run stalled after Step 6 (transcript commits) without ever reaching the merge/rebuild steps.",
+      "Entry number '075' was reused in the Google Drive Intelligence Entries folder for 13 different leads (Indra Bassi, Sophia, Alice Axtell, Ross Topping, Ijaz Qazi, Gregory Davis, Dexter Sinclair, Anthony Taylor, Akter Uzzaman, Michael, Thomas Costa, Raj Biring, Steven Browne) — a Drive naming/numbering bug worth fixing at the source so future entry numbers stay unique.",
+      "Only 30 of 103 entries (29%) carry one of the 8 canonical emotional-profile archetype slugs verbatim; the rest either have no emotional_profile field (32 entries, older 'thin' schema) or free-text psychological descriptions instead of a slug (41 entries) — 4 of 8 archetype files (urgency-driven, status-quo-resistant, betrayal-damaged, social-proof-dependent) have zero entries as a direct result. The Lead Psychology Profiler should be checked for whether it's meant to output the canonical slug and isn't, or whether the taxonomy needs to change.",
+      "No dedicated by-green-light-type pattern file/schema exists (unlike delays, which have 5 clean by-delay-type files) — green_light_breakdown above is a placeholder; a future run should add knowledge-base/pattern-intelligence/by-green-light-type/ to close this gap.",
+      "offer-timing-intelligence.json's literal offer_conversion_rate came out at 2.27% (1 of 44 offers) because no transcript's offer_timing.offer_outcome field literally contains the string 'accepted' — even where offer_accepted_at_meeting is true elsewhere in the same entry. This is very likely underselling true acceptance and should be recomputed next run using offer_accepted_at_meeting as the primary signal, with offer_outcome as a secondary text field, rather than literal string-matching.",
+      "2 entries have transcript_quality 'summary_only' (Steven Browne — no Granola recording exists) — everything else pulled full verbatim transcripts.",
+      "Two source schemas coexist in transcripts/: an older 'thin' schema (existing/, ~46 files) with flat fields (top_questions, top_objections, delay_types as strings) and no lead_responses/meeting_flow/offer_timing/friction_moments, versus the richer v3.0 schema used by all 25 new entries and some older ones. Playbook/context sections needing meeting_flow or friction data (opening phrases, closing scripts) could only draw on the ~25-57 richer entries, not the full 103 — this caps how representative those specific sections are versus the population-level stats."
+    ]
+  },
+
+  "agent_query_guide": {
+    "before_every_call": [
+      "playbook/meeting-runbook.md",
+      "playbook/zac-voice.md",
+      "context/delay-and-green-light-reference.md",
+      "context/emotional-profiles-summary.md"
+    ],
+    "load_lead_archetype_file":
+      "pattern-intelligence/by-emotional-profile/[archetype].json",
+    "load_lead_profile_file":
+      "pattern-intelligence/by-profile-type/[profile].json",
+    "during_call_if_objection":
+      "response-library/objections.json",
+    "during_call_if_question":
+      "response-library/questions.json",
+    "at_close":
+      "response-library/closing-scripts.json",
+    "never_say":
+      "response-library/do-not-say.json",
+    "max_tokens_pre_call": 18000,
+    "note": "Load context files before call. Query response library by trigger matching during call. Never load all files simultaneously."
+  },
+
+  "health": {
+    "files_committed": 30,
+    "files_failed": 0,
+    "validation_errors": [],
+    "summary_only_entries": ["075-steven-browne"],
+    "missing_archetype_entries": 73,
+    "run_duration_seconds": 0
+  }
+}
