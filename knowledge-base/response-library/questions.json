@@ -1,0 +1,2451 @@
+{
+  "schema_version": "3.0",
+  "total_entries_seen": 103,
+  "last_updated": "2026-08-21",
+  "questions": [
+    {
+      "canonical_trigger": "contract terms",
+      "trigger_variants": [
+        "Right, and is there any minimum tie-in period?",
+        "A rolling contract month on month or is it. How much I did.",
+        "At least six months contract for the letting? How does it work if at some point I might not be happy with the service? ... do you have fees for stopping / terminating the contract ... do you have a compensation scheme for yourself within these six months? (pressed three separate times, including sale and move-back-to-UK scenarios)",
+        "What is the exit process procedure especially if there are still some bookings after we want to end the contract so how do you deal with it?",
+        "What are the contract terms?",
+        "What contract terms and management model would apply to an R2R arrangement?",
+        "What are the contract terms and exit options?"
+      ],
+      "frequency": 11,
+      "confidence": 0.1068,
+      "last_seen": "2026-08-21",
+      "profile_types": [
+        "ABROAD",
+        "EX-STL",
+        "PURCH",
+        "R2R",
+        "SELL",
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "Entrepreneurial R2R investor",
+        "Entrepreneurially motivated",
+        "Financially pragmatic",
+        "Measured and financially analytical",
+        "Pragmatic and cost-focused",
+        "Pragmatic and research-led",
+        "Systems-thinking entrepreneur",
+        "analytical-evaluator",
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "management_and_terms",
+      "answer_pattern": {
+        "opening": "Explained the fixed 6-month term exists because income projections need time to land, a 3-month notice period exists to service already-booked guests, no fee applies if selling with clear communication or leaving...",
+        "key_points": [
+          "Explained the fixed 6-month term exists because income projections need time to land, a 3-month notice period exists to service already-booked guests, no fee...",
+          "we have a six month fixed term and a three month notice term... we have an agreed cut off date... we can service all the bookings, we'll pay out the normal...",
+          "So we have a rolling agreement, or we can have a fixed term agreement.",
+          "Standard management model explained — but R2R adds rent layer that makes economics unworkable at this rent level",
+          "Six months initially because we don't charge any onboarding costs, then a three month notice period."
+        ],
+        "closing": "Okay good.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "084",
+        "081",
+        "079",
+        "075",
+        "054",
+        "053",
+        "052",
+        "051",
+        "013-a",
+        "024"
+      ]
+    },
+    {
+      "canonical_trigger": "management fee",
+      "trigger_variants": [
+        "What is the management fee?",
+        "What is the management fee and can it be reduced?",
+        "What is the management fee and what does it include?",
+        "What is the management fee and offer?"
+      ],
+      "frequency": 7,
+      "confidence": 0.068,
+      "last_seen": "2026-06-03",
+      "profile_types": [
+        "ABROAD",
+        "PURCH",
+        "SELL",
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "Analytical overseas owner evaluating 3 providers simultaneously",
+        "Analytically engaged and time-pressured",
+        "Motivated and financially analytical",
+        "Practical and cost-conscious",
+        "Pragmatic and cost-focused",
+        "Pragmatic and research-led"
+      ],
+      "most_common_meeting_phase": "",
+      "answer_pattern": {
+        "opening": "Standard 15% + VAT.",
+        "key_points": [
+          "Standard 15% + VAT.",
+          "Standard 15% + VAT.",
+          "Standard 15% + VAT.",
+          "Standard 15% + VAT.",
+          "15% + VAT standard."
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "054",
+        "053",
+        "051",
+        "052",
+        "050",
+        "012",
+        "026"
+      ]
+    },
+    {
+      "canonical_trigger": "type guests stay catherine street",
+      "trigger_variants": [
+        "What type of guests would I get?",
+        "What type of guests can I expect?",
+        "What type of guests will the property attract?",
+        "What type of guests will stay at 62 Catherine Street?"
+      ],
+      "frequency": 4,
+      "confidence": 0.0388,
+      "last_seen": "2026-06-01",
+      "profile_types": [
+        "PURCH",
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "Lifestyle-income lead",
+        "Measured and financially analytical",
+        "Motivated and financially analytical"
+      ],
+      "most_common_meeting_phase": "",
+      "answer_pattern": {
+        "opening": "Countess of Chester Hospital drives NHS and healthcare worker demand year-round.",
+        "key_points": [
+          "Countess of Chester Hospital drives NHS and healthcare worker demand year-round.",
+          "Near University of Coventry and Coventry University Hospital — strong professional and academic guest base.",
+          "Chester is a major healthcare destination — Countess of Chester Hospital drives strong NHS and healthcare worker demand year-round.",
+          "Worker-type demand: contractors, hospital/solar project workers — suited to longer stays rather than tourist short breaks"
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "051",
+        "052",
+        "010"
+      ]
+    },
+    {
+      "canonical_trigger": "income realistically expect from rossendale",
+      "trigger_variants": [
+        "What income can I realistically expect?",
+        "What income can I realistically expect from this property?",
+        "What income can I expect from the Harrogate property?",
+        "What income can we realistically expect from 375 Rossendale Road?"
+      ],
+      "frequency": 4,
+      "confidence": 0.0388,
+      "last_seen": "2026-05-28",
+      "profile_types": [
+        "EX-STL",
+        "PURCH",
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "Entrepreneurially motivated",
+        "Growth-oriented portfolio investor",
+        "Long-term investor",
+        "Long-term investor with pragmatic expectations"
+      ],
+      "most_common_meeting_phase": "",
+      "answer_pattern": {
+        "opening": "Worst month ~£952 net; full year average significantly outperforms.",
+        "key_points": [
+          "Worst month ~£952 net; full year average significantly outperforms.",
+          "Gross ~£26,000/yr, £116 nightly, 63% occupancy, net ~£16-17k/yr before mortgage and bills",
+          "Concrete financial projections presented — Harrogate market is strong for STL",
+          "Financial projections presented — gross and net figures outlined"
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "051",
+        "032",
+        "033",
+        "034"
+      ]
+    },
+    {
+      "canonical_trigger": "platforms property listed",
+      "trigger_variants": [
+        "What platforms will the property be listed on?"
+      ],
+      "frequency": 3,
+      "confidence": 0.0291,
+      "last_seen": "2026-06-01",
+      "profile_types": [
+        "ABROAD",
+        "EX-STL",
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "Analytically engaged and time-pressured",
+        "Financially pressured teacher",
+        "Motivated and financially analytical"
+      ],
+      "most_common_meeting_phase": "",
+      "answer_pattern": {
+        "opening": "Airbnb, Booking.com, and Stayful direct booking site.",
+        "key_points": [
+          "Airbnb, Booking.com, and Stayful direct booking site.",
+          "Airbnb, Booking.com, and Stayful direct booking site.",
+          "4 platforms (Airbnb, Booking.com plus direct booking channels) vs PTK Airbnb-only"
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "051",
+        "050",
+        "036"
+      ]
+    },
+    {
+      "canonical_trigger": "how stl compare ltl financially",
+      "trigger_variants": [
+        "How does the STL net compare to the LTL offers I'm receiving?",
+        "How does STL compare to LTL financially?"
+      ],
+      "frequency": 3,
+      "confidence": 0.0291,
+      "last_seen": "2026-03-16",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator",
+        "loss-averse-switcher"
+      ],
+      "most_common_meeting_phase": "",
+      "answer_pattern": {
+        "opening": "STL gross ~£41,000/yr, net ~£24,205/yr (£2,017/mo) vs LTL £1,700/mo (~£1,550 net after agent).",
+        "key_points": [
+          "STL gross ~£41,000/yr, net ~£24,205/yr (£2,017/mo) vs LTL £1,700/mo (~£1,550 net after agent).",
+          "STL gross ~£35,978/yr, net ~£22,500/yr (~£1,875/mo) vs LTL £1,200-1,300/mo.",
+          "Financial comparison clearly favoured STL"
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "007-A",
+        "007-B",
+        "008"
+      ]
+    },
+    {
+      "canonical_trigger": "projected monthly revenue property",
+      "trigger_variants": [
+        "So our 6,000 is it monthly or is monthly?",
+        "What is the projected monthly revenue for the property?"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-08-21",
+      "profile_types": [
+        "PURCH",
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "Motivated and financially analytical",
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "income_presentation",
+      "answer_pattern": {
+        "opening": "Conservative estimate based on 4-bed comparison: £1,805 net monthly.",
+        "key_points": [
+          "Conservative estimate based on 4-bed comparison: £1,805 net monthly.",
+          "That's a monthly average."
+        ],
+        "closing": "This is what you this is based on your experience, you how many properties you run in Harrogate our airbnb.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "084",
+        "051"
+      ]
+    },
+    {
+      "canonical_trigger": "how much more stl generate",
+      "trigger_variants": [
+        "How much more can I earn on STL vs keeping the tenancy?",
+        "How much more will STL generate vs long-let?"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-06-03",
+      "profile_types": [
+        "ABROAD",
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "Cautious evaluator",
+        "Pragmatic and cost-focused"
+      ],
+      "most_common_meeting_phase": "",
+      "answer_pattern": {
+        "opening": "STL projected net £1,742/month (£20,904/year) vs LTL net £644/month (£7,722/year).",
+        "key_points": [
+          "STL projected net £1,742/month (£20,904/year) vs LTL net £644/month (£7,722/year).",
+          "Financial projections vs current LTL presented at meeting — specific figures not captured in summary"
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "054",
+        "022"
+      ]
+    },
+    {
+      "canonical_trigger": "services included management",
+      "trigger_variants": [
+        "What services are included in management?",
+        "What management services are included?"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-06-01",
+      "profile_types": [
+        "PURCH",
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "Measured and financially analytical",
+        "Motivated and financially analytical"
+      ],
+      "most_common_meeting_phase": "",
+      "answer_pattern": {
+        "opening": "Full guest communication, cleaning and maintenance coordination, monthly statements 1st-5th, Slack communication with 24-hour response, quarterly performance review calls, £100k damage insurance per stay.",
+        "key_points": [
+          "Full guest communication, cleaning and maintenance coordination, monthly statements 1st-5th, Slack communication with 24-hour response, quarterly performance...",
+          "Full guest communication, cleaning coordination, monthly statements 1st-5th, Slack channel, booking calendar access, quarterly performance calls."
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "051",
+        "052"
+      ]
+    },
+    {
+      "canonical_trigger": "income chester city centre generate",
+      "trigger_variants": [
+        "What income can Chester city centre generate via STL?",
+        "What income can Chester city centre generate?"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-05-29",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "Lifestyle-income lead",
+        "Measured and financially analytical"
+      ],
+      "most_common_meeting_phase": "",
+      "answer_pattern": {
+        "opening": "£1,700/month average (£1,200-£2,000 range).",
+        "key_points": [
+          "£1,700/month average (£1,200-£2,000 range).",
+          "£1,700/month average (£20,405 gross / £10,109 net annually)."
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "052"
+      ]
+    },
+    {
+      "canonical_trigger": "happens council tax when switching",
+      "trigger_variants": [
+        "What happens with council tax when switching to STL?"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-05-29",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "Lifestyle-income lead",
+        "Measured and financially analytical"
+      ],
+      "most_common_meeting_phase": "",
+      "answer_pattern": {
+        "opening": "Council tax premium applies initially during transition period, then transitions to zero business rates after approximately 1 year of STL operation.",
+        "key_points": [
+          "Council tax premium applies initially during transition period, then transitions to zero business rates after approximately 1 year of STL operation.",
+          "Council tax premium applies initially; transitions to zero business rates after approximately 1 year of STL operation."
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "052"
+      ]
+    },
+    {
+      "canonical_trigger": "how guest vetting property protection",
+      "trigger_variants": [
+        "What does guest vetting look like?",
+        "How does guest vetting and property protection work for a high-value property?"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-05-27",
+      "profile_types": [
+        "ABROAD",
+        "SELL"
+      ],
+      "emotional_profiles": [
+        "Analytically engaged and time-pressured",
+        "fast-path-gain-focused"
+      ],
+      "most_common_meeting_phase": "",
+      "answer_pattern": {
+        "opening": "£500 security deposit (elevated for property value), ID checks with damage history screening, £100k damage cover per stay.",
+        "key_points": [
+          "£500 security deposit (elevated for property value), ID checks with damage history screening, £100k damage cover per stay.",
+          "Guest vetting and operations outlined"
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "050",
+        "012"
+      ]
+    },
+    {
+      "canonical_trigger": "projected annual income figures",
+      "trigger_variants": [
+        "What are the projected net income figures?",
+        "What are the projected annual income figures?"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-05-06",
+      "profile_types": [
+        "EX-STL",
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "Financially pressured teacher",
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "",
+      "answer_pattern": {
+        "opening": "£31,000 gross annually, ~£16,319 net to Vanessa after fees; vs LTL £9,871/year — £6,448/year STL advantage",
+        "key_points": [
+          "£31,000 gross annually, ~£16,319 net to Vanessa after fees; vs LTL £9,871/year — £6,448/year STL advantage",
+          "~£60,000 annual gross, ~£31,500 net after all fees"
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "036",
+        "003"
+      ]
+    },
+    {
+      "canonical_trigger": "property stay market while stl",
+      "trigger_variants": [
+        "Can the property stay on the market while doing STL?",
+        "Can we stay on the market while doing STL?"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-04-24",
+      "profile_types": [
+        "SELL"
+      ],
+      "emotional_profiles": [
+        "Practically minded",
+        "Pragmatic and cost-focused"
+      ],
+      "most_common_meeting_phase": "",
+      "answer_pattern": {
+        "opening": "Yes — STL and sales listing are compatible and can run simultaneously",
+        "key_points": [
+          "Yes — STL and sales listing are compatible and can run simultaneously",
+          "Yes — property can remain listed for sale and do STL simultaneously"
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "012",
+        "013-b"
+      ]
+    },
+    {
+      "canonical_trigger": "stl income cover mortgage running",
+      "trigger_variants": [
+        "Can STL income cover my mortgage?",
+        "Will STL income cover mortgage and running costs?"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-04-20",
+      "profile_types": [
+        "SELL",
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "Financially pragmatic"
+      ],
+      "most_common_meeting_phase": "",
+      "answer_pattern": {
+        "opening": "Gross ~£28,578/yr, net ~£18,400/yr (~£1,533/mo).",
+        "key_points": [
+          "Gross ~£28,578/yr, net ~£18,400/yr (~£1,533/mo).",
+          "Yes — STL net £24,838/yr exceeds £1,300/mo mortgage and annual bills"
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "013-a",
+        "010"
+      ]
+    },
+    {
+      "canonical_trigger": "guarantee rent company guarantee rent",
+      "trigger_variants": [
+        "do you guarantee rent as well? ... do your company do guarantee rent for the whole property."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-21",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "closing",
+      "answer_pattern": {
+        "opening": "No... I'm not taking on any more of those Arrangements at the moment.",
+        "key_points": [
+          "No... I'm not taking on any more of those Arrangements at the moment."
+        ],
+        "closing": "But the one in [Sheffield] is vacant now, no tenant.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "084"
+      ]
+    },
+    {
+      "canonical_trigger": "needs arithmetic spelled out",
+      "trigger_variants": [
+        "forgive me, Zac. I'm probably being thick, but what do you think after your assessment of my bills is do you think I'll be left with each month?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-14",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "income presentation",
+      "answer_pattern": {
+        "opening": "Walked through the sum live: ~£3,500 average net minus ~£300 bills minus ~£2,300 mortgage, landing on ~£800-900/month average, break-even worst case, ~£2,500 best case.",
+        "key_points": [
+          "Walked through the sum live: ~£3,500 average net minus ~£300 bills minus ~£2,300 mortgage, landing on ~£800-900/month average, break-even worst case, ~£2,500..."
+        ],
+        "closing": "Reframed that he isn't chasing maximum monthly income but a long-term asset-holding strategy.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "082"
+      ]
+    },
+    {
+      "canonical_trigger": "self directed model decomposition",
+      "trigger_variants": [
+        "there's two parts. One is what is achievable as a rent. And secondly, what is the occupancy rate? ... those are obviously the two parts of the equation that drive the ultimate Revenue."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-14",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "income presentation",
+      "answer_pattern": {
+        "opening": "Confirmed the two inputs directly: ~50% occupancy at £440/night.",
+        "key_points": [
+          "Confirmed the two inputs directly: ~50% occupancy at £440/night."
+        ],
+        "closing": "Moved on to ask about comparables and competition.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "082"
+      ]
+    },
+    {
+      "canonical_trigger": "next position where confident numbers",
+      "trigger_variants": [
+        "what do I do next to get to a position where you're confident that the numbers you're telling me are solid, and secondly, then obviously how we go about trying to get the thing let and get the revenue started"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-14",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "transition to next steps",
+      "answer_pattern": {
+        "opening": "Explained the furnishing/setup requirements, that Stayful can price the setup, and the ~1-2 week (or ~3 week with setup) onboarding timeline once photo-ready.",
+        "key_points": [
+          "Explained the furnishing/setup requirements, that Stayful can price the setup, and the ~1-2 week (or ~3 week with setup) onboarding timeline once photo-ready."
+        ],
+        "closing": "Confirmed he was ~3-4 weeks from completion and would send photos/plans after the call.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "082"
+      ]
+    },
+    {
+      "canonical_trigger": "sometimes understand when putting number",
+      "trigger_variants": [
+        "Sometimes I don't understand when I'm... putting number of bedrooms into these things is maximum five. And, for example, certain properties have seven. So I don't know how you can do estimate."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-14",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "mid",
+      "answer_pattern": {
+        "opening": "Once you start going above five bedrooms, the analyzer compares other properties nearby, but seven bedrooms is quite rare, so we'll struggle to find other comparable seven bedroom properties.",
+        "key_points": [
+          "Once you start going above five bedrooms, the analyzer compares other properties nearby, but seven bedrooms is quite rare, so we'll struggle to find other..."
+        ],
+        "closing": "Yeah. Okay. Internally for you, it doesn't matter. You would do SMS approximately based on five bedrooms and these two bedrooms would be like bonus.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "083"
+      ]
+    },
+    {
+      "canonical_trigger": "class service accommodations buy allowed",
+      "trigger_variants": [
+        "This would be class the service accommodations. And if I buy it and then it is allowed in guest houses, it's not, it's nothing legislation wise that they can tell me that I'm changing the character of guest house because I don't provide breakfast or something."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-14",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "late",
+      "answer_pattern": {
+        "opening": "No, no, I wouldn't say so, though.",
+        "key_points": [
+          "No, no, I wouldn't say so, though."
+        ],
+        "closing": "So I don't need to go to city council and ask for any planning permission... I don't need to do anything with city council about this one.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "083"
+      ]
+    },
+    {
+      "canonical_trigger": "data provenance",
+      "trigger_variants": [
+        "When you showed me the numbers before to support these numbers, the claims, where did this, the number came from? Were they from Europe customers or were they from a general Airbnb data?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-13",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "income presentation",
+      "answer_pattern": {
+        "opening": "Explained the figures come from 12 nearby comparable properties of similar size, weighted-averaged, and talked through how he reads competitiveness from review counts and distance.",
+        "key_points": [
+          "Explained the figures come from 12 nearby comparable properties of similar size, weighted-averaged, and talked through how he reads competitiveness from review..."
+        ],
+        "closing": "Moved directly into the listed-building question.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "081"
+      ]
+    },
+    {
+      "canonical_trigger": "operational remote management",
+      "trigger_variants": [
+        "Because I will be off to France. So I won't be able to handle the key. I won't be able to actually check in and check out. So how is this going to work?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-13",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "how it works",
+      "answer_pattern": {
+        "opening": "Explained key safes (two sets, guest-facing and internal), and that Stayful already manages other owners' properties remotely from abroad.",
+        "key_points": [
+          "Explained key safes (two sets, guest-facing and internal), and that Stayful already manages other owners' properties remotely from abroad."
+        ],
+        "closing": "Moved on to asking about the cleaning company arrangement.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "081"
+      ]
+    },
+    {
+      "canonical_trigger": "cross border tax",
+      "trigger_variants": [
+        "Do you know how the tax is managed on this part? ... For me, it's an income probably that I need to..."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-13",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "operational Q&A / pre-close",
+      "answer_pattern": {
+        "opening": "No.",
+        "key_points": [
+          "No."
+        ],
+        "closing": "Yeah, so it's just a normal income. I would take care of [declaring it as] normal income.",
+        "what_not_to_say": "No."
+      },
+      "resolution_rate": 0.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "081"
+      ]
+    },
+    {
+      "canonical_trigger": "fee transparency",
+      "trigger_variants": [
+        "Everything is included in the 15% or 13%. And there is no extra charge... there is no extra other unexpected charge."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-13",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "close",
+      "answer_pattern": {
+        "opening": "Confirmed the model is percentage-of-income only (already established earlier: no charge in a zero-booking month), plus flagged photography (~£250-300, waived since lead supplies his own) as the only potential setup...",
+        "key_points": [
+          "Confirmed the model is percentage-of-income only (already established earlier: no charge in a zero-booking month), plus flagged photography (~£250-300, waived..."
+        ],
+        "closing": "Thanks for all that. And yeah, you send the summary and then I will keep you updated with the management company's clarification.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "081"
+      ]
+    },
+    {
+      "canonical_trigger": "mean sign vat because vat",
+      "trigger_variants": [
+        "So does that mean you have to sign up for vat?... because if you're over the vat threshold."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-10",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "immediately after gross/net income figures given",
+      "answer_pattern": {
+        "opening": "Oh so I would say probably not because you're not really the one short letting the property you're going to get this as a payout so even though this figure is over the threshold this figure isn't so you could probably...",
+        "key_points": [
+          "Oh so I would say probably not because you're not really the one short letting the property you're going to get this as a payout so even though this figure is..."
+        ],
+        "closing": "Okay. Yeah.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "080"
+      ]
+    },
+    {
+      "canonical_trigger": "fee structure",
+      "trigger_variants": [
+        "When you say the booking platform commissions, that's what you're paying to booking.com, airbnb, wherever you place it with, is it?... They take 15, do they?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-10",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "cost breakdown",
+      "answer_pattern": {
+        "opening": "They take 15% yeah... it's just a flat 15% rate that they charge",
+        "key_points": [
+          "They take 15% yeah... it's just a flat 15% rate that they charge"
+        ],
+        "closing": "Plus that? Management fee is 15 plus that. Yeah. Okay. And cleaning is whatever the local cleaning is.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "080"
+      ]
+    },
+    {
+      "canonical_trigger": "cost validation",
+      "trigger_variants": [
+        "I found a local one that does it for 22 pound 50 an hour. And they reckoned about four hours would be fine each turnover... you're looking at probably just less than 100 per turnover or something in this area."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-10",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "cost breakdown",
+      "answer_pattern": {
+        "opening": "Yeah I don't think that will include things like linen and supply... it's just labor... normally a going rate is about 20 to probably 22 pound 50... we tend to wrap it all up into one cost for a changeover",
+        "key_points": [
+          "Yeah I don't think that will include things like linen and supply... it's just labor... normally a going rate is about 20 to probably 22 pound 50... we tend to..."
+        ],
+        "closing": "No, it doesn't include the laundry. Yeah. Okay. Yeah, got it. Okay.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "080"
+      ]
+    },
+    {
+      "canonical_trigger": "setup advice",
+      "trigger_variants": [
+        "What about the hot tub? Discussion? Do I need to put one in or should I leave it a while and test it without?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-10",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "service/setup discussion",
+      "answer_pattern": {
+        "opening": "Yeah I think definitely leave it a while and test without... the property can be fantastic... but if something's wrong with the hot tub you will get a bad review... we can achieve good figures without it, it's really...",
+        "key_points": [
+          "Yeah I think definitely leave it a while and test without... the property can be fantastic... but if something's wrong with the hot tub you will get a bad..."
+        ],
+        "closing": "Fantastic because you've got to then do the chemicals and stuff like that.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "080"
+      ]
+    },
+    {
+      "canonical_trigger": "practical setup",
+      "trigger_variants": [
+        "I've got bifold doors... 4.3 meters wide. And I'm just trying to decide whether I need to find some monster curtain or something... I haven't easily found, like, a 4.3 meter curtain rail."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-10",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "closing / property details",
+      "answer_pattern": {
+        "opening": "it sounds like it's quite private anyway... it's up to you... we can see how we go and then if guests are giving feedback saying they'd like one obviously we can do that",
+        "key_points": [
+          "it sounds like it's quite private anyway... it's up to you... we can see how we go and then if guests are giving feedback saying they'd like one obviously we..."
+        ],
+        "closing": "I'll see what can come up. You know, that was the other one. So, yeah.",
+        "what_not_to_say": "it sounds like it's quite private anyway... it's up to you... we can see how we go and then if guests are giving feedback saying they'd like one obviously we can do that"
+      },
+      "resolution_rate": 0.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "080"
+      ]
+    },
+    {
+      "canonical_trigger": "guaranteed rent",
+      "trigger_variants": [
+        "How does it work? So do we go by what you earn per month, or do you pay us a fixed, like, amount for the year less your commission, or does it vary?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-03",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "income discussion",
+      "answer_pattern": {
+        "opening": "If you're wanting something that's stable but a much lower return, long-letting is the option... but in your position the risk is very, very low because you don't have any mortgage.",
+        "key_points": [
+          "If you're wanting something that's stable but a much lower return, long-letting is the option... but in your position the risk is very, very low because you..."
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "other than paying mortgage pay",
+      "trigger_variants": [
+        "Other than paying the mortgage, we have to pay the bills. We don't have a mortgage on it. So which bills would that involve? ... 400 pounds per year?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-03",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "early / income intro",
+      "answer_pattern": {
+        "opening": "Council tax, gas, electricity, water and Wi-Fi... probably around sort of 400 pound... per month.",
+        "key_points": [
+          "Council tax, gas, electricity, water and Wi-Fi... probably around sort of 400 pound... per month."
+        ],
+        "closing": "400 pounds per year? (checking whether the figure was annual or monthly)",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "council tax second home",
+      "trigger_variants": [
+        "Who pays the council tax on the flat? Does it count as a second home? ... the council tax is twice if it's your second home, a personal name."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-03",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "mid-call",
+      "answer_pattern": {
+        "opening": "I would quite heavily advise putting it in a limited company because you can then apply for something that's called small business rates relief... it will lower your council tax bill to zero.",
+        "key_points": [
+          "I would quite heavily advise putting it in a limited company because you can then apply for something that's called small business rates relief... it will..."
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "hands off",
+      "trigger_variants": [
+        "So does it need any input from us? We don't need to go to the flat or do anything there?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-03",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "logistics",
+      "answer_pattern": {
+        "opening": "The property would need fully furnishing, we can do that for you... I'd need somewhere to pick the keys up from, and some photos of the property ahead of time so I can price something up.",
+        "key_points": [
+          "The property would need fully furnishing, we can do that for you... I'd need somewhere to pick the keys up from, and some photos of the property ahead of time..."
+        ],
+        "closing": "Unfurnished just with white goods.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "net income definition",
+      "trigger_variants": [
+        "373. Is that the figure coming after the expenses of the agency or do I need to - is the figure am I getting in my hand?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-03",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "income presentation",
+      "answer_pattern": {
+        "opening": "Explained mortgage and ~£500 bills buffer come out of the net figure, everything else already deducted",
+        "key_points": [
+          "Explained mortgage and ~£500 bills buffer come out of the net figure, everything else already deducted"
+        ],
+        "closing": "So I will be paying off my mortgage and bills from there isn't it",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "confusion worst month figure misread",
+      "trigger_variants": [
+        "So if it is in the quiet months you said I may be getting 600 pound isn't [it]... So I should pay the mortgage from the 600 pound."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-03",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "income presentation",
+      "answer_pattern": {
+        "opening": "Clarified payout is £2,100 in the quiet month, not £600 - the £600 is profit remaining after mortgage and bills",
+        "key_points": [
+          "Clarified payout is £2,100 in the quiet month, not £600 - the £600 is profit remaining after mortgage and bills"
+        ],
+        "closing": "So in the lowest scenarios we still be able to pay for the mortgage and the bill isn't it?",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "process pre commitment reassurance",
+      "trigger_variants": [
+        "So will there be anyone coming and checking how the house will be before you know before we agree?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-03",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "operational detail / near close",
+      "answer_pattern": {
+        "opening": "Explained inspection and photos happen once she confirms intent to proceed, plus offered free setup guide and photo-based recommendations",
+        "key_points": [
+          "Explained inspection and photos happen once she confirms intent to proceed, plus offered free setup guide and photo-based recommendations"
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "company spoke more personal use",
+      "trigger_variants": [
+        "I know one company that I spoke to said that basically the more personal use I have, the more the fee changes do you have anything like that on your fees or your fee static."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-31",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "service_explanation",
+      "answer_pattern": {
+        "opening": "Confirmed the 15% fee is static and only applies to guest bookings — personal use has no effect on it, and dates can be blocked freely via the central calendar.",
+        "key_points": [
+          "Confirmed the 15% fee is static and only applies to guest bookings — personal use has no effect on it, and dates can be blocked freely via the central calendar."
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "bills pay because other buildings",
+      "trigger_variants": [
+        "what bills would I have to pay? Because other [buildings] included in your cost is in my [court]"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-31",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "mid meeting",
+      "answer_pattern": {
+        "opening": "you have to pay all the bills.",
+        "key_points": [
+          "you have to pay all the bills."
+        ],
+        "closing": "They could use it quite long, and I'll be, like, I'll be stuck without [control].",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "079"
+      ]
+    },
+    {
+      "canonical_trigger": "trust building",
+      "trigger_variants": [
+        "What's your direct line to call you? Could you drop me your number?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-31",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "late meeting",
+      "answer_pattern": {
+        "opening": "I'll send it to you in an email after.",
+        "key_points": [
+          "I'll send it to you in an email after."
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "079"
+      ]
+    },
+    {
+      "canonical_trigger": "include council tax",
+      "trigger_variants": [
+        "Does that include the council tax as well?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-30",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "income_reveal",
+      "answer_pattern": {
+        "opening": "Yeah, this is everything.",
+        "key_points": [
+          "Yeah, this is everything."
+        ],
+        "closing": "The council tax the bills okay yeah look better.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "pressing for detail",
+      "trigger_variants": [
+        "So what figures are we looking at suppose at in month one or at the end of month three or month six? I mean what about first month?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-30",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "income_reveal",
+      "answer_pattern": {
+        "opening": "I can't do information that granular... I would tend to say first year maybe it's going to be sort of 15% less.",
+        "key_points": [
+          "I can't do information that granular... I would tend to say first year maybe it's going to be sort of 15% less."
+        ],
+        "closing": "I mean rough estimates of course by experience I mean.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "new service accommodation there any",
+      "trigger_variants": [
+        "I'm new to service accommodation, is there any legal requirement that I have to comply with?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-30",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "management_and_terms",
+      "answer_pattern": {
+        "opening": "Not in Birmingham.",
+        "key_points": [
+          "Not in Birmingham."
+        ],
+        "closing": "Okay.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "portfolio expansion",
+      "trigger_variants": [
+        "You mentioned you cover all of London -- do you cover Enfield? I've got a property in Enfield, it's becoming available."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-30",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "management_and_terms",
+      "answer_pattern": {
+        "opening": "Yeah, we cover all -- when's it available?",
+        "key_points": [
+          "Yeah, we cover all -- when's it available?"
+        ],
+        "closing": "Right okay that's good, is there any discount if you have more properties with you?",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "risk mitigation",
+      "trigger_variants": [
+        "I haven't seen the property in... probably a couple of years... not sure about the condition of the kitchen or the bathroom -- would it be better if you visit the property right after we sign the contract?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-30",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "closing",
+      "answer_pattern": {
+        "opening": "I'd say that's going to be a good idea.",
+        "key_points": [
+          "I'd say that's going to be a good idea."
+        ],
+        "closing": "I can hand you over the keys at the property, I'll be there tomorrow.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "figures after all costs taken",
+      "trigger_variants": [
+        "Is that. Are those figures after all the costs have been taken up?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-30",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "income_intro",
+      "answer_pattern": {
+        "opening": "Well, that's [net] revenue, that is.",
+        "key_points": [
+          "Well, that's [net] revenue, that is."
+        ],
+        "closing": "Okay. Yeah, yeah, that definitely works.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "already key box there anyway",
+      "trigger_variants": [
+        "I've already got a key box there anyway that's got a code on it, which I could just use for that one. How would that work? Do you have one that where the code changes a lot or you just have the same one?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-30",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "how_it_works",
+      "answer_pattern": {
+        "opening": "Explained the guest safe rotates codes after every stay/few stays (cleaners rotate and notify the team), while the secondary maintenance safe keeps the same code since it's rarely used.",
+        "key_points": [
+          "Explained the guest safe rotates codes after every stay/few stays (cleaners rotate and notify the team), while the secondary maintenance safe keeps the same..."
+        ],
+        "closing": "Okay. Yeah.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "definitely holiday opposed regular letting",
+      "trigger_variants": [
+        "we sort of know, we know that we definitely want to have as a holiday as opposed to a regular letting"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-29",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "opening",
+      "answer_pattern": {
+        "opening": "Proceeded directly into income projections for the property.",
+        "key_points": [
+          "Proceeded directly into income projections for the property."
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "how work companies visiting normally",
+      "trigger_variants": [
+        "how does that work with your companies visiting normally? Do you have specific cleaners or do you work with local ones... I know with the cleaning the vids, it's charged over the connection. What would be sort of like an average figure for that?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-29",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "service scope",
+      "answer_pattern": {
+        "opening": "Explained the cleaner vetting framework (per-changeover pricing including linen/supplies, before/after photos) and offered to use Dexter's existing local cleaner subject to vetting; gave ~£100/changeover as a rough...",
+        "key_points": [
+          "Explained the cleaner vetting framework (per-changeover pricing including linen/supplies, before/after photos) and offered to use Dexter's existing local..."
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "trust logistics",
+      "trigger_variants": [
+        "In terms of for you, are you based in London? Where's sort of the main base? You have people nearby or is it also done online?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-29",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "mid-meeting",
+      "answer_pattern": {
+        "opening": "Explained Stayful's Leicestershire/Leeds base, described nationwide coverage via local contractor teams coordinated by a centralized team.",
+        "key_points": [
+          "Explained Stayful's Leicestershire/Leeds base, described nationwide coverage via local contractor teams coordinated by a centralized team."
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "digital lock installed currently getting",
+      "trigger_variants": [
+        "What we have is we have a digital lock which is installed. And then we're currently just getting an extra bit which means that it can all be controlled on online so you can set expiring keypads."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-29",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "how-it-works / access",
+      "answer_pattern": {
+        "opening": "Accepted the digital lock as sufficient, confirming no key safe was needed.",
+        "key_points": [
+          "Accepted the digital lock as sufficient, confirming no key safe was needed."
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "best down period november october",
+      "trigger_variants": [
+        "Is it the best thing to do it in like the down period so maybe November... October is completely empty so that's probably a good one"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-29",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "how it works",
+      "answer_pattern": {
+        "opening": "Confirmed October/November (his naturally quiet season) as the ideal migration window and explained the deactivation/transfer mechanics via Stayful's Airbnb account manager",
+        "key_points": [
+          "Confirmed October/November (his naturally quiet season) as the ideal migration window and explained the deactivation/transfer mechanics via Stayful's Airbnb..."
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "basing off night occupancy there",
+      "trigger_variants": [
+        "What are you basing that off of but you got 250 a night and 60 occupancy there... just just so there's not so I see why our numbers are different right so you're not got mortgage repayments in there"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-28",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "income_presentation",
+      "answer_pattern": {
+        "opening": "Broke down ADR (£255) and occupancy (59%) and the three cost lines separating gross from net: online platform fees, 15% management, and ~18% cleaning/laundry; confirmed mortgage is excluded from the net figures.",
+        "key_points": [
+          "Broke down ADR (£255) and occupancy (59%) and the three cost lines separating gross from net: online platform fees, 15% management, and ~18% cleaning/laundry;..."
+        ],
+        "closing": "Cross-checked Zac's gross revenue figure (£564xx) against his own spreadsheet calculation and confirmed they were 'about there'",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "net numbers taking account bills",
+      "trigger_variants": [
+        "with your net numbers you're taking into account with that bills council tax TV internet insurance all that's in the net numbers you're presenting there"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-28",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "income_presentation",
+      "answer_pattern": {
+        "opening": "Clarified net revenue only covers cleaning, platform, and management fees; suggested budgeting an extra £500-600/month for all bills on top of the mortgage for a 4-bed house",
+        "key_points": [
+          "Clarified net revenue only covers cleaning, platform, and management fees; suggested budgeting an extra £500-600/month for all bills on top of the mortgage for..."
+        ],
+        "closing": "Yeah. Probably low I think I've gone about 400 in here but yeah that's fine",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "actual optimal number guests able",
+      "trigger_variants": [
+        "what is the actual optimal number of guests we should be able to accommodate... trade-off between giving up that dining room... versus adding the capacity to that second bed"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-28",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "management_explanation",
+      "answer_pattern": {
+        "opening": "Recommended keeping the dining room as a games room (pool table, arcade machine) rather than converting to a 5th bedroom, since the property has only 2 bathrooms and this differentiates the listing while raising nightly...",
+        "key_points": [
+          "Recommended keeping the dining room as a games room (pool table, arcade machine) rather than converting to a 5th bedroom, since the property has only 2..."
+        ],
+        "closing": "Sweet that makes total sense... you're going to get higher quality guests, I don't want it to be a party flop house... rather be something as maybe a bit more of a premium listing",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "mortgage paying how much flat",
+      "trigger_variants": [
+        "Should we be looking at the mortgage that I'm actually paying or how much the flat should generate — because some people could have a mortgage of 200 pounds and others 900?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-28",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "income discussion",
+      "answer_pattern": {
+        "opening": "This is what the net revenue is what we're estimating — this is what you can expect as a payout each month.",
+        "key_points": [
+          "This is what the net revenue is what we're estimating — this is what you can expect as a payout each month."
+        ],
+        "closing": "Because I already paid off half the mortgage in 15 years, and someone who just bought it would have the full mortgage — so it all depends.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "077"
+      ]
+    },
+    {
+      "canonical_trigger": "cost fees",
+      "trigger_variants": [
+        "How expensive are the maintenance services — I've heard some agencies charge a lot and some have their own in-house maintenance teams rather than using local companies?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-28",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "service discussion",
+      "answer_pattern": {
+        "opening": "Probably safe to expect about 5% of revenue toward upkeep and maintenance as a rule of thumb, though that's across the board — flats typically cost less to maintain than older houses.",
+        "key_points": [
+          "Probably safe to expect about 5% of revenue toward upkeep and maintenance as a rule of thumb, though that's across the board — flats typically cost less to..."
+        ],
+        "closing": "But services are generally quite expensive... okay anyway.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "077"
+      ]
+    },
+    {
+      "canonical_trigger": "saw only three days decide",
+      "trigger_variants": [
+        "I saw that I only have three days to decide on the offer."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-28",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "closing",
+      "answer_pattern": {
+        "opening": "It won't be three days, no — end of August, end of August.",
+        "key_points": [
+          "It won't be three days, no — end of August, end of August."
+        ],
+        "closing": "Right, August, okay, next month, okay yeah sure.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "077"
+      ]
+    },
+    {
+      "canonical_trigger": "seeking certainty reassurance",
+      "trigger_variants": [
+        "So what do you think is the minimum we could achieve?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-28",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "figures walkthrough",
+      "answer_pattern": {
+        "opening": "Worst case ~£1,100/month, range £1,100-2,400, average £1,700-1,800",
+        "key_points": [
+          "Worst case ~£1,100/month, range £1,100-2,400, average £1,700-1,800"
+        ],
+        "closing": "So I mean in your opinion what do you think we could project in the next year or so... we really need something tangible",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "078"
+      ]
+    },
+    {
+      "canonical_trigger": "certainty seeking validation",
+      "trigger_variants": [
+        "So you think this is totally achievable?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-28",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "post-figures discussion",
+      "answer_pattern": {
+        "opening": "Yes — not easy, but definitely viable short-let over long-let; hinges on review velocity; backed with the Manchester case study",
+        "key_points": [
+          "Yes — not easy, but definitely viable short-let over long-let; hinges on review velocity; backed with the Manchester case study"
+        ],
+        "closing": "Yeah, definitely... that's what we're looking for — somebody proactive who can tell us what's going wrong",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "078"
+      ]
+    },
+    {
+      "canonical_trigger": "operational due diligence",
+      "trigger_variants": [
+        "How do you actually chase up reviews?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-28",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "meeting 2 Q&A",
+      "answer_pattern": {
+        "opening": "Persistence plus incentives, rather than a single automated ask",
+        "key_points": [
+          "Persistence plus incentives, rather than a single automated ask"
+        ],
+        "closing": "None further",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "078"
+      ]
+    },
+    {
+      "canonical_trigger": "performance doubt evidence gap",
+      "trigger_variants": [
+        "We didn't see any surges in price for the Oasis concert last year — I just wondered how that works."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-28",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "meeting 2 Q&A",
+      "answer_pattern": {
+        "opening": "Could be supply/competition related; listing being in the bottom 10% means better-ranked listings get booked first",
+        "key_points": [
+          "Could be supply/competition related; listing being in the bottom 10% means better-ranked listings get booked first"
+        ],
+        "closing": "None further",
+        "what_not_to_say": "Could be supply/competition related; listing being in the bottom 10% means better-ranked listings get booked first"
+      },
+      "resolution_rate": 0.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "078"
+      ]
+    },
+    {
+      "canonical_trigger": "based property general cross net",
+      "trigger_variants": [
+        "Based on my property or is it just in general? ... Is it cross or net this figure?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-27",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "loss-averse-switcher"
+      ],
+      "most_common_meeting_phase": "income_presentation",
+      "answer_pattern": {
+        "opening": "This is based off of your property... That's net.",
+        "key_points": [
+          "This is based off of your property... That's net."
+        ],
+        "closing": "Okay that's absolutely fine.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "what's commission model based percentage",
+      "trigger_variants": [
+        "What's the commission model with you, is it based on percentage or is it based on monthly?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-27",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "loss-averse-switcher"
+      ],
+      "most_common_meeting_phase": "how_it_works",
+      "answer_pattern": {
+        "opening": "It's 15 plus vat of the gross bookings that come in... after Airbnb/booking.com take their commission, then we'll take our commission, which is 15 as well, plus vat.",
+        "key_points": [
+          "It's 15 plus vat of the gross bookings that come in... after Airbnb/booking.com take their commission, then we'll take our commission, which is 15 as well,..."
+        ],
+        "closing": "As long as it comes around 50k mark net I don't mind how much you take like 15% it because you are responsible for bringing in the short term.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "income clarity",
+      "trigger_variants": [
+        "Would the worst month be straight to our pocket, or is there deduction for your service?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-21",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "income discussion",
+      "answer_pattern": {
+        "opening": "Explained the worst-month figure is already net of all charges (platform commission, management fee, cleaning/laundry) — it is the payout figure.",
+        "key_points": [
+          "Explained the worst-month figure is already net of all charges (platform commission, management fee, cleaning/laundry) — it is the payout figure."
+        ],
+        "closing": "Moved straight on to asking about key access while abroad.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "service model",
+      "trigger_variants": [
+        "Do you only offer full management or do you offer partial as well?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-21",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "service explanation",
+      "answer_pattern": {
+        "opening": "No, we only offer full management, because if I'm not fully in control of the property, it's very hard for me to deliver a good service.",
+        "key_points": [
+          "No, we only offer full management, because if I'm not fully in control of the property, it's very hard for me to deliver a good service."
+        ],
+        "closing": "Okay, yeah (accepted)",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "076"
+      ]
+    },
+    {
+      "canonical_trigger": "assuming contract line new renters'",
+      "trigger_variants": [
+        "I'm assuming that the contract... is in line with the new Renters' Rights Act?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-09",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "opening / contract review",
+      "answer_pattern": {
+        "opening": "Short letting isn't tied to the same regulations, so it doesn't really apply to what we're doing here",
+        "key_points": [
+          "Short letting isn't tied to the same regulations, so it doesn't really apply to what we're doing here"
+        ],
+        "closing": "Got that. That's cool",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "073"
+      ]
+    },
+    {
+      "canonical_trigger": "cleaning linen section says charges",
+      "trigger_variants": [
+        "The cleaning and linen section says charges will be to the guest when possible — is that something you'd arrange?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-09",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "mid-call Q&A",
+      "answer_pattern": {
+        "opening": "It's automatic — the cleaning cost is bundled into the nightly price (e.g.",
+        "key_points": [
+          "It's automatic — the cleaning cost is bundled into the nightly price (e.g."
+        ],
+        "closing": "That's cool",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "073"
+      ]
+    },
+    {
+      "canonical_trigger": "waste management side bin collection",
+      "trigger_variants": [
+        "On the waste management side — is bin collection the responsibility of the cleaning company or the person in the property?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-09",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "mid-call Q&A",
+      "answer_pattern": {
+        "opening": "Cleaners are told to put bins out ahead of the nearest collection date; if there's overflow, commercial waste collection is arranged ad hoc or monthly; the process has improved a lot recently",
+        "key_points": [
+          "Cleaners are told to put bins out ahead of the nearest collection date; if there's overflow, commercial waste collection is arranged ad hoc or monthly; the..."
+        ],
+        "closing": "That's cool",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "073"
+      ]
+    },
+    {
+      "canonical_trigger": "contract liability",
+      "trigger_variants": [
+        "The limitation of liability says the agent isn't liable for guest actions or non-compliance — what does that refer to?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-09",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "mid-call Q&A",
+      "answer_pattern": {
+        "opening": "We're not liable for every guest action, but double bookings and complaints are on us; insurance and security deposits cover guest damage",
+        "key_points": [
+          "We're not liable for every guest action, but double bookings and complaints are on us; insurance and security deposits cover guest damage"
+        ],
+        "closing": "That makes sense. That's all good, that's fine. That's literally my question, I didn't have that many, to be fair",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "073"
+      ]
+    },
+    {
+      "canonical_trigger": "figures accuracy",
+      "trigger_variants": [
+        "You mentioned in the email you changed nothing on the hospital — I think it's 20-25 minutes away by train, not close. Did that change the figures in a negative way?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-09",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "mid-call",
+      "answer_pattern": {
+        "opening": "I wouldn't say so — the figures are based on comparable properties' actual performance, not proximity estimates, so it doesn't directly impact the numbers; I'll do a quick clarity check after this call and let you know",
+        "key_points": [
+          "I wouldn't say so — the figures are based on comparable properties' actual performance, not proximity estimates, so it doesn't directly impact the numbers;..."
+        ],
+        "closing": "It's pretty essential, not [an issue] — I've rented in the area before and found people working at hospitals renting nearby, so I think it should be alright. That's all been no problem for me",
+        "what_not_to_say": "I wouldn't say so — the figures are based on comparable properties' actual performance, not proximity estimates, so it doesn't directly impact the numbers; I'll do a quick clarity check after this call and let you know"
+      },
+      "resolution_rate": 0.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "073"
+      ]
+    },
+    {
+      "canonical_trigger": "insurance cover need",
+      "trigger_variants": [
+        "What insurance cover would we need?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-06",
+      "profile_types": [
+        "SELL"
+      ],
+      "emotional_profiles": [
+        "loss-averse-switcher"
+      ],
+      "most_common_meeting_phase": "how it works",
+      "answer_pattern": {
+        "opening": "You wouldn't need any additional insurance in place... anything additional is essentially going to be managed by us.",
+        "key_points": [
+          "You wouldn't need any additional insurance in place... anything additional is essentially going to be managed by us."
+        ],
+        "closing": "Well, all that is, we've got it fully certificated on the gas safety, ECR, boiler safety, water safety.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "072"
+      ]
+    },
+    {
+      "canonical_trigger": "changeover deal all changing beds",
+      "trigger_variants": [
+        "And the changeover — you deal with all that, changing beds and making sure it's clean?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-06",
+      "profile_types": [
+        "SELL"
+      ],
+      "emotional_profiles": [
+        "loss-averse-switcher"
+      ],
+      "most_common_meeting_phase": "how it works",
+      "answer_pattern": {
+        "opening": "Explained the all-inclusive cleaning price (deep clean, linen change, supplies) is passed on to the guest as part of the nightly charge.",
+        "key_points": [
+          "Explained the all-inclusive cleaning price (deep clean, linen change, supplies) is passed on to the guest as part of the nightly charge."
+        ],
+        "closing": "It's quite interesting knowing who pays for what.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "072"
+      ]
+    },
+    {
+      "canonical_trigger": "all sit husband put short",
+      "trigger_variants": [
+        "All right. So I will sit with my husband as well. So if I, if we put it on short let, which is guaranteed rent, you are suggesting a number of what would be the guaranteed rent month on monthly basis?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-06",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "mid",
+      "answer_pattern": {
+        "opening": "So this is if your long term let the property, we wouldn't offer a guaranteed rent for this property, unfortunately.",
+        "key_points": [
+          "So this is if your long term let the property, we wouldn't offer a guaranteed rent for this property, unfortunately."
+        ],
+        "closing": "So short, you do the management for short let? Right? All right, so 15,000 per annum. And you're saying it's not guaranteed. Okay. And what about airbnb potential for this one?",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "074"
+      ]
+    },
+    {
+      "canonical_trigger": "contractors airport contractors nhs potential",
+      "trigger_variants": [
+        "What about the contractors like airport contractors or NHS... does it have that kind of potential for contractors?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-06",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "mid",
+      "answer_pattern": {
+        "opening": "It's given us a score 100 out of 100... we're near hospitals, near universities, construction projects, and events.",
+        "key_points": [
+          "It's given us a score 100 out of 100... we're near hospitals, near universities, construction projects, and events."
+        ],
+        "closing": "Because there's a train station about two minutes drive, and the bus stop is right outside the property... I was just thinking that maybe that can be a selling point.",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "074"
+      ]
+    },
+    {
+      "canonical_trigger": "understanding buy property there let's",
+      "trigger_variants": [
+        "So what I'm understanding is that if I buy a property there, let's say a two bed nice Terraced house in a nice street, but you won't be able to take it on under any of your program, whether it's rent guaranteed or rent to rent or anything?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-06",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "mid-late",
+      "answer_pattern": {
+        "opening": "No, most likely not... property that is under a social housing contract and not very well maintained... the tenants are a very poor quality, and you're never going to change that.",
+        "key_points": [
+          "No, most likely not... property that is under a social housing contract and not very well maintained... the tenants are a very poor quality, and you're never..."
+        ],
+        "closing": "What kind of places or where do you think there's real potential if we invest there, so that rent to rent or guarantee scheme will work?",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "074"
+      ]
+    },
+    {
+      "canonical_trigger": "influence owner retain nightly rates",
+      "trigger_variants": [
+        "What influence does the owner retain over nightly rates within Stayful's management model?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-06-22",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "Professional and analytical"
+      ],
+      "most_common_meeting_phase": "",
+      "answer_pattern": {
+        "opening": "",
+        "key_points": [],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "038"
+      ]
+    },
+    {
+      "canonical_trigger": "guest verification damage protection process",
+      "trigger_variants": [
+        "What is the guest verification and damage protection process?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-06-22",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "Professional and analytical"
+      ],
+      "most_common_meeting_phase": "",
+      "answer_pattern": {
+        "opening": "",
+        "key_points": [],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "038"
+      ]
+    },
+    {
+      "canonical_trigger": "additional safety certifications needed temporary",
+      "trigger_variants": [
+        "Are additional safety certifications needed for a temporary STL arrangement?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-06-12",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "Positive and engaged but evaluating competitors"
+      ],
+      "most_common_meeting_phase": "",
+      "answer_pattern": {
+        "opening": "No additional certifications required; new boiler already installed and serviced annually — will be serviced again before departure",
+        "key_points": [
+          "No additional certifications required; new boiler already installed and serviced annually — will be serviced again before departure"
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "038"
+      ]
+    },
+    {
+      "canonical_trigger": "viable stl revenue warwick bed",
+      "trigger_variants": [
+        "What is the viable STL revenue for this Warwick 2-bed?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-06-12",
+      "profile_types": [
+        "R2R"
+      ],
+      "emotional_profiles": [
+        "Detail-oriented property investor educated via Touchstone"
+      ],
+      "most_common_meeting_phase": "",
+      "answer_pattern": {
+        "opening": "~£2,100/month net average from 1.5km radius comps; best performer in area ~£46k gross/year; expect ~20% below average until reviews build",
+        "key_points": [
+          "~£2,100/month net average from 1.5km radius comps; best performer in area ~£46k gross/year; expect ~20% below average until reviews build"
+        ],
+        "closing": "",
+        "what_not_to_say": ""
+      },
+      "resolution_rate": 1.0,
+      "question_indicates_gap": "",
+      "entries": [
+        "039"
+      ]
+    }
+  ]
+}
