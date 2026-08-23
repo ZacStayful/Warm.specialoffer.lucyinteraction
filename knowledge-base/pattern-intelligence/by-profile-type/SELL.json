@@ -1,0 +1,83 @@
+{
+  "schema_version": "3.0",
+  "profile_type": "SELL",
+  "profile_description": "Selling the property, short-letting in the meantime",
+  "total_entries": 8,
+  "last_updated": "2026-07-06",
+  "typical_situation": "Lead owns a property that has been on the market for an extended period (sometimes years, often with a failed sale or two behind them) and is either sitting empty and costing money, or already listed on an STR platform but underperforming — and wants short-letting to generate income while the sale process continues.",
+  "typical_motivation": "Reduce or eliminate the ongoing cost of holding an unsold property (mortgage, council tax, general upkeep) rather than maximise profit — STL is explicitly framed by the lead as a bridge, not a long-term strategy, and they need certainty it won't interfere with selling.",
+  "typical_timeline": "Ready to move quickly once reassured the property can remain listed for sale simultaneously — decisions are gated more by finalised costs (furnishing, itemised setup quotes) than by any external deadline.",
+  "most_common_emotional_profiles": [
+    {"archetype": "loss-averse-switcher", "count": 2, "percentage": 25.0},
+    {"archetype": "analytical-evaluator", "count": 1, "percentage": 12.5},
+    {"archetype": "pragmatic-cost-focused", "count": 1, "percentage": 12.5},
+    {"archetype": "fast-path-gain-focused", "count": 1, "percentage": 12.5},
+    {"archetype": "lifestyle-driven-simplifier", "count": 1, "percentage": 12.5}
+  ],
+  "most_common_delays": [
+    {"delay_type": "DLY-FUR", "count": 1, "percentage": 12.5},
+    {"delay_type": "DLY-MOV", "count": 1, "percentage": 12.5},
+    {"delay_type": "DLY-OTH", "count": 1, "percentage": 12.5}
+  ],
+  "most_common_green_lights": [
+    {"green_light_type": "GL-TIME", "count": 3, "percentage": 37.5},
+    {"green_light_type": "GL-MGMT", "count": 1, "percentage": 12.5},
+    {"green_light_type": "GL-SELF", "count": 1, "percentage": 12.5}
+  ],
+  "what_meeting_should_lead_with": "Open by naming the cost of the property sitting empty or underperforming, then immediately reassure that short-letting and an active sale listing are fully compatible (calendar access retained, viewings accommodated, easy exit once a buyer is found) — SELL leads need certainty this is a hedge, not a competing commitment, before they will engage with figures.",
+  "top_questions": [
+    {"question": "Can the property stay actively listed for sale while it's being short-let?", "frequency": 4, "confidence": 0.95, "best_answer": "Yes — the lead retains full calendar access, Stayful works around viewings, and a 3-month rolling notice after the initial term gives a clean exit whenever a buyer is found."},
+    {"question": "Will the STL income actually cover the mortgage and running costs?", "frequency": 3, "confidence": 0.9, "best_answer": "Walk through net STL income against the specific mortgage and annual bills figure so the lead sees it's a comfortable surplus, not a marginal cover."},
+    {"question": "What is the management fee, and is there a special offer?", "frequency": 2, "confidence": 0.7, "best_answer": "Standard 15% + VAT, with a discretionary discounted rate (typically 13% + VAT) tied to a signing deadline."},
+    {"question": "What insurance and damage cover is in place for guests?", "frequency": 1, "confidence": 0.5, "best_answer": "No extra insurance needed from the owner; explain the guest security deposit, light vetting, and insurance cover for major incidents."},
+    {"question": "Do we still have to pay double council tax as a second home?", "frequency": 1, "confidence": 0.5, "best_answer": "Explain the route to reclassify to business/commercial rates, often qualifying for small business rates relief that reduces the liability toward zero."},
+    {"question": "How do I get more weekday bookings when I'm only filling weekends?", "frequency": 1, "confidence": 0.5, "best_answer": "Point to a specific local weekday demand driver (e.g. NHS/hospital staff, contractors) and Stayful's multi-platform, direct-booking approach and listing framing to target them."},
+    {"question": "What equipment is essential vs optional to get started?", "frequency": 1, "confidence": 0.5, "best_answer": "Give a concrete list: fire blankets, smoke detectors, smart thermostat and key safe are essential; interior cameras (platform-prohibited) and PIR/motion sensors are not."},
+    {"question": "How long does onboarding take, and what furnishing is required first?", "frequency": 2, "confidence": 0.6, "best_answer": "Roughly 3 weeks from signing to going live; furnishing requirements assessed and quoted early so there's no surprise cost."}
+  ],
+  "top_objections": [
+    {"objection": "Furnishing/setup cost is only a verbal ballpark, not a finalised figure, at the point the offer is made", "frequency": 2, "resolution_rate": 0.5, "best_response": "Send the finalised, itemised furnishing quote the same day the offer is made, before the discount deadline, rather than leaving the lead with only a range."},
+    {"objection": "Property may sell before or during the STL arrangement — active viewings create a 'wait and see' mindset", "frequency": 2, "resolution_rate": 0.5, "best_response": "Frame STL as a hedge against a sale falling through again (especially where there have already been failed sales), and confirm STL and the sale listing run simultaneously with no either/or decision required."},
+    {"objection": "STL income only marginally covers the mortgage — weak-feeling financial case, especially on large/unusual properties", "frequency": 1, "resolution_rate": 1.0, "best_response": "Reframe the goal explicitly as reducing outgoings while selling, not maximising profit — STL pays for itself during the sale wait, which is a lower bar than a profit case."},
+    {"objection": "Comparing 2-3 other STL management agents before deciding", "frequency": 1, "resolution_rate": 0.0, "best_response": "Use a discounted, deadline-bound offer plus portfolio case studies/testimonials for similar (especially large or unusual) properties to differentiate from generic agents."},
+    {"objection": "Weekday occupancy is weak on the lead's current listing, creating scepticism about income projections", "frequency": 2, "resolution_rate": 0.5, "best_response": "Attribute the gap to platform limitations, not the property itself, and back it with a concrete local weekday-demand angle plus a comparable case study."},
+    {"objection": "Damage/wear concern (sofa, bed, general condition) given the property will have paying guests", "frequency": 1, "resolution_rate": 1.0, "best_response": "Explain the guest security deposit, light background vetting, insurance for major incidents, and an approved-contractor repair framework."},
+    {"objection": "Risk-averse decision-making partner wasn't on the call and needs second-hand persuasion", "frequency": 1, "resolution_rate": 0.0, "best_response": "Send a joint summary email with a clear, simple cost-vs-income table the absent partner can review directly, and always ask upfront whether both decision-makers can join the call."}
+  ],
+  "top_conversion_gaps": [
+    {"gap": "Offer expires with no firm next-step date locked in — follow-up left as an open, informal check-in", "category": "no clear next-step commitment", "frequency": 3, "how_to_fill": "Book a specific follow-up call/date on the spot rather than an open-ended 'touch base if I don't hear from you'."},
+    {"gap": "Furnishing/setup cost given only as a verbal ballpark at the moment the discounted offer is made", "category": "pricing not finalised at point of offer", "frequency": 1, "how_to_fill": "Send the finalised, itemised quote the same day, while the discount urgency is still fresh."},
+    {"gap": "Risk-averse or decision-sharing partner not present on the call", "category": "decision_maker", "frequency": 1, "how_to_fill": "Always ask if a partner/spouse can join; if not, send a joint summary with a clear cost-vs-income table for them to review independently."},
+    {"gap": "Lead is simultaneously evaluating competing STL management agents", "category": "competition", "frequency": 1, "how_to_fill": "Share portfolio case studies and testimonials for comparable properties, and use a deadline-bound discount to reduce the appeal of continued shopping around."},
+    {"gap": "No SE25/local-market-specific weekday occupancy data or NHS/contractor guest booking statistics on hand", "category": "income_confidence", "frequency": 1, "how_to_fill": "Follow up with area-specific weekday occupancy data and a comparable-property case study showing the weekday-fill improvement under professional management."},
+    {"gap": "Offer expired without any response and follow-up attempts went unanswered", "category": "follow_through", "frequency": 2, "how_to_fill": "Re-engage 4-6 weeks post-expiry with a refreshed offer or updated income projections rather than letting the lead go cold."}
+  ],
+  "what_moves_them": [
+    {"point": "Explicit confirmation that STL and an active sale listing run simultaneously with no either/or decision", "frequency": 3},
+    {"point": "Council tax business-rates reclassification presented as a concrete monthly saving", "frequency": 1},
+    {"point": "Discounted management fee tied to a firm signing deadline", "frequency": 3},
+    {"point": "Property-specific strengths (location, amenities, low local competition) affirmed directly", "frequency": 2},
+    {"point": "Clear demonstration that net STL income comfortably covers mortgage plus all running costs", "frequency": 3}
+  ],
+  "language_to_use": [
+    {"phrase": "There's nothing to stop you continuing to try and sell the property", "context": "Reassuring a lead their STL agreement doesn't compete with an active sale"},
+    {"phrase": "The 3-month rolling notice gives you full flexibility — when your buyer comes, you can exit", "context": "Removing the fear of being locked in past a successful sale"},
+    {"phrase": "It's about reducing outgoings, not maximising profit, while the property is on the market", "context": "Reframing the financial goalpost downward so a modest net income already feels like a win"},
+    {"phrase": "The weekday gap you're experiencing is a platform issue, not a property issue", "context": "Countering scepticism from an already-underperforming self-managed listing"}
+  ],
+  "presentation_section_priority": [
+    "Name the cost of the property sitting empty or underperforming right now",
+    "Confirm upfront that STL and an active sale listing are fully compatible — calendar access, viewings, and easy exit",
+    "Show net STL income clearly covering the mortgage and running costs, framed as reducing outgoings rather than maximising profit",
+    "Cover operational reassurance (insurance, damage, cleaning, council tax) to remove logistics friction",
+    "Close with a deadline-bound discounted offer, paired with a same-day finalised furnishing/setup quote"
+  ],
+  "conversion_data": {
+    "total": 8,
+    "ready_now": 4,
+    "delayed": 4,
+    "had_meeting_2": 0,
+    "converted_to_customer": 0,
+    "most_common_lost_reason": ""
+  }
+}
