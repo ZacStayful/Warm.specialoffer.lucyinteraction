@@ -1,0 +1,97 @@
+{
+  "schema_version": "3.0",
+  "profile_type": "ABROAD",
+  "profile_description": "Moving or living abroad, needs remote management",
+  "total_entries": 17,
+  "last_updated": "2026-08-13",
+  "typical_situation": "Lead is relocating abroad — for a new job, an employer sabbatical, an extended trip, or a family move, sometimes already living overseas — and needs their UK home managed remotely as a short-let while they're away, often deciding between that and simply taking on a long-term tenant instead.",
+  "typical_motivation": "Generate income to cover the mortgage or holding costs (and sometimes travel expenses) while abroad, without needing to self-manage anything or return to the UK in person, so the overriding need is certainty that management is genuinely hands-off.",
+  "typical_timeline": "Anchored to a hard external departure date (job start date, sabbatical dates, or a property completion), which creates real but often soft urgency — the decision ideally lands before they leave the country, though many push confirmation right up to, or past, their own departure.",
+  "most_common_emotional_profiles": [
+    {"archetype": "analytical-evaluator", "count": 6, "percentage": 35.3},
+    {"archetype": "certainty-seeker", "count": 3, "percentage": 17.6},
+    {"archetype": "pragmatic-cost-focused", "count": 2, "percentage": 11.8}
+  ],
+  "most_common_delays": [
+    {"delay_type": "DLY-MOV", "count": 5, "percentage": 29.4},
+    {"delay_type": "DLY-OTH", "count": 5, "percentage": 29.4},
+    {"delay_type": "DLY-FUR", "count": 2, "percentage": 11.8},
+    {"delay_type": "DLY-PUR", "count": 1, "percentage": 5.9}
+  ],
+  "most_common_green_lights": [
+    {"green_light_type": "GL-TIME", "count": 8, "percentage": 47.1},
+    {"green_light_type": "GL-MGMT", "count": 7, "percentage": 41.2},
+    {"green_light_type": "GL-SELF", "count": 2, "percentage": 11.8}
+  ],
+  "what_meeting_should_lead_with": "Lead with the fully-remote operational model — key access, guest vetting, maintenance approval thresholds, communication cadence — before going deep on figures, because 'how does this actually work when I'm not here' is this profile's dominant unspoken question, and certainty on that unlocks genuine engagement with the numbers.",
+  "top_questions": [
+    {"question": "How will the property actually be managed with no one on-site, or while I'm out of the country?", "frequency": 7, "confidence": 0.9, "best_answer": "Walk through the fully remote model directly: dedicated Slack channel, monthly statements on fixed dates, an automatic maintenance-approval threshold (e.g. £300) so the owner is never called for small issues, and confirmation that physical presence is never required."},
+    {"question": "What income can I realistically expect, including a worst-case figure and how it compares to a long-term let?", "frequency": 10, "confidence": 0.9, "best_answer": "Give a month-by-month STL vs LTL comparison, not just an annual headline, so even the weakest STL month can be shown beating the LTL net."},
+    {"question": "How is guest access and key handover managed with no one local?", "frequency": 3, "confidence": 0.7, "best_answer": "Explain key safes with rotating codes (or KeyNest-style local storage), plus a separate maintenance-access code, so the lead sees a concrete mechanism, not just an assurance."},
+    {"question": "What happens if the property is damaged, and how are guests vetted?", "frequency": 5, "confidence": 0.85, "best_answer": "Detail the security deposit, ID checks with damage-history screening, and platform/insurance cover for major incidents, scaled to the property's value where relevant."},
+    {"question": "What are the contract terms — minimum term, notice period, and any exit/cancellation cost?", "frequency": 2, "confidence": 0.6, "best_answer": "Explain the 6-month initial term (needed for projections to land) with a 3-month rolling notice after, and be explicit and patient about exit scenarios (selling, moving back) since this profile often tests them from multiple angles."},
+    {"question": "What's the management fee and exactly what does it include?", "frequency": 3, "confidence": 0.6, "best_answer": "State the fee plainly on its own (not folded into a net-income breakdown) and confirm the lead has heard it, then list what it covers end-to-end."},
+    {"question": "Can a partner's or my own periodic UK visits be accommodated via calendar blocking?", "frequency": 2, "confidence": 0.5, "best_answer": "Confirm date-blocking is possible with no cap on frequency, but flag that existing confirmed bookings can't be cancelled, so visits need advance planning."},
+    {"question": "How does STL compare financially to simply getting a long-term tenant?", "frequency": 4, "confidence": 0.8, "best_answer": "Present the direct net-vs-net comparison across all 12 months, and be honest where the uplift is thin rather than overselling it."},
+    {"question": "Is short-letting even permitted here — leasehold/freeholder consent, or does my mortgage allow it?", "frequency": 3, "confidence": 0.6, "best_answer": "Ask leasehold vs freehold status directly, point to any comparable nearby property already operating as a short-let, and be candid that consent risk sits with the lead's own decision if unresolved."},
+    {"question": "What are the tax implications of short-letting as a non-resident/overseas landlord?", "frequency": 1, "confidence": 0.3, "best_answer": "Give the factual basics (UK property income stays within UK tax scope, HMRC's Non-Resident Landlord Scheme, relevant double-tax treaty) and recommend a cross-border accountant rather than advising directly."},
+    {"question": "What furnishing/setup is required and what will it cost?", "frequency": 2, "confidence": 0.5, "best_answer": "Give an itemised setup quote with a break-even estimate framed as a one-time investment Stayful can coordinate remotely."},
+    {"question": "How is maintenance handled and what's the owner-approval threshold for repairs?", "frequency": 3, "confidence": 0.6, "best_answer": "Confirm a specific auto-approval threshold (e.g. £300/month) below which nothing needs the owner's sign-off, with anything above requiring explicit approval via Slack."}
+  ],
+  "top_objections": [
+    {"objection": "Core worry about not being in the country if something goes wrong, or about the property not getting booked while abroad", "frequency": 4, "resolution_rate": 0.75, "best_response": "Pair concrete operational mechanics (deposits, insurance, notification thresholds) with a real comparable-property case study, ideally one that includes an honest under-forecast, to make the reassurance evidenced rather than just verbal."},
+    {"objection": "The STL income uplift over a long-term let is too thin to clearly justify switching", "frequency": 2, "resolution_rate": 0.5, "best_response": "Be honest about the size of the uplift, then look for a way to strengthen the case (e.g. costing an extra-bedroom conversion) rather than letting a marginal number stand alone."},
+    {"objection": "Large setup/furnishing costs feel disproportionate to the projected income, especially for bigger properties", "frequency": 2, "resolution_rate": 0.0, "best_response": "Show setup cost amortised over 12-24 months against the LTL alternative, backed by an actual comparable property of similar size."},
+    {"objection": "Freeholder, leasehold, or shared-equity consent for short-letting is uncertain or likely to be refused", "frequency": 2, "resolution_rate": 0.0, "best_response": "Be direct that this is a real risk sitting with the lead's own decision, while offering any positive precedent available (e.g. another leaseholder on the same scheme already short-letting successfully)."},
+    {"objection": "A competing option is already in play — a guaranteed-rent scheme, an interested long-term tenant, or a competitor company", "frequency": 3, "resolution_rate": 0.67, "best_response": "Quantify the gap directly in cash terms (e.g. a multi-year uplift total) rather than only restating STL's monthly advantage."},
+    {"objection": "Decision-making partner, spouse, or joint owner was not on the call", "frequency": 2, "resolution_rate": 0.0, "best_response": "Send a forwardable pre-call summary so the absent decision-maker arrives informed at any follow-up call, and confirm any calendar-blocking commitments in writing beforehand."},
+    {"objection": "Wants to test or press the exit/termination terms and any compensation scheme within the fixed term", "frequency": 1, "resolution_rate": 1.0, "best_response": "Answer every angle patiently and specifically (selling, moving back, general dissatisfaction) rather than giving one generic answer — this profile tends to stress-test the contract from multiple directions before trusting it."},
+    {"objection": "Wants more control or oversight over dynamic pricing decisions", "frequency": 1, "resolution_rate": 0.0, "best_response": "Show the actual owner pricing-input mechanism (floor rates, preferences) rather than only asserting that pricing is optimised on their behalf."},
+    {"objection": "Existing monthly holding costs are already too high for projected STL income to comfortably cover in year one", "frequency": 1, "resolution_rate": 0.0, "best_response": "Give honest advisory input on reducing the cost base itself (mortgage review, business-rates switch) rather than only pitching the management service harder on income."}
+  ],
+  "top_conversion_gaps": [
+    {"gap": "No firm next-step or follow-up date locked in before the call ends", "category": "no clear next-step commitment", "frequency": 5, "how_to_fill": "Book a concrete follow-up call/date before ending every call, especially where conversion probability already looked high, rather than leaving the next step dependent on the lead reaching out."},
+    {"gap": "Decision-making partner, spouse, or joint owner not present on the call", "category": "decision_maker", "frequency": 2, "how_to_fill": "Send a pre-call summary the lead can forward, and confirm any specific commitments (e.g. calendar-blocking) in writing before the joint follow-up call."},
+    {"gap": "Analyser or presentation tool produced visibly wrong or inconsistent figures live on the call, undermining confidence", "category": "data_quality", "frequency": 2, "how_to_fill": "Send a corrected, verified figure set immediately after the call so the lead has something firm to take to a co-decision-maker."},
+    {"gap": "Legal/consent blocker (freeholder, leasehold, or shared-equity approval) not fully resolved or addressed", "category": "legal/permission", "frequency": 3, "how_to_fill": "Raise buildings/landlord insurance and consent checks proactively as a standard part of every ABROAD-profile leasehold conversation, not only when the lead raises it first."},
+    {"gap": "Cross-border tax question for a lead already living abroad has no available answer on the call", "category": "knowledge_gap", "frequency": 1, "how_to_fill": "Prepare a standard factual (non-advisory) briefing for ABROAD leads covering UK tax scope, the Non-Resident Landlord Scheme, and a recommendation to use a cross-border accountant."},
+    {"gap": "Setup/furnishing cost not contextualised or amortised against the income case for larger properties", "category": "income_confidence", "frequency": 1, "how_to_fill": "Present setup cost amortised over 12-24 months alongside a real comparable property of similar size, rather than leaving it as a standalone figure."},
+    {"gap": "Thin STL-vs-LTL uplift left unstrengthened before the lead disengages", "category": "income_confidence", "frequency": 1, "how_to_fill": "Cost out any available configuration change (e.g. converting a garage or spare room to an extra bedroom) that could meaningfully shift the case."},
+    {"gap": "No worst-case/floor income figure provided for an unusual property type (e.g. large-format group property)", "category": "income_confidence", "frequency": 1, "how_to_fill": "Provide a seasonal floor-and-ceiling range specific to the property type at the next follow-up, not just an average."},
+    {"gap": "A known departure date never converted into an explicit signing deadline", "category": "urgency", "frequency": 1, "how_to_fill": "Explicitly tie agreement sign-off to the lead's own departure window rather than leaving timing implicit."},
+    {"gap": "High monthly holding-cost base not addressed with cost-reduction options before pitching harder on income", "category": "financial", "frequency": 1, "how_to_fill": "Follow up specifically on whether the lead has explored a mortgage review or business-rates switch — the cost-reduction may matter more than the income pitch."},
+    {"gap": "Management fee mentioned only briefly and not explicitly confirmed back by the lead", "category": "commercial_terms", "frequency": 1, "how_to_fill": "State the fee percentage plainly on its own and get an audible confirmation rather than leaving it folded into the net-income walkthrough."}
+  ],
+  "what_moves_them": [
+    {"point": "Confirmation of a fully remote, hands-off operational model — Slack updates, monthly statements, no physical presence ever needed", "frequency": 8},
+    {"point": "Concrete real comparable-property case studies, especially ones showing actual results meeting or beating projections", "frequency": 6},
+    {"point": "Concrete guest-vetting and damage-protection mechanics (deposit, ID checks, insurance) rather than a general assurance", "frequency": 5},
+    {"point": "Direct, plain-numbers STL vs LTL comparison across all months, not just a headline annual figure", "frequency": 3},
+    {"point": "Honest, upfront framing that year-one figures will run below full potential, rather than overselling", "frequency": 3},
+    {"point": "Specific, named local demand drivers (transport links, hospitals, universities, events)", "frequency": 3},
+    {"point": "Flexibility on personal-use calendar blocking with no stated cap", "frequency": 2},
+    {"point": "Zac giving genuinely disinterested advisory input (e.g. recommending cost reduction) instead of pushing the sale harder", "frequency": 1}
+  ],
+  "language_to_use": [
+    {"phrase": "You won't ever need to go to the property itself once we've got everything set up", "context": "Reassuring a lead about to depart, or already living, abroad"},
+    {"phrase": "The Slack channel becomes your eyes and ears on the property", "context": "Remote-management reassurance for a lead worried about being out of the loop"},
+    {"phrase": "Even in the worst month, STL beats long-let net", "context": "Countering a live competing long-let or guaranteed-rent offer with a concrete monthly comparison"},
+    {"phrase": "It's not any surprises when you get the statement at the end of the month", "context": "Certainty-seeking leads worried about losing visibility once they've left the country"},
+    {"phrase": "Any amount you're really making is a cost-saving exercise for you as well as a profit-making one", "context": "Reframing a modest income uplift for a lead primarily trying to offset an existing mortgage/holding cost"}
+  ],
+  "presentation_section_priority": [
+    "Lead with the fully-remote operational model (key access, guest vetting, maintenance thresholds, communication cadence)",
+    "Present income figures with an honest, month-by-month STL vs LTL comparison rather than just an annual headline",
+    "Confirm calendar-blocking flexibility for any planned return visits or a partner's ongoing UK access needs",
+    "Resolve legal/consent blockers (freeholder, leasehold, mortgage consent-to-let) explicitly rather than leaving them implicit",
+    "Close with a deadline aligned to the lead's actual departure date so soft time pressure becomes an explicit decision point"
+  ],
+  "conversion_data": {
+    "total": 17,
+    "ready_now": 2,
+    "delayed": 15,
+    "had_meeting_2": 1,
+    "converted_to_customer": 0,
+    "most_common_lost_reason": "Likely deterred by large 5-bed setup costs and timing uncertainty; moved abroad"
+  }
+}
