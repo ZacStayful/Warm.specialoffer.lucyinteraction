@@ -1,0 +1,52 @@
+{
+  "schema_version": "3.0",
+  "delay_type": "DLY-OTH",
+  "delay_description": "Other prerequisite — blocking event must resolve",
+  "total_entries": 24,
+  "last_updated": "2026-08-21",
+  "trigger_phrases": [
+    {"phrase": "Renovation, refurbishment, or building work not yet complete", "frequency": 8},
+    {"phrase": "Mortgage/financing structure or lender terms not yet resolved", "frequency": 6},
+    {"phrase": "Third-party consent required (freeholder, management company, or existing letting agent)", "frequency": 5},
+    {"phrase": "Needs partner/spouse sign-off before deciding", "frequency": 4},
+    {"phrase": "Compliance, certification, or legal-permission requirement (gas/electrical certs, change of use, subletting clause)", "frequency": 3},
+    {"phrase": "Lead's own travel or personal logistics gate when they can act", "frequency": 3},
+    {"phrase": "Wants to inspect the property or receive written materials before deciding", "frequency": 2},
+    {"phrase": "Current cost base doesn't yet justify switching — needs the numbers to improve first", "frequency": 1}
+  ],
+  "typical_timeline": {
+    "most_common_months": 1,
+    "range_min_months": 0,
+    "range_max_months": 3,
+    "notes": "This category spans the widest range of blockers — from a same-week spousal sign-off to multi-month renovation or third-party consent processes — so no single timeframe dominates; most named timelines resolved within one to three months."
+  },
+  "what_leads_focus_on_while_waiting": [
+    {"concern": "When the builder/renovation/refurb will actually finish", "frequency": 8},
+    {"concern": "Sorting mortgage rate, lender permission, or funding structure", "frequency": 6},
+    {"concern": "Getting sign-off from a freeholder, management company, or existing letting agent", "frequency": 5},
+    {"concern": "Bringing a partner or spouse up to speed before committing jointly", "frequency": 4},
+    {"concern": "Confirming legal/compliance requirements are met (certificates, change of use, mortgage T&Cs)", "frequency": 3},
+    {"concern": "Wanting to see the property or written materials in hand before deciding", "frequency": 2}
+  ],
+  "emotional_profiles_most_common": [
+    {"profile": "analytical-evaluator", "count": 16},
+    {"profile": "certainty-seeker", "count": 5},
+    {"profile": "loss-averse-switcher", "count": 1},
+    {"profile": "unspecified", "count": 2}
+  ],
+  "how_to_handle_in_meeting": {
+    "acknowledge_phrase": "What I'll do is I'll share my screen and we can go through what we've estimated, the projections are and also where I think the gaps are as well.",
+    "timeline_question": "Of everything still to sort before this could go live — [the specific blocker named] — what's the realistic next milestone, and when do you expect to know more?",
+    "reframe_approach": "Because this category covers genuinely different blockers, name the specific one back to the lead precisely (builder, lender, freeholder, spouse, certificate) rather than treating it as generic hesitation, and address it on its own terms.",
+    "how_to_keep_engaged": "Give the lead something concrete to act on or forward — a written summary, action plan, or case study — so waiting on the third party (partner, freeholder, lender, agent) still moves the decision forward, and let the lead set the follow-up date once they've named their own trigger.",
+    "what_to_write_to_monday": "Log the specific blocking event in plain terms (which renovation stage, which third party's consent, which document the spouse is reviewing) and the date it's expected to resolve, since 'other' blockers need their own description to be useful later."
+  },
+  "conversion_after_delay": {
+    "total": 24,
+    "eventually_converted": 9,
+    "conversion_rate": 0.38,
+    "avg_months_to_convert": 0,
+    "drop_off_reason": "Decided to long let property"
+  },
+  "do_not_attempt_offer_because": "The blocker sits with a party or process outside the lead's direct control (a builder, a lender, a freeholder, a spouse who wasn't on the call), so a signing deadline created by Stayful cannot force that third party to move faster, and risks pressuring the lead into a commitment they cannot yet honour."
+}
