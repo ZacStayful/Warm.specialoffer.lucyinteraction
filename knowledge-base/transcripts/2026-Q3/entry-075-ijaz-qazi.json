@@ -1,0 +1,273 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "075",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-07-30",
+  "transcript_quality": "full",
+  "lead_name": "Ijaz Qazi",
+  "email": "ijazqazi@hotmail.com",
+  "monday_id": "12670232652",
+  "address": "1-3 Crossfield Road, Birmingham, B33 9QB",
+  "bedrooms": 2,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "analytical-evaluator",
+  "conversion_likelihood": 80,
+  "profile_confidence": "high",
+  "primary_blocker": "Wants to independently price and potentially buy the furniture himself before committing to Stayful's setup quote -- the sole hard objection in an otherwise unchallenged income conversation.",
+  "language_signals": [
+    "\"looks better on paper of course\" -- mild hedge/caution phrase after accepting the headline income figures",
+    "\"if there isn't huge difference... if there is a significant difference\" -- conditional, threshold-based decision framing typical of a cost comparator",
+    "\"rough estimates of course by experience I mean\" -- pragmatic acceptance once told granular monthly figures weren't available",
+    "\"does that include the council tax as well?\" -- detail-checking / verification question pattern",
+    "\"I mean if you can send me the list of items\" -- explicit request for itemised data to self-verify rather than trust a round number"
+  ],
+  "portfolio_flag": true,
+  "outcome": "Customer",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-FUR",
+      "trigger_phrase": "I mean if you can send me the list of items you need on the furniture list so then we can work it out -- if there isn't huge difference then I'll probably go for [you], if there is a significant difference I'll probably try to do it myself",
+      "context": "Property is currently unfurnished; lead wants an itemised furniture list from Zac so he can price it up independently and compare against Stayful's verbal ~£5,000 (costed quote £5,480) furnishing estimate before deciding who furnishes the property.",
+      "timeline_given": "No date given -- pending receipt of the furniture list.",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "I haven't visited it yet... I'm not sure about the condition of, you know, the kitchen or the bathroom",
+      "context": "Lead hasn't seen the property in roughly two years and is unsure of its condition, so wants Zac to inspect immediately after signing, before furnishing, to catch any issues.",
+      "timeline_given": "Inspection agreed for \"next week\" but no specific date or time was fixed on the call.",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "It's becoming available today.",
+      "context": "The long-term tenancy ended the day of the call, so the property is immediately vacant with no tenant notice period to wait out and no competing use of the property.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "I can hand you over the keys at the property... I'll be there tomorrow.",
+      "context": "Lead proactively offered to hand over keys within a day of the call, well ahead of any agreement being signed -- a concrete readiness-to-proceed signal, not just interest.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "Do you cover Enfield in London because I've got a property in Enfield, it's becoming available... is there any discount for you know if you have more properties with you?",
+      "context": "Lead volunteered a second property (Enfield) unprompted immediately after hearing about the 12%-for-3+ multi-property discount, signalling appetite to expand the relationship beyond one property.",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "no_offer_made"
+  },
+  "meeting_flow": {
+    "opening_phrase": "Hi, Joss. How you doing?",
+    "rapport_topics": [
+      "Zac apologised for having no lead details on file ahead of the booked call"
+    ],
+    "pivot_to_business": "Zac explained he had no details on file for the booked call and asked for background plus the property address so he could run numbers live while they talked.",
+    "income_intro": "Well, this is sort of the breakdown that we've got. I'll share my screen and we can go through it.",
+    "post_income_silence": "",
+    "how_it_works_transition": "I think we've covered a fair on the income side of things. Is there any questions you've got around it, or does it kind of make sense? -- from there Zac followed the lead's own questions (furnishing, then management/terms) rather than a fixed scripted explainer sequence.",
+    "pre_close_setup": "I mean, I think that... we've covered a fair on the income side of things... Anything else you want to go through? Or is it all happy?",
+    "close_phrase": "What I'll do then is I'll send you over the agreement in the action plan... if you want to go ahead, just sign that agreement, send it back to me, and then we'll start the kickoff.",
+    "meeting_2_ask": "Zac proposed a follow-up call after the agreement is signed to plan the property inspection, furniture fit-out and go-live timeline -- no specific date or time was fixed on the call itself.",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 78
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "Does that include the council tax as well?",
+      "category": "clarifying_question",
+      "meeting_phase": "income_reveal",
+      "zac_responded_with": "Yeah, this is everything.",
+      "lead_follow_up": "The council tax the bills okay yeah look better.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Right well looks better on paper of course.",
+      "category": "cautious_acceptance",
+      "meeting_phase": "income_reveal",
+      "zac_responded_with": "Yeah, yeah, sure. There's a couple of things to know I would say with this...",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "So what figures are we looking at suppose at in month one or at the end of month three or month six? I mean what about first month?",
+      "category": "pressing_for_detail",
+      "meeting_phase": "income_reveal",
+      "zac_responded_with": "I can't do information that granular... I would tend to say first year maybe it's going to be sort of 15% less.",
+      "lead_follow_up": "I mean rough estimates of course by experience I mean.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Well at the moment it's unfurnished but I mean I can furnish it, whatever your requirements are so we can meet that.",
+      "category": "readiness_signal",
+      "meeting_phase": "setup_and_furnishing",
+      "zac_responded_with": "Offered a free setup guide and estimated ~£5,000 covering photos, kitchen/bathroom stock, soft furnishings, TVs and wardrobes.",
+      "lead_follow_up": "Right.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I mean would it work out cheaper for me if you furnish it, or do you take any administration costs etc.?",
+      "category": "cost_comparison_objection",
+      "meeting_phase": "setup_and_furnishing",
+      "zac_responded_with": "It most likely be more expensive if we're furnishing it because there's labour included on our side.",
+      "lead_follow_up": "I mean if you can send me the list of items you need on the furniture list so then we can work it out -- if there isn't huge difference then I'll probably go for it, if there is a significant difference I'll probably try to do it myself.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Right, and is there any minimum tie-in period?",
+      "category": "contract_terms_question",
+      "meeting_phase": "management_and_terms",
+      "zac_responded_with": "Six months initially because we don't charge any onboarding costs, then a three month notice period.",
+      "lead_follow_up": "Okay good.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I'm new to service accommodation, is there any legal requirement that I have to comply with?",
+      "category": "legal_question",
+      "meeting_phase": "management_and_terms",
+      "zac_responded_with": "Not in Birmingham. If you were in London I would say yes. Recommended fire blankets, extinguishers, smoke detector.",
+      "lead_follow_up": "Okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "You mentioned you cover all of London -- do you cover Enfield? I've got a property in Enfield, it's becoming available.",
+      "category": "portfolio_expansion_signal",
+      "meeting_phase": "management_and_terms",
+      "zac_responded_with": "Yeah, we cover all -- when's it available?",
+      "lead_follow_up": "Right okay that's good, is there any discount if you have more properties with you?",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I haven't seen the property in... probably a couple of years... not sure about the condition of the kitchen or the bathroom -- would it be better if you visit the property right after we sign the contract?",
+      "category": "risk_mitigation_question",
+      "meeting_phase": "closing",
+      "zac_responded_with": "I'd say that's going to be a good idea. If you've not got any videos or photos to hand we'll probably do that first.",
+      "lead_follow_up": "I can hand you over the keys at the property, I'll be there tomorrow.",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Zac never connected his own comment that Birmingham has no short-let restrictions 'unlike London' to Ijaz's own Enfield property, so the London 90-day short-let rule was never raised on the call despite Enfield surfacing as a live second-property prospect.",
+      "category": "risk_disclosure",
+      "evidence": "London/Birmingham restrictions were discussed only in the abstract (\"Not in Birmingham. If you were in London, I would say yes.\"); when Enfield came up minutes later Zac only asked \"when's it available?\" with no mention of the 90-day rule.",
+      "how_to_fill": "Proactively flag the 90-day London short-let rule the moment a lead's second property is in a London borough, and reframe that property's income projection accordingly before they anchor on Birmingham-style maths.",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "The verbal setup-cost figure Zac gave on the call (~£5,000) was never reconciled with the Deal Analyser PDF's £3,110 setup estimate already generated for this lead, creating a discrepancy an explicit price-checker is primed to notice.",
+      "category": "pricing_consistency",
+      "evidence": "Transcript: \"probably costs in the region sort of 5,000 pounds\" vs. PDF setup estimate of £3,110 (which excludes beds, sofabed, storage and dining set) vs. the eventual costed quote of £5,480.",
+      "how_to_fill": "State on the call that the PDF setup estimate excludes big-ticket items (beds, sofabed, storage, dining set) so the lead understands the like-for-like number is the fuller costed quote, closing the gap before he cross-references documents himself.",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "No specific inspection date or time was fixed despite the lead offering same-day/next-day key availability -- timing momentum from the vacant-today property was not converted into a booked appointment.",
+      "category": "booking_follow_through",
+      "evidence": "\"maybe sometime next week\" / \"yeah that's fine\" with no date or time agreed on the call.",
+      "how_to_fill": "When a lead volunteers same-week key availability, push for an exact date/time on the call itself rather than leaving it to a follow-up email.",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Lead volunteered his second property in Enfield unprompted, immediately after hearing the 12%-for-3+-properties multi-property discount.",
+      "lead_response": "Do you cover Enfield in London... that's good, is there any discount for more properties?",
+      "phase": "management_and_terms",
+      "archetype_relevant": ["analytical-evaluator", "fast-path-gain-focused"]
+    },
+    {
+      "what_caused_shift": "Zac gave a transparent, unfavourable-to-Stayful answer that self-furnishing would likely be cheaper than Stayful furnishing it (labour cost admitted openly) rather than defending the setup quote.",
+      "lead_response": "I mean if there isn't huge difference then I'll probably go for it -- moved from a flat objection to a conditional commitment.",
+      "phase": "setup_and_furnishing",
+      "archetype_relevant": ["analytical-evaluator", "certainty-seeker"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Zac opened the call addressing the lead as \"Joss\" instead of Ijaz, and had no details on file for the booked call.",
+      "lead_response": "Lead did not correct the name and proceeded straight into explaining his property situation.",
+      "recovery_attempted": "None -- Zac did not notice or correct the misnaming at any point in the transcript.",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Lead pushed for month-by-month (month 1, month 3, month 6) income figures beyond what Zac's model could produce.",
+      "lead_response": "I mean rough estimates of course by experience I mean -- backed off after Zac declined granular figures.",
+      "recovery_attempted": "Zac gave an annual first-year-discount approximation (15% off, divided by 12) instead of granular monthly figures.",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "Hi, [name]. How you doing?",
+      "Thanks for coming on."
+    ],
+    "transition_phrases": [
+      "Well, this is sort of the breakdown that we've got. I'll share my screen and we can go through it.",
+      "I think we've covered a fair on the income side of things. Is there any questions you've got around it, or does it kind of make sense?"
+    ],
+    "reassurance_phrases": [
+      "Even if I increase this to say 450, I think it'd be higher than that.",
+      "It's not really that big of a deal.",
+      "We won't go live until we see the property is being ready because it creates a bad listing."
+    ],
+    "emphasis_phrases": [
+      "It's safe to say it will be a bit, bit more than on a long-term let.",
+      "That essentially is an upside to that is that that means that listings work in this area."
+    ],
+    "analogies_used": [],
+    "numbers_framing": "Leads with round, income-first numbers (gross to net to monthly payout) before breaking into the cost stack; softens the downside by proactively over-estimating costs (e.g. inflating the bills/mortgage estimate) so the net still looks strong; frames the ramp-up period as a temporary 15-20% discount off headline figures rather than a risk.",
+    "objection_handling_pattern": "Concedes ground honestly on hard cost comparisons (openly admitting Stayful-furnished would likely cost more due to labour) rather than defending the price, then offers a like-for-like comparison tool (a furniture list) so the lead can self-verify."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "analytical-evaluator",
+    "what_they_focused_on": [
+      "Setup/furnishing cost comparison (DIY vs. Stayful)",
+      "Tie-in length and notice terms",
+      "Legal compliance for short-lets",
+      "Multi-property discount",
+      "Property condition and inspection timing"
+    ],
+    "what_they_needed_most": [
+      "A transparent, itemised cost comparison for DIY vs. Stayful furnishing",
+      "Confirmation that Stayful's process (inspection, snagging, photography) would catch condition issues before go-live"
+    ],
+    "what_fell_flat": [
+      "Request for granular month-by-month income figures was declined without offering a more detailed fallback breakdown"
+    ],
+    "recommended_meeting_adjustment": "For price-checker/analytical-evaluator leads, lead with an itemised setup cost breakdown (not just a round '~£5k' figure) and proactively flag any live PDF/quote discrepancy before they can cross-check it themselves; also connect any 'no restrictions here vs London' comment directly to a lead's own London properties in real time rather than leaving it to follow-up materials."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
