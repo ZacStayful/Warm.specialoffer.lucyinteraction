@@ -1,0 +1,258 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "081",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-08-13",
+  "transcript_quality": "full",
+  "lead_name": "Thierry Hanser",
+  "email": "thierry.hanser.autre@gmail.com",
+  "monday_id": "12489819362",
+  "address": "75 Victoria Road, Saltaire, Shipley BD18 3HQ",
+  "bedrooms": 1,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "Looking to move abroad and short let my home",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "analytical-evaluator",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Freeholder / building management company consent for short-term letting under the 999-year leasehold has not yet been confirmed; nothing can proceed without it",
+  "language_signals": [],
+  "portfolio_flag": false,
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13% + VAT",
+  "offer_expiry": "2026-09-13",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "The freeholder is my management company of the building.",
+      "context": "Property is leasehold (999 years, peppercorn rent); the freeholder/building management company must confirm short-term letting is permitted before Stayful can proceed. Nothing else about the deal is blocked, but this single item is outside Stayful's control.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "No, I would go back one time to make everything ready.",
+      "context": "Lead needs one trip back to the UK to remove personal items and finish preparing the flat before launch; his own workload is also gating when he can act.",
+      "timeline_given": "more weeks than months",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "Yeah, it's furnished, fully furnished. ... There is no mortgage.",
+      "context": "Property is already fully furnished and owned outright with no mortgage, removing two of the biggest normal onboarding blockers before the call even started.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "I'm already in France. So it's more or less as soon as possible for me.",
+      "context": "Lead has already relocated permanently and wants to move as fast as his own workload and the freeholder answer allow.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "So that's, you only have, this is, you have one format of package. That includes all the services you just described.",
+      "context": "Lead worked methodically through the full managed-service model (keys, cleaning, damage handling, payout) and raised no objection to handing it over end-to-end, confirming the percentage-only fee model twice with apparent satisfaction.",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "late / pre-close",
+    "green_lights_present_at_offer": ["GL-SELF", "GL-TIME", "GL-MGMT"],
+    "delays_present_at_offer": ["DLY-OTH"],
+    "what_immediately_preceded_offer": "Lead asked whether Stayful has only one package covering everything described; Zac then volunteered a discount unprompted rather than in response to a price objection.",
+    "how_zac_framed_offer": "\"Something I'm happy to do for you, Jerry [Thierry], is I'm happy to do a discount on the management. 13 instead of 15. But just, it will be, it'd be like a limited time offer, so it would expire sort of around a month from now... so if we sit around the 13th of September, I can apply that to your account and property if you come on board.\"",
+    "expiry_stated_as": "around a month from now / around the 13th of September",
+    "lead_response_to_offer": "Okay. So that's a bit of pressure.",
+    "offer_outcome": "Not accepted at the meeting; lead moved straight into verifying exit terms and fee transparency, then agreed to check the freeholder/lease and stay in touch. Offer applied to the Monday record with the stated expiry, pending lease consent."
+  },
+  "meeting_flow": {
+    "opening_phrase": "Hi, Thierry. How you doing?",
+    "rapport_topics": ["current situation / reason for looking at STL", "how long lived in the property", "move to France", "furnishing status", "mortgage status"],
+    "pivot_to_business": "I suppose what we could do now is I'll just go through some of the income figures, see if it sort of lines up with what, what sort of you're expecting, whether it works for you.",
+    "income_intro": "Based off your inquiry, this is the analysis that we did. So it's about 4600 of gross revenue. Net is about 24,200, which is about sort of 2,000 pound a month. We've based that on getting a sort of around 160 pound a night and being sort of 81 occupied.",
+    "post_income_silence": "None — lead responded immediately with scepticism about the £166/81% combination rather than staying silent.",
+    "how_it_works_transition": "Any questions or concerns about, like, the service, anything you want to go through specifically, I can just go through it.",
+    "pre_close_setup": "I probably say the main things to sort of identify after this call, the areas. Firstly, we need to see whether there's actual consent or permission to do it with the freeholder... it's just going to be key safes really being sorted... as far as time frames with this, Thierry, do you know sort of when you're wanting to move to France?",
+    "close_phrase": "What I'll do after this call then is I'll send you a bit of a summary of everything we've spoken about and a bit of an action plan of things that need doing... I'll send you our management agreement as well... apply that discount to you as well.",
+    "meeting_2_ask": "any other questions you've got afterwards, just sort of let me know on email or, you know, we can touch base probably in a couple of weeks or something and see sort of how you're getting on — no specific date/time given, nothing booked in Calendly.",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 68
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "I think it's 166 is expensive. That's my shading... to feel combining 81% with 160, I think that's quite ambitious. But you probably know better than me.",
+      "category": "pricing/rate scepticism",
+      "meeting_phase": "income presentation",
+      "zac_responded_with": "Walked the 12 local comparable listings (rates £158-175, occupancies to 89%), explained the ramp-up period and that the figures are the property's potential rather than a day-one guarantee.",
+      "lead_follow_up": "Yeah, no, that answers if it's just surprising to me, but you have arguments and it's a surprise in the good way, so I'm not concerned.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "When you showed me the numbers before to support these numbers, the claims, where did this, the number came from? Were they from Europe customers or were they from a general Airbnb data?",
+      "category": "data provenance",
+      "meeting_phase": "income presentation",
+      "zac_responded_with": "Explained the figures come from 12 nearby comparable properties of similar size, weighted-averaged, and talked through how he reads competitiveness from review counts and distance.",
+      "lead_follow_up": "Moved directly into the listed-building question.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "By the way, is there a restriction for Airbnb on grade two buildings?",
+      "category": "property/legal risk",
+      "meeting_phase": "income presentation",
+      "zac_responded_with": "Asked leasehold vs freehold status, then pointed to a nearby Grade II listed comparable already operating as a short-term let as a positive signal.",
+      "lead_follow_up": "The freeholder is my management company of the building. / Okay, I will double check here.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Because I will be off to France. So I won't be able to handle the key. I won't be able to actually check in and check out. So how is this going to work?",
+      "category": "operational / remote management",
+      "meeting_phase": "how it works",
+      "zac_responded_with": "Explained key safes (two sets, guest-facing and internal), and that Stayful already manages other owners' properties remotely from abroad.",
+      "lead_follow_up": "Moved on to asking about the cleaning company arrangement.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "If something happens, something is damaged or something, the gas is causing problems. What's the procedure there?",
+      "category": "risk/damage handling",
+      "meeting_phase": "how it works",
+      "zac_responded_with": "Explained security deposits (£200-400) and ID checks upfront, deposit-covered minor damage, platform insurance up to ~£100k for major incidents, and wear-and-tear deducted from payout with a £300 notification threshold.",
+      "lead_follow_up": "No further pushback; moved to key-holder/format questions.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Do you know how the tax is managed on this part? ... For me, it's an income probably that I need to...",
+      "category": "cross-border tax",
+      "meeting_phase": "operational Q&A / pre-close",
+      "zac_responded_with": "No. I wouldn't really know how to advise on that. It's not something I have experience on.",
+      "lead_follow_up": "Yeah, so it's just a normal income. I would take care of [declaring it as] normal income.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "At least six months contract for the letting? How does it work if at some point I might not be happy with the service? ... do you have fees for stopping / terminating the contract ... do you have a compensation scheme for yourself within these six months? (pressed three separate times, including sale and move-back-to-UK scenarios)",
+      "category": "contract terms / exit",
+      "meeting_phase": "pre-close",
+      "zac_responded_with": "Explained the fixed 6-month term exists because income projections need time to land, a 3-month notice period exists to service already-booked guests, no fee applies if selling with clear communication or leaving late-stage, and a ~£1,000 cost-recovery applies only if cancelling within the initial 6-month fixed term.",
+      "lead_follow_up": "I think I have everything I need at this point.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Everything is included in the 15% or 13%. And there is no extra charge... there is no extra other unexpected charge.",
+      "category": "fee transparency verification",
+      "meeting_phase": "close",
+      "zac_responded_with": "Confirmed the model is percentage-of-income only (already established earlier: no charge in a zero-booking month), plus flagged photography (~£250-300, waived since lead supplies his own) as the only potential setup cost.",
+      "lead_follow_up": "Thanks for all that. And yeah, you send the summary and then I will keep you updated with the management company's clarification.",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "No answer available on cross-border (UK-France) tax treatment for a lead who has already relocated abroad.",
+      "category": "knowledge gap",
+      "evidence": "Zac: \"I wouldn't really know how to advise on that... It's not something I have experience on.\"",
+      "how_to_fill": "Prepare a standard factual (non-advisory) briefing for ABROAD leads: UK property income stays within UK tax scope, HMRC Non-Resident Landlord Scheme, relevant UK double-tax treaty, and a recommendation to use a cross-border accountant.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Short-let-permitting buildings/landlord insurance was never raised on the call, despite being a real risk for a leasehold flat.",
+      "category": "risk not addressed live",
+      "evidence": "Not mentioned anywhere in the transcript; flagged only in post-meeting intelligence notes as a gap.",
+      "how_to_fill": "Raise buildings/landlord insurance suitable for STL use as a standard check for leasehold ABROAD leads, alongside the lease/freeholder consent check.",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Presentation contains internal data inconsistencies that were not surfaced to the lead (generator bug).",
+      "category": "data integrity risk",
+      "evidence": "FORECAST monthly array sums to £29,238 against a stated annual net of £24,235; cost-breakdown £ rows don't reconcile with their own stated percentages; chart header reads 'long-let net £990' while the figure box reads £749.",
+      "how_to_fill": "Fix the presentation generator so FORECAST, cost-breakdown, and chart figures reconcile with the single authoritative coherent figure set before future presentations are generated.",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac substantiated the £166/81% projection with 12 real local comparable listings (rates, occupancy, reviews) rather than just asserting the headline figures.",
+      "lead_response": "That answers if it's just surprising to me, but you have arguments and it's a surprise in the good way, so I'm not concerned. I'm just surprised that it could have this potential.",
+      "phase": "income presentation",
+      "archetype_relevant": ["analytical-evaluator", "certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Zac volunteered, unprompted, that year-one figures would run 15-20% below the modelled potential and that full run-rate takes 12-18 months, rather than overselling.",
+      "lead_response": "Accepted the framing without further pushback and moved on to legal/operational questions.",
+      "phase": "income presentation",
+      "archetype_relevant": ["analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Zac named a Grade II listed comparable operating nearby (within ~0.1-0.24 km) as evidence that short-let is permitted in similar listed buildings.",
+      "lead_response": "Objection on listed-building restriction was not raised again after this point.",
+      "phase": "income presentation",
+      "archetype_relevant": ["certainty-seeker", "analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Zac confirmed a purely percentage-of-income fee model with no charge in a zero-booking month.",
+      "lead_response": "So you don't have a constant default charge? It's only based on the income from the renting short-term renting. (Verified this point twice across the call.)",
+      "phase": "pre-close / close",
+      "archetype_relevant": ["certainty-seeker", "loss-averse-switcher"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "The 13% + VAT special offer was framed with a roughly one-month expiry (13 September).",
+      "lead_response": "Okay. So that's a bit of pressure.",
+      "recovery_attempted": "None within the meeting itself; addressed afterward in the action plan and follow-up email, which explicitly offer to extend the deadline if the management company is slow and advise against signing before consent is confirmed.",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Lead pressed three separate times on exit/termination terms and compensation for cancelling within the six-month fixed term, testing multiple scenarios (unhappy with service, selling, moving back to UK).",
+      "lead_response": "Continued probing with follow-up scenarios until satisfied.",
+      "recovery_attempted": "Zac explained the fixed-term rationale, the 3-month notice period for servicing existing guests, no-fee exit when selling with clear communication or leaving late-stage, and a ~£1,000 cost-recovery figure only within the initial 6-month term.",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": ["Hi, Thierry. How you doing?", "I thought I'd start just by, you know, understanding a bit more about your current situation."],
+    "transition_phrases": ["I suppose what we could do now is I'll just go through some of the income figures", "Any questions or concerns about, like, the service, anything you want to go through specifically, I can just go through it.", "I probably say the main things to sort of identify after this call, the areas."],
+    "reassurance_phrases": ["This is definitely the potential of the property, 100.", "You won't ever need to go to the property itself once we've got everything set up.", "It's only based on percentage of the management that we take, so there won't be any charges if we've not taken any [booking].", "There's no fees if you're that late in the stage of leaving."],
+    "emphasis_phrases": ["This is definitely the potential of the property. 100.", "That's the thing that's being missed.", "This is a competitive market."],
+    "analogies_used": [],
+    "numbers_framing": "Presented gross/net/ADR/occupancy first, then grounded scepticism with 12 real comparable listings' rates and occupancies, reframed the target figures as the property's 'potential' achieved over 12-18 months with year-one running 15-20% below that, then gave a monthly range (worst ~£1,100, average ~£2,000, best ~£3,900-4,000) to set realistic expectations.",
+    "objection_handling_pattern": "Acknowledges the lead's scepticism as reasonable, then substantiates with specific local comparable data rather than asserting authority; volunteers the downside/ramp-up timeline unprompted, which the lead treats as trustworthy; when genuinely unsure (cross-border tax), says so plainly rather than guessing or bluffing."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "analytical-evaluator",
+    "what_they_focused_on": [
+      "rate/occupancy credibility and data provenance",
+      "remote/from-abroad operational logistics (keys, cleaning, damage handling)",
+      "listed-building and leasehold consent risk",
+      "contract exit terms and compensation",
+      "fee transparency / hidden costs"
+    ],
+    "what_they_needed_most": [
+      "verifiable local market evidence, not just headline figures",
+      "certainty on exit terms and compensation before committing to a 6-month fixed term",
+      "an honest downside/ramp-up framing rather than a best-case-only pitch"
+    ],
+    "what_fell_flat": [
+      "no answer available on cross-border (UK-France) tax treatment",
+      "the ~1-month offer expiry created a sense of pressure rather than incentive"
+    ],
+    "recommended_meeting_adjustment": "For ABROAD leads, proactively raise buildings/landlord insurance suitable for STL use and have a standard factual (non-advisory) cross-border tax briefing ready, since both recur as gaps. When applying a time-limited discount to an analytical/certainty-seeking lead, frame the expiry as flexible/extendable up front rather than letting it land as pressure."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
