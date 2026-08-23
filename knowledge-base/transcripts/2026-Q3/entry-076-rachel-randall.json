@@ -1,0 +1,210 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "076",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-07-21",
+  "transcript_quality": "full",
+  "lead_name": "Rachel Randall",
+  "email": "randallr853@gmail.com",
+  "monday_id": "12587730584",
+  "address": "Bicester Village area, Bicester, Oxfordshire (exact address/postcode not captured on call)",
+  "bedrooms": 1,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Owner-occupied since 2014, previously short-let pre-Covid (business guests only); switching back to short-let once she sells a Somerset cottage and can vacate",
+  "stl_goal": "Return to short-letting the Bicester property (previously done successfully pre-Covid) once she can vacate; wants a mixed business/leisure guest profile this time to avoid the single-segment income risk she experienced when Covid stopped all business-guest bookings overnight",
+  "property_situation": "Owner-occupied — she currently lives in the property herself; cannot start STL until she sells a separate Somerset cottage she owns and buys a new home to move into",
+  "property_type": "1-bedroom home on a modern development near Bicester Village, Oxfordshire",
+  "emotional_profile": "certainty-seeker",
+  "conversion_likelihood": 0,
+  "profile_confidence": "high",
+  "primary_blocker": "DLY-MOV — must sell her Somerset cottage and buy a new home before she can vacate the Bicester property and begin short-letting it",
+  "language_signals": [
+    "\"I'd rather have it be a combination [of guest types]... it leaves me in the lurch when something big happens\" (risk-aversion / wants certainty against single-point-of-failure)",
+    "\"I'd be surprised if it reaches that, but maybe I'm wrong\" (skeptical of the upper income range)",
+    "\"It's difficult with one beds because they don't earn so much\" (cost-sensitivity specific to a low-revenue-base property)",
+    "\"That has to happen first for me to move out\" (external, timeline-driven blocker, not an objection to the offer)"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-MOV",
+      "trigger_phrase": "I'm trying to sell my other place in order to buy somewhere to live. So that has to happen first. For me to move out.",
+      "context": "Rachel currently lives in the Bicester property herself. She owns a second property, a cottage in Somerset, which she must sell before she can buy a new home and vacate Bicester to start short-letting it. An earlier buyer's mortgage fell through and the cottage has just gone back on the market with a new agent.",
+      "timeline_given": "New agent expects a sale within roughly two months (as of the July 2026 call); Rachel herself said \"I can't foresee how long it's going to take\" given a difficult market",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "no_offer_made"
+  },
+  "meeting_flow": {
+    "opening_phrase": "Well, I thought I'd start just by understanding a bit about sort of your current situation and situation with the property as well at the interest in short-let. Then we can go through some figures in our service if it sort of lines on what you're looking for.",
+    "rapport_topics": [
+      "Mix-up over an erroneous 'property not fit for our requirements' email sent to her, and confusion caused by the call being mis-titled under a different lead's name",
+      "The reported 1,250-person temporary housing/army barracks scheme near Bicester and whether it would affect leisure demand",
+      "Rachel's ownership history since 2014, prior short-let success pre-Covid, and her current living situation"
+    ],
+    "pivot_to_business": "Well, I thought I'd start just by understanding a bit about sort of your current situation and situation with the property as well at the interest in short lane. Then we can go through some figures in our service if it sort of lines on what you're looking for.",
+    "income_intro": "I've managed to get an analyzer together for you, so you can see the estimates... it's saying 43,000 gross and 22,000 [net]. That's based off of 168 pound nightly rate and the 71% occupancy rate.",
+    "post_income_silence": "",
+    "how_it_works_transition": "Give you an idea of what's included with the service. You'll get access to three different things. So the first one will be like a channel manager...",
+    "pre_close_setup": "It's about what I have spoken to another couple of agents. That's about what I was expecting. So it's just a question of me getting my other place sold now, getting myself sorted so that I can vacate and get it going.",
+    "close_phrase": "What we could do is we can keep in touch. Obviously keep in touch once a month or so... I'll just send a bit of a summary of everything we've spoken about, like an action plan, and then I'll also send our management agreement as well.",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 66
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "I'd rather have it be a combination [of guest types]... it leaves me in the lurch when something big happens in the country.",
+      "category": "risk aversion / diversification preference",
+      "meeting_phase": "rapport / context gathering",
+      "zac_responded_with": "That's exactly right... we don't cater exclusively to business professionals; we work on a mixed guest area, and the income estimates already reflect how we'd operate it anyway.",
+      "lead_follow_up": "And then also with the Leisure side is affected... I would want to know that I'm covered if something else big happens here.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I'd be surprised if it reaches that, but maybe I'm wrong (reacting to the higher end of the income range, ~£2,500/month net)",
+      "category": "skepticism about income projection upper bound",
+      "meeting_phase": "income presentation",
+      "zac_responded_with": "Explained the figures are comparable-based, that the area's low review density means a ramp-up period is likely, cited ~10% accuracy either side, and a roughly 4-month period before figures approach the projection",
+      "lead_follow_up": "Yeah (moved on, later said the overall figures were healthier than expected)",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Once before I had a business couple staying... the contractor said the washing machine wasn't working because I hadn't loaded it enough... if I ended up paying hundreds of pounds for things like that frequently, it wouldn't be worth my while. It's difficult with one beds because they don't earn so much.",
+      "category": "maintenance cost anxiety / prior bad contractor experience",
+      "meeting_phase": "service and maintenance explanation",
+      "zac_responded_with": "Explained the tiered priority system, a £300/month pre-approval threshold with sign-off required above it, that a detailed onboarding form reduces recurring appliance issues over time, and framed maintenance as normally under 5% of gross while acknowledging that hits harder on a one-bed",
+      "lead_follow_up": "Because I take out insurance on my white goods... they tend to be two, three days before they come out, or maybe even a week. So could I still do that?",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Do you only offer full management or do you offer partial as well?",
+      "category": "service model question",
+      "meeting_phase": "service explanation",
+      "zac_responded_with": "No, we only offer full management, because if I'm not fully in control of the property, it's very hard for me to deliver a good service.",
+      "lead_follow_up": "Okay, yeah (accepted)",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "No exact address/postcode captured for the property",
+      "category": "data_gap",
+      "evidence": "Property described only as '1-bed home near Bicester Village, Oxfordshire' — exact street address/postcode not captured on the call",
+      "how_to_fill": "Confirm the full address in the action plan follow-up or next monthly check-in",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Mortgage/monthly holding-cost figure not discussed, so her true net position versus current costs is unclear",
+      "category": "data_gap",
+      "evidence": "Mortgage still in place since 2014 purchase but the monthly figure was never discussed on the call",
+      "how_to_fill": "Ask for the mortgage/holding-cost figure at the next check-in to strengthen the net-benefit comparison",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "No firm completion date for the Somerset cottage sale, so no concrete next-meeting date could be set",
+      "category": "timeline_gap",
+      "evidence": "Zac agreed to an informal monthly check-in with no specific date/time, contingent on the Somerset sale progressing; Rachel herself said she 'can't foresee how long it's going to take'",
+      "how_to_fill": "Ask her for an expected completion date from her new estate agent and set a concrete calendar reminder rather than an open-ended check-in",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Corrected income figures shown after the initial property mix-up was resolved (£43k gross / £22.7k net, £168/night, 71% occupancy)",
+      "lead_response": "The figures are healthier than I thought and maybe healthier than I got last time... it seems like a good option",
+      "phase": "income presentation",
+      "archetype_relevant": ["certainty-seeker", "analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Zac framed the area's low review density as an opportunity to establish her listing quickly, and pointed to the nearby community hospital and transport links as a source of steady, longer-stay demand (e.g. nurses/doctors)",
+      "lead_response": "Engaged further with clarifying questions rather than objections; no pushback on the framing",
+      "phase": "market positioning discussion",
+      "archetype_relevant": ["certainty-seeker", "analytical-evaluator"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Zac initially confused Rachel with a different lead ('Sally Ede-Golightly') due to a mis-titled Calendly/Granola booking carried over from an earlier call, and an erroneous 'property not fit for our requirements' email had been sent to her beforehand",
+      "lead_response": "I'm a bit confused on this one though... I got that straight away, so I just went to other agents. / That's why I think you might be confusing me with someone else because I'm not Sally.",
+      "recovery_attempted": "Zac apologised twice (at the start and again at the end of the call), acknowledged the error, and re-ran the figures live for the correct one-bed property once he identified her as Rachel Randall",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "Past experience with a contractor who overcharged her and blamed her for an appliance fault, driving strong wariness about maintenance costs biting harder on a one-bed",
+      "lead_response": "If I ended up paying hundreds of pounds for things like that frequently, it wouldn't then be worth my while... It's difficult with one beds because they don't earn so much",
+      "recovery_attempted": "Zac explained the tiered maintenance process, the £300/month pre-approval threshold, the onboarding form to capture appliance quirks, and the standard ~5% maintenance buffer while explicitly acknowledging her one-bed cost sensitivity",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "How are you?",
+      "Well, I thought I'd start just by understanding a bit about sort of your current situation and situation with the property as well at the interest in short-let"
+    ],
+    "transition_phrases": [
+      "What I'll do is I'll just share my screen and then we can...",
+      "I've managed to get an analyzer together for you",
+      "Give you an idea of what's included with the service. You'll get access to three different things"
+    ],
+    "reassurance_phrases": [
+      "No, I wouldn't say so because there's plenty of reasons why people visit Oxford",
+      "Yeah, yeah, I understand, it's definitely a fair concern",
+      "Normally we're within sort of 10% accuracy on this, and that can be on the other side as well"
+    ],
+    "emphasis_phrases": [
+      "It's important to note as well is obviously the income can fluctuate",
+      "We don't normally see maintenance exceeding 5% of the gross",
+      "5% is a big deal [on a one-bed]. If it's five bedrooms, it's not as detrimental"
+    ],
+    "analogies_used": [
+      "At least from my own airbnbs, you probably make about 80% of your profit from June to December"
+    ],
+    "numbers_framing": "Led with the headline gross/net figures (£43k gross / £22.7k net, £168/night, 71% occupancy), then immediately caveated with a range (£1,400–£2,500/month net), a stated ~10% accuracy band either way, and a roughly 4-month ramp-up period before the projected figures are expected to be reached",
+    "objection_handling_pattern": "Acknowledges the concern as fair/valid first ('I understand, it's definitely a fair concern'), explains the operational safeguard (tiered maintenance priority, £300 pre-approval threshold, onboarding form), then reframes cost as normal and manageable (5% maintenance buffer) while explicitly validating her specific point about one-beds"
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "certainty-seeker",
+    "what_they_focused_on": [
+      "Guaranteeing a mixed guest profile so income doesn't depend on a single segment again",
+      "Concrete maintenance cost controls and thresholds given a past overcharging experience",
+      "Whether her existing white-goods insurance response time would be workable",
+      "Whether full management was the only option (no partial)"
+    ],
+    "what_they_needed_most": [
+      "Explicit process detail and safeguards (tiered maintenance, spend thresholds) rather than general reassurance",
+      "Acknowledgement that a one-bed's fixed costs and fees bite harder against lower gross revenue",
+      "Confirmation the figures had genuinely improved since her pre-Covid experience"
+    ],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": "For returning STL-SW leads on a single low-bedroom property, proactively frame the maintenance buffer and fee impact relative to gross revenue (not just the generic 5% line) before they have to raise it themselves, and lead with the mixed-guest-profile point early given her Covid-driven single-segment scare"
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
