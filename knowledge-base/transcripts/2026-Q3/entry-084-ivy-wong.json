@@ -1,0 +1,298 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "084",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-08-21",
+  "transcript_quality": "full",
+  "lead_name": "Ivy Wong",
+  "email": "harrogategarden@gmail.com",
+  "monday_id": "12842087521",
+  "address": "3 Dragon Parade, HG1 5BZ (Harrogate)",
+  "bedrooms": 7,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "certainty-seeker",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Relational: must manage/inform the existing letting agent before signing. Underlying: unresolved trust in Stayful as a company (legitimacy, what happens if it dissolves, wanting to physically verify the operation) rather than any price objection.",
+  "language_signals": [
+    "hands-off / retirement framing (\"I want to retire now so I want to be hands off\")",
+    "business-literate self-framing (\"we're business people, we know how business works\")",
+    "trust-and-verification seeking language (company house checks, wanting to see a managed property)",
+    "phased/incremental caution language (\"slowly see how they feel before we sign this\")"
+  ],
+  "portfolio_flag": true,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-TEN",
+      "trigger_phrase": "we can't kick them out ... we can't force them out we can't get them out",
+      "context": "Property is a licensed 7-bed HMO with six sitting tenants who cannot be served notice except on sale of the property; plan is to transition room-by-room only as tenants leave naturally.",
+      "timeline_given": "\"I find every six months people leave anyway\" / one room imminently vacant, others unspecified",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "Before we sign it we need to let the agent know",
+      "context": "Lead must first manage the conversation with their existing letting agent (who currently re-lets vacated HMO rooms) before signing with Stayful, because the agent will lose business.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "there's no mortgage with the property then / Them: Now.",
+      "context": "Property owned outright, no mortgage, no debt service; only running costs are utilities (~£1,000-£1,200/month). Financially unconstrained to proceed.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "I want to retire now so I want to be hands off",
+      "context": "Explicit stated desire to move from self/agent-managed HMO to fully hands-off management; frequent travellers who want the property taken off their hands.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "as soon as somebody moved out ... we can go through the changeover ... we can still start with one or two rooms",
+      "context": "One HMO room imminently vacant; lead is ready to begin the phased transition immediately once the agent conversation and agreement are sorted.",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "No offer made; standard 15% + VAT quoted with no discount and no expiry, and it went entirely unchallenged on price."
+  },
+  "meeting_flow": {
+    "opening_phrase": "I thought we'd start just sort of understanding a bit about your situation.",
+    "rapport_topics": [
+      "£150k pandemic-era renovation (new roof, full strip-out, all rooms ensuite)",
+      "seven-bedroom HMO licence history",
+      "proximity to Harrogate train/coach station and conference centre",
+      "property's former life as a 30-year guest house"
+    ],
+    "pivot_to_business": "What I'll do then is I'll go through the income projections for the property first.",
+    "income_intro": "So we're looking at about 141,000 of gross revenue per year and about 73,000, 73 and a half thousand net revenue. So about six thousand pounds per month.",
+    "post_income_silence": "None observed — lead immediately queried whether the £6,000 figure was monthly and asked how many properties Zac personally manages in Harrogate.",
+    "how_it_works_transition": "I don't know if you've got any questions about the service or any of the projections... I can go through other service works. If you got any questions, I can answer about 30 now or [I could just go through how it works].",
+    "pre_close_setup": "Anything else you want to go for any more concerns you've got or, or we all[?]",
+    "close_phrase": "Well, I'll send everything over to you. Probably next sort of 20 minutes. I'll send you over the agreement. If you obviously looking to go ahead, just sign that ... send it back to me and we'll get going.",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "So our 6,000 is it monthly or is monthly?",
+      "category": "clarification",
+      "meeting_phase": "income_presentation",
+      "zac_responded_with": "That's a monthly average. Yeah. Six thousand.",
+      "lead_follow_up": "This is what you this is based on your experience, you how many properties you run in Harrogate our airbnb.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "So where are the three Airbnb in Harrogate, in which area? ... Specifically in Harrogate.",
+      "category": "trust_objection",
+      "meeting_phase": "income_presentation",
+      "zac_responded_with": "I can't remember off the top of my head... I think one's on bower road. I think that's hg2. It's like a two bed flower.",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "engaging or entrusting our property to a company we don't know is a risk... if it is suddenly dissolved or struck off then there is no way we can chase the company for compensation",
+      "category": "company_trust_objection",
+      "meeting_phase": "service_explanation",
+      "zac_responded_with": "we essentially have a holding account where all the booking Revenue comes into that account that's not attached to Stayful, really... the income that is generated for you is owed to you.",
+      "lead_follow_up": "What is the exit process procedure especially if there are still some bookings after we want to end the contract",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "What is the exit process procedure especially if there are still some bookings after we want to end the contract so how do you deal with it?",
+      "category": "contract_terms",
+      "meeting_phase": "service_explanation",
+      "zac_responded_with": "we have a six month fixed term and a three month notice term... we have an agreed cut off date... we can service all the bookings, we'll pay out the normal way, and then we just cut ties on that agreed date.",
+      "lead_follow_up": "it's easy to sign... oh my goodness you're going to six months go one year... first thing we always ask, how do you get out.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Can we go in and as a guest and just have a look of how [it works]? ... we have not worked with Stayful before so it's really help if we can have a look of the property you're operating here.",
+      "category": "trust_objection",
+      "meeting_phase": "closing",
+      "zac_responded_with": "I don't think we'll be able to do that... it's someone else's property... I've got to ask consent from a landlord with a nearby property to access.",
+      "lead_follow_up": "",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "please don't attend to 15% on top of the of the bill, how do you charge that?",
+      "category": "fee_objection",
+      "meeting_phase": "service_explanation",
+      "zac_responded_with": "if the guests at fault, we collect a deposit... if it's something really serious, covered by our insurance... if fair wear and tear, charged to yourself. We notify you if the account exceeds £300 in the month.",
+      "lead_follow_up": "you will let us know your quote before you proceed right unless it's emergency like water leak.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "once we take off the hmo we need to apply again or we don't get it... they literally said you just go out, we're not going to give you again.",
+      "category": "risk_concern",
+      "meeting_phase": "service_explanation",
+      "zac_responded_with": "I would still say that part's kind of up to you a little bit because you will lose the license and the license will make the property a lot more valuable. So it might be worth just maybe holding off and keeping an eye.",
+      "lead_follow_up": "we've got most of it all done anyway.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "do you guarantee rent as well? ... do your company do guarantee rent for the whole property.",
+      "category": "product_ask",
+      "meeting_phase": "closing",
+      "zac_responded_with": "No... I'm not taking on any more of those Arrangements at the moment.",
+      "lead_follow_up": "But the one in [Sheffield] is vacant now, no tenant.",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Zac could not name or locate any of Stayful's Harrogate-managed properties when asked directly, twice",
+      "category": "credibility",
+      "evidence": "\"I can't remember off the top of my head... I think one's on bower road. I think that's hg2. It's like a two bed flower.\"",
+      "how_to_fill": "Have local property addresses/examples ready before calls with local owners; keep a locality-specific reference sheet",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "No room-level (per-room) income projection was available despite the lead's actual near-term plan being phased room-by-room, not whole-property",
+      "category": "analysis_gap",
+      "evidence": "\"I haven't done the figures on one room because I was assuming the whole property, so I'd have to probably come back to you.\"",
+      "how_to_fill": "Room-level income analysis added to the action plan post-meeting (£683-£854 net/room/month at £80-100/night, 54% occupancy)",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Lead's repeated request to physically view/stay at a managed Stayful property was declined and left unresolved",
+      "category": "trust_gap",
+      "evidence": "\"we have not worked with Stayful before so it's really help if we can have a look of the property you're operating\" — declined on landlord-consent grounds",
+      "how_to_fill": "Offer of a direct reference call with an existing Stayful owner built into the action plan",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Long-term-let comparison figure in the auto-generated presentation was materially wrong for a 7-bed HMO (rendered as a single-dwelling default of £874/month)",
+      "category": "presentation_generator_fault",
+      "evidence": "LTL_MONTHLY rendered £874/month (£10,487/yr); headline \"+600% vs long-let\" and \"£62,927 short-let advantage\" both inherit the error",
+      "how_to_fill": "Removed from action plan entirely; corrected openly with a request for the lead's actual room rents to build a true comparison",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Events/demand-driver slide pointed to the wrong venue (an 18km-away venue instead of the 0.5km Harrogate Convention Centre)",
+      "category": "presentation_generator_fault",
+      "evidence": "Slide credited \"The Crescent · 18.15 km\"; Simon raised the correct driver himself: \"it's more of a conference place isn't it\"",
+      "how_to_fill": "Corrected in the action plan to Harrogate Convention Centre",
+      "filled_in_action_plan": true
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Owner portal walkthrough showing live cross-platform bookings and the ability to block dates for their own stays/inspections",
+      "lead_response": "\"we can also do that as well, yeah of course.\"",
+      "phase": "service_explanation",
+      "archetype_relevant": ["certainty-seeker", "analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Zac proactively raised the tenant/guest privacy risk of running short-let alongside sitting HMO tenants himself, rather than glossing over it",
+      "lead_response": "No pushback; conversation moved constructively into how the phased transition would work operationally.",
+      "phase": "income_presentation",
+      "archetype_relevant": ["certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Zac's advice to HOLD the HMO licence rather than surrender it early, actively advising against an irreversible step that would benefit him commercially",
+      "lead_response": "\"we've got most of it all done anyway.\"",
+      "phase": "service_explanation",
+      "archetype_relevant": ["certainty-seeker", "loss-averse-switcher"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Zac unable to name or locate Stayful's own Harrogate-managed properties when asked directly",
+      "lead_response": "\"So where are the three Airbnb in Harrogate, in which area?\" ... \"Specifically in Harrogate.\"",
+      "recovery_attempted": "\"I think one's on bower road. I think that's hg2. It's like a two bed flower.\"",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Lead's repeated, escalating request to physically view or stay as a guest at a managed property was declined",
+      "lead_response": "Asked twice, second time framing it as necessary because \"we have not worked with Stayful before.\"",
+      "recovery_attempted": "Offered to send the Airbnb account link with reviews, ratings and photos instead.",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Auto-generated presentation contained a materially wrong long-term-let comparison figure for a 7-bed HMO",
+      "lead_response": "Not raised live on the call (caught in post-meeting QA, not by the lead).",
+      "recovery_attempted": "Removed from the action plan, corrected, and disclosed openly with a request for the lead's actual room rents.",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "I thought we'd start just sort of understanding a bit about your situation."
+    ],
+    "transition_phrases": [
+      "What I'll do then is I'll go through the income projections for the property first.",
+      "I could go through other service works... or I could just go through how it works.",
+      "What I'll do after this call is..."
+    ],
+    "reassurance_phrases": [
+      "we essentially have a holding account where all the booking Revenue comes into that account that's not attached to Stayful",
+      "the income that is generated for you is owed to you",
+      "if they've got ensuite rooms, it's definitely something that would work a lot better"
+    ],
+    "emphasis_phrases": [
+      "it's quite a rare property you've got here",
+      "this is really good for you",
+      "I don't see how this wouldn't do sort of 4,000 pounds a month of profit"
+    ],
+    "analogies_used": [
+      "Same as if you had, like, a lettings agent, they take the money for you. It's not necessarily attached to their business."
+    ],
+    "numbers_framing": "Presented a low/likely/high case (£3,400 worst month / £6,000 average / £9,000 best month net) rather than a single point figure, then anchored the property's rarity/quality against two named nearby comparables (£209k and £115k gross).",
+    "objection_handling_pattern": "Acknowledges the concern directly, explains Stayful's operational mechanism (holding account, insurance, notice terms, £300 approval threshold) in plain terms, then checks in with a follow-up question (\"does that help at all?\") rather than pushing straight to close."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "certainty-seeker",
+    "what_they_focused_on": [
+      "company legitimacy and financial safety (dissolution/struck-off risk)",
+      "exit/notice terms",
+      "HMO licence irreversibility",
+      "wanting to physically verify Stayful's operation",
+      "room-level decoration and rental uplift"
+    ],
+    "what_they_needed_most": [
+      "proof Stayful is a trustworthy, stable, long-term operator",
+      "a way to verify the service independent of Zac's word (e.g. a reference call or site visit)",
+      "explicit acknowledgement that this is a phased, tenant-respectful transition, not a forced conversion"
+    ],
+    "what_fell_flat": [
+      "Zac's inability to name or locate Stayful's own Harrogate-managed properties",
+      "the declined request to view/stay at a managed property, with no alternative offered live on the call"
+    ],
+    "recommended_meeting_adjustment": "Come prepared with named local property examples and proactively offer a reference call with an existing owner as the direct answer to the company-trust objection, rather than waiting for the lead to raise viewing requests."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "About what I expected",
+    "s2_ltl_thinking": "The overlap with tenants still worries us",
+    "s3_biggest_question": "Whether we can trust Stayful with the property",
+    "s4_readiness": "Nearly there - just a couple of questions",
+    "s3_matches_meeting_gap": true,
+    "s4_contradicts_meeting": false
+  }
+}
