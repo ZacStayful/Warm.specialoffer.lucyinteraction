@@ -1,0 +1,254 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "075",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-07-30",
+  "transcript_quality": "full",
+  "lead_name": "Ross Topping",
+  "email": "ross@digizu.co.uk",
+  "monday_id": "12632239275",
+  "address": "114 Lyndale Avenue, Edenthorpe, Doncaster DN3 2JX",
+  "bedrooms": 4,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "Looking to move abroad and short let his home",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "certainty-seeker",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Timing only, and soft: family doesn't depart until around March, so onboarding is targeted for January rather than immediately. Not a hard external block — pre-qual explicitly recorded 'timing isn't my main concern' and agreement terms/management involvement were both pre-cleared.",
+  "language_signals": [
+    "I want to understand the costs more",
+    "No — happy to hand it all over",
+    "Damage or theft",
+    "A comparable property's results",
+    "my only concern is not getting the bucket [booked]... being at the other side of the world"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-MOV",
+      "trigger_phrase": "our initial plan is for next year to go around March time and then maybe come back October, November",
+      "context": "Family's travel plans mean the property can't/needn't be let until they depart abroad; this sets the earliest realistic launch date rather than acting as an active blocker to the decision itself.",
+      "timeline_given": "Depart ~March 2027, return Oct/Nov 2027 (annual repeating cycle)",
+      "resolved_in_meeting": true
+    },
+    {
+      "type": "DLY-FUR",
+      "trigger_phrase": "two of the bedroom, we've got young kids. So two of the bedrooms are obviously set for them, so we'd have to sort of neutralize them a little bit",
+      "context": "Kids' bedrooms are currently personalised for children and need staging/neutralising before listing photography can happen.",
+      "timeline_given": "",
+      "resolved_in_meeting": true
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "No — happy to hand it all over",
+      "context": "Pre-qual response to the management-involvement question — no desire for personal involvement in day-to-day running.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "No — happy with all of it",
+      "context": "Pre-qual response confirming no objection to the agreement terms.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "So we could potentially launch it early before while we're still here and try and take bookings, like advanced bookings. That'd be the plan.",
+      "context": "Ross proactively proposes an early listing launch to bank advance bookings ahead of departure, rather than waiting until the last moment.",
+      "strength": "strong"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": ""
+  },
+  "meeting_flow": {
+    "opening_phrase": "Yeah, yeah. Well, I thought I'd start just by understanding a bit about your sort of current situation. From my understanding, you're looking, is this your primary sort of residence? You're looking to move and short let the place, is that right?",
+    "rapport_topics": [
+      "Wi-Fi/technical connection trouble at the start of the call (Ross's line kept dropping, call had to be reconnected)"
+    ],
+    "pivot_to_business": "Yeah, okay, yeah, that's fine. Yeah, I've got your address. I did some work on some income projections which I'll share with you. Do you know what the current sort of mortgages... what the cost is for that?",
+    "income_intro": "So from the analysis that we've done, this is what we're sort of looking at. So 52,000 of gross revenue and 27,000 of net revenue. That's per year.",
+    "post_income_silence": "No distinct pause — Ross responded immediately with brief acknowledgements ('Yeah') rather than silence.",
+    "how_it_works_transition": "So just coming into how the sort of service works. So we'll list you on multiple platforms, deal with any dynamic pricing... screening for guests and the deposits... Check in and check out cleaning coordination and maintenance coordination.",
+    "pre_close_setup": "Okay, all right a couple of things I'll do then after this call is I'll send you a bit like a summary slash action plan of everything. Probably look at touching base after Christmas around Jan. I mean if you wanted to go before then just let me know we can touch base. I'll send you over our agreement as well.",
+    "close_phrase": "No problem cheers Ross switch.",
+    "meeting_2_ask": "No formal meeting or date was booked — only a verbal agreement to 'touch base' in January to begin onboarding; Ross was told he could bring it forward if he wanted to move sooner.",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 82
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "Is that. Are those figures after all the costs have been taken up?",
+      "category": "clarifying_question",
+      "meeting_phase": "income_intro",
+      "zac_responded_with": "Well, that's [net] revenue, that is. So that's after those three costs are mentioned... So what you can expect is like a payout from us for letting the property out.",
+      "lead_follow_up": "Okay. Yeah, yeah, that definitely works.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I've got the general concerns of, like, how well they're gonna look after the place. Like, it's our family home first. It's newly renovated... And then with us potentially not being in the country, how easy all that's going to be communication wise.",
+      "category": "objection",
+      "meeting_phase": "post_income / pre_how_it_works",
+      "zac_responded_with": "Outlined the guest vetting process: security deposit (£200-500), background checks, £100k insurance cover per guest day, monthly itemised statements with a £300 notification threshold.",
+      "lead_follow_up": "Fair enough.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Leaving personal items... we're going to try and put everything as much as we can into the garage, which is separate from the house anyway... could I keep that locked and not let them [have access]?",
+      "category": "objection",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Recommended a proper mailbox installation and two key safes — one for guests (rotating codes after each stay) and a secondary one for management/maintenance access.",
+      "lead_follow_up": "I'm just thinking the fuse boxes in there. Did the tenants need access to that, or is that a maintenance thing?",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I've already got a key box there anyway that's got a code on it, which I could just use for that one. How would that work? Do you have one that where the code changes a lot or you just have the same one?",
+      "category": "clarifying_question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Explained the guest safe rotates codes after every stay/few stays (cleaners rotate and notify the team), while the secondary maintenance safe keeps the same code since it's rarely used.",
+      "lead_follow_up": "Okay. Yeah.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I know it's not a question you can really answer because you don't have a crystal ball, but my only concern is not getting the bucket [booked]... Being at the other side of the world, and that's it.",
+      "category": "objection",
+      "meeting_phase": "pre_close",
+      "zac_responded_with": "Shared the Manchester 3-bed case study (projected £62k gross/£32k net vs achieved £56k/£36k net, ~9% under on gross in year one) and reframed the area's low competition (27 reviews) as a reason bookings would ramp quickly.",
+      "lead_follow_up": "Yeah. Yeah. Fair enough. Yeah, it's not because you don't think it's not worth running an Airbnb in this area. It's just that.",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "No specific January onboarding date or Calendly meeting was booked — only a verbal agreement to 'touch base' in the new year.",
+      "category": "no_next_meeting_booked",
+      "evidence": "Probably look at touching base after Christmas around Jan... I mean if you wanted to go before then just let me know; Monday's Meeting 2 booked-date and Meeting-2-status columns were left blank.",
+      "how_to_fill": "Diarise a firm January outreach date now and get Ross to commit to a specific week for onboarding kickoff, given the hard March departure deadline (signature needed by December 2026 to hold a January slot).",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "The management fee (15%) was only ever mentioned once, briefly embedded inside the gross-to-net cost waterfall, rather than stated plainly and confirmed back by the lead.",
+      "category": "fee_not_explicitly_confirmed",
+      "evidence": "we've basically taken off booking platform fees, which is normally 15% cleaning laundry, which we've estimated to be about 18%... And then the management at 15%",
+      "how_to_fill": "Explicitly restate the management fee percentage on its own and get an audible confirmation from the lead rather than leaving it folded into the net-income breakdown.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Post-meeting action plan responses show lingering income-confidence uncertainty that the call's case-study evidence didn't fully resolve.",
+      "category": "unresolved_income_confidence",
+      "evidence": "Action plan responses (2026-07-30): S2 'Still weighing it up', S3 'Whether the income is really achievable', S4 'Need more time to think this over'.",
+      "how_to_fill": "Follow up in January with a direct, evidenced answer to 'is the income really achievable' — a second comparable or a clearer explanation of the ramp-up curve — before asking for signature.",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac introducing the Manchester 3-bed case study, deliberately including the honest ~9% under-forecast on gross (projected £62k/£32k net, achieved £56k/£36k net)",
+      "lead_response": "Yeah. Yeah. Fair enough.",
+      "phase": "pre_close",
+      "archetype_relevant": ["certainty-seeker", "analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Framing the area as low-competition (27 reviews) and explaining why 4-bed properties in particular ramp quickly",
+      "lead_response": "Yeah. Yeah. Fair enough.",
+      "phase": "pre_close",
+      "archetype_relevant": ["certainty-seeker", "analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Concrete operational security mechanics — two key safes, rotating codes, locked garage, mailbox — offered directly in response to his 'leaving personal items' concern",
+      "lead_response": "Fair enough. That's all right. I think that's everything. Yeah.",
+      "phase": "how_it_works",
+      "archetype_relevant": ["certainty-seeker"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Call opened with confusion — Zac initially reached what seemed like the wrong appointment, then Ross's Wi-Fi was 'shocking' and the call had to be reconnected mid-introduction",
+      "lead_response": "I'm so sorry. Yeah, I thought I was gonna make it. Have you got any other time today?",
+      "recovery_attempted": "Zac offered an immediate same-day reschedule (1pm) and kept tone light ('No worries')",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "Ross's residual worry — 'not getting the bucket [booked]... being at the other side of the world' — surfaced only very late in the call, near the close",
+      "lead_response": "Yeah. Yeah. Fair enough... It's just that.",
+      "recovery_attempted": "Zac responded with the Manchester case study and area competition data",
+      "resolved": false
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "Yeah, yeah. Well, I thought I'd start just by understanding a bit about your sort of current situation.",
+      "Is this your primary sort of residence? You're looking to move and short let the place, is that right?"
+    ],
+    "transition_phrases": [
+      "All right, well, I'll just share my screen with you then.",
+      "Something that's important to go through as well...",
+      "So just coming into how the sort of service works.",
+      "Okay, all right a couple of things I'll do then after this call is..."
+    ],
+    "reassurance_phrases": [
+      "I'd say this sounds like a really good contract [contractor] place.",
+      "I wouldn't be concerned too much about not achieving the rates.",
+      "it's never like you know 30% off of what was projected.",
+      "if I'm honest, this is quite an easy choice."
+    ],
+    "emphasis_phrases": [
+      "I definitely, it definitely works.",
+      "100%, to be honest.",
+      "it's ticking a lot of boxes."
+    ],
+    "analogies_used": [
+      "Manchester 3-bed case study used as a proof-of-track-record comparable (projected vs achieved figures)"
+    ],
+    "numbers_framing": "Leads with a gross-to-net waterfall (platform fees ~15%, cleaning/laundry ~18%, management 15%) before landing on a single monthly net figure (£2,200), then reinforces it with a best/worst month range (£1,600–£3,000) and area benchmarking (27 reviews = low competition) rather than dwelling on the raw annual total.",
+    "objection_handling_pattern": "Briefly acknowledge, then pivot immediately to a concrete mechanic or third-party proof point rather than abstract reassurance — e.g. answering the abroad/income-reliability worry with the Manchester case study and review-count competition data, and the belongings worry with a specific two-key-safe/mailbox setup rather than general 'don't worry' language."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "certainty-seeker",
+    "what_they_focused_on": [
+      "net income after all costs",
+      "guest vetting / damage-theft protection for a lived-in family home",
+      "practical logistics of managing the property while out of the country",
+      "proof via a comparable case study rather than raw projections alone"
+    ],
+    "what_they_needed_most": [
+      "concrete operational mechanics (key safes, deposits, insurance, statements) over reassurance language",
+      "evidence of real-world track record (the Manchester case study) rather than just the property's own projection",
+      "clarity on the March–October travel-window numbers rather than a flat 12-month figure"
+    ],
+    "what_fell_flat": [
+      "the raw 12-month £27k net headline figure landed as promising but didn't fully settle his abroad income-reliability worry until pressed further with the case study",
+      "the pre-qual-cleared 'timing' item resurfaced as a genuine underlying worry ('not getting the bucket... being at the other side of the world') only near the close"
+    ],
+    "recommended_meeting_adjustment": "For ABROAD leads, front-load the travel-window (not 12-month) net figure and introduce a comparable case study earlier in the call, rather than only reaching for it reactively when the 'no control while abroad' worry surfaces near the close."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "About what I expected",
+    "s2_ltl_thinking": "Still weighing it up",
+    "s3_biggest_question": "Whether the income is really achievable",
+    "s4_readiness": "Need more time to think this over",
+    "s3_matches_meeting_gap": true,
+    "s4_contradicts_meeting": false
+  }
+}
