@@ -1,0 +1,129 @@
+{
+  "schema_version": "3.0",
+  "archetype": "fast-path-gain-focused",
+  "archetype_description": "Wants maximum return with minimum effort. Needs net figures, what they don't have to do.",
+  "total_entries": 1,
+  "last_updated": "2026-04-24",
+  "what_they_focus_on": [
+    {
+      "point": "Revenue projections compared directly against their current position",
+      "frequency": 1,
+      "confidence": 1.0,
+      "last_seen": "2026-04-24"
+    },
+    {
+      "point": "Fee structure and cleaning costs",
+      "frequency": 1,
+      "confidence": 1.0,
+      "last_seen": "2026-04-24"
+    },
+    {
+      "point": "Guest vetting and day-to-day operations",
+      "frequency": 1,
+      "confidence": 1.0,
+      "last_seen": "2026-04-24"
+    },
+    {
+      "point": "Onboarding process and timeline",
+      "frequency": 1,
+      "confidence": 1.0,
+      "last_seen": "2026-04-24"
+    }
+  ],
+  "questions_they_ask": [
+    {
+      "question": "What are the revenue projections for this property?",
+      "frequency": 1,
+      "confidence": 1.0,
+      "last_seen": "2026-04-24",
+      "best_answer": "Presented revenue projections directly compared against the property's current position on the market.",
+      "what_lands": "A concrete comparison against their current position rather than abstract figures."
+    },
+    {
+      "question": "What does guest vetting look like?",
+      "frequency": 1,
+      "confidence": 1.0,
+      "last_seen": "2026-04-24",
+      "best_answer": "Outlined guest vetting and operational process.",
+      "what_lands": "A clear, direct operational answer."
+    },
+    {
+      "question": "How does onboarding work?",
+      "frequency": 1,
+      "confidence": 1.0,
+      "last_seen": "2026-04-24",
+      "best_answer": "Walked through the onboarding process and timeline.",
+      "what_lands": "A concrete timeline that reduces uncertainty."
+    }
+  ],
+  "objections_they_raise": [
+    {
+      "objection": "Fee structure and cleaning costs",
+      "frequency": 1,
+      "best_response": "Explained the full fee structure including cleaning costs, then applied a discounted rate (13%+VAT vs standard 15%) at the meeting itself.",
+      "resolution_rate": 1.0
+    }
+  ],
+  "what_moves_them": [
+    {
+      "point": "A special/discounted management fee offered live at the meeting",
+      "frequency": 1,
+      "evidence": "Special offer at 13% management fee — below the standard 15% — applied and accepted at the meeting"
+    },
+    {
+      "point": "Revenue projections shown directly against their current position",
+      "frequency": 1,
+      "evidence": "Revenue projections presented and compared against current position"
+    },
+    {
+      "point": "Both decision-makers present and aligned in the room",
+      "frequency": 1,
+      "evidence": "Both partners attended and were aligned at the meeting"
+    }
+  ],
+  "what_falls_flat": [],
+  "language_to_mirror": [],
+  "meeting_guidance": {
+    "opening_approach": "With only one data point in this dataset, open efficiently and get straight to the property's current position and what a fast switch could unlock.",
+    "what_to_lead_with": "Lead with revenue projections benchmarked directly against their current position, and be ready to offer a decision-clinching incentive (a discounted rate) at the meeting itself.",
+    "what_to_avoid": "Avoid a slow, drawn-out sales process — this profile responded to speed, with a real offer made and accepted within a single meeting.",
+    "close_approach": "Close by applying the incentive live and asking directly for agreement while both decision-makers are present, rather than deferring to a follow-up.",
+    "offer_framing": "Frame the discount as immediate and meeting-exclusive rather than something to think over."
+  },
+  "delay_signal_pattern": "No delay signals were recorded for this archetype in the available data (the sole matching entry has has_delay=False) — insufficient data to generalise a pattern.",
+  "green_light_pattern": "The single entry shows a GL-TIME signal (the property was already on the market and income was needed now) — insufficient data to generalise beyond this.",
+  "profile_type_intersections": {
+    "STL-SW": {
+      "count": 0,
+      "notes": ""
+    },
+    "EX-STL": {
+      "count": 0,
+      "notes": ""
+    },
+    "PURCH": {
+      "count": 0,
+      "notes": ""
+    },
+    "SELL": {
+      "count": 1,
+      "notes": ""
+    },
+    "ABROAD": {
+      "count": 0,
+      "notes": ""
+    },
+    "R2R": {
+      "count": 0,
+      "notes": ""
+    }
+  },
+  "conversion_data": {
+    "total": 1,
+    "ready_now": 1,
+    "delayed": 0,
+    "lost": 0,
+    "conversion_rate": 1.0,
+    "most_common_lost_reason": ""
+  }
+}
