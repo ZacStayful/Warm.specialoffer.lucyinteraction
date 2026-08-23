@@ -1,0 +1,210 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "083",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-08-14",
+  "transcript_quality": "full",
+  "lead_name": "Pavol Kosa",
+  "email": "pavolkosa@hotmail.com",
+  "monday_id": "12786029821",
+  "address": "Beach road, Paignton TQ4 6AY",
+  "bedrooms": 7,
+  "profile_type": "PURCH",
+  "lead_profile_text": "Looking to buy a property for short term letting",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "analytical-evaluator",
+  "conversion_likelihood": 50,
+  "profile_confidence": "High",
+  "primary_blocker": "Financing — original SSAS-funded purchase plan (£200k SSAS + £100k SSAS-backed borrowing, ~£300k total) was invalidated live on the call when Zac confirmed SSAS pensions cannot fund a residential-use property, and guest houses are classed residential-use. SSAS loan-back (release 50%, ~£100k) was also self-ruled-out on repayment-affordability grounds. Pavol now needs to fund the purchase from personal cash, likely by selling an investment flat in Slovakia, with his position expected to be known around 25 September 2026.",
+  "language_signals": [
+    "I don't want to jump into it before I will just know the figures.",
+    "I just can't do two things in one go. And I want to be pharmacist.",
+    "your figures are okay... I wouldn't mind to pay somebody who will be like looking after it"
+  ],
+  "portfolio_flag": false,
+  "outcome": "In the Future",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-PUR",
+      "trigger_phrase": "I just need to sort out my finances and know what to do.",
+      "context": "Original ~£300k funding plan (£200k SSAS + £100k SSAS-backed borrowing) was invalidated live on the call when Zac confirmed SSAS pensions cannot fund residential-use property, and guest houses are classed residential-use. SSAS loan-back was also self-ruled-out by Pavol on repayment-affordability grounds (\"with the figures, I don't think so, I will be able to repay first the year 100,000 back\"). He now needs to fund the purchase from personal cash, likely from selling an investment flat in Slovakia, and has not yet purchased the property.",
+      "timeline_given": "Expects to know his financial position around 25 September 2026; follow-up call verbally agreed for end of September 2026",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "the pound is much stronger than euro. So if I will sell what I want to sell, I don't think so I will have enough money for deposit.",
+      "context": "Unfavourable GBP/EUR exchange rate reduces the expected GBP proceeds from selling his Slovakia investment flat, threatening to leave him short of the deposit even once the sale completes",
+      "timeline_given": "To be known once the Slovakia flat sale completes, ~25 September 2026",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "I wouldn't mind to pay somebody who will be like looking after it and I don't need to do anything about it. If I will get 40,000 from it, I'm happy every year.",
+      "context": "Pavol explicitly wants full hands-off management because he is a full-time pharmacist (\"I just can't do two things in one go. And I want to be pharmacist\"), and has already accepted Stayful's 15% fee and income model in principle before the financing issue surfaced",
+      "strength": "Strong"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": ""
+  },
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start just by understanding a bit more about sort of your current situation, you know, in situation with the property. Then we can go through our service and income projections, see if it sort of lines up with what you're looking for.",
+    "rapport_topics": [],
+    "pivot_to_business": "Meeting opened directly into current-situation discovery with no separate rapport phase; lead's first response ('which company now at the moment') was clarifying, not rapport.",
+    "income_intro": "I've got the income figures for the property that you inquired about. Is it, should we go through it? Is that relevant?",
+    "post_income_silence": "",
+    "how_it_works_transition": "So we'll manage the day-to-day running of the property for the fee, 15. So we'll list your multiple platforms. We deal with all the pricing, screening for guests, check in and check out cleaning and maintenance as well.",
+    "pre_close_setup": "",
+    "close_phrase": "Well, is there anything, anything else you want to go through whilst we're on the call?",
+    "meeting_2_ask": "When do you think it'd be a good time to get back in touch? ... I'll give you a call probably end of September and we can probably have another, another web meeting and go through some of the details once you've got things ironed out.",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "Totally honest, more important for me... if the turnover is 100,000, it will charge me 60,000. I have like 40,000 profit. I'm happy with it. It's not big deal for me.",
+      "category": "value_acceptance",
+      "meeting_phase": "early-mid",
+      "zac_responded_with": "Yeah, well, they're right. You're not going to be able to buy residential or commercial based property and use it as a short-term let. You won't be able to do that through your SAS pension.",
+      "lead_follow_up": "Yeah. So then I can only release half of my pension, which is 100,000 and use it as a deposit... but there are some strict regulations that I need to repay certain amount of money not to get fined.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Sometimes I don't understand when I'm... putting number of bedrooms into these things is maximum five. And, for example, certain properties have seven. So I don't know how you can do estimate.",
+      "category": "clarifying_question",
+      "meeting_phase": "mid",
+      "zac_responded_with": "Once you start going above five bedrooms, the analyzer compares other properties nearby, but seven bedrooms is quite rare, so we'll struggle to find other comparable seven bedroom properties.",
+      "lead_follow_up": "Yeah. Okay. Internally for you, it doesn't matter. You would do SMS approximately based on five bedrooms and these two bedrooms would be like bonus.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "This would be class the service accommodations. And if I buy it and then it is allowed in guest houses, it's not, it's nothing legislation wise that they can tell me that I'm changing the character of guest house because I don't provide breakfast or something.",
+      "category": "clarifying_question",
+      "meeting_phase": "late",
+      "zac_responded_with": "No, no, I wouldn't say so, though. It would make any changes.",
+      "lead_follow_up": "So I don't need to go to city council and ask for any planning permission... I don't need to do anything with city council about this one.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Just need to sort out my finances and know what to do.",
+      "category": "closing_blocker_disclosure",
+      "meeting_phase": "close",
+      "zac_responded_with": "Yeah. When do you think it'd be a good time to get back in touch?",
+      "lead_follow_up": "I should get some money 25th of September... we can have a chat at the end of September and I will know how much money I will have from my flat and I will know if I can afford the guest house I want or not yet.",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "No confirmed source of purchase funds; original SSAS-funded plan is dead and replacement (Slovakia flat sale) has not completed",
+      "category": "financing",
+      "evidence": "the deal is entirely gated on financing that hasn't happened yet and could still fall short (unfavourable exchange rate on the Slovakia sale)",
+      "how_to_fill": "Confirm the Slovakia flat sale completion value by ~25 September, then reassess affordability against his stated £40k/year profit threshold",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Deal Analyser PDF (Stayful_Property_Analysis_Beach_Road__Paignton.pdf) not verified against the Monday CRM estimator figures used in this call",
+      "category": "data_verification",
+      "evidence": "Figures below are Stayful's Monday CRM estimator columns... NOT accessible this run (authenticated Monday asset URL, no session available)",
+      "how_to_fill": "Pull the actual PDF before the follow-up call to confirm/correct the £47,635 / £27,000 / £41,131 CRM figures, and flag the 7-bed comp-set limitation explicitly",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "No exact date/time booked for the agreed follow-up meeting",
+      "category": "scheduling",
+      "evidence": "Next meeting: None booked in Calendly — verbally agreed for end of September 2026 (no exact date/time set)",
+      "how_to_fill": "Book a Calendly slot for end of September now rather than leaving the follow-up purely verbal",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac's reassurance that freehold purchase avoids planning-permission issues and that no council notification is needed for dropping breakfast/hospitality service",
+      "lead_response": "Okay, okay. So I think it's enough at the moment.",
+      "phase": "late",
+      "archetype_relevant": ["certainty-seeker", "analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Absolute profit-number framing (£40k/year net) rather than percentages or comparables",
+      "lead_response": "If I will get 40,000 from it, I'm happy every year.",
+      "phase": "early-mid",
+      "archetype_relevant": ["analytical-evaluator", "certainty-seeker"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Zac confirming SSAS pensions cannot fund a residential-use guest house purchase, killing Pavol's ~£300k funding plan mid-call",
+      "lead_response": "So then I can only release half of my pension... but then there are some strict regulations that I need to repay certain amount of money not to get fined to my [SSAS].",
+      "recovery_attempted": "Zac had limited SSAS knowledge (\"No, I don't really [know]\"), so the lead self-explained the SSAS loan-back mechanics and self-ruled it out on affordability grounds without further input from Zac",
+      "resolved": false
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "I thought I'd start just by understanding a bit more about sort of your current situation, you know, in situation with the property."
+    ],
+    "transition_phrases": [
+      "I've got the income figures for the property that you inquired about. Is it, should we go through it?",
+      "So we'll manage the day-to-day running of the property for the fee, 15."
+    ],
+    "reassurance_phrases": [
+      "As long as the property is freehold, you shouldn't really have any issues with having permissions because there's no regulations around short-term letting outside of London.",
+      "No, no, I wouldn't say so, though. It would make any changes."
+    ],
+    "emphasis_phrases": [
+      "We reckon probably night was about 500 pound, 560 pound, an occupancy about 52, we reckon. For that property."
+    ],
+    "analogies_used": [
+      "Slack, which is like a business sort of WhatsApp."
+    ],
+    "numbers_framing": "Presented in absolute annual profit terms (turnover minus costs equals profit in whole pounds) rather than percentages; occupancy and ADR given as concrete figures (~52%, £500-560/night); bills framed as a per-bedroom rule of thumb (~£150/bedroom, £600-800/month total).",
+    "objection_handling_pattern": "Acknowledges the lead's own research directly and confirms it rather than over-selling ('Yeah, well, they're right'); admits gaps in his own knowledge honestly ('No, I don't really [know about SSAS loop]') rather than bluffing; defers the unresolved financing question to the lead's own timeline rather than pushing for a faster decision."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "PURCH",
+    "emotional_profile": "analytical-evaluator",
+    "what_they_focused_on": [
+      "absolute annual profit number (£40k)",
+      "financing/SSAS mechanics and which purchase structure allows STL use",
+      "planning permission and legal compliance",
+      "comp-set accuracy for a 7-bed property"
+    ],
+    "what_they_needed_most": [
+      "certainty that his £40k/year profit threshold is achievable",
+      "confirmation of which purchase structure legally allows STL use",
+      "reassurance he wouldn't hit legal/compliance snags"
+    ],
+    "what_fell_flat": [
+      "percentage/comp-based projections for his above-average 7-bed property — he needed absolute numbers and worked through the comp-set limitation himself before accepting it"
+    ],
+    "recommended_meeting_adjustment": "For analytical, certainty-seeking PURCH leads, sequence financing-vehicle mechanics (e.g. SSAS/mortgage eligibility for STL use) BEFORE walking through income figures — Pavol's core blocker was a mismatch between his assumed funding vehicle and STL eligibility rules, not the income model itself, and this only surfaced reactively mid-call after his budget assumptions had already been shared."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
