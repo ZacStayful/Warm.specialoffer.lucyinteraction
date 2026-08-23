@@ -1,0 +1,258 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "078",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-07-28",
+  "transcript_quality": "full",
+  "lead_name": "Rohana Bakhshi",
+  "email": "rohanabakhshi@hotmail.com",
+  "monday_id": "12611310372",
+  "address": "Apartment 1203, Michighan Point Tower D, 18 Michighan Avenue, Salford, M50 2HN",
+  "bedrooms": 2,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "Get the flat earning the £18,000-20,000 net/year originally hoped for; currently achieving roughly £12,000 or less, not covering expenses",
+  "property_situation": "EX-STL — on short-let just under 3 years, currently with second management company (Pass the Keys), underperforming on revenue; notice already served, handover due 18 September 2026",
+  "property_type": "2 bed / 2 bath apartment, corner/dual-aspect unit with canal views, in a MediaCityUK tower block with short-let permission specifically granted at purchase",
+  "emotional_profile": "certainty-seeker",
+  "conversion_likelihood": 55,
+  "profile_confidence": "high",
+  "primary_blocker": "Joint decision with husband (Ahsan) pending final read-through of the management agreement, plus confirming the exact handover date with the existing agent (Pass the Keys, notice given for 18 Sept)",
+  "language_signals": [
+    "We're not even able to cover our expenses in that.",
+    "We really need something tangible.",
+    "So you think this is totally achievable?",
+    "A lot of the reviews are actually five star as well, so I don't know what's going on.",
+    "We bought this from the developer specifically with permission for a short-term let... this is not something we shouldn't be doing"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": true,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "Would you be able to send us something here? Because my husband's not obviously he's at work... so that we have something, you know, in our mind and then we can just make a decision",
+      "context": "Husband Ahsan was not on the first call; Rohana needed written materials to review jointly before deciding",
+      "timeline_given": "Possibly this Friday (31 Jul) or next Friday (7 Aug), to be confirmed once she'd spoken to him",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "I haven't had a chance to look through it, but I'll look at it this weekend, Zac",
+      "context": "By meeting 2, husband still hadn't fully read the management agreement, though he expected the terms to be broadly standard",
+      "timeline_given": "This weekend (post 31 Jul); email promised 'early next week'",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "They've given us a date of 18th of September... we'll leave it with you to kind of liaise with them",
+      "context": "Existing agent Pass the Keys holds the listing until the notice period ends, so the property cannot formally transfer to Stayful before then",
+      "timeline_given": "18 September 2026",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "we've given notice to the other people, haven't we? Or the 18th... they're not gonna want to take on the property anymore anyway",
+      "context": "Formal notice already served to the current management company (Pass the Keys), confirming firm intent to leave regardless of the Stayful decision",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "we really need something tangible... I'm keen to get you moving on this so we can start turning that flat around",
+      "context": "Ongoing financial pain (property not covering expenses) creating pressure to resolve the decision quickly; reinforced by Zac's repeated follow-up chases",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": ""
+  },
+  "meeting_flow": {
+    "opening_phrase": "Hi. Everyone. How you doing? ... Thanks for coming on. I thought I'd start just by understanding a bit more about your current situation.",
+    "rapport_topics": [],
+    "pivot_to_business": "And then, you know, interesting short let. And then we can go through some figures in our service if it lines up with what you're looking for.",
+    "income_intro": "What I'll do is I'll share my screen and we can go through what we've estimated, the projections are and also where I think the gaps are as well.",
+    "post_income_silence": "",
+    "how_it_works_transition": "So we went through a bit on our call. I can share my screen and show you — so there's three things you'll have access to (booking calendar, Slack communication, monthly statement).",
+    "pre_close_setup": "Discussion of handover logistics with the existing agent, transfer of onboarding data, and who at Stayful would manage the account day-to-day (Martin, customer-facing contact).",
+    "close_phrase": "It's been a pleasure. Have a good weekend and we'll touch base.",
+    "meeting_2_ask": "Lead-initiated: Rohana proposed the follow-up call herself once her husband had reviewed the email/action plan ('I just wonder... if we could do another meeting. My husband's usually home on Friday'). Zac agreed and left timing to her.",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 65
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "So what do you think is the minimum we could achieve?",
+      "category": "seeking certainty/reassurance",
+      "meeting_phase": "figures walkthrough",
+      "zac_responded_with": "Worst case ~£1,100/month, range £1,100-2,400, average £1,700-1,800",
+      "lead_follow_up": "So I mean in your opinion what do you think we could project in the next year or so... we really need something tangible",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "So you think this is totally achievable?",
+      "category": "certainty-seeking validation",
+      "meeting_phase": "post-figures discussion",
+      "zac_responded_with": "Yes — not easy, but definitely viable short-let over long-let; hinges on review velocity; backed with the Manchester case study",
+      "lead_follow_up": "Yeah, definitely... that's what we're looking for — somebody proactive who can tell us what's going wrong",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Why aren't we getting the bookings?... June has been the worst month... a lot of the reviews are actually five star as well, so I don't know what's going on.",
+      "category": "frustration/confusion with incumbent agent",
+      "meeting_phase": "objections",
+      "zac_responded_with": "Possibly over-ambitious pricing without reviews to justify it; also flagged direct-booking potential from nearby transport/events/university/hospital",
+      "lead_follow_up": "None further pushed in-meeting",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Why aren't we getting the bookings?... cleaning issues... they've obviously not been doing a good job",
+      "category": "specific complaint about incumbent agent",
+      "meeting_phase": "meeting 2 opening",
+      "zac_responded_with": "Rating 4.58 puts the listing in the bottom 10%; quality standard is high in this market and the management company isn't meeting it",
+      "lead_follow_up": "Husband's own anecdote: their daughter only books listings rated 4.8-4.9+",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "How do you actually chase up reviews?",
+      "category": "operational due-diligence question",
+      "meeting_phase": "meeting 2 Q&A",
+      "zac_responded_with": "Persistence plus incentives, rather than a single automated ask",
+      "lead_follow_up": "None further",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "We didn't see any surges in price for the Oasis concert last year — I just wondered how that works.",
+      "category": "performance-doubt / evidence gap",
+      "meeting_phase": "meeting 2 Q&A",
+      "zac_responded_with": "Could be supply/competition related; listing being in the bottom 10% means better-ranked listings get booked first",
+      "lead_follow_up": "None further",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "No documented promotional rate or expiry recorded despite the Monday status showing 'Special offer applied'",
+      "category": "CRM data integrity / pipeline tracking",
+      "evidence": "special_offer_rate and special_offer_expiry columns are both empty; neither the meeting-1 nor meeting-2 transcript contains any mention of a discounted percentage",
+      "how_to_fill": "Confirm with Zac whether a rate was verbally offered on an untranscribed phone call (there were several on 5 Aug) and log the rate + expiry on the board if so",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Contract sent 7 Aug still unsigned after repeated chases (8, 14, 18 Aug) with no lead reply logged after 9 Aug",
+      "category": "stalled decision / follow-up gap",
+      "evidence": "Email thread: Zac chases on 8, 14 and 18 Aug ('just wondering if there was any updates... if your still wanting to go ahead'); last lead reply was 9 Aug ('sorry for the late reply... will do so as soon as possible')",
+      "how_to_fill": "Move from repeated similar email chases to a scheduled phone call or a genuine time-limited incentive to re-engage the stalled decision",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Handover date with Pass the Keys (18 September) mentioned verbally but not confirmed in writing between the parties",
+      "category": "operational/logistics gap",
+      "evidence": "Husband: 'They've given us a date of 18th of September... but we'll leave it with you to kind of liaise with them and see how that works'",
+      "how_to_fill": "Get written confirmation of the exact listing-closure date from Pass the Keys to firm up the onboarding timeline",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac reframing the problem as 'not a property issue, a listing-establishment / management-company issue' with a specific review-velocity benchmark (1-in-2-3 vs industry 4-in-8)",
+      "lead_response": "Directly answered her stated core question and gave her something concrete to check her current company against",
+      "phase": "figures walkthrough (meeting 1)",
+      "archetype_relevant": ["certainty-seeker", "betrayal-damaged", "analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Manchester 3-bed case study (projected £62k gross/£32k net; actual net slightly beat projection despite lower gross)",
+      "lead_response": "Reassured her that under-projection in year one still beat the original number ('Yeah, definitely... that's what we're looking for')",
+      "phase": "objection handling (meeting 1)",
+      "archetype_relevant": ["loss-averse-switcher", "social-proof-dependent"]
+    },
+    {
+      "what_caused_shift": "In meeting 2, Zac naming the exact listing percentile (bottom 10%) tied to the 4.58 rating",
+      "lead_response": "Husband immediately validated with his own anecdote (daughter only books 4.8+/4.9 listings), reinforcing Zac's diagnosis",
+      "phase": "meeting 2 opening",
+      "archetype_relevant": ["certainty-seeker", "analytical-evaluator"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Despite 5-star reviews and following the previous agent's pricing advice, June bookings collapsed while Feb/July were unexpectedly stronger",
+      "lead_response": "'I don't know what's going on' — confusion and underlying scepticism toward management-company promises generally",
+      "recovery_attempted": "Zac offered a plausible explanation (muted Parklife-season surge, possible over-ambitious pricing without review credibility) and asked for the listing link to verify",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Broken action-plan link sent right after the first call, plus Zac's follow-up calls being flagged as 'suspected spam'",
+      "lead_response": "Rohana reported the link wasn't working and that she wasn't answering because of spam warnings",
+      "recovery_attempted": "Zac clarified the link was a safe redirect notice and offered to email rather than call",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "Hi. Everyone. How you doing?",
+      "I thought I'd start just by understanding a bit more about your current situation."
+    ],
+    "transition_phrases": [
+      "What I'll do is I'll share my screen and we can go through what we've estimated",
+      "Now where I think the gaps are, which I'll just skip to now is...",
+      "I mean to wrap a bit more around it. I think we've got a case study here for Manchester."
+    ],
+    "reassurance_phrases": [
+      "This isn't a property issue that you're having. It's a listing establishment issue and it's a management company issue.",
+      "It's definitely viable to short-term let... I would say over long letting it",
+      "I wouldn't be afraid of the competition too much, really, because I'd rather go into a really competitive market that's got demand than the opposite way around."
+    ],
+    "emphasis_phrases": [
+      "The key issue I would say here is getting reviews and getting the quality reviews",
+      "The two things that kill you are costs that are too high or you're not competitive enough with the listing"
+    ],
+    "analogies_used": [
+      "Manchester 3-bed case study (projected £62k gross/£32k net vs actual outcome) used as proof-of-model precedent",
+      "Friends'/family discounted bookings as a 'launch strategy' to fast-track five-star reviews"
+    ],
+    "numbers_framing": "Always frames a three-point range (worst case / average / best case: £1,100 / £1,700-1,800 / £2,400 per month) rather than a single projected figure, and explicitly discounts the ramp-up period by 10-20% to set conservative expectations before showing the post-establishment upside (£2,000-2,300/month).",
+    "objection_handling_pattern": "Acknowledges the concern directly, reframes it as a diagnosable/fixable issue rather than disputing the lead's experience, then supports the reframe with a concrete external benchmark (industry review-ratio average, case study, or listing percentile) before inviting further evidence (asking for the listing link) rather than asserting certainty unprompted."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "certainty-seeker",
+    "what_they_focused_on": [
+      "Concrete monthly income range (worst/likely/best case)",
+      "Why the current company is underperforming vs benchmarks (reviews-per-booking, listing percentile)",
+      "Operational due diligence in meeting 2 (review-chasing method, cleaning QA, portal/reporting, contract terms)"
+    ],
+    "what_they_needed_most": [
+      "A specific, checkable diagnosis rather than a generic 'we're better' pitch",
+      "Third-party proof the model works (case study)",
+      "Reassurance that switching a second time won't repeat the same disappointment"
+    ],
+    "what_fell_flat": [
+      "No explicit statement of the standard 15%+VAT fee percentage recorded in either transcript, leaving commercial terms less concretely reinforced than the income figures",
+      "No firm answer on the Oasis-concert pricing-surge question beyond a plausible but unverified explanation"
+    ],
+    "recommended_meeting_adjustment": "With EX-STL leads burned by prior agents, lead with the specific, checkable benchmark (reviews-per-booking ratio, listing percentile) even earlier, and proactively state the fee percentage and contract terms in meeting 1 rather than leaving it for the lead to find in the agreement — reduces follow-up admin questions and shortens time-to-signature."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
