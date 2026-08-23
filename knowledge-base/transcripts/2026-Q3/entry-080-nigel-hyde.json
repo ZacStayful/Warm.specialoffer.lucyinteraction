@@ -1,0 +1,255 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "080",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-08-10",
+  "transcript_quality": "full",
+  "lead_name": "Nigel Hyde",
+  "email": "nigel.hyde@homeleone.org",
+  "monday_id": "12568353177",
+  "address": "Park House, Botley Road, Bishop's Waltham, Southampton, SO32 1DR",
+  "bedrooms": 4,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "I have a short term let and wanting the property managed professionally",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "analytical-evaluator",
+  "conversion_likelihood": 85,
+  "profile_confidence": "High",
+  "primary_blocker": "Decision sits with his wife, who was not on the call and has not heard the figures or reasoning directly",
+  "language_signals": [
+    "the hassle fan",
+    "why would I bother",
+    "we're virtually ready to go",
+    "I'll talk to my wife about it. Have a think about it and then we'll come back to you"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "12% + VAT",
+  "offer_expiry": "2026-08-31",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "the only thing I haven't got in place that would hold it up in any way is the internet because I've just got to work out how I connect my internet to the house's internet",
+      "context": "Discussing readiness for the target September go-live; also going on holiday the following week with the kitchen fit-out and some items (pots and pans) still incomplete.",
+      "timeline_given": "September (go-live target)",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "I'll talk to my wife about it. Have a think about it and then we'll come back to you. Is that all right.",
+      "context": "Closing exchange — final decision deferred pending a conversation with his wife, who did not take part in the call.",
+      "timeline_given": "a couple of weeks",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "We're virtually ready to go",
+      "context": "Said near the end of the call when discussing property readiness and next steps.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "I've got the mattresses with bed protectors and the pillows and the quilts are all in place",
+      "context": "Describing physical setup while discussing linen sourcing — beds, mattresses, protectors, pillows and quilts already bought and in place; key safe already fitted.",
+      "strength": "moderate"
+    },
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "this conversation says to me, why do I, why would I bother?",
+      "context": "Reflecting near the close on whether to self-manage versus outsource, having weighed the net income figure against the effort of doing it himself.",
+      "strength": "strong"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "No special offer was discussed or made during this transcribed meeting — the call closed on standard 15%+VAT terms with the lead taking the figures away to discuss with his wife. Monday.com's current record (updated after this call) shows a 12%+VAT special offer subsequently applied with an expiry of 2026-08-31 and status 'Special offer applied', indicating the offer was made through a later, untranscribed interaction not captured in Granola."
+  },
+  "meeting_flow": {
+    "opening_phrase": "",
+    "rapport_topics": [],
+    "pivot_to_business": "Okay, what I'll do then is I'll share my figures and we'll go through the cost breakdowns and revenue and net revenue first.",
+    "income_intro": "So we're looking at about 94,000 say of gross revenue, which back just under 8,000 a month. But that translates to a net revenue, but 49,000 with about 4,000 pounds per month.",
+    "post_income_silence": "",
+    "how_it_works_transition": "Right I suppose what I can go through next is a bit about the service any questions you want me to go through about it or concerns you've got or do we just go through it top to bottom?",
+    "pre_close_setup": "probably only another thing to sort of specify is we're obviously have an agreement which I'll send to you after this call so if you've got any questions or any of it just let me know we have a six month commitment period and then three months notice period",
+    "close_phrase": "No sounds fantastic yeah I'll yeah send that over send me the photos and and yeah we'll touch base in a couple of weeks.",
+    "meeting_2_ask": "we'll touch base in a couple of weeks (soft follow-up, no specific date or Calendly booking agreed)",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 68
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "Okay. Well, that's high enough to mean that I don't need any of the other hassle because I was looking because the first things I looked at, I thought 93,000... what do you get about 30,000 out of the 93 turnover? But if you're getting 48, then that gets the return on investment that is sufficient for, you know, makes it worthwhile.",
+      "category": "margin_objection_resolution",
+      "meeting_phase": "mid-call, revisiting the headline figures after the agreement terms",
+      "zac_responded_with": "Yeah and to be honest I mean I'm not surprised by these figures as well Southampton was one of the best areas in the country... four bedroom properties do very well anyway and it sounds like you're ticking a few boxes which are going to be quite important",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "So does that mean you have to sign up for vat?... because if you're over the vat threshold.",
+      "category": "vat_question",
+      "meeting_phase": "immediately after gross/net income figures given",
+      "zac_responded_with": "Oh so I would say probably not because you're not really the one short letting the property you're going to get this as a payout so even though this figure is over the threshold this figure isn't so you could probably argue that this is your turnover and not this because we're the servicing guests not you.",
+      "lead_follow_up": "Okay. Yeah.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "When you say the booking platform commissions, that's what you're paying to booking.com, airbnb, wherever you place it with, is it?... They take 15, do they?",
+      "category": "fee_structure_clarification",
+      "meeting_phase": "cost breakdown",
+      "zac_responded_with": "They take 15% yeah... it's just a flat 15% rate that they charge",
+      "lead_follow_up": "Plus that? Management fee is 15 plus that. Yeah. Okay. And cleaning is whatever the local cleaning is.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I found a local one that does it for 22 pound 50 an hour. And they reckoned about four hours would be fine each turnover... you're looking at probably just less than 100 per turnover or something in this area.",
+      "category": "cost_validation",
+      "meeting_phase": "cost breakdown",
+      "zac_responded_with": "Yeah I don't think that will include things like linen and supply... it's just labor... normally a going rate is about 20 to probably 22 pound 50... we tend to wrap it all up into one cost for a changeover",
+      "lead_follow_up": "No, it doesn't include the laundry. Yeah. Okay. Yeah, got it. Okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "What about the hot tub? Discussion? Do I need to put one in or should I leave it a while and test it without?",
+      "category": "setup_advice_request",
+      "meeting_phase": "service/setup discussion",
+      "zac_responded_with": "Yeah I think definitely leave it a while and test without... the property can be fantastic... but if something's wrong with the hot tub you will get a bad review... we can achieve good figures without it, it's really just adding risk putting it in.",
+      "lead_follow_up": "Fantastic because you've got to then do the chemicals and stuff like that.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I've got bifold doors... 4.3 meters wide. And I'm just trying to decide whether I need to find some monster curtain or something... I haven't easily found, like, a 4.3 meter curtain rail.",
+      "category": "practical_setup_question",
+      "meeting_phase": "closing / property details",
+      "zac_responded_with": "it sounds like it's quite private anyway... it's up to you... we can see how we go and then if guests are giving feedback saying they'd like one obviously we can do that",
+      "lead_follow_up": "I'll see what can come up. You know, that was the other one. So, yeah.",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Wife has not heard any of the figures or reasoning directly and the final decision sits with her",
+      "category": "decision_maker_missing",
+      "evidence": "I'll talk to my wife about it. Have a think about it and then we'll come back to you.",
+      "how_to_fill": "Provide materials Nigel can easily forward or walk his wife through (e.g. a short written summary of the absolute net figure and self-manage comparison), and hold to the recommended chase date rather than leaving the follow-up open-ended",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Internet connectivity for the annexe, the stated blocker for the September go-live, was not resolved on the call",
+      "category": "operational_readiness",
+      "evidence": "the only thing I haven't got in place that would hold it up in any way is the internet because I've just got to work out how I connect my internet to the house's internet",
+      "how_to_fill": "Include connectivity guidance or a supplier recommendation alongside the setup guide",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "No setup quote or break-even figure was produced, leaving the standalone cost-of-outsourcing question unaddressed in writing",
+      "category": "missing_deliverable",
+      "evidence": "No setup quote generated — no quote requested on the call... Break-even deliberately omitted from the action plan rather than estimated, with that omission explained to Nigel in writing.",
+      "how_to_fill": "Proactively offer a setup quote/break-even even when not requested, to remove any residual friction before the wife conversation",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Correction from Nigel's own assumed ~£30k net figure to the actual £48,874 net figure — an absolute-net reframing rather than a percentage-share framing",
+      "lead_response": "that's high enough to mean that I don't need any of the other hassle... that gets the return on investment that is sufficient... makes it worthwhile",
+      "phase": "cost breakdown / numbers revisit mid-call",
+      "archetype_relevant": ["analytical-evaluator", "certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Zac advising against installing a hot tub, i.e. actively advising Nigel not to spend money he didn't need to",
+      "lead_response": "Fantastic because you've got to then do the chemicals and stuff like that.",
+      "phase": "service/setup discussion",
+      "archetype_relevant": ["certainty-seeker", "analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Explanation of the ~40% direct-booking channel bypassing platform commissions entirely, framed as upside deliberately excluded from the headline figures",
+      "lead_response": "That's quite significant if you get 40 of it, isn't it?... It just means the resulting figures would probably be better, which is great. Bonus if it happens.",
+      "phase": "service discussion / Q&A",
+      "archetype_relevant": ["analytical-evaluator", "fast-path-gain-focused"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Lead's opening framing that he 'ought to share in it more' — perceiving the management fee as a cut of gross turnover rather than of net income",
+      "lead_response": "I ought to share in it more, I suppose, is my initial thinking, but that would cause me to do a lot of work.",
+      "recovery_attempted": "Zac reiterated the net revenue figure and the three-part cost breakdown (15% platform, 18% cleaning, 15% management) so the fee was judged against £48,874 net rather than £93,984 gross",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "No easy off-the-shelf solution for covering the 4.3m bifold doors — practical setup uncertainty",
+      "lead_response": "I'll see what can come up. You know, that was the other one.",
+      "recovery_attempted": "Zac offered to leave it and revisit based on guest feedback rather than mandating an upfront purchase",
+      "resolved": false
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [
+      "Okay, what I'll do then is I'll share my figures and we'll go through the cost breakdowns and revenue and net revenue first.",
+      "Right I suppose what I can go through next is a bit about the service",
+      "probably only another thing to sort of specify is..."
+    ],
+    "reassurance_phrases": [
+      "it's not sort of any surprises",
+      "we can see how we go",
+      "if you don't need to it's like why do you want me a little bit",
+      "I'm not going to sit here and say that it's you know not going to be positive as well because it will be"
+    ],
+    "emphasis_phrases": [
+      "There's no like overhead cost so this could be a very good property for sure",
+      "Southampton was one of the best areas in the country",
+      "four bedroom properties do very well anyway"
+    ],
+    "analogies_used": [
+      "the property can be fantastic like every part of it can be perfect but if something's wrong with the hot tub you will get a bad review"
+    ],
+    "numbers_framing": "Leads with gross (£94k) then immediately pivots to net (£49k/£4k per month) as the figure to anchor on, then breaks net down into the three cost components (15% platform, 18% cleaning, 15% management) so each deduction is individually justified rather than left as one large unexplained cut.",
+    "objection_handling_pattern": "Validates the lead's own data and assumptions where they are accurate (cleaner quote, VAT reasoning) rather than overriding them, uses advising-against-spend as a trust-building device (hot tub, linen, curtains), and redirects margin-share objections back to the absolute net figure rather than arguing percentages."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "EX-STL (declared) — actually a first-time launch of a newly completed annexe within the owner's own home, not an existing short-let being switched",
+    "emotional_profile": "analytical-evaluator",
+    "what_they_focused_on": [
+      "absolute net income figure versus gross turnover",
+      "VAT/tax exposure",
+      "fee structure breakdown (platform vs management vs cleaning)",
+      "practical setup logistics (linen, hot tub, bifold door coverage, bed configuration)",
+      "cleaner sourcing and local presence"
+    ],
+    "what_they_needed_most": [
+      "a clear, defensible absolute net number to compare against his own back-of-envelope estimate",
+      "confirmation that his own preparation (cleaner quote, furnishings, key safe) was on the right track",
+      "explicit permission not to overspend on optional extras"
+    ],
+    "what_fell_flat": [
+      "a definitive answer on the bifold door / curtain covering solution — left unresolved and deferred to guest feedback"
+    ],
+    "recommended_meeting_adjustment": "For owner-occupier/new-build annexe leads (a distinct, currently uncoded profile type), lead with the absolute net monthly figure rather than gross turnover or percentage share, and frame the comparison as self-management vs Stayful-managed rather than short-let vs long-let, since these leads are typically capable of self-managing and have often already priced out doing it themselves."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
