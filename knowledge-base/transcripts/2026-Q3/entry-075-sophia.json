@@ -1,0 +1,220 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "075",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-08-03",
+  "transcript_quality": "full",
+  "lead_name": "Sophia",
+  "email": "sophiaklthl@googlemail.com",
+  "monday_id": "12675712821",
+  "address": "72 Whiteway Road, Bristol, BS5 7QX",
+  "bedrooms": 4,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "Escape a near-tripling BTL mortgage payment (fixed rate expiring beginning of October 2026, £370 rising to £900-£1,000/month) by switching an existing furnished long-let to short-let income",
+  "property_situation": "Currently tenanted (furnished) on a BTL mortgage; tenant verbally amenable to leaving but formal notice not yet served; realistic vacancy 2-3 months out (listing November, possibly December)",
+  "property_type": "House",
+  "emotional_profile": "certainty-seeker",
+  "conversion_likelihood": 65,
+  "profile_confidence": "high",
+  "primary_blocker": "Tenant notice not yet served on the current letting - vacancy timeline undecided, nothing can proceed until this happens",
+  "language_signals": [
+    "English is not Sophia's first language and the transcript is heavily garbled in places",
+    "asked Zac to read the screen aloud rather than share it - she was on a phone, not a desktop",
+    "her repeated phrase for net income: 'is the figure am I getting in my hand?'",
+    "husband (unnamed second voice) spoke up to voice the cash-flow worry on her behalf"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-TEN",
+      "trigger_phrase": "Are we having difficult decide that because we had a chat with them the third level they okay to move out but if I'm any behind confirmed that we will be deciding with ahead that so so we don't yeah",
+      "context": "Tenant has verbally agreed to leave but formal notice has not been served; Sophia was non-committal on timing when Zac asked directly whether notice had been served",
+      "timeline_given": "2-3 months realistic vacancy; listing November, possibly December",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "we have to switch the mortgage anyway in October... it is our time to switch",
+      "context": "Real, externally-imposed deadline (mortgage product expiry) forcing a decision regardless of what she chooses, creating genuine urgency rather than manufactured pressure",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "Also the thing with all the house will be more managed well",
+      "context": "Named as a secondary motivation alongside income - wants the property looked after better than her current arrangement, not purely profit-driven",
+      "strength": "moderate"
+    },
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "if we have to contact before that if we can be decided everything before and we can send you an email isn't it",
+      "context": "Lead proactively raised the possibility of deciding and signing before the scheduled follow-up call, unprompted by Zac",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "no offer made - standard terms only discussed; Zac did not raise a discounted rate or expiry despite the October mortgage-switch deadline being an unusually well-timed natural anchor for one"
+  },
+  "meeting_flow": {
+    "opening_phrase": "Hi, how you doing? ... Well, thanks for coming on. I thought I'd start just by sort of understanding a bit more about your current situation and situation with the property. Yeah, then we can go through some figures in our service.",
+    "rapport_topics": ["current tenancy end-of-term situation", "mortgage renewal timing", "furnished vs unfurnished setup"],
+    "pivot_to_business": "I wouldn't say you necessarily need to change it [the mortgage]. It would be a good idea to change it in the future. But, I mean, for now, we're just sort of understanding if, you know, short-term letting is going to be a good option long term.",
+    "income_intro": "So first thing we'll go through is the income... Bristol's quite a good area, I'd say, for sure. Let's in. We're looking at an average net revenue of about 3,300 pound per month.",
+    "post_income_silence": "",
+    "how_it_works_transition": "I feel like I can take you through how the service works. Once on board.",
+    "pre_close_setup": "What I'd want to add a bit as well is obviously if you are wanting to come on board, we do have a contract. There's a six month fixed term on the agreement... and then there's a three month notice at the end.",
+    "close_phrase": "Is this looking like it's something you're interested in, Sophia?",
+    "meeting_2_ask": "Do you know when might be a good time to touch base again?",
+    "total_duration_mins": 38,
+    "talk_ratio_zac_pct": 65
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "373. Is that the figure coming after the expenses of the agency or do I need to - is the figure am I getting in my hand?",
+      "category": "clarification - net income definition",
+      "meeting_phase": "income presentation",
+      "zac_responded_with": "Explained mortgage and ~£500 bills buffer come out of the net figure, everything else already deducted",
+      "lead_follow_up": "So I will be paying off my mortgage and bills from there isn't it",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "So if it is in the quiet months you said I may be getting 600 pound isn't [it]... So I should pay the mortgage from the 600 pound.",
+      "category": "confusion - worst-month figure misread",
+      "meeting_phase": "income presentation",
+      "zac_responded_with": "Clarified payout is £2,100 in the quiet month, not £600 - the £600 is profit remaining after mortgage and bills",
+      "lead_follow_up": "So in the lowest scenarios we still be able to pay for the mortgage and the bill isn't it?",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Actually bills really high because... the paper coming for the short term there will be like heating and electricity will be the higher ranges.",
+      "category": "objection - cost estimate credibility",
+      "meeting_phase": "income presentation",
+      "zac_responded_with": "Reassured that even upping the buffer to £600 barely changes profitability on the low or average months",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "So if I am staying with a BTL mortgage did you say I will be able to let it this way... Just there is no doesn't come back any legal issues with us.",
+      "category": "objection - mortgage compliance risk",
+      "meeting_phase": "mid-call, after income discussion",
+      "zac_responded_with": "Advised staying on BTL for now for optionality; framed Stayful (not Sophia) as the entity technically short-letting since it's the management company",
+      "lead_follow_up": "It is telling if it. Then we can change it to stay in detail.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "So you are from Stayful are you... you are not located in Bristol are you.",
+      "category": "objection - local presence",
+      "meeting_phase": "mid-call",
+      "zac_responded_with": "Confirmed Stayful is not based in Bristol but has managed there for about a year, maybe two",
+      "lead_follow_up": "Okay you're managing this one okay",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "So will there be anyone coming and checking how the house will be before you know before we agree?",
+      "category": "process question - pre-commitment reassurance",
+      "meeting_phase": "operational detail / near close",
+      "zac_responded_with": "Explained inspection and photos happen once she confirms intent to proceed, plus offered free setup guide and photo-based recommendations",
+      "lead_follow_up": "",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Weak answer on local Bristol presence despite having strong proof available",
+      "category": "trust/credibility",
+      "evidence": "Zac's answer to 'you are not located in Bristol are you' was only 'I've managed in Bristol for about a year, maybe two years' - thin, when 12 proven comparable listings within 0.34km were already pulled up on screen and could have been cited directly",
+      "how_to_fill": "When asked about local presence, cite the specific nearby comparable count and performance stats already on screen rather than a vague tenure claim",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "No named mortgage/holiday-let broker referral to close the loop on her three mortgage questions",
+      "category": "unresolved objection - mortgage advice",
+      "evidence": "Sophia asked which lender offers holiday-let mortgages and general BTL-vs-short-let mortgage differences three times; Zac correctly declined each time as a non-broker ('I'm not a mortgage broker, I couldn't')",
+      "how_to_fill": "Build a standing referral relationship with a trusted holiday-let mortgage broker to hand off leads exploring this exact BTL-to-holiday-let switch",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Worst-month arithmetic: 'if we're looking at costs of 1500, 1600, the net revenue on the quietest month is 2100... even if I'm 20 wrong, we should, we're still profitable.'",
+      "lead_response": "in the lowest scenarios we still be able to pay for the mortgage and the bill isn't it?",
+      "phase": "income presentation",
+      "archetype_relevant": ["certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Property-specific confidence: 'I've never launched a property where that it hasn't gone well and you've got all those things' (4 beds, 2 baths, driveway parking)",
+      "lead_response": "No verbal objection followed - moved directly into asking about room/finish standard, indicating acceptance",
+      "phase": "income presentation",
+      "archetype_relevant": ["certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Reframing the compliance worry: 'You're not actually the one that's short letting the property, Stayful is, because we're the management company.'",
+      "lead_response": "It is telling if it. Then we can change it to stay in detail. (accepted the framing and moved on)",
+      "phase": "mid-call objection handling",
+      "archetype_relevant": ["certainty-seeker"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Net income figure required three separate clarifications ('is the figure am I getting in my hand?')",
+      "lead_response": "Continued re-asking in different phrasings across the call, suggesting the explanation hadn't fully landed the first time",
+      "recovery_attempted": "Zac repeated the breakdown (mortgage + ~£500 bills come out of net) each time she asked",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "Sophia misread the worst-month payout as £600 instead of £2,100, briefly thinking she'd need to pay the mortgage out of £600",
+      "lead_response": "So I should pay the mortgage from the 600 pound",
+      "recovery_attempted": "Zac immediately corrected: 'No, no, no. So it's 2100 pound of payout'",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "Sophia could not read the shared screen clearly ('if you read out that is better... clear is in my phone')",
+      "lead_response": "Asked Zac to read figures aloud rather than rely on the shared screen for the remainder of the call",
+      "recovery_attempted": "Zac switched to reading figures aloud instead of relying on the screen share",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": ["Well, thanks for coming on. I thought I'd start just by sort of understanding a bit more about your current situation"],
+    "transition_phrases": ["I feel like I can take you through how the service works. Once on board.", "Now to add a bit of clarity to these figures"],
+    "reassurance_phrases": ["I don't see any way, if I'm being honest, looking at these figures... that you won't be profitable", "even if I'm 20 wrong, we should, we're still profitable", "I've never launched a property where that it hasn't gone well and you've got all those things"],
+    "emphasis_phrases": ["This is going to do well because you've got two bathrooms, four bedrooms, and plenty of free parking", "we're never like 50 off... it doesn't really tend to flow more than sort of 10 off of what we're projecting"],
+    "analogies_used": ["Manchester 3-bed case study: projected £62k gross/£32.5k net, achieved £56.9k gross (-10%) but £36k net (above target)", "regulation comparison to HMO licensing eventually restricting supply"],
+    "numbers_framing": "Leads with the worst-case month net figure and its residual profit margin rather than the headline average, then uses a real prior case study (Manchester) to bound how far actuals can miss projections",
+    "objection_handling_pattern": "Acknowledges the concern directly, restates the underlying figure with more clarity, then reframes using a concrete property-specific or case-study proof point rather than a generic reassurance"
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "certainty-seeker",
+    "what_they_focused_on": ["what 'net' actually means and what she personally receives", "worst-case month profitability against the incoming higher mortgage", "legal/compliance risk of short-letting on a BTL mortgage", "finish standard and operational specifics (linen, TVs, dishwasher)"],
+    "what_they_needed_most": ["explicit worst-case arithmetic proving the mortgage and bills are still covered in low season", "reassurance that switching to short-let carries no legal/mortgage compliance risk", "confirmation the process is low-effort given the property is already furnished"],
+    "what_fell_flat": ["initial average net income framing (£3,373/month) did not land until broken down into a specific worst-case payout number", "local Bristol presence answer was thin relative to the proof available"],
+    "recommended_meeting_adjustment": "Check the lead's device at the start of the call (she was on a phone and could not read the shared screen); lead with the worst-month net-minus-costs figure rather than the average, and proactively cite specific nearby comparable listings when asked about local presence"
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
