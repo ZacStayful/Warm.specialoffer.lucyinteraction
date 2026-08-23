@@ -1,0 +1,236 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "072",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-07-06",
+  "transcript_quality": "full",
+  "lead_name": "Bill & Liz Heath",
+  "email": "bill@lawnswood.co.uk",
+  "monday_id": "12420552539",
+  "address": "5 Rock Walk Heights, Warren Road. Torquay TQ2 5UB",
+  "bedrooms": 3,
+  "profile_type": "SELL",
+  "lead_profile_text": "Selling and wanting to short let in the meantime",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "loss-averse-switcher",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Unfurnished property — lead wants a finalised, firm furnishing cost before committing; only given a verbal £6,000–£8,000 ballpark on the call itself.",
+  "language_signals": [
+    "It's costing us 10 grand a year just to let it stand there.",
+    "We would rather let it out say Airbnb then just let it stand there because it's costing us.",
+    "If we could have sold it, we would have sold it.",
+    "Because it's just sat there doing nothing."
+  ],
+  "portfolio_flag": false,
+  "outcome": "Special offer applied",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13% + VAT",
+  "offer_expiry": "2026-07-31",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-FUR",
+      "trigger_phrase": "Our thing would be if the outlet to furnish it out.",
+      "context": "The apartment has been unfurnished since the last long-term tenant left. Before committing, the lead wants a firm, itemised furnishing cost rather than the verbal £6,000–£8,000 ballpark Zac gave on the call — he also asked to see recommendations for kitting the property out based on the room dimensions and photos already sent.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "It's costing us 10 grand a year just to let it stand there.",
+      "context": "Repeated framing of the empty property as an active financial loss (double council tax plus other holding costs) creates pressure to act now rather than continue waiting for a sale.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "We've got it fully certificated on the gas safety ECR, boiler safety, water safety. All that is being done because we've kept it up. And there's also a new boiler being installed.",
+      "context": "Property is already fully compliant (gas, EICR, boiler, water) with a new boiler going in, and is unfurnished but otherwise in very good condition with no mortgage — no administrative or lender blockers to being managed immediately.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "If we agree on everything, then we'll go ahead straight away. That's all. Because it's just sat there doing nothing.",
+      "context": "Decisive, joint (Bill and Liz together) statement of readiness to proceed immediately once terms are agreed — no third party or lender approval required, no mortgage on the property.",
+      "strength": "strong"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "closing",
+    "green_lights_present_at_offer": ["GL-TIME", "GL-MGMT", "GL-SELF"],
+    "delays_present_at_offer": ["DLY-FUR"],
+    "what_immediately_preceded_offer": "Zac summarising that the property could do well and that nothing was obviously stopping it from being listed: \"I think this property could do quite well and it doesn't seem like there's anything obviously sort of stopping us from listing it.\"",
+    "how_zac_framed_offer": "A discretionary discount off the standard rate, tied to a hard deadline: \"I'm happy to do a discount on our management of 13 instead of 15. But it'd be based off of signing before the 31st of July which is you know what four weeks away from now... I'll put that in writing as well for you in an email.\"",
+    "expiry_stated_as": "the 31st of July — stated as roughly four weeks away from the call",
+    "lead_response_to_offer": "No direct verbal reaction to the discounted rate itself; the conversation moved straight into Zac's plan to send an action plan and finalised quote, with the lead responding warmly to the overall call (\"That's excellent. Yeah. Yeah.\") rather than confirming the offer.",
+    "offer_outcome": "Not accepted at the meeting — lead wanted the finalised furnishing quote and written agreement first; Zac closed with an informal plan to follow up the next week if he didn't hear back."
+  },
+  "meeting_flow": {
+    "opening_phrase": "Hi Bill, how you doing?... thanks for coming on. I saw the PDF he sent to me, thanks for sending that over, it's quite useful.",
+    "rapport_topics": ["property ownership history since 2000", "referral via John Couches, an estate agent in Turkey", "property condition, views and location"],
+    "pivot_to_business": "I thought you could just probably just give us a bit of a rundown on sort of the current condition with the property... and like what the sort of vision is and sort of where short letting fits into that.",
+    "income_intro": "What we can do then is we can go through some sort of income figures so we could sort of outline whether it's worth short letting the property or not... looking at about three thousand pound per month.",
+    "post_income_silence": "",
+    "how_it_works_transition": "If you have any questions about sort of how our service works or I can just go through it top to bottom, it's up to you really.",
+    "pre_close_setup": "I think this property could do quite well and it doesn't seem like there's anything obviously sort of stopping us from listing it.",
+    "close_phrase": "I'm happy to do a discount on our management of 13 instead of 15. But it'd be based off of signing before the 31st of July.",
+    "meeting_2_ask": "No formal second meeting was booked; Zac proposed an informal check-in instead: \"we'll touch base probably next week or something if I don't hear from you.\"",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 72
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "Our thing would be if the outlet to furnish it out.",
+      "category": "cost objection",
+      "meeting_phase": "income discussion",
+      "zac_responded_with": "I would say it's probably going to be in the region of sort of 6,000, maybe up to sort of 8,000 pounds to fully do everything.",
+      "lead_follow_up": "That sounds about right. Yes.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "What insurance cover would we need?",
+      "category": "logistics question",
+      "meeting_phase": "how it works",
+      "zac_responded_with": "You wouldn't need any additional insurance in place... anything additional is essentially going to be managed by us.",
+      "lead_follow_up": "Well, all that is, we've got it fully certificated on the gas safety, ECR, boiler safety, water safety.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "What about damage to the sofa or the bed, how is that covered?",
+      "category": "risk/damage concern",
+      "meeting_phase": "how it works",
+      "zac_responded_with": "Explained the £200 guest security deposit, a small background check on guests, and insurance cover for major incidents, plus an approved contractor framework for repairs.",
+      "lead_follow_up": "No, no, I was just curious and you know the little things that matter.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "And the changeover — you deal with all that, changing beds and making sure it's clean?",
+      "category": "logistics question",
+      "meeting_phase": "how it works",
+      "zac_responded_with": "Explained the all-inclusive cleaning price (deep clean, linen change, supplies) is passed on to the guest as part of the nightly charge.",
+      "lead_follow_up": "It's quite interesting knowing who pays for what.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Do we have to pay double council tax because it's a second home?",
+      "category": "cost objection",
+      "meeting_phase": "how it works",
+      "zac_responded_with": "Explained reclassifying the property from residential second-home to business/commercial rates, likely qualifying for small business rates relief and reducing the liability toward zero, backdated once approved.",
+      "lead_follow_up": "Oh, that's good.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "If we could have sold it, we would have sold it... To me, it should be on at 525 for where it is and what you've got there.",
+      "category": "context/motivation statement",
+      "meeting_phase": "objection handling — selling vs. short-letting",
+      "zac_responded_with": "Confirmed the lead retains full calendar access and can continue trying to sell the property while it's listed as a short-let, only needing to block dates around viewings.",
+      "lead_follow_up": "Yes.",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "No firm next-step date was locked in; follow-up was left as an open-ended check-in rather than a scheduled call.",
+      "category": "no clear next-step commitment",
+      "evidence": "I'll send that over to them like that sort of 15 minutes and then we'll touch base probably next week or something if I don't hear from you.",
+      "how_to_fill": "Book a specific follow-up call/date on the spot to review the finalised furnishing quote and agreement, rather than leaving it to an informal 'if I don't hear from you' check-in.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "The furnishing/setup cost was only given as a verbal ballpark (£6,000–£8,000) at the point the offer was made; the lead explicitly wanted the finalised, itemised number before deciding.",
+      "category": "pricing not finalised at point of offer",
+      "evidence": "I'd be interested to see what you recommend to kit it out... So I'll put together a bit more of a proper... price for you.",
+      "how_to_fill": "Send the finalised, itemised furnishing quote the same day, well before the offer's expiry, so the concrete cost objection is closed while the discounted-rate urgency is still fresh.",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac explaining the council tax business-rates reclassification and potential saving (currently paying £601/month, double as a second home).",
+      "lead_response": "Oh, that's good.",
+      "phase": "how it works / objection handling",
+      "archetype_relevant": ["loss-averse-switcher", "analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Zac's affirming assessment of the property's letting potential — two balconies, two bathrooms, two parking spaces, close to town and beach.",
+      "lead_response": "And you're 10 minutes... 5 minutes down onto the beach... the views are absolutely stunning, absolutely stunning.",
+      "phase": "income discussion / rapport",
+      "archetype_relevant": ["certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Thorough, direct close summarising everything covered on the call.",
+      "lead_response": "Well done. You've done a really good job on that.",
+      "phase": "close",
+      "archetype_relevant": ["certainty-seeker", "analytical-evaluator"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Furnishing cost remained a ballpark range rather than a confirmed figure right at the point the discounted offer was made.",
+      "lead_response": "Our thing would be if the outlet to furnish it out.",
+      "recovery_attempted": "Zac gave a verbal range (£6,000–£8,000) and committed to finalising a proper price after the call.",
+      "resolved": false
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "Hi Bill, how you doing?",
+      "Thanks for coming on. I saw the PDF he sent to me, thanks for sending that over, it's quite useful."
+    ],
+    "transition_phrases": [
+      "All right well what we can do then is we can go through some sort of income figures.",
+      "If you have any questions about sort of how our service works or I can just go through it top to bottom, it's up to you really.",
+      "Something I want to do as well for you is..."
+    ],
+    "reassurance_phrases": [
+      "You wouldn't need any additional insurance in place.",
+      "I don't see why this property won't do really well.",
+      "There's nothing to stop you continuing to try and sell the property."
+    ],
+    "emphasis_phrases": [
+      "I think this property could do really well.",
+      "I don't see why this wouldn't do well to be honest.",
+      "It does happen, you know, stuff does get damaged... but yeah we try our best."
+    ],
+    "analogies_used": [
+      "A messaging app bit like WhatsApp."
+    ],
+    "numbers_framing": "Leads with the net monthly payout figure first (~£3,000/month average), then breaks it into seasonal best/worst case (£2,000 quiet months vs. £5,000–£6,000 peak summer), ties setup spend directly to profitability, and frames the council tax fix in concrete monthly cash terms (£601/month now, trending toward zero).",
+    "objection_handling_pattern": "Acknowledges the concern directly, explains the specific process or mechanism that mitigates it (deposit, vetting, insurance, business-rates reclassification), then closes each point with a reassuring or upbeat statement before moving on to the next topic."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "SELL",
+    "emotional_profile": "loss-averse-switcher",
+    "what_they_focused_on": [
+      "operational logistics (insurance, damage, cleaning, calendar access)",
+      "cost of holding the property empty vs. generating income",
+      "council tax / ongoing holding costs",
+      "furnishing cost to get started",
+      "ability to keep selling the property alongside short-letting"
+    ],
+    "what_they_needed_most": [
+      "certainty that short-letting wouldn't stop them selling",
+      "a concrete, finalised furnishing cost before committing",
+      "reassurance on guest damage and the vetting process",
+      "confirmation of low/no ongoing admin burden given they are remote and don't need to travel"
+    ],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": "For SELL-profile, loss-averse leads holding an empty, costly property, send the finalised furnishing quote the same day rather than as a delayed follow-up, so the concrete cost objection is closed while the discounted-rate deadline is still fresh — this profile responds well to firm numbers and a documented, written offer rather than verbal ballparks."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
