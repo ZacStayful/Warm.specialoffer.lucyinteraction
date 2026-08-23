@@ -1,0 +1,1746 @@
+{
+  "schema_version": "3.0",
+  "total_entries_seen": 103,
+  "last_updated": "2026-08-21",
+  "objections": [
+    {
+      "canonical_trigger": "setup cost effort barrier property",
+      "trigger_variants": [
+        "Setup cost of £7,200",
+        "Setup cost and effort barrier — property is unfurnished and requires full investment",
+        "Setup cost ~£3-5k hard to recover from thin margins"
+      ],
+      "frequency": 3,
+      "confidence": 0.0291,
+      "last_seen": "2026-04-27",
+      "profile_types": [
+        "PURCH",
+        "R2R",
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "Entrepreneurial",
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "",
+      "zac_response": {
+        "best": "Acknowledged — setup cost unrecoverable if margins remain minimal",
+        "alternatives": [
+          "Furnishing price quote to be sent to make investment case clear"
+        ],
+        "avoid": ""
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "Acknowledged — setup cost unrecoverable if margins remain minimal",
+      "linked_delay_type": "",
+      "linked_gap_category": "cost_barrier",
+      "entries": [
+        "003",
+        "025",
+        "007-A"
+      ]
+    },
+    {
+      "canonical_trigger": "risk damage handling",
+      "trigger_variants": [
+        "What about damage to the sofa or the bed, how is that covered?",
+        "If something happens, something is damaged or something, the gas is causing problems. What's the procedure there?"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-08-13",
+      "profile_types": [
+        "ABROAD",
+        "SELL"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator",
+        "loss-averse-switcher"
+      ],
+      "most_common_meeting_phase": "how it works",
+      "zac_response": {
+        "best": "Explained security deposits (£200-400) and ID checks upfront, deposit-covered minor damage, platform insurance up to ~£100k for major incidents, and wear-and-tear deducted from payout with a £300 notification threshold.",
+        "alternatives": [
+          "Explained the £200 guest security deposit, a small background check on guests, and insurance cover for major incidents, plus an approved contractor framework for repairs."
+        ],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Explained security deposits (£200-400) and ID checks upfront, deposit-covered minor damage, platform insurance up to ~£100k for major incidents, and wear-and-tear deducted from payout with a £300 notification threshold.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "081",
+        "072"
+      ]
+    },
+    {
+      "canonical_trigger": "local presence coverage chiswick west",
+      "trigger_variants": [
+        "So you are from Stayful are you... you are not located in Bristol are you.",
+        "Local presence and coverage for Chiswick/West London area"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-08-03",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "mid-call",
+      "zac_response": {
+        "best": "Confirmed Stayful is not based in Bristol but has managed there for about a year, maybe two",
+        "alternatives": [
+          "Local presence and coverage confirmed for the area"
+        ],
+        "avoid": ""
+      },
+      "resolution_rate": 0.5,
+      "what_resolved_it": "Confirmed Stayful is not based in Bristol but has managed there for about a year, maybe two",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075",
+        "006"
+      ]
+    },
+    {
+      "canonical_trigger": "competitor comparison trust",
+      "trigger_variants": [
+        "I've had another conversation with another agent to see what their view was. And their numbers were less than yours.",
+        "I'm just ultimately a bit torn. He's sort of suggesting... focus being on direct bookings, the contractor lets etc... what's the advantage to your approach versus his approach I guess ultimately would be my question"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-07-31",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator",
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "income_presentation",
+      "zac_response": {
+        "best": "Validated the other advisor's approach rather than dismissing it, then reframed platform-first-plus-direct-bookings as risk diversification: platforms are the stable base, direct bookings are 'the icing on the cake', and solely relying on either channel is riskier long-term",
+        "alternatives": [
+          "Walked through comparable-property data and set ramp-up expectations (~20% lower income in year one, roughly 12-15 months to reach the local average of ~96 reviews) to explain why figures can differ."
+        ],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Validated the other advisor's approach rather than dismissing it, then reframed platform-first-plus-direct-bookings as risk diversification: platforms are the stable base, direct bookings are 'the icing on the cake',...",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "i'd more control pricing wants",
+      "trigger_variants": [
+        "I'd like more control over pricing",
+        "I'd like more control over pricing — wants oversight of dynamic pricing decisions"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-06-22",
+      "profile_types": [
+        "ABROAD",
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "Analytically engaged and time-pressured",
+        "Professional and analytical"
+      ],
+      "most_common_meeting_phase": "",
+      "zac_response": {
+        "best": "Dynamic pricing reviewed weekly with manual oversight — owner can input preferences and floor rates",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "Dynamic pricing reviewed weekly with manual oversight — owner can input preferences and floor rates",
+      "linked_delay_type": "",
+      "linked_gap_category": "control_objection",
+      "entries": [
+        "038",
+        "050"
+      ]
+    },
+    {
+      "canonical_trigger": "council tax premium during transition",
+      "trigger_variants": [
+        "Council tax premium during transition period — wants to understand timeline to zero rates",
+        "Council tax — what happens during the transition period?"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-05-29",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "Lifestyle-income lead",
+        "Measured and financially analytical"
+      ],
+      "most_common_meeting_phase": "",
+      "zac_response": {
+        "best": "Council tax premium initially applies during STL transition; transitions to zero business rates after approximately 1 year.",
+        "alternatives": [
+          "Council tax premium applies initially but transitions to zero business rates after approximately 1 year of STL operation."
+        ],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Council tax premium initially applies during STL transition; transitions to zero business rates after approximately 1 year.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "052"
+      ]
+    },
+    {
+      "canonical_trigger": "two simultaneous changeovers risk becoming",
+      "trigger_variants": [
+        "Two simultaneous changeovers — risk of becoming manual cleaners instead of entrepreneurs"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-05-28",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [
+        "Entrepreneurially motivated",
+        "Systems-thinking entrepreneur"
+      ],
+      "most_common_meeting_phase": "",
+      "zac_response": {
+        "best": "Stayful handles all cleaning coordination and changeovers end-to-end. Nathan and his team are freed from all operational cleaning responsibilities.",
+        "alternatives": [
+          "Stayful takes over all cleaning coordination and changeovers end-to-end — Nathan and team are never the manual operatives"
+        ],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Stayful handles all cleaning coordination and changeovers end-to-end.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "051"
+      ]
+    },
+    {
+      "canonical_trigger": "booking com guest quality drug",
+      "trigger_variants": [
+        "Booking.com guest quality — drug preparation incidents, £200 dining table destroyed, compensation still pending",
+        "Booking.com guest quality — drug preparation incidents, £200 dining table destroyed, compensation still pending after difficult claims process"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-05-28",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [
+        "Entrepreneurially motivated",
+        "Systems-thinking entrepreneur"
+      ],
+      "most_common_meeting_phase": "",
+      "zac_response": {
+        "best": "£200 security deposit, ID checks, damage history screening. Stayful's active guest vetting model versus Booking.com's open booking approach.",
+        "alternatives": [
+          "£200 security deposit, ID checks, damage history screening, active guest vetting — Stayful's model is built to prevent exactly this"
+        ],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "£200 security deposit, ID checks, damage history screening.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "051"
+      ]
+    },
+    {
+      "canonical_trigger": "worst month stl projection monthly",
+      "trigger_variants": [
+        "Worst month STL projection (~£952) vs monthly costs (~£1,100) — potential small monthly loss in worst month",
+        "Worst month STL projection (~£952) vs total monthly costs (~£1,100) — small potential monthly loss in worst case"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-05-28",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [
+        "Entrepreneurially motivated",
+        "Systems-thinking entrepreneur"
+      ],
+      "most_common_meeting_phase": "",
+      "zac_response": {
+        "best": "Worst month is one in 12 — full year average significantly outperforms. LTL at £1,300-1,400 is aspirational and carries void risk. Honest framing applied in action plan.",
+        "alternatives": [
+          "Worst month is one in 12 — full year average significantly outperforms. LTL alternative (£1,300-1,400) also carries void risk. Honestly acknowledged in action plan."
+        ],
+        "avoid": ""
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "Worst month is one in 12 — full year average significantly outperforms.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "051"
+      ]
+    },
+    {
+      "canonical_trigger": "renovation investment exposed guest damage",
+      "trigger_variants": [
+        "£100k renovation investment exposed to guest damage — emotional attachment to high-end finishes (granite countertops, £10k furnishings)",
+        "£100k renovation investment exposed to guest damage — emotional attachment to first major renovation (granite countertops throughout, high-end finishes, £10k additional furnishings)"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-05-28",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [
+        "Entrepreneurially motivated",
+        "Systems-thinking entrepreneur"
+      ],
+      "most_common_meeting_phase": "",
+      "zac_response": {
+        "best": "AirCover protection, £200 deposit, ID checks, damage claim support from Stayful team. Proactive guest quality management mitigates risk.",
+        "alternatives": [
+          "AirCover protection, £200 deposit, ID checks, damage claim support. Stayful actively manages this risk."
+        ],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "AirCover protection, £200 deposit, ID checks, damage claim support from Stayful team.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "051"
+      ]
+    },
+    {
+      "canonical_trigger": "considering testing long let month",
+      "trigger_variants": [
+        "Considering long-let for 1 month first as a lower-risk test before committing to STL",
+        "Considering testing long-let for one month before committing to STL — lower perceived risk"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-05-28",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [
+        "Entrepreneurially motivated",
+        "Systems-thinking entrepreneur"
+      ],
+      "most_common_meeting_phase": "",
+      "zac_response": {
+        "best": "Honest LTL vs STL comparison in action plan. STL significantly outperforms over full year. Cost of 1-month delay quantified. 3-week setup timeline means STL can start immediately.",
+        "alternatives": [
+          "LTL vs STL honest comparison in action plan. STL significantly outperforms over full year. Cost of delay quantified. 3-week STL setup timeline vs immediate LTL search."
+        ],
+        "avoid": ""
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "Honest LTL vs STL comparison in action plan.",
+      "linked_delay_type": "",
+      "linked_gap_category": "Decision hesitation",
+      "entries": [
+        "051"
+      ]
+    },
+    {
+      "canonical_trigger": "none captured meeting cut off",
+      "trigger_variants": [
+        "None captured — meeting cut off before objections stage"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-05-07",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "Intent genuine",
+        "Motivated"
+      ],
+      "most_common_meeting_phase": "",
+      "zac_response": {
+        "best": "",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "037"
+      ]
+    },
+    {
+      "canonical_trigger": "financial viability stl significantly better",
+      "trigger_variants": [
+        "Financial viability — is STL significantly better than LTL for a 1-bed city centre?",
+        "Financial viability — is STL significantly better than LTL for a 5-bed?"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-04-27",
+      "profile_types": [
+        "ABROAD",
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "Analytically minded",
+        "Moving abroad"
+      ],
+      "most_common_meeting_phase": "",
+      "zac_response": {
+        "best": "Income analysis and LTL comparison presented showing STL advantage; direct booking strategy outlined",
+        "alternatives": [
+          "Financial comparison presented — STL vs LTL case made but not compelling enough given setup cost"
+        ],
+        "avoid": ""
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "Income analysis and LTL comparison presented showing STL advantage; direct booking strategy outlined",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "019",
+        "018"
+      ]
+    },
+    {
+      "canonical_trigger": "margins too thin after rent",
+      "trigger_variants": [
+        "R2R margins too thin after rent + management fees + setup costs",
+        "R2R margin too thin after rent to landlord, platform fees, and Stayful management fee added on top"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-04-09",
+      "profile_types": [
+        "R2R"
+      ],
+      "emotional_profiles": [
+        "Business-minded R2R operator struggling with margins",
+        "Entrepreneurial R2R investor"
+      ],
+      "most_common_meeting_phase": "",
+      "zac_response": {
+        "best": "Financial analysis presented — deal structure does not stack up at proposed rent level",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "Financial analysis presented — deal structure does not stack up at proposed rent level",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "024",
+        "031"
+      ]
+    },
+    {
+      "canonical_trigger": "same block competition multiple airbnbs",
+      "trigger_variants": [
+        "Same-block competition — multiple Airbnbs in same building",
+        "Same-block competition — up to 15 Airbnbs in same 86-unit building"
+      ],
+      "frequency": 2,
+      "confidence": 0.0194,
+      "last_seen": "2026-03-11",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "Long-term investor",
+        "Long-term investor with pragmatic expectations"
+      ],
+      "most_common_meeting_phase": "",
+      "zac_response": {
+        "best": "Stadium proximity events demand offsets block competition; dynamic pricing captures event uplift",
+        "alternatives": [
+          "Location demand offsets internal competition"
+        ],
+        "avoid": ""
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "Stadium proximity events demand offsets block competition; dynamic pricing captures event uplift",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "032",
+        "033"
+      ]
+    },
+    {
+      "canonical_trigger": "where three airbnb harrogate area",
+      "trigger_variants": [
+        "So where are the three Airbnb in Harrogate, in which area? ... Specifically in Harrogate."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-21",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "income_presentation",
+      "zac_response": {
+        "best": "I can't remember off the top of my head... I think one's on bower road. I think that's hg2. It's like a two bed flower.",
+        "alternatives": [],
+        "avoid": "Zac unable to name or locate Stayful's own Harrogate-managed properties when asked directly"
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "I can't remember off the top of my head... I think one's on bower road.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "084"
+      ]
+    },
+    {
+      "canonical_trigger": "company trust",
+      "trigger_variants": [
+        "engaging or entrusting our property to a company we don't know is a risk... if it is suddenly dissolved or struck off then there is no way we can chase the company for compensation"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-21",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "service_explanation",
+      "zac_response": {
+        "best": "we essentially have a holding account where all the booking Revenue comes into that account that's not attached to Stayful, really... the income that is generated for you is owed to you.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "we essentially have a holding account where all the booking Revenue comes into that account that's not attached to Stayful, really... the income that is generated for you is owed to you.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "084"
+      ]
+    },
+    {
+      "canonical_trigger": "guest how works worked stayful",
+      "trigger_variants": [
+        "Can we go in and as a guest and just have a look of how [it works]? ... we have not worked with Stayful before so it's really help if we can have a look of the property you're operating here."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-21",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "closing",
+      "zac_response": {
+        "best": "I don't think we'll be able to do that... it's someone else's property... I've got to ask consent from a landlord with a nearby property to access.",
+        "alternatives": [],
+        "avoid": "Zac unable to name or locate Stayful's own Harrogate-managed properties when asked directly"
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "I don't think we'll be able to do that... it's someone else's property... I've got to ask consent from a landlord with a nearby property to access.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "084"
+      ]
+    },
+    {
+      "canonical_trigger": "please attend top bill how",
+      "trigger_variants": [
+        "please don't attend to 15% on top of the of the bill, how do you charge that?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-21",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "service_explanation",
+      "zac_response": {
+        "best": "if the guests at fault, we collect a deposit... if it's something really serious, covered by our insurance... if fair wear and tear, charged to yourself. We notify you if the account exceeds £300 in the month.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "if the guests at fault, we collect a deposit... if it's something really serious, covered by our insurance... if fair wear and tear, charged to yourself.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "084"
+      ]
+    },
+    {
+      "canonical_trigger": "once take off hmo need",
+      "trigger_variants": [
+        "once we take off the hmo we need to apply again or we don't get it... they literally said you just go out, we're not going to give you again."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-21",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "service_explanation",
+      "zac_response": {
+        "best": "I would still say that part's kind of up to you a little bit because you will lose the license and the license will make the property a lot more valuable. So it might be worth just maybe holding off and keeping an eye.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "I would still say that part's kind of up to you a little bit because you will lose the license and the license will make the property a lot more valuable.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "084"
+      ]
+    },
+    {
+      "canonical_trigger": "forecast reliability",
+      "trigger_variants": [
+        "if I'm totally honest, I wasn't sure given the information that I gave you, whether that would be precise enough for you to be able to calculate to a degree of reliability"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-14",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "income presentation",
+      "zac_response": {
+        "best": "Explained the model runs on bedrooms, bathrooms, parking and address-based competition, and that figures tie together more precisely once photos are provided.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Explained the model runs on bedrooms, bathrooms, parking and address-based competition, and that figures tie together more precisely once photos are provided.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "082"
+      ]
+    },
+    {
+      "canonical_trigger": "mortgage underwriting risk",
+      "trigger_variants": [
+        "the more I can raise the mortgage, the... mortgage they just want to see rentals because it's a new house they want to see comparables"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-14",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "income presentation",
+      "zac_response": {
+        "best": "No direct response on the call — the conversation moved on to the rent/occupancy decomposition question.",
+        "alternatives": [],
+        "avoid": "Rob raised new-build mortgage/lender comparable requirements as a live concern"
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "No direct response on the call — the conversation moved on to the rent/occupancy decomposition question.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "082"
+      ]
+    },
+    {
+      "canonical_trigger": "pricing rate scepticism",
+      "trigger_variants": [
+        "I think it's 166 is expensive. That's my shading... to feel combining 81% with 160, I think that's quite ambitious. But you probably know better than me."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-13",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "income presentation",
+      "zac_response": {
+        "best": "Walked the 12 local comparable listings (rates £158-175, occupancies to 89%), explained the ramp-up period and that the figures are the property's potential rather than a day-one guarantee.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Walked the 12 local comparable listings (rates £158-175, occupancies to 89%), explained the ramp-up period and that the figures are the property's potential rather than a day-one guarantee.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "081"
+      ]
+    },
+    {
+      "canonical_trigger": "property legal risk",
+      "trigger_variants": [
+        "By the way, is there a restriction for Airbnb on grade two buildings?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-13",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "income presentation",
+      "zac_response": {
+        "best": "Asked leasehold vs freehold status, then pointed to a nearby Grade II listed comparable already operating as a short-term let as a positive signal.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "Asked leasehold vs freehold status, then pointed to a nearby Grade II listed comparable already operating as a short-term let as a positive signal.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "081"
+      ]
+    },
+    {
+      "canonical_trigger": "vacancy risk",
+      "trigger_variants": [
+        "Can I just ask, so what happens if it doesn't let for part of the month, or some month for some reason it doesn't let at all?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-03",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "income discussion",
+      "zac_response": {
+        "best": "We can only pay out on income that we receive... this is why we go through these projections with people, so they understand and are aware of all the risks that come with it.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "We can only pay out on income that we receive... this is why we go through these projections with people, so they understand and are aware of all the risks that come with it.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "damage condition",
+      "trigger_variants": [
+        "[garbled] ...reject the cat [guests] ... make sure they need when they come and go that way in the same condition"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-03",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "late",
+      "zac_response": {
+        "best": "We do ID checks for every guest and we do security deposits as well... if we do have some kind of bad experience, or things stolen or broken, we claim our security deposit.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "We do ID checks for every guest and we do security deposits as well... if we do have some kind of bad experience, or things stolen or broken, we claim our security deposit.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "cost estimate credibility",
+      "trigger_variants": [
+        "Actually bills really high because... the paper coming for the short term there will be like heating and electricity will be the higher ranges."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-03",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "income presentation",
+      "zac_response": {
+        "best": "Reassured that even upping the buffer to £600 barely changes profitability on the low or average months",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Reassured that even upping the buffer to £600 barely changes profitability on the low or average months",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "mortgage compliance risk",
+      "trigger_variants": [
+        "So if I am staying with a BTL mortgage did you say I will be able to let it this way... Just there is no doesn't come back any legal issues with us."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-08-03",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "mid-call, after income discussion",
+      "zac_response": {
+        "best": "Advised staying on BTL for now for optionality; framed Stayful (not Sophia) as the entity technically short-letting since it's the management company",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Advised staying on BTL for now for optionality; framed Stayful (not Sophia) as the entity technically short-letting since it's the management company",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "planning compliance",
+      "trigger_variants": [
+        "some of the feedback I had from another agent was they seemed to suggest to me that I shouldn't look at any property that doesn't already have the use for holiday lets because they said that actually in the lakes at the moment getting a change of use is quite difficult"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-31",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "objection_handling",
+      "zac_response": {
+        "best": "Admitted he didn't know ('I've not got too much... I've never heard of that before'), suggested arguing the property is a second home rather than a use change, and floated an SPV/limited-company ownership structure with an accountant's input.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "Admitted he didn't know ('I've not got too much... I've never heard of that before'), suggested arguing the property is a second home rather than a use change, and floated an SPV/limited-company ownership structure with...",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "compliance cost",
+      "trigger_variants": [
+        "with this obviously being the first time we've done something like this, we're probably not the most up to speed with all of the regulations and requirements with these things... I was told that in terms of setting a property up again for the first time with like all of the fire regs and everything can be a little bit expensive."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-31",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "service_explanation",
+      "zac_response": {
+        "best": "Reassured that compliance is currently simple (smoke alarms, fire blankets, extinguishers), said fire doors can be deferred roughly 6 months, and advised controlling setup cost and testing the idea before spending further.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Reassured that compliance is currently simple (smoke alarms, fire blankets, extinguishers), said fire doors can be deferred roughly 6 months, and advised controlling setup cost and testing the idea before spending...",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "hands off management",
+      "trigger_variants": [
+        "we don't live anywhere near the lake district we're like four and a half hours away. So if there's a problem we have no hope in hell of getting there anytime soon."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-31",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "service_explanation",
+      "zac_response": {
+        "best": "Reassured that fully remote ownership is normal, cited managing for owners abroad, and said onboarding does not require being near the property.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Reassured that fully remote ownership is normal, cited managing for owners abroad, and said onboarding does not require being near the property.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "marketing some after thousand guaranteed",
+      "trigger_variants": [
+        "I've had a look at you. The marketing 850. Some after up to a thousand guaranteed. So that's where I'm at, really."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-31",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "early income discussion",
+      "zac_response": {
+        "best": "we don't offer any sort of guaranteed returns... that's just the nature of the industry... net revenue per year of around 19,000 pounds, about 1500, 1600 pound per month",
+        "alternatives": [],
+        "avoid": "Zac's first answer to the guaranteed-rent question was a flat 'we don't offer guaranteed returns' before any reassuring data was given."
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "we don't offer any sort of guaranteed returns... that's just the nature of the industry... net revenue per year of around 19,000 pounds, about 1500, 1600 pound per month",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "079"
+      ]
+    },
+    {
+      "canonical_trigger": "offer rent three months there",
+      "trigger_variants": [
+        "You could offer me rent for three months and then there could be no bookings three months and I'll be left with nothing."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-31",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "mid meeting",
+      "zac_response": {
+        "best": "I've never had a situation where someone went three months and had nothing at all.",
+        "alternatives": [],
+        "avoid": "Zac's first answer to the guaranteed-rent question was a flat 'we don't offer guaranteed returns' before any reassuring data was given."
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "I've never had a situation where someone went three months and had nothing at all.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "079"
+      ]
+    },
+    {
+      "canonical_trigger": "cost comparison",
+      "trigger_variants": [
+        "I mean would it work out cheaper for me if you furnish it, or do you take any administration costs etc.?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-30",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "setup_and_furnishing",
+      "zac_response": {
+        "best": "It most likely be more expensive if we're furnishing it because there's labour included on our side.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "It most likely be more expensive if we're furnishing it because there's labour included on our side.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "general concerns how they're gonna",
+      "trigger_variants": [
+        "I've got the general concerns of, like, how well they're gonna look after the place. Like, it's our family home first. It's newly renovated... And then with us potentially not being in the country, how easy all that's going to be communication wise."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-30",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "post_income / pre_how_it_works",
+      "zac_response": {
+        "best": "Outlined the guest vetting process: security deposit (£200-500), background checks, £100k insurance cover per guest day, monthly itemised statements with a £300 notification threshold.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Outlined the guest vetting process: security deposit (£200-500), background checks, £100k insurance cover per guest day, monthly itemised statements with a £300 notification threshold.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "leaving personal items try put",
+      "trigger_variants": [
+        "Leaving personal items... we're going to try and put everything as much as we can into the garage, which is separate from the house anyway... could I keep that locked and not let them [have access]?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-30",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "how_it_works",
+      "zac_response": {
+        "best": "Recommended a proper mailbox installation and two key safes — one for guests (rotating codes after each stay) and a secondary one for management/maintenance access.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Recommended a proper mailbox installation and two key safes — one for guests (rotating codes after each stay) and a secondary one for management/maintenance access.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "question answer because crystal ball",
+      "trigger_variants": [
+        "I know it's not a question you can really answer because you don't have a crystal ball, but my only concern is not getting the bucket [booked]... Being at the other side of the world, and that's it."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-30",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "pre_close",
+      "zac_response": {
+        "best": "Shared the Manchester 3-bed case study (projected £62k gross/£32k net vs achieved £56k/£36k net, ~9% under on gross in year one) and reframed the area's low competition (27 reviews) as a reason bookings would ramp quickly.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Shared the Manchester 3-bed case study (projected £62k gross/£32k net vs achieved £56k/£36k net, ~9% under on gross in year one) and reframed the area's low competition (27 reviews) as a reason bookings would ramp...",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "mean make revenue half month",
+      "trigger_variants": [
+        "I mean, probably like, what does it make? I would say probably revenue is about half that. Maybe... 1600 a month on a excellent month, I'd say maybe to max."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-29",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "income presentation",
+      "zac_response": {
+        "best": "Asked about review count/listing specifics and offered to review the actual listing post-call; identified a ~1 year review gap (Oct 2024–Sep 2025) as a likely explanation for the underperformance",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Asked about review count/listing specifics and offered to review the actual listing post-call; identified a ~1 year review gap (Oct 2024–Sep 2025) as a likely explanation for the underperformance",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "market risk",
+      "trigger_variants": [
+        "Is there a situation... where it becomes a bit of a saturated market up there with this stuff, or is the demand consistently... buoyant"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-28",
+      "profile_types": [
+        "PURCH"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "management_explanation",
+      "zac_response": {
+        "best": "Explained demand in Sheffield is consistently strong and that supply competition drops significantly at 3+ and especially 4-5 bed properties since there are far fewer of them than 1-2 bed listings",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Explained demand in Sheffield is consistently strong and that supply competition drops significantly at 3+ and especially 4-5 bed properties since there are far fewer of them than 1-2 bed listings",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "possible generate more long term",
+      "trigger_variants": [
+        "Is it possible to generate more with a long-term let — I was comparing the prices, because a long-term let could be £700 plus bills?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-28",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "income discussion",
+      "zac_response": {
+        "best": "If you're just looking at making more money you'd bet on long-letting — we estimated about £800/month net long-let versus £500 short-let — but it doesn't always work out that way.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "If you're just looking at making more money you'd bet on long-letting — we estimated about £800/month net long-let versus £500 short-let — but it doesn't always work out that way.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "077"
+      ]
+    },
+    {
+      "canonical_trigger": "mutual fit",
+      "trigger_variants": [
+        "Do you have a minimum profitability threshold to take on a property — because you also have costs (cleaning company, maintenance) so it has to be worth the hassle for you too?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-28",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "service discussion",
+      "zac_response": {
+        "best": "We don't have that threshold — what we focus on is whether the property is profitable for you and fits your requirements. For your situation this works because you still need access and you're already paying for the property every month regardless, so any income is a cost-saving exercise as much as a profit-making one.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "We don't have that threshold — what we focus on is whether the property is profitable for you and fits your requirements.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "077"
+      ]
+    },
+    {
+      "canonical_trigger": "compliance permission",
+      "trigger_variants": [
+        "Is it my decision to proceed, or do you also need to formally know that I'm allowed to short-let given the shared equity and leasehold?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-28",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "situation assessment",
+      "zac_response": {
+        "best": "If you want us to short-let it and there aren't any obvious blockages we don't mind proceeding — I'm just making you aware there may be things you want to address, or you may be fine proceeding, but they can have potential implications.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "If you want us to short-let it and there aren't any obvious blockages we don't mind proceeding — I'm just making you aware there may be things you want to address, or you may be fine proceeding, but they can have...",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "077"
+      ]
+    },
+    {
+      "canonical_trigger": "frustration confusion with incumbent agent",
+      "trigger_variants": [
+        "Why aren't we getting the bookings?... June has been the worst month... a lot of the reviews are actually five star as well, so I don't know what's going on."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-28",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "objections",
+      "zac_response": {
+        "best": "Possibly over-ambitious pricing without reviews to justify it; also flagged direct-booking potential from nearby transport/events/university/hospital",
+        "alternatives": [],
+        "avoid": "Despite 5-star reviews and following the previous agent's pricing advice, June bookings collapsed while Feb/July were unexpectedly stronger"
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "Possibly over-ambitious pricing without reviews to justify it; also flagged direct-booking potential from nearby transport/events/university/hospital",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "078"
+      ]
+    },
+    {
+      "canonical_trigger": "specific complaint about incumbent agent",
+      "trigger_variants": [
+        "Why aren't we getting the bookings?... cleaning issues... they've obviously not been doing a good job"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-28",
+      "profile_types": [
+        "EX-STL"
+      ],
+      "emotional_profiles": [
+        "certainty-seeker"
+      ],
+      "most_common_meeting_phase": "meeting 2 opening",
+      "zac_response": {
+        "best": "Rating 4.58 puts the listing in the bottom 10%; quality standard is high in this market and the management company isn't meeting it",
+        "alternatives": [],
+        "avoid": "Despite 5-star reviews and following the previous agent's pricing advice, June bookings collapsed while Feb/July were unexpectedly stronger"
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Rating 4.58 puts the listing in the bottom 10%; quality standard is high in this market and the management company isn't meeting it",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "078"
+      ]
+    },
+    {
+      "canonical_trigger": "need any special permission from",
+      "trigger_variants": [
+        "Do I need any sort of special permission or anything from council? ... Is there any other compliance issues you find when you do the Airbnb."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-27",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "loss-averse-switcher"
+      ],
+      "most_common_meeting_phase": "income_presentation",
+      "zac_response": {
+        "best": "No, not in Hull. If you was within London, there are compliance rules. But there's nothing really concrete at the moment... basic fire safety, smoke, gas safety.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "No, not in Hull.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "how long established business pass",
+      "trigger_variants": [
+        "How long have you been doing this, are you established business? ... I think it was pass the keys we heard about pass the keys."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-27",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "loss-averse-switcher"
+      ],
+      "most_common_meeting_phase": "how_it_works",
+      "zac_response": {
+        "best": "I've done this for six years now... about 20 places that we've managed now... I know Pass the Keys, they operate on a franchise model... they're quite a big operator.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "I've done this for six years now... about 20 places that we've managed now... I know Pass the Keys, they operate on a franchise model... they're quite a big operator.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "live before end september because",
+      "trigger_variants": [
+        "Do you think you can get it live before... end of September because they will be leaving by second so do you think it will be you will have enough time."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-27",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "loss-averse-switcher"
+      ],
+      "most_common_meeting_phase": "close",
+      "zac_response": {
+        "best": "It would definitely be within September... middle of September, probably latest, we could probably go live.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "It would definitely be within September... middle of September, probably latest, we could probably go live.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "remote management",
+      "trigger_variants": [
+        "That's something not possible for me because my properties are 150 miles away. So I can't manage that."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-22",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "early / service explanation",
+      "zac_response": {
+        "best": "You won't need to manage that... we work with people that are overseas, some have never even been to their properties.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "You won't need to manage that... we work with people that are overseas, some have never even been to their properties.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "income disappears how end making",
+      "trigger_variants": [
+        "The income kind of disappears... how do I know that we not end up making losses?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-22",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "early / income discussion",
+      "zac_response": {
+        "best": "It's useful to go through what are the current costs of the property, what is the mortgage.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "It's useful to go through what are the current costs of the property, what is the mortgage.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "skepticism trust in figures",
+      "trigger_variants": [
+        "Is it kind of just figures to kind of get me enticed into it?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-22",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "mid / income figures reveal",
+      "zac_response": {
+        "best": "It's probably useful to explain where the figures come from... gone to a maximum assorted 10 kilometers of local competition.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "It's probably useful to explain where the figures come from... gone to a maximum assorted 10 kilometers of local competition.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "need take license short term",
+      "trigger_variants": [
+        "Would you then need to take license to, to have short-term let?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-22",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "mid",
+      "zac_response": {
+        "best": "You don't need license for short-term let... unless you're within London.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "You don't need license for short-term let... unless you're within London.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "competing offer",
+      "trigger_variants": [
+        "If I'm getting guaranteed rent from him [an Airbnb operator offering £900/month]... why would I want to take the headache of trying to myself deal with this issue?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-22",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "mid",
+      "zac_response": {
+        "best": "We've estimated the net revenue for this property... about 2,500 pounds — it's essentially cutting out the guaranteed rent side and doing it yourself.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "We've estimated the net revenue for this property... about 2,500 pounds — it's essentially cutting out the guaranteed rent side and doing it yourself.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "fee negotiation",
+      "trigger_variants": [
+        "I was thinking more in terms around, what, 10%, you know, that was my, when I looked at my numbers."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-22",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "analytical-evaluator"
+      ],
+      "most_common_meeting_phase": "closing",
+      "zac_response": {
+        "best": "Finder management company do it for 10? There's quite a lot to do versus regular letting.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "Finder management company do it for 10?",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "income credibility",
+      "trigger_variants": [
+        "Are you sure about that?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-21",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "loss-averse-switcher"
+      ],
+      "most_common_meeting_phase": "income reveal",
+      "zac_response": {
+        "best": "We normally would say this is within a sort of 10% accuracy range. It's very rare I'll have it below 10%.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "We normally would say this is within a sort of 10% accuracy range.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "seasonal demand",
+      "trigger_variants": [
+        "If they're contractors, they're probably going to be Monday to Friday and going back home — weekends, can anything be done?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-21",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "loss-averse-switcher"
+      ],
+      "most_common_meeting_phase": "income reveal",
+      "zac_response": {
+        "best": "You'll still get weekends — everywhere in the country will have a level of leisure demand, not just business-to-business. Figures are based on 12 comparable properties of similar size and spec within about 8km.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "You'll still get weekends — everywhere in the country will have a level of leisure demand, not just business-to-business.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "cost coverage",
+      "trigger_variants": [
+        "So as I don't need to be fearful that you might only cover my cost, I think 1500 pound or two thousand pound a month, it won't be as low as that."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-21",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "loss-averse-switcher"
+      ],
+      "most_common_meeting_phase": "income Q&A / low season discussion",
+      "zac_response": {
+        "best": "It shouldn't be — nothing is saying to me that you should have a loss making month if that's what your costs are.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "It shouldn't be — nothing is saying to me that you should have a loss making month if that's what your costs are.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "damage protection",
+      "trigger_variants": [
+        "You'd love cameras to watch over people. I don't get the house in trashed again."
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-21",
+      "profile_types": [
+        "STL-SW"
+      ],
+      "emotional_profiles": [
+        "loss-averse-switcher"
+      ],
+      "most_common_meeting_phase": "pre-close",
+      "zac_response": {
+        "best": "You're not allowed cameras inside, but we have a vetting process — a security deposit of around £400, ID checks reviewing guest history across platforms, and insurance cover for serious damage like a deliberate fire.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "You're not allowed cameras inside, but we have a vetting process — a security deposit of around £400, ID checks reviewing guest history across platforms, and insurance cover for serious damage like a deliberate fire.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "how person access property considering",
+      "trigger_variants": [
+        "How would the person have access to the property considering we won't have anyone there day to day?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-21",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "how it works",
+      "zac_response": {
+        "best": "Explained key safe (rotating codes) or Keynest (24-hour local key storage with per-stay codes) as the two access methods, then broadened into the full end-to-end management pitch.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Explained key safe (rotating codes) or Keynest (24-hour local key storage with per-stay codes) as the two access methods, then broadened into the full end-to-end management pitch.",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "risk liability",
+      "trigger_variants": [
+        "How would that be covered — will that be us in charge to fix it, or them, or the company that is renting our flat?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-21",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "how it works",
+      "zac_response": {
+        "best": "Split the answer into two parts: guest-liable damage recovered from the £200-£400 security deposit (backed by ID checks and host-history checks), wear-and-tear or major damage covered by insurance, with a £300/month owner-approval threshold before further works proceed.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Split the answer into two parts: guest-liable damage recovered from the £200-£400 security deposit (backed by ID checks and host-history checks), wear-and-tear or major damage covered by insurance, with a £300/month...",
+      "linked_delay_type": "",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    },
+    {
+      "canonical_trigger": "renting flat affect residential mortgage",
+      "trigger_variants": [
+        "Would having you renting our flat affect our residential mortgage in any way?"
+      ],
+      "frequency": 1,
+      "confidence": 0.0097,
+      "last_seen": "2026-07-21",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "how it works / close",
+      "zac_response": {
+        "best": "Recommended launching as-is for 3-6 months rather than switching to a buy-to-let/holiday-let mortgage immediately, to avoid unnecessary admin if short-let isn't for them, while noting the switch would later roughly halve their mortgage cost.",
+        "alternatives": [],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Recommended launching as-is for 3-6 months rather than switching to a buy-to-let/holiday-let mortgage immediately, to avoid unnecessary admin if short-let isn't for them, while noting the switch would later roughly...",
+      "linked_delay_type": "DLY-OTH",
+      "linked_gap_category": "",
+      "entries": [
+        "075"
+      ]
+    }
+  ]
+}
