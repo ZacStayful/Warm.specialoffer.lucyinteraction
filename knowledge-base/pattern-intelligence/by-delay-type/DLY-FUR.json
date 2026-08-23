@@ -1,0 +1,49 @@
+{
+  "schema_version": "3.0",
+  "delay_type": "DLY-FUR",
+  "delay_description": "Unfurnished property — setup capital must be spent",
+  "total_entries": 11,
+  "last_updated": "2026-08-03",
+  "trigger_phrases": [
+    {"phrase": "Property is fully unfurnished — full setup investment required before it can go live", "frequency": 4},
+    {"phrase": "Wants a firm, itemised furnishing cost rather than a verbal ballpark estimate", "frequency": 2},
+    {"phrase": "Wants to research furnishing/upgrade costs before deciding", "frequency": 1},
+    {"phrase": "Setup/furnishing requirements need to be assessed", "frequency": 1},
+    {"phrase": "Won't commit to furnishing spend until the STL income case is proven worthwhile", "frequency": 1},
+    {"phrase": "Rooms need staging/neutralising (e.g. children's bedrooms) before listing photography", "frequency": 1},
+    {"phrase": "Deciding whether to self-supply furnishings/appliances or use Stayful staging", "frequency": 1}
+  ],
+  "typical_timeline": {
+    "most_common_months": 0,
+    "range_min_months": 0,
+    "range_max_months": 1,
+    "notes": "Timelines were rarely stated explicitly (9 of 11 entries gave none); where a window was given it was short — 1-2 weeks to research costs or receive an itemised list — implying the blocker resolves in weeks once a firm quote lands, not months."
+  },
+  "what_leads_focus_on_while_waiting": [
+    {"concern": "Getting a firm, itemised cost instead of Zac's verbal ballpark (e.g. £6,000-£8,000)", "frequency": 3},
+    {"concern": "Comparing self-furnishing/self-sourcing cost against Stayful's furnishing quote", "frequency": 3},
+    {"concern": "Needing photos or room dimensions sent before an accurate quote can even be produced", "frequency": 2},
+    {"concern": "Whether the projected income justifies the furnishing spend at all", "frequency": 1},
+    {"concern": "Additional non-furniture upgrades (amenities, photography, reaching a review count) alongside furnishing", "frequency": 1}
+  ],
+  "emotional_profiles_most_common": [
+    {"profile": "analytical-evaluator", "count": 6},
+    {"profile": "certainty-seeker", "count": 3},
+    {"profile": "loss-averse-switcher", "count": 2}
+  ],
+  "how_to_handle_in_meeting": {
+    "acknowledge_phrase": "I would say it's probably going to be in the region of sort of 6,000, maybe up to sort of 8,000 pounds to fully do everything.",
+    "timeline_question": "If you can send me the room dimensions and a couple of photos, I can turn that ballpark into a firm itemised quote — how soon could you get those over?",
+    "reframe_approach": "Move the conversation from an abstract spend to a concrete, itemised list tied to their specific rooms, so the lead is deciding against real numbers rather than a round-number estimate.",
+    "how_to_keep_engaged": "Send the furniture/upgrade checklist or itemised quote as the very next action, with a short, named follow-up date to review it together rather than leaving costing as an open-ended homework item.",
+    "what_to_write_to_monday": "Log the ballpark figure given on the call, whether the lead wants to self-furnish or use Stayful staging, and what's still needed from them (photos, dimensions, a decision) to convert the estimate into a signed-off quote."
+  },
+  "conversion_after_delay": {
+    "total": 11,
+    "eventually_converted": 4,
+    "conversion_rate": 0.36,
+    "avg_months_to_convert": 0,
+    "drop_off_reason": "Decided to long let property"
+  },
+  "do_not_attempt_offer_because": "Until the lead has an itemised cost and has decided whether to spend it, there is nothing for a signing-deadline discount to attach to — a time-limited management-fee offer does not change a lead's need to first find several thousand pounds of furnishing capital and confirm the numbers still work once that cost is included."
+}
