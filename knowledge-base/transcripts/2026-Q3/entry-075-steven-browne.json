@@ -1,0 +1,132 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "075",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-07-29",
+  "transcript_quality": "summary_only",
+  "lead_name": "Steven Browne",
+  "email": "stevenbrowne33@gmail.com",
+  "monday_id": "12635627793",
+  "address": "Ashcombe Lodge, Broadview Gardens, High Salvington, Worthing, West Sussex, BN13 3BE",
+  "bedrooms": 6,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "certainty-seeker",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "High monthly holding cost base (~£3,500/month, ~£42,000/year) not yet reduced via mortgage review and business rates switch, so projected STL income does not comfortably cover costs in Year 1",
+  "language_signals": ["guaranteed rental", "guaranteed rent", "contract stays", "insurance workers"],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "Steve's total cost is around £3,500 per month",
+      "context": "Deal is gated entirely on his cost base rather than readiness — property is already furnished and let-ready, but at current costs the projections only break even in Year 2 and run a loss in Year 1. Zac advised fixing the mortgage and switching to business rates to close the gap.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "wants to travel and move abroad, property fully let and hands-off",
+      "context": "Lead explicitly wants a fully managed, hands-off solution because he intends to relocate abroad — a genuine want for management rather than just income upside",
+      "strength": "strong"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": ""
+  },
+  "meeting_flow": {
+    "opening_phrase": "",
+    "rapport_topics": [],
+    "pivot_to_business": "",
+    "income_intro": "",
+    "post_income_silence": "",
+    "how_it_works_transition": "",
+    "pre_close_setup": "",
+    "close_phrase": "",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "Had been pursuing guaranteed rental income; when that proved unavailable to him, pivoted to looking at contract stays specifically for insurance workers",
+      "category": "certainty-seeking",
+      "meeting_phase": "",
+      "zac_responded_with": "Gave a second opinion advising him to lower his cost base — via a mortgage review and switching to business rates (est. £1,300/month saving) — rather than pitching harder on income",
+      "lead_follow_up": "",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Cost base too high for projected STL income to comfortably cover in Year 1 (shortfall of −£8,842 at current £3,500/month costs, only breaking even in Year 2)",
+      "category": "financial",
+      "evidence": "At £3,500/month costs: Year 1 net £33,158 vs ~£42,000 annual costs (−£8,842); Year 2 net £41,448 vs ~£42,000 (−£552, break-even). After an estimated £1,300/month saving (mortgage + business rates), Year 1 flips to +£6,758 surplus.",
+      "how_to_fill": "Follow up specifically on whether he has spoken to a mortgage broker and investigated the business rates switch — the £1,300/month saving is the whole deal, not the signature",
+      "filled_in_action_plan": true
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac giving an advisory second opinion on lowering the cost base (mortgage review + business rates switch) instead of pitching the management service harder on income",
+      "lead_response": "",
+      "phase": "",
+      "archetype_relevant": ["certainty-seeker", "analytical-evaluator"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "The guaranteed rent option he had been pursuing turned out to be unavailable to him",
+      "lead_response": "Pivoted to seeking contract stays specifically for insurance workers as an alternative certainty substitute",
+      "recovery_attempted": "",
+      "resolved": false
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "Framed the ~£1,300/month saving from a mortgage restructure and business rates switch as the number that converts a Year 1 shortfall (−£8,842) into a surplus (+£6,758), and protects the February trough — the single number the whole deal hinges on",
+    "objection_handling_pattern": "For cost-constrained leads, solve the balance sheet with an honest advisory second opinion rather than selling harder on revenue projections"
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "certainty-seeker",
+    "what_they_focused_on": ["guaranteed income options", "hands-off management while abroad", "lowering monthly holding costs"],
+    "what_they_needed_most": ["a certainty substitute for variable STL income (contract/insurance-worker stays)", "a concrete plan to close the £1,300/month cost gap"],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": "For cost-constrained, certainty-seeking ABROAD leads, lead with an honest cost-coverage breakdown and a concrete cost-reduction plan (mortgage/business rates) before revenue upside — advisory framing outperforms harder income selling for this archetype"
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
