@@ -1,0 +1,268 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "074",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-07-06",
+  "transcript_quality": "full",
+  "lead_name": "Aneesa Adnan",
+  "email": "aneesanawaz@hotmail.com",
+  "monday_id": "",
+  "address": "142 Wagon Lane, Solihull, B92 7PD",
+  "bedrooms": 3,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "Overseas investor based in Saudi Arabia; combination ABROAD+PURCH profile. Cash-purchasing 142 Wagon Lane, Solihull (3-bed detached, integral garage, parking for 2-3 cars) with completion expected ~2-3 weeks from meeting date; evaluating STL vs LTL for that property before deciding on furnishing spend. Also has a second property under consideration in Hartlepool (guaranteed rent), which Stayful declined to pursue due to insufficient margin, and is a live prospect for Stayful's property-sourcing service for a further overseas-investor purchase (Newcastle/York flagged as preferred).",
+  "stl_goal": "Determine whether short-let management is worth the furnishing/garage-conversion effort versus simply putting the Solihull property on a standard long-term let; separately open to a hands-off guaranteed-rent / sourcing arrangement for a further property so she never has to visit it herself.",
+  "property_situation": "Cash purchase of 142 Wagon Lane, Solihull nearing completion — solicitors instructed, keys expected ~2-3 weeks from meeting date; property currently vacant and not yet furnished. Second property in Hartlepool had no confirmed address yet at meeting time and was not being progressed for guaranteed rent.",
+  "property_type": "3-bed detached villa with integral garage, garden storage room, and parking for 2-3 cars",
+  "emotional_profile": "analytical-evaluator",
+  "conversion_likelihood": 50,
+  "profile_confidence": "High — full verbatim transcript with clear, explicit figures and decision criteria from the lead",
+  "primary_blocker": "The Solihull STL uplift over LTL is only ~£100/month (~£1,000/year), so the case is not compelling enough to drive an immediate decision; she has deferred the final call pending discussion with her husband and, if pursued, a decision on garage-to-4th-bedroom conversion spend.",
+  "language_signals": [
+    "Cross-checks Zac's figures against other sources before deciding (\"the other way from chat GPT and from one of the letting agents in soli health... they also said 1400 for per calendar month\")",
+    "Explicitly names a joint decision-maker (\"So I will sit with my husband as well\")",
+    "Frames the decision as a cost/benefit delta rather than an absolute (\"there won't be a lot of difference or anything like that for us\")",
+    "Requests granular property detail to sharpen the analysis (\"Do you have the floor plan access to the right move link?\")",
+    "States a clear fallback if the numbers don't work (\"if it wasn't gonna work, then we would just put it on standard btl\")"
+  ],
+  "portfolio_flag": true,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-PUR",
+      "trigger_phrase": "It's in the process of purchase like solicitors have been instructed and hopefully we're told in two to three weeks time. The keys will be handed over.",
+      "context": "Solihull purchase has not yet completed — she does not have possession of the property at the time of the meeting.",
+      "timeline_given": "~2-3 weeks from meeting date",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-FUR",
+      "trigger_phrase": "if it's really gonna pay back, then I'm having to have more work done on it. But if not, then I'll just go for a rent guaranteed or, you know, just standard BTL.",
+      "context": "Whether to furnish for STL (including a possible garage-to-bedroom conversion) is contingent on the STL case being proven worthwhile; no furnishing decision has been made.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "All right. So I will sit with my husband as well.",
+      "context": "Final STL vs LTL decision on Solihull requires joint agreement with her husband before proceeding.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "we were thinking of, you know, reaching out to some airbnb management company and seeing the, you know, checking with them, whether it's gonna work",
+      "context": "She is actively seeking a management company for Solihull now, not at some undefined future point — the STL management decision is live and imminent.",
+      "strength": "moderate"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "hopefully we're told in two to three weeks time. The keys will be handed over",
+      "context": "Purchase completion has a concrete, near-term date rather than an open-ended or indefinite timeline, giving a real window for onboarding.",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "No offer was made — Zac assessed the Solihull STL margin as genuinely thin (\"a little bit tight\") and did not attempt to incentivise a decision; the meeting closed on requesting her budget for a separate sourcing engagement instead."
+  },
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start just by asking a couple of questions because I saw that you've inquired with us about direct bookings, management and guaranteed rent. So I suppose I'm just wondering what's the sort of overall objective.",
+    "rapport_topics": [
+      "accommodating her camera being off",
+      "brief how-are-you greeting"
+    ],
+    "pivot_to_business": "I thought I'd start just by asking a couple of questions because I saw that you've inquired with us about direct bookings, management and guaranteed rent.",
+    "income_intro": "So for this property, we've estimated about 19,900 of net. So that's net after booking platform fees, cleaning laundry and our management charge.",
+    "post_income_silence": "",
+    "how_it_works_transition": "So we would offer guaranteed rent, but it's on a basis that isn't tied to social housing or government contract. So what we'll do is we will take on the tenancy as a management company and then short let the property ourselves.",
+    "pre_close_setup": "Well, we give you touch obviously Aneesa. I mean, if you are looking... if you had like a budget in mind, something that we do is like property sourcing for people that are in your situation.",
+    "close_phrase": "So for that, are you like, I will tell you the postcode or you will show me the properties that fall within my budget.",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 55
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "The situation I'm in right now is I got you because we're buying a house in solihull... we live overseas, we live in Saudi Arabia... we were thinking of reaching out to some airbnb management company and seeing whether it's gonna work... if it wasn't gonna work, then we would just put it on standard btl. However, at the same time, we were buying another property in hartel pool... I came across this rent guaranteed scheme and your company's name came up.",
+      "category": "context-setting",
+      "meeting_phase": "opening",
+      "zac_responded_with": "Yeah, yeah, because normally we only know the information based off of the inquiries... So there's a property in Hartley pool, you're looking at the guaranteed rent option, and then the other properties, is that an existing short term let.",
+      "lead_follow_up": "Confirmed the Solihull purchase is near completion and offered to discuss that property first.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "If I be completely honest, it's, you know, cash purchase.",
+      "category": "financial-disclosure",
+      "meeting_phase": "data-gathering",
+      "zac_responded_with": "Okay. Okay. All right, no problem. So what I'll do is I'll share my screen, if I'm honest, it's a little bit. I would say tight.",
+      "lead_follow_up": "Okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "All right. So I will sit with my husband as well. So if I, if we put it on short let, which is guaranteed rent, you are suggesting a number of what would be the guaranteed rent month on monthly basis?",
+      "category": "clarifying-question",
+      "meeting_phase": "mid",
+      "zac_responded_with": "So this is if your long term let the property, we wouldn't offer a guaranteed rent for this property, unfortunately. But if you're long-term letting, we estimate about 1166 of net revenue... If you did a short term let, it's looking about 15,000.",
+      "lead_follow_up": "So short, you do the management for short let? Right? All right, so 15,000 per annum. And you're saying it's not guaranteed. Okay. And what about airbnb potential for this one?",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "What about the contractors like airport contractors or NHS... does it have that kind of potential for contractors?",
+      "category": "qualifying-question",
+      "meeting_phase": "mid",
+      "zac_responded_with": "It's given us a score 100 out of 100... we're near hospitals, near universities, construction projects, and events. This is normally a good sign that we could get a decent amount of direct bookings.",
+      "lead_follow_up": "Because there's a train station about two minutes drive, and the bus stop is right outside the property... I was just thinking that maybe that can be a selling point.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "If you're saying that this way it's going to be 15,000 and the other way from chat GPT and from one of the letting agents in soli health, from what they told me, I think they also said 1400 for per calendar month. So there won't be a lot of difference or anything like that for us.",
+      "category": "skepticism",
+      "meeting_phase": "mid",
+      "zac_responded_with": "There is more money in short letting, but not loads more.",
+      "lead_follow_up": "All right. So can we discuss heartle pool now?",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "So what I'm understanding is that if I buy a property there, let's say a two bed nice Terraced house in a nice street, but you won't be able to take it on under any of your program, whether it's rent guaranteed or rent to rent or anything?",
+      "category": "clarifying-question",
+      "meeting_phase": "mid-late",
+      "zac_responded_with": "No, most likely not... property that is under a social housing contract and not very well maintained... the tenants are a very poor quality, and you're never going to change that.",
+      "lead_follow_up": "What kind of places or where do you think there's real potential if we invest there, so that rent to rent or guarantee scheme will work?",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I think I prefer event guarantee more, because that way it will be stress free. So do you think any post code or any area in Newcastle, let's say, or even York?",
+      "category": "interest-signal",
+      "meeting_phase": "late",
+      "zac_responded_with": "I would say anything sort of within one to two miles of the center of that area and three bedroom plus is going to be the best... free parking is a big plus.",
+      "lead_follow_up": "Implicit agreement, moved into discussing the property-sourcing service.",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "No accurate, finished Deal Analyser output was produced live — the tool visibly misread the bedroom count and Zac had to re-run it, undermining confidence in the figures presented.",
+      "category": "missing-collateral",
+      "evidence": "I'm just filling out the analyzer now for you. I've had to run it a couple of times because it seems to be getting the bedroom count mixed up... If it doesn't work, I'll have to come back to you on what the estimations are, unfortunately.",
+      "how_to_fill": "Send a corrected, accurate Deal Analyser PDF after the meeting so she has firm, presentable figures to take to her husband.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "The garage-to-4th-bedroom conversion — which could meaningfully change the STL vs LTL economics — was raised by the lead but never costed or quantified.",
+      "category": "missing-analysis",
+      "evidence": "So in my mind, I was thinking maybe I need to convert the garage and make it into a room or something like that. But this is the sort of advice or discussion I wanted to have.",
+      "how_to_fill": "Cost out the garage conversion and re-run the STL projection at 4 bedrooms to see whether it shifts the marginal case meaningfully.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "No budget figure was captured before the meeting ended, leaving the higher-value guaranteed-rent sourcing opportunity (Newcastle/York) stalled.",
+      "category": "missing-info",
+      "evidence": "So for that, are you like, I will tell you the postcode or you will show me the properties that fall within my budget.",
+      "how_to_fill": "Follow up directly to obtain her budget so Stayful can begin identifying suitable Newcastle/York properties.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Floor plan / Rightmove listing was never obtained, despite bedroom sizing being directly relevant to the STL case (two of three bedrooms are small).",
+      "category": "missing-info",
+      "evidence": "Do you have the floor plan access to the right move link? Because it's in the market... No, I have not sent it.",
+      "how_to_fill": "Request the Rightmove link or floor plan be emailed directly to correctly size the bedrooms and firm up the analyser figures.",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac revealed the 100/100 direct booking score and explained the underlying demand drivers (hospitals, universities, construction projects, events).",
+      "lead_response": "Because there's a train station about two minutes drive, and the bus stop is right outside the property... I was just thinking that maybe that can be a selling point.",
+      "phase": "mid",
+      "archetype_relevant": ["analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Zac introduced Stayful's full property-sourcing service for overseas investors — viewings, inspections, key collection and setup handled without her ever needing to visit.",
+      "lead_response": "Es. [affirmative interest]",
+      "phase": "late",
+      "archetype_relevant": ["certainty-seeker", "analytical-evaluator"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "The income analyser tool kept misreading the bedroom count, forcing Zac to re-run it live and admit the figures might not come through cleanly.",
+      "lead_response": "Offered to send the Rightmove floor plan link to help, though was unsure how to get it to him.",
+      "recovery_attempted": "So I'm just going to try one more time.",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "The honest reveal that Solihull's STL uplift over LTL is only ~£100/month — much thinner than a typical Stayful comparison.",
+      "lead_response": "So there won't be a lot of difference or anything like that for us.",
+      "recovery_attempted": "There is more money in short letting, but not loads more.",
+      "resolved": false
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "I thought I'd start just by asking a couple of questions because I saw that you've inquired with us about direct bookings, management and guaranteed rent."
+    ],
+    "transition_phrases": [
+      "So I'm just filling out the idolizer now for you.",
+      "So what I'll do is I'll share my screen.",
+      "Yeah, yeah, sure. So.",
+      "Well, we give you touch obviously Aneesa."
+    ],
+    "reassurance_phrases": [
+      "that's just my opinion, obviously. I mean, you free, obviously free to do what you like with your capital.",
+      "I don't think it's something that we would be able to offer, though we can offer short, short letting for the property."
+    ],
+    "emphasis_phrases": [
+      "There is more money in short letting, but not loads more.",
+      "It's given us a score 100 out of 100.",
+      "I would say anything sort of within one to two miles of the center of that area and three bedroom plus is going to be the best."
+    ],
+    "analogies_used": [],
+    "numbers_framing": "Leads with net-after-costs figures (STL ~£15,000/yr / ~£1,250 mo vs LTL ~£1,100-1,166/mo net) and gives an honest side-by-side delta (~£100/month, ~£1,000/year) rather than headline gross numbers; backs the pitch with a quantified direct booking score (100/100) and named demand drivers instead of narrative selling.",
+    "objection_handling_pattern": "Does not dispute her external estimates (ChatGPT, local letting agent) or oversell the thin margin — validates the numbers as genuinely tight ('a little bit tight'... 'not loads more') and pivots to qualitative differentiators (booking score, transport links) and a larger secondary opportunity (guaranteed-rent sourcing elsewhere) rather than pushing hard on the marginal Solihull case."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "analytical-evaluator",
+    "what_they_focused_on": [
+      "precise £/month STL vs LTL comparison",
+      "direct booking demand drivers (hospitals, universities, transport links)",
+      "whether guaranteed rent / social housing arrangements exist for Hartlepool",
+      "a hands-off property sourcing service given she is overseas"
+    ],
+    "what_they_needed_most": [
+      "credible, defensible figures she can bring to her husband",
+      "confidence that Stayful's process requires no on-the-ground presence from her",
+      "an honest comparison rather than a sales pitch"
+    ],
+    "what_fell_flat": [
+      "the raw STL uplift on Solihull (~£100/month) was not compelling enough on its own",
+      "the analyser tool visibly glitching on bedroom count slightly undermined confidence in the figures"
+    ],
+    "recommended_meeting_adjustment": "For overseas cash-buyers with a marginal STL upside, quantify the garage/extra-bedroom conversion cost and revised return live (or as an immediate follow-up) rather than leaving it open, and lead with the sourcing-service pitch earlier since that is the higher-value, higher-conviction opportunity for actively-portfolio-building overseas investors."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
