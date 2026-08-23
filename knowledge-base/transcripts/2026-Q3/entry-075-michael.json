@@ -1,0 +1,254 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "075",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-07-22",
+  "transcript_quality": "full",
+  "lead_name": "Michael",
+  "email": "michaels@exposure.net",
+  "monday_id": "12516129146",
+  "address": "49 Dallas Street Nottingham Ng18",
+  "bedrooms": 4,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Rent to rent property looking for management",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "analytical-evaluator",
+  "conversion_likelihood": 70,
+  "profile_confidence": "high",
+  "primary_blocker": "Management fee negotiation — anchored to his long-let rate of 7%, pushed for 10%; Zac verbally floated 12.5%/12% pending partner sign-off, not confirmed at meeting",
+  "language_signals": [
+    "The income kind of disappears",
+    "Is it kind of just figures to kind of get me enticed into it?",
+    "I'd rather have a more realistic number than just like a computer churn number",
+    "My involvement will be limited... you guys managing it and making it kind of run and tick"
+  ],
+  "portfolio_flag": true,
+  "outcome": "Special offer applied",
+  "lost_reason": "None",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13% + VAT",
+  "offer_expiry": "2026-08-07",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-FUR",
+      "trigger_phrase": "Is completely unfurnished.",
+      "context": "Property 1 (49 Dallas Street) is fully decorated and move-in ready but has zero furniture — Michael needs a cost breakdown before he will buy furniture and go live.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "Realistically, you would need another 10, 15 days to paint and decorate, make it kind of at the right level.",
+      "context": "Second property becomes available 1 August 2026 but needs 10-15 days of painting/decorating before it can be onboarded; not yet a Monday item.",
+      "timeline_given": "10-15 days from 1 August 2026",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "It's, it's all, you know, painted, neat, tidy, ready to for the tenants to roll in.",
+      "context": "Property 1 is vacant, decorated, and immediately available — no tenancy currently blocking a switch to short-let.",
+      "strength": "high"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "The other one I'm getting... first of August.",
+      "context": "Second property has a concrete availability date (1 August 2026), giving a real near-term timeline for portfolio expansion.",
+      "strength": "medium"
+    },
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "My involvement will be limited. It'll be you guys managing it and you guys making it kind of run it and tick it.",
+      "context": "Michael explicitly signals he wants to hand over full control and is ready to stop being hands-on with the property.",
+      "strength": "high"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "late — after full income walkthrough, service explanation, and Michael's direct ask to negotiate fees",
+    "green_lights_present_at_offer": ["GL-MGMT", "GL-SELF"],
+    "delays_present_at_offer": ["DLY-FUR"],
+    "what_immediately_preceded_offer": "Michael asked directly: \"I wouldn't mind understanding and knowing about your fees, how you could kind of, you know, fine tune it for me. Well, we could negotiate there.\"",
+    "how_zac_framed_offer": "Framed as a trial-run discount rather than a binding commitment: \"I'm happy to do a small discount on the management from 13 instead of 15. But it would be based off of, obviously, this doesn't mean we're going live or anything like that... I'm happy to do that discount for you so we can make sure the trial run is profitable as it can be.\"",
+    "expiry_stated_as": "before the 7th of August",
+    "lead_response_to_offer": "Pushed back further, wanting 10% (anchored to his 7% long-let fee); negotiated Zac down to a verbal 12.5% (property 1) / 12% (once 3+ properties onboarded), which Zac said was pending his partner's sign-off — not accepted or finalised at the meeting.",
+    "offer_outcome": "Not confirmed at meeting. Per Monday's meeting-2 pre-call brief, the 13%+VAT offer expired 7 Aug 2026 with no reply from Michael, and the discussed 12.5%/12% rate remained pending partner sign-off and unconfirmed."
+  },
+  "meeting_flow": {
+    "opening_phrase": "Hi Michael. How are you? Are you good?... I thought I'd start just by understanding a bit more about sort of your current situation with the property.",
+    "rapport_topics": ["Michael's background as a landlord since 1997", "his wider ~40-property portfolio across Nottingham, Chelmsford and London", "frustrations with long-let tenancy issues (mould, tenant rights changes)"],
+    "pivot_to_business": "Yeah. So Nationwide short let management company. Really, we... what we focus on is taking all the moving parts that people normally have when it comes to short-term letting and streamlining that and turning it into a service.",
+    "income_intro": "So we've estimated the net revenue for this property... average net per month of about 2,500 pounds.",
+    "post_income_silence": "",
+    "how_it_works_transition": "I can take you through a bit more about how the service works once, you know, on another sea of what your visibility is like — then walked through dynamic pricing, guest screening, cleaning/maintenance coordination, the owner calendar portal, Slack channel, and monthly statements.",
+    "pre_close_setup": "All right, well, I mean, anything else you want to go through, Michael, was it all, you're all happy?",
+    "close_phrase": "Well, let's go through the... costing. So we'll get an idea how much I would need to spend — Zac: I'll put that together in an email for you... I'll send over the agreement as well so you can have a look at some of the terms.",
+    "meeting_2_ask": "No next meeting explicitly agreed — Zac referenced standard quarterly review calls once live, with no specific date or time set.",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 60
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "That's something not possible for me because my properties are 150 miles away. So I can't manage that.",
+      "category": "objection — remote management",
+      "meeting_phase": "early / service explanation",
+      "zac_responded_with": "You won't need to manage that... we work with people that are overseas, some have never even been to their properties.",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "The income kind of disappears... how do I know that we not end up making losses?",
+      "category": "objection — profitability concern",
+      "meeting_phase": "early / income discussion",
+      "zac_responded_with": "It's useful to go through what are the current costs of the property, what is the mortgage.",
+      "lead_follow_up": "It shouldn't be dependent on mortgage... I'm more looking for income because I've got to survive on it.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Is it kind of just figures to kind of get me enticed into it?",
+      "category": "skepticism / trust in figures",
+      "meeting_phase": "mid / income figures reveal",
+      "zac_responded_with": "It's probably useful to explain where the figures come from... gone to a maximum assorted 10 kilometers of local competition.",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Would you then need to take license to, to have short-term let?",
+      "category": "regulatory concern",
+      "meeting_phase": "mid",
+      "zac_responded_with": "You don't need license for short-term let... unless you're within London.",
+      "lead_follow_up": "Referenced media criticism of Airbnb and Spain's short-let bans.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "If I'm getting guaranteed rent from him [an Airbnb operator offering £900/month]... why would I want to take the headache of trying to myself deal with this issue?",
+      "category": "competing offer objection",
+      "meeting_phase": "mid",
+      "zac_responded_with": "We've estimated the net revenue for this property... about 2,500 pounds — it's essentially cutting out the guaranteed rent side and doing it yourself.",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I was thinking more in terms around, what, 10%, you know, that was my, when I looked at my numbers.",
+      "category": "fee negotiation",
+      "meeting_phase": "closing",
+      "zac_responded_with": "Finder management company do it for 10? There's quite a lot to do versus regular letting.",
+      "lead_follow_up": "With long term, I'm paying like seven percent... I need to consider that as well.",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "No exact furniture/setup cost given during the call",
+      "category": "cost uncertainty",
+      "evidence": "I would say you'd probably be a bit more. That I couldn't specify exactly how much... there'll be a price in the email I sent to you.",
+      "how_to_fill": "Send itemised furniture/setup cost breakdown promptly after the call so Michael can commit to a spend figure.",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Discounted fee (12.5%/12%) verbally floated but never confirmed to Michael",
+      "category": "pricing / internal approval gap",
+      "evidence": "Okay, well, let me speak to our partner about it first. Just to let you know, because it would normally 13, but it's just because obviously that's...",
+      "how_to_fill": "Follow up promptly with a confirmed rate before the offer expiry so the lead isn't left waiting on internal sign-off.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "No concrete follow-up meeting or deadline set",
+      "category": "follow-up scheduling",
+      "evidence": "No next meeting explicitly agreed — Zac referenced standard quarterly review calls once live, no date/time set.",
+      "how_to_fill": "Book a specific follow-up call before the offer expiry date to maintain momentum.",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac explained the income figures come from real local competitor data (10km radius) rather than a generic estimate, and confirmed hands-on Nottingham experience since 2020.",
+      "lead_response": "Okay. So you have got firsthand experience in this.",
+      "phase": "mid",
+      "archetype_relevant": ["analytical-evaluator", "certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Zac confirmed Stayful already manages fully remote/overseas landlords' properties, directly addressing Michael's 150-mile distance concern.",
+      "lead_response": "Moved on without further pushback on the remote-management point.",
+      "phase": "early",
+      "archetype_relevant": ["certainty-seeker", "loss-averse-switcher"]
+    },
+    {
+      "what_caused_shift": "Low local review count (52) combined with high rating (4.9) framed as market headroom rather than oversaturation.",
+      "lead_response": "Implicit acceptance — continued into logistics questions without objecting to the figures.",
+      "phase": "mid",
+      "archetype_relevant": ["analytical-evaluator"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Fee push-back — Michael wanted 10%, anchored directly to his existing 7% long-let management rate.",
+      "lead_response": "So, yeah, that... obviously, I need to consider that as well. So the cost is a lot lower.",
+      "recovery_attempted": "Zac offered a trial-run discount to 13%, then verbally floated 12.5%/12% pending his partner's sign-off.",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Skepticism that the projected income figures were inflated to entice him — the 'computer churn number' comment.",
+      "lead_response": "I'd rather have a more realistic number than just like a computer churn number... I'll be basing everything on it.",
+      "recovery_attempted": "Zac agreed to personally check the actual property listing photos (on the Buckley Brown site) before finalising the figure.",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "Hi Michael. How are you? Are you good?",
+      "I thought I'd start just by understanding a bit more about sort of your current situation with the property."
+    ],
+    "transition_phrases": [
+      "I can take you through a bit more about how the service works once, you know, on another sea of what your visibility is like.",
+      "It's probably useful to explain where the figures come from."
+    ],
+    "reassurance_phrases": [
+      "You won't need to manage that... we work with people that are overseas.",
+      "It's quite self-regulating in that way because it's not... an easy market."
+    ],
+    "emphasis_phrases": [
+      "Notium's probably the best area in the East Midlands.",
+      "It's essentially cutting out the guaranteed rent side and doing it yourself."
+    ],
+    "analogies_used": [
+      "Slack, which is a bit like a business WhatsApp"
+    ],
+    "numbers_framing": "Presents a range around an average (worst month ~£1,985-2,000 net, best ~£3,500, averaging ~£2,500/month net), anchored to local competitor data within a 10km radius, and uses review count/rating as evidence of headroom rather than a raw price comparison.",
+    "objection_handling_pattern": "Acknowledges the concern, explains the underlying data or mechanism behind the figure or policy, then reframes toward the upside (e.g. turning the competing guaranteed-rent offer into proof the short-let market is viable) rather than directly refuting the lead's skepticism."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "analytical-evaluator",
+    "what_they_focused_on": [
+      "whether the projected income figures are realistic and defensible, not a 'computer churn number'",
+      "regulatory/licensing risk",
+      "remote-management logistics given his properties are 150 miles away",
+      "the management fee versus his existing 7% long-let rate",
+      "key-safe/access security given multiple parties knowing the code"
+    ],
+    "what_they_needed_most": [
+      "evidence the projected numbers are grounded in real local data, not sales inflation",
+      "confirmation Stayful has a genuine track record managing remote/overseas landlords' properties",
+      "a negotiated management fee reflecting his portfolio size and existing long-let benchmark"
+    ],
+    "what_fell_flat": [
+      "The initial framing that short-let return is only 'fractionally better' than long-let didn't land — he read it as fees eroding income to the point of possible loss."
+    ],
+    "recommended_meeting_adjustment": "For analytical, numbers-driven portfolio landlords, lead with the competitor-data methodology and remote-landlord track record earlier, and pre-empt the fee-anchored-to-long-let-rate objection by explaining the added service complexity before the lead raises their long-let percentage."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "Higher than I thought",
+    "s2_ltl_thinking": "Still weighing it up",
+    "s3_biggest_question": "Whether the income is really achievable",
+    "s4_readiness": "Nearly there — just a couple of questions",
+    "s3_matches_meeting_gap": true,
+    "s4_contradicts_meeting": false
+  }
+}
