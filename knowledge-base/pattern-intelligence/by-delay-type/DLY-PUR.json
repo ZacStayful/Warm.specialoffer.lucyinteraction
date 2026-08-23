@@ -1,0 +1,47 @@
+{
+  "schema_version": "3.0",
+  "delay_type": "DLY-PUR",
+  "delay_description": "Purchasing property — purchase must complete",
+  "total_entries": 10,
+  "last_updated": "2026-08-14",
+  "trigger_phrases": [
+    {"phrase": "Purchase is in the legal process — awaiting solicitors, exchange, or final completion", "frequency": 3},
+    {"phrase": "Property not yet purchased — buying specifically with STL in mind", "frequency": 2},
+    {"phrase": "Off-plan property still awaiting build completion", "frequency": 2},
+    {"phrase": "Target property not yet identified or purchased", "frequency": 1},
+    {"phrase": "Funding/financing not yet arranged for the purchase", "frequency": 1},
+    {"phrase": "Property not yet under offer — still negotiating purchase price", "frequency": 1}
+  ],
+  "typical_timeline": {
+    "most_common_months": 2,
+    "range_min_months": 1,
+    "range_max_months": 3,
+    "notes": "Purchase-completion timelines ranged from one to two weeks (near-exchange deals) to roughly three months (off-plan builds or unidentified target properties); most leads expected completion within one to three months of the call."
+  },
+  "what_leads_focus_on_while_waiting": [
+    {"concern": "Whether the deal will actually complete at all (vendor, chain, or auction uncertainty)", "frequency": 2},
+    {"concern": "Getting mortgage/funding structure and deposit sorted before completion", "frequency": 2},
+    {"concern": "Solicitors/exchange progress and an exact completion date", "frequency": 2},
+    {"concern": "Whether Stayful can support the purchase itself (e.g. an income-projection letter for a mortgage broker)", "frequency": 1},
+    {"concern": "Off-plan build completion date and how that affects the first year's ramp-up income", "frequency": 1}
+  ],
+  "emotional_profiles_most_common": [
+    {"profile": "analytical-evaluator", "count": 8},
+    {"profile": "certainty-seeker", "count": 2}
+  ],
+  "how_to_handle_in_meeting": {
+    "acknowledge_phrase": "Yeah. When do you think it'd be a good time to get back in touch?",
+    "timeline_question": "Where are you in the process right now — has anything exchanged, and what's the realistic completion date your solicitor or the vendor has given you?",
+    "reframe_approach": "Present the income figures as the reason to keep moving on the purchase (funding, solicitors) rather than as something to revisit only once it completes — offer concrete purchase-adjacent help, like an income-projection letter for a mortgage broker, so Stayful stays useful during the wait.",
+    "how_to_keep_engaged": "Set a specific follow-up date tied to their stated completion milestone (exchange, keys handover, mortgage decision) rather than a generic check-in, and offer to send supporting documents they can use with solicitors or brokers in the meantime.",
+    "what_to_write_to_monday": "Log the purchase stage (offer/exchange/completion), the expected completion date, and any document requested for the purchase process (e.g. income letter), so follow-up timing is driven by the deal, not a fixed calendar cadence."
+  },
+  "conversion_after_delay": {
+    "total": 10,
+    "eventually_converted": 1,
+    "conversion_rate": 0.1,
+    "avg_months_to_convert": 0,
+    "drop_off_reason": "Decided to long let property"
+  },
+  "do_not_attempt_offer_because": "The lead does not yet own the property, so Stayful has nothing to manage and no legal basis to sign an agreement — a time-limited discount would expire before the purchase (which is outside Stayful's or the lead's control) can even complete."
+}
