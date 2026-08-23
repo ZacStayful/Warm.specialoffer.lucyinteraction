@@ -1,0 +1,97 @@
+{
+  "schema_version": "3.0",
+  "profile_type": "PURCH",
+  "profile_description": "Purchasing a property specifically to short-let",
+  "total_entries": 18,
+  "last_updated": "2026-08-14",
+  "typical_situation": "Lead is buying, has recently exchanged on, or is completing a property (sometimes off-plan, sometimes needing renovation or a room-configuration change) with the specific intent of running it as a short-let, and wants Stayful's management confirmed before or around completion.",
+  "typical_motivation": "Maximise the return on a new investment property compared to a long-term let, often chasing a specific net-income target and directly comparing Stayful's projected figures against a competing agent, a developer's in-house management offer, or another advisor's strategy.",
+  "typical_timeline": "Gated almost entirely by the property transaction itself — legal completion, off-plan handover, or renovation finish — so most PURCH leads are structurally delayed until a hard external milestone clears, even when otherwise convinced.",
+  "most_common_emotional_profiles": [
+    {"archetype": "analytical-evaluator", "count": 8, "percentage": 44.4},
+    {"archetype": "pragmatic-cost-focused", "count": 3, "percentage": 16.7},
+    {"archetype": "certainty-seeker", "count": 2, "percentage": 11.1}
+  ],
+  "most_common_delays": [
+    {"delay_type": "DLY-PUR", "count": 9, "percentage": 50.0},
+    {"delay_type": "DLY-OTH", "count": 5, "percentage": 27.8},
+    {"delay_type": "DLY-TEN", "count": 1, "percentage": 5.6},
+    {"delay_type": "DLY-FUR", "count": 1, "percentage": 5.6}
+  ],
+  "most_common_green_lights": [
+    {"green_light_type": "GL-MGMT", "count": 6, "percentage": 33.3},
+    {"green_light_type": "GL-TIME", "count": 6, "percentage": 33.3},
+    {"green_light_type": "GL-SELF", "count": 1, "percentage": 5.6}
+  ],
+  "what_meeting_should_lead_with": "Establish the purchase/completion timeline and any financing dependency first, since that structurally gates everything else for this profile — then present income projections with an honest ramp-up framing and real local comparable data rather than only best-case numbers, since PURCH leads are highly analytical and frequently cross-checking against another agent, a developer, or their own spreadsheet.",
+  "top_questions": [
+    {"question": "What income can I realistically expect, and how does it compare to a long-term let?", "frequency": 8, "confidence": 0.9, "best_answer": "Present both gross and net figures with an honest year-one ramp-up range, directly against the specific LTL equivalent for the property."},
+    {"question": "What exactly are the costs and fees, and what falls to me versus what's included?", "frequency": 5, "confidence": 0.9, "best_answer": "Separate the net-revenue cost lines (platform fees, 15%+VAT management, cleaning) from owner-paid bills (utilities, council tax, insurance) so the lead sees the true bottom line against their mortgage."},
+    {"question": "Is my intended strategy (platform-first vs direct bookings, or personal use vs pure rental) the right approach?", "frequency": 3, "confidence": 0.7, "best_answer": "Frame platforms and direct bookings as complementary, not either/or — platforms as the stable base, direct bookings as an upside layer — and confirm the management fee is unaffected by personal use."},
+    {"question": "What furnishing/setup costs and process are involved, and can Stayful help?", "frequency": 3, "confidence": 0.8, "best_answer": "Offer to price and coordinate the setup so the lead doesn't have to organise it themselves, and give an itemised quote as soon as the configuration is confirmed rather than only a range."},
+    {"question": "How will competition from other Airbnbs (same block, local area) affect my performance?", "frequency": 2, "confidence": 0.7, "best_answer": "Show that genuine local demand drivers (events, stadiums, hospitals, universities) offset same-area competition, and that dynamic pricing captures event-driven rate uplift."},
+    {"question": "How does guest access/security work, especially with block management restrictions?", "frequency": 2, "confidence": 0.6, "best_answer": "Outline key safe, KeyNest, or smart-lock options subject to block management approval, and accept an already-installed digital lock where suitable."},
+    {"question": "How confident/precise can the income projection be given limited property information, or for an unusually large/above-average property?", "frequency": 2, "confidence": 0.6, "best_answer": "Explain the model runs on bedrooms, bathrooms, parking, and address-based comparables, and figures firm up further once photos are available; for very large or unusual properties, be upfront about the smaller comparable set."},
+    {"question": "Can Stayful provide an income projection letter for my mortgage broker or lender?", "frequency": 1, "confidence": 0.4, "best_answer": "Yes — offer this proactively, and flag clearly that most lenders won't underwrite against projected STL income for a first holiday-let purchase."},
+    {"question": "What guest profile can I expect and how is guest quality/damage risk controlled?", "frequency": 2, "confidence": 0.6, "best_answer": "Describe the local demand profile (e.g. professional/academic guests near a university or hospital) plus ID checks, a security deposit, and damage protection."},
+    {"question": "Are there planning, change-of-use, or licensing restrictions on running this specific property as a short-let?", "frequency": 2, "confidence": 0.5, "best_answer": "Be honest where uncertain, and commit to getting a written answer from the relevant local council rather than guessing on the call."}
+  ],
+  "top_objections": [
+    {"objection": "Another agent or advisor gave a different figure or recommended a different strategy", "frequency": 2, "resolution_rate": 1.0, "best_response": "Walk through comparable-property data and an honest ramp-up expectation to explain why figures differ, and reframe a competing single-channel strategy as complementary rather than superior."},
+    {"objection": "Income projection may not be precise or reliable enough given limited information, or given few comparables for a large/unusual property", "frequency": 2, "resolution_rate": 1.0, "best_response": "Explain exactly what inputs drive the model and where the comparable-set limitation exists, and commit to refining figures once full property details/photos are in."},
+    {"objection": "No guaranteed rent/income — wanted certainty closer to a guaranteed-rent scheme", "frequency": 2, "resolution_rate": 0.5, "best_response": "Don't lead with a flat no-guarantee disclaimer — immediately follow with a direct worst-case-vs-guaranteed-scheme numbers comparison so the underlying need for certainty is actually met."},
+    {"objection": "New listing needs a 3-15 month ramp-up period before reaching full income potential", "frequency": 3, "resolution_rate": 0.67, "best_response": "Acknowledge honestly and pair with a long-term-investment framing that this is an expected, temporary phase rather than a shortfall."},
+    {"objection": "Financing or lender concerns — whether a mortgage/pension vehicle will fund the purchase or permit short-let use", "frequency": 2, "resolution_rate": 0.0, "best_response": "Raise proactively rather than waiting for it to surface, and offer a short-let mortgage referral or guidance before the lead is far into their own lender conversation."},
+    {"objection": "Setup/fit-out cost feels like a barrier, especially without a firm itemised quote", "frequency": 2, "resolution_rate": 0.0, "best_response": "Generate the itemised quote promptly once configuration is known rather than leaving the lead with only a range, especially when they're on a tight completion timeline."},
+    {"objection": "A competing management option is already available (e.g. the property developer's in-house offer)", "frequency": 1, "resolution_rate": 0.0, "best_response": "Present a direct side-by-side comparison of projections, guest vetting, and reporting tools rather than assuming performance arguments alone will win against relationship convenience."},
+    {"objection": "Management/platform fees feel high relative to gross revenue", "frequency": 1, "resolution_rate": 1.0, "best_response": "Confirm the fee is in line with market expectations for the location and reframe around the absolute net profit figure rather than the percentage."},
+    {"objection": "Year-1 projected income falls short of a specific personal profit target", "frequency": 1, "resolution_rate": 0.0, "best_response": "Show the premium-bracket upside for the actual configuration versus the comparable used, and model the year-2 trajectory once direct bookings ramp up."}
+  ],
+  "top_conversion_gaps": [
+    {"gap": "No follow-up call or specific date locked in before the meeting ends", "category": "no clear next-step commitment", "frequency": 4, "how_to_fill": "Proactively propose and book a specific follow-up call/Calendly slot before ending every meeting, rather than leaving next contact to an open-ended email."},
+    {"gap": "Purchase, off-plan completion, or renovation not yet finished — structurally blocks onboarding until an external milestone clears", "category": "timing / purchase_dependency", "frequency": 6, "how_to_fill": "Set a light-touch, dated check-in ahead of the known completion/renovation milestone to keep engagement warm without pressure, rather than going silent until it happens."},
+    {"gap": "Itemised furnishing/setup quote not produced despite the lead needing a near-term fit-out decision", "category": "pricing_quote", "frequency": 2, "how_to_fill": "Generate and send the itemised setup quote as soon as configuration is confirmed, especially when completion is imminent."},
+    {"gap": "Data-quality errors in the presentation or analyser (wrong valuation range, mismapped mortgage figures) risk undermining trust", "category": "data_quality", "frequency": 2, "how_to_fill": "Cross-check the analyser/presentation output against the actual CRM and purchase figures before the call, particularly when the lead is mid-conversation with their own lender."},
+    {"gap": "Unresolved planning/change-of-use or legal question left unanswered on the call", "category": "unresolved objection", "frequency": 1, "how_to_fill": "Get a written answer from the relevant local council and send it proactively rather than waiting for the lead to chase."},
+    {"gap": "Lead goes cold after an offer expires, with unanswered follow-up calls", "category": "follow_through", "frequency": 1, "how_to_fill": "Re-engage with a timing-based follow-up once the purchase is likely to have completed, rather than treating a single missed window as the end."},
+    {"gap": "Competing developer/in-house management offer not identified or prepared for before the meeting", "category": "competition", "frequency": 1, "how_to_fill": "Pre-qualify whether a developer is offering in-house management, and prepare a direct comparison in advance if so."},
+    {"gap": "Financing plan for the purchase itself is unconfirmed or has just been invalidated during the call", "category": "financing", "frequency": 1, "how_to_fill": "Follow up on confirmation of the replacement funding source by a specific date rather than leaving affordability as an open question."},
+    {"gap": "No urgency lever (offer or deadline) created once other blockers clear", "category": "urgency", "frequency": 1, "how_to_fill": "Introduce a time-sensitive rate at the natural next touchpoint (e.g. once renovation/completion is confirmed) to prompt a timely decision."},
+    {"gap": "Guaranteed-income expectation never fully reconciled with Stayful's no-guarantee model", "category": "objection_positioning", "frequency": 1, "how_to_fill": "Address the guaranteed-vs-maximise contradiction early with a direct worst-case-vs-guaranteed-scheme numbers comparison, not just a disclaimer."},
+    {"gap": "Lender-ready income projection letter promised but not sent with a clear timeline", "category": "financing_dependency", "frequency": 1, "how_to_fill": "Send the lender-ready projection proactively and flag realistic lender expectations for a first STL purchase."},
+    {"gap": "International/remote owner has limited opportunity to build trust asynchronously before the meeting", "category": "trust", "frequency": 1, "how_to_fill": "Share remote-onboarding case studies and emphasise async communication tools (Slack, owner dashboard) in follow-up materials."}
+  ],
+  "what_moves_them": [
+    {"point": "Net income figures landing higher than the lead's own expectation", "frequency": 2},
+    {"point": "Honest, upfront ramp-up-period framing rather than only best-case numbers, especially versus a competitor's unexplained quote", "frequency": 4},
+    {"point": "Real, named local comparable or case-study data rather than generic averages", "frequency": 3},
+    {"point": "Absolute profit-number framing (a concrete annual or monthly figure) rather than percentages", "frequency": 2},
+    {"point": "Reassurance that fully remote or international ownership is normal and well-supported", "frequency": 3},
+    {"point": "Flexible, non-pushy contract options (e.g. rolling vs fixed term) rather than being steered toward the longer commitment", "frequency": 1},
+    {"point": "Direct confirmation that projected income comfortably covers the mortgage", "frequency": 1},
+    {"point": "Practical property-configuration advice that improves guest quality or differentiation (e.g. games room over an extra bedroom)", "frequency": 1}
+  ],
+  "language_to_use": [
+    {"phrase": "There is going to be a ramp-up period", "context": "Setting honest year-one expectations before the lead hears it as an excuse later"},
+    {"phrase": "arrows in the quiver / icing on the cake / bread and butter", "context": "Explaining platform bookings as the stable base and direct bookings as an upside layer, when a lead is torn between two booking strategies"},
+    {"phrase": "I don't see a situation where you're going to be struggling to find the money for the mortgage", "context": "Directly answering an analytical lead's real underlying affordability question"},
+    {"phrase": "You won't need to be at the property or near the property to come on board — we manage for people that were in other countries", "context": "Reassuring an overseas or physically distant buyer about remote ownership"},
+    {"phrase": "Test the idea first — keep cost reasonably controllable", "context": "Advising a first-time STL buyer to de-risk setup spend before scaling up"}
+  ],
+  "presentation_section_priority": [
+    "Establish the purchase/completion timeline and any financing dependency first, since it structurally gates everything else",
+    "Present income projections with an honest ramp-up framing and real local comparable data, not just best-case numbers",
+    "Walk through the full cost picture (fees, bills, setup/furnishing) so the true net figure is clear against the mortgage",
+    "Cover contract flexibility and remote/absentee-ownership reassurance, especially for overseas or first-time buyers",
+    "Address property-specific configuration and guest-profile questions to sharpen the pitch",
+    "Close with a clear, dated next step tied to the purchase/completion milestone"
+  ],
+  "conversion_data": {
+    "total": 18,
+    "ready_now": 3,
+    "delayed": 15,
+    "had_meeting_2": 0,
+    "converted_to_customer": 0,
+    "most_common_lost_reason": "developer_management_chosen"
+  }
+}
