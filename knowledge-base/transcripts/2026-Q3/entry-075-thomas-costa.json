@@ -1,0 +1,220 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "075",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-07-21",
+  "transcript_quality": "full",
+  "lead_name": "Thomas Costa",
+  "email": "felipemazzeo@hotmail.com",
+  "monday_id": "12488174254",
+  "address": "Flat 32 Bond Central 74 Canal Walk SO143LE",
+  "bedrooms": 2,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "Something else",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "",
+  "language_signals": [],
+  "portfolio_flag": false,
+  "outcome": "Abandoned",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "Would having you renting our flat affect our residential mortgage in any way?",
+      "context": "Property is on a residential mortgage; subletting via short-let is a grey area for compliance. Raised near the end of the call as the final open question before close.",
+      "timeline_given": "3-6 months trial before considering a mortgage switch",
+      "resolved_in_meeting": true
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "unfortunately he could not attend this meeting... I can forward to him as well",
+      "context": "Joint owner Felipe Mazzeo (Monday's primary contact) did not attend the call; Thomas needs to review the summary and agreement and forward it to Felipe before any commitment can be made.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "we don't need to be bothering ourselves by finding people and then having someone to do everything from one point to another one... I quite like the system that you guys do",
+      "context": "Lead explicitly valued full end-to-end management (platforms, pricing, ID checks, cleaning, maintenance) over self-managing a let to someone they know, directly after Zac's how-it-works explanation.",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "I'll be back to UK on the 1st of August. I'll be arriving on 2nd of August. And then I'll be going to Switzerland.",
+      "context": "Concrete near-term dates for returning to the UK and then relocating abroad create a natural window in which to get the agreement signed.",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": ""
+  },
+  "meeting_flow": {
+    "opening_phrase": "Well, thanks for coming on. I thought I'd start just by understanding a bit more about sort of your current situation, an interest in short let, and then we can go through some income figures.",
+    "rapport_topics": ["small talk / how are you", "resolving an audio/earphones issue at the start of the call"],
+    "pivot_to_business": "Well, thanks for coming on. I thought I'd start just by understanding a bit more about sort of your current situation.",
+    "income_intro": "So I'll just share my screen... This is coming from some comparable properties that we've pulled nearby, and then we've pulled an average together. So we're looking at about 50,000 of gross and about 26,000 of net, which is about 2200 pound per month.",
+    "post_income_silence": "",
+    "how_it_works_transition": "As far as operationally, we'll deal with everything end to end. As far as managing... We'll set you up on multiple platforms, deal with any sort of dynamic pricing, do our ID checks and security deposits for every guest.",
+    "pre_close_setup": "What I'll do as well, Thomas, might help a bit is I'll send you a bit like an action plan slash summary after this on an email, with our agreement as well, so you can send that to him.",
+    "close_phrase": "I'll send everything over to you next sort of 20 minutes. I'll put our agreement in there as well so you can read some of the terms. We could probably touch base maybe next month or something has changed.",
+    "meeting_2_ask": "We could probably touch base maybe next month or something has changed.",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 58
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "Would the worst month be straight to our pocket, or is there deduction for your service?",
+      "category": "income clarity",
+      "meeting_phase": "income discussion",
+      "zac_responded_with": "Explained the worst-month figure is already net of all charges (platform commission, management fee, cleaning/laundry) — it is the payout figure.",
+      "lead_follow_up": "Moved straight on to asking about key access while abroad.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "How would the person have access to the property considering we won't have anyone there day to day?",
+      "category": "operational concern",
+      "meeting_phase": "how it works",
+      "zac_responded_with": "Explained key safe (rotating codes) or Keynest (24-hour local key storage with per-stay codes) as the two access methods, then broadened into the full end-to-end management pitch.",
+      "lead_follow_up": "Asked whether he could block dates in advance for his own use.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "How would that be covered — will that be us in charge to fix it, or them, or the company that is renting our flat?",
+      "category": "risk/liability objection",
+      "meeting_phase": "how it works",
+      "zac_responded_with": "Split the answer into two parts: guest-liable damage recovered from the £200-£400 security deposit (backed by ID checks and host-history checks), wear-and-tear or major damage covered by insurance, with a £300/month owner-approval threshold before further works proceed.",
+      "lead_follow_up": "Confirmed understanding ('Okay. Okay.') and moved to the mortgage question.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Would having you renting our flat affect our residential mortgage in any way?",
+      "category": "compliance objection",
+      "meeting_phase": "how it works / close",
+      "zac_responded_with": "Recommended launching as-is for 3-6 months rather than switching to a buy-to-let/holiday-let mortgage immediately, to avoid unnecessary admin if short-let isn't for them, while noting the switch would later roughly halve their mortgage cost.",
+      "lead_follow_up": "'Nice to you.' — positive, no further pushback.",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Joint owner Felipe Mazzeo (Monday's primary contact) was not on the call and had not seen the figures directly.",
+      "category": "decision-maker absence",
+      "evidence": "\"Unfortunately he could not attend this meeting... I can forward to him as well.\"",
+      "how_to_fill": "Make the follow-up summary/agreement easy for Thomas to forward, or proactively offer a short joint call including Felipe once he has reviewed it.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "No firm next-meeting date was booked despite a soft touch-base agreement.",
+      "category": "next-step definition",
+      "evidence": "\"We could probably touch base maybe next month or something has changed.\" No specific date/time was agreed, so nothing was scheduled in Calendly.",
+      "how_to_fill": "Book a concrete follow-up call/date rather than leaving it as a vague 'next month' touch base.",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Real but soft time pressure (leaving for Switzerland shortly after 2 August) was never converted into an explicit signing deadline.",
+      "category": "urgency not converted to deadline",
+      "evidence": "\"I'll be back to UK on the 1st of August. I'll be arriving on 2nd of August. And then I'll be going to Switzerland.\"",
+      "how_to_fill": "Explicitly tie agreement sign-off to Thomas's UK window before he leaves for Switzerland, ideally to catch the tail of peak season.",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Two-part damage/liability explanation (deposit recovery for guest-liable damage, insurance for major damage, £300 owner-approval threshold) directly answering the worry about leaving the flat fully furnished.",
+      "lead_response": "Okay. Okay.",
+      "phase": "how it works",
+      "archetype_relevant": ["loss-averse-switcher", "certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Honest, non-pushy mortgage advice — launch as-is and give it 3-6 months before switching mortgage type, rather than pushing an immediate change.",
+      "lead_response": "Nice to you.",
+      "phase": "how it works / close",
+      "archetype_relevant": ["certainty-seeker", "analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Full end-to-end management pitch (centralised calendar, multi-platform listing, dynamic pricing, ID checks, cleaning, maintenance) contrasted with renting to someone they know.",
+      "lead_response": "That's quite interesting... I quite like the system that you guys do... I think that in terms of profit, this one is much better than what we were thinking prior.",
+      "phase": "how it works",
+      "archetype_relevant": ["fast-path-gain-focused", "certainty-seeker"]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Audio issue at the very start of the call — the lead could not hear Zac.",
+      "lead_response": "\"So I can't hear you.\"",
+      "recovery_attempted": "Zac checked in again and the lead confirmed once earphones/audio settled.",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "Thanks for coming on.",
+      "I thought I'd start just by understanding a bit more about sort of your current situation, an interest in short let, and then we can go through some income figures."
+    ],
+    "transition_phrases": [
+      "So I'll just share my screen.",
+      "As far as operationally, we'll deal with everything end to end.",
+      "What I'll do as well, Thomas, might help a bit is I'll send you a bit like an action plan slash summary after this on an email."
+    ],
+    "reassurance_phrases": [
+      "I wouldn't worry about that too much.",
+      "It's within our interest to keep the rating and review ratings high.",
+      "You'll know that ahead of time.",
+      "It's not any surprises when you get the statement at the end of the month."
+    ],
+    "emphasis_phrases": [
+      "I wouldn't say this area is really that competitive.",
+      "I'd say this is pretty, a pretty good property overall, really.",
+      "It will make you a lot more profitable."
+    ],
+    "analogies_used": [],
+    "numbers_framing": "Leads with the average expected figures first (gross ~£50k, net ~£26k, ~£2,200/month), then shows the seasonal range (worst ~£1,300 to best ~£3,000) against the lead's current ~£1,400 overheads to frame the downside as near break-even rather than a loss, then supports it with market-competitiveness data (61 reviews, 4.7 rating) to set expectations on a ~7-month ramp-up to top-of-market rates.",
+    "objection_handling_pattern": "Acknowledges the concern directly, then splits it into a clear two-part structural answer (e.g. guest-liable damage vs. wear-and-tear, deposit vs. insurance) before closing with a concrete, low-pressure recommendation (e.g. delay the mortgage switch 3-6 months) that removes friction without pushing urgency."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "certainty-seeker",
+    "what_they_focused_on": [
+      "net income clarity (what's actually deducted)",
+      "remote key access while abroad",
+      "damage/liability protection for a fully-furnished flat",
+      "residential mortgage compliance for subletting"
+    ],
+    "what_they_needed_most": [
+      "operational certainty on who is liable and how access/cleaning/maintenance actually works",
+      "reassurance that leaving the flat fully furnished is low-risk",
+      "clear, low-friction guidance on mortgage timing rather than being pushed into an immediate change"
+    ],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": "For ABROAD leads whose co-owner is absent from the call, proactively propose a short joint follow-up once the co-owner has reviewed the agreement, rather than leaving the next step as a vague 'touch base next month'."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
