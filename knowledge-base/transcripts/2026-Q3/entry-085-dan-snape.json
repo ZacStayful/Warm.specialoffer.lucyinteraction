@@ -1,1 +1,174 @@
-PLACEHOLDER
+{
+  "schema_version": "3.0",
+  "entry_number": "085",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-08-21",
+  "transcript_quality": "full",
+  "lead_name": "Dan Snape",
+  "email": "mail@dansnape.com",
+  "monday_id": "12577109750",
+  "address": "8 The Evergreens, Formby, Liverpool L37 3RW",
+  "bedrooms": 4,
+  "profile_type": "PURCH",
+  "lead_profile_text": "Something else",
+  "stl_goal": "Wants the inherited property to generate enough income to cover its own outgoings (no mortgage) as a long-term family asset, not maximise upside",
+  "property_situation": "Inherited a 4-bed detached house via probate (relative died Dec 2024); estate still in probate 8 months on, held up by investment bonds/shares; no legal possession yet, currently vacant, no mortgage",
+  "property_type": "4-bed detached house with double garage, 2.5 bathrooms, 2 reception rooms, rear garden",
+  "emotional_profile": "certainty-seeker",
+  "conversion_likelihood": 70,
+  "profile_confidence": "high — repeated worst-case/exit-route questioning is a clear behavioural signal",
+  "primary_blocker": "Probate has not completed; Dan does not yet have legal possession of the property",
+  "language_signals": [
+    "I just need it to kind of be able to be in a position where it could generate to cover itself",
+    "Am I tied into anything? ... is there a route out of it for me",
+    "I need to think about those sorts of situations if I need to sell the house"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "He had a whole weight of investment bonds ... it's been a nightmare for them to gather it all together to realize the final value of the estate",
+      "context": "Probate on the inherited property has been ongoing 8 months, slowed by investment bonds, shares and other assets; Dan has a key and informal solicitor blessing to view but is deliberately not acting until formal handover",
+      "timeline_given": "No fixed date; Dan chases his solicitor informally roughly weekly (Friday afternoons)",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "no_decision_yet"
+  },
+  "meeting_flow": {
+    "opening_phrase": "Yes, okay. All right, I'm fine. Well, I can take you through some of the figures first then.",
+    "rapport_topics": [
+      "the deceased relative's background and dementia in later life",
+      "Dan's own recent house purchase and financial stretch",
+      "Slack vs Discord/old-Slack-beta nostalgia"
+    ],
+    "pivot_to_business": "Zac opened straight into figures based on property address and local comparables before any extended rapport phase",
+    "income_intro": "So because the property is four bedrooms, it's quite a premium in Liverpool. So we're looking about 90,000 of gross revenue, 40 to net revenue, which is about 4,000 pounds per month",
+    "post_income_silence": "Yeah. No, I had no idea. I had no idea what I was expecting.",
+    "how_it_works_transition": "As far as sort of what that covers operationally... we'll do everything to do with the property essentially",
+    "pre_close_setup": "Zac reassured Dan on the worst-case downside before any close attempt: 'even if I'm 50% off, you're still doing a thousand pounds of profit'",
+    "close_phrase": "I'm going to send you our management agreement after this call. If you signed that, send it back to me once that happens",
+    "meeting_2_ask": "",
+    "total_duration_mins": 25,
+    "talk_ratio_zac_pct": 45
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "I had no idea what I was expecting. There's no mortgage on the property",
+      "category": "positive_shift",
+      "meeting_phase": "income_walkthrough",
+      "zac_responded_with": "confirmed the £4k/month net figure and that bills would be the only outgoing",
+      "lead_follow_up": "asked about council tax on the property once let",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Am I tied into anything? ... is there a route out of it for me, or am I contracted for 12 or 18 months?",
+      "category": "objection",
+      "meeting_phase": "mid_meeting",
+      "zac_responded_with": "explained the 6-month fixed term then 3-month rolling notice, and that Stayful would work with him on a transition/viewings period around a sale rather than enforce a hard exit",
+      "lead_follow_up": "confirmed the term length back and moved on with no further pushback",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Even in even during the slow period, it should be doing sort of 2,000 pound a month for you... even if I'm 50% off, you're still doing a thousand pounds of profit",
+      "category": "green_light",
+      "meeting_phase": "pre_close",
+      "zac_responded_with": "n/a (this was Zac's own reassurance line)",
+      "lead_follow_up": "the numbers are good... they will be a welcome addition to a salary",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "It sounds like a viable option for me and it sounds like what I want to do",
+      "category": "positive_shift",
+      "meeting_phase": "close",
+      "zac_responded_with": "confirmed next steps: management agreement, Dan identifying items of value and confirming possession",
+      "lead_follow_up": "agreed to chase his solicitor for a probate update the same day",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "No firm date for when probate/possession will complete — the deal cannot move to signature until this external event resolves",
+      "category": "process_clarity",
+      "evidence": "Probate has not completed... The solicitor has been slow... Dan is chasing informally (roughly weekly phone calls)",
+      "how_to_fill": "Set a light-touch, milestone-based check-in cadence tied to Dan's own solicitor call rhythm rather than a fixed calendar chase",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Setup cost not quantified — carpet replacement/clean, stairlift removal, item-of-value removal, Wi-Fi reinstatement, lockboxes, smart thermostat all identified but no £ figures attached",
+      "category": "setup_cost_justification",
+      "evidence": "No £ figures attached to any of these on the call",
+      "how_to_fill": "Provide an itemised setup estimate once Dan has possession and can share photos/video of the property",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac's worst-case-arithmetic line: 'even if I'm 50% off, you're still doing a thousand pounds of profit'",
+      "lead_response": "the numbers are good... they will be a welcome addition to a salary",
+      "phase": "pre_close",
+      "archetype_relevant": [
+        "certainty-seeker"
+      ]
+    }
+  ],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [
+      "I can take you through some of the figures first then"
+    ],
+    "transition_phrases": [
+      "As far as sort of what that covers operationally"
+    ],
+    "reassurance_phrases": [
+      "Even if I'm 50% off, you're still doing a thousand pounds of profit. I'd have to have done something seriously wrong in order to be 50% off"
+    ],
+    "emphasis_phrases": [
+      "You've got no mortgage. It's four bedrooms at a good sized property"
+    ],
+    "analogies_used": [],
+    "numbers_framing": "Led with average net (£3,900/mo), then explicitly walked worst-case (£2,800/mo) and best-case (£5,700/mo) so the downside was proven safe before any close attempt",
+    "objection_handling_pattern": "For the exit-route objection: stated the plain contract mechanic (6 months fixed, 3-month rolling notice) then immediately added Stayful would work around a sale/viewings period rather than enforce a hard exit"
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "PURCH",
+    "emotional_profile": "certainty-seeker",
+    "what_they_focused_on": [
+      "worst-case/floor monthly income and whether it covers no-mortgage running costs",
+      "exit route and contract term flexibility in case of redundancy",
+      "practical onboarding steps (guidebooks, lockboxes, Wi-Fi)"
+    ],
+    "what_they_needed_most": [
+      "explicit worst-case arithmetic proving the downside is safe",
+      "a concrete, low-friction exit mechanic for a specific personal worst-case (redundancy)"
+    ],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": "For no-mortgage inherited/owned-outright PURCH leads, lead with the worst-case monthly figure and reuse the '50% off, still profitable' framing verbatim rather than opening with the average"
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
