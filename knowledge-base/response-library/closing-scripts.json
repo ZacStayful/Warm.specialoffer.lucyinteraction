@@ -1,368 +1,70 @@
 {
   "schema_version": "3.0",
-  "total_closes_analysed": 25,
-  "last_updated": "2026-08-21",
+  "total_closes_analysed": 31,
+  "last_updated": "2026-08-30",
   "pre_close_setups": [
-    {
-      "approach": "i'll after call alice i'll",
-      "verbatim": "All right well what I'll do then after this call is I'll just send a bit of a summary of everything we've spoken about, I'll also put in like a bit of an action plan so we've got some estimated sort of time frames as well.",
-      "frequency": 2,
-      "works_for_archetypes": [
-        "analytical-evaluator",
-        "certainty-seeker"
-      ]
-    },
-    {
-      "approach": "property seem there's stopping from",
-      "verbatim": "I think this property could do quite well and it doesn't seem like there's anything obviously sort of stopping us from listing it.",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "loss-averse-switcher"
-      ]
-    },
-    {
-      "approach": "mean everything else good jamaen",
-      "verbatim": "I mean, is everything else looking good for you, Jamaen, on this?",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "certainty-seeker"
-      ]
-    },
-    {
-      "approach": "give touch aneesa mean budget",
-      "verbatim": "Well, we give you touch obviously Aneesa. I mean, if you are looking... if you had like a budget in mind, something that we do is like property sourcing for people that are in your situation.",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "analytical-evaluator"
-      ]
-    },
-    {
-      "approach": "all actor i'll send summary",
-      "verbatim": "All right, actor, I'll send a bit of a summary of what we've spoken about on an email into, like, with an action plan. I'll send our management agreement over. She have a read of some of the terms. If you want to send me back some photos, we could put a bit of a plan together on how we're going to manage the transition.",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "loss-averse-switcher"
-      ]
-    },
-    {
-      "approach": "mean i'd contract six month",
-      "verbatim": "I mean, anything I'd probably say is, like our contract. So we have a six month fixed term on the agreement, three month notice.",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "analytical-evaluator"
-      ]
-    },
-    {
-      "approach": "terms choose choose stayful either",
-      "verbatim": "Really in terms of what if were to choose to choose Stayful what would either be onboarding process be like — to which Zac responded: I mean, to be honest, in your instance, it sounds like things are pretty well organized and you've got a lot of things lined up, which is, is ideal for us, really.",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "analytical-evaluator"
-      ]
-    },
-    {
-      "approach": "there through specifically income cost",
-      "verbatim": "Is there anything you want to go through specifically about the income... This is a cost statement exercise. I mean, any specific questions you got about the service or I can just go through it.",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "analytical-evaluator"
-      ]
-    },
-    {
-      "approach": "mean covered fair income side",
-      "verbatim": "I mean, I think that... we've covered a fair on the income side of things... Anything else you want to go through? Or is it all happy?",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "analytical-evaluator"
-      ]
-    },
-    {
-      "approach": "based off discussed mean it'd",
-      "verbatim": "Based off of what we're, what we've discussed, I mean, does it look like it'd be of interest to you, or is it look like it's something that wouldn't work for you?",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "certainty-seeker"
-      ]
-    },
-    {
-      "approach": "all mean else through michael",
-      "verbatim": "All right, well, I mean, anything else you want to go through, Michael, was it all, you're all happy?",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "analytical-evaluator"
-      ]
-    },
-    {
-      "approach": "let's nuts bolts mean pretty",
-      "verbatim": "Let's just get the nuts and bolts of it. I mean, I'm pretty keen to go with you because I think, you know, you've done proper forecasting already.",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "loss-averse-switcher"
-      ]
-    },
-    {
-      "approach": "all couple i'll after call",
-      "verbatim": "Okay, all right a couple of things I'll do then after this call is I'll send you a bit like a summary slash action plan of everything. Probably look at touching base after Christmas around Jan. I mean if you wanted to go before then just let me know we can touch base. I'll send you over our agreement as well.",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "certainty-seeker"
-      ]
-    },
-    {
-      "approach": "i'd add wanting come board",
-      "verbatim": "What I'd want to add a bit as well is obviously if you are wanting to come on board, we do have a contract. There's a six month fixed term on the agreement... and then there's a three month notice at the end.",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "certainty-seeker"
-      ]
-    },
-    {
-      "approach": "i'll thomas help i'll send",
-      "verbatim": "What I'll do as well, Thomas, might help a bit is I'll send you a bit like an action plan slash summary after this on an email, with our agreement as well, so you can send that to him.",
-      "frequency": 1,
-      "works_for_archetypes": []
-    },
-    {
-      "approach": "spoken another couple agents that's",
-      "verbatim": "It's about what I have spoken to another couple of agents. That's about what I was expecting. So it's just a question of me getting my other place sold now, getting myself sorted so that I can vacate and get it going.",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "certainty-seeker"
-      ]
-    },
-    {
-      "approach": "discussion handover logistics existing agent",
-      "verbatim": "Discussion of handover logistics with the existing agent, transfer of onboarding data, and who at Stayful would manage the account day-to-day (Martin, customer-facing contact).",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "certainty-seeker"
-      ]
-    },
-    {
-      "approach": "more property assuming property's bought",
-      "verbatim": "Just going into a bit more on the property, I'm assuming this property's been bought without any furniture or anything. Is that right?",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "certainty-seeker"
-      ]
-    },
-    {
-      "approach": "only another specify agreement i'll",
-      "verbatim": "probably only another thing to sort of specify is we're obviously have an agreement which I'll send to you after this call so if you've got any questions or any of it just let me know we have a six month commitment period and then three months notice period",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "analytical-evaluator"
-      ]
-    },
-    {
-      "approach": "main identify after call areas",
-      "verbatim": "I probably say the main things to sort of identify after this call, the areas. Firstly, we need to see whether there's actual consent or permission to do it with the freeholder... it's just going to be key safes really being sorted... as far as time frames with this, Thierry, do you know sort of when you're wanting to move to France?",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "analytical-evaluator"
-      ]
-    },
-    {
-      "approach": "mean normally we'll another call",
-      "verbatim": "I mean, then normally, if we're doing that as well, we probably, if we can say we'll do maybe another call when we're nearing the end.",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "analytical-evaluator"
-      ]
-    },
-    {
-      "approach": "else any more concerns you've",
-      "verbatim": "Anything else you want to go for any more concerns you've got or, or we all[?]",
-      "frequency": 1,
-      "works_for_archetypes": [
-        "certainty-seeker"
-      ]
-    }
+    {"approach": "i'll after call alice i'll", "verbatim": "All right well what I'll do then after this call is I'll just send a bit of a summary of everything we've spoken about, I'll also put in like a bit of an action plan so we've got some estimated sort of time frames as well.", "frequency": 2, "works_for_archetypes": ["analytical-evaluator", "certainty-seeker"]},
+    {"approach": "property seem there's stopping from", "verbatim": "I think this property could do quite well and it doesn't seem like there's anything obviously sort of stopping us from listing it.", "frequency": 1, "works_for_archetypes": ["loss-averse-switcher"]},
+    {"approach": "mean everything else good jamaen", "verbatim": "I mean, is everything else looking good for you, Jamaen, on this?", "frequency": 1, "works_for_archetypes": ["certainty-seeker"]},
+    {"approach": "give touch aneesa mean budget", "verbatim": "Well, we give you touch obviously Aneesa. I mean, if you are looking... if you had like a budget in mind, something that we do is like property sourcing for people that are in your situation.", "frequency": 1, "works_for_archetypes": ["analytical-evaluator"]},
+    {"approach": "all actor i'll send summary", "verbatim": "All right, actor, I'll send a bit of a summary of what we've spoken about on an email into, like, with an action plan. I'll send our management agreement over. She have a read of some of the terms. If you want to send me back some photos, we could put a bit of a plan together on how we're going to manage the transition.", "frequency": 1, "works_for_archetypes": ["loss-averse-switcher"]},
+    {"approach": "mean i'd contract six month", "verbatim": "I mean, anything I'd probably say is, like our contract. So we have a six month fixed term on the agreement, three month notice.", "frequency": 1, "works_for_archetypes": ["analytical-evaluator"]},
+    {"approach": "terms choose choose stayful either", "verbatim": "Really in terms of what if were to choose to choose Stayful what would either be onboarding process be like — to which Zac responded: I mean, to be honest, in your instance, it sounds like things are pretty well organized and you've got a lot of things lined up, which is, is ideal for us, really.", "frequency": 1, "works_for_archetypes": ["analytical-evaluator"]},
+    {"approach": "there through specifically income cost", "verbatim": "Is there anything you want to go through specifically about the income... This is a cost statement exercise. I mean, any specific questions you got about the service or I can just go through it.", "frequency": 1, "works_for_archetypes": ["analytical-evaluator"]},
+    {"approach": "mean covered fair income side", "verbatim": "I mean, I think that... we've covered a fair on the income side of things... Anything else you want to go through? Or is it all happy?", "frequency": 1, "works_for_archetypes": ["analytical-evaluator"]},
+    {"approach": "based off discussed mean it'd", "verbatim": "Based off of what we're, what we've discussed, I mean, does it look like it'd be of interest to you, or is it look like it's something that wouldn't work for you?", "frequency": 1, "works_for_archetypes": ["certainty-seeker"]},
+    {"approach": "all mean else through michael", "verbatim": "All right, well, I mean, anything else you want to go through, Michael, was it all, you're all happy?", "frequency": 1, "works_for_archetypes": ["analytical-evaluator"]},
+    {"approach": "let's nuts bolts mean pretty", "verbatim": "Let's just get the nuts and bolts of it. I mean, I'm pretty keen to go with you because I think, you know, you've done proper forecasting already.", "frequency": 1, "works_for_archetypes": ["loss-averse-switcher"]},
+    {"approach": "all couple i'll after call", "verbatim": "Okay, all right a couple of things I'll do then after this call is I'll send you a bit like a summary slash action plan of everything. Probably look at touching base after Christmas around Jan. I mean if you wanted to go before then just let me know we can touch base. I'll send you over our agreement as well.", "frequency": 1, "works_for_archetypes": ["certainty-seeker"]},
+    {"approach": "i'd add wanting come board", "verbatim": "What I'd want to add a bit as well is obviously if you are wanting to come on board, we do have a contract. There's a six month fixed term on the agreement... and then there's a three month notice at the end.", "frequency": 1, "works_for_archetypes": ["certainty-seeker"]},
+    {"approach": "i'll thomas help i'll send", "verbatim": "What I'll do as well, Thomas, might help a bit is I'll send you a bit like an action plan slash summary after this on an email, with our agreement as well, so you can send that to him.", "frequency": 1, "works_for_archetypes": []},
+    {"approach": "spoken another couple agents that's", "verbatim": "It's about what I have spoken to another couple of agents. That's about what I was expecting. So it's just a question of me getting my other place sold now, getting myself sorted so that I can vacate and get it going.", "frequency": 1, "works_for_archetypes": ["certainty-seeker"]},
+    {"approach": "discussion handover logistics existing agent", "verbatim": "Discussion of handover logistics with the existing agent, transfer of onboarding data, and who at Stayful would manage the account day-to-day (Martin, customer-facing contact).", "frequency": 1, "works_for_archetypes": ["certainty-seeker"]},
+    {"approach": "more property assuming property's bought", "verbatim": "Just going into a bit more on the property, I'm assuming this property's been bought without any furniture or anything. Is that right?", "frequency": 1, "works_for_archetypes": ["certainty-seeker"]},
+    {"approach": "only another specify agreement i'll", "verbatim": "probably only another thing to sort of specify is we're obviously have an agreement which I'll send to you after this call so if you've got any questions or any of it just let me know we have a six month commitment period and then three months notice period", "frequency": 1, "works_for_archetypes": ["analytical-evaluator"]},
+    {"approach": "main identify after call areas", "verbatim": "I probably say the main things to sort of identify after this call, the areas. Firstly, we need to see whether there's actual consent or permission to do it with the freeholder... it's just going to be key safes really being sorted... as far as time frames with this, Thierry, do you know sort of when you're wanting to move to France?", "frequency": 1, "works_for_archetypes": ["analytical-evaluator"]},
+    {"approach": "mean normally we'll another call", "verbatim": "I mean, then normally, if we're doing that as well, we probably, if we can say we'll do maybe another call when we're nearing the end.", "frequency": 1, "works_for_archetypes": ["analytical-evaluator"]},
+    {"approach": "else any more concerns you've", "verbatim": "Anything else you want to go for any more concerns you've got or, or we all[?]", "frequency": 1, "works_for_archetypes": ["certainty-seeker"]},
+    {"approach": "even 50 off still profit", "verbatim": "Even in even during the slow period, it should be doing sort of 2,000 pound a month for you in all honesty. I don't see how it wouldn't do it because you've got no mortgage... even if I'm 50% off, you're still doing a thousand pounds of profit.", "frequency": 1, "works_for_archetypes": ["certainty-seeker"]},
+    {"approach": "doing both happy discount", "verbatim": "I mean if we're doing both of them I'm happy to do a discount as well on the management for you if that works.", "frequency": 1, "works_for_archetypes": ["fast-path-gain-focused"]},
+    {"approach": "worst case matches hmo already", "verbatim": "The worst case isn't really likely to affect your current situation because it's essentially your lowest cases are short letting what he was making on the hmo anyway.", "frequency": 1, "works_for_archetypes": ["analytical-evaluator"]}
   ],
   "offer_framings": [
-    {
-      "verbatim": "A discretionary discount off the standard rate, tied to a hard deadline: \"I'm happy to do a discount on our management of 13 instead of 15. But it'd be based off of signing before the 31st of July which is you know what four weeks away from now... I'll put that in writing as well for you in an email.\"",
-      "rate": "13% + VAT",
-      "expiry_framing": "the 31st of July — stated as roughly four weeks away from the call",
-      "frequency": 1,
-      "acceptance_rate": 0.0,
-      "best_for_archetypes": [
-        "loss-averse-switcher"
-      ]
-    },
-    {
-      "verbatim": "Framed as a discretionary discount he was 'happy to do' (13% + VAT), explicitly time-boxed to signing before 30 August so it aligned naturally with Dexter's own end-of-August completion timeline, with confirmation to follow by email.",
-      "rate": "13% + VAT",
-      "expiry_framing": "Based off signing before the 30th of August",
-      "frequency": 1,
-      "acceptance_rate": 0.0,
-      "best_for_archetypes": [
-        "analytical-evaluator"
-      ]
-    },
-    {
-      "verbatim": "Introduced casually as a follow-up action item rather than a time-pressured pitch — 'I'll put in the discount as well for you. So it'll be 13% instead of 15.'",
-      "rate": "13% + VAT",
-      "expiry_framing": "Not stated verbally in the transcript; expiry (30 August 2026) recorded separately in Monday.com",
-      "frequency": 1,
-      "acceptance_rate": 0.0,
-      "best_for_archetypes": [
-        "analytical-evaluator"
-      ]
-    },
-    {
-      "verbatim": "Framed as a trial-run discount rather than a binding commitment: \"I'm happy to do a small discount on the management from 13 instead of 15. But it would be based off of, obviously, this doesn't mean we're going live or anything like that... I'm happy to do that discount for you so we can make sure the trial run is profitable as it can be.\"",
-      "rate": "13% + VAT",
-      "expiry_framing": "before the 7th of August",
-      "frequency": 1,
-      "acceptance_rate": 0.0,
-      "best_for_archetypes": [
-        "analytical-evaluator"
-      ]
-    },
-    {
-      "verbatim": "Framed as an unprompted extra gesture to make things 'a bit more profitable' — a discount from 15% to 13% + VAT, conditional on signing before 30 August.",
-      "rate": "13% + VAT",
-      "expiry_framing": "30th of August",
-      "frequency": 1,
-      "acceptance_rate": 0.0,
-      "best_for_archetypes": [
-        "analytical-evaluator"
-      ]
-    },
-    {
-      "verbatim": "\"Something I'm happy to do for you, Jerry [Thierry], is I'm happy to do a discount on the management. 13 instead of 15. But just, it will be, it'd be like a limited time offer, so it would expire sort of around a month from now... so if we sit around the 13th of September, I can apply that to your account and property if you come on board.\"",
-      "rate": "13% + VAT",
-      "expiry_framing": "around a month from now / around the 13th of September",
-      "frequency": 1,
-      "acceptance_rate": 0.0,
-      "best_for_archetypes": [
-        "analytical-evaluator"
-      ]
-    }
+    {"verbatim": "A discretionary discount off the standard rate, tied to a hard deadline: \"I'm happy to do a discount on our management of 13 instead of 15. But it'd be based off of signing before the 31st of July which is you know what four weeks away from now... I'll put that in writing as well for you in an email.\"", "rate": "13% + VAT", "expiry_framing": "the 31st of July — stated as roughly four weeks away from the call", "frequency": 1, "acceptance_rate": 0.0, "best_for_archetypes": ["loss-averse-switcher"]},
+    {"verbatim": "Framed as a discretionary discount he was 'happy to do' (13% + VAT), explicitly time-boxed to signing before 30 August so it aligned naturally with Dexter's own end-of-August completion timeline, with confirmation to follow by email.", "rate": "13% + VAT", "expiry_framing": "Based off signing before the 30th of August", "frequency": 1, "acceptance_rate": 0.0, "best_for_archetypes": ["analytical-evaluator"]},
+    {"verbatim": "Introduced casually as a follow-up action item rather than a time-pressured pitch — 'I'll put in the discount as well for you. So it'll be 13% instead of 15.'", "rate": "13% + VAT", "expiry_framing": "Not stated verbally in the transcript; expiry (30 August 2026) recorded separately in Monday.com", "frequency": 1, "acceptance_rate": 0.0, "best_for_archetypes": ["analytical-evaluator"]},
+    {"verbatim": "Framed as a trial-run discount rather than a binding commitment: \"I'm happy to do a small discount on the management from 13 instead of 15. But it would be based off of, obviously, this doesn't mean we're going live or anything like that... I'm happy to do that discount for you so we can make sure the trial run is profitable as it can be.\"", "rate": "13% + VAT", "expiry_framing": "before the 7th of August", "frequency": 1, "acceptance_rate": 0.0, "best_for_archetypes": ["analytical-evaluator"]},
+    {"verbatim": "Framed as an unprompted extra gesture to make things 'a bit more profitable' — a discount from 15% to 13% + VAT, conditional on signing before 30 August.", "rate": "13% + VAT", "expiry_framing": "30th of August", "frequency": 1, "acceptance_rate": 0.0, "best_for_archetypes": ["analytical-evaluator"]},
+    {"verbatim": "\"Something I'm happy to do for you, Jerry [Thierry], is I'm happy to do a discount on the management. 13 instead of 15. But just, it will be, it'd be like a limited time offer, so it would expire sort of around a month from now... so if we sit around the 13th of September, I can apply that to your account and property if you come on board.\"", "rate": "13% + VAT", "expiry_framing": "around a month from now / around the 13th of September", "frequency": 1, "acceptance_rate": 0.0, "best_for_archetypes": ["analytical-evaluator"]},
+    {"verbatim": "Proactively offered (not requested first) once the lead confirmed he wanted both properties on at once: \"I mean if we're doing both of them I'm happy to do a discount as well on the management for you if that works.\" Accepted immediately, verbally, no negotiation, no expiry stated.", "rate": "13% + VAT", "expiry_framing": "None stated on the call", "frequency": 1, "acceptance_rate": 1.0, "best_for_archetypes": ["fast-path-gain-focused"]}
   ],
   "meeting_2_asks": [
-    {
-      "verbatim": "No formal next meeting booked — Zac asked Jamaen to email once his relocation/start date is confirmed so they can set a go-live timeline; Zac noted he needs a few weeks' notice to onboard smoothly",
-      "frequency": 2,
-      "success_rate": 0.5
-    },
-    {
-      "verbatim": "Do you know, it might be a good time to, to touch base again? — lead: this start of Monday maybe would be or from Monday onwards would be good.",
-      "frequency": 2,
-      "success_rate": 0.0
-    },
-    {
-      "verbatim": "we'll touch base in a couple of weeks (soft follow-up, no specific date or Calendly booking agreed)",
-      "frequency": 2,
-      "success_rate": 0.0
-    },
-    {
-      "verbatim": "We'll just keep in touch as the property progresses",
-      "frequency": 1,
-      "success_rate": 0.0
-    },
-    {
-      "verbatim": "Zac proposed a follow-up call after the agreement is signed to plan the property inspection, furniture fit-out and go-live timeline -- no specific date or time was fixed on the call itself.",
-      "frequency": 1,
-      "success_rate": 0.0
-    },
-    {
-      "verbatim": "we could probably follow up sort of next week, have a call and go through it in a bit more detail",
-      "frequency": 1,
-      "success_rate": 0.0
-    },
-    {
-      "verbatim": "No next meeting explicitly agreed — Zac referenced standard quarterly review calls once live, with no specific date or time set.",
-      "frequency": 1,
-      "success_rate": 0.0
-    },
-    {
-      "verbatim": "No formal meeting or date was booked — only a verbal agreement to 'touch base' in January to begin onboarding; Ross was told he could bring it forward if he wanted to move sooner.",
-      "frequency": 1,
-      "success_rate": 0.0
-    },
-    {
-      "verbatim": "We could probably touch base maybe next month or something has changed.",
-      "frequency": 1,
-      "success_rate": 0.0
-    },
-    {
-      "verbatim": "Lead-initiated: Rohana proposed the follow-up call herself once her husband had reviewed the email/action plan ('I just wonder... if we could do another meeting. My husband's usually home on Friday'). Zac agreed and left timing to her.",
-      "frequency": 1,
-      "success_rate": 1.0
-    },
-    {
-      "verbatim": "Not currently going. Probably the best thing for another meeting now. (lead-initiated, no date/time set)",
-      "frequency": 1,
-      "success_rate": 0.0
-    },
-    {
-      "verbatim": "any other questions you've got afterwards, just sort of let me know on email or, you know, we can touch base probably in a couple of weeks or something and see sort of how you're getting on — no specific date/time given, nothing booked in Calendly.",
-      "frequency": 1,
-      "success_rate": 0.0
-    },
-    {
-      "verbatim": "As far as arranging that call, I mean, are you right to look at doing that now, or is it a bit up in the [air]? — Rob declined to fix a date, citing unpredictable build timelines, and proposed reconnecting next week once contractor items were confirmed.",
-      "frequency": 1,
-      "success_rate": 0.0
-    },
-    {
-      "verbatim": "When do you think it'd be a good time to get back in touch? ... I'll give you a call probably end of September and we can probably have another, another web meeting and go through some of the details once you've got things ironed out.",
-      "frequency": 1,
-      "success_rate": 0.0
-    }
+    {"verbatim": "No formal next meeting booked — Zac asked Jamaen to email once his relocation/start date is confirmed so they can set a go-live timeline; Zac noted he needs a few weeks' notice to onboard smoothly", "frequency": 2, "success_rate": 0.5},
+    {"verbatim": "Do you know, it might be a good time to, to touch base again? — lead: this start of Monday maybe would be or from Monday onwards would be good.", "frequency": 2, "success_rate": 0.0},
+    {"verbatim": "we'll touch base in a couple of weeks (soft follow-up, no specific date or Calendly booking agreed)", "frequency": 3, "success_rate": 0.0},
+    {"verbatim": "We'll just keep in touch as the property progresses", "frequency": 1, "success_rate": 0.0},
+    {"verbatim": "Zac proposed a follow-up call after the agreement is signed to plan the property inspection, furniture fit-out and go-live timeline -- no specific date or time was fixed on the call itself.", "frequency": 1, "success_rate": 0.0},
+    {"verbatim": "we could probably follow up sort of next week, have a call and go through it in a bit more detail", "frequency": 1, "success_rate": 0.0},
+    {"verbatim": "No next meeting explicitly agreed — Zac referenced standard quarterly review calls once live, with no specific date or time set.", "frequency": 1, "success_rate": 0.0},
+    {"verbatim": "No formal meeting or date was booked — only a verbal agreement to 'touch base' in January to begin onboarding; Ross was told he could bring it forward if he wanted to move sooner.", "frequency": 1, "success_rate": 0.0},
+    {"verbatim": "We could probably touch base maybe next month or something has changed.", "frequency": 2, "success_rate": 0.0},
+    {"verbatim": "Lead-initiated: Rohana proposed the follow-up call herself once her husband had reviewed the email/action plan ('I just wonder... if we could do another meeting. My husband's usually home on Friday'). Zac agreed and left timing to her.", "frequency": 1, "success_rate": 1.0},
+    {"verbatim": "Not currently going. Probably the best thing for another meeting now. (lead-initiated, no date/time set)", "frequency": 1, "success_rate": 0.0},
+    {"verbatim": "any other questions you've got afterwards, just sort of let me know on email or, you know, we can touch base probably in a couple of weeks or something and see sort of how you're getting on — no specific date/time given, nothing booked in Calendly.", "frequency": 1, "success_rate": 0.0},
+    {"verbatim": "As far as arranging that call, I mean, are you right to look at doing that now, or is it a bit up in the [air]? — Rob declined to fix a date, citing unpredictable build timelines, and proposed reconnecting next week once contractor items were confirmed.", "frequency": 1, "success_rate": 0.0},
+    {"verbatim": "When do you think it'd be a good time to get back in touch? ... I'll give you a call probably end of September and we can probably have another, another web meeting and go through some of the details once you've got things ironed out.", "frequency": 1, "success_rate": 0.0},
+    {"verbatim": "Recommend a manual check-in with Dan in 2-3 weeks if no update received, given his own ~weekly solicitor cadence — no fixed date, next step is Dan confirming possession/keys", "frequency": 1, "success_rate": 0.0}
   ],
   "recovery_when_not_ready": [
-    {
-      "situation": "delay present, green light present, no offer made",
-      "verbatim_response": "Okay, well, a couple of things I do then after this call for you, Rob, is I'll send you over our management agreement so you've got it. You can read some of the terms and stuff, and then I'll just summarize what we've spoken about in an email.",
-      "outcome": "No offer was made — Zac assessed the Solihull STL margin as genuinely thin (\"a little bit tight\") and did not attempt to incentivise a decision; the meeting closed on requesting her budget for a separate sourcing engagement instead.",
-      "frequency": 16
-    },
-    {
-      "situation": "delay present, green light present, offer made",
-      "verbatim_response": "\"Something I'm happy to do for you, Jerry [Thierry], is I'm happy to do a discount on the management. 13 instead of 15. But just, it will be, it'd be like a limited time offer, so it would expire sort of around a month from now... so if we sit around the 13th of September, I can apply that to your account and property if you come on board.\"",
-      "outcome": "Not accepted at the meeting; lead moved straight into verifying exit terms and fee transparency, then agreed to check the freeholder/lease and stay in touch. Offer applied to the Monday record with the stated expiry, pending lease consent.",
-      "frequency": 7
-    },
-    {
-      "situation": "delay present, no green light, no offer made",
-      "verbatim_response": "What we could do is we can keep in touch. Obviously keep in touch once a month or so... I'll just send a bit of a summary of everything we've spoken about, like an action plan, and then I'll also send our management agreement as well.",
-      "outcome": "",
-      "frequency": 1
-    }
+    {"situation": "delay present, green light present, no offer made", "verbatim_response": "Okay, well, a couple of things I do then after this call for you, Rob, is I'll send you over our management agreement so you've got it. You can read some of the terms and stuff, and then I'll just summarize what we've spoken about in an email.", "outcome": "No offer was made — Zac assessed the Solihull STL margin as genuinely thin (\"a little bit tight\") and did not attempt to incentivise a decision; the meeting closed on requesting her budget for a separate sourcing engagement instead.", "frequency": 16},
+    {"situation": "delay present, green light present, offer made", "verbatim_response": "\"Something I'm happy to do for you, Jerry [Thierry], is I'm happy to do a discount on the management. 13 instead of 15. But just, it will be, it'd be like a limited time offer, so it would expire sort of around a month from now... so if we sit around the 13th of September, I can apply that to your account and property if you come on board.\"", "outcome": "Not accepted at the meeting; lead moved straight into verifying exit terms and fee transparency, then agreed to check the freeholder/lease and stay in touch. Offer applied to the Monday record with the stated expiry, pending lease consent.", "frequency": 7},
+    {"situation": "delay present, no green light, no offer made", "verbatim_response": "What we could do is we can keep in touch. Obviously keep in touch once a month or so... I'll just send a bit of a summary of everything we've spoken about, like an action plan, and then I'll also send our management agreement as well.", "outcome": "", "frequency": 6}
   ],
   "delay_present_close": [
-    {
-      "delay_type": "DLY-OTH",
-      "close_approach": "A couple of things I'll do after this call is I'll send you over our agreement so you can have a look. Any questions? Let me know. I'll put a bit of like an action plan together so we have a bit of an idea on, you know,...",
-      "what_to_commit_to_instead": "Propose specific meeting slots within 48 hours, before the 1-2 week completion window closes and the furnishing decision has to be made without Stayful.",
-      "frequency": 15
-    },
-    {
-      "delay_type": "DLY-FUR",
-      "close_approach": "Well, let's go through the... costing. So we'll get an idea how much I would need to spend — Zac: I'll put that together in an email for you... I'll send over the agreement as well so you can have a look at some of the...",
-      "what_to_commit_to_instead": "Diarise a firm January outreach date now and get Ross to commit to a specific week for onboarding kickoff, given the hard March departure deadline (signature needed by December 2026 to hold a January slot).",
-      "frequency": 8
-    },
-    {
-      "delay_type": "DLY-PUR",
-      "close_approach": "What I'll do after this call is I'll just summarize everything we've spoken about, put it into, you know, an action plan, which you'll have. I'll send you over our agreements. You have a read of some of the terms, any...",
-      "what_to_commit_to_instead": "Propose specific meeting slots within 48 hours, before the 1-2 week completion window closes and the furnishing decision has to be made without Stayful.",
-      "frequency": 5
-    },
-    {
-      "delay_type": "DLY-TEN",
-      "close_approach": "What I'll do after this call is I'll just summarize everything we've spoken about, put it into, you know, an action plan, which you'll have. I'll send you over our agreements. You have a read of some of the terms, any...",
-      "what_to_commit_to_instead": "Pin a specific inspection/visit date before ending the call rather than leaving it open-ended and dependent on Akter's follow-up.",
-      "frequency": 4
-    },
-    {
-      "delay_type": "DLY-MOV",
-      "close_approach": "What we could do is we can keep in touch. Obviously keep in touch once a month or so... I'll just send a bit of a summary of everything we've spoken about, like an action plan, and then I'll also send our management...",
-      "what_to_commit_to_instead": "Diarise a firm January outreach date now and get Ross to commit to a specific week for onboarding kickoff, given the hard March departure deadline (signature needed by December 2026 to hold a January slot).",
-      "frequency": 3
-    }
+    {"delay_type": "DLY-OTH", "close_approach": "A couple of things I'll do after this call is I'll send you over our agreement so you can have a look. Any questions? Let me know. I'll put a bit of like an action plan together so we have a bit of an idea on, you know,...", "what_to_commit_to_instead": "Propose specific meeting slots within 48 hours, before the 1-2 week completion window closes and the furnishing decision has to be made without Stayful.", "frequency": 17},
+    {"delay_type": "DLY-FUR", "close_approach": "Well, let's go through the... costing. So we'll get an idea how much I would need to spend — Zac: I'll put that together in an email for you... I'll send over the agreement as well so you can have a look at some of the...", "what_to_commit_to_instead": "Diarise a firm January outreach date now and get Ross to commit to a specific week for onboarding kickoff, given the hard March departure deadline (signature needed by December 2026 to hold a January slot).", "frequency": 8},
+    {"delay_type": "DLY-PUR", "close_approach": "What I'll do after this call is I'll just summarize everything we've spoken about, put it into, you know, an action plan, which you'll have. I'll send you over our agreements. You have a read of some of the terms, any...", "what_to_commit_to_instead": "Propose specific meeting slots within 48 hours, before the 1-2 week completion window closes and the furnishing decision has to be made without Stayful.", "frequency": 5},
+    {"delay_type": "DLY-TEN", "close_approach": "What I'll do after this call is I'll just summarize everything we've spoken about, put it into, you know, an action plan, which you'll have. I'll send you over our agreements. You have a read of some of the terms, any...", "what_to_commit_to_instead": "Pin a specific inspection/visit date before ending the call rather than leaving it open-ended and dependent on Akter's follow-up.", "frequency": 5},
+    {"delay_type": "DLY-MOV", "close_approach": "What we could do is we can keep in touch. Obviously keep in touch once a month or so... I'll just send a bit of a summary of everything we've spoken about, like an action plan, and then I'll also send our management...", "what_to_commit_to_instead": "Diarise a firm January outreach date now and get Ross to commit to a specific week for onboarding kickoff, given the hard March departure deadline (signature needed by December 2026 to hold a January slot).", "frequency": 5}
   ]
 }
