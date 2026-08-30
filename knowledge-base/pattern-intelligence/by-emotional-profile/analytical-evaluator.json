@@ -2,358 +2,79 @@
   "schema_version": "3.0",
   "archetype": "analytical-evaluator",
   "archetype_description": "Processes everything logically. Needs numbers, comparisons, structured info.",
-  "total_entries": 14,
-  "last_updated": "2026-08-14",
+  "total_entries": 17,
+  "last_updated": "2026-08-30",
   "what_they_focus_on": [
-    {
-      "point": "Where the income figures actually come from — data provenance and forecast reliability",
-      "frequency": 5,
-      "confidence": 0.36,
-      "last_seen": "2026-08-14"
-    },
-    {
-      "point": "Remote/abroad management logistics and proof of an operational track record",
-      "frequency": 5,
-      "confidence": 0.36,
-      "last_seen": "2026-08-13"
-    },
-    {
-      "point": "Independently verifying or cross-checking figures against their own spreadsheet or a competing quote",
-      "frequency": 3,
-      "confidence": 0.21,
-      "last_seen": "2026-07-28"
-    },
-    {
-      "point": "Absolute net profit figure (in pounds) rather than a percentage or gross headline",
-      "frequency": 3,
-      "confidence": 0.21,
-      "last_seen": "2026-08-14"
-    },
-    {
-      "point": "Fee/cost breakdown transparency — platform, cleaning and management split out separately",
-      "frequency": 3,
-      "confidence": 0.21,
-      "last_seen": "2026-08-10"
-    },
-    {
-      "point": "Legal, compliance or planning risk (leasehold consent, listed buildings, change of use)",
-      "frequency": 3,
-      "confidence": 0.21,
-      "last_seen": "2026-08-14"
-    },
-    {
-      "point": "Comparable-set accuracy for larger or unusual properties (valuation or bedroom-count mismatches)",
-      "frequency": 2,
-      "confidence": 0.14,
-      "last_seen": "2026-08-14"
-    },
-    {
-      "point": "Financing/mortgage mechanics — whether their funding vehicle actually permits short-let use",
-      "frequency": 2,
-      "confidence": 0.14,
-      "last_seen": "2026-08-14"
-    },
-    {
-      "point": "Contract exit/termination terms and compensation scenarios",
-      "frequency": 2,
-      "confidence": 0.14,
-      "last_seen": "2026-08-13"
-    },
-    {
-      "point": "Setup/furnishing cost — comparing DIY versus company-furnished",
-      "frequency": 2,
-      "confidence": 0.14,
-      "last_seen": "2026-03-16"
-    },
-    {
-      "point": "Practical setup logistics (hot tub, bifold-door coverage, digital locks)",
-      "frequency": 2,
-      "confidence": 0.14,
-      "last_seen": "2026-08-10"
-    },
-    {
-      "point": "Direct-booking demand drivers and long-term market saturation risk",
-      "frequency": 2,
-      "confidence": 0.14,
-      "last_seen": "2026-07-28"
-    },
-    {
-      "point": "VAT/tax exposure and the most efficient ownership structure",
-      "frequency": 2,
-      "confidence": 0.14,
-      "last_seen": "2026-08-10"
-    },
-    {
-      "point": "Comparing a competing advisor's or agent's strategy against Stayful's approach",
-      "frequency": 1,
-      "confidence": 0.07,
-      "last_seen": "2026-07-28"
-    },
-    {
-      "point": "Multi-property/portfolio discount eligibility",
-      "frequency": 1,
-      "confidence": 0.07,
-      "last_seen": "2026-07-30"
-    }
+    {"point": "Where the income figures actually come from — data provenance and forecast reliability", "frequency": 7, "confidence": 0.41, "last_seen": "2026-08-30"},
+    {"point": "Remote/abroad management logistics and proof of an operational track record", "frequency": 5, "confidence": 0.29, "last_seen": "2026-08-13"},
+    {"point": "Independently verifying or cross-checking figures against their own spreadsheet or a competing quote", "frequency": 3, "confidence": 0.18, "last_seen": "2026-07-28"},
+    {"point": "Absolute net profit figure (in pounds) rather than a percentage or gross headline", "frequency": 4, "confidence": 0.24, "last_seen": "2026-08-30"},
+    {"point": "Fee/cost breakdown transparency — platform, cleaning and management split out separately", "frequency": 5, "confidence": 0.29, "last_seen": "2026-08-30"},
+    {"point": "Legal, compliance or planning risk (leasehold consent, listed buildings, change of use)", "frequency": 3, "confidence": 0.18, "last_seen": "2026-08-14"},
+    {"point": "Comparable-set accuracy for larger or unusual properties (valuation or bedroom-count mismatches)", "frequency": 2, "confidence": 0.12, "last_seen": "2026-08-14"},
+    {"point": "Financing/mortgage mechanics — whether their funding vehicle actually permits short-let use", "frequency": 2, "confidence": 0.12, "last_seen": "2026-08-14"},
+    {"point": "Contract exit/termination terms and compensation scenarios", "frequency": 2, "confidence": 0.12, "last_seen": "2026-08-13"},
+    {"point": "Setup/furnishing cost — comparing DIY versus company-furnished", "frequency": 2, "confidence": 0.12, "last_seen": "2026-03-16"},
+    {"point": "Practical setup logistics (hot tub, bifold-door coverage, digital locks)", "frequency": 2, "confidence": 0.12, "last_seen": "2026-08-10"},
+    {"point": "Direct-booking demand drivers and long-term market saturation risk", "frequency": 2, "confidence": 0.12, "last_seen": "2026-07-28"},
+    {"point": "VAT/tax exposure and the most efficient ownership structure", "frequency": 2, "confidence": 0.12, "last_seen": "2026-08-10"},
+    {"point": "Comparing a competing advisor's or agent's strategy against Stayful's approach", "frequency": 1, "confidence": 0.06, "last_seen": "2026-07-28"},
+    {"point": "Multi-property/portfolio discount eligibility", "frequency": 1, "confidence": 0.06, "last_seen": "2026-07-30"}
   ],
   "questions_they_ask": [
-    {
-      "question": "Where do these income figures actually come from — real comparables or generic estimates?",
-      "frequency": 3,
-      "confidence": 0.21,
-      "last_seen": "2026-08-14",
-      "best_answer": "Named the model's inputs (bedrooms, bathrooms, parking, address-based competition) and confirmed figures tighten further once photos are provided.",
-      "what_lands": "Naming the specific inputs and data source rather than asserting the figure is accurate."
-    },
-    {
-      "question": "What will I actually be left with each month after mortgage and bills?",
-      "frequency": 2,
-      "confidence": 0.14,
-      "last_seen": "2026-08-14",
-      "best_answer": "Walked the sum live: average net minus bills minus mortgage, landing on a concrete monthly figure with worst/best case either side.",
-      "what_lands": "Doing the arithmetic live and out loud rather than leaving the lead to work it out."
-    },
-    {
-      "question": "How does STL income compare to LTL or the other offers I've received?",
-      "frequency": 3,
-      "confidence": 0.21,
-      "last_seen": "2026-07-06",
-      "best_answer": "Gave a side-by-side net-vs-net comparison in pounds per month, honestly acknowledging when the gap was thin.",
-      "what_lands": "An honest delta, including admitting when the uplift is marginal, rather than oversell."
-    },
-    {
-      "question": "What's included in the fee — platform versus management versus cleaning?",
-      "frequency": 3,
-      "confidence": 0.21,
-      "last_seen": "2026-08-10",
-      "best_answer": "Broke the deduction into its three components (platform ~15%, cleaning ~18%, management 15%) so each cut was individually justified.",
-      "what_lands": "Itemising each deduction rather than presenting one unexplained total cut."
-    },
-    {
-      "question": "Is there a legal, planning or leasehold restriction on this property (listed building, change of use, freeholder consent)?",
-      "frequency": 3,
-      "confidence": 0.21,
-      "last_seen": "2026-08-14",
-      "best_answer": "Where known, pointed to a comparable nearby property already operating under the same restriction as a positive precedent; where unknown, said so plainly and suggested a specialist.",
-      "what_lands": "Concrete precedent when available; honest admission of the limit of Zac's expertise when not."
-    },
-    {
-      "question": "How does remote/abroad management actually work day-to-day (keys, cleaning, damage)?",
-      "frequency": 3,
-      "confidence": 0.21,
-      "last_seen": "2026-08-13",
-      "best_answer": "Described the key-safe setup, local contractor network and a centralised communication channel, citing other remote/overseas owners already managed.",
-      "what_lands": "Specific operational mechanics plus a named precedent of managing other remote owners."
-    },
-    {
-      "question": "Can my financing (SSAS/mortgage) actually be used for a short-let property?",
-      "frequency": 2,
-      "confidence": 0.14,
-      "last_seen": "2026-08-14",
-      "best_answer": "Answered directly and honestly, including confirming when a funding vehicle would not work, rather than deferring.",
-      "what_lands": "A direct, unhedged answer even when it disrupts the lead's existing plan."
-    },
-    {
-      "question": "Is there a minimum tie-in period, and what are the exit terms?",
-      "frequency": 2,
-      "confidence": 0.14,
-      "last_seen": "2026-08-13",
-      "best_answer": "Explained the fixed term exists so projections have time to land, the notice period exists to service already-booked guests, and clarified when no exit fee applies.",
-      "what_lands": "Explaining the reason behind each contract term, not just stating it."
-    },
-    {
-      "question": "Do I need to pay VAT, or how is cross-border tax handled?",
-      "frequency": 2,
-      "confidence": 0.14,
-      "last_seen": "2026-08-13",
-      "best_answer": "On VAT: explained the payout, not gross turnover, is the relevant figure. On cross-border tax: said plainly it's outside his expertise rather than guessing.",
-      "what_lands": "Precise reasoning on VAT; honest deferral on unfamiliar tax territory."
-    },
-    {
-      "question": "Would it work out cheaper to furnish the property myself rather than have you do it?",
-      "frequency": 1,
-      "confidence": 0.07,
-      "last_seen": "2026-07-30",
-      "best_answer": "Gave an honest, unfavourable-to-Stayful answer (self-furnishing would likely be cheaper due to labour cost) rather than defending the setup quote.",
-      "what_lands": "Conceding the point honestly builds more trust than defending it."
-    },
-    {
-      "question": "What's the actual net figure versus what I calculated myself?",
-      "frequency": 2,
-      "confidence": 0.14,
-      "last_seen": "2026-08-10",
-      "best_answer": "Reconciled the lead's own lower number with a specific, evidenced explanation (a review gap, a price premium) rather than disputing it.",
-      "what_lands": "A specific evidenced explanation, not a defensive dismissal."
-    },
-    {
-      "question": "Is there a discount for having multiple properties?",
-      "frequency": 1,
-      "confidence": 0.07,
-      "last_seen": "2026-07-30",
-      "best_answer": "Confirmed a multi-property discount tier directly and asked for the second property's availability date.",
-      "what_lands": "An immediate, concrete answer that opens a second opportunity."
-    }
+    {"question": "Where do these income figures actually come from — real comparables or generic estimates?", "frequency": 5, "confidence": 0.29, "last_seen": "2026-08-30", "best_answer": "Named the model's inputs (bedrooms, bathrooms, parking, address-based competition) and confirmed figures tighten further once photos are provided.", "what_lands": "Naming the specific inputs and data source rather than asserting the figure is accurate."},
+    {"question": "What will I actually be left with each month after mortgage and bills?", "frequency": 2, "confidence": 0.12, "last_seen": "2026-08-14", "best_answer": "Walked the sum live: average net minus bills minus mortgage, landing on a concrete monthly figure with worst/best case either side.", "what_lands": "Doing the arithmetic live and out loud rather than leaving the lead to work it out."},
+    {"question": "How does STL income compare to LTL or the other offers I've received?", "frequency": 3, "confidence": 0.18, "last_seen": "2026-07-06", "best_answer": "Gave a side-by-side net-vs-net comparison in pounds per month, honestly acknowledging when the gap was thin.", "what_lands": "An honest delta, including admitting when the uplift is marginal, rather than oversell."},
+    {"question": "What's included in the fee — platform versus management versus cleaning?", "frequency": 5, "confidence": 0.29, "last_seen": "2026-08-30", "best_answer": "Broke the deduction into its three components (platform ~15%, cleaning ~18%, management 15%) so each cut was individually justified.", "what_lands": "Itemising each deduction rather than presenting one unexplained total cut."},
+    {"question": "Is there a legal, planning or leasehold restriction on this property (listed building, change of use, freeholder consent)?", "frequency": 3, "confidence": 0.18, "last_seen": "2026-08-14", "best_answer": "Where known, pointed to a comparable nearby property already operating under the same restriction as a positive precedent; where unknown, said so plainly and suggested a specialist.", "what_lands": "Concrete precedent when available; honest admission of the limit of Zac's expertise when not."},
+    {"question": "How does remote/abroad management actually work day-to-day (keys, cleaning, damage)?", "frequency": 3, "confidence": 0.18, "last_seen": "2026-08-13", "best_answer": "Described the key-safe setup, local contractor network and a centralised communication channel, citing other remote/overseas owners already managed.", "what_lands": "Specific operational mechanics plus a named precedent of managing other remote owners."},
+    {"question": "Can my financing (SSAS/mortgage) actually be used for a short-let property?", "frequency": 2, "confidence": 0.12, "last_seen": "2026-08-14", "best_answer": "Answered directly and honestly, including confirming when a funding vehicle would not work, rather than deferring.", "what_lands": "A direct, unhedged answer even when it disrupts the lead's existing plan."},
+    {"question": "Is there a minimum tie-in period, and what are the exit terms?", "frequency": 2, "confidence": 0.12, "last_seen": "2026-08-13", "best_answer": "Explained the fixed term exists so projections have time to land, the notice period exists to service already-booked guests, and clarified when no exit fee applies.", "what_lands": "Explaining the reason behind each contract term, not just stating it."},
+    {"question": "Do I need to pay VAT, or how is cross-border tax handled?", "frequency": 2, "confidence": 0.12, "last_seen": "2026-08-13", "best_answer": "On VAT: explained the payout, not gross turnover, is the relevant figure. On cross-border tax: said plainly it's outside his expertise rather than guessing.", "what_lands": "Precise reasoning on VAT; honest deferral on unfamiliar tax territory."},
+    {"question": "Would it work out cheaper to furnish the property myself rather than have you do it?", "frequency": 1, "confidence": 0.06, "last_seen": "2026-07-30", "best_answer": "Gave an honest, unfavourable-to-Stayful answer (self-furnishing would likely be cheaper due to labour cost) rather than defending the setup quote.", "what_lands": "Conceding the point honestly builds more trust than defending it."},
+    {"question": "What's the actual net figure versus what I calculated myself?", "frequency": 2, "confidence": 0.12, "last_seen": "2026-08-10", "best_answer": "Reconciled the lead's own lower number with a specific, evidenced explanation (a review gap, a price premium) rather than disputing it.", "what_lands": "A specific evidenced explanation, not a defensive dismissal."},
+    {"question": "Is there a discount for having multiple properties?", "frequency": 1, "confidence": 0.06, "last_seen": "2026-07-30", "best_answer": "Confirmed a multi-property discount tier directly and asked for the second property's availability date.", "what_lands": "An immediate, concrete answer that opens a second opportunity."},
+    {"question": "What's your confidence level that you will actually achieve these numbers?", "frequency": 1, "confidence": 0.06, "last_seen": "2026-08-30", "best_answer": "Answer candidly rather than overselling (e.g. 'maybe not loads more than the current setup') and pivot to real, non-income differentiators (control, hassle reduction, competition, spec).", "what_lands": "Honest, non-inflated confidence framing lands better than reasserting the projection."}
   ],
   "objections_they_raise": [
-    {
-      "objection": "Skepticism that the income figures are inflated or a generic sales number",
-      "frequency": 3,
-      "best_response": "Explain the underlying methodology (comparable count, radius, accuracy band) rather than simply reasserting the figure.",
-      "resolution_rate": 1.0
-    },
-    {
-      "objection": "Fee percentage feels too high, often anchored to a lower long-let or competitor rate",
-      "frequency": 2,
-      "best_response": "Explain the added service complexity of short-let versus long-let before the lead anchors to their existing percentage.",
-      "resolution_rate": 0.5
-    },
-    {
-      "objection": "Setup/furnishing cost and effort barrier on an unfurnished property",
-      "frequency": 2,
-      "best_response": "Send a specific, itemised furnishing quote quickly to make the investment case concrete rather than leaving it as a range.",
-      "resolution_rate": 0.0
-    },
-    {
-      "objection": "Legal/planning restriction risk (listed building, leasehold consent, change of use)",
-      "frequency": 2,
-      "best_response": "Point to a real comparable property already operating under the same restriction, and be upfront when the answer is genuinely unknown.",
-      "resolution_rate": 0.0
-    },
-    {
-      "objection": "Financing/mortgage vehicle doesn't actually support short-let use",
-      "frequency": 1,
-      "best_response": "Confirm the limitation honestly and let the lead's own timeline determine next steps rather than pushing for a faster decision.",
-      "resolution_rate": 0.0
-    },
-    {
-      "objection": "Cross-border or unusually complex tax treatment is uncertain",
-      "frequency": 1,
-      "best_response": "State plainly this is outside expertise rather than guessing, and offer to flag it for follow-up.",
-      "resolution_rate": 0.0
-    },
-    {
-      "objection": "A competing advisor or agent is pushing a different strategy (e.g. direct-booking-first)",
-      "frequency": 1,
-      "best_response": "Validate the competing approach first, then reframe the disagreement as risk diversification rather than a right-versus-wrong choice.",
-      "resolution_rate": 1.0
-    },
-    {
-      "objection": "Contract exit/termination fees and compensation scenarios pressed repeatedly",
-      "frequency": 1,
-      "best_response": "Walk through each scenario (unhappy with service, selling, moving back) individually and confirm exactly when a fee does or doesn't apply.",
-      "resolution_rate": 1.0
-    }
+    {"objection": "Skepticism that the income figures are inflated or a generic sales number", "frequency": 4, "best_response": "Explain the underlying methodology (comparable count, radius, accuracy band) rather than simply reasserting the figure.", "resolution_rate": 1.0},
+    {"objection": "Fee percentage feels too high, often anchored to a lower long-let or competitor rate", "frequency": 2, "best_response": "Explain the added service complexity of short-let versus long-let before the lead anchors to their existing percentage.", "resolution_rate": 0.5},
+    {"objection": "Setup/furnishing cost and effort barrier on an unfurnished property", "frequency": 2, "best_response": "Send a specific, itemised furnishing quote quickly to make the investment case concrete rather than leaving it as a range.", "resolution_rate": 0.0},
+    {"objection": "Legal/planning restriction risk (listed building, leasehold consent, change of use)", "frequency": 2, "best_response": "Point to a real comparable property already operating under the same restriction, and be upfront when the answer is genuinely unknown.", "resolution_rate": 0.0},
+    {"objection": "Financing/mortgage vehicle doesn't actually support short-let use", "frequency": 1, "best_response": "Confirm the limitation honestly and let the lead's own timeline determine next steps rather than pushing for a faster decision.", "resolution_rate": 0.0},
+    {"objection": "Cross-border or unusually complex tax treatment is uncertain", "frequency": 1, "best_response": "State plainly this is outside expertise rather than guessing, and offer to flag it for follow-up.", "resolution_rate": 0.0},
+    {"objection": "A competing advisor or agent is pushing a different strategy (e.g. direct-booking-first)", "frequency": 1, "best_response": "Validate the competing approach first, then reframe the disagreement as risk diversification rather than a right-versus-wrong choice.", "resolution_rate": 1.0},
+    {"objection": "Contract exit/termination fees and compensation scenarios pressed repeatedly", "frequency": 1, "best_response": "Walk through each scenario (unhappy with service, selling, moving back) individually and confirm exactly when a fee does or doesn't apply.", "resolution_rate": 1.0},
+    {"objection": "Wants an explicit minimum-income guarantee rather than a projection", "frequency": 1, "best_response": "Decline honestly (no platform offers this), then immediately anchor the worst-case figure against a number the lead already trusts (their own current LTL/HMO income).", "resolution_rate": 1.0}
   ],
   "what_moves_them": [
-    {
-      "point": "Real, named comparable or case-study data proving the figures rather than asserting them",
-      "frequency": 4,
-      "evidence": "12 real local comparable listings (rates, occupancy, reviews) cited to substantiate a projected ADR/occupancy pair"
-    },
-    {
-      "point": "Concrete operational specifics addressing abroad/remote management trust",
-      "frequency": 4,
-      "evidence": "Key-safe setup, cleaner-vetting framework and a named precedent of managing other remote/overseas owners"
-    },
-    {
-      "point": "Honest disclosure of ramp-up/downside before it's asked",
-      "frequency": 3,
-      "evidence": "Volunteering that year-one figures run 15-20% below modelled potential and full run-rate takes 12-18 months"
-    },
-    {
-      "point": "Zac openly conceding or validating the lead's own research or a competing view rather than overselling",
-      "frequency": 3,
-      "evidence": "'Yeah, well, they're right' — confirming a lead's own research on SSAS pension limits rather than disputing it"
-    },
-    {
-      "point": "An absolute net profit number replacing an assumed lower figure",
-      "frequency": 2,
-      "evidence": "Corrected a lead's own assumed ~£30k net figure to the actual £48,874 net figure"
-    },
-    {
-      "point": "Reconciling a lead's own lower actual revenue with a specific, evidenced explanation",
-      "frequency": 1,
-      "evidence": "Identifying a ~1-year review gap as the likely cause of underperformance versus the projection"
-    },
-    {
-      "point": "Advising against unnecessary spend as a trust-building signal",
-      "frequency": 1,
-      "evidence": "Advising against installing a hot tub the lead didn't need, rather than upselling it"
-    }
+    {"point": "Real, named comparable or case-study data proving the figures rather than asserting them", "frequency": 4, "evidence": "12 real local comparable listings (rates, occupancy, reviews) cited to substantiate a projected ADR/occupancy pair"},
+    {"point": "Concrete operational specifics addressing abroad/remote management trust", "frequency": 4, "evidence": "Key-safe setup, cleaner-vetting framework and a named precedent of managing other remote/overseas owners"},
+    {"point": "Honest disclosure of ramp-up/downside before it's asked", "frequency": 3, "evidence": "Volunteering that year-one figures run 15-20% below modelled potential and full run-rate takes 12-18 months"},
+    {"point": "Zac openly conceding or validating the lead's own research or a competing view rather than overselling", "frequency": 3, "evidence": "'Yeah, well, they're right' — confirming a lead's own research on SSAS pension limits rather than disputing it"},
+    {"point": "An absolute net profit number replacing an assumed lower figure", "frequency": 2, "evidence": "Corrected a lead's own assumed ~£30k net figure to the actual £48,874 net figure"},
+    {"point": "Reconciling a lead's own lower actual revenue with a specific, evidenced explanation", "frequency": 1, "evidence": "Identifying a ~1-year review gap as the likely cause of underperformance versus the projection"},
+    {"point": "Advising against unnecessary spend as a trust-building signal", "frequency": 1, "evidence": "Advising against installing a hot tub the lead didn't need, rather than upselling it"},
+    {"point": "A real forecast-vs-actual case study (projected vs achieved) shown at the exact moment confidence is questioned", "frequency": 2, "evidence": "Manchester 3-bed: projected £62k/£32k, achieved £57k/£36k, owner payout above forecast in Year 1 — shown directly after a lead pressed for a confidence level"}
   ],
   "what_falls_flat": [
-    {
-      "point": "Percentage/relative framing that reads as fees eroding income rather than a clear upside",
-      "frequency": 1,
-      "evidence": "'The income kind of disappears... how do I know that we not end up making losses?' after a 'fractionally better than long-let' framing"
-    },
-    {
-      "point": "No answer available on a cross-border tax or specialist legal/compliance question",
-      "frequency": 1,
-      "evidence": "'No, I wouldn't really know how to advise on that' on UK-France cross-border tax treatment"
-    },
-    {
-      "point": "The comparable-set/analyser tool visibly struggling with atypical properties",
-      "frequency": 2,
-      "evidence": "Analyser capped at 5 bedrooms struggling to comp a 7-bed property; bedroom count misread forcing a live re-run"
-    },
-    {
-      "point": "Declining to give granular month-by-month figures without offering a fallback breakdown",
-      "frequency": 1,
-      "evidence": "'I can't do information that granular' left as the final word rather than offering an alternative view"
-    },
-    {
-      "point": "A live discrepancy between the verbal figure and the written quote/PDF left unreconciled",
-      "frequency": 1,
-      "evidence": "~£5,000 verbal setup estimate never reconciled with a £3,110 figure already in the Deal Analyser PDF"
-    },
-    {
-      "point": "A discount/offer expiry framed as a hard countdown, reading as pressure rather than incentive",
-      "frequency": 1,
-      "evidence": "A roughly one-month special-offer expiry landed as pressure to an already-convinced, analytical lead"
-    }
+    {"point": "Percentage/relative framing that reads as fees eroding income rather than a clear upside", "frequency": 1, "evidence": "'The income kind of disappears... how do I know that we not end up making losses?' after a 'fractionally better than long-let' framing"},
+    {"point": "No answer available on a cross-border tax or specialist legal/compliance question", "frequency": 1, "evidence": "'No, I wouldn't really know how to advise on that' on UK-France cross-border tax treatment"},
+    {"point": "The comparable-set/analyser tool visibly struggling with atypical properties", "frequency": 2, "evidence": "Analyser capped at 5 bedrooms struggling to comp a 7-bed property; bedroom count misread forcing a live re-run"},
+    {"point": "Declining to give granular month-by-month figures without offering a fallback breakdown", "frequency": 1, "evidence": "'I can't do information that granular' left as the final word rather than offering an alternative view"},
+    {"point": "A live discrepancy between the verbal figure and the written quote/PDF left unreconciled", "frequency": 1, "evidence": "~£5,000 verbal setup estimate never reconciled with a £3,110 figure already in the Deal Analyser PDF"},
+    {"point": "A discount/offer expiry framed as a hard countdown, reading as pressure rather than incentive", "frequency": 1, "evidence": "A roughly one-month special-offer expiry landed as pressure to an already-convinced, analytical lead"}
   ],
   "language_to_mirror": [
-    {
-      "phrase": "if I'm totally honest, I wasn't sure ... whether that would be precise enough",
-      "frequency": 1,
-      "context": "Directly challenging the reliability of the forecast model"
-    },
-    {
-      "phrase": "Right well looks better on paper of course.",
-      "frequency": 1,
-      "context": "Cautious acceptance pending real-world verification"
-    },
-    {
-      "phrase": "I think it's 166 is expensive... quite ambitious. But you probably know better than me.",
-      "frequency": 1,
-      "context": "Polite pricing skepticism deferring to Zac's local market knowledge"
-    },
-    {
-      "phrase": "Totally honest, more important for me... if the turnover is 100,000, it will charge me 60,000. I have like 40,000 profit. I'm happy with it.",
-      "frequency": 1,
-      "context": "Reframing the deal in absolute profit terms, not percentages"
-    },
-    {
-      "phrase": "The income kind of disappears... how do I know that we not end up making losses?",
-      "frequency": 1,
-      "context": "Underlying profitability skepticism once fees are subtracted"
-    },
-    {
-      "phrase": "I'm just ultimately a bit torn.",
-      "frequency": 1,
-      "context": "Weighing two competing pieces of professional advice"
-    },
-    {
-      "phrase": "there's two parts. One is what is achievable as a rent. And secondly, what is the occupancy rate?",
-      "frequency": 1,
-      "context": "Self-directed decomposition of the revenue model into its component drivers"
-    },
-    {
-      "phrase": "Sometimes I don't understand when I'm... putting number of bedrooms into these things is maximum five.",
-      "frequency": 1,
-      "context": "Probing the limits of the analyser tool's methodology"
-    }
+    {"phrase": "if I'm totally honest, I wasn't sure ... whether that would be precise enough", "frequency": 1, "context": "Directly challenging the reliability of the forecast model"},
+    {"phrase": "Right well looks better on paper of course.", "frequency": 1, "context": "Cautious acceptance pending real-world verification"},
+    {"phrase": "I think it's 166 is expensive... quite ambitious. But you probably know better than me.", "frequency": 1, "context": "Polite pricing skepticism deferring to Zac's local market knowledge"},
+    {"phrase": "Totally honest, more important for me... if the turnover is 100,000, it will charge me 60,000. I have like 40,000 profit. I'm happy with it.", "frequency": 1, "context": "Reframing the deal in absolute profit terms, not percentages"},
+    {"phrase": "The income kind of disappears... how do I know that we not end up making losses?", "frequency": 1, "context": "Underlying profitability skepticism once fees are subtracted"},
+    {"phrase": "I'm just ultimately a bit torn.", "frequency": 1, "context": "Weighing two competing pieces of professional advice"},
+    {"phrase": "there's two parts. One is what is achievable as a rent. And secondly, what is the occupancy rate?", "frequency": 1, "context": "Self-directed decomposition of the revenue model into its component drivers"},
+    {"phrase": "Sometimes I don't understand when I'm... putting number of bedrooms into these things is maximum five.", "frequency": 1, "context": "Probing the limits of the analyser tool's methodology"},
+    {"phrase": "I have looked at other sites and everyone has a very different estimate", "frequency": 1, "context": "Cross-checking Stayful's income projection credibility against other providers' differing numbers"}
   ],
   "meeting_guidance": {
     "opening_approach": "Open by explaining the methodology behind the figures (comparable count, radius, inputs) before showing the headline number, since this archetype trusts process over promises.",
@@ -365,35 +86,17 @@
   "delay_signal_pattern": "Analytical-evaluators show the widest delay spread of any archetype — DLY-OTH is the most common single code (15 occurrences across 14 entries, meaning most carry more than one), often reflecting 'still working through the numbers' rather than a single external blocker, alongside DLY-FUR (5) and DLY-PUR (4) tied to genuine furnishing or purchase-completion timelines.",
   "green_light_pattern": "GL-MGMT is the dominant green light (13/14) — a near-universal preference for full hands-off management — followed by GL-TIME (9/14, external deadlines like mortgage renewal or relocation) and GL-SELF (6/14, the lead proactively signalling readiness, e.g. volunteering a second property or asking about a multi-property discount).",
   "profile_type_intersections": {
-    "STL-SW": {
-      "count": 4,
-      "notes": ""
-    },
-    "EX-STL": {
-      "count": 2,
-      "notes": ""
-    },
-    "PURCH": {
-      "count": 5,
-      "notes": ""
-    },
-    "SELL": {
-      "count": 0,
-      "notes": ""
-    },
-    "ABROAD": {
-      "count": 3,
-      "notes": ""
-    },
-    "R2R": {
-      "count": 0,
-      "notes": ""
-    }
+    "STL-SW": {"count": 7, "notes": ""},
+    "EX-STL": {"count": 2, "notes": ""},
+    "PURCH": {"count": 5, "notes": ""},
+    "SELL": {"count": 0, "notes": ""},
+    "ABROAD": {"count": 3, "notes": ""},
+    "R2R": {"count": 0, "notes": ""}
   },
   "conversion_data": {
-    "total": 14,
+    "total": 17,
     "ready_now": 0,
-    "delayed": 14,
+    "delayed": 17,
     "lost": 1,
     "conversion_rate": 0.5,
     "most_common_lost_reason": ""
