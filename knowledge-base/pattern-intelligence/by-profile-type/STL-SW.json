@@ -2,47 +2,48 @@
   "schema_version": "3.0",
   "profile_type": "STL-SW",
   "profile_description": "Existing property — switching from long-let to short-let",
-  "total_entries": 37,
-  "last_updated": "2026-08-21",
+  "total_entries": 40,
+  "last_updated": "2026-08-30",
   "typical_situation": "Lead already owns a property that is currently on a standard long-term tenancy, owner-occupied, or recently vacated, and is considering switching it to short-let to get a better return — often triggered by a mortgage-rate shock, a bad tenant experience, an empty or underperforming property, or simply wanting more income from an existing asset.",
   "typical_motivation": "Escape a specific pain point (a rising mortgage payment, tenant/HMO management burden, an underperforming or empty property) and capture a meaningfully higher net return than the current or available long-let option, while keeping management genuinely hands-off.",
   "typical_timeline": "Usually gated by a concrete event that has to happen first — a sitting tenant's notice period ending, a renovation or refurb finishing, a remortgage date, or a personal circumstance (a property sale, relocation) — rather than being ready immediately, even once the financial case is already accepted.",
   "most_common_emotional_profiles": [
-    {"archetype": "analytical-evaluator", "count": 9, "percentage": 24.3},
-    {"archetype": "certainty-seeker", "count": 5, "percentage": 13.5},
-    {"archetype": "loss-averse-switcher", "count": 4, "percentage": 10.8},
-    {"archetype": "pragmatic-cost-focused", "count": 4, "percentage": 10.8},
-    {"archetype": "growth-oriented-investor", "count": 1, "percentage": 2.7}
+    {"archetype": "analytical-evaluator", "count": 12, "percentage": 30.0},
+    {"archetype": "certainty-seeker", "count": 5, "percentage": 12.5},
+    {"archetype": "loss-averse-switcher", "count": 4, "percentage": 10.0},
+    {"archetype": "pragmatic-cost-focused", "count": 4, "percentage": 10.0},
+    {"archetype": "growth-oriented-investor", "count": 1, "percentage": 2.5}
   ],
   "most_common_delays": [
-    {"delay_type": "DLY-FUR", "count": 6, "percentage": 16.2},
-    {"delay_type": "DLY-OTH", "count": 5, "percentage": 13.5},
-    {"delay_type": "DLY-TEN", "count": 4, "percentage": 10.8},
-    {"delay_type": "DLY-MOV", "count": 2, "percentage": 5.4},
-    {"delay_type": "mortgage-structure-decision", "count": 2, "percentage": 5.4}
+    {"delay_type": "DLY-FUR", "count": 6, "percentage": 15.0},
+    {"delay_type": "DLY-OTH", "count": 6, "percentage": 15.0},
+    {"delay_type": "DLY-TEN", "count": 5, "percentage": 12.5},
+    {"delay_type": "DLY-MOV", "count": 3, "percentage": 7.5},
+    {"delay_type": "mortgage-structure-decision", "count": 2, "percentage": 5.0}
   ],
   "most_common_green_lights": [
-    {"green_light_type": "GL-TIME", "count": 10, "percentage": 27.0},
-    {"green_light_type": "GL-MGMT", "count": 7, "percentage": 18.9},
-    {"green_light_type": "GL-SELF", "count": 7, "percentage": 18.9}
+    {"green_light_type": "GL-TIME", "count": 10, "percentage": 25.0},
+    {"green_light_type": "GL-MGMT", "count": 7, "percentage": 17.5},
+    {"green_light_type": "GL-SELF", "count": 7, "percentage": 17.5}
   ],
   "what_meeting_should_lead_with": "Open by naming the specific pain driving them away from their current arrangement (a rising mortgage, a bad tenant, an empty or underperforming property) and mirror it back directly, then present a worst-case-inclusive net income figure against their actual current or available long-let return — this profile converts when the numbers are concrete and the hands-off model is confirmed early, not when STL is pitched as a generic upgrade.",
   "top_questions": [
-    {"question": "How does STL income compare to what I'm getting, or could get, from a long-term let?", "frequency": 20, "confidence": 0.95, "best_answer": "Give a direct net-vs-net comparison against their actual current or quoted LTL figure, with a worst-case month included so the comparison holds even in a weak month."},
+    {"question": "How does STL income compare to what I'm getting, or could get, from a long-term let?", "frequency": 21, "confidence": 0.53, "best_answer": "Give a direct net-vs-net comparison against their actual current or quoted LTL figure, with a worst-case month included so the comparison holds even in a weak month."},
     {"question": "What furnishing/setup is needed and what will it cost?", "frequency": 8, "confidence": 0.85, "best_answer": "Give a concrete itemised estimate as early as possible, and be candid where self-furnishing might be cheaper — honesty here builds more trust than protecting the setup-quote sale."},
-    {"question": "What are the fees and what exactly is included?", "frequency": 5, "confidence": 0.7, "best_answer": "State the 15%+VAT fee plainly (or the discounted rate on offer) and confirm figures are always shown net of it."},
+    {"question": "What are the fees and what exactly is included?", "frequency": 6, "confidence": 0.15, "best_answer": "State the 15%+VAT fee plainly (or the discounted rate on offer) and confirm figures are always shown net of it."},
     {"question": "Will council tax become a second-home double charge, and can it be reduced?", "frequency": 4, "confidence": 0.7, "best_answer": "Explain the route to reclassify to business rates via a limited company structure, which can bring the liability toward zero via small business rates relief."},
-    {"question": "How is guest quality and damage risk managed?", "frequency": 4, "confidence": 0.8, "best_answer": "Detail the security deposit, ID checks with guest-history screening, and insurance cover for serious damage, and clarify interior cameras are not permitted."},
+    {"question": "How is guest quality and damage risk managed?", "frequency": 6, "confidence": 0.15, "best_answer": "Detail the security deposit, ID checks with guest-history screening, and insurance cover for serious damage, and clarify interior cameras are not permitted."},
     {"question": "Does my mortgage type allow short-letting, or do I need to change it?", "frequency": 4, "confidence": 0.6, "best_answer": "Explain a phased approach is possible (start on the existing mortgage, review switching later) and recommend speaking to a mortgage broker before any structural change."},
     {"question": "What happens in a month with low or no bookings — do I still get paid something?", "frequency": 2, "confidence": 0.5, "best_answer": "Be clear payouts reflect income actually received, which is exactly why projections and worst-case ranges are walked through upfront."},
     {"question": "Is there a minimum contract term, and what happens if I want to exit?", "frequency": 2, "confidence": 0.5, "best_answer": "Explain the 6-month initial term (needed since no onboarding/setup fee is charged) followed by a 3-month rolling notice, with flexibility if the property sells."},
-    {"question": "How accurate and reliable are these income projections really?", "frequency": 3, "confidence": 0.6, "best_answer": "State the typical accuracy range (around 10%) and explain projections are built from real comparable properties in the immediate area, not generic estimates."},
+    {"question": "How accurate and reliable are these income projections really?", "frequency": 5, "confidence": 0.12, "best_answer": "State the typical accuracy range (around 10%) and explain projections are built from real comparable properties in the immediate area, not generic estimates."},
     {"question": "Can I still use the property myself, and how does personal-use calendar blocking work?", "frequency": 2, "confidence": 0.5, "best_answer": "Confirm full calendar control is retained, flag peak months to avoid blocking, and note cleaning costs apply to personal-use turnovers."},
     {"question": "What guest type can I expect — business/contractor vs tourist/leisure?", "frequency": 3, "confidence": 0.6, "best_answer": "Point to specific local demand drivers (hospitals, universities, employers, events) that shape the natural guest mix, and confirm a mixed profile is normal and reduces single-segment risk."},
-    {"question": "Can this work if I'm long-distance or overseas and can't be there myself?", "frequency": 2, "confidence": 0.5, "best_answer": "Confirm Stayful already manages fully remote and overseas owners, some of whom have never visited their own property."},
+    {"question": "Can this work if I'm long-distance or overseas and can't be there myself?", "frequency": 2, "confidence": 0.05, "best_answer": "Confirm Stayful already manages fully remote and overseas owners, some of whom have never visited their own property."},
     {"question": "Can I see or verify an actual Stayful-managed property before committing?", "frequency": 1, "confidence": 0.3, "best_answer": "Offer a reference call with an existing owner as an alternative when a physical visit to another owner's property isn't possible."},
     {"question": "How does this work for a larger portfolio or multi-unit property (e.g. an HMO or a block of flats)?", "frequency": 2, "confidence": 0.4, "best_answer": "Recommend a pilot on a subset of units rather than an all-or-nothing conversion, and be transparent where the uplift is marginal for a given unit type."},
-    {"question": "What's the realistic timeline to go live?", "frequency": 2, "confidence": 0.4, "best_answer": "Give a specific window tied to their own readiness (existing furniture/tenant departure) rather than a generic estimate."}
+    {"question": "What's the realistic timeline to go live?", "frequency": 2, "confidence": 0.4, "best_answer": "Give a specific window tied to their own readiness (existing furniture/tenant departure) rather than a generic estimate."},
+    {"question": "Will you guarantee a minimum monthly income?", "frequency": 1, "confidence": 0.03, "best_answer": "Decline honestly (no platform offers this), then immediately anchor the worst-case STL figure against the lead's own known current LTL/HMO income so the floor is proven safe without a guarantee."}
   ],
   "top_objections": [
     {"objection": "STL income advantage over LTL is too marginal to justify switching, especially with an already-low mortgage or holding cost", "frequency": 3, "resolution_rate": 0.0, "best_response": "Be transparent when the uplift genuinely is thin, and reframe around a different angle where relevant (e.g. capital compounding, wealth acceleration) rather than overselling a weak number."},
@@ -52,8 +53,8 @@
     {"objection": "Concern about guest damage or theft to the property", "frequency": 4, "resolution_rate": 0.75, "best_response": "Walk through the security deposit, ID checks with guest-history screening, and insurance cover for serious incidents, tied to the lead's specific worry where possible."},
     {"objection": "Wants a lower management fee, often anchored to a lower rate seen elsewhere or from a different letting model", "frequency": 1, "resolution_rate": 0.0, "best_response": "Confirm any discretionary discount promptly and in writing rather than leaving a verbally floated rate unconfirmed."},
     {"objection": "Contract/performance guarantee concern — worried about being locked in if performance falls short", "frequency": 1, "resolution_rate": 0.0, "best_response": "Share verified occupancy data from comparable properties and consider framing an initial period as a low-risk trial."},
-    {"objection": "Property isn't ready — renovation, prep work, or tenant notice still outstanding", "frequency": 5, "resolution_rate": 0.2, "best_response": "Set a light-touch, milestone-based check-in cadence tied to the actual blocker (refurb stage, notice date) rather than a fixed calendar follow-up."},
-    {"objection": "Scepticism that projected income figures are inflated or generic rather than property-specific", "frequency": 2, "resolution_rate": 1.0, "best_response": "Show the actual local comparable data behind the figure and confirm firsthand experience managing similar properties in the area."},
+    {"objection": "Property isn't ready — renovation, prep work, or tenant notice still outstanding", "frequency": 7, "resolution_rate": 0.2, "best_response": "Set a light-touch, milestone-based check-in cadence tied to the actual blocker (refurb stage, notice date) rather than a fixed calendar follow-up."},
+    {"objection": "Scepticism that projected income figures are inflated or generic rather than property-specific", "frequency": 3, "resolution_rate": 1.0, "best_response": "Show the actual local comparable data behind the figure and confirm firsthand experience managing similar properties in the area."},
     {"objection": "Concerned about being too far away or overseas to manage or respond to issues", "frequency": 2, "resolution_rate": 1.0, "best_response": "Confirm remote and overseas ownership is normal and already handled at scale, with a clear maintenance-approval threshold so the owner is never called for small issues."},
     {"objection": "Currently evaluating competing STL management providers", "frequency": 1, "resolution_rate": 0.0, "best_response": "Differentiate concretely (fee, platform reach, communication model, transparency of operations) rather than assuming the pitch alone will decide it."},
     {"objection": "Mortgage or lender restriction risk from switching a residential/BTL mortgage to short-let use", "frequency": 2, "resolution_rate": 0.0, "best_response": "Recommend a phased approach — start on the existing mortgage, gather evidence, then review switching with a specialist broker."},
@@ -84,7 +85,8 @@
     {"point": "Net income figure exceeding the lead's own stated target or threshold", "frequency": 3},
     {"point": "Confirmation that fully remote or overseas ownership is already normal and well-supported", "frequency": 2},
     {"point": "A real case study where actual results met or beat the original projection", "frequency": 2},
-    {"point": "Owner portal/calendar walkthrough showing tangible control retained", "frequency": 2}
+    {"point": "Owner portal/calendar walkthrough showing tangible control retained", "frequency": 2},
+    {"point": "Anchoring the worst-case STL figure directly against the lead's own already-known current income (HMO/student rent), rather than an abstract floor", "frequency": 2}
   ],
   "language_to_use": [
     {"phrase": "The only thing you'll have to deal with is paying the mortgage and the bills, essentially. And we'll deal with everything else.", "context": "Hands-off reassurance that mirrors a lead's stated need almost word-for-word"},
@@ -92,7 +94,8 @@
     {"phrase": "Even if I'm 20% wrong, we're still profitable", "context": "Worst-case-scenario reassurance built from the lead's own numbers"},
     {"phrase": "You can apply for small business rates relief... it will lower your council tax bill to zero", "context": "Countering the second-home council tax objection with a concrete fix"},
     {"phrase": "We normally say this is within a sort of 10% accuracy range", "context": "Certainty-seeking leads questioning how reliable the income projection is"},
-    {"phrase": "It would most likely be more expensive if we furnish it, because there's labour included on our side", "context": "An unprompted honest answer, even when unfavourable to Stayful, that builds trust rather than protecting the setup-quote sale"}
+    {"phrase": "It would most likely be more expensive if we furnish it, because there's labour included on our side", "context": "An unprompted honest answer, even when unfavourable to Stayful, that builds trust rather than protecting the setup-quote sale"},
+    {"phrase": "The worst case isn't really likely to affect your current situation because it's essentially your lowest case is what you were already making", "context": "Anchoring a credibility-skeptical lead's downside directly against their own known current income to collapse the guarantee objection"}
   ],
   "presentation_section_priority": [
     "Name the specific pain driving them away from their current arrangement (rising mortgage, bad tenant, empty/underperforming property) and mirror it back directly",
@@ -103,9 +106,9 @@
     "Close with a specific, dated next step tied to whatever external event (tenant notice, refurb, remortgage) is already gating their timeline"
   ],
   "conversion_data": {
-    "total": 37,
+    "total": 40,
     "ready_now": 10,
-    "delayed": 27,
+    "delayed": 30,
     "had_meeting_2": 0,
     "converted_to_customer": 3,
     "most_common_lost_reason": "LTL vs STL margin too thin given very low mortgage; setup costs too high to justify switch"
