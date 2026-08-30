@@ -2,232 +2,58 @@
   "schema_version": "3.0",
   "archetype": "loss-averse-switcher",
   "archetype_description": "Fears making the wrong change. Needs reassurance current pain outweighs switching risk.",
-  "total_entries": 5,
-  "last_updated": "2026-07-27",
+  "total_entries": 6,
+  "last_updated": "2026-08-30",
   "what_they_focus_on": [
-    {
-      "point": "Direct £-uplift comparison between STL and their current long-let rent or minimum threshold",
-      "frequency": 3,
-      "confidence": 0.6,
-      "last_seen": "2026-07-06"
-    },
-    {
-      "point": "Fully hands-off/low-burden management model, given they don't want more to manage",
-      "frequency": 3,
-      "confidence": 0.6,
-      "last_seen": "2026-07-06"
-    },
-    {
-      "point": "Avoiding long-let tenant risk after a bad prior tenant/rental experience",
-      "frequency": 2,
-      "confidence": 0.4,
-      "last_seen": "2026-07-27"
-    },
-    {
-      "point": "Trust and track record of the management company versus a named competitor or their own prior agent",
-      "frequency": 2,
-      "confidence": 0.4,
-      "last_seen": "2026-07-27"
-    },
-    {
-      "point": "Guest vetting and damage protection given a prior bad experience with the property",
-      "frequency": 2,
-      "confidence": 0.4,
-      "last_seen": "2026-07-21"
-    },
-    {
-      "point": "Mortgage or compliance risk of running short-let on their current mortgage product",
-      "frequency": 1,
-      "confidence": 0.2,
-      "last_seen": "2026-03-16"
-    },
-    {
-      "point": "Cost of holding the property empty or unproductive versus generating any income",
-      "frequency": 1,
-      "confidence": 0.2,
-      "last_seen": "2026-07-06"
-    },
-    {
-      "point": "How fast and low-effort the transition can be (reusing existing furniture, quick go-live)",
-      "frequency": 1,
-      "confidence": 0.2,
-      "last_seen": "2026-07-27"
-    }
+    {"point": "Direct £-uplift comparison between STL and their current long-let rent or minimum threshold", "frequency": 3, "confidence": 0.5, "last_seen": "2026-07-06"},
+    {"point": "Fully hands-off/low-burden management model, given they don't want more to manage", "frequency": 4, "confidence": 0.67, "last_seen": "2026-08-25"},
+    {"point": "Avoiding long-let tenant risk after a bad prior tenant/rental experience", "frequency": 2, "confidence": 0.33, "last_seen": "2026-07-27"},
+    {"point": "Trust and track record of the management company versus a named competitor or their own prior agent", "frequency": 2, "confidence": 0.33, "last_seen": "2026-07-27"},
+    {"point": "Guest vetting and damage protection given a prior bad experience with the property", "frequency": 2, "confidence": 0.33, "last_seen": "2026-07-21"},
+    {"point": "Mortgage or compliance risk of running short-let on their current mortgage product", "frequency": 1, "confidence": 0.17, "last_seen": "2026-03-16"},
+    {"point": "Cost of holding the property empty or unproductive versus generating any income", "frequency": 1, "confidence": 0.17, "last_seen": "2026-07-06"},
+    {"point": "How fast and low-effort the transition can be (reusing existing furniture, quick go-live)", "frequency": 1, "confidence": 0.17, "last_seen": "2026-07-27"},
+    {"point": "Front-loaded furnishing/setup spend weighed directly against the modest income uplift it unlocks", "frequency": 1, "confidence": 0.17, "last_seen": "2026-08-25"}
   ],
   "questions_they_ask": [
-    {
-      "question": "Can STL genuinely generate enough to make it worth converting/keeping the property?",
-      "frequency": 1,
-      "confidence": 0.2,
-      "last_seen": "2026-04-20",
-      "best_answer": "Showed projections clearly exceeding the lead's stated minimum threshold (~£1,600/mo net vs a £750 target).",
-      "what_lands": "A number that visibly and materially clears their own stated bar."
-    },
-    {
-      "question": "How does STL income compare to my current long-let rent?",
-      "frequency": 2,
-      "confidence": 0.4,
-      "last_seen": "2026-07-06",
-      "best_answer": "Gave a direct £/month uplift figure (e.g. STL net ~£1,875/mo vs LTL ~£1,200-1,300/mo, a ~£675/mo advantage).",
-      "what_lands": "A concrete monthly delta, not a percentage."
-    },
-    {
-      "question": "What about the mortgage risk/compliance of running STL on my current mortgage?",
-      "frequency": 1,
-      "confidence": 0.2,
-      "last_seen": "2026-03-16",
-      "best_answer": "Proposed a phased approach: run the first 6 months on the existing mortgage, gather evidence, then review switching to an interest-only BTL.",
-      "what_lands": "A staged, low-risk path rather than requiring an upfront mortgage change."
-    },
-    {
-      "question": "Do I need special permission or compliance sign-off from the council?",
-      "frequency": 1,
-      "confidence": 0.2,
-      "last_seen": "2026-07-27",
-      "best_answer": "Confirmed no compliance rules outside London, just basic fire/gas/smoke safety.",
-      "what_lands": "A direct, simple no plus a short concrete checklist."
-    },
-    {
-      "question": "How established/trustworthy is Stayful compared to [a named competitor]?",
-      "frequency": 1,
-      "confidence": 0.2,
-      "last_seen": "2026-07-27",
-      "best_answer": "Cited years in operation and number of properties managed, and spoke plainly about how the named competitor operates (e.g. franchise model).",
-      "what_lands": "Specific, checkable numbers (years, property count) rather than a general claim of experience."
-    },
-    {
-      "question": "What if it doesn't book at all for a period — am I still covered against my costs?",
-      "frequency": 1,
-      "confidence": 0.2,
-      "last_seen": "2026-07-21",
-      "best_answer": "Confirmed nothing in the cost structure implied a loss-making month against their stated costs.",
-      "what_lands": "A direct, unhedged confirmation tied to their own cost figure."
-    },
-    {
-      "question": "Are the income figures credible and achievable?",
-      "frequency": 1,
-      "confidence": 0.2,
-      "last_seen": "2026-07-21",
-      "best_answer": "Cited the accuracy range (~10%) and the comparable-property count/radius behind the number.",
-      "what_lands": "Naming the accuracy band and evidence base rather than just restating the figure."
-    },
-    {
-      "question": "What insurance/damage cover is in place given the property was damaged before?",
-      "frequency": 2,
-      "confidence": 0.4,
-      "last_seen": "2026-07-21",
-      "best_answer": "Explained the security deposit, ID/history checks across platforms, and insurance cover for serious damage.",
-      "what_lands": "Concrete mechanics addressing the specific prior trauma, not a generic reassurance."
-    }
+    {"question": "Can STL genuinely generate enough to make it worth converting/keeping the property?", "frequency": 1, "confidence": 0.17, "last_seen": "2026-04-20", "best_answer": "Showed projections clearly exceeding the lead's stated minimum threshold (~£1,600/mo net vs a £750 target).", "what_lands": "A number that visibly and materially clears their own stated bar."},
+    {"question": "How does STL income compare to my current long-let rent?", "frequency": 2, "confidence": 0.33, "last_seen": "2026-07-06", "best_answer": "Gave a direct £/month uplift figure (e.g. STL net ~£1,875/mo vs LTL ~£1,200-1,300/mo, a ~£675/mo advantage).", "what_lands": "A concrete monthly delta, not a percentage."},
+    {"question": "What about the mortgage risk/compliance of running STL on my current mortgage?", "frequency": 1, "confidence": 0.17, "last_seen": "2026-03-16", "best_answer": "Proposed a phased approach: run the first 6 months on the existing mortgage, gather evidence, then review switching to an interest-only BTL.", "what_lands": "A staged, low-risk path rather than requiring an upfront mortgage change."},
+    {"question": "Do I need special permission or compliance sign-off from the council?", "frequency": 1, "confidence": 0.17, "last_seen": "2026-07-27", "best_answer": "Confirmed no compliance rules outside London, just basic fire/gas/smoke safety.", "what_lands": "A direct, simple no plus a short concrete checklist."},
+    {"question": "How established/trustworthy is Stayful compared to [a named competitor]?", "frequency": 1, "confidence": 0.17, "last_seen": "2026-07-27", "best_answer": "Cited years in operation and number of properties managed, and spoke plainly about how the named competitor operates (e.g. franchise model).", "what_lands": "Specific, checkable numbers (years, property count) rather than a general claim of experience."},
+    {"question": "What if it doesn't book at all for a period — am I still covered against my costs?", "frequency": 1, "confidence": 0.17, "last_seen": "2026-07-21", "best_answer": "Confirmed nothing in the cost structure implied a loss-making month against their stated costs.", "what_lands": "A direct, unhedged confirmation tied to their own cost figure."},
+    {"question": "Are the income figures credible and achievable?", "frequency": 2, "confidence": 0.33, "last_seen": "2026-08-25", "best_answer": "Cited the accuracy range (~10%) and the comparable-property count/radius behind the number.", "what_lands": "Naming the accuracy band and evidence base rather than just restating the figure."},
+    {"question": "What insurance/damage cover is in place given the property was damaged before?", "frequency": 3, "confidence": 0.5, "last_seen": "2026-08-25", "best_answer": "Explained the security deposit, ID/history checks across platforms, and insurance cover for serious damage.", "what_lands": "Concrete mechanics addressing the specific prior trauma, not a generic reassurance."},
+    {"question": "Is the upfront furnishing spend worth it given how modest the extra monthly income is over what I already get?", "frequency": 1, "confidence": 0.17, "last_seen": "2026-08-25", "best_answer": "Reframe as a payback/ROI calculation (e.g. extra £400/month = ~100% return on the furnishing spend within Year 1) rather than presenting the cost and income as two disconnected numbers.", "what_lands": "A concrete payback timeframe, not just a bigger income projection."}
   ],
   "objections_they_raise": [
-    {
-      "objection": "Weighing whether to sell rather than convert to STL",
-      "frequency": 1,
-      "best_response": "Show STL projections clearly exceeding the stated minimum threshold to make holding and converting the obviously better option.",
-      "resolution_rate": 0.0
-    },
-    {
-      "objection": "Two-person decision — partner/spouse not on the call and needs to align first",
-      "frequency": 2,
-      "best_response": "Agree a concrete follow-up call once the partner has been briefed, rather than leaving it open-ended.",
-      "resolution_rate": 0.0
-    },
-    {
-      "objection": "Residential mortgage risk from running STL",
-      "frequency": 1,
-      "best_response": "Propose a phased approach — test on the current mortgage first, then review switching to an interest-only BTL once evidence is gathered.",
-      "resolution_rate": 0.0
-    },
-    {
-      "objection": "Property needs preparation or furnishing before it can launch, and the cost is unclear",
-      "frequency": 3,
-      "best_response": "Give a firm, itemised cost figure at the point of the offer rather than a ballpark range.",
-      "resolution_rate": 0.5
-    },
-    {
-      "objection": "Damage/theft risk to the property, driven by a prior bad tenant or guest experience",
-      "frequency": 2,
-      "best_response": "Walk through the security deposit, vetting process and insurance cover point by point.",
-      "resolution_rate": 1.0
-    },
-    {
-      "objection": "Council tax / second-home holding cost",
-      "frequency": 1,
-      "best_response": "Explain reclassification to business rates and the likely small-business-rates-relief saving.",
-      "resolution_rate": 1.0
-    }
+    {"objection": "Weighing whether to sell rather than convert to STL", "frequency": 1, "best_response": "Show STL projections clearly exceeding the stated minimum threshold to make holding and converting the obviously better option.", "resolution_rate": 0.0},
+    {"objection": "Two-person decision — partner/spouse not on the call and needs to align first", "frequency": 2, "best_response": "Agree a concrete follow-up call once the partner has been briefed, rather than leaving it open-ended.", "resolution_rate": 0.0},
+    {"objection": "Residential mortgage risk from running STL", "frequency": 1, "best_response": "Propose a phased approach — test on the current mortgage first, then review switching to an interest-only BTL once evidence is gathered.", "resolution_rate": 0.0},
+    {"objection": "Property needs preparation or furnishing before it can launch, and the cost is unclear", "frequency": 4, "best_response": "Give a firm, itemised cost figure at the point of the offer rather than a ballpark range.", "resolution_rate": 0.5},
+    {"objection": "Damage/theft risk to the property, driven by a prior bad tenant or guest experience", "frequency": 2, "best_response": "Walk through the security deposit, vetting process and insurance cover point by point.", "resolution_rate": 1.0},
+    {"objection": "Council tax / second-home holding cost", "frequency": 1, "best_response": "Explain reclassification to business rates and the likely small-business-rates-relief saving.", "resolution_rate": 1.0}
   ],
   "what_moves_them": [
-    {
-      "point": "A concrete £-uplift figure that clearly beats their current rent or stated threshold",
-      "frequency": 3,
-      "evidence": "£1,600/mo projected vs a £750/mo target; a stated ~£675/mo STL-over-LTL advantage"
-    },
-    {
-      "point": "Guest vetting/damage protection specifics that speak directly to their prior trauma",
-      "frequency": 2,
-      "evidence": "Security deposit, background checks and insurance cover offered unprompted after a bad-tenant story"
-    },
-    {
-      "point": "Local case studies or comparable-property proof",
-      "frequency": 2,
-      "evidence": "Case studies from the Darlington area; 12 comparable listings within roughly 8km cited to substantiate figures"
-    },
-    {
-      "point": "Named track record versus a competitor they already know",
-      "frequency": 1,
-      "evidence": "Six years, ~20 properties managed, compared directly against a named competitor's franchise model"
-    },
-    {
-      "point": "Confirmation of a fast, low-effort transition (reusing existing furniture, a quick go-live date)",
-      "frequency": 1,
-      "evidence": "Outgoing tenant's furniture and video tour accepted as likely sufficient, avoiding a new furniture purchase or long delay"
-    },
-    {
-      "point": "Explicit confirmation there's no realistic loss-making-month scenario",
-      "frequency": 1,
-      "evidence": "'Nothing is saying to me that you should have a loss making month if that's what your costs are'"
-    }
+    {"point": "Reframing the furnishing/setup spend as a payback/ROI figure (e.g. ~100% return in Year 1) rather than a standalone cost", "frequency": 1, "evidence": "'What you're essentially getting on that five thousand pounds extra... is 100 return on that because you're getting an extra 400 pound a month'"},
+    {"point": "A concrete £-uplift figure that clearly beats their current rent or stated threshold", "frequency": 3, "evidence": "£1,600/mo projected vs a £750/mo target; a stated ~£675/mo STL-over-LTL advantage"},
+    {"point": "Guest vetting/damage protection specifics that speak directly to their prior trauma", "frequency": 2, "evidence": "Security deposit, background checks and insurance cover offered unprompted after a bad-tenant story"},
+    {"point": "Local case studies or comparable-property proof", "frequency": 2, "evidence": "Case studies from the Darlington area; 12 comparable listings within roughly 8km cited to substantiate figures"},
+    {"point": "Named track record versus a competitor they already know", "frequency": 1, "evidence": "Six years, ~20 properties managed, compared directly against a named competitor's franchise model"},
+    {"point": "Confirmation of a fast, low-effort transition (reusing existing furniture, a quick go-live date)", "frequency": 1, "evidence": "Outgoing tenant's furniture and video tour accepted as likely sufficient, avoiding a new furniture purchase or long delay"},
+    {"point": "Explicit confirmation there's no realistic loss-making-month scenario", "frequency": 1, "evidence": "'Nothing is saying to me that you should have a loss making month if that's what your costs are'"}
   ],
   "what_falls_flat": [
-    {
-      "point": "Leaving the co-decision-maker (partner/spouse) unengaged on the call, so no decision is reached",
-      "frequency": 2,
-      "evidence": "Wife not present at either the Robert Norris or Haider Ibrahim meeting — cited as the outstanding blocker in both"
-    },
-    {
-      "point": "Furnishing/setup cost left as a vague range rather than a firm number at the point of the offer",
-      "frequency": 2,
-      "evidence": "Furnishing cost only given as a £6,000-£8,000 ballpark at the moment the discounted offer was made"
-    },
-    {
-      "point": "No firm next-step date locked in, leaving the follow-up open-ended",
-      "frequency": 1,
-      "evidence": "Follow-up left as an open-ended check-in rather than a scheduled call"
-    }
+    {"point": "Leaving the co-decision-maker (partner/spouse) unengaged on the call, so no decision is reached", "frequency": 2, "evidence": "Wife not present at either the Robert Norris or Haider Ibrahim meeting — cited as the outstanding blocker in both"},
+    {"point": "Furnishing/setup cost left as a vague range rather than a firm number at the point of the offer", "frequency": 2, "evidence": "Furnishing cost only given as a £6,000-£8,000 ballpark at the moment the discounted offer was made"},
+    {"point": "No firm next-step date locked in, leaving the follow-up open-ended", "frequency": 1, "evidence": "Follow-up left as an open-ended check-in rather than a scheduled call"}
   ],
   "language_to_mirror": [
-    {
-      "phrase": "If we could have sold it, we would have sold it",
-      "frequency": 1,
-      "context": "Explaining that the property is a forced hold, not a lifestyle or investment choice"
-    },
-    {
-      "phrase": "I don't want to take the risk... they are all rubbish",
-      "frequency": 1,
-      "context": "Explaining aversion to long-term letting after a friend's tenant disaster"
-    },
-    {
-      "phrase": "You'd love cameras to watch over people. I don't get the house in trashed again.",
-      "frequency": 1,
-      "context": "A damage-trauma-driven request for extra protection"
-    },
-    {
-      "phrase": "So as I don't need to be fearful that you might only cover my cost",
-      "frequency": 1,
-      "context": "Voicing cost-coverage anxiety directly"
-    }
+    {"phrase": "If we could have sold it, we would have sold it", "frequency": 1, "context": "Explaining that the property is a forced hold, not a lifestyle or investment choice"},
+    {"phrase": "I don't want to take the risk... they are all rubbish", "frequency": 1, "context": "Explaining aversion to long-term letting after a friend's tenant disaster"},
+    {"phrase": "You'd love cameras to watch over people. I don't get the house in trashed again.", "frequency": 1, "context": "A damage-trauma-driven request for extra protection"},
+    {"phrase": "So as I don't need to be fearful that you might only cover my cost", "frequency": 1, "context": "Voicing cost-coverage anxiety directly"},
+    {"phrase": "to me figures don't really mean a lot until it's actually cash in the bank but they're helpful as guideposts", "frequency": 1, "context": "Pragmatic skepticism of projections even after they're understood and partly accepted"}
   ],
   "meeting_guidance": {
     "opening_approach": "Get the co-decision-maker (spouse/partner) on the call from the outset if at all possible — an absent second decision-maker is this archetype's most common single blocker, not the offer itself.",
@@ -239,35 +65,17 @@
   "delay_signal_pattern": "Loss-averse switchers most often delay on furnishing/setup readiness (DLY-FUR) and tenancy or relocation timing (DLY-TEN, DLY-MOV) — practical readiness gaps rather than reluctance. In this dataset the more decisive blocker is frequently an absent co-decision-maker (partner/spouse) rather than a coded delay type.",
   "green_light_pattern": "Where present, green lights cluster evenly across GL-TIME, GL-MGMT and GL-SELF (3/5 each) — this archetype tends to convert when a forcing deadline (an offer expiry, an empty property) combines with a clearly hands-off management pitch and their own proactive signal to proceed.",
   "profile_type_intersections": {
-    "STL-SW": {
-      "count": 4,
-      "notes": ""
-    },
-    "EX-STL": {
-      "count": 0,
-      "notes": ""
-    },
-    "PURCH": {
-      "count": 0,
-      "notes": ""
-    },
-    "SELL": {
-      "count": 1,
-      "notes": ""
-    },
-    "ABROAD": {
-      "count": 0,
-      "notes": ""
-    },
-    "R2R": {
-      "count": 0,
-      "notes": ""
-    }
+    "STL-SW": {"count": 4, "notes": ""},
+    "EX-STL": {"count": 0, "notes": ""},
+    "PURCH": {"count": 0, "notes": ""},
+    "SELL": {"count": 1, "notes": ""},
+    "ABROAD": {"count": 1, "notes": ""},
+    "R2R": {"count": 0, "notes": ""}
   },
   "conversion_data": {
-    "total": 5,
+    "total": 6,
     "ready_now": 0,
-    "delayed": 4,
+    "delayed": 5,
     "lost": 0,
     "conversion_rate": 0.4,
     "most_common_lost_reason": ""
