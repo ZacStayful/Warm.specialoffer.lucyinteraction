@@ -1,31 +1,31 @@
 {
   "schema_version": "3.0",
-  "last_entry_number": "084",
-  "total_transcripts": 103,
+  "last_entry_number": "090",
+  "total_transcripts": 109,
   "summary_only_count": 2,
-  "playbook_version": 1,
-  "last_run_at": "2026-08-23T08:05:00Z",
+  "playbook_version": 2,
+  "last_run_at": "2026-08-30T08:50:58Z",
 
   "quarterly_index": {
     "2026-Q1": {"count": 6, "first": "006", "last": "018", "path": "transcripts/2026-Q1/"},
     "2026-Q2": {"count": 72, "first": "003", "last": "071", "path": "transcripts/2026-Q2/"},
-    "2026-Q3": {"count": 25, "first": "072", "last": "084", "path": "transcripts/2026-Q3/"}
+    "2026-Q3": {"count": 31, "first": "072", "last": "090", "path": "transcripts/2026-Q3/"}
   },
 
   "outcome_breakdown": {
-    "READY_NOW": 27,
+    "READY_NOW": 28,
     "READY_SOON": 0,
-    "DELAYED": 76,
+    "DELAYED": 81,
     "NURTURE": 0,
     "LOST": 13
   },
 
   "delay_breakdown": {
-    "DLY-TEN": 7,
+    "DLY-TEN": 8,
     "DLY-FUR": 11,
     "DLY-PUR": 10,
-    "DLY-MOV": 8,
-    "DLY-OTH": 24
+    "DLY-MOV": 10,
+    "DLY-OTH": 26
   },
 
   "green_light_breakdown": {
@@ -35,32 +35,35 @@
   },
 
   "archetype_breakdown": {
-    "certainty-seeker": 10,
-    "loss-averse-switcher": 5,
-    "analytical-evaluator": 14,
+    "certainty-seeker": 11,
+    "loss-averse-switcher": 6,
+    "analytical-evaluator": 17,
     "urgency-driven": 0,
     "status-quo-resistant": 0,
     "betrayal-damaged": 0,
     "social-proof-dependent": 0,
-    "fast-path-gain-focused": 1,
+    "fast-path-gain-focused": 2,
     "unassigned": 73
   },
 
   "training_status": {
-    "total_meetings": 103,
+    "total_meetings": 109,
     "confidence": "strong",
     "thresholds": {
       "low": "< 15", "building": "15-30",
       "good": "30-50", "strong": "50+"
     },
     "data_gaps": [
-      "This was the first successful full build: manifest.json, pattern-intelligence/, response-library/, playbook/, and context/ did not exist before this run despite 71 transcripts already sitting in GitHub — likely a prior run stalled after Step 6 (transcript commits) without ever reaching the merge/rebuild steps.",
+      "This was the first successful full build: manifest.json, pattern-intelligence/, response-library/, playbook/, and context/ did not exist before the 2026-08-23 run despite 71 transcripts already sitting in GitHub — likely a prior run stalled after Step 6 (transcript commits) without ever reaching the merge/rebuild steps.",
       "Entry number '075' was reused in the Google Drive Intelligence Entries folder for 13 different leads (Indra Bassi, Sophia, Alice Axtell, Ross Topping, Ijaz Qazi, Gregory Davis, Dexter Sinclair, Anthony Taylor, Akter Uzzaman, Michael, Thomas Costa, Raj Biring, Steven Browne) — a Drive naming/numbering bug worth fixing at the source so future entry numbers stay unique.",
-      "Only 30 of 103 entries (29%) carry one of the 8 canonical emotional-profile archetype slugs verbatim; the rest either have no emotional_profile field (32 entries, older 'thin' schema) or free-text psychological descriptions instead of a slug (41 entries) — 4 of 8 archetype files (urgency-driven, status-quo-resistant, betrayal-damaged, social-proof-dependent) have zero entries as a direct result. The Lead Psychology Profiler should be checked for whether it's meant to output the canonical slug and isn't, or whether the taxonomy needs to change.",
-      "No dedicated by-green-light-type pattern file/schema exists (unlike delays, which have 5 clean by-delay-type files) — green_light_breakdown above is a placeholder; a future run should add knowledge-base/pattern-intelligence/by-green-light-type/ to close this gap.",
-      "offer-timing-intelligence.json's literal offer_conversion_rate came out at 2.27% (1 of 44 offers) because no transcript's offer_timing.offer_outcome field literally contains the string 'accepted' — even where offer_accepted_at_meeting is true elsewhere in the same entry. This is very likely underselling true acceptance and should be recomputed next run using offer_accepted_at_meeting as the primary signal, with offer_outcome as a secondary text field, rather than literal string-matching.",
-      "2 entries have transcript_quality 'summary_only' (Steven Browne — no Granola recording exists) — everything else pulled full verbatim transcripts.",
-      "Two source schemas coexist in transcripts/: an older 'thin' schema (existing/, ~46 files) with flat fields (top_questions, top_objections, delay_types as strings) and no lead_responses/meeting_flow/offer_timing/friction_moments, versus the richer v3.0 schema used by all 25 new entries and some older ones. Playbook/context sections needing meeting_flow or friction data (opening phrases, closing scripts) could only draw on the ~25-57 richer entries, not the full 103 — this caps how representative those specific sections are versus the population-level stats."
+      "Only 36 of 109 entries (33%) carry one of the 8 canonical emotional-profile archetype slugs verbatim; the rest either have no emotional_profile field (older 'thin' schema) or free-text psychological descriptions instead of a slug — 4 of 8 archetype files (urgency-driven, status-quo-resistant, betrayal-damaged, social-proof-dependent) have zero entries as a direct result. All 6 of this run's new entries were successfully tagged with a canonical slug where evidence supported it; the remaining gap is entirely in the pre-existing 103. The Lead Psychology Profiler should be checked for whether it's meant to output the canonical slug and isn't, or whether the taxonomy needs to change.",
+      "No dedicated by-green-light-type pattern file/schema exists (unlike delays, which have 5 clean by-delay-type files) — green_light_breakdown above remains a placeholder; a future run should add knowledge-base/pattern-intelligence/by-green-light-type/ to close this gap.",
+      "FIXED THIS RUN (2026-08-30): offer-timing-intelligence.json's offer_conversion_rate now computes from count(offer_accepted_at_meeting==true)/total_offers_analysed rather than literal string-matching on offer_outcome=='accepted'. New rate is 4.4% (2 of 45), up from the old buggy 2.27%. Residual gap: only 2 of 45 offer-made entries have offer_accepted_at_meeting reliably backfilled (the one historical entry that already read 'accepted', plus this run's entry 086); the other 43 have not been individually re-audited, so 4.4% is a floor — a dedicated backfill pass over all 44 prior offer-made transcripts is recommended next run to set this field explicitly on each and produce a final, trustworthy figure.",
+      "2 entries have transcript_quality 'summary_only' (Steven Browne — no Granola recording exists) — everything else, including all 6 of this run's entries, pulled full verbatim transcripts.",
+      "Two source schemas coexist in transcripts/: an older 'thin' schema (~46 files) with flat fields (top_questions, top_objections, delay_types as strings) and no lead_responses/meeting_flow/offer_timing/friction_moments, versus the richer v3.0 schema used by all entries from 072 onward. Playbook/context sections needing meeting_flow or friction data (opening phrases, closing scripts) could only draw on the richer entries, not the full 109 — this caps how representative those specific sections are versus the population-level stats.",
+      "PURCH profile-type taxonomy gap, reinforced this run: entry 085 (Dan Snape) is an inheritance/probate case, not a conventional purchase, and was filed under PURCH as the nearest available fit — the third such data point after 080 (Nigel Hyde) and 082 (Rob Benson). A dedicated INHERIT or NEW-BUILD profile code is overdue.",
+      "NOT ATTEMPTED THIS RUN: response-library/objections.json (existing size ~68KB) and response-library/questions.json (existing size ~89KB, already over its 80KB budget from a prior run — a pre-existing validation issue, not caused by this run) were not re-audited or merged with new-entry evidence this run, due to their size making a full safe re-read/re-write impractical within this run's scope. Both files were left untouched (not committed, not modified) rather than risk a partial or unvalidated edit. Recommend a dedicated pass next run: (1) fully read and prune/dedupe questions.json back under its 80KB budget (respecting the frequency>=5 no-prune rule), then (2) merge this run's 6 entries' new questions/objections into both files.",
+      "Playbook (playbook/*.md) and context (context/*.md) files were rebuilt this run primarily from the now-updated pattern-intelligence and response-library aggregate files rather than by re-reading all 109 raw transcript files, per the pragmatic-deviation guidance in this run's own instructions — this keeps the rebuild fast and accurate for aggregate-level stats, but means any nuance present only in objections.json/questions.json (which were not touched this run, see above) is not reflected in the playbook rebuild either."
     ]
   },
 
@@ -88,11 +91,13 @@
   },
 
   "health": {
-    "files_committed": 30,
+    "files_committed": 29,
     "files_failed": 0,
-    "validation_errors": [],
+    "validation_errors": [
+      "response-library/questions.json exceeds its 80KB size budget (~89KB) — pre-existing from a prior run, not modified or re-validated this run; flagged for a dedicated prune/backfill pass next run."
+    ],
     "summary_only_entries": ["075-steven-browne"],
     "missing_archetype_entries": 73,
-    "run_duration_seconds": 0
+    "run_duration_seconds": 2506
   }
 }
