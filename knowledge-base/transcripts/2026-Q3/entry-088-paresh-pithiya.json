@@ -1,0 +1,190 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "088",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-08-24",
+  "transcript_quality": "full",
+  "lead_name": "Paresh Pithiya",
+  "email": "paresh@tareton.com",
+  "monday_id": "12865303955",
+  "address": "72 Palmerston Road, Woodston, Peterborough PE2 9DG",
+  "bedrooms": 5,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "Convert an underperforming 5-bed all-ensuite HMO (currently breaking even) to short-let for meaningfully higher return",
+  "property_situation": "5-bed all-ensuite HMO (4 with kitchenettes), converted ~2 years ago to a high standard, currently tenanted via a managing agent Paresh isn't impressed with; tenancy notice required before transition; two further brand-new 7-bed/14-studio properties coming to market",
+  "property_type": "5-bed HMO, all ensuite, 4 with kitchenettes",
+  "emotional_profile": "analytical-evaluator",
+  "conversion_likelihood": 65,
+  "profile_confidence": "high — built and sold a lettings business in 2013, interrogated data source/methodology, pressed for a confidence level rather than accepting the figure",
+  "primary_blocker": "Tenancy notice required for existing HMO tenants before short-let transition can begin",
+  "language_signals": [
+    "What's the data source behind your analysis?",
+    "Just what's your confidence level that you will achieve the numbers?",
+    "Still a question mark because you never know where these things until you actually try it",
+    "That will give me the buffer I need for first year of trying this out"
+  ],
+  "portfolio_flag": true,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-TEN",
+      "trigger_phrase": "Tenants in. Yeah. I'd have to give them notice.",
+      "context": "Property is currently a tenanted HMO; tenancy rule changes mean notice is required before it can transition to short-let",
+      "timeline_given": "September mentioned as a rough timeframe, no fixed date",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "no_decision_yet"
+  },
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start just by understanding a bit more about sort of your current situation situation with the property in your interest in short letting",
+    "rapport_topics": [
+      "Paresh's own former lettings business, sold 2013",
+      "Zac's own background starting STL in 2020"
+    ],
+    "pivot_to_business": "Paresh drove straight into property specifics (3D walkthrough) and a structural question about letting the front room separately",
+    "income_intro": "about 89,000 of gross, about seven and a half thousand a month, then that translates to about 46,400 of net, about 3,000 per month",
+    "post_income_silence": "Still a question mark because you never know where these things until you actually try it",
+    "how_it_works_transition": "I'll just share my screen and we can compare... short let figures versus the hmo figures",
+    "pre_close_setup": "Zac showed the Manchester 3-bed forecast-vs-actual case study (projected £62k/£32k, achieved £57k/£36k) directly before the confidence-level question",
+    "close_phrase": "I'll summarize everything we've spoken about... send our agreement over as well",
+    "meeting_2_ask": "September mentioned informally, not booked",
+    "total_duration_mins": 35,
+    "talk_ratio_zac_pct": 50
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "So what's the data source behind your analysis?",
+      "category": "question",
+      "meeting_phase": "income_walkthrough",
+      "zac_responded_with": "named Property Market Intel, short-let market APIs, a property data API and Google Places, and described building the software himself",
+      "lead_follow_up": "asked how many units Zac manages and his background",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Smart locks... they've never failed actually",
+      "category": "objection",
+      "meeting_phase": "mid_meeting",
+      "zac_responded_with": "stated his preference for key safes on failure-mode grounds without dismissing Paresh's experience",
+      "lead_follow_up": "none — left as an open disagreement",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Just what's your confidence level that you will achieve the numbers?",
+      "category": "objection",
+      "meeting_phase": "pre_close",
+      "zac_responded_with": "answered candidly: 'maybe not loads more than the HMO' but more control, less hassle, low competition, good spec; flagged Year 1 as the nervy data-gathering year",
+      "lead_follow_up": "responded well, moved to discussing bringing other properties in-house for a Year-1 buffer",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Let me have a think about it and I'll come back to you",
+      "category": "neutral",
+      "meeting_phase": "close",
+      "zac_responded_with": "agreed to re-run the analysis on receipt of the address in writing and to model the two new properties",
+      "lead_follow_up": "disclosed two new 7-bed/14-studio properties and asked for configuration advice",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Two new brand-new 7-bed/14-studio properties disclosed at the end of the call — materially larger opportunity than Palmerston Road, scenario modelling explicitly requested",
+      "category": "process_clarity",
+      "evidence": "Two semi-detached properties... seven bedrooms all on suites, all studios. So that's 14 rooms in total... keen to get your thoughts on whether that would work",
+      "how_to_fill": "Deliver scenario reports (2 separate 7-bed listings vs 1 combined 14-room vs individual room lets) quickly and well — this is the credibility test Paresh has effectively set",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Presentation cost-hierarchy slide (paresh-pe2-webmeeting.html) omits cleaning/laundry, understating cost stack by ~£18,000 vs the correct FORECAST net of £46,407",
+      "category": "process_clarity",
+      "evidence": "the cost-hierarchy slide... shows 'Your income after fees: £64,476'... omits cleaning and laundry entirely",
+      "how_to_fill": "Fix the presentation generator's cost-hierarchy slide before it is shown to another lead — Zac gave the correct figure verbally on this call so Paresh has the right number, but the slide itself is misleading as displayed",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Manchester 3-bed forecast-vs-actual case study (projected £62k gross/£32k net; achieved £57k gross/£36k net, owner payout above forecast in Year 1)",
+      "lead_response": "visibly landed — strongest single piece of evidence in the call",
+      "phase": "pre_close",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    },
+    {
+      "what_caused_shift": "Zac's honest 'maybe not loads more than the HMO' answer to the confidence-level question",
+      "lead_response": "responded well — candour converted better than optimism would have",
+      "phase": "pre_close",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Disagreement over lock boxes vs smart locks (Paresh's smart locks have never failed across his portfolio)",
+      "lead_response": "held his ground, no visible frustration but position unresolved",
+      "recovery_attempted": "Zac stated his preference without dismissing Paresh's real experience",
+      "resolved": false
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "I thought I'd start just by understanding a bit more about sort of your current situation"
+    ],
+    "transition_phrases": [
+      "I'll just share my screen and we can compare"
+    ],
+    "reassurance_phrases": [
+      "I don't see any reason why it wouldn't be a problem"
+    ],
+    "emphasis_phrases": [
+      "We'd be having the conversation if I didn't think it would work"
+    ],
+    "analogies_used": [],
+    "numbers_framing": "Presented gross/net/ADR/occupancy first, then immediately pivoted to a real forecast-vs-actual case study rather than resting on the projection alone",
+    "objection_handling_pattern": "On the confidence-level question, answered candidly rather than overselling ('maybe not loads more than the HMO') and then pivoted to control/hassle/competition as the real differentiators"
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "analytical-evaluator",
+    "what_they_focused_on": [
+      "data source and methodology behind the projection",
+      "Zac's credibility and operational logistics",
+      "achievability/confidence level, not just the headline figure"
+    ],
+    "what_they_needed_most": [
+      "a real forecast-vs-actual case study, not just a projection"
+    ],
+    "what_fell_flat": [
+      "dismissing his smart-lock experience outright would likely have cost trust — Zac avoided this"
+    ],
+    "recommended_meeting_adjustment": "With sophisticated, data-literate leads, do not oversell — candid answers on achievability convert better than enthusiasm; keep a forecast-vs-actual case study ready to deploy at the confidence-level moment"
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
