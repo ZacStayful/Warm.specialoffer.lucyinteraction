@@ -1,0 +1,173 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "087",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-08-24",
+  "transcript_quality": "full",
+  "lead_name": "Andy Phillips",
+  "email": "bigbullet14@googlemail.com",
+  "monday_id": "12852745123",
+  "address": "Eastleigh, Desborough Road, SO50 5NP",
+  "bedrooms": 3,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Looking to move abroad and short let my home",
+  "stl_goal": "Short-let the family home to cover the mortgage and fund a glamping-site startup in Somerset during the early years",
+  "property_situation": "Currently owner-occupied; planning to relocate to Somerset around August/September 2027 to start a glamping business; on a standard residential mortgage, in talks with broker about a buy-to-let switch, possibly via a 1-year residential bridge first",
+  "property_type": "3-bed home with two off-street parking spaces, large garden, newly built summer house with cinema projector, downstairs toilet plus upstairs bathroom",
+  "emotional_profile": "analytical-evaluator",
+  "conversion_likelihood": 55,
+  "profile_confidence": "medium — thorough structured questions (insurance, occupancy, storage, flooring, fees) but no hard skepticism or resistance, so archetype fit is reasonable but not as sharply evidenced as a harder-edged analytical lead",
+  "primary_blocker": "Long runway to an Aug/Sep 2027 move date and an unresolved mortgage-type switch (residential to buy-to-let)",
+  "language_signals": [
+    "we've got a buffer for that",
+    "the house is set up in any which way we can use it",
+    "having the actual figures there... makes a huge, huge difference to the business plan moving forward"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-MOV",
+      "trigger_phrase": "the time frame that we were looking is around August, September next year",
+      "context": "Andy and his partner are relocating to Somerset to start a glamping business; move date depends partly on planning permission and site appraisal for that business",
+      "timeline_given": "~12-13 months out (Aug/Sep 2027), with the goalpost possibly moving depending on planning permission",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "no_decision_yet"
+  },
+  "meeting_flow": {
+    "opening_phrase": "So how you doing? ... I thought I'd start just understanding a bit more on sort of your current situation",
+    "rapport_topics": [
+      "the glamping-site business plan",
+      "building the summer house/cinema room himself"
+    ],
+    "pivot_to_business": "Direct pivot from 'what's the current situation with the property' straight into the buy-to-let mortgage note and figures",
+    "income_intro": "So wishes what we've managed to get from your information... we're looking about 39,000 of gross, which translates to about 20,000 in net or about sort of 1700 per month",
+    "post_income_silence": "I'm quite happy with that",
+    "how_it_works_transition": "I mean I suppose what would be useful to go through is obviously while you're away... what level of oversight do you have to see how things are running",
+    "pre_close_setup": "Extended discussion of amenities (summer house, shed storage, carpet vs wood floor) building confidence before close",
+    "close_phrase": "A couple things I do after this call for you is I'll send you an email and it just sort of summarize everything we've spoken about",
+    "meeting_2_ask": "",
+    "total_duration_mins": 30,
+    "talk_ratio_zac_pct": 55
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "I'm quite happy with that. So obviously we understand that there's going to be a service for your cleaning fee",
+      "category": "question",
+      "meeting_phase": "income_walkthrough",
+      "zac_responded_with": "clarified the maintenance/deposit mechanic (guest-fault vs fair wear and tear, £300 threshold)",
+      "lead_follow_up": "asked about insurance changing over in September",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "My insurance is due to change in September... do I need a brand new package?",
+      "category": "question",
+      "meeting_phase": "mid_meeting",
+      "zac_responded_with": "advised standard buildings & contents is usually fine, ask the insurer the question but don't over-worry",
+      "lead_follow_up": "accepted the answer, moved on",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Having the actual figures there... makes a huge, huge difference to the business plan moving forward. So really helps.",
+      "category": "positive_shift",
+      "meeting_phase": "close",
+      "zac_responded_with": "confirmed the follow-up email would include the figures, the 20% ramp-up buffer and the agreement",
+      "lead_follow_up": "committed to paying the setup invoice within a couple of days",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Mortgage switch from residential to buy-to-let not yet resolved with the broker",
+      "category": "financial_readiness",
+      "evidence": "I have been in talks with my broker about the plan... he's just gathering lots of information for us at the moment",
+      "how_to_fill": "Light-touch check-in once the buy-to-let mortgage switch progresses rather than a fixed calendar chase",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "No urgency lever exists or was created — the timeline is ~13 months out with no offer attached",
+      "category": "process_clarity",
+      "evidence": "target move Aug/Sep 2027... deliberately framed as 'well ahead of your move' rather than a hard date",
+      "how_to_fill": "Not recommended to manufacture urgency here given the genuinely long runway; maintain periodic light-touch contact instead",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Concrete figures replacing vague expectations for the glamping business plan",
+      "lead_response": "having the actual figures there... makes a huge, huge difference to the business plan moving forward",
+      "phase": "close",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    },
+    {
+      "what_caused_shift": "Zac's flexible workspace/sofa-bed suggestion for the middle bedroom",
+      "lead_response": "immediately started planning around it, offered to fit a desk + sofa bed",
+      "phase": "mid_meeting",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    }
+  ],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [
+      "I thought I'd start just understanding a bit more on sort of your current situation"
+    ],
+    "transition_phrases": [
+      "I suppose what would be useful to go through is... what level of oversight do you have"
+    ],
+    "reassurance_phrases": [
+      "I don't think it's one of them, like, end of the world sort of things"
+    ],
+    "emphasis_phrases": [
+      "This is definitely something we'll be able to help with"
+    ],
+    "analogies_used": [],
+    "numbers_framing": "Average, worst-case (Feb, £1,100) and peak (Aug, £2,400) net figures given up front, with an explicit ~20% Year-1 ramp-up buffer volunteered unprompted",
+    "objection_handling_pattern": "No real objections raised; Zac answered each clarifying question directly and moved straight to the next topic without over-selling"
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "analytical-evaluator",
+    "what_they_focused_on": [
+      "insurance timing",
+      "occupancy expectations",
+      "storage/flooring decisions",
+      "fee structure"
+    ],
+    "what_they_needed_most": [
+      "concrete figures to plug into an external business plan (the glamping startup)"
+    ],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": "For relocation/lifestyle-funding leads with a long runway, do not manufacture urgency — focus on giving concrete, forwardable figures they can use in their own planning"
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
