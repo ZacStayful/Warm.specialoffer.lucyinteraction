@@ -2,17 +2,18 @@
   "schema_version": "3.0",
   "delay_type": "DLY-OTH",
   "delay_description": "Other prerequisite — blocking event must resolve",
-  "total_entries": 24,
-  "last_updated": "2026-08-21",
+  "total_entries": 26,
+  "last_updated": "2026-08-30",
   "trigger_phrases": [
-    {"phrase": "Renovation, refurbishment, or building work not yet complete", "frequency": 8},
+    {"phrase": "Renovation, refurbishment, or building work not yet complete", "frequency": 9},
     {"phrase": "Mortgage/financing structure or lender terms not yet resolved", "frequency": 6},
     {"phrase": "Third-party consent required (freeholder, management company, or existing letting agent)", "frequency": 5},
     {"phrase": "Needs partner/spouse sign-off before deciding", "frequency": 4},
     {"phrase": "Compliance, certification, or legal-permission requirement (gas/electrical certs, change of use, subletting clause)", "frequency": 3},
     {"phrase": "Lead's own travel or personal logistics gate when they can act", "frequency": 3},
     {"phrase": "Wants to inspect the property or receive written materials before deciding", "frequency": 2},
-    {"phrase": "Current cost base doesn't yet justify switching — needs the numbers to improve first", "frequency": 1}
+    {"phrase": "Current cost base doesn't yet justify switching — needs the numbers to improve first", "frequency": 1},
+    {"phrase": "Probate/inheritance process not yet complete — no legal possession of the property", "frequency": 1}
   ],
   "typical_timeline": {
     "most_common_months": 1,
@@ -21,16 +22,17 @@
     "notes": "This category spans the widest range of blockers — from a same-week spousal sign-off to multi-month renovation or third-party consent processes — so no single timeframe dominates; most named timelines resolved within one to three months."
   },
   "what_leads_focus_on_while_waiting": [
-    {"concern": "When the builder/renovation/refurb will actually finish", "frequency": 8},
+    {"concern": "When the builder/renovation/refurb will actually finish", "frequency": 9},
     {"concern": "Sorting mortgage rate, lender permission, or funding structure", "frequency": 6},
     {"concern": "Getting sign-off from a freeholder, management company, or existing letting agent", "frequency": 5},
     {"concern": "Bringing a partner or spouse up to speed before committing jointly", "frequency": 4},
     {"concern": "Confirming legal/compliance requirements are met (certificates, change of use, mortgage T&Cs)", "frequency": 3},
-    {"concern": "Wanting to see the property or written materials in hand before deciding", "frequency": 2}
+    {"concern": "Wanting to see the property or written materials in hand before deciding", "frequency": 2},
+    {"concern": "Awaiting probate/legal possession of an inherited property", "frequency": 1}
   ],
   "emotional_profiles_most_common": [
-    {"profile": "analytical-evaluator", "count": 16},
-    {"profile": "certainty-seeker", "count": 5},
+    {"profile": "analytical-evaluator", "count": 17},
+    {"profile": "certainty-seeker", "count": 6},
     {"profile": "loss-averse-switcher", "count": 1},
     {"profile": "unspecified", "count": 2}
   ],
@@ -42,7 +44,7 @@
     "what_to_write_to_monday": "Log the specific blocking event in plain terms (which renovation stage, which third party's consent, which document the spouse is reviewing) and the date it's expected to resolve, since 'other' blockers need their own description to be useful later."
   },
   "conversion_after_delay": {
-    "total": 24,
+    "total": 26,
     "eventually_converted": 9,
     "conversion_rate": 0.38,
     "avg_months_to_convert": 0,
