@@ -2,29 +2,29 @@
   "schema_version": "3.0",
   "profile_type": "EX-STL",
   "profile_description": "Already short-letting, switching management company",
-  "total_entries": 17,
-  "last_updated": "2026-08-10",
+  "total_entries": 18,
+  "last_updated": "2026-08-30",
   "typical_situation": "Lead is already running the property as a short-let, either self-managed or through another management company (e.g. Pass the Keys, Hello Guest, MyProperty Host, Residential Estates), and is dissatisfied with underperformance — low reviews, poor occupancy vs the local market, operational failures like missed check-ins or unresolved maintenance, or a fee increase at renewal.",
   "typical_motivation": "Fix chronic underperformance or reduce management fees so the property finally hits the net income originally expected from short-letting, without having to become hands-on themselves.",
   "typical_timeline": "Gated by the notice period owed to the current management company (often weeks to a few months), sometimes deliberately timed to a natural quiet season for a clean handover of an established, review-rich listing.",
   "most_common_emotional_profiles": [
-    {"archetype": "certainty-seeker", "count": 3, "percentage": 17.6},
-    {"archetype": "analytical-evaluator", "count": 2, "percentage": 11.8},
-    {"archetype": "growth-oriented-investor", "count": 2, "percentage": 11.8},
-    {"archetype": "pragmatic-cost-focused", "count": 1, "percentage": 5.9},
-    {"archetype": "fast-path-gain-focused", "count": 1, "percentage": 5.9}
+    {"archetype": "certainty-seeker", "count": 3, "percentage": 16.7},
+    {"archetype": "analytical-evaluator", "count": 2, "percentage": 11.1},
+    {"archetype": "growth-oriented-investor", "count": 2, "percentage": 11.1},
+    {"archetype": "pragmatic-cost-focused", "count": 1, "percentage": 5.6},
+    {"archetype": "fast-path-gain-focused", "count": 2, "percentage": 11.1}
   ],
   "most_common_delays": [
-    {"delay_type": "DLY-OTH", "count": 3, "percentage": 17.6},
-    {"delay_type": "LTL-test-strategy-consideration", "count": 2, "percentage": 11.8},
-    {"delay_type": "property-not-yet-ready", "count": 2, "percentage": 11.8}
+    {"delay_type": "DLY-OTH", "count": 3, "percentage": 16.7},
+    {"delay_type": "LTL-test-strategy-consideration", "count": 2, "percentage": 11.1},
+    {"delay_type": "property-not-yet-ready", "count": 2, "percentage": 11.1}
   ],
   "most_common_green_lights": [
-    {"green_light_type": "GL-MGMT", "count": 7, "percentage": 41.2},
-    {"green_light_type": "GL-TIME", "count": 2, "percentage": 11.8},
-    {"green_light_type": "action-plan-delivered-as-promised", "count": 2, "percentage": 11.8},
-    {"green_light_type": "GL-SELF", "count": 1, "percentage": 5.9},
-    {"green_light_type": "scalability-need-self-articulated", "count": 2, "percentage": 11.8}
+    {"green_light_type": "GL-MGMT", "count": 7, "percentage": 38.9},
+    {"green_light_type": "GL-TIME", "count": 3, "percentage": 16.7},
+    {"green_light_type": "action-plan-delivered-as-promised", "count": 2, "percentage": 11.1},
+    {"green_light_type": "GL-SELF", "count": 2, "percentage": 11.1},
+    {"green_light_type": "scalability-need-self-articulated", "count": 2, "percentage": 11.1}
   ],
   "what_meeting_should_lead_with": "Skip re-pitching short-letting as a concept — this lead already believes in it. Lead instead with a specific, evidenced diagnosis of why the current setup underperforms (reviews, pricing, listing structure, communication) and only then contrast Stayful's model point-by-point against the current company, backed with real numbers and concrete proof points.",
   "top_questions": [
@@ -37,7 +37,8 @@
     {"question": "Can Stayful scale with me as I grow to multiple properties?", "frequency": 2, "confidence": 0.6, "best_answer": "Yes — describe the portfolio-partnership model: each property independently managed but coordinated through one team, with owner calendar visibility across the whole portfolio."},
     {"question": "What platforms will the property be listed on?", "frequency": 2, "confidence": 0.6, "best_answer": "Multi-platform (Airbnb, Booking.com) plus direct booking channels, contrasted against a single-platform current setup."},
     {"question": "Do I need to register for VAT / how does the payout work for tax purposes?", "frequency": 1, "confidence": 0.4, "best_answer": "Clarify the owner receives a net payout rather than being the one directly short-letting, so the guest-facing turnover figure is not automatically the owner's own taxable turnover — but recommend the owner confirm with their accountant."},
-    {"question": "Should I add extra amenities (e.g. a hot tub) to boost bookings?", "frequency": 1, "confidence": 0.4, "best_answer": "Advise against unnecessary added risk/cost where the property already performs well without it — added amenities add failure points that can generate bad reviews."}
+    {"question": "Should I add extra amenities (e.g. a hot tub) to boost bookings?", "frequency": 1, "confidence": 0.4, "best_answer": "Advise against unnecessary added risk/cost where the property already performs well without it — added amenities add failure points that can generate bad reviews."},
+    {"question": "Would taking on multiple properties together attract a discount on the management fee?", "frequency": 1, "confidence": 0.06, "best_answer": "Offer a bundle discount proactively for any 2+-property sign-up rather than waiting to be asked — it visibly accelerated the decision when volunteered."}
   ],
   "top_objections": [
     {"objection": "Scepticism that Stayful's projected income will actually be hit, given a prior manager made similar promises that weren't delivered", "frequency": 3, "resolution_rate": 0.33, "best_response": "Lead with concrete, already-in-hand proof points (a confirmed booking, a comparable case study) and an honest acknowledgement that year one may run below full potential while reviews build — candour lands better than a bigger promise."},
@@ -67,14 +68,16 @@
     {"point": "Operational differentiators laid out plainly against the current company — guest screening/deposits, individual (not shared) listing, multi-platform reach, reporting cadence", "frequency": 6},
     {"point": "Fast, tangible execution — action plan and agreement delivered within 15-20 minutes of the call ending", "frequency": 2},
     {"point": "Explicit 'you'll never be the manual cleaner' scalability framing for owners growing a portfolio", "frequency": 2},
-    {"point": "Zac actively advising against unnecessary spend, read by the lead as advisor behaviour rather than a sales push", "frequency": 1}
+    {"point": "Zac actively advising against unnecessary spend, read by the lead as advisor behaviour rather than a sales push", "frequency": 1},
+    {"point": "Local track record cited specifically for the lead's own area (years managing there), reassuring a remote/absentee owner", "frequency": 2}
   ],
   "language_to_use": [
     {"phrase": "This isn't a property issue you're having. It's a listing-establishment issue and it's a management-company issue.", "context": "Reframing blame for underperformance away from the property itself, toward a fixable operational cause"},
     {"phrase": "I'm not going to sit here and say it's not going to be positive, because it will be", "context": "Confident but honest reassurance that avoids sounding like an overpromise"},
     {"phrase": "We take on all the changeovers — you're never the manual cleaner", "context": "Growth-oriented, multi-property leads worried about scaling turning them into unpaid operational staff"},
     {"phrase": "Two simultaneous changeovers without a management company is like running two restaurants as the only waiter — it doesn't scale", "context": "Analogy for portfolio-growth leads weighing whether to self-manage as they add properties"},
-    {"phrase": "Every review attached to your specific property, not a shared hotel-style listing", "context": "Leads frustrated with a pooled or hotel-style listing under their current provider"}
+    {"phrase": "Every review attached to your specific property, not a shared hotel-style listing", "context": "Leads frustrated with a pooled or hotel-style listing under their current provider"},
+    {"phrase": "We've managed in your area... for a couple of years now", "context": "Reassuring a remote/absentee EX-STL owner about local credibility without needing a deep sales pitch"}
   ],
   "presentation_section_priority": [
     "Diagnose specifically why the current management setup underperforms (reviews, pricing, listing structure, communication) using their own numbers",
@@ -84,11 +87,11 @@
     "Close on contract terms, any scale/portfolio angle if relevant, and a deadline-bound offer"
   ],
   "conversion_data": {
-    "total": 17,
-    "ready_now": 3,
+    "total": 18,
+    "ready_now": 4,
     "delayed": 14,
     "had_meeting_2": 1,
-    "converted_to_customer": 0,
+    "converted_to_customer": 1,
     "most_common_lost_reason": ""
   }
 }
