@@ -1,0 +1,184 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "090",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-08-27",
+  "transcript_quality": "full",
+  "lead_name": "Afsar Jafree",
+  "email": "jafreeaj@btinternet.com",
+  "monday_id": "12905351890",
+  "address": "2 Coppergate, Canterbury CT2 7RT",
+  "bedrooms": 4,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "Move away from problematic student HMO letting to short-let, trialling on one of three properties before converting the rest",
+  "property_situation": "5-bed student HMO being reconfigured to 4 bed + sitting room, currently being refurbished (new bathrooms, floor leak check, redecoration); current student rent ~£2,100-2,150/month; owns three properties total, this is the trial",
+  "property_type": "4-bed townhouse over three floors, two allocated parking spaces plus a garage",
+  "emotional_profile": "analytical-evaluator",
+  "conversion_likelihood": 70,
+  "profile_confidence": "high — explicitly compared Stayful's estimate against other sites' differing estimates, pressed for an income guarantee, asked for the comparable-data provenance",
+  "primary_blocker": "Refurbishment (bathrooms, leak check, redecoration) still in progress, estimated 3-4 weeks",
+  "language_signals": [
+    "I have looked at other sites and everyone has a very different estimate",
+    "So you don't give a guarantee that at least you will get 2000 a month",
+    "We're going to spend nearly 40 grand on the property now so we don't want everything is smashed again",
+    "It is more than what we will get with the students"
+  ],
+  "portfolio_flag": true,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "So we are redecorating it... bathroom we are going to change the bathrooms and the toilet... hopefully that would complete in three to four at the most four weeks",
+      "context": "Property mid-refurbishment (bathrooms, possible kitchen floor leak, redecoration) before it can be listed as a short-let",
+      "timeline_given": "3-4 weeks from 27 Aug (~late September), pending the plumber's return",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "no_decision_yet"
+  },
+  "meeting_flow": {
+    "opening_phrase": "Understanding a bit about your current situation and situation with the property, then we can go through some figures in our service",
+    "rapport_topics": [
+      "problems with student tenants (mess, disputes, new 2-month notice rule)",
+      "Afsar's work as a doctor at William Harvey Hospital"
+    ],
+    "pivot_to_business": "Afsar led with detailed refurbishment status and student-letting frustrations before Zac introduced figures",
+    "income_intro": "we're looking at a gross revenue of about 66,500, about five and a half thousand pound per month. That translates to a net revenue of about 34,500. So about 2900, say, per month",
+    "post_income_silence": "I mean it is more than what we will get with the students",
+    "how_it_works_transition": "I mean I can take you through the service. If you like, so you get an overview of what it looked like",
+    "pre_close_setup": "Zac anchored the worst-case (£2,000/mo) directly against the existing HMO income before Afsar raised the guarantee question",
+    "close_phrase": "I'll send you an action plan with like a summary of everything we've spoken about in an email after this call",
+    "meeting_2_ask": "reconvene once builder has started and photos are shared, no fixed date",
+    "total_duration_mins": 30,
+    "talk_ratio_zac_pct": 50
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "I have looked at other sites and everyone has a very different estimate so you don't know whether what a profit we will get",
+      "category": "objection",
+      "meeting_phase": "pre_close",
+      "zac_responded_with": "anchored the worst case (£2,000-2,100/mo) directly against the existing known HMO income (~£2,125/mo) so the downside matched the status quo",
+      "lead_follow_up": "pressed further for an explicit guarantee",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "So you don't give a guarantee that at least you will get 2000 a month",
+      "category": "objection",
+      "meeting_phase": "pre_close",
+      "zac_responded_with": "declined to guarantee, explained no platform gives one, but reiterated the worst case already matches his HMO income",
+      "lead_follow_up": "accepted, moved to next steps",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "It cost nearly eight to ten thousand pound to redo a bathroom so if we send you photos and you say you don't need to do anything... would you do that?",
+      "category": "question",
+      "meeting_phase": "close",
+      "zac_responded_with": "agreed to advise honestly from photos whether the full bathroom spend was needed",
+      "lead_follow_up": "committed to sending photos via WhatsApp",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "It is more than what we will get with the students",
+      "category": "positive_shift",
+      "meeting_phase": "income_walkthrough",
+      "zac_responded_with": "confirmed the figure and moved into service walkthrough",
+      "lead_follow_up": "asked about ongoing bill/mortgage responsibilities",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Bathroom spend decision (£8,000-£10,000) pending Zac's advice from photos — trust-building moment not yet delivered",
+      "category": "setup_cost_justification",
+      "evidence": "if we send you photos and you say you don't need to do anything just you know paint it, would you do that?",
+      "how_to_fill": "Respond same day photos arrive via WhatsApp with an honest bathroom verdict and confirmed setup price — this is the trust moment for this lead",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "No income guarantee available, and Afsar pressed for one directly — left as a declined ask rather than a resolved concern",
+      "category": "income_proof",
+      "evidence": "So you don't give a guarantee that at least you will get 2000 a month, there's no guarantee platforms give",
+      "how_to_fill": "Continue anchoring any future guarantee question against the existing HMO income as the effective floor, since that framing already worked once",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Worst-case (£2,000/mo) anchored directly against his existing HMO income (~£2,125/mo)",
+      "lead_response": "did not push back after this point — risk framing collapsed",
+      "phase": "pre_close",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    },
+    {
+      "what_caused_shift": "Real, named comparable properties only 0.5km away doing £67k-£70k",
+      "lead_response": "accepted the comparable data as credible provenance for the projection",
+      "phase": "mid_meeting",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    }
+  ],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [
+      "Understanding a bit about your current situation and situation with the property"
+    ],
+    "transition_phrases": [
+      "I mean I can take you through the service"
+    ],
+    "reassurance_phrases": [
+      "The worst case isn't really likely to affect your current situation because it's essentially your lowest cases are short letting what he was making on the hmo anyway"
+    ],
+    "emphasis_phrases": [
+      "That's a big plus for property of your number of bedrooms and your size"
+    ],
+    "analogies_used": [],
+    "numbers_framing": "Anchored worst-case directly against the lead's own known current HMO income rather than an abstract floor, making the downside comparison self-evident",
+    "objection_handling_pattern": "On the guarantee question, declined honestly rather than hedging, then immediately re-anchored to the already-accepted worst-case-equals-status-quo framing"
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "analytical-evaluator",
+    "what_they_focused_on": [
+      "credibility of the income estimate vs other sites' differing numbers",
+      "guest screening given a large refurb spend at stake",
+      "comparable-data provenance",
+      "platform insurance coverage"
+    ],
+    "what_they_needed_most": [
+      "the worst-case figure anchored against a number he already trusts (his own HMO income)"
+    ],
+    "what_fell_flat": [
+      "a flat no-guarantee answer alone would likely not have landed without the status-quo anchor immediately following it"
+    ],
+    "recommended_meeting_adjustment": "When an analytical STL-SW lead's current LTL/HMO income is already known, anchor the worst-case STL figure directly against it rather than an abstract floor — this collapses the credibility objection fastest"
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
