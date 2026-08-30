@@ -1,8 +1,8 @@
 {
   "schema_version": "3.0",
-  "total_offers_analysed": 44,
-  "last_updated": "2026-08-13",
-  "offer_conversion_rate": 0.0227,
+  "total_offers_analysed": 45,
+  "last_updated": "2026-08-30",
+  "offer_conversion_rate": 0.0444,
   "no_offer_meeting_2_rate": 0.0339,
   "offer_meeting_2_rate": 0.0,
   "optimal_offer_timing": {
@@ -11,34 +11,9 @@
     "evidence": "Of 6 offer-made entries with a recorded meeting phase, 4 were made at 'closing'/'close'; the remaining 2 were also described as late-stage/pre-close (none were made earlier in the meeting)."
   },
   "green_light_combinations": [
-    {
-      "combination": [
-        "GL-MGMT",
-        "GL-SELF",
-        "GL-TIME"
-      ],
-      "frequency": 4,
-      "offer_acceptance_rate": 0.0,
-      "notes": "Seen together in 4 offer(s) with recorded green-light data; none were explicitly marked accepted at the meeting in the source transcripts (decisions were left pending/deferred)."
-    },
-    {
-      "combination": [
-        "GL-MGMT",
-        "GL-TIME"
-      ],
-      "frequency": 1,
-      "offer_acceptance_rate": 0.0,
-      "notes": "Seen together in 1 offer(s) with recorded green-light data; none were explicitly marked accepted at the meeting in the source transcripts (decisions were left pending/deferred)."
-    },
-    {
-      "combination": [
-        "GL-MGMT",
-        "GL-SELF"
-      ],
-      "frequency": 1,
-      "offer_acceptance_rate": 0.0,
-      "notes": "Seen together in 1 offer(s) with recorded green-light data; none were explicitly marked accepted at the meeting in the source transcripts (decisions were left pending/deferred)."
-    }
+    {"combination": ["GL-MGMT", "GL-SELF", "GL-TIME"], "frequency": 4, "offer_acceptance_rate": 0.0, "notes": "Seen together in 4 offer(s) with recorded green-light data; none were explicitly marked accepted at the meeting in the source transcripts (decisions were left pending/deferred)."},
+    {"combination": ["GL-MGMT", "GL-TIME"], "frequency": 1, "offer_acceptance_rate": 0.0, "notes": "Seen together in 1 offer(s) with recorded green-light data; none were explicitly marked accepted at the meeting in the source transcripts (decisions were left pending/deferred)."},
+    {"combination": ["GL-MGMT", "GL-SELF"], "frequency": 1, "offer_acceptance_rate": 0.0, "notes": "Seen together in 1 offer(s) with recorded green-light data; none were explicitly marked accepted at the meeting in the source transcripts (decisions were left pending/deferred)."}
   ],
   "delay_present_at_offer_outcomes": {
     "description": "What happens when an offer is made despite a delay",
@@ -48,111 +23,30 @@
     "notes": "In every recorded case (all involving a furnishing-cost or other unresolved delay), the offer was made anyway but the lead deferred the decision rather than accepting or explicitly rejecting on the call — the delay condition was never resolved before the offer's expiry in the transcript record."
   },
   "offer_framings": [
-    {
-      "verbatim_framing": "A discretionary discount off the standard rate, tied to a hard deadline: \"I'm happy to do a discount on our management of 13 instead of 15. But it'd be based off of signing before the 31st of July which is you know what four weeks away from now... I'll put that in writing as well for you in an email.\"",
-      "rate": "13% + VAT",
-      "expiry_framing": "the 31st of July — stated as roughly four weeks away from the call",
-      "acceptance_rate": 0.0,
-      "emotional_profiles_responded_best": [],
-      "frequency": 1
-    },
-    {
-      "verbatim_framing": "Framed as a discretionary discount he was 'happy to do' (13% + VAT), explicitly time-boxed to signing before 30 August so it aligned naturally with Dexter's own end-of-August completion timeline, with confirmation to follow by email.",
-      "rate": "13% + VAT",
-      "expiry_framing": "Based off signing before the 30th of August",
-      "acceptance_rate": 0.0,
-      "emotional_profiles_responded_best": [],
-      "frequency": 1
-    },
-    {
-      "verbatim_framing": "Introduced casually as a follow-up action item rather than a time-pressured pitch — 'I'll put in the discount as well for you. So it'll be 13% instead of 15.'",
-      "rate": "13% + VAT",
-      "expiry_framing": "Not stated verbally in the transcript; expiry (30 August 2026) recorded separately in Monday.com",
-      "acceptance_rate": 0.0,
-      "emotional_profiles_responded_best": [],
-      "frequency": 1
-    },
-    {
-      "verbatim_framing": "Framed as a trial-run discount rather than a binding commitment: \"I'm happy to do a small discount on the management from 13 instead of 15. But it would be based off of, obviously, this doesn't mean we're going live or anything like that... I'm happy to do that discount for you so we can make sure the trial run is profitable as it can be.\"",
-      "rate": "13% + VAT",
-      "expiry_framing": "before the 7th of August",
-      "acceptance_rate": 0.0,
-      "emotional_profiles_responded_best": [],
-      "frequency": 1
-    },
-    {
-      "verbatim_framing": "Framed as an unprompted extra gesture to make things 'a bit more profitable' — a discount from 15% to 13% + VAT, conditional on signing before 30 August.",
-      "rate": "13% + VAT",
-      "expiry_framing": "30th of August",
-      "acceptance_rate": 0.0,
-      "emotional_profiles_responded_best": [],
-      "frequency": 1
-    },
-    {
-      "verbatim_framing": "\"Something I'm happy to do for you, Jerry [Thierry], is I'm happy to do a discount on the management. 13 instead of 15. But just, it will be, it'd be like a limited time offer, so it would expire sort of around a month from now... so if we sit around the 13th of September, I can apply that to your account and property if you come on board.\"",
-      "rate": "13% + VAT",
-      "expiry_framing": "around a month from now / around the 13th of September",
-      "acceptance_rate": 0.0,
-      "emotional_profiles_responded_best": [],
-      "frequency": 1
-    }
+    {"verbatim_framing": "A discretionary discount off the standard rate, tied to a hard deadline: \"I'm happy to do a discount on our management of 13 instead of 15. But it'd be based off of signing before the 31st of July which is you know what four weeks away from now... I'll put that in writing as well for you in an email.\"", "rate": "13% + VAT", "expiry_framing": "the 31st of July — stated as roughly four weeks away from the call", "acceptance_rate": 0.0, "emotional_profiles_responded_best": [], "frequency": 1},
+    {"verbatim_framing": "Framed as a discretionary discount he was 'happy to do' (13% + VAT), explicitly time-boxed to signing before 30 August so it aligned naturally with Dexter's own end-of-August completion timeline, with confirmation to follow by email.", "rate": "13% + VAT", "expiry_framing": "Based off signing before the 30th of August", "acceptance_rate": 0.0, "emotional_profiles_responded_best": [], "frequency": 1},
+    {"verbatim_framing": "Introduced casually as a follow-up action item rather than a time-pressured pitch — 'I'll put in the discount as well for you. So it'll be 13% instead of 15.'", "rate": "13% + VAT", "expiry_framing": "Not stated verbally in the transcript; expiry (30 August 2026) recorded separately in Monday.com", "acceptance_rate": 0.0, "emotional_profiles_responded_best": [], "frequency": 1},
+    {"verbatim_framing": "Framed as a trial-run discount rather than a binding commitment: \"I'm happy to do a small discount on the management from 13 instead of 15. But it would be based off of, obviously, this doesn't mean we're going live or anything like that... I'm happy to do that discount for you so we can make sure the trial run is profitable as it can be.\"", "rate": "13% + VAT", "expiry_framing": "before the 7th of August", "acceptance_rate": 0.0, "emotional_profiles_responded_best": [], "frequency": 1},
+    {"verbatim_framing": "Framed as an unprompted extra gesture to make things 'a bit more profitable' — a discount from 15% to 13% + VAT, conditional on signing before 30 August.", "rate": "13% + VAT", "expiry_framing": "30th of August", "acceptance_rate": 0.0, "emotional_profiles_responded_best": [], "frequency": 1},
+    {"verbatim_framing": "\"Something I'm happy to do for you, Jerry [Thierry], is I'm happy to do a discount on the management. 13 instead of 15. But just, it will be, it'd be like a limited time offer, so it would expire sort of around a month from now... so if we sit around the 13th of September, I can apply that to your account and property if you come on board.\"", "rate": "13% + VAT", "expiry_framing": "around a month from now / around the 13th of September", "acceptance_rate": 0.0, "emotional_profiles_responded_best": [], "frequency": 1},
+    {"verbatim_framing": "Proactively offered (not requested first) when the lead confirmed he wanted to bring two properties on at once: \"I mean if we're doing both of them I'm happy to do a discount as well on the management for you if that works.\" Accepted immediately and verbally with no negotiation, no expiry stated on the call.", "rate": "13% + VAT", "expiry_framing": "None stated on the call", "acceptance_rate": 1.0, "emotional_profiles_responded_best": ["fast-path-gain-focused"], "frequency": 1}
   ],
   "offer_by_archetype": {
-    "fast-path-gain-focused": {
-      "best_framing": "Standard discretionary discount (15% down to 13% + VAT) tied to a signing deadline.",
-      "acceptance_rate": 0.0,
-      "notes": "1 offer(s) made to this archetype in the source data; 0 explicitly recorded as accepted at the meeting."
-    },
-    "analytical-evaluator": {
-      "best_framing": "Framed as a discretionary discount he was 'happy to do' (13% + VAT), explicitly time-boxed to signing before 30 August so it aligned naturally with Dexter's own end-of-August completion timeline, with confirmation to follow by email.",
-      "acceptance_rate": 0.0,
-      "notes": "6 offer(s) made to this archetype in the source data; 0 explicitly recorded as accepted at the meeting."
-    },
-    "loss-averse-switcher": {
-      "best_framing": "A discretionary discount off the standard rate, tied to a hard deadline: \"I'm happy to do a discount on our management of 13 instead of 15. But it'd be based off of signing before the 31st of July which is you know what four weeks away from now... I'll put that in writing as well for you in an email.\"",
-      "acceptance_rate": 0.0,
-      "notes": "1 offer(s) made to this archetype in the source data; 0 explicitly recorded as accepted at the meeting."
-    }
+    "fast-path-gain-focused": {"best_framing": "Proactively offer a bundle/multi-property discount as soon as the lead signals wanting more than one property under management — do not wait to be asked.", "acceptance_rate": 1.0, "notes": "2 offer(s) made to this archetype in the source data; 1 explicitly recorded as accepted at the meeting (Kabir, entry 086) — the first confirmed acceptance in this dataset."},
+    "analytical-evaluator": {"best_framing": "Framed as a discretionary discount he was 'happy to do' (13% + VAT), explicitly time-boxed to signing before 30 August so it aligned naturally with Dexter's own end-of-August completion timeline, with confirmation to follow by email.", "acceptance_rate": 0.0, "notes": "6 offer(s) made to this archetype in the source data; 0 explicitly recorded as accepted at the meeting."},
+    "loss-averse-switcher": {"best_framing": "A discretionary discount off the standard rate, tied to a hard deadline: \"I'm happy to do a discount on our management of 13 instead of 15. But it'd be based off of signing before the 31st of July which is you know what four weeks away from now... I'll put that in writing as well for you in an email.\"", "acceptance_rate": 0.0, "notes": "1 offer(s) made to this archetype in the source data; 0 explicitly recorded as accepted at the meeting."}
   },
   "offer_by_profile_type": {
-    "ABROAD": {
-      "offer_rate": 0.2941,
-      "acceptance_rate": 0.0,
-      "best_timing": "closing"
-    },
-    "EX-STL": {
-      "offer_rate": 0.7059,
-      "acceptance_rate": 0.0,
-      "best_timing": "close"
-    },
-    "PURCH": {
-      "offer_rate": 0.2778,
-      "acceptance_rate": 0.0,
-      "best_timing": "close"
-    },
-    "SELL": {
-      "offer_rate": 0.875,
-      "acceptance_rate": 0.0,
-      "best_timing": "closing"
-    },
-    "STL-SW": {
-      "offer_rate": 0.4054,
-      "acceptance_rate": 0.0667,
-      "best_timing": "late — after full income walkthrough, service explanation, and Michael's direct ask to negotiate fees"
-    }
+    "ABROAD": {"offer_rate": 0.2941, "acceptance_rate": 0.0, "best_timing": "closing"},
+    "EX-STL": {"offer_rate": 0.7059, "acceptance_rate": 0.0833, "best_timing": "close"},
+    "PURCH": {"offer_rate": 0.2778, "acceptance_rate": 0.0, "best_timing": "close"},
+    "SELL": {"offer_rate": 0.875, "acceptance_rate": 0.0, "best_timing": "closing"},
+    "STL-SW": {"offer_rate": 0.4054, "acceptance_rate": 0.0667, "best_timing": "late — after full income walkthrough, service explanation, and Michael's direct ask to negotiate fees"}
   },
   "expiry_effectiveness": {
-    "7_days": {
-      "cases": 0,
-      "acceptance_rate": 0.0
-    },
-    "14_days": {
-      "cases": 7,
-      "acceptance_rate": 0.0
-    },
-    "other": {
-      "cases": 34,
-      "acceptance_rate": 0.0294
-    }
-  }
+    "7_days": {"cases": 0, "acceptance_rate": 0.0},
+    "14_days": {"cases": 7, "acceptance_rate": 0.0},
+    "other": {"cases": 34, "acceptance_rate": 0.0294}
+  },
+  "offer_conversion_rate_methodology": "FIXED 2026-08-30: computed as count(offer_accepted_at_meeting==true) / total_offers_analysed, not literal string-matching on offer_outcome=='accepted'. Known gap: only entries added since schema 3.0 rich fields (this run's 086, and the 1 prior entry whose offer_outcome already read 'accepted') have offer_accepted_at_meeting recorded; the other 43 historical offer entries have not yet been individually re-audited for their true offer_accepted_at_meeting value, so this rate (2/45) is a floor, not a final figure — recommend a backfill pass over all 44 prior offer-made transcripts next run to set offer_accepted_at_meeting explicitly on each and fully correct this metric."
 }
