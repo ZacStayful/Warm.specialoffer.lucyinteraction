@@ -2,14 +2,14 @@
   "schema_version": "3.0",
   "delay_type": "DLY-TEN",
   "delay_description": "Existing tenant — tenancy must end before going live",
-  "total_entries": 7,
-  "last_updated": "2026-08-21",
+  "total_entries": 8,
+  "last_updated": "2026-08-30",
   "trigger_phrases": [
     {"phrase": "Existing tenant/occupant not due to move out for several months", "frequency": 3},
     {"phrase": "Legally unable to serve notice — sitting tenants can only leave through natural turnover or on sale of the property", "frequency": 1},
     {"phrase": "Tenant has verbally agreed to leave but formal notice has not yet been served", "frequency": 1},
     {"phrase": "Vendor let the property to tenants unexpectedly, creating condition and availability uncertainty", "frequency": 1},
-    {"phrase": "Converting an existing long-let tenancy into a short-let", "frequency": 1}
+    {"phrase": "Converting an existing long-let tenancy into a short-let", "frequency": 2}
   ],
   "typical_timeline": {
     "most_common_months": 3,
@@ -19,13 +19,13 @@
   },
   "what_leads_focus_on_while_waiting": [
     {"concern": "Confirming the exact date the tenant/occupant will actually vacate", "frequency": 3},
-    {"concern": "Whether they can legally compel or time the tenant's departure at all", "frequency": 2},
+    {"concern": "Whether they can legally compel or time the tenant's departure at all", "frequency": 3},
     {"concern": "Coordinating the STL go-live date with seasonal demand once the property is free", "frequency": 2},
     {"concern": "What condition the property will be in once the tenant leaves", "frequency": 1},
     {"concern": "Parallel financial/mortgage decisions that also need to land before the property can be relet", "frequency": 1}
   ],
   "emotional_profiles_most_common": [
-    {"profile": "analytical-evaluator", "count": 3},
+    {"profile": "analytical-evaluator", "count": 4},
     {"profile": "certainty-seeker", "count": 2},
     {"profile": "loss-averse-switcher", "count": 1},
     {"profile": "unspecified", "count": 1}
@@ -38,7 +38,7 @@
     "what_to_write_to_monday": "Log the tenant/occupant type, the vacate date (confirmed or estimated) and whether formal notice has been served, so the pipeline reflects a dated trigger rather than a generic nurture status."
   },
   "conversion_after_delay": {
-    "total": 7,
+    "total": 8,
     "eventually_converted": 1,
     "conversion_rate": 0.14,
     "avg_months_to_convert": 0,
