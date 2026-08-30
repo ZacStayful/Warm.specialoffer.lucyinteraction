@@ -1,1 +1,162 @@
-PLACEHOLDER
+{
+  "schema_version": "3.0",
+  "entry_number": "086",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-08-21",
+  "transcript_quality": "full",
+  "lead_name": "Kabir Singh",
+  "email": "kabir020572@gmail.com",
+  "monday_id": "12442853400",
+  "address": "5 Kingsbridge Apartment CT1 2AZ, Canterbury (King Street property); 19 Hospital Lane, Canterbury (second property)",
+  "bedrooms": 2,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "Hand over two already-trading informal Airbnb properties to full professional management for peace of mind, as fast as possible",
+  "property_situation": "Two properties already trading as Airbnbs: King Street (friend informally managed while Kabir was abroad, ~£5,000 gross last month, listing-ready, 5-year leased parking for 9-10 cars) and 19 Hospital Lane (same informal setup, own parking)",
+  "property_type": "Two Canterbury short-let properties, currently informally/friend-managed",
+  "emotional_profile": "fast-path-gain-focused",
+  "conversion_likelihood": 95,
+  "profile_confidence": "high — zero objections raised, explicit urgency, verbally agreed terms for both properties",
+  "primary_blocker": "None substantive — purely administrative (signing and returning two management agreements)",
+  "language_signals": [
+    "I want to give them now peace of mind and long term to someone... I don't need to bother",
+    "I want to give this one as soon as possible"
+  ],
+  "portfolio_flag": true,
+  "outcome": "Customer",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13% + VAT (discounted from standard 15% + VAT)",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": true,
+  "delay_signals": [],
+  "has_delay": false,
+  "green_light_signals": [
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "one of my friend running as a R&B and last month I done around 5,000 pound in that property",
+      "context": "Property already actively self/friend-managed as a trading Airbnb, proving the concept before this call",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "I want to give this one as soon as possible",
+      "context": "Explicit urgency to sign and go live within roughly two weeks",
+      "strength": "strong"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "closing",
+    "green_lights_present_at_offer": [
+      "GL-SELF",
+      "GL-TIME"
+    ],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "Kabir confirmed he wanted to bring both King Street and 19 Hospital Lane on at the same time and asked directly whether taking both would attract a discount",
+    "how_zac_framed_offer": "I mean if we're doing both of them I'm happy to do a discount as well on the management for you if that works",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "That's fine yeah — accepted verbally with no further negotiation",
+    "offer_outcome": "accepted"
+  },
+  "meeting_flow": {
+    "opening_phrase": "Normally that's the thing I'm missing is forget to see the property it lines the tool together. But yeah what's the current sort of situation at the moment",
+    "rapport_topics": [],
+    "pivot_to_business": "Went straight into current situation and commercial terms — no separate rapport phase, matching Kabir's own transactional tone",
+    "income_intro": "one of my friend running as a R&B and last month I done around 5,000 pound in that property (stated by Kabir, not presented by Zac from an analyser)",
+    "post_income_silence": "",
+    "how_it_works_transition": "we charge 15 plus vat and that's of the gross bookings... we'll do everything to do with the property essentially",
+    "pre_close_setup": "Kabir proactively asked about a multi-property discount before any close attempt was made",
+    "close_phrase": "I'll send you two agreements to your email if you want to send them back to me sign we can get I'll get started straight away",
+    "meeting_2_ask": "kickoff call next week once agreements are signed (no fixed date)",
+    "total_duration_mins": 8,
+    "talk_ratio_zac_pct": 40
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "I never give someone before the properties... what will be my role",
+      "category": "question",
+      "meeting_phase": "opening",
+      "zac_responded_with": "stated the 15%+VAT fee and full scope of service (guest comms, pricing, cleaning, maintenance), leaving only mortgage and bills to Kabir",
+      "lead_follow_up": "asked if the current furnished condition (per photos sent) was ready to go",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "What about the another property I sent is 19 hospital [Lane]",
+      "category": "green_light",
+      "meeting_phase": "mid_meeting",
+      "zac_responded_with": "confirmed happy to manage both and proactively offered a bundle discount",
+      "lead_follow_up": "confirmed he could provide parking info for both properties",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I've just I want to give this one as soon as possible",
+      "category": "green_light",
+      "meeting_phase": "close",
+      "zac_responded_with": "confirmed two agreements would be sent same day",
+      "lead_follow_up": "agreed to sign and return promptly",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Exact discount percentage agreed verbally in principle but not stated as a number on the call",
+      "category": "contract_clarity",
+      "evidence": "I'm happy to do a discount as well on the management for you if that works — that's fine yeah (no % stated)",
+      "how_to_fill": "Confirm and put the exact discounted rate (13%+VAT per Monday call brief) in writing in the agreement/action plan immediately",
+      "filled_in_action_plan": true
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac confirming Stayful has managed properties in Canterbury since 2023/2024",
+      "lead_response": "that's fine — visibly reassured despite being a remote owner",
+      "phase": "mid_meeting",
+      "archetype_relevant": [
+        "fast-path-gain-focused"
+      ]
+    }
+  ],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [
+      "What's the current sort of situation at the moment"
+    ],
+    "transition_phrases": [
+      "Only things you'll really be left to deal with is the mortgage... the bills"
+    ],
+    "reassurance_phrases": [
+      "We've managed in your area, Canterbury, for a couple of years now"
+    ],
+    "emphasis_phrases": [
+      "That's a big plus for sure"
+    ],
+    "analogies_used": [],
+    "numbers_framing": "No analyser figures presented — relied entirely on Kabir's own real trading history (~£5,000/month) as the proof point",
+    "objection_handling_pattern": "No objections raised to handle; questions answered directly and briefly, matching the lead's transactional pace"
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "fast-path-gain-focused",
+    "what_they_focused_on": [
+      "commission %",
+      "scope of responsibility",
+      "local track record in Canterbury",
+      "speed to go live"
+    ],
+    "what_they_needed_most": [
+      "clarity on fee and role, local credibility, and to move fast"
+    ],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": "For leads already running a proven informal STL, skip the demand-driver/comparable-market pitch entirely and go straight to commission %, scope-of-service and local track record; proactively offer a bundle discount for any 2+-property sign-up"
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
