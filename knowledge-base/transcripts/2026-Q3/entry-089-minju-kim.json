@@ -1,0 +1,179 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "089",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-08-25",
+  "transcript_quality": "full",
+  "lead_name": "Minju Kim",
+  "email": "hsandmj88@gmail.com",
+  "monday_id": "12880966957",
+  "address": "3 Starling Way, Seaham, County Durham SR7 8FB",
+  "bedrooms": 3,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "I have a short term let and wanting the property managed professionally",
+  "stl_goal": "Generate income from the property while working abroad, while retaining personal use of it on her return to the UK",
+  "property_situation": "Owned outright, no mortgage; previously long-let (unfurnished, tenants paid bills, ~£1,000/month net after agent fees); now owner-occupied and moving out ~12 November (visa-dependent); property completely unfurnished",
+  "property_type": "3-bed house, third bedroom is a box room",
+  "emotional_profile": "loss-averse-switcher",
+  "conversion_likelihood": 50,
+  "profile_confidence": "medium — her core hesitation (front-loaded furnishing spend vs uncertain payoff, wanting cash-in-hand proof over projections) matches the archetype's loss-aversion pattern, though she is also evidence-driven like an analytical-evaluator",
+  "primary_blocker": "Upfront furnishing/setup cost (£6,590 full fit-out) against a fairly modest Year-1 uplift over her known long-let income",
+  "language_signals": [
+    "to me figures don't really mean a lot until it's actually cash in the bank but they're helpful as guideposts",
+    "it seems like the payoff in the beginning is just not going to be good because I'm going to have to sink money in on the front end",
+    "the clearest way of dealing with it is if I could see your company's insurance policy... so there's no room for gaps"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-MOV",
+      "trigger_phrase": "probably well we're not clear because we went on a visa for our next country but I would say probably 12th of November time",
+      "context": "Moving abroad for work around 12 November, visa-dependent; property needs to be furnished and set up before she leaves",
+      "timeline_given": "~12 November (visa-dependent, described as 'pretty vague')",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "no_decision_yet"
+  },
+  "meeting_flow": {
+    "opening_phrase": "Blood start. Just understand a bit more about your current situation and situation with the property.",
+    "rapport_topics": [],
+    "pivot_to_business": "Direct pivot into furnishing/unfurnished status then straight into figures",
+    "income_intro": "we're looking at 42,000 gross revenue, about three and a half thousand a month, which goes into a net revenue is what you can expect is like a payout of 21,000... about 180 [pounds] a month",
+    "post_income_silence": "Is that based on... the property can only have two beds two bedroom two beds there's three bedrooms but one of them is probably too small",
+    "how_it_works_transition": "I mean I could go through the service next of how it works",
+    "pre_close_setup": "Zac reframed the furnishing spend as a ~100% Year-1 return before any close attempt",
+    "close_phrase": "I suppose what I'll do after this call then is I'll just sort of summarize everything we've spoken about",
+    "meeting_2_ask": "end of September catch-up discussed in principle, no date fixed",
+    "total_duration_mins": 30,
+    "talk_ratio_zac_pct": 55
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "Is that based on... the property can only have two beds... one of them is probably too small",
+      "category": "question",
+      "meeting_phase": "income_walkthrough",
+      "zac_responded_with": "explained a single bed preserves the 3-bed classification and figures, a sofa bed drops it to 2-bed and changes the competition profile",
+      "lead_follow_up": "requested 2-bed comparison figures alongside 3-bed",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "It seems like the payoff in the beginning is just not going to be good because I'm going to have to sink money in on the front end",
+      "category": "objection",
+      "meeting_phase": "mid_meeting",
+      "zac_responded_with": "reframed as ~100% return on the furnishing investment in Year 1 (extra £400/month = ~£5,000/year against ~£5,000-6,590 spend)",
+      "lead_follow_up": "that's helpful yeah — accepted the framing without fully resolving the underlying caution",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "To me figures don't really mean a lot until it's actually cash in the bank but they're helpful as sort of guideposts",
+      "category": "resistance",
+      "meeting_phase": "mid_meeting",
+      "zac_responded_with": "reiterated the ramp-up honesty (15-20% below average for 5-7 months) without pushing back on her skepticism",
+      "lead_follow_up": "that's helpful yeah",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "The clearest way of dealing with it is if I could see your company's insurance policy... so there's no room for gaps",
+      "category": "objection",
+      "meeting_phase": "mid_meeting",
+      "zac_responded_with": "agreed to send Stayful's insurance policy details so she could identify and fill any gaps with her own cover",
+      "lead_follow_up": "accepted, moved to asking about bin/waste management while abroad",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Insurance policy details requested but not yet sent — an unusually detailed first-meeting ask suggesting she wants belt-and-braces documentation before committing",
+      "category": "damage_protection",
+      "evidence": "the clearest way of dealing with it is if I could see your company's insurance policy... so there's no room for gaps",
+      "how_to_fill": "Send Stayful's insurance policy details promptly — this is explicitly what she said would resolve the objection",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "2-bed comparison figures requested alongside the 3-bed figures, not yet produced",
+      "category": "income_proof",
+      "evidence": "can you also have the figure with a two bedroom because you might not use one bedroom",
+      "how_to_fill": "Produce and send the 2-bed revenue projection alongside the 3-bed figures as committed",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "No firm next-step date locked in — end-of-September catch-up agreed only in principle",
+      "category": "process_clarity",
+      "evidence": "we could probably touch base... should we say what sort of end of September time... And then we'll have. Yeah. Okay.",
+      "how_to_fill": "Convert the loose end-of-September mention into a specific dated follow-up call",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Investment payback framing: £5,000 furnishing spend = ~£5,000 extra income in Year 1 alone",
+      "lead_response": "no no it's fair that's helpful context actually that's very helpful",
+      "phase": "mid_meeting",
+      "archetype_relevant": [
+        "loss-averse-switcher"
+      ]
+    }
+  ],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [
+      "Just understand a bit more about your current situation"
+    ],
+    "transition_phrases": [
+      "I mean I could go through the service next of how it works"
+    ],
+    "reassurance_phrases": [
+      "Yeah, that's fine. Yeah. Yeah, that's fine."
+    ],
+    "emphasis_phrases": [
+      "Even if you fully furnished it... you should get more on the long let anyway, because you're now renting a furnished property"
+    ],
+    "analogies_used": [],
+    "numbers_framing": "Framed the furnishing spend explicitly as a ~100% Year-1 return rather than a standalone cost, directly countering the loss-aversion objection",
+    "objection_handling_pattern": "On the insurance-gap concern, didn't over-assert Stayful's cover fully replaces her own — explicitly told her to keep her existing policy and offered to send Stayful's policy details so she could compare"
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "loss-averse-switcher",
+    "what_they_focused_on": [
+      "front-loaded furnishing cost vs uncertain payoff",
+      "insurance/gap coverage",
+      "bin/waste management while abroad",
+      "2-bed vs 3-bed configuration"
+    ],
+    "what_they_needed_most": [
+      "a concrete payback/ROI framing for the setup spend, and documentary proof (insurance policy) rather than verbal reassurance"
+    ],
+    "what_fell_flat": [
+      "projections alone did not fully satisfy her ('figures don't really mean a lot until it's actually cash in the bank')"
+    ],
+    "recommended_meeting_adjustment": "For unfurnished ABROAD/loss-averse leads, lead with the setup-cost payback framing early and proactively send documentary proof (insurance policy, itemised quote) rather than relying on verbal reassurance"
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
