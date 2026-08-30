@@ -1,327 +1,53 @@
 {
   "schema_version": "3.0",
   "phrases": [
-    {
-      "phrase": "Furnishing cost remained a ballpark range rather than a confirmed figure right at the point the discounted offer was made.",
-      "why": "Leaving a cost or fee point only partially resolved leaves a live doubt hanging into the close.",
-      "what_happened": "Our thing would be if the outlet to furnish it out.",
-      "alternative": "Send the finalised, itemised furnishing quote the same day, well before the offer's expiry, so the concrete cost objection is closed while the discounted-rate urgency is still fresh.",
-      "frequency": 1
-    },
-    {
-      "phrase": "Lead raised that removing the Nottingham City Hospital demand-driver claim (corrected after he flagged it was actually a 20-25 minute drive, not close) might have reduced the projected figures",
-      "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.",
-      "what_happened": "Asked directly whether it changed the figures negatively",
-      "alternative": "",
-      "frequency": 1
-    },
-    {
-      "phrase": "The income analyser tool kept misreading the bedroom count, forcing Zac to re-run it live and admit the figures might not come through cleanly.",
-      "why": "Inconsistent, unclear, or misspoken figures undermine trust in the income numbers the whole pitch rests on.",
-      "what_happened": "Offered to send the Rightmove floor plan link to help, though was unsure how to get it to him.",
-      "alternative": "Send a corrected, accurate Deal Analyser PDF after the meeting so she has firm, presentable figures to take to her husband.",
-      "frequency": 1
-    },
-    {
-      "phrase": "The honest reveal that Solihull's STL uplift over LTL is only ~£100/month — much thinner than a typical Stayful comparison.",
-      "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.",
-      "what_happened": "So there won't be a lot of difference or anything like that for us.",
-      "alternative": "",
-      "frequency": 1
-    },
-    {
-      "phrase": "Initial ambiguity over whether the quoted income figures (£20,500/yr net) were generic marketing numbers or specific to Akter's own property.",
-      "why": "Inconsistent, unclear, or misspoken figures undermine trust in the income numbers the whole pitch rests on.",
-      "what_happened": "Based on my property or is it just in general?",
-      "alternative": "Zac immediately clarified: 'This is based off of your property... I based off of 42 Bridgegate Drive.'",
-      "frequency": 1
-    },
-    {
-      "phrase": "Alice raised the competing agent's change-of-use/planning warning and Zac had no direct answer.",
-      "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.",
-      "what_happened": "Okay. / it was just one person that had said that to me... it was a potential concern",
-      "alternative": "Get a written answer from Westmorland & Furness Council planning on change-of-use for short lets in the Whitbeck/Millom area and send it to Alice proactively rather than waiting for her to ask again.",
-      "frequency": 1
-    },
-    {
-      "phrase": "Anthony's answer to Zac's opening question about whether he already owned the property or was looking to buy it was unclear ('Kind of for exactly what he's saying'), forcing Zac to re-ask the question directly",
-      "why": "Inconsistent, unclear, or misspoken figures undermine trust in the income numbers the whole pitch rests on.",
-      "what_happened": "Okay we're we I think. Tricky one with the vendor so yeah we are we had an offer that was kind of provisionally accepted...",
-      "alternative": "Zac re-asked plainly: 'so I had here the property information. Is this property you're looking at buying or is this a...'",
-      "frequency": 1
-    },
-    {
-      "phrase": "Zac himself flagged that the income projection range looked more volatile than expected: \"if I'm honest, what I'm looking at this, this seems more up and down than I was expecting.\"",
-      "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.",
-      "what_happened": "Yeah.",
-      "alternative": "Zac reassured the figures were pulled from real comparable data rather than estimated, and contextualised the volatility as a sign of a genuinely competitive, profitable local market.",
-      "frequency": 1
-    },
-    {
-      "phrase": "Dexter was unfamiliar with Slack, the platform used for ongoing communication.",
-      "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.",
-      "what_happened": "Uh, no, I haven't. No, that's a new thing for me.",
-      "alternative": "Zac reframed it as simply \"like a business WhatsApp, really\".",
-      "frequency": 1
-    },
-    {
-      "phrase": "Zac's income projection (~£2,800-2,900/month) didn't match Gregory's own actual revenue (~£1,600/month on a strong month)",
-      "why": "Leaving a cost or fee point only partially resolved leaves a live doubt hanging into the close.",
-      "what_happened": "I mean, probably like, what does it make? I would say probably revenue is about half that.",
-      "alternative": "Zac asked about review count/listing details and offered to review the actual listing after the call to identify gaps, later attributing the shortfall to a review gap and ~20% price premium rather than the projection being unrealistic",
-      "frequency": 1
-    },
-    {
-      "phrase": "Technical/connectivity issues at the very start of the call",
-      "why": "A technical/audio/connectivity failure disrupted the flow of the meeting and undermined confidence before the substantive conversation could happen.",
-      "what_happened": "Sorry, I know why nothing is working... I'm not sure why this is working. So I haven't really used.",
-      "alternative": "Zac reassured it was likely a loading issue and moved on",
-      "frequency": 1
-    },
-    {
-      "phrase": "Zac opened the call addressing the lead as \"Joss\" instead of Ijaz, and had no details on file for the booked call.",
-      "why": "Getting the lead's name or identity wrong signals inattention and damages rapport right when it matters most.",
-      "what_happened": "Lead did not correct the name and proceeded straight into explaining his property situation.",
-      "alternative": "",
-      "frequency": 1
-    },
-    {
-      "phrase": "Lead pushed for month-by-month (month 1, month 3, month 6) income figures beyond what Zac's model could produce.",
-      "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.",
-      "what_happened": "I mean rough estimates of course by experience I mean -- backed off after Zac declined granular figures.",
-      "alternative": "Zac gave an annual first-year-discount approximation (15% off, divided by 12) instead of granular monthly figures.",
-      "frequency": 1
-    },
-    {
-      "phrase": "Zac's screen share never worked for the entire call -- his laptop froze and he attempted sharing at least three times before abandoning it.",
-      "why": "A technical/audio/connectivity failure disrupted the flow of the meeting and undermined confidence before the substantive conversation could happen.",
-      "what_happened": "We can just see your face. We can't see a computer or anything.",
-      "alternative": "",
-      "frequency": 1
-    },
-    {
-      "phrase": "Figures were delivered out of order and one was misspoken (worst month stated as roughly £1,400 shortly after quoting £1,900 for January).",
-      "why": "Inconsistent, unclear, or misspoken figures undermine trust in the income numbers the whole pitch rests on.",
-      "what_happened": "No visible pushback in the transcript, likely masked by the ongoing screen-share confusion.",
-      "alternative": "Ensure the written follow-up materials show the correct £1,895-£1,900 floor so the misspoken figure is not what sticks.",
-      "frequency": 1
-    },
-    {
-      "phrase": "Fee push-back — Michael wanted 10%, anchored directly to his existing 7% long-let management rate.",
-      "why": "Leaving a cost or fee point only partially resolved leaves a live doubt hanging into the close.",
-      "what_happened": "So, yeah, that... obviously, I need to consider that as well. So the cost is a lot lower.",
-      "alternative": "",
-      "frequency": 1
-    },
-    {
-      "phrase": "Skepticism that the projected income figures were inflated to entice him — the 'computer churn number' comment.",
-      "why": "A flat or under-informed answer to a direct ask leaves the lead without an alternative path forward and exposes a knowledge gap.",
-      "what_happened": "I'd rather have a more realistic number than just like a computer churn number... I'll be basing everything on it.",
-      "alternative": "Zac agreed to personally check the actual property listing photos (on the Buckley Brown site) before finalising the figure.",
-      "frequency": 1
-    },
-    {
-      "phrase": "Zac presenting the ~£3,700/month net income figure",
-      "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.",
-      "what_happened": "Are you sure about that? — direct challenge to the figure",
-      "alternative": "Zac cited the ~10% accuracy range as the basis for confidence in the number",
-      "frequency": 1
-    },
-    {
-      "phrase": "Discussion of no interior cameras being allowed, raised straight after Raj referenced his HMO tenant trashing the house",
-      "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.",
-      "what_happened": "I don't get the house in trashed again — implicit anxiety about repeat damage without visual monitoring",
-      "alternative": "Zac walked through the vetting process step by step: security deposit, ID/history checks, insurance cover for serious damage",
-      "frequency": 1
-    },
-    {
-      "phrase": "Call opened with confusion — Zac initially reached what seemed like the wrong appointment, then Ross's Wi-Fi was 'shocking' and the call had to be reconnected mid-introduction",
-      "why": "A technical/audio/connectivity failure disrupted the flow of the meeting and undermined confidence before the substantive conversation could happen.",
-      "what_happened": "I'm so sorry. Yeah, I thought I was gonna make it. Have you got any other time today?",
-      "alternative": "Zac offered an immediate same-day reschedule (1pm) and kept tone light ('No worries')",
-      "frequency": 1
-    },
-    {
-      "phrase": "Ross's residual worry — 'not getting the bucket [booked]... being at the other side of the world' — surfaced only very late in the call, near the close",
-      "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.",
-      "what_happened": "Yeah. Yeah. Fair enough... It's just that.",
-      "alternative": "",
-      "frequency": 1
-    },
-    {
-      "phrase": "Net income figure required three separate clarifications ('is the figure am I getting in my hand?')",
-      "why": "Inconsistent, unclear, or misspoken figures undermine trust in the income numbers the whole pitch rests on.",
-      "what_happened": "Continued re-asking in different phrasings across the call, suggesting the explanation hadn't fully landed the first time",
-      "alternative": "Zac repeated the breakdown (mortgage + ~£500 bills come out of net) each time she asked",
-      "frequency": 1
-    },
-    {
-      "phrase": "Sophia misread the worst-month payout as £600 instead of £2,100, briefly thinking she'd need to pay the mortgage out of £600",
-      "why": "Inconsistent, unclear, or misspoken figures undermine trust in the income numbers the whole pitch rests on.",
-      "what_happened": "So I should pay the mortgage from the 600 pound",
-      "alternative": "Zac immediately corrected: 'No, no, no. So it's 2100 pound of payout'",
-      "frequency": 1
-    },
-    {
-      "phrase": "Sophia could not read the shared screen clearly ('if you read out that is better... clear is in my phone')",
-      "why": "A technical/audio/connectivity failure disrupted the flow of the meeting and undermined confidence before the substantive conversation could happen.",
-      "what_happened": "Asked Zac to read figures aloud rather than rely on the shared screen for the remainder of the call",
-      "alternative": "Zac switched to reading figures aloud instead of relying on the screen share",
-      "frequency": 1
-    },
-    {
-      "phrase": "The guaranteed rent option he had been pursuing turned out to be unavailable to him",
-      "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.",
-      "what_happened": "Pivoted to seeking contract stays specifically for insurance workers as an alternative certainty substitute",
-      "alternative": "",
-      "frequency": 1
-    },
-    {
-      "phrase": "Audio issue at the very start of the call — the lead could not hear Zac.",
-      "why": "A technical/audio/connectivity failure disrupted the flow of the meeting and undermined confidence before the substantive conversation could happen.",
-      "what_happened": "\"So I can't hear you.\"",
-      "alternative": "Zac checked in again and the lead confirmed once earphones/audio settled.",
-      "frequency": 1
-    },
-    {
-      "phrase": "Zac initially confused Rachel with a different lead ('Sally Ede-Golightly') due to a mis-titled Calendly/Granola booking carried over from an earlier call, and an erroneous 'property not fit for our requirements' email had been sent to her beforehand",
-      "why": "Getting the lead's name or identity wrong signals inattention and damages rapport right when it matters most.",
-      "what_happened": "I'm a bit confused on this one though... I got that straight away, so I just went to other agents. / That's why I think you might be confusing me with someone else because I'm not Sally.",
-      "alternative": "Zac apologised twice (at the start and again at the end of the call), acknowledged the error, and re-ran the figures live for the correct one-bed property once he identified her as Rachel Randall",
-      "frequency": 1
-    },
-    {
-      "phrase": "Past experience with a contractor who overcharged her and blamed her for an appliance fault, driving strong wariness about maintenance costs biting harder on a one-bed",
-      "why": "Leaving a cost or fee point only partially resolved leaves a live doubt hanging into the close.",
-      "what_happened": "If I ended up paying hundreds of pounds for things like that frequently, it wouldn't then be worth my while... It's difficult with one beds because they don't earn so much",
-      "alternative": "Zac explained the tiered maintenance process, the £300/month pre-approval threshold, the onboarding form to capture appliance quirks, and the standard ~5% maintenance buffer while explicitly acknowledging her one-bed cost sensitivity",
-      "frequency": 1
-    },
-    {
-      "phrase": "Piotr misunderstood the offer deadline, believing he only had three days to decide instead of until 30 August.",
-      "why": "An unclear or tightly-framed deadline can read as pressure rather than a genuine incentive, and creates confusion about how much time the lead actually has.",
-      "what_happened": "I saw that I have three days to decide okay.",
-      "alternative": "Zac immediately corrected: 'it won't be three days no, end of August, end of August.'",
-      "frequency": 1
-    },
-    {
-      "phrase": "Stayful's website assessment tool had told Piotr the property was 'not suitable' / generated too low income.",
-      "why": "An automated tool or generated material contradicting what's said live undercuts the pitch's credibility.",
-      "what_happened": "it gave me the result like no we can take this property because it's not suitable or it generates too low income",
-      "alternative": "Zac explained the automated tool doesn't account for his personal situation — he still pays for the property regardless and long-letting isn't a real option given the mortgage type — so any short-let income is a net gain.",
-      "frequency": 1
-    },
-    {
-      "phrase": "Despite 5-star reviews and following the previous agent's pricing advice, June bookings collapsed while Feb/July were unexpectedly stronger",
-      "why": "Not being able to back up a claim with specific, checkable evidence damages credibility on the exact point the lead is testing.",
-      "what_happened": "'I don't know what's going on' — confusion and underlying scepticism toward management-company promises generally",
-      "alternative": "",
-      "frequency": 1
-    },
-    {
-      "phrase": "Broken action-plan link sent right after the first call, plus Zac's follow-up calls being flagged as 'suspected spam'",
-      "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.",
-      "what_happened": "Rohana reported the link wasn't working and that she wasn't answering because of spam warnings",
-      "alternative": "Zac clarified the link was a safe redirect notice and offered to email rather than call",
-      "frequency": 1
-    },
-    {
-      "phrase": "Zac's first answer to the guaranteed-rent question was a flat 'we don't offer guaranteed returns' before any reassuring data was given.",
-      "why": "A flat or under-informed answer to a direct ask leaves the lead without an alternative path forward and exposes a knowledge gap.",
-      "what_happened": "Continued pressing indirectly, later raising the three-month-void-period fear.",
-      "alternative": "",
-      "frequency": 1
-    },
-    {
-      "phrase": "Lead's void-period fear ('three months and no bookings, left with nothing') was first met with a personal-experience reassurance ('I've never had that') rather than data.",
-      "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.",
-      "what_happened": "Pressed further, asking directly for 'the worst figure' rather than accepting the anecdotal reassurance.",
-      "alternative": "Zac supplied the January worst-case net figure (~£900-£1,000).",
-      "frequency": 1
-    },
-    {
-      "phrase": "Bills responsibility (electric, water, Wi-Fi, council tax all owner-paid) came as new information, and the lead worried a guest could run up utility costs with no control from 45 miles away.",
-      "why": "A technical/audio/connectivity failure disrupted the flow of the meeting and undermined confidence before the substantive conversation could happen.",
-      "what_happened": "Pushed further on unpredictable costs (electric vehicle charging etc.).",
-      "alternative": "Smart thermostat + remote-control framing offered.",
-      "frequency": 1
-    },
-    {
-      "phrase": "Lead's opening framing that he 'ought to share in it more' — perceiving the management fee as a cut of gross turnover rather than of net income",
-      "why": "Leaving a cost or fee point only partially resolved leaves a live doubt hanging into the close.",
-      "what_happened": "I ought to share in it more, I suppose, is my initial thinking, but that would cause me to do a lot of work.",
-      "alternative": "Zac reiterated the net revenue figure and the three-part cost breakdown (15% platform, 18% cleaning, 15% management) so the fee was judged against £48,874 net rather than £93,984 gross",
-      "frequency": 1
-    },
-    {
-      "phrase": "No easy off-the-shelf solution for covering the 4.3m bifold doors — practical setup uncertainty",
-      "why": "Leaving a cost or fee point only partially resolved leaves a live doubt hanging into the close.",
-      "what_happened": "I'll see what can come up. You know, that was the other one.",
-      "alternative": "",
-      "frequency": 1
-    },
-    {
-      "phrase": "The 13% + VAT special offer was framed with a roughly one-month expiry (13 September).",
-      "why": "An unclear or tightly-framed deadline can read as pressure rather than a genuine incentive, and creates confusion about how much time the lead actually has.",
-      "what_happened": "Okay. So that's a bit of pressure.",
-      "alternative": "",
-      "frequency": 1
-    },
-    {
-      "phrase": "Lead pressed three separate times on exit/termination terms and compensation for cancelling within the six-month fixed term, testing multiple scenarios (unhappy with service, selling, moving back to UK).",
-      "why": "Leaving a cost or fee point only partially resolved leaves a live doubt hanging into the close.",
-      "what_happened": "Continued probing with follow-up scenarios until satisfied.",
-      "alternative": "Zac explained the fixed-term rationale, the 3-month notice period for servicing existing guests, no-fee exit when selling with clear communication or leaving late-stage, and a ~£1,000 cost-recovery figure only within the initial 6-month term.",
-      "frequency": 1
-    },
-    {
-      "phrase": "Rob directly questioned whether the forecast could be reliable given the limited information he'd provided",
-      "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.",
-      "what_happened": "I wasn't sure given the information that I gave you, whether that would be precise enough for you to be able to calculate to a degree of reliability.",
-      "alternative": "Zac explained the model's inputs (bedrooms, bathrooms, parking, address-based comps) and that precision improves once photos are supplied.",
-      "frequency": 1
-    },
-    {
-      "phrase": "Screen-share technical difficulty when Rob tried to show photos of the property",
-      "why": "A technical/audio/connectivity failure disrupted the flow of the meeting and undermined confidence before the substantive conversation could happen.",
-      "what_happened": "It's frustrating that.",
-      "alternative": "Zac told him he could simply send the photos after the call instead of fighting the screen-share.",
-      "frequency": 1
-    },
-    {
-      "phrase": "Rob raised new-build mortgage/lender comparable requirements as a live concern",
-      "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.",
-      "what_happened": "Raised it once, unprompted, then did not press further when the conversation moved on.",
-      "alternative": "Raise explicitly and provide short-let mortgage guidance or a lender referral before Rob signs anything; add a mortgage-permission qualifying question at enquiry stage.",
-      "frequency": 1
-    },
-    {
-      "phrase": "Zac confirming SSAS pensions cannot fund a residential-use guest house purchase, killing Pavol's ~£300k funding plan mid-call",
-      "why": "A flat or under-informed answer to a direct ask leaves the lead without an alternative path forward and exposes a knowledge gap.",
-      "what_happened": "So then I can only release half of my pension... but then there are some strict regulations that I need to repay certain amount of money not to get fined to my [SSAS].",
-      "alternative": "",
-      "frequency": 1
-    },
-    {
-      "phrase": "Zac unable to name or locate Stayful's own Harrogate-managed properties when asked directly",
-      "why": "Getting the lead's name or identity wrong signals inattention and damages rapport right when it matters most.",
-      "what_happened": "\"So where are the three Airbnb in Harrogate, in which area?\" ... \"Specifically in Harrogate.\"",
-      "alternative": "Have local property addresses/examples ready before calls with local owners; keep a locality-specific reference sheet",
-      "frequency": 1
-    },
-    {
-      "phrase": "Lead's repeated, escalating request to physically view or stay as a guest at a managed property was declined",
-      "why": "Not being able to back up a claim with specific, checkable evidence damages credibility on the exact point the lead is testing.",
-      "what_happened": "Asked twice, second time framing it as necessary because \"we have not worked with Stayful before.\"",
-      "alternative": "Offer of a direct reference call with an existing Stayful owner built into the action plan",
-      "frequency": 1
-    },
-    {
-      "phrase": "Auto-generated presentation contained a materially wrong long-term-let comparison figure for a 7-bed HMO",
-      "why": "An automated tool or generated material contradicting what's said live undercuts the pitch's credibility.",
-      "what_happened": "Not raised live on the call (caught in post-meeting QA, not by the lead).",
-      "alternative": "Removed from action plan entirely; corrected openly with a request for the lead's actual room rents to build a true comparison",
-      "frequency": 1
-    }
+    {"phrase": "Furnishing cost remained a ballpark range rather than a confirmed figure right at the point the discounted offer was made.", "why": "Leaving a cost or fee point only partially resolved leaves a live doubt hanging into the close.", "what_happened": "Our thing would be if the outlet to furnish it out.", "alternative": "Send the finalised, itemised furnishing quote the same day, well before the offer's expiry, so the concrete cost objection is closed while the discounted-rate urgency is still fresh.", "frequency": 1},
+    {"phrase": "Lead raised that removing the Nottingham City Hospital demand-driver claim (corrected after he flagged it was actually a 20-25 minute drive, not close) might have reduced the projected figures", "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.", "what_happened": "Asked directly whether it changed the figures negatively", "alternative": "", "frequency": 1},
+    {"phrase": "The income analyser tool kept misreading the bedroom count, forcing Zac to re-run it live and admit the figures might not come through cleanly.", "why": "Inconsistent, unclear, or misspoken figures undermine trust in the income numbers the whole pitch rests on.", "what_happened": "Offered to send the Rightmove floor plan link to help, though was unsure how to get it to him.", "alternative": "Send a corrected, accurate Deal Analyser PDF after the meeting so she has firm, presentable figures to take to her husband.", "frequency": 1},
+    {"phrase": "The honest reveal that Solihull's STL uplift over LTL is only ~£100/month — much thinner than a typical Stayful comparison.", "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.", "what_happened": "So there won't be a lot of difference or anything like that for us.", "alternative": "", "frequency": 1},
+    {"phrase": "Initial ambiguity over whether the quoted income figures (£20,500/yr net) were generic marketing numbers or specific to Akter's own property.", "why": "Inconsistent, unclear, or misspoken figures undermine trust in the income numbers the whole pitch rests on.", "what_happened": "Based on my property or is it just in general?", "alternative": "Zac immediately clarified: 'This is based off of your property... I based off of 42 Bridgegate Drive.'", "frequency": 1},
+    {"phrase": "Alice raised the competing agent's change-of-use/planning warning and Zac had no direct answer.", "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.", "what_happened": "Okay. / it was just one person that had said that to me... it was a potential concern", "alternative": "Get a written answer from Westmorland & Furness Council planning on change-of-use for short lets in the Whitbeck/Millom area and send it to Alice proactively rather than waiting for her to ask again.", "frequency": 1},
+    {"phrase": "Anthony's answer to Zac's opening question about whether he already owned the property or was looking to buy it was unclear ('Kind of for exactly what he's saying'), forcing Zac to re-ask the question directly", "why": "Inconsistent, unclear, or misspoken figures undermine trust in the income numbers the whole pitch rests on.", "what_happened": "Okay we're we I think. Tricky one with the vendor so yeah we are we had an offer that was kind of provisionally accepted...", "alternative": "Zac re-asked plainly: 'so I had here the property information. Is this property you're looking at buying or is this a...'", "frequency": 1},
+    {"phrase": "Zac himself flagged that the income projection range looked more volatile than expected: \"if I'm honest, what I'm looking at this, this seems more up and down than I was expecting.\"", "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.", "what_happened": "Yeah.", "alternative": "Zac reassured the figures were pulled from real comparable data rather than estimated, and contextualised the volatility as a sign of a genuinely competitive, profitable local market.", "frequency": 1},
+    {"phrase": "Dexter was unfamiliar with Slack, the platform used for ongoing communication.", "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.", "what_happened": "Uh, no, I haven't. No, that's a new thing for me.", "alternative": "Zac reframed it as simply \"like a business WhatsApp, really\".", "frequency": 1},
+    {"phrase": "Zac's income projection (~£2,800-2,900/month) didn't match Gregory's own actual revenue (~£1,600/month on a strong month)", "why": "Leaving a cost or fee point only partially resolved leaves a live doubt hanging into the close.", "what_happened": "I mean, probably like, what does it make? I would say probably revenue is about half that.", "alternative": "Zac asked about review count/listing details and offered to review the actual listing after the call to identify gaps, later attributing the shortfall to a review gap and ~20% price premium rather than the projection being unrealistic", "frequency": 1},
+    {"phrase": "Technical/connectivity issues at the very start of the call", "why": "A technical/audio/connectivity failure disrupted the flow of the meeting and undermined confidence before the substantive conversation could happen.", "what_happened": "Sorry, I know why nothing is working... I'm not sure why this is working. So I haven't really used.", "alternative": "Zac reassured it was likely a loading issue and moved on", "frequency": 1},
+    {"phrase": "Zac opened the call addressing the lead as \"Joss\" instead of Ijaz, and had no details on file for the booked call.", "why": "Getting the lead's name or identity wrong signals inattention and damages rapport right when it matters most.", "what_happened": "Lead did not correct the name and proceeded straight into explaining his property situation.", "alternative": "", "frequency": 1},
+    {"phrase": "Lead pushed for month-by-month (month 1, month 3, month 6) income figures beyond what Zac's model could produce.", "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.", "what_happened": "I mean rough estimates of course by experience I mean -- backed off after Zac declined granular figures.", "alternative": "Zac gave an annual first-year-discount approximation (15% off, divided by 12) instead of granular monthly figures.", "frequency": 1},
+    {"phrase": "Zac's screen share never worked for the entire call -- his laptop froze and he attempted sharing at least three times before abandoning it.", "why": "A technical/audio/connectivity failure disrupted the flow of the meeting and undermined confidence before the substantive conversation could happen.", "what_happened": "We can just see your face. We can't see a computer or anything.", "alternative": "", "frequency": 1},
+    {"phrase": "Figures were delivered out of order and one was misspoken (worst month stated as roughly £1,400 shortly after quoting £1,900 for January).", "why": "Inconsistent, unclear, or misspoken figures undermine trust in the income numbers the whole pitch rests on.", "what_happened": "No visible pushback in the transcript, likely masked by the ongoing screen-share confusion.", "alternative": "Ensure the written follow-up materials show the correct £1,895-£1,900 floor so the misspoken figure is not what sticks.", "frequency": 1},
+    {"phrase": "Fee push-back — Michael wanted 10%, anchored directly to his existing 7% long-let management rate.", "why": "Leaving a cost or fee point only partially resolved leaves a live doubt hanging into the close.", "what_happened": "So, yeah, that... obviously, I need to consider that as well. So the cost is a lot lower.", "alternative": "", "frequency": 1},
+    {"phrase": "Skepticism that the projected income figures were inflated to entice him — the 'computer churn number' comment.", "why": "A flat or under-informed answer to a direct ask leaves the lead without an alternative path forward and exposes a knowledge gap.", "what_happened": "I'd rather have a more realistic number than just like a computer churn number... I'll be basing everything on it.", "alternative": "Zac agreed to personally check the actual property listing photos (on the Buckley Brown site) before finalising the figure.", "frequency": 1},
+    {"phrase": "Zac presenting the ~£3,700/month net income figure", "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.", "what_happened": "Are you sure about that? — direct challenge to the figure", "alternative": "Zac cited the ~10% accuracy range as the basis for confidence in the number", "frequency": 1},
+    {"phrase": "Discussion of no interior cameras being allowed, raised straight after Raj referenced his HMO tenant trashing the house", "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.", "what_happened": "I don't get the house in trashed again — implicit anxiety about repeat damage without visual monitoring", "alternative": "Zac walked through the vetting process step by step: security deposit, ID/history checks, insurance cover for serious damage", "frequency": 1},
+    {"phrase": "Call opened with confusion — Zac initially reached what seemed like the wrong appointment, then Ross's Wi-Fi was 'shocking' and the call had to be reconnected mid-introduction", "why": "A technical/audio/connectivity failure disrupted the flow of the meeting and undermined confidence before the substantive conversation could happen.", "what_happened": "I'm so sorry. Yeah, I thought I was gonna make it. Have you got any other time today?", "alternative": "Zac offered an immediate same-day reschedule (1pm) and kept tone light ('No worries')", "frequency": 1},
+    {"phrase": "Ross's residual worry — 'not getting the bucket [booked]... being at the other side of the world' — surfaced only very late in the call, near the close", "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.", "what_happened": "Yeah. Yeah. Fair enough... It's just that.", "alternative": "", "frequency": 1},
+    {"phrase": "Net income figure required three separate clarifications ('is the figure am I getting in my hand?')", "why": "Inconsistent, unclear, or misspoken figures undermine trust in the income numbers the whole pitch rests on.", "what_happened": "Continued re-asking in different phrasings across the call, suggesting the explanation hadn't fully landed the first time", "alternative": "Zac repeated the breakdown (mortgage + ~£500 bills come out of net) each time she asked", "frequency": 1},
+    {"phrase": "Sophia misread the worst-month payout as £600 instead of £2,100, briefly thinking she'd need to pay the mortgage out of £600", "why": "Inconsistent, unclear, or misspoken figures undermine trust in the income numbers the whole pitch rests on.", "what_happened": "So I should pay the mortgage from the 600 pound", "alternative": "Zac immediately corrected: 'No, no, no. So it's 2100 pound of payout'", "frequency": 1},
+    {"phrase": "Sophia could not read the shared screen clearly ('if you read out that is better... clear is in my phone')", "why": "A technical/audio/connectivity failure disrupted the flow of the meeting and undermined confidence before the substantive conversation could happen.", "what_happened": "Asked Zac to read figures aloud rather than rely on the shared screen for the remainder of the call", "alternative": "Zac switched to reading figures aloud instead of relying on the screen share", "frequency": 1},
+    {"phrase": "The guaranteed rent option he had been pursuing turned out to be unavailable to him", "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.", "what_happened": "Pivoted to seeking contract stays specifically for insurance workers as an alternative certainty substitute", "alternative": "", "frequency": 1},
+    {"phrase": "Audio issue at the very start of the call — the lead could not hear Zac.", "why": "A technical/audio/connectivity failure disrupted the flow of the meeting and undermined confidence before the substantive conversation could happen.", "what_happened": "\"So I can't hear you.\"", "alternative": "Zac checked in again and the lead confirmed once earphones/audio settled.", "frequency": 1},
+    {"phrase": "Zac initially confused Rachel with a different lead ('Sally Ede-Golightly') due to a mis-titled Calendly/Granola booking carried over from an earlier call, and an erroneous 'property not fit for our requirements' email had been sent to her beforehand", "why": "Getting the lead's name or identity wrong signals inattention and damages rapport right when it matters most.", "what_happened": "I'm a bit confused on this one though... I got that straight away, so I just went to other agents. / That's why I think you might be confusing me with someone else because I'm not Sally.", "alternative": "Zac apologised twice (at the start and again at the end of the call), acknowledged the error, and re-ran the figures live for the correct one-bed property once he identified her as Rachel Randall", "frequency": 1},
+    {"phrase": "Past experience with a contractor who overcharged her and blamed her for an appliance fault, driving strong wariness about maintenance costs biting harder on a one-bed", "why": "Leaving a cost or fee point only partially resolved leaves a live doubt hanging into the close.", "what_happened": "If I ended up paying hundreds of pounds for things like that frequently, it wouldn't then be worth my while... It's difficult with one beds because they don't earn so much", "alternative": "Zac explained the tiered maintenance process, the £300/month pre-approval threshold, the onboarding form to capture appliance quirks, and the standard ~5% maintenance buffer while explicitly acknowledging her one-bed cost sensitivity", "frequency": 1},
+    {"phrase": "Piotr misunderstood the offer deadline, believing he only had three days to decide instead of until 30 August.", "why": "An unclear or tightly-framed deadline can read as pressure rather than a genuine incentive, and creates confusion about how much time the lead actually has.", "what_happened": "I saw that I have three days to decide okay.", "alternative": "Zac immediately corrected: 'it won't be three days no, end of August, end of August.'", "frequency": 1},
+    {"phrase": "Stayful's website assessment tool had told Piotr the property was 'not suitable' / generated too low income.", "why": "An automated tool or generated material contradicting what's said live undercuts the pitch's credibility.", "what_happened": "it gave me the result like no we can take this property because it's not suitable or it generates too low income", "alternative": "Zac explained the automated tool doesn't account for his personal situation — he still pays for the property regardless and long-letting isn't a real option given the mortgage type — so any short-let income is a net gain.", "frequency": 1},
+    {"phrase": "Despite 5-star reviews and following the previous agent's pricing advice, June bookings collapsed while Feb/July were unexpectedly stronger", "why": "Not being able to back up a claim with specific, checkable evidence damages credibility on the exact point the lead is testing.", "what_happened": "'I don't know what's going on' — confusion and underlying scepticism toward management-company promises generally", "alternative": "", "frequency": 1},
+    {"phrase": "Broken action-plan link sent right after the first call, plus Zac's follow-up calls being flagged as 'suspected spam'", "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.", "what_happened": "Rohana reported the link wasn't working and that she wasn't answering because of spam warnings", "alternative": "Zac clarified the link was a safe redirect notice and offered to email rather than call", "frequency": 1},
+    {"phrase": "Zac's first answer to the guaranteed-rent question was a flat 'we don't offer guaranteed returns' before any reassuring data was given.", "why": "A flat or under-informed answer to a direct ask leaves the lead without an alternative path forward and exposes a knowledge gap.", "what_happened": "Continued pressing indirectly, later raising the three-month-void-period fear.", "alternative": "", "frequency": 1},
+    {"phrase": "Lead's void-period fear ('three months and no bookings, left with nothing') was first met with a personal-experience reassurance ('I've never had that') rather than data.", "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.", "what_happened": "Pressed further, asking directly for 'the worst figure' rather than accepting the anecdotal reassurance.", "alternative": "Zac supplied the January worst-case net figure (~£900-£1,000).", "frequency": 1},
+    {"phrase": "Bills responsibility (electric, water, Wi-Fi, council tax all owner-paid) came as new information, and the lead worried a guest could run up utility costs with no control from 45 miles away.", "why": "A technical/audio/connectivity failure disrupted the flow of the meeting and undermined confidence before the substantive conversation could happen.", "what_happened": "Pushed further on unpredictable costs (electric vehicle charging etc.).", "alternative": "Smart thermostat + remote-control framing offered.", "frequency": 1},
+    {"phrase": "Lead's opening framing that he 'ought to share in it more' — perceiving the management fee as a cut of gross turnover rather than of net income", "why": "Leaving a cost or fee point only partially resolved leaves a live doubt hanging into the close.", "what_happened": "I ought to share in it more, I suppose, is my initial thinking, but that would cause me to do a lot of work.", "alternative": "Zac reiterated the net revenue figure and the three-part cost breakdown (15% platform, 18% cleaning, 15% management) so the fee was judged against £48,874 net rather than £93,984 gross", "frequency": 1},
+    {"phrase": "No easy off-the-shelf solution for covering the 4.3m bifold doors — practical setup uncertainty", "why": "Leaving a cost or fee point only partially resolved leaves a live doubt hanging into the close.", "what_happened": "I'll see what can come up. You know, that was the other one.", "alternative": "", "frequency": 1},
+    {"phrase": "The 13% + VAT special offer was framed with a roughly one-month expiry (13 September).", "why": "An unclear or tightly-framed deadline can read as pressure rather than a genuine incentive, and creates confusion about how much time the lead actually has.", "what_happened": "Okay. So that's a bit of pressure.", "alternative": "", "frequency": 1},
+    {"phrase": "Lead pressed three separate times on exit/termination terms and compensation for cancelling within the six-month fixed term, testing multiple scenarios (unhappy with service, selling, moving back to UK).", "why": "Leaving a cost or fee point only partially resolved leaves a live doubt hanging into the close.", "what_happened": "Continued probing with follow-up scenarios until satisfied.", "alternative": "Zac explained the fixed-term rationale, the 3-month notice period for servicing existing guests, no-fee exit when selling with clear communication or leaving late-stage, and a ~£1,000 cost-recovery figure only within the initial 6-month term.", "frequency": 1},
+    {"phrase": "Rob directly questioned whether the forecast could be reliable given the limited information he'd provided", "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.", "what_happened": "I wasn't sure given the information that I gave you, whether that would be precise enough for you to be able to calculate to a degree of reliability.", "alternative": "Zac explained the model's inputs (bedrooms, bathrooms, parking, address-based comps) and that precision improves once photos are supplied.", "frequency": 1},
+    {"phrase": "Screen-share technical difficulty when Rob tried to show photos of the property", "why": "A technical/audio/connectivity failure disrupted the flow of the meeting and undermined confidence before the substantive conversation could happen.", "what_happened": "It's frustrating that.", "alternative": "Zac told him he could simply send the photos after the call instead of fighting the screen-share.", "frequency": 1},
+    {"phrase": "Rob raised new-build mortgage/lender comparable requirements as a live concern", "why": "Left only partially addressed, the concern stayed live rather than being fully resolved before moving on.", "what_happened": "Raised it once, unprompted, then did not press further when the conversation moved on.", "alternative": "Raise explicitly and provide short-let mortgage guidance or a lender referral before Rob signs anything; add a mortgage-permission qualifying question at enquiry stage.", "frequency": 1},
+    {"phrase": "Zac confirming SSAS pensions cannot fund a residential-use guest house purchase, killing Pavol's ~£300k funding plan mid-call", "why": "A flat or under-informed answer to a direct ask leaves the lead without an alternative path forward and exposes a knowledge gap.", "what_happened": "So then I can only release half of my pension... but then there are some strict regulations that I need to repay certain amount of money not to get fined to my [SSAS].", "alternative": "", "frequency": 1},
+    {"phrase": "Zac unable to name or locate Stayful's own Harrogate-managed properties when asked directly", "why": "Getting the lead's name or identity wrong signals inattention and damages rapport right when it matters most.", "what_happened": "\"So where are the three Airbnb in Harrogate, in which area?\" ... \"Specifically in Harrogate.\"", "alternative": "Have local property addresses/examples ready before calls with local owners; keep a locality-specific reference sheet", "frequency": 1},
+    {"phrase": "Lead's repeated, escalating request to physically view or stay as a guest at a managed property was declined", "why": "Not being able to back up a claim with specific, checkable evidence damages credibility on the exact point the lead is testing.", "what_happened": "Asked twice, second time framing it as necessary because \"we have not worked with Stayful before.\"", "alternative": "Offer of a direct reference call with an existing Stayful owner built into the action plan", "frequency": 1},
+    {"phrase": "Auto-generated presentation contained a materially wrong long-term-let comparison figure for a 7-bed HMO", "why": "An automated tool or generated material contradicting what's said live undercuts the pitch's credibility.", "what_happened": "Not raised live on the call (caught in post-meeting QA, not by the lead).", "alternative": "Removed from action plan entirely; corrected openly with a request for the lead's actual room rents to build a true comparison", "frequency": 1},
+    {"phrase": "Paresh's smart locks (never failed across his portfolio) were met with a stated preference for key safes rather than being accepted as valid evidence", "why": "Not being able to back up a claim with specific, checkable evidence damages credibility on the exact point the lead is testing — and dismissing a lead's own real operational experience risks reading as inflexible.", "what_happened": "I've had another had another conversation... they're pretty good actually. They've never failed actually. — left as an open, unresolved disagreement.", "alternative": "Acknowledge the lead's real track record explicitly before restating Stayful's preference, and offer to accommodate smart locks where the lead has proven them reliable rather than defaulting to key safes across the board.", "frequency": 1},
+    {"phrase": "Auto-generated presentation cost-hierarchy slide omitted cleaning and laundry entirely, understating the true cost stack by ~£18,000 against the correct FORECAST net figure", "why": "An automated tool or generated material contradicting what's said live undercuts the pitch's credibility.", "what_happened": "Not raised live on the call — Zac gave the correct £46,407 net figure verbally, so the lead has the right number, but the slide itself remains misleading as displayed for any future viewing.", "alternative": "Fix the presentation generator's cost-hierarchy slide to include all three deductions (platform, cleaning/laundry, management) before it is shown to another lead.", "frequency": 1}
   ]
 }
