@@ -1,11 +1,30 @@
 {
   "schema_version": "3.0",
-  "total_lost_entries": 13,
-  "last_updated": "2026-07-31",
+  "total_lost_entries": 15,
+  "last_updated": "2026-09-13",
   "by_reason": {
+    "Building does not allow": {
+      "count": 2,
+      "percentage": 13.33,
+      "emotional_profiles": {
+        "unspecified": 2
+      },
+      "profile_types": {
+        "EX-STL": 1,
+        "ABROAD": 1
+      },
+      "typical_conversion_gaps_at_abandonment": [
+        "qualification_gap — no lease/freeholder/building-permission check before agreeing commercial terms",
+        "regulatory_ambiguity (wrong-borough or unclear licensing guidance given live)"
+      ],
+      "was_offer_made": 1,
+      "was_offer_not_made": 1,
+      "meeting_phase_of_abandonment": "Post-agreement / onboarding stage — discovered after commercial terms (and in one case a signed special offer) were already agreed, not during initial qualification.",
+      "prevention_approach": "Verify building/lease/freeholder permission for short-letting BEFORE agreeing commercial terms or making an offer, especially for leasehold flats and tower blocks — add this as a mandatory qualification question early in the pipeline rather than something discovered at onboarding. Both of this run's cases (092 Caixia Ye, 094 Piotr Surminski) reached advanced stages (agreed go-live date / signed offer) before the restriction surfaced."
+    },
     "Likely deterred by large 5-bed setup costs and timing uncertainty; moved abroad": {
       "count": 1,
-      "percentage": 7.7,
+      "percentage": 6.67,
       "emotional_profiles": {
         "Moving abroad — needs remote management solution. Concerned about setup costs and financial viability for a large property. Possibly deterred by high upfront investment required for 5-bed Airbnb conversion.": 1
       },
@@ -23,7 +42,7 @@
     },
     "LTL vs STL margin too thin given very low £260/mo mortgage; setup costs too high to justify switch": {
       "count": 1,
-      "percentage": 7.7,
+      "percentage": 6.67,
       "emotional_profiles": {
         "Cautious evaluator. Very low mortgage (£260/mo) means the existing LTL is already comfortable — limited financial pain driving change. Setup cost deterred without compelling income uplift.": 1
       },
@@ -41,7 +60,7 @@
     },
     "R2R margin too thin — rent + Stayful management fees + setup costs leave insufficient profit; Sheffield not preferred geographic area": {
       "count": 1,
-      "percentage": 7.7,
+      "percentage": 6.67,
       "emotional_profiles": {
         "Entrepreneurial R2R investor. Numbers-focused. Abandoned quickly when financial model did not work.": 1
       },
@@ -58,7 +77,7 @@
     },
     "Landlord won't reduce rent from £1,000/mo to viable ~£800/mo. At £1,000 rent profit near zero. Setup cost ~£3-5k unrecoverable. Sheffield too far from Rasheed's Manchester base.": {
       "count": 1,
-      "percentage": 7.7,
+      "percentage": 6.67,
       "emotional_profiles": {
         "Entrepreneurial. Manchester-based, looking for R2R opportunities. Optimistic about STL income but constrained by landlord's rent demands. Needs 20% rent reduction from landlord — Zac acknowledged this is rare. Language: 'doesn't work', 'walk away', 'closer to Manchester', 'not much opportunity in this deal'.": 1
       },
@@ -77,7 +96,7 @@
     },
     "competitor_chosen_or_deferred": {
       "count": 1,
-      "percentage": 7.7,
+      "percentage": 6.67,
       "emotional_profiles": {
         "Analytical overseas owner evaluating 3 providers simultaneously; valued transparency and manageable portfolio size; cautious but financially well-placed with no mortgage pressure": 1
       },
@@ -95,7 +114,7 @@
     },
     "contract_and_performance_concerns": {
       "count": 1,
-      "percentage": 7.7,
+      "percentage": 6.67,
       "emotional_profiles": {
         "Risk-averse; concerned about performance guarantees and contractual commitments; fully furnished property reduces setup friction but trust gap was decisive": 1
       },
@@ -112,7 +131,7 @@
     },
     "r2r_margins_too_thin": {
       "count": 1,
-      "percentage": 7.7,
+      "percentage": 6.67,
       "emotional_profiles": {
         "Business-minded R2R operator struggling with margins; open to solutions but cost structure made Stayful management financially unviable": 1
       },
@@ -129,7 +148,7 @@
     },
     "developer_management_chosen": {
       "count": 1,
-      "percentage": 7.7,
+      "percentage": 6.67,
       "emotional_profiles": {
         "International owner (Lagos-based); developer relationship likely prioritised by default; difficult conversion pattern — developer proximity wins against third-party management": 1
       },
@@ -147,7 +166,7 @@
     },
     "model_mismatch_shared_accommodation": {
       "count": 1,
-      "percentage": 7.7,
+      "percentage": 6.67,
       "emotional_profiles": {
         "Disqualified at web meeting due to model mismatch — not a financial viability issue": 1
       },
@@ -164,7 +183,7 @@
     },
     "Unspecified": {
       "count": 3,
-      "percentage": 23.1,
+      "percentage": 20.0,
       "emotional_profiles": {
         "certainty-seeker": 1,
         "analytical-evaluator": 1
@@ -192,7 +211,7 @@
     },
     "Decided to long let property": {
       "count": 1,
-      "percentage": 7.7,
+      "percentage": 6.67,
       "emotional_profiles": {
         "certainty-seeker": 1
       },
@@ -223,6 +242,12 @@
       "description": "3 of 18 total PURCH-profile leads were lost while the property purchase itself was still in progress — each either chose an alternative (developer management, long-letting instead) or lost momentum before legal completion.",
       "frequency": 3,
       "prevention": "Run a structured, proactive check-in cadence with PURCH-profile leads through to legal completion rather than an open-ended follow-up, since the competing decision (or drop-off) tends to happen inside that window."
+    },
+    {
+      "pattern": "leasehold/managed-building property + building eligibility never checked before commercial terms agreed",
+      "description": "Both new lost entries this run (092, 094) were leasehold flats where Stayful agreed a go-live date and, in one case, applied a signed special offer, before discovering the building/lease itself does not permit short-letting. Neither the meeting nor the pre-call qualification surfaced this until onboarding.",
+      "frequency": 2,
+      "prevention": "Add a mandatory qualification question for any flat/leasehold/managed-building property — 'does your lease or building management explicitly permit short-term letting?' — before quoting fees, discussing a go-live date, or making a time-limited offer."
     }
   ]
 }

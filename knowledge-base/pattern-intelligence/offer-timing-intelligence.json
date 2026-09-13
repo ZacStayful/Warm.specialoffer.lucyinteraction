@@ -1,8 +1,8 @@
 {
   "schema_version": "3.0",
-  "total_offers_analysed": 45,
-  "last_updated": "2026-08-30",
-  "offer_conversion_rate": 0.0444,
+  "total_offers_analysed": 46,
+  "last_updated": "2026-09-13",
+  "offer_conversion_rate": 0.0435,
   "no_offer_meeting_2_rate": 0.0339,
   "offer_meeting_2_rate": 0.0,
   "optimal_offer_timing": {
@@ -17,10 +17,10 @@
   ],
   "delay_present_at_offer_outcomes": {
     "description": "What happens when an offer is made despite a delay",
-    "cases": 5,
+    "cases": 6,
     "accepted": 0,
     "rejected": 0,
-    "notes": "In every recorded case (all involving a furnishing-cost or other unresolved delay), the offer was made anyway but the lead deferred the decision rather than accepting or explicitly rejecting on the call — the delay condition was never resolved before the offer's expiry in the transcript record."
+    "notes": "In every recorded case (furnishing-cost, other unresolved delays, or an ABROAD/relocation profile), the offer was made anyway but the lead deferred the decision rather than accepting or explicitly rejecting on the call. This run adds one further case (entry 094, Piotr Surminski, ABROAD): the offer had already been made in a prior meeting and was still live at this follow-up call, but the deal was ultimately lost afterward — not through explicit rejection, but because the building/lease was found not to permit short-letting at all, discovered after the offer's expiry. This is a new failure mode: an offer can outlive its own viability if the underlying property eligibility was never confirmed."
   },
   "offer_framings": [
     {"verbatim_framing": "A discretionary discount off the standard rate, tied to a hard deadline: \"I'm happy to do a discount on our management of 13 instead of 15. But it'd be based off of signing before the 31st of July which is you know what four weeks away from now... I'll put that in writing as well for you in an email.\"", "rate": "13% + VAT", "expiry_framing": "the 31st of July — stated as roughly four weeks away from the call", "acceptance_rate": 0.0, "emotional_profiles_responded_best": [], "frequency": 1},
@@ -46,7 +46,7 @@
   "expiry_effectiveness": {
     "7_days": {"cases": 0, "acceptance_rate": 0.0},
     "14_days": {"cases": 7, "acceptance_rate": 0.0},
-    "other": {"cases": 34, "acceptance_rate": 0.0294}
+    "other": {"cases": 35, "acceptance_rate": 0.0286}
   },
-  "offer_conversion_rate_methodology": "FIXED 2026-08-30: computed as count(offer_accepted_at_meeting==true) / total_offers_analysed, not literal string-matching on offer_outcome=='accepted'. Known gap: only entries added since schema 3.0 rich fields (this run's 086, and the 1 prior entry whose offer_outcome already read 'accepted') have offer_accepted_at_meeting recorded; the other 43 historical offer entries have not yet been individually re-audited for their true offer_accepted_at_meeting value, so this rate (2/45) is a floor, not a final figure — recommend a backfill pass over all 44 prior offer-made transcripts next run to set offer_accepted_at_meeting explicitly on each and fully correct this metric."
+  "offer_conversion_rate_methodology": "Computed as count(offer_accepted_at_meeting==true) / total_offers_analysed. This run added 1 offer-made entry (094, Piotr Surminski, ABROAD) — offer_accepted_at_meeting=false (the offer had already been made in an inaccessible prior meeting; this transcript was a follow-up onboarding call with no on-call accept/reject moment, and the deal was later lost when a building restriction on short-letting was discovered, after the offer's own expiry). Rate is now 2/46 = 0.0435. Known gap carried over from the prior run: only a handful of offer-made entries have offer_accepted_at_meeting individually re-audited; offer_by_profile_type and offer_by_archetype denominators were NOT recomputed this run (would require re-scanning all 120 entries' profile/archetype tags, out of scope for this run) — treat those two sub-tables as stale as of 2026-08-30 and due for a full recompute pass."
 }
