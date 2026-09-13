@@ -1,25 +1,22 @@
 # Quick Stats — Stayful Web Meeting Intelligence
 
-**Entries:** 109 transcripts (2026-Q1→Q3; 6 processed this run) | **Confidence: STRONG** (50+ meeting threshold cleared)
+**Entries:** 120 transcripts (2026-Q1→Q3; 11 processed this run) | **Confidence: STRONG** (50+ meeting threshold cleared)
 
-## Outcomes (profile-type conversion_data — sums cleanly to 109)
-- Ready Now: 28 (26%) | Delayed: 81 (74%)
+## Outcomes (profile-type conversion_data — approximate, see caveat)
+- Ready Now: 28 (23%) | Delayed: 90 (75%)
 - No Ready Soon/Nurture split exists in source data — only these two buckets are tracked.
-- Lost: 13 — tracked separately, overlaps the two buckets above, not additive.
+- Lost: 15 (up from 13) — tracked separately, overlaps the two buckets above, not additive.
 
-## Offers (offer-timing-intelligence.json, n=45)
-- Acceptance rate: 4.4% (methodology fixed this run — now counts offer_accepted_at_meeting; entry 086 is the first confirmed acceptance) | Best timing: at/near meeting close
-- Meeting-2 booked: with offer 0% | without offer 3.4%
+## Offers (offer-timing-intelligence.json, n=46)
+- Acceptance rate: 4.35% (2/46) — still a floor; most offer-made entries have not been individually re-audited for offer_accepted_at_meeting.
+- **New failure mode this run:** an offer can outlive its own viability — entry 094's live 13%+VAT offer was never accepted or rejected on-call, then the deal was lost afterward when the building/lease was found not to permit short-letting at all.
 
 ## Delay & Green Light
-- Most common delay: DLY-OTH, "other prerequisite" catch-all — 26 entries. Most common *named* delay: DLY-FUR (unfurnished) — 11.
-- Most common green light (approx. — no dedicated source file; summed across by-profile-type files): GL-TIME (~30) narrowly ahead of GL-MGMT (~28); GL-SELF trails (~14).
+- Most common delay: DLY-OTH catch-all — 34 entries. Most common *named* delay: DLY-FUR (unfurnished) — 13.
+- Green light source data untouched this run except two additions (092 GL-SELF, 096 GL-TIME) — see delay-and-green-light-reference.md.
 
-## Archetypes — only 36/109 transcripts (33%) match one of the 8 defined slugs
-- Most common: analytical-evaluator (17) | Least common (w/ data): fast-path-gain-focused (n=2)
-- Highest conversion: fast-path-gain-focused (1.0, n=2, both accepted at the meeting); best at n>5: analytical-evaluator (0.5)
-- Lowest conversion: certainty-seeker (0.1, n=11)
-- 4/8 have zero entries: betrayal-damaged, social-proof-dependent, status-quo-resistant, urgency-driven
+## Archetypes — 0 of this run's 11 new entries carry a canonical archetype
+**Data-integrity finding:** every extraction agent this run independently confirmed the Monday psychology columns (text_mm3pk18b Emotional Profile, numeric_mm3pm45m Conversion Likelihood, text_mm3qbahd Primary Blocker, etc.) **do not exist at all** on live board 5891626711 — not just unpopulated. CLAUDE.md's own column reference table lists these as real columns. Either they were removed from the board, or the Lead Psychology Profiler that's supposed to write them was never wired up. Still only 36/120 (30%) entries carry a canonical slug; the gap is entirely structural now, not a backfill problem.
 
-## Lost Reasons (n=13, unchanged this run)
-Most common label: "Unspecified" (3) — not a real diagnosis. Next-strongest pattern: R2R margin failure (3 of 13 lost entries).
+## Lost Reasons (n=15)
+**New this run: "Building does not allow" — 2 cases (13%), now tied for the largest single reason with the pre-existing "Unspecified" bucket.** Both reached agreed-terms or signed-offer stage before the restriction surfaced at onboarding. See lost-reason-patterns.json cross_reference for the prevention approach (check building/lease permission before quoting fees or making an offer).
