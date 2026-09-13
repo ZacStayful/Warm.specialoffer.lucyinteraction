@@ -1,0 +1,93 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "097",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-09-09",
+  "transcript_quality": "full",
+  "lead_name": "Ian Burningham",
+  "email": "ian.burningham@gmail.com",
+  "monday_id": "12959879234",
+  "address": "73 Argyle Street, Cambridge CB1 3LS",
+  "bedrooms": 2,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "Something else",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Decision externally blocked: needs to consult wife (returning to France the following week), comparing quotes from other agencies, and property not vacant until existing long-let tenants leave end Oct/first week Nov 2026.",
+  "language_signals": ["I just really need to be able to say to someone, can you look after this, make sure stuff's dealt with, pay me some money every month.", "I also want the flexibility to use it occasionally myself.", "I hate hotels.", "They're kind of paying 2019 prices.", "The revenue was fine, the customer service... wasn't great.", "I've got to chat to my wife... decide probably in the next month.", "very, very kind of landlord unfriendly / gone too far"],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {"type": "DLY-TEN", "trigger_phrase": "we've got a property in cambridge that's been on a long term let for six years... tenants leaving because they're handed in notice, they'll leave at the end of October, 1st week of November", "context": "Existing long-let tenants of ~6 years have served notice; property won't be vacant for STL setup until end Oct/early Nov 2026, plus ~3-4 further weeks of setup.", "timeline_given": "End October / first week November 2026 vacant possession; ~3-4 further weeks to go live", "resolved_in_meeting": false}
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {},
+  "meeting_flow": {
+    "opening_phrase": "Hi. How you doing? Ian immediately raised confusion about an erroneous disqualification email.",
+    "rapport_topics": ["Midlands vs North geography banter", "Ian's background as a long-term immigrant to the UK", "Wi-Fi/audio jitteriness"],
+    "pivot_to_business": "After apologising for the erroneous email, let Ian volunteer his own background before asking his first clarifying question.",
+    "income_intro": "we're estimating about sort of 68,000 a year gross, which is about 5600... 5700 a month.",
+    "post_income_silence": "None observed — Ian engaged immediately with objections.",
+    "how_it_works_transition": "I can go through a bit of what the service looks like once you're on board — platforms, dynamic pricing, ID checks/deposits, live calendar demo.",
+    "pre_close_setup": "Walked through the setup sequence and rough timeline once tenants vacate.",
+    "close_phrase": "I'll send everything over to you... we could touch base end of the month.",
+    "meeting_2_ask": "Ian gave a date range (24th-25th September) but no specific time; nothing booked in Calendly.",
+    "total_duration_mins": 30,
+    "talk_ratio_zac_pct": 65
+  },
+  "lead_responses": [
+    {"what_lead_said": "I thought I had an email saying we failed your internal criteria and you were referring me elsewhere — so where are things at?", "category": "confusion_systems_trust", "meeting_phase": "opening", "zac_responded_with": "Apologised, said it was a filter/systems bug he was still investigating.", "lead_follow_up": "Fine but you can understand my confusion.", "resolved": true},
+    {"what_lead_said": "That's charged to guests so why is it still part of the gross?", "category": "objection_financial_mechanics", "meeting_phase": "income_presentation", "zac_responded_with": "Explained the guest-facing total (including cleaning fee) is what's quoted as gross.", "lead_follow_up": "Asked whether cleaning includes linen/consumables.", "resolved": true},
+    {"what_lead_said": "How do you come up with 280 when I've seen 150-240?", "category": "objection_pricing_credibility", "meeting_phase": "income_presentation", "zac_responded_with": "Explained some competitors quote net; £280 benchmarked against comparables within ~0.5km (£180-£380).", "lead_follow_up": "So that would include the cleaning cost... okay.", "resolved": true},
+    {"what_lead_said": "Cambridge has a lot of Airbnbs — is there enough demand for another one?", "category": "objection_market_viability", "meeting_phase": "income_presentation", "zac_responded_with": "Reframed as competitiveness; named Cambridge a top-5 UK STL market; gave honest ramp-up (11-17 months, ~15% below projection initially).", "lead_follow_up": "It does.", "resolved": true},
+    {"what_lead_said": "What's the average rate for properties you manage — in Cambridge specifically?", "category": "objection_service_quality_proof", "meeting_phase": "service_overview", "zac_responded_with": "Gave nationwide average (4.6) but couldn't give Cambridge-specific figure; committed to follow up.", "lead_follow_up": "Okay if you could it'd be helpful.", "resolved": false},
+    {"what_lead_said": "Do you have your own cleaners/handyman — how are repairs handled?", "category": "process_question", "meeting_phase": "service_overview", "zac_responded_with": "Explained triage process, own cleaners/maintenance team, contractor batching.", "lead_follow_up": "Followed with a linen/consumables question.", "resolved": true},
+    {"what_lead_said": "How far in advance are places usually booked?", "category": "process_question", "meeting_phase": "service_overview", "zac_responded_with": "Most bookings within 30 days; more notice for personal-use blocking is better.", "lead_follow_up": "Understood.", "resolved": true},
+    {"what_lead_said": "If we decided, how long to get stuff in place?", "category": "timeline_logistics", "meeting_phase": "closing/next_steps", "zac_responded_with": "Detailed setup sequence, ~3-4 weeks from vacant possession.", "lead_follow_up": "Confirmed his own mental model.", "resolved": true}
+  ],
+  "conversion_gaps": [
+    {"gap": "Cambridge-specific average guest rating never delivered", "category": "proof_trust", "evidence": "Zac committed to check and follow up but hasn't yet.", "how_to_fill": "Confirm and send the Cambridge-specific rating.", "filled_in_action_plan": false},
+    {"gap": "Whether there is a mortgage, and its amount, was never established", "category": "financial_data_gap", "evidence": "Never quantified on the call.", "how_to_fill": "Directly ask Ian about mortgage cost.", "filled_in_action_plan": false},
+    {"gap": "No firm follow-up time booked", "category": "scheduling", "evidence": "Only a date range agreed, nothing in Calendly.", "how_to_fill": "Manual nudge on 24 Sept to pin a specific time.", "filled_in_action_plan": false},
+    {"gap": "An automated disqualification email reached Ian before the call", "category": "internal_systems", "evidence": "Ian opened the call with this exact confusion.", "how_to_fill": "Fix the qualification-filter automation.", "filled_in_action_plan": false}
+  ],
+  "positive_shift_moments": [
+    "Ian's agreement with Zac's honest ramp-up framing versus competitors who oversell.",
+    "Engagement with the best/likely/worst-case income framing against his long-let baseline.",
+    "Live calendar demo for personal-use blocking landed on his stated motivation.",
+    "The ADR objection resolved into distrust of competitor quoting methods, not Stayful.",
+    "Warm response to Zac's own founder story."
+  ],
+  "friction_moments": [
+    "Opening-call confusion over the erroneous disqualification email.",
+    "Unresolved ask for a Cambridge-specific rating, on the exact axis where his prior STL manager failed him.",
+    "Brief credibility friction on the £280 ADR before methodology was explained.",
+    "Minor logistical friction from jittery work Wi-Fi/audio."
+  ],
+  "zac_language": {
+    "opening_phrases": ["Hi. How you doing?", "You shouldn't have got that message... apologies about that."],
+    "transition_phrases": ["I can go through the figures first, then how our service works.", "I can go through what the service looks like once you're on board."],
+    "reassurance_phrases": ["No worries.", "Yeah, definitely, definitely.", "100%.", "I'm confident we can achieve these figures."],
+    "emphasis_phrases": ["Cambridge is probably one of the best areas in the country for short letting.", "Our job is more important in the first year to 18 months."],
+    "analogies_used": [],
+    "numbers_framing": "Best/likely/worst-case (worst ~£2,100-2,172, likely ~£3,000, best ~£4,200-4,207); gross-to-net (£68,232 → ~£35,479) itemising platform fees ~15%, cleaning ~18%, management 15%, bills £400-500/mo.",
+    "objection_handling_pattern": "Explains the underlying mechanism rather than defending the raw number — gross/net quoting conventions on the ADR objection; honest ramp-up timeline on market saturation."
+  },
+  "profile_psychology_intersection": {
+    "note": "No canonical Monday archetype. Ian reads as an analytical, cross-checking evaluator whose real driver is reliability and personal-use flexibility, with a live prior wound (a previous manager's poor responsiveness) making the unresolved Cambridge rating disproportionately significant to trust."
+  },
+  "action_plan_responses": {"note": "Empty — no lead responses recorded yet; only the action plan URL exists."},
+  "classification": "DELAYED"
+}

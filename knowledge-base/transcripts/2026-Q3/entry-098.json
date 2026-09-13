@@ -1,0 +1,98 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "098",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-09-10",
+  "transcript_quality": "full",
+  "lead_name": "Fariquain (Faz) Shah",
+  "email": "faz.shah@hotmail.co.uk",
+  "monday_id": "12989494965",
+  "address": "Oak tree Cottage NN12 8LQ",
+  "bedrooms": 5,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Rent to rent property looking for management (Monday literal value — flagged as an internal data-quality error: Faz owns the estate via a company, not a rent-to-rent arrangement).",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Renovation not started/complete: tenants currently occupying the property planning to move out (no firm date), then a ~£40k structural renovation estimated at 6-8 weeks once builders are on site; property must then be furnished from scratch.",
+  "language_signals": ["I'm looking to somebody to guide me.", "I like to look at work from the bottom figures... Anything is a bonus on top.", "If I'm going to do something, I like to do it properly.", "If it works well, fine. If not, I was going to put it on the market.", "You get some good and you get some bad.", "As long as I get a net income which is covering my mortgages and expenses, I'm happy with that.", "I'm too old. I'd rather leave it with you guys. Not my headache.", "I need somebody who's enthusiastic... You're young blood.", "if we work together, we've got a really big one to do as well together."],
+  "portfolio_flag": true,
+  "outcome": "Warm",
+  "lost_reason": "None",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {"type": "DLY-TEN", "trigger_phrase": "Tenants living there, they're planning to move out, so I'm getting quotes on renovations.", "context": "Existing tenants currently occupy the cottage; no firm move-out date given.", "timeline_given": "", "resolved_in_meeting": false},
+    {"type": "DLY-FUR", "trigger_phrase": "well, it was unfinished [unfurnished], so I'm gonna have to furnish it again.", "context": "Previously let unfurnished; needs full furnishing before STL.", "timeline_given": "", "resolved_in_meeting": false},
+    {"type": "DLY-OTH", "trigger_phrase": "I'm going to be spending about £40,000 modernizing it... I'm estimating this to take about 6 to 8 weeks.", "context": "Major structural renovation is a prerequisite; architect engaged but builders not yet on site.", "timeline_given": "6-8 weeks once builders are in (start date undetermined pending tenant move-out)", "resolved_in_meeting": false}
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {},
+  "meeting_flow": {
+    "opening_phrase": "Well, I thought I'd start just by sort of understanding a bit on your current situation.",
+    "rapport_topics": ["the renovation plan and layout", "the manor estate / farm animals", "proximity to Silverstone and the A5/A43/M1", "EV chargers", "the future manor house Airbnb pipeline"],
+    "pivot_to_business": "We can go through some figures then and our service, see if it lines up with what you're looking for.",
+    "income_intro": "So we've got gross revenue... about 13,700.",
+    "post_income_silence": "",
+    "how_it_works_transition": "I can take you through a bit about how [it works]... completely remotely.",
+    "pre_close_setup": "I'd like to come and have a look at it and see what extra bits we can add.",
+    "close_phrase": "Yeah, no, nice one... I think we could work together quite well when it's ready.",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 45
+  },
+  "lead_responses": [
+    {"what_lead_said": "Where did you get the £13,000 figure from?", "category": "data_skepticism", "meeting_phase": "figures_presentation", "zac_responded_with": "Based off nearby comparables; only 2 found because the property is unique.", "lead_follow_up": "So even at £13,000 or £10,000, high occupancy...", "resolved": true},
+    {"what_lead_said": "I like to look at work from the bottom figures... anything is a bonus on top.", "category": "expectation_setting_conservatism", "meeting_phase": "figures_presentation", "zac_responded_with": "Gave net range £2,500-£14,000 around a £7,000/mo likely case.", "lead_follow_up": "", "resolved": true},
+    {"what_lead_said": "So you're charging me 15%... and I've got the channels charging me as well.", "category": "fee_objection", "meeting_phase": "service_explanation", "zac_responded_with": "Platforms charge ~15% separately from the 15% management fee.", "lead_follow_up": "In that 15%, do you do the cleaning and the whole thing?", "resolved": false},
+    {"what_lead_said": "Am I tied in with your contracts? What's the cooling-off period?", "category": "contract_exit_terms", "meeting_phase": "objection_handling", "zac_responded_with": "6-month fixed term then 3-month notice; listing/photos owned by lead.", "lead_follow_up": "", "resolved": false},
+    {"what_lead_said": "Do the photographs belong to you or me?", "category": "ownership_exit_terms", "meeting_phase": "objection_handling", "zac_responded_with": "You will own that.", "lead_follow_up": "", "resolved": true},
+    {"what_lead_said": "What vetting do you do on guests? Deposit?", "category": "guest_vetting_risk", "meeting_phase": "objection_handling", "zac_responded_with": "Security deposit ~£200-400, ID check, insurance cover for damage beyond deposit.", "lead_follow_up": "", "resolved": true},
+    {"what_lead_said": "What about insurance or licensing? Council notification?", "category": "regulatory_risk", "meeting_phase": "objection_handling", "zac_responded_with": "No licensing currently required; fire safety recommended; council tax doubles but business rates route recoups it.", "lead_follow_up": "", "resolved": false},
+    {"what_lead_said": "With the furniture we've got, what else can we add for £8,000?", "category": "setup_quote_value_pushback", "meeting_phase": "objection_handling", "zac_responded_with": "Verbal estimate £6,000-8,000 excluding beds/sofa bed; firmer price after seeing it post-renovation.", "lead_follow_up": "", "resolved": true},
+    {"what_lead_said": "Would you do the cleaning? I've got cleaners for my manor.", "category": "operational_preference", "meeting_phase": "objection_handling", "zac_responded_with": "Happy to talk to lead's cleaners if they integrate with scheduling.", "lead_follow_up": "", "resolved": true}
+  ],
+  "conversion_gaps": [
+    {"gap": "Cleaning cost implied as included in 15% management fee on the call, when it's actually separate", "category": "fee_transparency", "evidence": "Zac did not correct this live.", "how_to_fill": "Correct explicitly at next contact.", "filled_in_action_plan": true},
+    {"gap": "£1,000 early-exit fee and £42/mo software fee were not disclosed", "category": "contract_terms_transparency", "evidence": "Only the 6-month/3-month terms were described live.", "how_to_fill": "Disclosed in writing.", "filled_in_action_plan": true},
+    {"gap": "Insurance question asked directly was never answered on the call", "category": "unanswered_objection", "evidence": "Zac's reply covered licensing/fire safety/council tax but not insurance.", "how_to_fill": "Answered in writing: specialist holiday-let policy, lender consent if mortgaged.", "filled_in_action_plan": true},
+    {"gap": "Whether the cottage carries a mortgage is unconfirmed", "category": "qualifying_data_gap", "evidence": "Deck says no mortgage but Faz referenced 'my mortgages' generally.", "how_to_fill": "Raised as a question in the action plan FAQ.", "filled_in_action_plan": true},
+    {"gap": "Comparables' proximity/relevance to Silverstone not verified", "category": "data_accuracy", "evidence": "Zac: 'I'm not 100% sure.'", "how_to_fill": "Verify comp relevance manually.", "filled_in_action_plan": false},
+    {"gap": "Unidentified caller claiming to be a Stayful director contacted the lead beforehand", "category": "internal_process_lead_integrity", "evidence": "Zac did not recognise this.", "how_to_fill": "Internal investigation.", "filled_in_action_plan": false}
+  ],
+  "positive_shift_moments": [
+    "Reframing 'only 2 comparables' as a positive uniqueness signal.",
+    "Silverstone premium landed strongly — lead volunteered his own comparison point.",
+    "Lead voluntarily disclosed the manor house pipeline as an incentive.",
+    "Warm, personal close despite no offer or firm next meeting."
+  ],
+  "friction_moments": [
+    "Fee-stacking pushback.",
+    "Contract/exit skepticism from a prior bad experience with management companies in Turkey.",
+    "Setup cost skepticism given his own trade contacts.",
+    "Technical/logistical friction at the start.",
+    "Unresolved trust friction from the unexplained 'director' call."
+  ],
+  "zac_language": {
+    "opening_phrases": ["Well, I thought I'd start just by sort of understanding a bit on your current situation.", "We can go through some figures then and our service."],
+    "transition_phrases": ["I can take you through a bit about how [it works] if you prefer.", "we'll send you a statement like this on the 1st of every month."],
+    "reassurance_phrases": ["I don't think bookings is going to be the concern.", "Something that's unique tends to do very well."],
+    "emphasis_phrases": ["it's looking really good", "I think this place is going to do really well personally"],
+    "analogies_used": [],
+    "numbers_framing": ["Led with gross monthly (£13,700) before net.", "Net range £2,500-£14,000 around a £7,000/mo likely case.", "Ramp-up: ~6 months at 10-15% below full run-rate."],
+    "objection_handling_pattern": "Acknowledge the specific figure/concern, reframe using the property's uniqueness and limited comp data, pivot reassurance to service quality rather than raw booking volume."
+  },
+  "profile_psychology_intersection": {
+    "note": "No canonical Monday archetype. Analytical-evaluator-like behaviour (retired lawyer, interrogates data source, fee stacking, exit-clause specifics); certainty-seeker language (wants an operator to remove the burden entirely); fallback plan is selling, not re-letting long-term."
+  },
+  "action_plan_responses": {"timestamp": "2026-09-10 13:39", "S1": "About what I expected", "S2": "Still weighing it up", "S3": "How guest damage and problems are handled"},
+  "classification": "DELAYED"
+}

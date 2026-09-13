@@ -1,0 +1,95 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "096",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-09-09",
+  "transcript_quality": "full",
+  "lead_name": "Margarita Kitova-John",
+  "email": "mimchekitova@gmail.com",
+  "monday_id": "10048870502",
+  "address": "Flowerwise, 206 High Street, Cranleigh, Surrey GU6 8RL (NOTE: the Monday record found — on a different board than 5891626711 — still shows a stale Cowes, Isle of Wight address from a dead earlier deal)",
+  "bedrooms": 0,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Owner-occupier of a large (sleeps ~10) high-value Cranleigh property: tried to sell with no success, now pivoting to short-let. Retention of the asset, not maximum yield, is her stated priority. Has a 14-year live-in housekeeper she wants to retain.",
+  "stl_goal": "Make the property self-funding via short-let income while retaining ownership and personal-use access; not primarily seeking maximum profit.",
+  "property_situation": "Owner-occupied residential property on a capital-repayment residential mortgage; prior sale attempt fell through; now converting to short-let.",
+  "property_type": "Large single-let whole-house property (sleeps ~10); whole-property letting only — Zac advised against splitting into individually let rooms.",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Residential capital-repayment mortgage makes the property loss-making relative to running costs even with strong STL income; profitability requires transferring into an SPV limited company and refinancing to interest-only buy-to-let (~£42,000 stamp duty at ~£500k valuation), not yet arranged, and previously failed once on a different property.",
+  "language_signals": ["I'm desperate to do that, Zac", "I don't want it on a personal [name] — I run my own limited company", "even if there is no profit... my interest is... it pays for itself", "she's amazing, honestly it's at a hotel level", "I've tried it before, I've not succeeded"],
+  "portfolio_flag": false,
+  "outcome": "Un Qualified Lead",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {"type": "DLY-OTH", "trigger_phrase": "because this house mortgage is as residential mortgage, will that affect the mortgage?", "context": "Residential repayment mortgage means STL income alone doesn't cover full running costs. Fixing this requires an SPV + interest-only buy-to-let refinance, not yet arranged; a prior buy-to-let attempt on a different property already failed.", "timeline_given": "No firm timeline for the mortgage/SPV restructuring; a separate firmer timeline exists for the letting go-live itself ('first of November').", "resolved_in_meeting": false}
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {"type": "GL-TIME", "trigger_phrase": "we could do first in November", "context": "Agreed target go-live around early/mid-November 2026 to catch Christmas bookings; property largely guest-ready already (professional summer photos, smart thermostat, key safes, appliances in place).", "strength": "moderate-to-strong"}
+  ],
+  "has_green_light": true,
+  "offer_timing": {},
+  "meeting_flow": {
+    "opening_phrase": "How you doing? How's the season been for you?",
+    "rapport_topics": ["catching up after the summer season", "brief audio/coffee-break interruption"],
+    "pivot_to_business": "Lead-initiated — she raised it herself after explaining the house sale had fallen through.",
+    "income_intro": "we're looking at a revenue per month, about 4293. But the net revenue... is 2300.",
+    "post_income_silence": "None apparent — immediate follow-up question about managing cleaning/laundry herself.",
+    "how_it_works_transition": "Moved from cost breakdown into personal-use mechanics: calendar access, Slack channel notification.",
+    "pre_close_setup": "buy to let an SPV, six percent mortgage... that would give you what you're looking for.",
+    "close_phrase": "we could do first in November... send me an email what you want me to put in writing for you",
+    "meeting_2_ask": "Lead floated a possible further conversation but nothing booked; Zac asked her to put requirements in an email.",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {"what_lead_said": "Could we give partially rooms or anything like that?", "category": "structure_pricing_question", "meeting_phase": "opening", "zac_responded_with": "Advised against room-by-room letting due to guest conflict; whole-property only.", "lead_follow_up": "Accepted.", "resolved": true},
+    {"what_lead_said": "I'm thinking your predicted 209 is very low. This is a huge property, sleeps 10.", "category": "rate_skepticism", "meeting_phase": "income_discussion", "zac_responded_with": "Acknowledged it could potentially go higher.", "lead_follow_up": "Moved on to ask for full breakdown.", "resolved": false},
+    {"what_lead_said": "If I manage cleaning/laundry myself, or my 14-year housekeeper does it.", "category": "cost_control_staff_retention", "meeting_phase": "cost_breakdown", "zac_responded_with": "Agreed she could use her own cleaner; proposed she invoice Stayful directly.", "lead_follow_up": "Confirmed she wants to keep the housekeeper.", "resolved": true},
+    {"what_lead_said": "We could still be able to use our house, right?", "category": "personal_use", "meeting_phase": "operational_mechanics", "zac_responded_with": "Explained calendar-based blocking plus Slack notification.", "lead_follow_up": "No pushback.", "resolved": true},
+    {"what_lead_said": "This house mortgage is a residential mortgage — will that affect the mortgage?", "category": "financial_structure_blocker", "meeting_phase": "mid-call, core topic", "zac_responded_with": "Buy-to-let interest-only would roughly halve the monthly cost versus capital-repayment.", "lead_follow_up": "Extensive further questioning on execution, SPV setup, lender acceptance.", "resolved": false},
+    {"what_lead_said": "How do other people do it to make it most tax efficient?", "category": "tax_structure", "meeting_phase": "mid-call", "zac_responded_with": "Recommended an SPV for tax control, flagged stamp duty on transfer.", "lead_follow_up": "Asked about selling into the SPV at a lower valuation.", "resolved": false},
+    {"what_lead_said": "I've tried it before, I've not succeeded... can it be done in three months?", "category": "trust_proof_prior_failure_skepticism", "meeting_phase": "mid-to-late call", "zac_responded_with": "Reassured the SPV/buy-to-let route is common and lender-accepted.", "lead_follow_up": "Accepted, asked for bullet points on steps and contacts.", "resolved": false},
+    {"what_lead_said": "If I retain cleaning and organise it myself, that would give me around 3000.", "category": "income_optimization", "meeting_phase": "closing", "zac_responded_with": "Confirmed.", "lead_follow_up": "None further.", "resolved": true}
+  ],
+  "conversion_gaps": [
+    {"gap": "Bedroom count never captured", "category": "property_data", "evidence": "Not stated on the call or captured on the Monday record.", "how_to_fill": "Confirm bedroom count at next touchpoint.", "filled_in_action_plan": false},
+    {"gap": "Monday record shows stale Cowes address and 'Un Qualified Lead' status instead of the actual property/outcome", "category": "crm_data_integrity", "evidence": "Direct Monday query confirmed stale data.", "how_to_fill": "Correct address and status5.", "filled_in_action_plan": true},
+    {"gap": "Deck's comparables table rendered the wrong location (Salford/Manchester) with £0 area averages", "category": "presentation_accuracy", "evidence": "Comparables table mismatch confirmed.", "how_to_fill": "Rebuild the comparables slide using GU6 postcode data.", "filled_in_action_plan": true},
+    {"gap": "Deck's context panel incorrectly stated 'No mortgage', contradicting the mortgage being the central topic", "category": "presentation_accuracy", "evidence": "Deck showed LTL £0 and '+0% vs long-let' throughout.", "how_to_fill": "Correct the deck's mortgage/context panel.", "filled_in_action_plan": true},
+    {"gap": "Promised follow-up materials (essential items checklist; mortgage steps summary) not yet sent", "category": "follow_up_pending", "evidence": "Next Steps section lists both as outstanding.", "how_to_fill": "Zac to send both.", "filled_in_action_plan": false}
+  ],
+  "positive_shift_moments": [
+    "Moved from anxious mortgage question to enthusiastic acceptance once interest-only cost savings were explained.",
+    "Shifted from calling the SPV process 'tricky' to actively preferring it once reassured lenders commonly accept new SPVs.",
+    "Visible relief when the housekeeper-retention mechanism was confirmed workable."
+  ],
+  "friction_moments": [
+    "Pushed back that the predicted £209 ADR seemed low for a 10-sleeper property.",
+    "Repeated anxiety resurfacing around the earlier failed mortgage application.",
+    "Multiple rounds of detailed pressing on SPV mechanics suggesting she wasn't fully settled by the end.",
+    "Minor opening technical friction."
+  ],
+  "zac_language": {
+    "opening_phrases": ["How you doing?", "How have you been?"],
+    "transition_phrases": ["as far as running out rooms, it's not really something that we do because it can create issues and conflicts with guests", "what I'll do if you want to send me an email what you want me to put in writing for you"],
+    "reassurance_phrases": ["I wouldn't worry about this too much just yet", "it's not as complicated as you imagine, it's quite common now"],
+    "emphasis_phrases": ["I'm confident in the figures that's being projected", "it will make [cost] half"],
+    "analogies_used": ["Hotel occupancy (many rooms, partial fill) vs. single-property short-let occupancy (one guest blocks the whole unit)."],
+    "numbers_framing": ["Revenue ~£4,293/mo, net ~£2,300/mo", "Platform commission 15%, cleaning ~18%, management 15%", "Buy-to-let: ~25% deposit, ~6%+ rate", "Stamp duty ~£42,000 on a ~£500,000 SPV transfer (lead's own figure)"],
+    "objection_handling_pattern": "Acknowledge, reframe with a comparison, then hand off specialist parts (tax, legal, lending) to an accountant/broker while separating the letting go-live decision from the mortgage restructuring decision."
+  },
+  "profile_psychology_intersection": {
+    "note": "No canonical archetype slug available.",
+    "observed_traits": ["Asset-retention over yield-maximisation.", "High loyalty to long-tenured staff.", "Detail-oriented, numbers-probing.", "Carries prior-failure risk aversion into the new financial decision."]
+  },
+  "action_plan_responses": {},
+  "classification": "DELAYED"
+}
