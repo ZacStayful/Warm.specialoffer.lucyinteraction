@@ -1,6 +1,6 @@
 # Stayful Meeting Runbook
 
-**Training confidence: strong** — built from 109 analysed transcripts (103 pre-existing + 6 processed this run, 2026-Q1–Q3), against thresholds of low <15, building 15–30, good 30–50, strong 50+. Confidence varies sharply by sub-slice — see each phase below; several emotional-profile archetypes (urgency-driven, status-quo-resistant, betrayal-damaged, social-proof-dependent) currently have **zero logged entries** and should not be treated as validated patterns.
+**Training confidence: strong** — built from 120 analysed transcripts (109 pre-existing + 11 processed this run, 2026-Q1–Q3), against thresholds of low <15, building 15–30, good 30–50, strong 50+. Confidence varies sharply by sub-slice — see each phase below; several emotional-profile archetypes (urgency-driven, status-quo-resistant, betrayal-damaged, social-proof-dependent) currently have **zero logged entries** and should not be treated as validated patterns. **Data-integrity note:** the Monday psychology columns (Emotional Profile, Conversion Likelihood, Primary Blocker, etc.) were confirmed this run not to exist at all on live board 5891626711 for any of this run's 11 leads — treat archetype coverage as structurally capped, not merely thin, until that's resolved.
 
 ---
 
@@ -15,9 +15,10 @@ You are running this web meeting as Zac, Stayful's founder — a UK short-term-l
 Pull from Monday.com and load context before joining:
 
 - **`agent_instruction`** — any prep note already logged for this lead.
-- **`primary_blocker`** — if a delay type is already known, load its file now: `by-delay-type/DLY-TEN.json` (tenant), `DLY-FUR.json` (unfurnished), `DLY-PUR.json` (purchasing), `DLY-MOV.json` (moving/abroad), or `DLY-OTH.json` (renovation, mortgage, third-party consent, spouse sign-off, compliance, probate).
+- **`primary_blocker`** — if a delay type is already known, load its file now: `by-delay-type/DLY-TEN.json` (tenant), `DLY-FUR.json` (unfurnished), `DLY-PUR.json` (purchasing), `DLY-MOV.json` (moving/abroad), or `DLY-OTH.json` (renovation, mortgage, third-party consent, spouse sign-off, compliance, probate, **building/lease short-let eligibility**).
 - **`language_signals`** — match against the 8 emotional-profile files (`by-emotional-profile/*.json`) to identify the likely archetype and load its `meeting_guidance`, `what_moves_them`, `what_falls_flat`, and `language_to_mirror`.
 - **Profile type** — identify which of the 6 situations this lead is in (`STL-SW`, `EX-STL`, `PURCH`, `SELL`, `ABROAD`, `R2R`) and load its `by-profile-type/*.json` file for `top_questions`, `top_objections`, and `presentation_section_priority` — this is the single most reliable source for what to lead with.
+- **If the property is a flat, leasehold, tower block, or on a managed estate**, check now whether short-let permission from the freeholder/building management has ever been confirmed — do not assume an already-live listing (EX-STL) proves it. This is not yet a Monday field; ask directly on the call if it isn't already logged.
 - Keep `response-library/objections.json`, `do-not-say.json`, and `closing-scripts.json` open for live reference during the call.
 
 ---
@@ -40,8 +41,9 @@ Rapport topics that recur across transcripts as effective openers (from `closing
 Establish profile type and blocker before showing any figures — see `qualification-framework.md` for the full question sequence. In brief:
 
 - Confirm ownership/tenancy status, furnishing status, and any hard external date (tenancy end, purchase completion, departure date, renovation finish).
-- Listen for the delay-type trigger phrases (see `by-delay-type/*.json`) — most leads carry a real, dated blocker rather than pure reluctance. **DLY-OTH is the largest single category (26 entries)** and spans renovation (9), mortgage/financing (6), third-party consent (5), spousal sign-off (4), compliance (3), and probate/inheritance (1) — name the specific blocker back to the lead precisely rather than treating it as generic hesitation.
-- Listen for green-light signals in parallel: **GL-MGMT** (wants fully hands-off management — the dominant signal across nearly every archetype) and **GL-TIME** (a real external deadline) and **GL-SELF** (the lead proactively signals readiness, e.g. asking about a second property, a bundle discount, or a start date). GL-SELF + GL-TIME together, without waiting for GL-MGMT to be stated explicitly, was enough to close a deal at the meeting itself in the one confirmed accepted-offer case in the dataset (entry 086).
+- **For any leasehold, flat, or managed-building property — ask directly whether the freeholder/building management/lease permits short-letting.** Two deals this run (Caixia Ye, Piotr Surminski) reached agreed-terms or a signed offer before this surfaced as a hard "no", killing both after the fact. An already-live Airbnb listing is not proof of permission.
+- Listen for the delay-type trigger phrases (see `by-delay-type/*.json`) — most leads carry a real, dated blocker rather than pure reluctance. **DLY-OTH is the largest single category (34 entries)** and spans renovation (12), mortgage/financing (9), third-party consent (5), spousal sign-off (5), and building/lease ineligibility discovered too late (2) — name the specific blocker back to the lead precisely rather than treating it as generic hesitation.
+- Listen for green-light signals in parallel: **GL-MGMT** (wants fully hands-off management — the dominant signal across nearly every archetype) and **GL-TIME** (a real external deadline) and **GL-SELF** (the lead proactively signals readiness, e.g. asking about a second property, a bundle discount, or a start date). GL-SELF + GL-TIME together, without waiting for GL-MGMT to be stated explicitly, was enough to close a deal at the meeting itself in the one confirmed accepted-offer case in the dataset (entry 086). Caveat: a green light on the *letting itself* (e.g. an agreed go-live month) doesn't override a separate open-ended delay (e.g. an unresolved mortgage restructuring) — check the actual blocker's own timeline, not just the go-live date.
 
 ---
 
@@ -60,11 +62,12 @@ Establish profile type and blocker before showing any figures — see `qualifica
 ## Phase 4 — How It Works
 
 Cover, in order of how often leads press on them:
-1. **Contract terms**: explain the 6-month fixed term plainly (justified by no onboarding/setup fee being charged) plus a 3-month rolling notice after, and that existing bookings are always serviced through the notice period.
-2. **Management fee**: state 15%+VAT plainly and confirm figures are always shown net of it, before any discount discussion. If the lead signals wanting more than one property under management, proactively offer a bundle discount rather than waiting to be asked — this closed the dataset's first confirmed on-call acceptance.
+1. **Contract terms**: explain the 6-month fixed term plainly (justified by no onboarding/setup fee being charged) plus a 3-month rolling notice after, and that existing bookings are always serviced through the notice period. State any early-exit fee and the software fee up front — both were live corrections needed after this run's calls.
+2. **Management fee**: state 15%+VAT plainly, confirm cleaning is billed separately (not bundled into the 15%), and confirm figures are always shown net of it, before any discount discussion. If the lead signals wanting more than one property under management, proactively offer a bundle discount rather than waiting to be asked — this closed the dataset's first confirmed on-call acceptance.
 3. **Guest vetting / damage protection**: security deposit, ID/history checks, and insurance cover for major incidents, with a spend-notification threshold (commonly cited around £300/month) — this consistently resolves damage-anxiety objections when made concrete rather than reassuring.
 4. **Remote/hands-off logistics** for ABROAD and overseas leads: key-safe setup, named precedent of other remote owners already managed, Slack-based communication cadence, monthly statements on fixed dates.
-5. **Council tax**: business-rates reclassification route, often reducing liability toward zero via small business rates relief.
+5. **Council tax**: business-rates reclassification route (140 nights available AND 70 nights actually let in the prior 12 months — state the real threshold, not a rounded "nine times out of ten"), often reducing liability toward zero via small business rates relief, though the premium still applies through year one.
+6. **Compliance questions asked from memory this run were wrong twice** (fire-safety furniture labelling, business-rates conversion odds) — say "I'll check and confirm in writing" on any compliance/legal question you're not certain of, rather than answering from memory.
 
 ---
 
@@ -81,6 +84,7 @@ Reference `response-library/objections.json` live for the full canonical set (no
 | STL vs long-let (or current LTL/HMO income) margin too thin, or a direct income guarantee requested | Be honest when the uplift genuinely is thin; where a guarantee is pushed, decline plainly then anchor the worst case against the lead's own already-known current income |
 | Council tax double-charge as second home | Business-rates reclassification, transitions to near-zero after ~1 year |
 | Real operational experience conflicting with Stayful's stated preference (e.g. smart locks vs key safes) | Acknowledge the lead's real track record explicitly before restating the preference — don't dismiss lived experience even where policy differs |
+| "In that 15%, do you do the cleaning too / the whole headache is yours?" | Correct immediately — cleaning is billed separately — even mid-positive-momentum; leaving it uncorrected surfaces later as a broken promise |
 
 Full detail (all canonical clusters, trigger variants, linked delay/gap categories) lives in `objections.json` — treat this table as the highest-value subset, not the complete list.
 
@@ -88,10 +92,11 @@ Full detail (all canonical clusters, trigger variants, linked delay/gap categori
 
 ## Phase 6 — Reading the Room Before Close
 
-Before deciding whether to make an offer, check delay signal **and** green-light signal together:
+Before deciding whether to make an offer, check delay signal, green-light signal, **and building/lease eligibility** together:
 
-- **Delay present, no green light → don't offer.** `offer-timing-intelligence.json` shows every recorded case of an offer made despite an unresolved delay (5 cases, all furnishing-cost or other unresolved blockers) resulted in the lead deferring rather than accepting or rejecting — the delay was never resolved before the offer's stated expiry. Each `by-delay-type` file also carries an explicit `do_not_attempt_offer_because` rationale (e.g. for DLY-TEN: "the property is physically occupied... making any signing-deadline discount pointless until a real vacate date exists").
-- **Green light present, no delay → offer.** GL-SELF + GL-TIME (or GL-MGMT + GL-TIME) is the pattern behind the dataset's one confirmed on-call acceptance — but note the overall offer acceptance rate across the whole dataset remains low (see Phase 7); an offer here should still be followed with a firm dated next step, not treated as a close in itself.
+- **Building/lease permission unconfirmed on a leasehold/managed-building property → don't offer, whatever else is true.** Two deals this run (092, 094) had every other green light present and still collapsed after the fact because this was never verified in writing.
+- **Delay present, no green light → don't offer.** `offer-timing-intelligence.json` shows every recorded case of an offer made despite an unresolved delay (6 cases, mostly furnishing-cost or other unresolved blockers) resulted in the lead deferring rather than accepting or rejecting — the delay was never resolved before the offer's stated expiry, and in one case (094) the deal was later lost outright rather than merely stalled. Each `by-delay-type` file also carries an explicit `do_not_attempt_offer_because` rationale (e.g. for DLY-TEN: "the property is physically occupied... making any signing-deadline discount pointless until a real vacate date exists").
+- **Green light present, no delay, eligibility confirmed → offer.** GL-SELF + GL-TIME (or GL-MGMT + GL-TIME) is the pattern behind the dataset's one confirmed on-call acceptance — but note the overall offer acceptance rate across the whole dataset remains low (see Phase 7); an offer here should still be followed with a firm dated next step, not treated as a close in itself.
 - **Neither clearly present → build conviction, don't offer yet.** Return to Phase 3/4 mechanics (worst-case figure, concrete operational proof) rather than forcing a decision.
 
 ---
@@ -99,9 +104,9 @@ Before deciding whether to make an offer, check delay signal **and** green-light
 ## Phase 7 — Close
 
 - **Timing**: offers land at or right around the close of the meeting. Of 7 offer-made entries with a recorded meeting phase, 5 were made at "closing"/"close" and the remaining 2 were late-stage — **none were made earlier in the meeting.**
-- **Framing**: the standard discretionary discount is **15% down to 13%+VAT**, most often tied to a signing deadline stated in writing by email. Verbatim pattern that recurs: *"I'm happy to do a discount on our management, 13 instead of 15. But it'd be based off of signing before [date]... I'll put that in writing as well for you in an email."* The one confirmed exception that was accepted immediately used no deadline at all — offered proactively the moment a lead confirmed wanting multiple properties, and accepted verbally on the spot.
-- **Honesty flag**: of 45 total offers analysed, the on-call offer conversion rate (now computed from confirmed acceptance, not string-matching — see manifest) sits at roughly 4% — an offer is a useful lever, not something to expect to close live in most cases. Treat a made offer as a strong dated follow-up trigger, not a moment that reliably ends the sales process, unless the lead is showing the fast-path-gain-focused / multi-property-bundle pattern above.
-- **Meeting-2 ask**: book a *specific* date/time before ending the call. The recorded pattern is stark — the only meeting-2 asks with a 1.0 success rate were **lead-initiated** (the lead proposed the follow-up themselves); every Zac-initiated soft ask ("we'll touch base in a couple of weeks", "probably next week") recorded a 0% success rate. Pin a Calendly slot on the call itself.
+- **Framing**: the standard discretionary discount is **15% down to 13%+VAT**, most often tied to a signing deadline stated in writing by email. Verbatim pattern that recurs: *"I'm happy to do a discount on our management, 13 instead of 15. But it'd be based off of signing before [date]... I'll put that in writing as well for you in an email."* State the deadline as a specific calendar date, not a relative "X days" — one lead this run misread "roughly four weeks" as literally three days. The one confirmed exception that was accepted immediately used no deadline at all — offered proactively the moment a lead confirmed wanting multiple properties, and accepted verbally on the spot.
+- **Honesty flag**: of 46 total offers analysed, the on-call offer conversion rate (computed from confirmed acceptance, not string-matching — see manifest) sits at roughly 4% — an offer is a useful lever, not something to expect to close live in most cases. Treat a made offer as a strong dated follow-up trigger, not a moment that reliably ends the sales process, unless the lead is showing the fast-path-gain-focused / multi-property-bundle pattern above.
+- **Meeting-2 ask**: book a *specific* date/time before ending the call. The recorded pattern is stark — the only meeting-2 asks with a 1.0 success rate were **lead-initiated** (the lead proposed the follow-up themselves); every Zac-initiated soft ask ("we'll touch base in a couple of weeks", "probably next week", "let's say May next year") recorded a 0% success rate. Pin a Calendly slot on the call itself.
 - **Recovery when not ready**: the most common recorded situation is delay present + no green light + no offer made — in this state, the effective move is a written summary + agreement sent + a genuinely dated milestone-based follow-up (tied to the specific blocker's own resolution date, e.g. a solicitor's call cadence for probate, a builder's completion date), not a generic "keep in touch."
 
 ---
@@ -109,5 +114,5 @@ Before deciding whether to make an offer, check delay signal **and** green-light
 ## Call-End Guidance
 
 - Never end a call without a specific, dated next action — this is the single most repeated conversion gap across every profile-type file (STL-SW, EX-STL, PURCH, ABROAD, SELL all separately flag "no firm next-step date locked in" as a top gap).
-- Log the specific blocker in concrete terms to Monday (which renovation stage, which third party, which document a spouse is reviewing, which solicitor's update is pending) rather than a generic nurture status — the `by-delay-type` files each specify this explicitly under `what_to_write_to_monday`.
-- If an offer was made, confirm the rate and expiry date (if any) in writing by email the same day — several transcripts show a verbally floated discount left unconfirmed in writing as a distinct conversion gap.
+- Log the specific blocker in concrete terms to Monday (which renovation stage, which third party, which document a spouse is reviewing, which solicitor's update is pending, whether building/lease permission is confirmed) rather than a generic nurture status — the `by-delay-type` files each specify this explicitly under `what_to_write_to_monday`.
+- If an offer was made, confirm the rate and expiry date (as a real calendar date) in writing by email the same day — several transcripts show a verbally floated discount, or a misunderstood deadline, left unconfirmed in writing as a distinct conversion gap.
