@@ -1,0 +1,96 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "091",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-08-27",
+  "transcript_quality": "full",
+  "lead_name": "Babatunde",
+  "email": "base3@cantab.net",
+  "monday_id": "",
+  "address": "",
+  "bedrooms": 0,
+  "profile_type": "PURCH",
+  "lead_profile_text": "",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "",
+  "language_signals": [],
+  "portfolio_flag": false,
+  "outcome": "",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-PUR",
+      "trigger_phrase": "I have some experience in property. I want to move to Liverpool. I thought I'm looking at this as a potential, you know, opportunity.",
+      "context": "Babatunde has existing (long-term let) rental property but has not identified, viewed-and-committed-to, or purchased any property for short-term letting. The entire call is exploratory market education; Zac explicitly offers 'if you email me the address, I can give you a rough setup guide or rough setup price' — confirming no address/property exists yet.",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {},
+  "meeting_flow": {
+    "opening_phrase": "So from my understanding, you're wanting to, I'm assuming you're just sort of starting in short letting. Or what's the current sort of situation with yourself?",
+    "rapport_topics": "Minimal small talk — the call opened with an audio/headphone connectivity issue, then moved almost immediately to business.",
+    "pivot_to_business": "Immediate — Zac's first substantive question after the audio hiccup was directly about the lead's current short-letting situation.",
+    "income_intro": "Zac introduced a live comparable mid-call while screen-sharing his own channel manager: 'he did 74 occupancy. The gross was 4,500. Then the net was 3,300 and then the owner net, which was essentially what I got was 2,675.'",
+    "post_income_silence": "Not discernible — text transcript with no timestamps/pauses; lead responded immediately with 'Yeah. Yeah.'",
+    "how_it_works_transition": "Zac explained the fee/cost stack early: booking platform commission (15%) taken before Stayful touches revenue, cleaning/laundry passed through at cost, and a 5-10% maintenance buffer.",
+    "pre_close_setup": "'If you've got a property... you've been to view it and stuff... if you email me the address, I can give you a rough setup guide or rough setup price.'",
+    "close_phrase": "I say keep in touch if you've got anything you come across, let me know... There's other conversation we can have once you've got something that looks good.",
+    "meeting_2_ask": "None — next step is Babatunde emailing a specific property address.",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 80
+  },
+  "lead_responses": [
+    {"what_lead_said": "I've had a lot of trouble with one [rental]... damage, like, you know, non payments", "category": "pain_point", "meeting_phase": "opening", "zac_responded_with": "Prompted for more detail then pivoted into market/property-type education", "lead_follow_up": "Moved on to describing capacity to buy several properties", "resolved": true},
+    {"what_lead_said": "I was going to move to Liverpool and then... now it looks like I'm moving elsewhere", "category": "market_uncertainty", "meeting_phase": "opening", "zac_responded_with": "Explained Liverpool's party-city weekend-only demand pattern and steered toward Manchester, Wigan, Leeds, York, Harrogate", "lead_follow_up": "No pushback", "resolved": true},
+    {"what_lead_said": "the figures make sense, but the comparables seem to vary... it doesn't seem to be apples for apples", "category": "objection_data_trust", "meeting_phase": "opening", "zac_responded_with": "Gave his hotel-price-per-person baseline pricing method and cross-checks against third-party tools", "lead_follow_up": "Did not press further", "resolved": true},
+    {"what_lead_said": "Could you just walk me through the cost stack of a property you run", "category": "due_diligence", "meeting_phase": "mid", "zac_responded_with": "Declined to share another landlord's data, screen-shared his own Manchester property's real figures", "lead_follow_up": "Thanked him multiple times", "resolved": true},
+    {"what_lead_said": "are there problems with concierge buildings", "category": "property_type_concern", "meeting_phase": "mid", "zac_responded_with": "Advised staying away from leasehold", "lead_follow_up": "Accepted the guidance", "resolved": true},
+    {"what_lead_said": "In January, February, is it dead completely?", "category": "seasonality_concern", "meeting_phase": "mid", "zac_responded_with": "Explained Jan-June ≈20% of annual profit vs June-Dec ≈80%", "lead_follow_up": "Acknowledged", "resolved": true},
+    {"what_lead_said": "Are there any major mistakes that people make in the beginning?", "category": "risk_avoidance", "meeting_phase": "mid-late", "zac_responded_with": "Covered market misunderstanding, double council tax, VAT threshold workaround", "lead_follow_up": "Confirmed he'd thought about council tax", "resolved": true},
+    {"what_lead_said": "licensing/regulation/safety compliance — do you handle that?", "category": "compliance_question", "meeting_phase": "late", "zac_responded_with": "No mandatory STL regulation outside London currently", "lead_follow_up": "None further", "resolved": true},
+    {"what_lead_said": "what does a two bed sleeping six kit-out look like?", "category": "setup_cost", "meeting_phase": "late", "zac_responded_with": "~£5,000-£5,500 all-in", "lead_follow_up": "None further", "resolved": true},
+    {"what_lead_said": "I came in thinking two beds are the sellers, but you're saying three, four", "category": "positive_shift", "meeting_phase": "late", "zac_responded_with": "Reinforced bigger properties create competitive 'layers'", "lead_follow_up": "Agreed enthusiastically", "resolved": true}
+  ],
+  "conversion_gaps": [
+    {"gap": "No specific property identified — no Deal Analyser has been run", "category": "qualification", "evidence": "Drive doc: no specific property exists yet", "how_to_fill": "Follow up once Babatunde sends an address to run the Analyser", "filled_in_action_plan": false},
+    {"gap": "No Monday CRM record exists for this lead at all", "category": "crm_data", "evidence": "Searched board by name and email, zero matches", "how_to_fill": "Create a Monday item for Babatunde", "filled_in_action_plan": false},
+    {"gap": "No stated timeline for purchase", "category": "timeline", "evidence": "Only general intent stated", "how_to_fill": "Ask directly for a timeframe on next contact", "filled_in_action_plan": false}
+  ],
+  "positive_shift_moments": [
+    "I came in thinking that two beds are the sort of sellers, but you're saying, actually, you want something three, four",
+    "I really appreciate the time and the sharing... I encountered the website, I liked the way it's formatted."
+  ],
+  "friction_moments": [
+    "Opening audio/headphone connectivity issue delayed the start",
+    "Zac initially declined to share a landlord's specific cost breakdown before substituting his own property's figures",
+    "Mid-call external interruption broke the flow"
+  ],
+  "zac_language": {
+    "opening_phrases": "So from my understanding, you're wanting to... what's the current sort of situation with yourself?",
+    "transition_phrases": "I can share some general rules to stick to when buying for a short let; I'll summarize everything in an email.",
+    "reassurance_phrases": "No worries.; There's nothing really to stop you short letting your property, really, at the moment.",
+    "emphasis_phrases": "Occupancy isn't really what you're chasing... what you want is a high nightly rate with a high occupancy.",
+    "analogies_used": "Hotel-based pricing baseline; bigger properties as competitive 'layers'",
+    "numbers_framing": "Manchester comparable: 74% occupancy, £4,500 gross/£3,300 net/£2,675 owner net; cost stack 15% platform + 18% management + cleaning at cost + 5-10% maintenance buffer; fit-out £5,000-£5,500; £40/month software; £90k VAT threshold; seasonality 20/80 split",
+    "objection_handling_pattern": "Reframes with his own consistent pricing method plus third-party cross-checks rather than disputing the observation; substitutes his own real figures rather than sharing confidential data; normalises seasonality and advises judging over a full season."
+  },
+  "profile_psychology_intersection": {
+    "note": "No Monday emotional_profile exists (no Monday item found). Observationally consistent with an analytical-evaluator style — unverified, not asserted as the field value."
+  },
+  "action_plan_responses": {},
+  "classification": "DELAYED"
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "092",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-08-25",
+  "transcript_quality": "full",
+  "lead_name": "Caixia Ye",
+  "email": "rosyye168169@gmail.com",
+  "monday_id": "12891270816",
+  "address": "London Borough of Brent (tower block flat) — Monday text6 says Brent, but pre-call brief says Barnet; never resolved before the deal was lost.",
+  "bedrooms": 0,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "Already short-letting, seeking management (EX-STL)",
+  "stl_goal": "Hand over full management to solve an immediate blocked Airbnb listing (90-night cap hit) and free up capacity — returns to full-time work 4 Sept 2026, also self-manages a second Airbnb.",
+  "property_situation": "Live on Airbnb since 28 June 2026, hit the 90-night annual cap on 23 Aug 2026 (listing now blocked). Not on Booking.com. Existing bookings run to a final checkout of 30 Nov 2026. Cleaning currently ad hoc.",
+  "property_type": "Tower block flat (Brent or Barnet, borough unresolved)",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Ultimately: building/lease does not permit short-letting (Monday lost_reason = 'Building does not allow'). During the call, the operative blocker was inability to locate/file the correct council licence, compounded by unresolved Brent-vs-Barnet borough confusion.",
+  "language_signals": [],
+  "portfolio_flag": true,
+  "outcome": "Abandoned",
+  "lost_reason": "Building does not allow",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {"type": "DLY-OTH", "trigger_phrase": "I know to get access. But to get license, I still can't find out how to apply this one... I call it the council and they have no idea what I'm talking about.", "context": "A short-let licence (or Barnet change-of-use application) is a prerequisite before the property can operate outside the 90-night cap. Caixia had been unable to locate or file it.", "timeline_given": "Existing bookings run to 30 Nov 2026 (agreed go-live date)", "resolved_in_meeting": false},
+    {"type": "DLY-OTH", "trigger_phrase": "Building does not allow", "context": "Monday's lost-reason field (recorded after this call) indicates the building's lease/freeholder rules ultimately prohibit short-letting — never surfaced or checked during the sales call, fatal to the deal.", "timeline_given": "", "resolved_in_meeting": false}
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {"type": "GL-SELF", "trigger_phrase": "the app I started on 28 June... I just registered the property stuff from the 28th June", "context": "Caixia already self-manages a live, proven Airbnb with real booking history and revenue, plus a second Airbnb property.", "strength": "strong"}
+  ],
+  "has_green_light": true,
+  "offer_timing": {},
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start just sort of by understanding a bit more on your sort of current situation.",
+    "rapport_topics": ["Zac complimenting the property"],
+    "pivot_to_business": "None needed — call opened directly into her current situation since she is an existing operator.",
+    "income_intro": "Not applicable — no income figures discussed; entirely regulatory/operational.",
+    "post_income_silence": "",
+    "how_it_works_transition": "What we do really is we manage all the moving parts... three bits of software... centralized booking calendar... statement... Slack channel.",
+    "pre_close_setup": "I'll summarize everything in an email and an action plan of what to do, then send you our management agreement.",
+    "close_phrase": "If you're happy with everything, if you just want to sign that, send that back to me.",
+    "meeting_2_ask": "Should we touch base next week?",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 60
+  },
+  "lead_responses": [
+    {"what_lead_said": "I don't know how your company work... I still got about 40 days... you take over.", "category": "process_question", "meeting_phase": "opening/discovery", "zac_responded_with": "Explained the service and three-tool system", "lead_follow_up": "Asked how the company charges", "resolved": true},
+    {"what_lead_said": "Booking.com... they say they are merged together. Not allowed more than 99.", "category": "misinformation_regulatory_concern", "meeting_phase": "mid-call", "zac_responded_with": "Directly corrected the claim; recommended licence, 28+ night stays, or Stayful Direct bookings", "lead_follow_up": "Asked for clarification on the 28-day exemption", "resolved": true},
+    {"what_lead_said": "I still can't find out how to apply this licence... council has no idea what I'm talking about", "category": "licensing_confusion", "meeting_phase": "mid-call", "zac_responded_with": "Acknowledged the difficulty, advised continuing via the council website", "lead_follow_up": "Raised neighbour-notification concern", "resolved": false},
+    {"what_lead_said": "So even your company take over, are you gonna continue on my account or a different account?", "category": "logistics_clarification", "meeting_phase": "mid-call", "zac_responded_with": "Explained Stayful creates a new listing resetting the 90-day counter", "lead_follow_up": "Confirmed her understanding", "resolved": true},
+    {"what_lead_said": "If the government find out my listing on booking.com and Airbnb... I will be trouble.", "category": "risk_compliance_concern", "meeting_phase": "late-call", "zac_responded_with": "Reassured direct bookings via Stayful's own site can't be tracked; reiterated licence is the real fix", "lead_follow_up": "Accepted and moved toward closing", "resolved": true},
+    {"what_lead_said": "Gave specific booking numbers for Sept/Oct/Nov", "category": "operational_detail", "meeting_phase": "logistics", "zac_responded_with": "Proposed go-live from 30 November, asked for a screenshot of booked dates", "lead_follow_up": "Agreed to send it and keep pursuing the licence", "resolved": true}
+  ],
+  "conversion_gaps": [
+    {"gap": "Borough/licensing route never definitively confirmed (Brent vs Barnet)", "category": "regulatory_ambiguity", "evidence": "Pre-call brief flags a possible mix-up", "how_to_fill": "Confirm exact postcode/borough before further licensing guidance", "filled_in_action_plan": false},
+    {"gap": "No lease/freeholder/building-permission check performed before agreeing terms", "category": "qualification_gap", "evidence": "Monday lost_reason = 'Building does not allow'", "how_to_fill": "Verify lease/freeholder permission before quoting fees for leasehold flats", "filled_in_action_plan": false},
+    {"gap": "No income/financial analysis run for this lead", "category": "missing_financial_data", "evidence": "No Deal Analyser PDF on file", "how_to_fill": "Not essential given proven bookings, but a comparison could pre-empt fee-sensitivity questions", "filled_in_action_plan": false}
+  ],
+  "positive_shift_moments": [
+    "Explaining the 90-day-reset via Stayful's account reframed Stayful as the direct fix for her blocked listing.",
+    "Zac complimenting the property coincided with tone easing into logistics and closing."
+  ],
+  "friction_moments": [
+    "Lead pushed back on Zac's correction citing something she'd read online.",
+    "The 28-night exemption mechanic had to be re-explained multiple times.",
+    "Lead expressed repeated frustration at being unable to find/file the council licence."
+  ],
+  "zac_language": {
+    "opening_phrases": ["I thought I'd start just sort of by understanding a bit more on your sort of current situation."],
+    "transition_phrases": ["What we do really is we manage all the moving parts with listing a short let property.", "I'll summarize everything in an email and an action plan of what to do."],
+    "reassurance_phrases": ["That's fine then. Yeah, that's fine.", "Yeah, that works."],
+    "emphasis_phrases": ["15% plus VAT of the gross bookings.", "your 90 days will reset because it's a new listing."],
+    "analogies_used": ["a Slack channel, which is a bit like a business WhatsApp"],
+    "numbers_framing": ["15% plus VAT of gross bookings, billed monthly, payout 1st-5th of month", "28-night minimum for bookings made 14+ days out"],
+    "objection_handling_pattern": "Calmly and directly contradicts incorrect outside information from Stayful's own experience, then pivots back to the concrete plan."
+  },
+  "profile_psychology_intersection": {
+    "note": "No Monday emotional_profile column exists on this board. Transcript behaviour (wants mechanics repeatedly explained, detail-oriented, agrees fast once logic clicks) most resembles analytical-evaluator — inference only."
+  },
+  "action_plan_responses": {"note": "Empty — no post-meeting action plan responses captured before the lead was marked Abandoned."},
+  "classification": "LOST"
+}
