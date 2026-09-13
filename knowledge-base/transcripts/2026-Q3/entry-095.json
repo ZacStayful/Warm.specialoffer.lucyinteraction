@@ -1,0 +1,104 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "095",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-09-01",
+  "transcript_quality": "full",
+  "lead_name": "Christine Margaret Orme",
+  "email": "cmorme@icloud.com",
+  "monday_id": "12901609417",
+  "address": "21 Silver Street, Ruskington, Sleaford, Lincolnshire NG34 9DS",
+  "bedrooms": 2,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "Looking to move abroad and short let my home",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "",
+  "language_signals": [],
+  "portfolio_flag": false,
+  "outcome": "Warm due to call",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {"type": "DLY-OTH", "trigger_phrase": "it'll be a few months I think before we can actually get started", "context": "Property needs cosmetic decorating before it can be listed; requires a UK trip from Portugal, and the son who was going to help is 'rushed off his feet'.", "timeline_given": "new year or spring 2027", "resolved_in_meeting": false}
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {},
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start just by sort of understanding a bit more about your sort of current situation, situation with the property.",
+    "rapport_topics": ["Sons previously living in the property", "Local area / RAF Cranwell and Digby history", "Christine's husband's aviation/military background"],
+    "pivot_to_business": "Then we can go through some figures in our service, see if it sort of lines up what you're looking for.",
+    "income_intro": "The property is used as a short term let, we're looking at about 46,000 gross... about 3,800 a month.",
+    "post_income_silence": "",
+    "how_it_works_transition": "I can go through a bit about how the service works, if you like, or we can do the figures more — which would you prefer?",
+    "pre_close_setup": "I'll summarize everything we've spoken about in an email; I will send you our management agreement and setup guide.",
+    "close_phrase": "Any questions, let me know, and then we'll probably touch base in — should we say October time?",
+    "meeting_2_ask": "Loose touch-base in a couple of months, no date fixed.",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {"what_lead_said": "How do you work that one out? That surprises me for a little cottage.", "category": "income_skepticism", "meeting_phase": "income_intro", "zac_responded_with": "Explained the comparable-set methodology (12 nearby similar-spec properties, averaged).", "lead_follow_up": "Benchmarked against her son's one-bed flat renting for ~£1,000/mo.", "resolved": false},
+    {"what_lead_said": "If we had a month with nobody in, do we still pay?", "category": "fee_structure_concern", "meeting_phase": "objection_handling", "zac_responded_with": "Fee is a percentage of revenue only — nothing to charge if no revenue.", "lead_follow_up": "That's fine.", "resolved": true},
+    {"what_lead_said": "It's like the fairy-tale presentation of timeshare.", "category": "trust_skepticism", "meeting_phase": "closing", "zac_responded_with": "Cited running his own Airbnb in Lincoln since 2022.", "lead_follow_up": "It does seem promising, I'm still very wary.", "resolved": false},
+    {"what_lead_said": "I'm a true believer in getting a feel for people... especially someone we've never met in person.", "category": "trust_rapport", "meeting_phase": "rapport", "zac_responded_with": "No direct resolution offered live.", "lead_follow_up": "", "resolved": false},
+    {"what_lead_said": "Do soft furnishings need a certain label for regulations?", "category": "compliance_question", "meeting_phase": "compliance_discussion", "zac_responded_with": "No, not from memory, I'll check.", "lead_follow_up": "", "resolved": false},
+    {"what_lead_said": "Does it change from council tax to business rates?", "category": "compliance_question", "meeting_phase": "compliance_discussion", "zac_responded_with": "Explained VOA reclassification, 'nine times out of ten it will go through.'", "lead_follow_up": "Asked about CGT implications on eventual sale.", "resolved": false},
+    {"what_lead_said": "Will I be able to manage the figures myself, or need an accountant?", "category": "tax_admin_concern", "meeting_phase": "compliance_discussion", "zac_responded_with": "Monthly statement covers revenue/deductions/payout, sufficient for a tax return.", "lead_follow_up": "", "resolved": true},
+    {"what_lead_said": "Do you provide sheets and bedding?", "category": "operational_question", "meeting_phase": "how_it_works", "zac_responded_with": "Recommended hiring linen via the cleaner's all-inclusive price.", "lead_follow_up": "", "resolved": true},
+    {"what_lead_said": "Any problem keeping the unusable third room locked for our things?", "category": "property_configuration", "meeting_phase": "property_detail", "zac_responded_with": "Confirmed fine if kept locked from guests.", "lead_follow_up": "", "resolved": true}
+  ],
+  "conversion_gaps": [
+    {"gap": "Fire safety / soft furnishings regulation answered incorrectly live", "category": "compliance_accuracy", "evidence": "Zac said no label needed, 'not from memory'", "how_to_fill": "Corrected in the action plan: Furniture and Furnishings (Fire)(Safety) Regulations 1988 apply to short lets.", "filled_in_action_plan": true},
+    {"gap": "Business rates conversion likelihood overstated", "category": "compliance_accuracy", "evidence": "Zac said 'nine times out of ten it will go through'", "how_to_fill": "Action plan flags the correct 140/70-night VOA reclassification requirement and year-one council tax premium.", "filled_in_action_plan": true},
+    {"gap": "Capital gains tax treatment not resolved live", "category": "tax_advice_gap", "evidence": "Zac: 'I'm not 100% sure'", "how_to_fill": "Action plan flags FHL regime abolition and Non-Resident Landlord Scheme.", "filled_in_action_plan": true},
+    {"gap": "No in-person meeting offered despite trust concern raised twice", "category": "trust_building_gap", "evidence": "'we've never met in person'", "how_to_fill": "Doc recommends combining the property snagging visit with a face-to-face meeting.", "filled_in_action_plan": false},
+    {"gap": "Wood burner certificate status left unresolved", "category": "compliance_gap", "evidence": "'I don't know whether you need a certificate for that'", "how_to_fill": "Not answered live; still unknown.", "filled_in_action_plan": false}
+  ],
+  "positive_shift_moments": [
+    "Percentage-only fee structure resolved the void-month concern outright.",
+    "Zac's mutual-interest framing.",
+    "Zac disclosing he's run his own Airbnb in Lincoln since 2022.",
+    "Confirming the locked storage room without hesitation.",
+    "Honest advice against buying their own linen."
+  ],
+  "friction_moments": [
+    "Repeated call/connection dropouts, including a full restart.",
+    "Income projection challenged as surprisingly high.",
+    "Incorrect live answer on fire labelling.",
+    "Overstated business rates conversion likelihood.",
+    "Lead remains 'still very wary', invoking the timeshare pattern."
+  ],
+  "zac_language": {
+    "opening_phrases": ["I thought I'd start just by sort of understanding a bit more about your current situation with the property."],
+    "transition_phrases": ["Then we can go through some figures.", "I can go through how the service works, or we can do the figures more — which would you prefer?"],
+    "reassurance_phrases": ["If you've not got any revenue, there's nothing for us to charge.", "If this can't be delivered, there's no point in me managing the property either."],
+    "emphasis_phrases": ["Your worst case is 1400, your likely case is 2000, and the best case 2600."],
+    "analogies_used": ["Laundry service analogy for the percentage-based fee."],
+    "numbers_framing": ["Worst/likely/best case (£1400–£2000–£2600 gross; £800–£1500–£2100 after running costs)"],
+    "objection_handling_pattern": "Acknowledges directly, explains the mechanism, then reframes as mutual interest."
+  },
+  "profile_psychology_intersection": {
+    "archetype_evidence": "Doc labels this the 'highest trust-sensitivity lead in recent memory' — husband frames the decision as due diligence, wants pitfalls disclosed before upside.",
+    "monday_emotional_profile_field": "Not present on this board.",
+    "recommended_approach": "Lead with corrections/candour rather than income figures; no time-limited offer given the externally-blocked timeline."
+  },
+  "action_plan_responses": {
+    "2026-09-02T07:08": "Higher than I thought",
+    "2026-09-02T07:15": "Higher than I thought; Short-let clearly makes more sense",
+    "2026-09-02T07:21": "Higher than I thought; Short-let clearly makes more sense; The setup cost and process",
+    "2026-09-02T07:28": "Higher than I thought; Short-let clearly makes more sense; The setup cost and process; Need more time to think this over",
+    "presentation_response_2026-08-26T15:54": "Slide 1 reached, 4 min — main concern: managing the property remotely"
+  },
+  "classification": "DELAYED"
+}

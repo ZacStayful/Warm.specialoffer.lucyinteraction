@@ -1,0 +1,102 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "094",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-08-25",
+  "transcript_quality": "full",
+  "lead_name": "Piotr Surminski",
+  "email": "peteopole@gmail.com",
+  "monday_id": "12648041050",
+  "address": "Ulverston Crescent, Broughton, Milton Keynes, MK10",
+  "bedrooms": 1,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "",
+  "language_signals": [],
+  "portfolio_flag": false,
+  "outcome": "Abandoned",
+  "lost_reason": "Building does not allow",
+  "had_meeting_2": false,
+  "offer_made": true,
+  "offer_rate": "13% + VAT",
+  "offer_expiry": "2026-08-30",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {"type": "DLY-MOV", "trigger_phrase": "", "context": "Profile_type ABROAD typically implies a DLY-MOV delay; the 13%+VAT offer had already been made in a prior meeting and was still being progressed here.", "timeline_given": "", "resolved_in_meeting": false},
+    {"type": "DLY-OTH", "trigger_phrase": "", "context": "Not raised in this call's transcript (entirely operational: cleaning, access, compliance). Discovered only afterward: Monday's Lost Reason records 'Building does not allow', status changed to Abandoned 2026-09-01, two days after the offer's 2026-08-30 expiry.", "timeline_given": "", "resolved_in_meeting": false}
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {
+    "made_at_meeting_phase": "N/A for this call — offer made in a prior meeting, not this transcript.",
+    "green_lights_present_at_offer": "Unknown — origin meeting not accessible.",
+    "delays_present_at_offer": "ABROAD profile predates the offer; offer made anyway and still live a month later.",
+    "what_immediately_preceded_offer": "Not observable in this transcript.",
+    "how_zac_framed_offer": "Not framed/pitched in this call; pre-call brief only reminds Zac to check paperwork before expiry.",
+    "expiry_stated_as": "August 30th / 2026-08-30",
+    "lead_response_to_offer": "Not addressed — entirely operational Q&A.",
+    "offer_outcome": "Ultimately lost. Monday moved to Abandoned (lost_reason 'Building does not allow') as of 2026-09-01, after the offer's expiry."
+  },
+  "meeting_flow": {
+    "opening_phrase": "Happy, how you doing? Thanks for coming on.",
+    "rapport_topics": "Brief, minimal small talk only.",
+    "pivot_to_business": "Zac asks whether the lead wants to go through the agreement, questions, or how it works.",
+    "income_intro": "Not re-presented from scratch; references previously-sent projected figures.",
+    "post_income_silence": "",
+    "how_it_works_transition": "Handled reactively through Q&A on cleaning-fee mechanics, access/override arrangements, compliance.",
+    "pre_close_setup": "None — call cut short before any close attempt.",
+    "close_phrase": "No close occurred; call ends abruptly, Zac has another call at four.",
+    "meeting_2_ask": "Promised callback to finish insurance/PAT questions; no date fixed.",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {"what_lead_said": "Is the cleaning cost mine or yours?", "category": "pricing_cleaning", "meeting_phase": "opening", "zac_responded_with": "Cleaning charged to the guest as part of the total stay price, shown as a deduction on the statement.", "lead_follow_up": "Asked whether guests are okay with that.", "resolved": true},
+    {"what_lead_said": "Would the flat being bigger, plus balcony and parking, increase the price?", "category": "valuation_pricing", "meeting_phase": "early", "zac_responded_with": "Said pricing already factors this in via the original projections.", "lead_follow_up": "None further.", "resolved": true},
+    {"what_lead_said": "It could be 200 pounds or it could be 1500 a month — pressed on income variance.", "category": "income_variance", "meeting_phase": "early-mid", "zac_responded_with": "Variance unlikely to exceed ~10% either way; Year 1 budgeted 20% below steady-state.", "lead_follow_up": "Accepted, moved to the agreement.", "resolved": true},
+    {"what_lead_said": "Asked about the 72-hour personal-access notice period given his unpredictable work travel.", "category": "personal_access_flexibility", "meeting_phase": "mid", "zac_responded_with": "Clarified it's a guideline not a hard rule; offered a personal-access override clause.", "lead_follow_up": "Confirmed he'd communicate promptly.", "resolved": true},
+    {"what_lead_said": "Could he clean the property himself after his own stays?", "category": "cleaning_cost_personal_use", "meeting_phase": "mid", "zac_responded_with": "Agreed, provided linen is still changed.", "lead_follow_up": "None further.", "resolved": true},
+    {"what_lead_said": "Asked in detail about public liability / short-let insurance (~£460/year).", "category": "insurance", "meeting_phase": "late", "zac_responded_with": "Wouldn't personally recommend anything additional yet.", "lead_follow_up": "Kept probing the specifics.", "resolved": false},
+    {"what_lead_said": "Asked repeatedly about compliance documentation, PAT testing, fire safety.", "category": "compliance", "meeting_phase": "late", "zac_responded_with": "No formal STL regulation yet beyond fire-safety advisories.", "lead_follow_up": "Kept asking for clarity.", "resolved": false}
+  ],
+  "conversion_gaps": [
+    {"gap": "Unclear whether the agreement was signed before the offer's 2026-08-30 expiry", "category": "paperwork_confirmation", "evidence": "Offer expiry has passed without status changing to Customer.", "how_to_fill": "Direct follow-up confirming signature status.", "filled_in_action_plan": false},
+    {"gap": "Insurance question left unresolved", "category": "insurance", "evidence": "Call cut short mid-discussion.", "how_to_fill": "Promised callback, no date fixed.", "filled_in_action_plan": false},
+    {"gap": "PAT testing requirement not conclusively addressed", "category": "compliance", "evidence": "Discussion still open at call end.", "how_to_fill": "Same promised callback.", "filled_in_action_plan": false},
+    {"gap": "Building/leasehold restriction not identified until after this onboarding call", "category": "eligibility_prerequisite_check", "evidence": "Lost_reason 'Building does not allow', status Abandoned by 2026-09-01.", "how_to_fill": "Verify building/lease STL permissions earlier in the pipeline.", "filled_in_action_plan": false}
+  ],
+  "positive_shift_moments": [
+    "Moved from decision-stage to detailed operational onboarding questions within four weeks, zero objections on terms/figures.",
+    "Proactively proposed self-cleaning after his own stays.",
+    "Confirmed prior compliance experience (gas/electrical certs, hardwired smoke detector)."
+  ],
+  "friction_moments": [
+    "Call cut short leaving insurance/PAT questions unresolved.",
+    "Repeatedly pressed for a firm income range/guarantee.",
+    "Deal ultimately fell through due to a building restriction discovered after onboarding."
+  ],
+  "zac_language": {
+    "opening_phrases": ["Happy, how you doing?", "Thanks for coming on."],
+    "transition_phrases": ["Do you want me to share my screen?", "I will attach like an override to the agreement."],
+    "reassurance_phrases": ["I wouldn't worry too much about the cleans... they're charged to the guest anyway.", "We always factor in that for the first year, it's going to be 20% less.", "That's covered."],
+    "emphasis_phrases": ["It's normally about 18% of whatever the figure is.", "There isn't anything to stop anyone short letting a property."],
+    "analogies_used": ["Bundled-cleaning-fee analogy comparing to Airbnb's own bundled pricing."],
+    "numbers_framing": ["Cleaning ~18% of guest total", "Income variance ~10% either way", "Year 1 budgeted 20% below steady-state"],
+    "objection_handling_pattern": "Anchors back to previously-sent action-plan figures rather than re-litigating them, normalises new operational questions as already handled."
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "ABROAD",
+    "observed_archetype_fit": "Closest to analytical-evaluator (wants operational mechanics spelled out before committing) — not a Monday-sourced slug.",
+    "how_profile_shaped_meeting": "Wanted meaningful personal-use access despite being ABROAD-profile — a large share of the call negotiated a personal-access override.",
+    "risk_note": "Eventual loss reason unrelated to ABROAD profile/psychology — a property/leasehold-level restriction discovered after onboarding."
+  },
+  "action_plan_responses": {},
+  "classification": "LOST"
+}

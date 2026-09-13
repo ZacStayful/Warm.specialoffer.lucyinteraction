@@ -1,0 +1,89 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "093",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-08-25",
+  "transcript_quality": "full",
+  "lead_name": "Nathan Weissbraun",
+  "email": "nathanweissbraun@gmail.com",
+  "monday_id": "12592043195",
+  "address": "5 Molineaux Road, Rhyl, LL18 3TY",
+  "bedrooms": 3,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Something else",
+  "stl_goal": "Determine whether short-let income justifies keeping/converting the Rhyl property instead of completing its sale, and evaluate STL potential for two further properties (Norfolk, Bilston).",
+  "property_situation": "Owns 5 Molineaux Road, Rhyl outright; currently unfurnished and had just been listed for sale. Considering pulling it off market to convert to STL, contingent on bridging finance and his business partner's agreement.",
+  "property_type": "",
+  "emotional_profile": "analytical-evaluator",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Bridging finance not yet secured and business partner sign-off not yet obtained; property currently unfurnished and listed for sale.",
+  "language_signals": ["Is it worth it?", "What's it cost to set it all up?", "Don't have too much tied up in one property, I don't like to.", "I just wanted to know what we can get."],
+  "portfolio_flag": true,
+  "outcome": "Warm due to call",
+  "lost_reason": "None",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {"type": "DLY-FUR", "trigger_phrase": "So it's unfurnished at the moment.", "context": "No furniture; full Airbnb-spec fit-out required before it could go live.", "timeline_given": "Setup quoted 3-4 weeks from contract signing, contingent on the decision and no sourcing/contractor delays.", "resolved_in_meeting": false},
+    {"type": "DLY-OTH", "trigger_phrase": "I don't know. Got a bridge in it on it. I need. It's all that as well. / I have to speak to my business partner about it.", "context": "Needs to secure bridging finance to retain/convert the property and needs business partner's sign-off.", "timeline_given": "", "resolved_in_meeting": false}
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {},
+  "meeting_flow": {
+    "opening_phrase": "Hi, Nathan. How you doing?",
+    "rapport_topics": ["Nathan's buy-to-let/buy-and-sell property business and plan for his first HMO", "audio connection issues"],
+    "pivot_to_business": "Is this a property own at the moment or are you in the [middle of buying]? I'll share my screen about this property.",
+    "income_intro": "So we're looking at about 33,000 gross, 17,000 [net], about 1,400 pound per month... based off 73 occupancy and about 150 pound nightly rate.",
+    "post_income_silence": "Immediate brief 'Yeah. Month.' response; stronger positive reaction ('Definitely. It's definitely better than we were thinking.') came after the full cost breakdown.",
+    "how_it_works_transition": "So just give you an idea of what that 15[%] includes. [We] deal with everything to do with managing the property day to day.",
+    "pre_close_setup": "Any questions you've got about the figures or does it make sense?",
+    "close_phrase": "I can sort of summarize what we've spoken about and put a bit of a plan together anyway for this property. You can run it past your partner and I'll put the agreement in there as well.",
+    "meeting_2_ask": "No formal meeting 2 booked; Zac offered to run figures on Norfolk and Bilston once details are emailed.",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 75
+  },
+  "lead_responses": [
+    {"what_lead_said": "That's we get you 73 occupancy. Right. You don't get 73. And we've got less than that, wouldn't it?", "category": "objection_occupancy_assumption", "meeting_phase": "figures presentation", "zac_responded_with": "Explained the 73% is derived from a comp set of 12 comparables averaging ~3.3 rating vs. Nathan's likely higher standard, achievable within 6-9 months.", "lead_follow_up": "That makes sense.", "resolved": true},
+    {"what_lead_said": "Definitely. It's definitely better than we were thinking.", "category": "positive_reaction_income", "meeting_phase": "figures presentation", "zac_responded_with": "Continued into seasonal fluctuation range (~£700/month March worst, ~£1,800/month July best).", "lead_follow_up": "None direct.", "resolved": true},
+    {"what_lead_said": "What's it cost to set it all up?", "category": "setup_cost_question", "meeting_phase": "logistics", "zac_responded_with": "Quoted £4,000-£5,000; offered a formal quote or a free setup guide.", "lead_follow_up": "Do you do the setup as well?", "resolved": true},
+    {"what_lead_said": "Do we have to tell them it's an Airbnb or just say it's [buy to let]?", "category": "mortgage_compliance_question", "meeting_phase": "how it works", "zac_responded_with": "Laid out three options: standard buy-to-let, holiday-let mortgage, or trading company/prop-co structure.", "lead_follow_up": "Okay.", "resolved": true},
+    {"what_lead_said": "I don't know. Got a bridge in it on it. I need. It's all that as well.", "category": "financial_blocker", "meeting_phase": "closing", "zac_responded_with": "Acknowledged, moved to summarising a plan for his business partner.", "lead_follow_up": "None further.", "resolved": false},
+    {"what_lead_said": "I think the one in Norfolk I've got is pretty much furnished... would you be able to inspect it?", "category": "cross_sell_expansion_interest", "meeting_phase": "closing/expansion", "zac_responded_with": "Confirmed Stayful inspects every onboarded property; photos ahead of time would help scope it.", "lead_follow_up": "Shared more Norfolk details.", "resolved": true}
+  ],
+  "conversion_gaps": [
+    {"gap": "No confirmed mortgage/bridging-finance cost for the Rhyl property", "category": "financial_data", "evidence": "Monday Rent/Mortgage column value '0'", "how_to_fill": "Follow up once bridging finance is confirmed for a real cost figure.", "filled_in_action_plan": false},
+    {"gap": "Norfolk property analysis not yet run", "category": "follow_up_needed", "evidence": "Needs full address, bedroom count, parking details", "how_to_fill": "Nathan to email details; Zac to run and send a revenue report.", "filled_in_action_plan": false},
+    {"gap": "Bilston property timeline unclear — needs full refurbishment including underpinning", "category": "timeline_unknown", "evidence": "'he needs full[back] refurb... I don't know how long it's going to take.'", "how_to_fill": "Revisit once refurbishment timeline is scoped.", "filled_in_action_plan": false},
+    {"gap": "Setup quote PDF and management agreement not opened/reviewed in this run", "category": "documentation", "evidence": "A setup quote file exists on Monday but was not opened.", "how_to_fill": "Open/attach the setup quote when preparing the action plan.", "filled_in_action_plan": false}
+  ],
+  "positive_shift_moments": [
+    "Nathan's reaction to the net income figure: 'Definitely. It's definitely better than we were thinking.'",
+    "After the occupancy objection was addressed, Nathan accepted without further pushback and volunteered two more properties."
+  ],
+  "friction_moments": [
+    "Call opened with audio/connection problems delaying rapport-building.",
+    "Nathan directly challenged the 73% occupancy assumption.",
+    "Nathan expressed general capital-allocation caution."
+  ],
+  "zac_language": {
+    "opening_phrases": ["Hi, Nathan. How you doing?", "I thought I'd start just by understanding a bit more about sort of your situation... then we can go through some figures."],
+    "transition_phrases": ["I'll share my screen about this property, just to sort of go through what it looks like.", "Should I go through the service or..."],
+    "reassurance_phrases": ["It definitely works better for some properties than others, that's for sure.", "Even if I said 900, we're still going quite a lot more."],
+    "emphasis_phrases": ["That's the difference between the gross and the net.", "So you could expect that to be like your monthly payout on average over a year."],
+    "analogies_used": [],
+    "numbers_framing": ["£33,120 gross / £17,224 net (~£1,400/month) at 73% occupancy and £150/night", "Worst case ~£700/month (March), best case ~£1,800/month (July)", "Costs: platform fees ~15%, cleaning/laundry ~18%, management 15%"],
+    "objection_handling_pattern": "Reframes the occupancy assumption as a comp-set-derived average rather than a guarantee, then sets realistic 6-9 month expectations instead of promising immediate results."
+  },
+  "profile_psychology_intersection": {
+    "pattern": "Active multi-property investor paired with analytical-evaluator psychology: pushes back on optimistic assumptions, wants line-item cost/timeline detail before committing capital.",
+    "implication": "Follow-up should track resolution of the two external gates (bridging finance, partner sign-off) rather than re-pitching the income case, and prioritise running the Norfolk report."
+  },
+  "action_plan_responses": {},
+  "classification": "DELAYED"
+}
