@@ -1,0 +1,98 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "099",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-09-11",
+  "transcript_quality": "full",
+  "lead_name": "Shaun Kavanagh",
+  "email": "shaunkavanagh@me.com",
+  "monday_id": "12990869781",
+  "address": "30 Alexandra Terrace LN1 1JE",
+  "bedrooms": 2,
+  "profile_type": "PURCH",
+  "lead_profile_text": "Looking to buy a property for short term letting",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "",
+  "language_signals": [],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "None",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {"type": "DLY-PUR", "trigger_phrase": "So we've agreed the sale. It should have been off the market... we're progressing now.", "context": "Mortgaged purchase, sale agreed but not completed; conveyancers/mortgage in progress; surveyor visiting the following week.", "timeline_given": "Hoping to complete by November 2026, then works, then listing.", "resolved_in_meeting": false},
+    {"type": "DLY-OTH", "trigger_phrase": "there's one parking space. I'd like to expand to 2... surveyor going in next week... there's quite a lot of decking outside... it's slippery.", "context": "Pre-listing works needed: parking expansion, decking safety assessment/remediation, general survey.", "timeline_given": "Best case first bookings December 2026; worst case February 2027.", "resolved_in_meeting": false}
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {},
+  "meeting_flow": {
+    "opening_phrase": "We're on now... thanks for coming on. I'll finalize that postcode and send it to you today.",
+    "rapport_topics": ["Technical joining/mic issues", "Confirming purchase status"],
+    "pivot_to_business": "So I suppose what I'll do is we'll go through some figures first, then the benefits of managing yourself, then how the service works.",
+    "income_intro": "based off of your inquiry and the address... about £5,200 gross... about £5,300 gross.",
+    "post_income_silence": "",
+    "how_it_works_transition": "we'll list you on multiple platforms — Airbnb, Booking.com, and our own direct booking site.",
+    "pre_close_setup": "As far as timeframes, have you got a date in mind?",
+    "close_phrase": "I'll send that over to you today with that revised document. If you have any concerns, just send it back to me.",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {"what_lead_said": "Is it 15% of the gross?", "category": "fee_question", "meeting_phase": "income_discussion", "zac_responded_with": "15% of the Airbnb payment, after platform commission but before cleaning.", "lead_follow_up": "That's a massive difference — we were using Houst, taking 18%.", "resolved": true},
+    {"what_lead_said": "£1,300 seems high for a low month like January — sometimes we get zero bookings.", "category": "income_skepticism", "meeting_phase": "income_discussion", "zac_responded_with": "Explained the seasonal ramp-up, importance of an established listing, ~82/100 direct booking potential.", "lead_follow_up": "Yeah, that makes sense.", "resolved": true},
+    {"what_lead_said": "Do you screen out party bookings? (referencing a prior manager allowing parties)", "category": "guest_vetting_objection", "meeting_phase": "how_it_works", "zac_responded_with": "Lincoln isn't a party-booking area; £100 deposit, ID/background/review checks, optional noise sensor.", "lead_follow_up": "Good to know.", "resolved": true},
+    {"what_lead_said": "If it's a small tear that's increasing, when is it reported/fixed?", "category": "process_question", "meeting_phase": "how_it_works", "zac_responded_with": "Minor wear-and-tear batched; £300+/month flagged for owner approval.", "lead_follow_up": "Makes sense.", "resolved": true},
+    {"what_lead_said": "(Implicit interest in using own trusted maintenance people)", "category": "logistics_preference", "meeting_phase": "how_it_works", "zac_responded_with": "Offered to coordinate with lead's own contractors.", "lead_follow_up": "I love it. Thank you.", "resolved": true},
+    {"what_lead_said": "No secure cupboard on site — do you need one?", "category": "logistics_question", "meeting_phase": "how_it_works", "zac_responded_with": "Nice to have but not essential.", "lead_follow_up": "Okay, cool.", "resolved": true},
+    {"what_lead_said": "How do we book cleans if we book it ourselves?", "category": "process_question", "meeting_phase": "how_it_works", "zac_responded_with": "Requested via a shared Slack channel; appears on monthly statement.", "lead_follow_up": "That makes sense.", "resolved": true},
+    {"what_lead_said": "Something will go wrong and we'll think we could've done this ourselves all along.", "category": "core_ambivalence_self_manage_vs_outsource", "meeting_phase": "opening", "zac_responded_with": "Reframed via scaling argument — in-house nearby, local manager for distant properties.", "lead_follow_up": "It makes sense... I'll speak to my wife.", "resolved": false}
+  ],
+  "conversion_gaps": [
+    {"gap": "No firm follow-up meeting or check-in date booked", "category": "process", "evidence": "Lead closed with 'I'll speak to my wife and see what we think.'", "how_to_fill": "Set a proactive check-in trigger for purchase completion (~November) and refurb completion.", "filled_in_action_plan": false},
+    {"gap": "Setup quote fully deferred with no indicative figure given live", "category": "pricing", "evidence": "'I'll give you a price for that come the time.'", "how_to_fill": "Give an indicative setup range live to anchor Stayful as the provider.", "filled_in_action_plan": true},
+    {"gap": "Fee described as '15%' live without VAT uplift or clarity on which payout components it hits", "category": "pricing_accuracy", "evidence": "Fee is actually 15% + VAT.", "how_to_fill": "State '15% + VAT' explicitly live.", "filled_in_action_plan": true},
+    {"gap": "Lincoln Christmas market claim overstated", "category": "accuracy", "evidence": "The historic street market was scrapped in 2023; only a smaller cathedral market remains.", "how_to_fill": "Reference only the current, smaller ticketed market.", "filled_in_action_plan": true},
+    {"gap": "Live 'likely case £2,800/mo' figure ~20% above the underlying forecast run-rate (£2,286/mo)", "category": "income_accuracy", "evidence": "Deck-vs-forecast discrepancy.", "how_to_fill": "Reconcile deck output against forecast array before the call.", "filled_in_action_plan": true},
+    {"gap": "Deck incorrectly states 'No mortgage / owned outright' for a mortgaged purchase", "category": "data_accuracy", "evidence": "Deck error flagged.", "how_to_fill": "Correct the property finance field before future materials.", "filled_in_action_plan": false}
+  ],
+  "positive_shift_moments": [
+    "Fee charged on post-commission payout, not gross — 'that's a massive difference.'",
+    "Offer to coordinate the lead's own trusted contractors.",
+    "Maintenance batching + £300 owner-approval cap reassured on surprise costs.",
+    "Scaling/operational-headache argument landed near the close.",
+    "Local Lincoln cleaner proximity anecdote reassured without overselling."
+  ],
+  "friction_moments": [
+    "Technical/mic issues delayed the start.",
+    "Fee-base challenge referencing a prior bad experience with Houst.",
+    "January income figure challenged against the lead's own portfolio history.",
+    "Party-booking/neighbour-noise concern from a previous manager.",
+    "Repeated articulation of the self-manage-vs-outsource tension."
+  ],
+  "zac_language": {
+    "opening_phrases": ["Thanks for coming on.", "I'll finalize that postcode and send it to you today."],
+    "transition_phrases": ["we'll go through some of the figures first, then the benefits of managing yourself, then how the service works."],
+    "reassurance_phrases": ["There's sort of no surprises when it comes to that.", "I wouldn't worry too much, in all honesty.", "It's not the end of the world."],
+    "emphasis_phrases": ["You need very good cleaners, very good contacts for maintenance.", "No surprises."],
+    "analogies_used": ["Once it's nice, it's just blank canvas, and then we can go in, get it all set up."],
+    "numbers_framing": ["~£5,300 gross average", "15% fee on Airbnb payout, after commission, before cleaning", "69% occupancy, £250 nightly rate", "82/100 direct booking potential", "Likely £2,800/mo, worst Jan £1,300, best £3,400 (May-July)"],
+    "objection_handling_pattern": "Acknowledge the concern as generally valid, narrow it to why it doesn't apply here, offer a concrete mitigation without overselling certainty."
+  },
+  "profile_psychology_intersection": {
+    "note": "No canonical Monday archetype. Behaviour (interrogating fee base, catching the January figure against his own data, probing party-vetting) reads as analytical-evaluator — inference only.",
+    "pre_meeting_presentation_signals": "Two prior visits: 2026-09-07 (main concern 'understanding all the costs') and 2026-09-08 (main concern 'managing remotely', 'more confident now')."
+  },
+  "action_plan_responses": {},
+  "classification": "DELAYED"
+}

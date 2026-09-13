@@ -1,0 +1,96 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "101",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-09-11",
+  "transcript_quality": "summary_only",
+  "lead_name": "Emily Moench",
+  "email": "emmoench@gmail.com",
+  "monday_id": "12589168987",
+  "address": "Cowfield Cottage, Bodiam, Robertsbridge, East Sussex, TN32 5RA",
+  "bedrooms": 4,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "Generate short-let income from an inherited family cottage once the current family tenant vacates; wants 1-2 months for refurbishment/setup before going live.",
+  "property_situation": "Inherited by Emily's brother (no mortgage); currently occupied by a relative as tenant, due to leave March 2027. ~£1,000/month bills (assumed, not confirmed).",
+  "property_type": "4-bed country cottage (High Weald, rural leisure market)",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Existing family tenant occupying the property until March 2027 (externally gated timeline, not a decision-readiness issue)",
+  "language_signals": [],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {"type": "DLY-TEN", "trigger_phrase": "a relative is the current tenant, planned to leave in March", "context": "Inherited cottage currently tenanted by a family member. No compliance issues, no purchase pending — the sole blocker is the existing tenancy.", "timeline_given": "Tenant leaves March 2027; 1-2 months refurb/setup after, so realistic go-live ~May 2027", "resolved_in_meeting": false}
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {},
+  "meeting_flow": {
+    "opening_phrase": "",
+    "rapport_topics": [],
+    "pivot_to_business": "",
+    "income_intro": "Went through the short-let income projections in detail",
+    "post_income_silence": "",
+    "how_it_works_transition": "Went through cleaning and scheduling in detail",
+    "pre_close_setup": "Flagged log burner as a fire-risk item to resolve before go-live",
+    "close_phrase": "",
+    "meeting_2_ask": "No second meeting booked — suggested a planning call in Jan/Feb 2027 ahead of the March 2027 tenant move-out",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {"what_lead_said": "Main concern: Understanding all the costs", "category": "cost_concern", "meeting_phase": "pre-meeting presentation view (2026-07-21)", "zac_responded_with": "", "lead_follow_up": "", "resolved": true},
+    {"what_lead_said": "Main concern: Income consistency", "category": "income_concern", "meeting_phase": "pre-meeting presentation view (2026-09-11)", "zac_responded_with": "Went through the short-let income during the web meeting", "lead_follow_up": "Described income as 'very happy' / 'Higher than I thought' afterward", "resolved": true},
+    {"what_lead_said": "Higher than I thought", "category": "positive_shift", "meeting_phase": "post-meeting action plan review", "zac_responded_with": "", "lead_follow_up": "", "resolved": true},
+    {"what_lead_said": "Short-let clearly makes more sense", "category": "positive_shift", "meeting_phase": "post-meeting action plan review (recurs in 3 of 4 logged visits)", "zac_responded_with": "", "lead_follow_up": "", "resolved": true},
+    {"what_lead_said": "The setup cost and process", "category": "process_question", "meeting_phase": "post-meeting action plan review", "zac_responded_with": "Essential item checklist to be provided within the action plan", "lead_follow_up": "", "resolved": true},
+    {"what_lead_said": "Whether the income is really achievable", "category": "skepticism_validation", "meeting_phase": "post-meeting action plan review (most recent visit)", "zac_responded_with": "Action plan/deck cites 12 comparables and average annual revenue as supporting evidence", "lead_follow_up": "", "resolved": false}
+  ],
+  "conversion_gaps": [
+    {"gap": "Monthly bills figure (~£1,000) is an assumption, not confirmed", "category": "data_gap", "evidence": "Flagged as 'assumed monthly — CONFIRM'", "how_to_fill": "Confirm actual bills before the Jan/Feb 2027 planning call", "filled_in_action_plan": false},
+    {"gap": "Lead's most recent stated concern is whether the projected income is really achievable", "category": "trust_proof", "evidence": "S3: 'Whether the income is really achievable'", "how_to_fill": "Action plan already includes 12 comparables and average revenue as evidence; ensure it's surfaced clearly", "filled_in_action_plan": true},
+    {"gap": "Setup cost and process flagged as a top concern", "category": "process_clarity", "evidence": "S3: 'The setup cost and process'", "how_to_fill": "Essential item checklist provided within the action plan", "filled_in_action_plan": true},
+    {"gap": "Monday income columns are stale and don't match the actual net forecast", "category": "internal_data_quality", "evidence": "Stale figures flagged in the doc.", "how_to_fill": "Update Monday net-income columns to match forecast-array figures.", "filled_in_action_plan": false}
+  ],
+  "positive_shift_moments": [
+    "Action plan response: 'Higher than I thought'",
+    "Action plan response repeated across 3 of 4 logged visits: 'Short-let clearly makes more sense'",
+    "Doc records lead as 'very happy' with the short-let income figures",
+    "No objections recorded during the web meeting itself"
+  ],
+  "friction_moments": [],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": ["Short-let vs long-let net: £35,935 vs £14,040 (+220%)", "Before/after-bills framing: +£30,879/yr before ~£12,000 bills, +£18,879/yr after (Y1 net uplift +£9,895)"],
+    "objection_handling_pattern": "Proactively flagged the log burner as a fire-risk item to resolve before go-live rather than reacting to a lead-raised objection; no lead objections were recorded."
+  },
+  "profile_psychology_intersection": {
+    "note": "No canonical Monday archetype. Three action-plan visits producing convinced-sounding answers, combined with zero objections in the meeting, suggest a lead already largely convinced and constrained purely by an external timeline gate rather than psychological resistance — inference only."
+  },
+  "action_plan_responses": {
+    "presentation_responses": [
+      {"timestamp": "2026-07-21 14:51", "context": "slide 2 reached, 1min", "main_concern": "Understanding all the costs", "guest_type": "Events & weekend visitors"},
+      {"timestamp": "2026-09-11 12:43", "context": "slide 2 reached, 2min", "main_concern": "Income consistency", "guest_type": "A mix of all three"}
+    ],
+    "action_plan_survey_responses": [
+      {"timestamp": "2026-09-11 12:39", "S1": "Higher than I thought", "S2": "Short-let clearly makes more sense", "S3": "The setup cost and process"},
+      {"timestamp": "2026-09-11 12:59", "S1": "About what I expected"},
+      {"timestamp": "2026-09-11 12:59", "S1": "About what I expected", "S2": "Short-let clearly makes more sense"},
+      {"timestamp": "2026-09-11 13:00", "S1": "About what I expected", "S2": "Short-let clearly makes more sense", "S3": "Whether the income is really achievable"}
+    ]
+  },
+  "classification": "DELAYED"
+}

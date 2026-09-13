@@ -1,0 +1,101 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "100",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-09-11",
+  "transcript_quality": "full",
+  "lead_name": "Neil Partner",
+  "email": "muddyneil@hotmail.com",
+  "monday_id": "12880172596",
+  "address": "1 Newton House Cottages, Plas Newton Lane, Chester CH2 1PD",
+  "bedrooms": 2,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "Rent to rent property looking for management",
+  "stl_goal": "",
+  "property_situation": "",
+  "property_type": "",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "",
+  "language_signals": [],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {"type": "DLY-MOV", "trigger_phrase": "My possible plan is to go over to Spain in about a year or 6 months.", "context": "Owner-occupier planning to relocate abroad; STL vs long-let vs selling decision is gated by that move timeline.", "timeline_given": "~6-12 months", "resolved_in_meeting": false},
+    {"type": "DLY-OTH", "trigger_phrase": "Are you on a residential mortgage at the moment or a buy-to-let?", "context": "Property is on a residential mortgage; a holiday-let mortgage product or written lender consent is needed. Zac's live advice that a standard buy-to-let switch would simply work was inaccurate and corrected after the call.", "timeline_given": "Current residential mortgage term ends next year", "resolved_in_meeting": false}
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {},
+  "meeting_flow": {
+    "opening_phrase": "Can you see me okay? I thought I'd start just by understanding a bit on sort of your current situation, and then we can go through some figures.",
+    "rapport_topics": ["camera/lighting check", "Neil's planned move to Spain", "vintage/retro furniture and record collection staying in the cottage"],
+    "pivot_to_business": "I'll share my screen and we can go through some figures so we can clarify whether it's worth it financially.",
+    "income_intro": "about £51,000 of gross revenue, about £4,200 a month.",
+    "post_income_silence": "",
+    "how_it_works_transition": "you basically just have the keys and you do everything, yeah? — Exactly. We'd normally say to get a key safe installed.",
+    "pre_close_setup": "Is there anything else that I need to talk to you about, or—",
+    "close_phrase": "No worries. I suppose we'll probably touch base in sort of, should we say, like May next year.",
+    "meeting_2_ask": "Loose touch-base proposed for ~May 2027; no firm date agreed.",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {"what_lead_said": "Are you actually with Airbnb?", "category": "clarification_of_service_model", "meeting_phase": "opening/context-gathering", "zac_responded_with": "No, third-party management company; we list on Airbnb and manage the guest side.", "lead_follow_up": "Okay, all right.", "resolved": true},
+    {"what_lead_said": "If there's a problem like the washing machine, can I sort it myself?", "category": "control_autonomy_objection", "meeting_phase": "how-it-works", "zac_responded_with": "Fine, just keep us informed via a Slack channel.", "lead_follow_up": "I could get one of my mates to pop in.", "resolved": true},
+    {"what_lead_said": "I've spoken to a girl who can rent my house out for good money without the hassle.", "category": "competing_alternative", "meeting_phase": "financial_discussion", "zac_responded_with": "Walked through £2,200 minus £1,200 = £1,000 after everything.", "lead_follow_up": "Are you on a residential mortgage or buy-to-let?", "resolved": false},
+    {"what_lead_said": "Am I still allowed to stay there occasionally? You won't charge me?", "category": "personal_use_and_trust", "meeting_phase": "how-it-works", "zac_responded_with": "No charges; calendar access to select dates, message in the channel.", "lead_follow_up": "Could my son book it in too?", "resolved": true},
+    {"what_lead_said": "It's totally legal, isn't it? I had a planning-permission dispute with a neighbour before.", "category": "legal_and_neighbour_concern", "meeting_phase": "late_objections", "zac_responded_with": "Nothing to stop you; no official rules against it right now.", "lead_follow_up": "", "resolved": false},
+    {"what_lead_said": "If I decide I don't want to continue, am I locked into a contract?", "category": "contract_exit_terms", "meeting_phase": "close", "zac_responded_with": "6-month fixed term, then 3-month notice.", "lead_follow_up": "Thanks ever so much, Zac.", "resolved": false}
+  ],
+  "conversion_gaps": [
+    {"gap": "Live mortgage advice (standard BTL switch) was inaccurate; a holiday-let mortgage or lender consent is actually required", "category": "financial_compliance", "evidence": "Corrected after the call.", "how_to_fill": "Corrected in writing.", "filled_in_action_plan": true},
+    {"gap": "Deck headline net (~£16.8k) overstates the true advantage after bills; actual ~£10.8k/yr at run-rate", "category": "financial_framing", "evidence": "Gap flagged in the doc.", "how_to_fill": "Action plan leads with the after-bills comparison.", "filled_in_action_plan": true},
+    {"gap": "£1,000 early-exit fee within the 6-month term not mentioned live", "category": "contract_disclosure", "evidence": "Only 'no charge upfront' was said.", "how_to_fill": "Disclosed in writing.", "filled_in_action_plan": true},
+    {"gap": "Fee quoted live as flat 15%; actually 15% + VAT plus a £42/month software fee", "category": "pricing_disclosure", "evidence": "Corrections flagged.", "how_to_fill": "Disclosed in writing.", "filled_in_action_plan": true},
+    {"gap": "'No charge' framing for owner stays omitted that the post-stay clean is at owner cost", "category": "cost_disclosure", "evidence": "Agreement clause 6.", "how_to_fill": "Clarified in writing.", "filled_in_action_plan": true},
+    {"gap": "England's mandatory short-let registration scheme (expected March 2027) not mentioned re: legality", "category": "regulatory", "evidence": "Not raised live.", "how_to_fill": "Added in the action plan.", "filled_in_action_plan": true},
+    {"gap": "Council tax premium vs business rates, and cross-border tax implications, not discussed live", "category": "tax", "evidence": "Not raised on the call.", "how_to_fill": "Added in the action plan.", "filled_in_action_plan": true}
+  ],
+  "positive_shift_moments": [
+    "Reassurance every month is profitable after mortgage and bills, even the worst month.",
+    "Confirmed free calendar access for personal/family use, extending to his son.",
+    "Advice to fence off the garden studio as private storage landed well.",
+    "Explicit freedom to use his own maintenance contacts.",
+    "Mortgage renewal timing aligning with a buy-to-let switch for extra margin."
+  ],
+  "friction_moments": [
+    "Early technical/lighting friction.",
+    "Confusion over whether Stayful is an Airbnb-type platform.",
+    "Direct comparison to a long-let alternative with less hassle.",
+    "Anxiety around a difficult neighbour and past planning dispute.",
+    "Concern about guest damage.",
+    "End-of-call check on contract lock-in."
+  ],
+  "zac_language": {
+    "opening_phrases": ["Can you see me okay?", "Thanks for coming on.", "I thought I'd start just by understanding a bit on sort of your current situation."],
+    "transition_phrases": ["I'll share my screen and we can go through some figures.", "Is there anything else that I need to talk to you about, or—"],
+    "reassurance_phrases": ["There won't be any charges.", "You shouldn't have months where you're not profitable at all.", "There's nothing to stop you from that."],
+    "emphasis_phrases": ["Definitely profitable.", "Pretty safe.", "£1,000 a month once established."],
+    "analogies_used": [],
+    "numbers_framing": ["Led with gross (~£51,000/yr) before net payout (~£26,500/yr) then true profit (~£1,000/month).", "Worst month (Jan, ~£300-400 profit) vs best months (Jun-Aug, ~£1,500 profit)."],
+    "objection_handling_pattern": "Acknowledges the alternative/concern, reframes with a specific number, offers flexibility to preserve autonomy while keeping Stayful looped in."
+  },
+  "profile_psychology_intersection": {
+    "note": "No canonical Monday archetype. Methodical, detail-checking behaviour rather than urgency-driven, consistent with a decision genuinely timeline-gated by the Spain move rather than emotionally blocked."
+  },
+  "action_plan_responses": {
+    "source": "Monday long_text_mm3mfgvx",
+    "timestamp": "2026-09-11 11:24",
+    "responses": ["S1: About what I expected", "S2: Still weighing it up", "S3: How guest damage and problems are handled"]
+  },
+  "classification": "DELAYED"
+}
