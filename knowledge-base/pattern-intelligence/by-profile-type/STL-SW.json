@@ -2,8 +2,9 @@
   "schema_version": "3.0",
   "profile_type": "STL-SW",
   "profile_description": "Existing property — switching from long-let to short-let",
-  "total_entries": 40,
-  "last_updated": "2026-08-30",
+  "total_entries": 44,
+  "last_updated": "2026-09-13",
+  "data_note": "Run 2026-09-13 added 4 entries (093, 096, 098, 101) and updated total_entries/conversion_data only. The sub-distributions below (most_common_emotional_profiles/delays/green_lights, top_questions, top_objections, top_conversion_gaps, what_moves_them, language_to_use) were NOT re-merged this run and are stale as of 2026-08-30 — none of the 4 new entries had a Monday-sourced canonical archetype (psychology columns absent from the live board), and a full re-merge of these large lists was out of scope for this run's time budget. Recommend a dedicated re-merge pass.",
   "typical_situation": "Lead already owns a property that is currently on a standard long-term tenancy, owner-occupied, or recently vacated, and is considering switching it to short-let to get a better return — often triggered by a mortgage-rate shock, a bad tenant experience, an empty or underperforming property, or simply wanting more income from an existing asset.",
   "typical_motivation": "Escape a specific pain point (a rising mortgage payment, tenant/HMO management burden, an underperforming or empty property) and capture a meaningfully higher net return than the current or available long-let option, while keeping management genuinely hands-off.",
   "typical_timeline": "Usually gated by a concrete event that has to happen first — a sitting tenant's notice period ending, a renovation or refurb finishing, a remortgage date, or a personal circumstance (a property sale, relocation) — rather than being ready immediately, even once the financial case is already accepted.",
@@ -106,9 +107,9 @@
     "Close with a specific, dated next step tied to whatever external event (tenant notice, refurb, remortgage) is already gating their timeline"
   ],
   "conversion_data": {
-    "total": 40,
+    "total": 44,
     "ready_now": 10,
-    "delayed": 30,
+    "delayed": 34,
     "had_meeting_2": 0,
     "converted_to_customer": 3,
     "most_common_lost_reason": "LTL vs STL margin too thin given very low mortgage; setup costs too high to justify switch"

@@ -2,8 +2,9 @@
   "schema_version": "3.0",
   "profile_type": "EX-STL",
   "profile_description": "Already short-letting, switching management company",
-  "total_entries": 18,
-  "last_updated": "2026-08-30",
+  "total_entries": 19,
+  "last_updated": "2026-09-13",
+  "data_note": "Run 2026-09-13 added 1 entry (092, Caixia Ye — LOST, reason 'Building does not allow') and updated total_entries/conversion_data/most_common_lost_reason only. Sub-distributions below were NOT re-merged this run and are stale as of 2026-08-30.",
   "typical_situation": "Lead is already running the property as a short-let, either self-managed or through another management company (e.g. Pass the Keys, Hello Guest, MyProperty Host, Residential Estates), and is dissatisfied with underperformance — low reviews, poor occupancy vs the local market, operational failures like missed check-ins or unresolved maintenance, or a fee increase at renewal.",
   "typical_motivation": "Fix chronic underperformance or reduce management fees so the property finally hits the net income originally expected from short-letting, without having to become hands-on themselves.",
   "typical_timeline": "Gated by the notice period owed to the current management company (often weeks to a few months), sometimes deliberately timed to a natural quiet season for a clean handover of an established, review-rich listing.",
@@ -15,18 +16,18 @@
     {"archetype": "fast-path-gain-focused", "count": 2, "percentage": 11.1}
   ],
   "most_common_delays": [
-    {"delay_type": "DLY-OTH", "count": 3, "percentage": 16.7},
-    {"delay_type": "LTL-test-strategy-consideration", "count": 2, "percentage": 11.1},
-    {"delay_type": "property-not-yet-ready", "count": 2, "percentage": 11.1}
+    {"delay_type": "DLY-OTH", "count": 4, "percentage": 21.1},
+    {"delay_type": "LTL-test-strategy-consideration", "count": 2, "percentage": 10.5},
+    {"delay_type": "property-not-yet-ready", "count": 2, "percentage": 10.5}
   ],
   "most_common_green_lights": [
-    {"green_light_type": "GL-MGMT", "count": 7, "percentage": 38.9},
-    {"green_light_type": "GL-TIME", "count": 3, "percentage": 16.7},
-    {"green_light_type": "action-plan-delivered-as-promised", "count": 2, "percentage": 11.1},
-    {"green_light_type": "GL-SELF", "count": 2, "percentage": 11.1},
-    {"green_light_type": "scalability-need-self-articulated", "count": 2, "percentage": 11.1}
+    {"green_light_type": "GL-MGMT", "count": 7, "percentage": 36.8},
+    {"green_light_type": "GL-TIME", "count": 3, "percentage": 15.8},
+    {"green_light_type": "action-plan-delivered-as-promised", "count": 2, "percentage": 10.5},
+    {"green_light_type": "GL-SELF", "count": 3, "percentage": 15.8},
+    {"green_light_type": "scalability-need-self-articulated", "count": 2, "percentage": 10.5}
   ],
-  "what_meeting_should_lead_with": "Skip re-pitching short-letting as a concept — this lead already believes in it. Lead instead with a specific, evidenced diagnosis of why the current setup underperforms (reviews, pricing, listing structure, communication) and only then contrast Stayful's model point-by-point against the current company, backed with real numbers and concrete proof points.",
+  "what_meeting_should_lead_with": "Skip re-pitching short-letting as a concept — this lead already believes in it. Lead instead with a specific, evidenced diagnosis of why the current setup underperforms (reviews, pricing, listing structure, communication) and only then contrast Stayful's model point-by-point against the current company, backed with real numbers and concrete proof points. For any leasehold/managed-building property, confirm short-let permission is actually in place BEFORE going further — do not assume an already-operating listing means the building allows it long-term.",
   "top_questions": [
     {"question": "How does Stayful's fee and service actually compare to my current management company?", "frequency": 4, "confidence": 0.9, "best_answer": "Give a direct side-by-side: fee percentage, number of listing platforms, communication model (e.g. Slack, monthly statements), and whether listings are individual vs shared/hotel-style."},
     {"question": "What income can I realistically expect — including the worst-case month?", "frequency": 5, "confidence": 0.9, "best_answer": "Give both a worst-case and average figure, and frame any single weak month honestly as 1-in-12 against the full-year average."},
@@ -38,7 +39,8 @@
     {"question": "What platforms will the property be listed on?", "frequency": 2, "confidence": 0.6, "best_answer": "Multi-platform (Airbnb, Booking.com) plus direct booking channels, contrasted against a single-platform current setup."},
     {"question": "Do I need to register for VAT / how does the payout work for tax purposes?", "frequency": 1, "confidence": 0.4, "best_answer": "Clarify the owner receives a net payout rather than being the one directly short-letting, so the guest-facing turnover figure is not automatically the owner's own taxable turnover — but recommend the owner confirm with their accountant."},
     {"question": "Should I add extra amenities (e.g. a hot tub) to boost bookings?", "frequency": 1, "confidence": 0.4, "best_answer": "Advise against unnecessary added risk/cost where the property already performs well without it — added amenities add failure points that can generate bad reviews."},
-    {"question": "Would taking on multiple properties together attract a discount on the management fee?", "frequency": 1, "confidence": 0.06, "best_answer": "Offer a bundle discount proactively for any 2+-property sign-up rather than waiting to be asked — it visibly accelerated the decision when volunteered."}
+    {"question": "Would taking on multiple properties together attract a discount on the management fee?", "frequency": 1, "confidence": 0.06, "best_answer": "Offer a bundle discount proactively for any 2+-property sign-up rather than waiting to be asked — it visibly accelerated the decision when volunteered."},
+    {"question": "Does the building/lease actually permit short-letting, and has this ever been formally confirmed?", "frequency": 1, "confidence": 0.0, "best_answer": "Ask this explicitly and early for any leasehold/flat/tower-block property — an already-live listing is not proof of permission; verify in writing before agreeing a go-live date or discussing fees in depth."}
   ],
   "top_objections": [
     {"objection": "Scepticism that Stayful's projected income will actually be hit, given a prior manager made similar promises that weren't delivered", "frequency": 3, "resolution_rate": 0.33, "best_response": "Lead with concrete, already-in-hand proof points (a confirmed booking, a comparable case study) and an honest acknowledgement that year one may run below full potential while reviews build — candour lands better than a bigger promise."},
@@ -60,7 +62,8 @@
     {"gap": "Portfolio/multi-property partnership pitch discussed informally but never formalised", "category": "strategic_positioning", "frequency": 2, "how_to_fill": "Put together a formal portfolio-partnership proposal once a second or third property enters the pipeline, positioning Stayful as ongoing management infrastructure."},
     {"gap": "Promotional rate or offer expiry not logged in the CRM despite being referenced", "category": "CRM data integrity", "frequency": 1, "how_to_fill": "Confirm and log any verbally offered rate and its expiry immediately after the call so pipeline status stays accurate."},
     {"gap": "Signed contract stalls after being sent, with only repeated similar email chases and no reply", "category": "stalled decision", "frequency": 1, "how_to_fill": "Escalate from repeated similar chases to a scheduled phone call or a genuine time-limited incentive to re-engage."},
-    {"gap": "No setup quote or break-even figure produced in writing, leaving a cost question unanswered", "category": "missing_deliverable", "frequency": 1, "how_to_fill": "Proactively send a setup quote/break-even figure even when not explicitly requested, removing residual friction before a lead consults a co-decision-maker."}
+    {"gap": "No setup quote or break-even figure produced in writing, leaving a cost question unanswered", "category": "missing_deliverable", "frequency": 1, "how_to_fill": "Proactively send a setup quote/break-even figure even when not explicitly requested, removing residual friction before a lead consults a co-decision-maker."},
+    {"gap": "Building/lease permission for short-letting assumed rather than confirmed in writing before agreeing terms or a go-live date, for a leasehold/managed-building property already operating as a live listing", "category": "qualification_gap", "frequency": 1, "how_to_fill": "Add an explicit building/lease permission check to the EX-STL qualification flow — an existing live listing is not proof the building's management/freeholder actually permits it long-term (092, Caixia Ye, lost after commercial terms were agreed)."}
   ],
   "what_moves_them": [
     {"point": "Being shown the underperformance is a diagnosable listing/management-company issue, not a property issue, with a concrete benchmark", "frequency": 3},
@@ -87,11 +90,11 @@
     "Close on contract terms, any scale/portfolio angle if relevant, and a deadline-bound offer"
   ],
   "conversion_data": {
-    "total": 18,
+    "total": 19,
     "ready_now": 4,
     "delayed": 14,
     "had_meeting_2": 1,
     "converted_to_customer": 1,
-    "most_common_lost_reason": ""
+    "most_common_lost_reason": "Building does not allow"
   }
 }
