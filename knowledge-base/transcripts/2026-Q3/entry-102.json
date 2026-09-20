@@ -1,0 +1,246 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "102",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-09-18",
+  "transcript_quality": "full",
+
+  "lead_name": "Karen Lee",
+  "email": "karenlee0103@gmail.com",
+  "monday_id": "13067940691",
+  "address": "The Old School Room, 22A Queen Street, Middleton Cheney, Banbury OX17 2NP",
+  "bedrooms": 3,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "I have a short term let and wanting the property managed professionally (Monday text_mm1x8cgy — stale/inaccurate: property has never been let; it is a near-complete new-build conversion and the lead is deciding furnish-for-STL vs single-let before furnishing at all)",
+  "stl_goal": "",
+  "property_situation": "Separate former Sunday-schoolroom building within the grounds of a former church the owners live in, converted into a 3-bed house, nearly complete (kitchen being fitted, grass being laid). Owned outright, no mortgage. Never let. Deciding now, before furnishing, between a standard single let and short-term Airbnb.",
+  "property_type": "3-bed detached conversion, upside-down layout (3 beds + en suite + family bathroom on ground floor; open-plan kitchen/dining/sitting upstairs, dining table seats 10 extended)",
+
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Property still mid-conversion (kitchen/landscaping not finished) and the furnish-for-STL-vs-single-let decision has not been made — joint decision with husband still pending",
+  "language_signals": [
+    "long as we haven't got any agro, then actually probably the finances say we should go down the short term let Airbnb route",
+    "we're both very busy people",
+    "I can't be in there dealing with it… turnovers once or twice a week",
+    "we're right by all the Formula One teams",
+    "we have HS2 everywhere",
+    "I think the July potential is massive because of Silverstone",
+    "it's really characterful. It's in a really nice village",
+    "This is very, very professional… you've obviously invested a lot in it",
+    "keep it as free of furniture as possible because then it's less to clean and get broken"
+  ],
+  "portfolio_flag": true,
+
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "we're just finishing the conversion of that building... Kitchen's going in, grass is being laid",
+      "context": "Describing the current state of the schoolroom-to-house conversion when asked about her situation with the property",
+      "timeline_given": "A couple/few weeks once fully ready (setup itself estimated at ~2-3 weeks once handed over); overall building completion date not firmly stated — still deciding Christmas launch vs January start",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "I need to go and chat with my husband about it, and then come back to you",
+      "context": "Closing the call — the furnish-for-STL vs single-let decision itself is joint, not hers alone",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+
+  "green_light_signals": [],
+  "has_green_light": false,
+
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start just by understanding a bit on your current situation with the property, then we can go through some figures in our service, see if it runs on what you're looking for.",
+    "rapport_topics": ["Zac's location (Leicestershire, not Northampton)", "husband's existing Northampton student-letting business"],
+    "pivot_to_business": "So I can go through some figures, then I can go through how the service works and sort of what is left for us to deal with, what we need from you.",
+    "income_intro": "So we're looking at gross revenue, so this is what a guest pays in total. About 65,000 a year. It's about 5,400 a month.",
+    "post_income_silence": "",
+    "how_it_works_transition": "So I'll go through a bit about how the management works. So the first part is what we cover and then what we need from your end.",
+    "pre_close_setup": "",
+    "close_phrase": "",
+    "meeting_2_ask": "I'll send everything to you in the next half hour... and then we'll touch base in a couple of months if you've got any questions.",
+    "total_duration_mins": 28,
+    "talk_ratio_zac_pct": 55
+  },
+
+  "lead_responses": [
+    {
+      "what_lead_said": "So that's fine. That's why I'm finding really confusing. So if the guest is paying the cleaning, why are we paying the cleaning as well?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Because this figure is what a guest pays in total for a booking... this is what a guest is paying, and then this is what the owner sort of gets in terms of net revenue.",
+      "lead_follow_up": "In total, okay. Fine. Fine... so it's basically a pass through.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "What's your 15% presumably plus that?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "In the same [breakdown], yeah.",
+      "lead_follow_up": "Yeah.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I'm very surprised because it really needs to because I think the July potential is massive because of Silverstone.",
+      "category": "objection",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "I think that's the place it's got picked up... it's showing a peak, but I might have expected it to be a bit more.",
+      "lead_follow_up": "Accepted that pricing already reflects a July peak, moved on",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "You know, how likely are we to get potential corporate lets or people who are using it for a longer period because we're right by all the Formula One teams... then you've got less people to leave reviews. It's the counter argument, I guess.",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Direct booking potential is about 80 out of 100... you save on commissions by quite a lot, so you actually get more of the booking revenue, and it's slightly cheaper for the guest, so that's the main incentive.",
+      "lead_follow_up": "Okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "But does the direct bookings then reduce the nightly rate? ... How do you adjust [price] up and down?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Pricing software tracks the competitive set and aims for the top 10% of the local market; some of it is automated, some manually overridden because the software doesn't know what the property visually looks like.",
+      "lead_follow_up": "Yeah... okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "So who do you use for cleaning? [we already have a cleaning company we use for this house]",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "If you've already got a cleaner you know and trust who already does short-let cleaning, we're happy to use them — teams can go downhill, companies go bust, staff changes; one person you know and trust is usually better for everyone.",
+      "lead_follow_up": "Okay, I can put you in touch with Zulaidi [Bright and Beautiful, Banbury franchise].",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Do you have any views on how we should furnish it? ... double beds in the three bedrooms and then a sofa bed in the bigger bedroom — is that sensible, or should we look to have twin beds in one of the rooms?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "If the bedrooms are big enough, get Zip and Link singles so the guest has maximum flexibility (three couples vs six individuals); if too tight for that, go double. Also recommended a desk/workspace since Airbnb actively highlights it as a feature.",
+      "lead_follow_up": "Right... okay, fine, right. [sent photos via WhatsApp during the call]",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "How long does it take to get set up? Do you do the photography? ... we're still a few weeks, not sure whether we want to push this to have it on the market for Christmas or let family use it over Christmas and start in January.",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Get a key safe installed first (already done); assuming the property is handed over fully ready to short-let, realistically 2-3 weeks — cleaner on-site plus photographer, providing no delays in photography/editing or the cleaner.",
+      "lead_follow_up": "Okay.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "On a different property — we have a six-bed HMO in Northampton let to students until end of June next year, not on suites... is that the sort of thing we'd consider for this model? Would you do individual rooms in a property?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Would recommend letting it as a whole six-bed house rather than individual rooms — per-room competes against hotels on price and forces a race to the bottom; a whole-house listing tells a different story and could use a spare reception room as a games room if six-person sleeping capacity is tight.",
+      "lead_follow_up": "You're right.",
+      "resolved": true
+    }
+  ],
+
+  "conversion_gaps": [
+    {
+      "gap": "Property is still mid-conversion (kitchen, landscaping) with no firm completion date, so the furnish-for-STL decision cannot be finalised yet",
+      "category": "process_clarity",
+      "evidence": "\"we're still a few weeks... not sure whether we want to push this to have it on the market for Christmas... or start it from January\"",
+      "how_to_fill": "Set a milestone-based (not calendar-based) check-in tied to building completion, and send the agreement summary + figures immediately so the decision is ready to make the moment the property is ready",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Second decision-maker (husband) was not on the call and needs to align before proceeding",
+      "category": "partner_alignment",
+      "evidence": "\"I need to go and chat with my husband about it, and then come back to you\"",
+      "how_to_fill": "Send a joint-readable written summary of the projections immediately (committed to within 30 minutes on this call) and offer to include the husband on any follow-up call",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "No taxonomy code exists for a never-let new-build/conversion property deciding STL vs LTL before first occupation — filed under STL-SW as nearest fit only",
+      "category": "process_clarity",
+      "evidence": "Property has never been let in any form; this is not a 'switch' from an existing arrangement, it's a first-let decision on a freshly converted building",
+      "how_to_fill": "Add a dedicated NEW-BUILD/DEV/CONV profile code (flagged repeatedly across prior entries, e.g. 039 Ben Lam, 101 Emily Moench)",
+      "filled_in_action_plan": false
+    }
+  ],
+
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Direct, honest reassurance that a trusted known cleaner is usually better than an assigned one because teams/companies can decline in quality over time",
+      "lead_response": "Okay, I can put you in touch with Zulaidi [her existing Bright & Beautiful cleaner]",
+      "phase": "how_it_works",
+      "archetype_relevant": ["analytical-evaluator", "certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Whole-house vs per-room reasoning for the Northampton HMO, framed as competing with hotels on price if let per-room",
+      "lead_response": "You're right",
+      "phase": "how_it_works",
+      "archetype_relevant": ["analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Low local competition (44 avg reviews, 4.8 rating) framed as a realistic, fast path to the projected figures",
+      "lead_response": "implicit acceptance, no pushback on the 5-8 month timeline to reach target figures",
+      "phase": "income_presented",
+      "archetype_relevant": ["analytical-evaluator", "certainty-seeker"]
+    }
+  ],
+
+  "friction_moments": [
+    {
+      "what_caused_friction": "Local demand-driver data in the presentation missed Silverstone/British GP and the F1 team cluster entirely, using a minor local cafe instead as the event driver",
+      "lead_response": "I'm very surprised because it really needs to... I think the July potential is massive because of Silverstone",
+      "recovery_attempted": "Acknowledged the gap live, then corrected the deck/action plan post-meeting to replace the driver with Silverstone/British GP, Motorsport Valley, HS2, and other named local drivers, disclosed to the lead in writing",
+      "resolved": true
+    }
+  ],
+
+  "zac_language": {
+    "opening_phrases": ["I thought I'd start just by understanding a bit on your current situation with the property"],
+    "transition_phrases": ["So I can go through some figures, then I can go through how the service works", "So I'll go through a bit about how the management works"],
+    "reassurance_phrases": ["I don't think they will [need maintenance] if it's been renovated, to be honest", "if you've already got a cleaner that you know and trust... we're happy to use them"],
+    "emphasis_phrases": ["I'm very confident the figures that I've projected to you are... to be honest"],
+    "analogies_used": ["per-room STL competing directly with hotels on price, forcing a race to the bottom"],
+    "numbers_framing": "Led with gross, then net, then the three deduction lines (commission, cleaning pass-through, management fee), then likely/worst/best case months so the lead sees the full range before any objection is raised",
+    "objection_handling_pattern": "Answers directly and concretely in-the-moment (fee structure, cleaning pass-through, pricing mechanics) rather than deferring, and volunteers corrections to his own presentation errors proactively post-call rather than letting them surface later"
+  },
+
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "",
+    "what_they_focused_on": ["Fee transparency and how the cleaning pass-through works", "Whether local demand data (Silverstone, HS2, F1) was fully captured", "Practical furnishing/layout decisions", "Whether her own trusted cleaner could be used"],
+    "what_they_needed_most": ["The property to actually be finished before the STL-vs-single-let decision can be locked in", "Her husband's buy-in", "Confidence the local demand story (Silverstone/F1/HS2) was being read correctly"],
+    "what_fell_flat": ["Auto-generated demand-driver data missing an obvious, locally dominant event driver (Silverstone)"],
+    "recommended_meeting_adjustment": "For a never-let new-build/conversion property, ask directly and early whether the build is fully finished (not just 'nearly'), since the qualification-vs-figures order matters less than usual here — the whole meeting is pre-decision, pre-furnishing groundwork rather than a live-property comparison"
+  },
+
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
