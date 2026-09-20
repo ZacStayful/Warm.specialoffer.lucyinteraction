@@ -1,21 +1,21 @@
 {
   "schema_version": "3.0",
-  "last_entry_number": "101",
-  "total_transcripts": 120,
+  "last_entry_number": "102",
+  "total_transcripts": 121,
   "summary_only_count": 3,
   "playbook_version": 3,
-  "last_run_at": "2026-09-13T00:00:00Z",
+  "last_run_at": "2026-09-20T08:16:00Z",
 
   "quarterly_index": {
     "2026-Q1": {"count": 6, "first": "006", "last": "018", "path": "transcripts/2026-Q1/"},
     "2026-Q2": {"count": 72, "first": "003", "last": "071", "path": "transcripts/2026-Q2/"},
-    "2026-Q3": {"count": 42, "first": "072", "last": "101", "path": "transcripts/2026-Q3/"}
+    "2026-Q3": {"count": 43, "first": "072", "last": "102", "path": "transcripts/2026-Q3/"}
   },
 
   "outcome_breakdown": {
     "READY_NOW": 28,
     "READY_SOON": 0,
-    "DELAYED": 90,
+    "DELAYED": 91,
     "NURTURE": 0,
     "LOST": 15
   },
@@ -25,7 +25,7 @@
     "DLY-FUR": 13,
     "DLY-PUR": 12,
     "DLY-MOV": 12,
-    "DLY-OTH": 34
+    "DLY-OTH": 35
   },
 
   "green_light_breakdown": {
@@ -43,31 +43,32 @@
     "betrayal-damaged": 0,
     "social-proof-dependent": 0,
     "fast-path-gain-focused": 2,
-    "unassigned": 84
+    "unassigned": 85
   },
 
   "training_status": {
-    "total_meetings": 120,
+    "total_meetings": 121,
     "confidence": "strong",
     "thresholds": {
       "low": "< 15", "building": "15-30",
       "good": "30-50", "strong": "50+"
     },
     "data_gaps": [
-      "CRITICAL, new this run (2026-09-13): every one of this run's 11 extraction agents independently confirmed, via get_board_info, that the Monday psychology columns (text_mm3pk18b Emotional Profile, numeric_mm3pm45m Conversion Likelihood, text_mm3pc8e Profile Confidence, text_mm3qdghs Agent Instruction, text_mm3qbahd Primary Blocker, text_mm3qsz99 Language Signals, boolean_mm3qhct4 Portfolio Flag, text_mm2qwqxd STL Goal, text_mm2qwqm8 Property Situation, text_mm2qhtqa Property Type) DO NOT EXIST AT ALL on live board 5891626711 — not merely unpopulated. CLAUDE.md's own Monday column reference table lists these as real columns. This means either the Lead Psychology Profiler that's supposed to populate them was never wired up to write to this board, or the columns were removed/never created. This is the root cause of the archetype-coverage gap (84/120 unassigned), and it is now a structural blocker, not a backfill problem — recommend Zac verify directly in Monday.com whether these columns exist under different IDs, or whether the Profiler integration needs to be built/fixed.",
-      "NEW this run: two deals (092 Caixia Ye, 094 Piotr Surminski) reached agreed commercial terms — one with a signed 13%+VAT special offer — before it was discovered that the building/lease does not permit short-letting at all. Both are now the joint-largest lost-reason category (2 of 15 lost entries, alongside the pre-existing 'Unspecified' bucket). Playbook and qualification-framework have been updated with a new mandatory building/lease eligibility check for any flat/leasehold/managed-building property, to be asked before quoting fees or making an offer. This is not yet a Monday CRM field — recommend adding one.",
+      "CRITICAL, still open (confirmed again this run, 2026-09-20): the Monday psychology columns (text_mm3pk18b Emotional Profile, numeric_mm3pm45m Conversion Likelihood, text_mm3pc8e Profile Confidence, text_mm3qdghs Agent Instruction, text_mm3qbahd Primary Blocker, text_mm3qsz99 Language Signals, boolean_mm3qhct4 Portfolio Flag, text_mm2qwqxd STL Goal, text_mm2qwqm8 Property Situation, text_mm2qhtqa Property Type) DO NOT EXIST on live board 5891626711 — verified directly via get_board_items_page on item 13067940691 (Karen Lee) this run; the full column_values object contains no key matching any of these IDs. CLAUDE.md's own Monday column reference table lists these as real columns. This is a structural blocker, not a backfill problem — recommend Zac verify directly in Monday.com whether these columns exist under different IDs, or whether the Profiler integration needs to be built/fixed.",
+      "NEW-BUILD/DEV/CONV profile-type taxonomy gap reinforced again this run: entry 102 (Karen Lee) is a never-let new-build/conversion property deciding furnish-for-STL vs single-let before furnishing at all — filed under STL-SW as the nearest fit per existing convention (same gap flagged at entries 039, 101, 080/082/085). A dedicated NEW-BUILD/DEV/CONV or INHERIT profile code remains overdue.",
       "This was the first successful full build: manifest.json, pattern-intelligence/, response-library/, playbook/, and context/ did not exist before the 2026-08-23 run despite 71 transcripts already sitting in GitHub — likely a prior run stalled after Step 6 (transcript commits) without ever reaching the merge/rebuild steps.",
-      "Entry number '075' was reused in the Google Drive Intelligence Entries folder for 13 different leads — a Drive naming/numbering bug worth fixing at the source so future entry numbers stay unique. No further collisions observed in this run's 091-101 range.",
-      "Still only 36 of 120 entries (30%) carry one of the 8 canonical emotional-profile archetype slugs verbatim — see the critical psychology-columns finding above for why this run added zero. 4 of 8 archetype files (urgency-driven, status-quo-resistant, betrayal-damaged, social-proof-dependent) have zero entries.",
-      "No dedicated by-green-light-type pattern file/schema exists (unlike delays, which have 5 clean by-delay-type files) — green_light_breakdown above remains a placeholder/approximation, not a rigorously recomputed figure. A future run should add knowledge-base/pattern-intelligence/by-green-light-type/ to close this gap.",
-      "offer-timing-intelligence.json's offer_conversion_rate (2/46 = 4.35%) remains a floor: only a handful of the 46 offer-made entries have offer_accepted_at_meeting individually re-audited. A dedicated backfill pass over all offer-made transcripts is recommended.",
-      "3 entries have transcript_quality 'summary_only': 075-steven-browne (no Granola recording exists) and 101-emily-moench, new this run (no Granola meeting found for this lead despite an active search; Monday's action-plan/presentation-response data was used instead of a transcript).",
-      "Two source schemas coexist in transcripts/: an older 'thin' schema (~46 files) with flat fields, versus the richer v3.0 schema used by all entries from 072 onward, including all 11 of this run's entries.",
-      "PURCH/STL-SW profile-type taxonomy gap, reinforced this run: entry 101 (Emily Moench) is an inherited property mid-tenancy, filed under STL-SW as the nearest fit per the Drive doc's own flag; entries 080/082/085 were similarly filed under PURCH for inheritance/probate cases. A dedicated INHERIT or NEW-BUILD profile code remains overdue.",
-      "NOT ATTEMPTED THIS RUN (carried over): response-library/objections.json (~68KB, under its 80KB budget) and questions.json (~89KB, already OVER its 80KB budget from a prior run) were not re-audited or merged with this run's 11 new entries — both left untouched rather than risk a partial/unvalidated edit at their current size. Recommend a dedicated pass next run: prune/dedupe questions.json back under budget first, then merge new-entry evidence into both.",
-      "NOT ATTEMPTED THIS RUN: playbook/zac-voice.md and playbook/presentation-guide.md were not rebuilt or touched — only meeting-runbook.md and qualification-framework.md were refreshed with this run's findings (the building/lease eligibility gate, updated counts, corrected compliance answers). zac-voice.md and presentation-guide.md are stale as of 2026-08-30.",
-      "PARTIAL THIS RUN: by-profile-type/*.json files (STL-SW, EX-STL, PURCH, ABROAD) had total_entries and conversion_data updated to reflect this run's 11 new entries, but their large sub-distributions (top_questions, top_objections, top_conversion_gaps, most_common_emotional_profiles/delays/green_lights percentages) were NOT re-merged — each file carries a 'data_note' field flagging this explicitly. by-emotional-profile/*.json files were not touched at all (0 new archetype-tagged entries this run, see critical finding above).",
-      "offer_by_profile_type and offer_by_archetype tables in offer-timing-intelligence.json were not recomputed this run (would require re-scanning all 120 entries' profile/archetype tags) — flagged stale as of 2026-08-30 in the file's own methodology note."
+      "Entry number '075' was reused in the Google Drive Intelligence Entries folder for 13 different leads — a Drive naming/numbering bug worth fixing at the source so future entry numbers stay unique. No further collisions observed since the 091-101 range; entry 102 (this run) is unique.",
+      "Still only 36 of 121 entries (30%) carry one of the 8 canonical emotional-profile archetype slugs verbatim — see the critical psychology-columns finding above for why this run again added zero (entry 102 has no Monday-sourced archetype). 4 of 8 archetype files (urgency-driven, status-quo-resistant, betrayal-damaged, social-proof-dependent) have zero entries.",
+      "No dedicated by-green-light-type pattern file/schema exists (unlike delays, which have 5 clean by-delay-type files) — green_light_breakdown above remains a placeholder/approximation, not a rigorously recomputed figure. A future run should add knowledge-base/pattern-intelligence/by-green-light-type/.",
+      "offer-timing-intelligence.json's offer_conversion_rate (2/46 = 4.35%) remains a floor: only a handful of the 46 offer-made entries have offer_accepted_at_meeting individually re-audited. Not touched this run (entry 102 made no offer). A dedicated backfill pass over all offer-made transcripts is recommended.",
+      "3 entries have transcript_quality 'summary_only': 075-steven-browne (no Granola recording exists) and 101-emily-moench (no Granola meeting found for this lead despite an active search; Monday's action-plan/presentation-response data was used instead of a transcript). Entry 102 this run has transcript_quality 'full' — Granola transcript retrieved successfully.",
+      "Two source schemas coexist in transcripts/: an older 'thin' schema (~46 files) with flat fields, versus the richer v3.0 schema used by all entries from 072 onward, including entry 102 this run.",
+      "PURCH/STL-SW profile-type taxonomy gap, reinforced again this run: entry 102 (Karen Lee) is filed under STL-SW as the nearest fit despite never having been let in any form (a first-let decision on a freshly converted building, not a 'switch' from an existing arrangement) — see also entries 080/082/085 (inheritance/probate cases filed under PURCH) and 101 (Emily Moench, similarly STL-SW).",
+      "NOT ATTEMPTED THIS RUN (carried over, unchanged): response-library/objections.json (~72KB, under its 80KB budget) and questions.json (~89KB, already OVER its 80KB budget from a prior run) were not re-audited or merged with entry 102 — both left untouched rather than risk a partial/unvalidated edit, and because entry 102's objections/questions substantially overlap existing canonical entries already in these files (cleaning pass-through, fee-plus-VAT, pricing-adjustment mechanics). Recommend a dedicated pass: prune/dedupe questions.json back under budget first, then merge accumulated new-entry evidence into both.",
+      "NOT ATTEMPTED THIS RUN: playbook/zac-voice.md and playbook/presentation-guide.md were not rebuilt or touched — only meeting-runbook.md was left as-is and qualification-framework.md was refreshed with this run's single new entry. zac-voice.md and presentation-guide.md remain stale as of 2026-08-30.",
+      "PARTIAL THIS RUN: by-profile-type/STL-SW.json had total_entries, conversion_data, and two directly-matching top_conversion_gaps/top_objections frequencies updated for entry 102, but its other large sub-distributions (most_common_emotional_profiles/delays/green_lights, top_questions, what_moves_them, language_to_use) were NOT re-merged — the file's own data_note flags this explicitly. by-emotional-profile/*.json files were not touched at all (entry 102 has no Monday-sourced archetype, see critical finding above). Other by-profile-type files (EX-STL, PURCH, ABROAD, SELL, R2R) were not touched — entry 102 is STL-SW only.",
+      "offer_by_profile_type and offer_by_archetype tables in offer-timing-intelligence.json were not recomputed this run (would require re-scanning all 121 entries' profile/archetype tags) — remains flagged stale as of 2026-08-30 in the file's own methodology note.",
+      "This run processed a single new intelligence entry (102, Karen Lee) rather than a batch — confirmed via a Drive query for files created after last_run_at (2026-09-13) returning exactly one result, cross-checked against a full folder listing showing no entry numbers above 101 besides it."
     ]
   },
 
@@ -91,17 +92,17 @@
     "never_say":
       "response-library/do-not-say.json",
     "max_tokens_pre_call": 18000,
-    "note": "Load context files before call. Query response library by trigger matching during call. Never load all files simultaneously. NEW: for any leasehold/flat/managed-building property, confirm short-let permission in writing before quoting fees or making an offer — see context/delay-and-green-light-reference.md and playbook/qualification-framework.md point 7."
+    "note": "Load context files before call. Query response library by trigger matching during call. Never load all files simultaneously. For any leasehold/flat/managed-building property, confirm short-let permission in writing before quoting fees or making an offer — see context/delay-and-green-light-reference.md and playbook/qualification-framework.md point 7. For a never-let new-build/conversion property, confirm the build is actually finished before treating the meeting as a normal live-property comparison — see qualification-framework.md point 1/3/9."
   },
 
   "health": {
-    "files_committed": 30,
+    "files_committed": 6,
     "files_failed": 0,
     "validation_errors": [
       "response-library/questions.json exceeds its 80KB size budget (~89KB) — pre-existing from a prior run, not modified or re-validated this run; flagged for a dedicated prune/backfill pass next run."
     ],
     "summary_only_entries": ["075-steven-browne", "101-emily-moench"],
-    "missing_archetype_entries": 84,
-    "run_duration_seconds": 5400
+    "missing_archetype_entries": 85,
+    "run_duration_seconds": 900
   }
 }
