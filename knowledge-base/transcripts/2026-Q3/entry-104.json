@@ -1,0 +1,257 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "104",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-09-22",
+  "transcript_quality": "full",
+
+  "lead_name": "Byron Codrington",
+  "email": "byrcod@aol.com",
+  "monday_id": "13068581582",
+  "address": "Silver Birches, 234 Melton Road, Hickling Pastures LE14 3QG (Monday text6 reads 'LE143QG3' — likely typo, verify)",
+  "bedrooms": 3,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "Looking to move abroad and short let my home",
+  "stl_goal": "",
+  "property_situation": "Family home, currently lived in and fully furnished. Owners (Byron and wife) relocating UK to US and want to keep it as a UK base: personal use June-September every year, let the other 8 months. Long let ruled out because of the personal-use requirement. Mortgage £1,400/month per Monday (lead said they need to 'clear about $25,000' a year). Wife currently deciding what furniture to take to the US. Move date not stated.",
+  "property_type": "3-bed detached family home, rural village (Vale of Belvoir, Leicestershire/Notts border); owners say they have 'done a lot to the house'",
+
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Actively comparing several providers (Stayful was the second of 'a few more folks lined up') on fees, with a joint decision with his wife and an unconfirmed relocation date; explicitly 'not going to make a decision really quick'",
+  "language_signals": [
+    "my thoughts are less Airbnb and more the short-term",
+    "we'd like to have our house available to us 3, 4 months of the year, June through September",
+    "we still have a mortgage on the place, so we need to clear about $25,000",
+    "it seems a little bit more than what we found elsewhere",
+    "I had, I forget, 30 to 40% ... that's scary as hell",
+    "I'm glad you're breaking it down for me",
+    "Oh, well, you are local then. We're just up the street then.",
+    "we've done a lot to the house",
+    "AI brought your company up ... For them to recommend you guys, I mean, that's ... something",
+    "my wife and I will review it ... I'm not going to make a decision really quick"
+  ],
+  "portfolio_flag": false,
+
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+
+  "delay_signals": [
+    {
+      "type": "DLY-MOV",
+      "trigger_phrase": "we're moving from the UK to the US, and so we'd like to have our house available to us 3, 4 months of the year, June through September",
+      "context": "Opening statement of his goal; the property is currently their lived-in home and the wife is still choosing what furniture to take to the States",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "you are the second person we spoke to, Zach, and we've got a few more folks that are lined up, so we're going to look at all options ... my wife and I will review it ... I'm not going to make a decision really quick",
+      "context": "Closing the call — provider comparison plus spousal joint decision, not a single-person decision",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+
+  "green_light_signals": [],
+  "has_green_light": false,
+
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+
+  "meeting_flow": {
+    "opening_phrase": "So what I'll do is I'll go through the figures. Then I'll go through our services, sort of how it will tie into what you're ultimately trying to achieve, which is ... a base in the UK whilst you're living abroad, but also having income so it covers the mortgage and all the other costs.",
+    "rapport_topics": ["Zac being based in Leicestershire — 'you are local then, we're just up the street'", "Areas Stayful manages in the Midlands and nationally", "AI search surfacing Stayful"],
+    "pivot_to_business": "So this is what we've managed to project from your property.",
+    "income_intro": "So we're looking at about £77,000 of gross revenue a year. About £6,500 per month. That breaks down into £40,000 per year of net revenue and £3,300 of profit.",
+    "post_income_silence": "",
+    "how_it_works_transition": "So really what we do is we focus on listing on 3 different platforms, which is Airbnb, Booking.com, and our own direct booking site.",
+    "pre_close_setup": "What I'll put is a bit like an action plan together. So it'll have everything you're going to need to know ... our management agreement in there as well, the figures we've shown",
+    "close_phrase": "",
+    "meeting_2_ask": "If you've got any sort of photos you can send over to us ... I'll drop you a WhatsApp after this.",
+    "total_duration_mins": 22,
+    "talk_ratio_zac_pct": 55
+  },
+
+  "lead_responses": [
+    {
+      "what_lead_said": "We're looking at your fees and monthly charges and stuff, and it seems a little bit more than what we found elsewhere",
+      "category": "objection",
+      "meeting_phase": "opening",
+      "zac_responded_with": "Went straight into the figures and then explained gross-to-net: platform commission 15%, cleaning/laundry ~18% (guest-paid, backed out of gross), management 15%.",
+      "lead_follow_up": "I had, I forget, 30 to 40% ... that's scary as hell ... So I'm glad you're breaking it down for me.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Are we talking about a full 12-month rental there, or is that for the 8 months? ... the time that we'd like it for is the summer, which I'm sure is probably the height of demand",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Based on 12 months; best month July ~£5,000; worst ~£2,000; with June-September removed, roughly £2,000-£4,000 net per let month — admitted he'd need to come back on the 8-month average.",
+      "lead_follow_up": "I figured as much that we'd probably work it out.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "I had a figure of £42 a month ... is that the platform fee or is that different?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "That's a software charge — part of our management fee.",
+      "lead_follow_up": "Oh, your management fee. Okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "The cleaning fee and laundry ... 18%. So the client is responsible for that, and it's passed on to me as the owner, or how?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Showed the owner calendar and a sample monthly PDF statement — guest pays nightly rate plus cleaning fee; the cleaning fee goes to the cleaner, owner is paid out the nightly-rate portion.",
+      "lead_follow_up": "Okay ... Yeah, yeah.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "How you got so wise to being able to apply these numbers to where we live",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Stayful's software averages 12 nearby competitor properties; expect 10-20% less until reviews build, which is why year-one focus is reviews.",
+      "lead_follow_up": "Okay, all right.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "We've done a lot to the house ... obviously it needs to be evaluated. So how would that process be?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Next steps if going ahead: key safes, onboarding form, inspection and deep clean, linens, photographer, then live — about 2-3 weeks.",
+      "lead_follow_up": "Sure.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Might we be able to see some of the — what you sent, the numbers you quoted, the spreadsheets, or is that proprietary?",
+      "category": "question",
+      "meeting_phase": "closing",
+      "zac_responded_with": "I'll put an action plan together with everything covered, the figures and our management agreement.",
+      "lead_follow_up": "Yeah. Yep. Okay.",
+      "resolved": true
+    }
+  ],
+
+  "conversion_gaps": [
+    {
+      "gap": "Fee credibility is the swing factor against competitors, yet the fee was quoted as 15% (not 15% + VAT) and the £42/mo software fee was described as 'part of our management fee' when it is a separate deduction",
+      "category": "pricing_clarity",
+      "evidence": "\"it seems a little bit more than what we found elsewhere\" / \"That's part of our management fee, that is.\"",
+      "how_to_fill": "State 15% + VAT and the £42/mo software fee as separate lines on every call; disclose corrections in writing immediately (done in the action plan/email)",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Figures were presented for 12 months although the lead only wants 8 let months; Zac could not give the 8-month average live",
+      "category": "figure_relevance",
+      "evidence": "\"It's hard for me to say what the average is with how much performance taken out. I might have to come back to you a bit on that.\"",
+      "how_to_fill": "When the pre-call brief or opening reveals seasonal personal use, re-cut the forecast for the let months only (8-month net ~£26k) before quoting annual totals",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "No follow-up call booked and no decision date — lead is comparing several providers",
+      "category": "no clear next-step commitment",
+      "evidence": "\"we've got a few more folks that are lined up, so we're going to look at all options and we will let you know\"",
+      "how_to_fill": "Before ending, ask when they expect to have spoken to everyone and book a follow-up for just after that date (Calendly link offered only in writing)",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Relocation date, mortgage lender consent for letting, and holiday-let insurance / non-resident landlord tax not raised on the call",
+      "category": "qualification",
+      "evidence": "Move date never asked; deck showed 'No mortgage' although Monday records a £1,400/month mortgage",
+      "how_to_fill": "For ABROAD leads, ask the departure date and mortgage status in the first five minutes; cover lender consent, insurance and NRL scheme in the written follow-up",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Deck included an implausible demand driver (Nottingham City Airport / Tollerton airfield 'flight crew layovers') for a rural village",
+      "category": "figure_accuracy",
+      "evidence": "Drive intelligence entry: removed from the action plan and disclosed",
+      "how_to_fill": "Sanity-check auto-generated demand drivers before rural meetings",
+      "filled_in_action_plan": true
+    }
+  ],
+
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Line-by-line gross-to-net breakdown defusing the '30-40%' total cost he had seen",
+      "lead_response": "I'm glad you're breaking it down for me.",
+      "phase": "income_presented",
+      "archetype_relevant": ["analytical-evaluator", "certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Discovering Zac is based locally in Leicestershire",
+      "lead_response": "Oh, well, you are local then. We're just up the street then.",
+      "phase": "income_presented",
+      "archetype_relevant": ["certainty-seeker", "social-proof-dependent"]
+    },
+    {
+      "what_caused_shift": "Concentrating on three platforms to build reviews faster rather than spreading across 7-8",
+      "lead_response": "Yeah ... I mean, why would you?",
+      "phase": "how_it_works",
+      "archetype_relevant": ["analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Worst let month (~£2,000 net) still covering costs",
+      "lead_response": "I figured as much that we'd probably work it out.",
+      "phase": "income_presented",
+      "archetype_relevant": ["certainty-seeker", "loss-averse-switcher"]
+    }
+  ],
+
+  "friction_moments": [
+    {
+      "what_caused_friction": "Fees perceived as higher than competitors before Zac had spoken",
+      "lead_response": "it seems a little bit more than what we found elsewhere, but I want to let you do the talking",
+      "recovery_attempted": "Gross-to-net walkthrough (helped), but the VAT and separate £42 software fee were misstated and had to be corrected post-call",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Summer personal-use months are the peak months, so 12-month figures overstate what he'll earn",
+      "lead_response": "that's going to certainly affect the numbers",
+      "recovery_attempted": "Rough best/worst for the let months given live; 8-month total deferred to the action plan",
+      "resolved": false
+    }
+  ],
+
+  "zac_language": {
+    "opening_phrases": ["So what I'll do is I'll go through the figures. Then I'll go through our services, sort of how it will tie into what you're ultimately trying to achieve"],
+    "transition_phrases": ["Just to explain before we go into that what the difference is between the gross and the net", "It might be better if I show it to you as an example."],
+    "reassurance_phrases": ["it's safe to say you shouldn't be losing money on any month once we're established", "The worst month is looking about £2,000 of net, so it's still likely to cover the costs."],
+    "emphasis_phrases": ["a big part of our focus, especially for the first year, is to get as many reviews, good reviews as possible"],
+    "analogies_used": ["Spreading across 7-8 platforms dilutes reviews — 'you're also spreading out the bookings'"],
+    "numbers_framing": "Mirrored the lead's goal (UK base + cover the mortgage) back before the numbers, then gross → net → three cost lines; best/worst/likely with the personal-use months mentally removed",
+    "objection_handling_pattern": "Let the fee-comparison objection sit while walking through the cost stack, then used concrete software demos (calendar, statement) to answer mechanics questions; defers precise re-cuts to the written action plan rather than guessing"
+  },
+
+  "profile_psychology_intersection": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "",
+    "what_they_focused_on": ["Fee level vs other providers", "What the 12-month figures mean for an 8-month let", "How cleaning and the £42 fee flow through", "How the numbers were derived for his specific area", "Whether the upgrades to the house are reflected"],
+    "what_they_needed_most": ["Covering ~£16,800/yr mortgage from the 8 let months", "Keeping the home available every summer", "Fee transparency he can compare like-for-like", "Time to compare providers with his wife"],
+    "what_fell_flat": ["Annual (12-month) figures when he only wants to let 8 months", "Fee statement that omitted VAT and misdescribed the software fee"],
+    "recommended_meeting_adjustment": "For ABROAD leads with seasonal personal use, cut the forecast to the let months before the call, lead with the remote-owner mechanics and a complete, VAT-inclusive fee stack, and book a follow-up tied to the end of their provider comparison"
+  },
+
+  "action_plan_responses": {
+    "s1_income_reaction": "Higher than I thought",
+    "s2_ltl_thinking": "Short-let clearly makes more sense",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
