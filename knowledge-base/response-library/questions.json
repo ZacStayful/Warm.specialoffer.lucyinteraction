@@ -1,7 +1,7 @@
 {
   "schema_version": "3.0",
-  "total_entries_seen": 103,
-  "last_updated": "2026-08-21",
+  "total_entries_seen": 107,
+  "last_updated": "2026-09-27",
   "questions": [
     {
       "canonical_trigger": "contract terms",
@@ -12,11 +12,12 @@
         "What is the exit process procedure especially if there are still some bookings after we want to end the contract so how do you deal with it?",
         "What are the contract terms?",
         "What contract terms and management model would apply to an R2R arrangement?",
-        "What are the contract terms and exit options?"
+        "What are the contract terms and exit options?",
+        "Okay, so contract mean how long is contract? Is like 2 months, 6 months, 3 months, 1 year?"
       ],
-      "frequency": 11,
-      "confidence": 0.1068,
-      "last_seen": "2026-08-21",
+      "frequency": 12,
+      "confidence": 0.1121,
+      "last_seen": "2026-09-27",
       "profile_types": [
         "ABROAD",
         "EX-STL",
@@ -61,7 +62,8 @@
         "052",
         "051",
         "013-a",
-        "024"
+        "024",
+        "103"
       ]
     },
     {
@@ -70,14 +72,17 @@
         "What is the management fee?",
         "What is the management fee and can it be reduced?",
         "What is the management fee and what does it include?",
-        "What is the management fee and offer?"
+        "What is the management fee and offer?",
+        "Okay, so what is your charges normally? Commission, how much you charge on the platform or yourself?",
+        "I had a figure of £42 a month ... is that the platform fee or is that different from the platform?"
       ],
-      "frequency": 7,
-      "confidence": 0.068,
-      "last_seen": "2026-06-03",
+      "frequency": 9,
+      "confidence": 0.0841,
+      "last_seen": "2026-09-27",
       "profile_types": [
         "ABROAD",
         "PURCH",
+        "R2R",
         "SELL",
         "STL-SW"
       ],
@@ -111,7 +116,9 @@
         "052",
         "050",
         "012",
-        "026"
+        "026",
+        "103",
+        "104"
       ]
     },
     {
@@ -120,11 +127,12 @@
         "What type of guests would I get?",
         "What type of guests can I expect?",
         "What type of guests will the property attract?",
-        "What type of guests will stay at 62 Catherine Street?"
+        "What type of guests will stay at 62 Catherine Street?",
+        "So these clients, they're mainly business ... are they people that come for meetings or are they holidaymakers?"
       ],
-      "frequency": 4,
-      "confidence": 0.0388,
-      "last_seen": "2026-06-01",
+      "frequency": 5,
+      "confidence": 0.0467,
+      "last_seen": "2026-09-27",
       "profile_types": [
         "PURCH",
         "STL-SW"
@@ -151,7 +159,8 @@
       "entries": [
         "051",
         "052",
-        "010"
+        "010",
+        "105"
       ]
     },
     {
@@ -163,7 +172,7 @@
         "What income can we realistically expect from 375 Rossendale Road?"
       ],
       "frequency": 4,
-      "confidence": 0.0388,
+      "confidence": 0.0374,
       "last_seen": "2026-05-28",
       "profile_types": [
         "EX-STL",
@@ -200,11 +209,12 @@
     {
       "canonical_trigger": "platforms property listed",
       "trigger_variants": [
-        "What platforms will the property be listed on?"
+        "What platforms will the property be listed on?",
+        "So what platform — I guess you use all the regular platforms, the Airbnbs, if you will, and the VR[BO]?"
       ],
-      "frequency": 3,
-      "confidence": 0.0291,
-      "last_seen": "2026-06-01",
+      "frequency": 4,
+      "confidence": 0.0374,
+      "last_seen": "2026-09-27",
       "profile_types": [
         "ABROAD",
         "EX-STL",
@@ -231,7 +241,8 @@
       "entries": [
         "051",
         "050",
-        "036"
+        "036",
+        "104"
       ]
     },
     {
@@ -241,7 +252,7 @@
         "How does STL compare to LTL financially?"
       ],
       "frequency": 3,
-      "confidence": 0.0291,
+      "confidence": 0.028,
       "last_seen": "2026-03-16",
       "profile_types": [
         "STL-SW"
@@ -276,7 +287,7 @@
         "What is the projected monthly revenue for the property?"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-08-21",
       "profile_types": [
         "PURCH",
@@ -310,7 +321,7 @@
         "How much more will STL generate vs long-let?"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-06-03",
       "profile_types": [
         "ABROAD",
@@ -341,11 +352,13 @@
       "canonical_trigger": "services included management",
       "trigger_variants": [
         "What services are included in management?",
-        "What management services are included?"
+        "What management services are included?",
+        "Would I need to buy towels and toiletries?",
+        "Is my property listed on Stayful's website, or does Stayful fully manage it?"
       ],
-      "frequency": 2,
-      "confidence": 0.0194,
-      "last_seen": "2026-06-01",
+      "frequency": 4,
+      "confidence": 0.0374,
+      "last_seen": "2026-09-27",
       "profile_types": [
         "PURCH",
         "STL-SW"
@@ -368,7 +381,9 @@
       "question_indicates_gap": "",
       "entries": [
         "051",
-        "052"
+        "052",
+        "105",
+        "106"
       ]
     },
     {
@@ -378,7 +393,7 @@
         "What income can Chester city centre generate?"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-05-29",
       "profile_types": [
         "STL-SW"
@@ -409,7 +424,7 @@
         "What happens with council tax when switching to STL?"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-05-29",
       "profile_types": [
         "STL-SW"
@@ -441,7 +456,7 @@
         "How does guest vetting and property protection work for a high-value property?"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-05-27",
       "profile_types": [
         "ABROAD",
@@ -475,7 +490,7 @@
         "What are the projected annual income figures?"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-05-06",
       "profile_types": [
         "EX-STL",
@@ -509,7 +524,7 @@
         "Can we stay on the market while doing STL?"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-04-24",
       "profile_types": [
         "SELL"
@@ -542,7 +557,7 @@
         "Will STL income cover mortgage and running costs?"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-04-20",
       "profile_types": [
         "SELL",
@@ -574,7 +589,7 @@
         "do you guarantee rent as well? ... do your company do guarantee rent for the whole property."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-21",
       "profile_types": [
         "STL-SW"
@@ -603,7 +618,7 @@
         "forgive me, Zac. I'm probably being thick, but what do you think after your assessment of my bills is do you think I'll be left with each month?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-14",
       "profile_types": [
         "PURCH"
@@ -632,7 +647,7 @@
         "there's two parts. One is what is achievable as a rent. And secondly, what is the occupancy rate? ... those are obviously the two parts of the equation that drive the ultimate Revenue."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-14",
       "profile_types": [
         "PURCH"
@@ -661,7 +676,7 @@
         "what do I do next to get to a position where you're confident that the numbers you're telling me are solid, and secondly, then obviously how we go about trying to get the thing let and get the revenue started"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-14",
       "profile_types": [
         "PURCH"
@@ -690,7 +705,7 @@
         "Sometimes I don't understand when I'm... putting number of bedrooms into these things is maximum five. And, for example, certain properties have seven. So I don't know how you can do estimate."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-14",
       "profile_types": [
         "PURCH"
@@ -719,7 +734,7 @@
         "This would be class the service accommodations. And if I buy it and then it is allowed in guest houses, it's not, it's nothing legislation wise that they can tell me that I'm changing the character of guest house because I don't provide breakfast or something."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-14",
       "profile_types": [
         "PURCH"
@@ -745,11 +760,12 @@
     {
       "canonical_trigger": "data provenance",
       "trigger_variants": [
-        "When you showed me the numbers before to support these numbers, the claims, where did this, the number came from? Were they from Europe customers or were they from a general Airbnb data?"
+        "When you showed me the numbers before to support these numbers, the claims, where did this, the number came from? Were they from Europe customers or were they from a general Airbnb data?",
+        "I'm trying to figure out how you got so wise to being able to apply these numbers to where we live."
       ],
-      "frequency": 1,
-      "confidence": 0.0097,
-      "last_seen": "2026-08-13",
+      "frequency": 2,
+      "confidence": 0.0187,
+      "last_seen": "2026-09-27",
       "profile_types": [
         "ABROAD"
       ],
@@ -768,7 +784,8 @@
       "resolution_rate": 1.0,
       "question_indicates_gap": "",
       "entries": [
-        "081"
+        "081",
+        "104"
       ]
     },
     {
@@ -777,7 +794,7 @@
         "Because I will be off to France. So I won't be able to handle the key. I won't be able to actually check in and check out. So how is this going to work?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-13",
       "profile_types": [
         "ABROAD"
@@ -806,7 +823,7 @@
         "Do you know how the tax is managed on this part? ... For me, it's an income probably that I need to..."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-13",
       "profile_types": [
         "ABROAD"
@@ -835,7 +852,7 @@
         "Everything is included in the 15% or 13%. And there is no extra charge... there is no extra other unexpected charge."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-13",
       "profile_types": [
         "ABROAD"
@@ -864,7 +881,7 @@
         "So does that mean you have to sign up for vat?... because if you're over the vat threshold."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-10",
       "profile_types": [
         "EX-STL"
@@ -890,13 +907,15 @@
     {
       "canonical_trigger": "fee structure",
       "trigger_variants": [
-        "When you say the booking platform commissions, that's what you're paying to booking.com, airbnb, wherever you place it with, is it?... They take 15, do they?"
+        "When you say the booking platform commissions, that's what you're paying to booking.com, airbnb, wherever you place it with, is it?... They take 15, do they?",
+        "The other platform you use like Booking or Airbnb, they charge 15% or 16%?"
       ],
-      "frequency": 1,
-      "confidence": 0.0097,
-      "last_seen": "2026-08-10",
+      "frequency": 2,
+      "confidence": 0.0187,
+      "last_seen": "2026-09-27",
       "profile_types": [
-        "EX-STL"
+        "EX-STL",
+        "R2R"
       ],
       "emotional_profiles": [
         "analytical-evaluator"
@@ -913,7 +932,8 @@
       "resolution_rate": 1.0,
       "question_indicates_gap": "",
       "entries": [
-        "080"
+        "080",
+        "103"
       ]
     },
     {
@@ -922,7 +942,7 @@
         "I found a local one that does it for 22 pound 50 an hour. And they reckoned about four hours would be fine each turnover... you're looking at probably just less than 100 per turnover or something in this area."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-10",
       "profile_types": [
         "EX-STL"
@@ -951,7 +971,7 @@
         "What about the hot tub? Discussion? Do I need to put one in or should I leave it a while and test it without?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-10",
       "profile_types": [
         "EX-STL"
@@ -980,7 +1000,7 @@
         "I've got bifold doors... 4.3 meters wide. And I'm just trying to decide whether I need to find some monster curtain or something... I haven't easily found, like, a 4.3 meter curtain rail."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-10",
       "profile_types": [
         "EX-STL"
@@ -1006,12 +1026,14 @@
     {
       "canonical_trigger": "guaranteed rent",
       "trigger_variants": [
-        "How does it work? So do we go by what you earn per month, or do you pay us a fixed, like, amount for the year less your commission, or does it vary?"
+        "How does it work? So do we go by what you earn per month, or do you pay us a fixed, like, amount for the year less your commission, or does it vary?",
+        "This is not a guaranteed rent arrangement, is it? ... Do you do guaranteed rent?"
       ],
-      "frequency": 1,
-      "confidence": 0.0097,
-      "last_seen": "2026-08-03",
+      "frequency": 2,
+      "confidence": 0.0187,
+      "last_seen": "2026-09-27",
       "profile_types": [
+        "PURCH",
         "STL-SW"
       ],
       "emotional_profiles": [
@@ -1029,7 +1051,8 @@
       "resolution_rate": 1.0,
       "question_indicates_gap": "",
       "entries": [
-        "075"
+        "075",
+        "106"
       ]
     },
     {
@@ -1038,7 +1061,7 @@
         "Other than paying the mortgage, we have to pay the bills. We don't have a mortgage on it. So which bills would that involve? ... 400 pounds per year?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-03",
       "profile_types": [
         "STL-SW"
@@ -1067,7 +1090,7 @@
         "Who pays the council tax on the flat? Does it count as a second home? ... the council tax is twice if it's your second home, a personal name."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-03",
       "profile_types": [
         "STL-SW"
@@ -1096,7 +1119,7 @@
         "So does it need any input from us? We don't need to go to the flat or do anything there?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-03",
       "profile_types": [
         "STL-SW"
@@ -1125,7 +1148,7 @@
         "373. Is that the figure coming after the expenses of the agency or do I need to - is the figure am I getting in my hand?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-03",
       "profile_types": [
         "STL-SW"
@@ -1154,7 +1177,7 @@
         "So if it is in the quiet months you said I may be getting 600 pound isn't [it]... So I should pay the mortgage from the 600 pound."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-03",
       "profile_types": [
         "STL-SW"
@@ -1183,7 +1206,7 @@
         "So will there be anyone coming and checking how the house will be before you know before we agree?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-03",
       "profile_types": [
         "STL-SW"
@@ -1212,7 +1235,7 @@
         "I know one company that I spoke to said that basically the more personal use I have, the more the fee changes do you have anything like that on your fees or your fee static."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-31",
       "profile_types": [
         "PURCH"
@@ -1241,7 +1264,7 @@
         "what bills would I have to pay? Because other [buildings] included in your cost is in my [court]"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-31",
       "profile_types": [
         "PURCH"
@@ -1270,7 +1293,7 @@
         "What's your direct line to call you? Could you drop me your number?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-31",
       "profile_types": [
         "PURCH"
@@ -1299,7 +1322,7 @@
         "Does that include the council tax as well?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-30",
       "profile_types": [
         "STL-SW"
@@ -1328,7 +1351,7 @@
         "So what figures are we looking at suppose at in month one or at the end of month three or month six? I mean what about first month?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-30",
       "profile_types": [
         "STL-SW"
@@ -1357,7 +1380,7 @@
         "I'm new to service accommodation, is there any legal requirement that I have to comply with?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-30",
       "profile_types": [
         "STL-SW"
@@ -1383,12 +1406,15 @@
     {
       "canonical_trigger": "portfolio expansion",
       "trigger_variants": [
-        "You mentioned you cover all of London -- do you cover Enfield? I've got a property in Enfield, it's becoming available."
+        "You mentioned you cover all of London -- do you cover Enfield? I've got a property in Enfield, it's becoming available.",
+        "I've got another house which is nearly ready in Stockport ... How about Blackpool side? ... 26-bedroom hotel",
+        "Do you service property in that area? ... In SE28 in particular?"
       ],
-      "frequency": 1,
-      "confidence": 0.0097,
-      "last_seen": "2026-07-30",
+      "frequency": 3,
+      "confidence": 0.028,
+      "last_seen": "2026-09-27",
       "profile_types": [
+        "R2R",
         "STL-SW"
       ],
       "emotional_profiles": [
@@ -1406,7 +1432,9 @@
       "resolution_rate": 1.0,
       "question_indicates_gap": "",
       "entries": [
-        "075"
+        "075",
+        "103",
+        "105"
       ]
     },
     {
@@ -1415,7 +1443,7 @@
         "I haven't seen the property in... probably a couple of years... not sure about the condition of the kitchen or the bathroom -- would it be better if you visit the property right after we sign the contract?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-30",
       "profile_types": [
         "STL-SW"
@@ -1441,13 +1469,15 @@
     {
       "canonical_trigger": "figures after all costs taken",
       "trigger_variants": [
-        "Is that. Are those figures after all the costs have been taken up?"
+        "Is that. Are those figures after all the costs have been taken up?",
+        "Is that after all like, fees, agency fees ... is that after Stayful's fees?"
       ],
-      "frequency": 1,
-      "confidence": 0.0097,
-      "last_seen": "2026-07-30",
+      "frequency": 2,
+      "confidence": 0.0187,
+      "last_seen": "2026-09-27",
       "profile_types": [
-        "ABROAD"
+        "ABROAD",
+        "PURCH"
       ],
       "emotional_profiles": [
         "certainty-seeker"
@@ -1464,7 +1494,8 @@
       "resolution_rate": 1.0,
       "question_indicates_gap": "",
       "entries": [
-        "075"
+        "075",
+        "106"
       ]
     },
     {
@@ -1473,7 +1504,7 @@
         "I've already got a key box there anyway that's got a code on it, which I could just use for that one. How would that work? Do you have one that where the code changes a lot or you just have the same one?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-30",
       "profile_types": [
         "ABROAD"
@@ -1502,7 +1533,7 @@
         "we sort of know, we know that we definitely want to have as a holiday as opposed to a regular letting"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-29",
       "profile_types": [
         "PURCH"
@@ -1531,7 +1562,7 @@
         "how does that work with your companies visiting normally? Do you have specific cleaners or do you work with local ones... I know with the cleaning the vids, it's charged over the connection. What would be sort of like an average figure for that?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-29",
       "profile_types": [
         "PURCH"
@@ -1560,7 +1591,7 @@
         "In terms of for you, are you based in London? Where's sort of the main base? You have people nearby or is it also done online?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-29",
       "profile_types": [
         "PURCH"
@@ -1589,7 +1620,7 @@
         "What we have is we have a digital lock which is installed. And then we're currently just getting an extra bit which means that it can all be controlled on online so you can set expiring keypads."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-29",
       "profile_types": [
         "PURCH"
@@ -1618,7 +1649,7 @@
         "Is it the best thing to do it in like the down period so maybe November... October is completely empty so that's probably a good one"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-29",
       "profile_types": [
         "EX-STL"
@@ -1647,7 +1678,7 @@
         "What are you basing that off of but you got 250 a night and 60 occupancy there... just just so there's not so I see why our numbers are different right so you're not got mortgage repayments in there"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-28",
       "profile_types": [
         "PURCH"
@@ -1673,13 +1704,15 @@
     {
       "canonical_trigger": "net numbers taking account bills",
       "trigger_variants": [
-        "with your net numbers you're taking into account with that bills council tax TV internet insurance all that's in the net numbers you're presenting there"
+        "with your net numbers you're taking into account with that bills council tax TV internet insurance all that's in the net numbers you're presenting there",
+        "Is that will be exclusive of bills? ... What about the cleaning side?"
       ],
-      "frequency": 1,
-      "confidence": 0.0097,
-      "last_seen": "2026-07-28",
+      "frequency": 2,
+      "confidence": 0.0187,
+      "last_seen": "2026-09-27",
       "profile_types": [
-        "PURCH"
+        "PURCH",
+        "R2R"
       ],
       "emotional_profiles": [
         "analytical-evaluator"
@@ -1696,7 +1729,8 @@
       "resolution_rate": 1.0,
       "question_indicates_gap": "",
       "entries": [
-        "075"
+        "075",
+        "103"
       ]
     },
     {
@@ -1705,7 +1739,7 @@
         "what is the actual optimal number of guests we should be able to accommodate... trade-off between giving up that dining room... versus adding the capacity to that second bed"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-28",
       "profile_types": [
         "PURCH"
@@ -1734,7 +1768,7 @@
         "Should we be looking at the mortgage that I'm actually paying or how much the flat should generate — because some people could have a mortgage of 200 pounds and others 900?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-28",
       "profile_types": [
         "ABROAD"
@@ -1763,7 +1797,7 @@
         "How expensive are the maintenance services — I've heard some agencies charge a lot and some have their own in-house maintenance teams rather than using local companies?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-28",
       "profile_types": [
         "ABROAD"
@@ -1792,7 +1826,7 @@
         "I saw that I only have three days to decide on the offer."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-28",
       "profile_types": [
         "ABROAD"
@@ -1821,7 +1855,7 @@
         "So what do you think is the minimum we could achieve?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-28",
       "profile_types": [
         "EX-STL"
@@ -1850,7 +1884,7 @@
         "So you think this is totally achievable?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-28",
       "profile_types": [
         "EX-STL"
@@ -1879,7 +1913,7 @@
         "How do you actually chase up reviews?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-28",
       "profile_types": [
         "EX-STL"
@@ -1908,7 +1942,7 @@
         "We didn't see any surges in price for the Oasis concert last year — I just wondered how that works."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-28",
       "profile_types": [
         "EX-STL"
@@ -1937,7 +1971,7 @@
         "Based on my property or is it just in general? ... Is it cross or net this figure?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-27",
       "profile_types": [
         "STL-SW"
@@ -1966,7 +2000,7 @@
         "What's the commission model with you, is it based on percentage or is it based on monthly?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-27",
       "profile_types": [
         "STL-SW"
@@ -1995,7 +2029,7 @@
         "Would the worst month be straight to our pocket, or is there deduction for your service?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-21",
       "profile_types": [
         "ABROAD"
@@ -2022,7 +2056,7 @@
         "Do you only offer full management or do you offer partial as well?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-21",
       "profile_types": [
         "STL-SW"
@@ -2051,7 +2085,7 @@
         "I'm assuming that the contract... is in line with the new Renters' Rights Act?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-09",
       "profile_types": [
         "ABROAD"
@@ -2077,11 +2111,12 @@
     {
       "canonical_trigger": "cleaning linen section says charges",
       "trigger_variants": [
-        "The cleaning and linen section says charges will be to the guest when possible — is that something you'd arrange?"
+        "The cleaning and linen section says charges will be to the guest when possible — is that something you'd arrange?",
+        "The cleaning fee and laundry ... 18%. So the client is responsible for that, and it's passed on to me as the owner, or how?"
       ],
-      "frequency": 1,
-      "confidence": 0.0097,
-      "last_seen": "2026-07-09",
+      "frequency": 2,
+      "confidence": 0.0187,
+      "last_seen": "2026-09-27",
       "profile_types": [
         "ABROAD"
       ],
@@ -2100,7 +2135,8 @@
       "resolution_rate": 1.0,
       "question_indicates_gap": "",
       "entries": [
-        "073"
+        "073",
+        "104"
       ]
     },
     {
@@ -2109,7 +2145,7 @@
         "On the waste management side — is bin collection the responsibility of the cleaning company or the person in the property?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-09",
       "profile_types": [
         "ABROAD"
@@ -2138,7 +2174,7 @@
         "The limitation of liability says the agent isn't liable for guest actions or non-compliance — what does that refer to?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-09",
       "profile_types": [
         "ABROAD"
@@ -2167,7 +2203,7 @@
         "You mentioned in the email you changed nothing on the hospital — I think it's 20-25 minutes away by train, not close. Did that change the figures in a negative way?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-09",
       "profile_types": [
         "ABROAD"
@@ -2196,7 +2232,7 @@
         "What insurance cover would we need?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-06",
       "profile_types": [
         "SELL"
@@ -2225,7 +2261,7 @@
         "And the changeover — you deal with all that, changing beds and making sure it's clean?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-06",
       "profile_types": [
         "SELL"
@@ -2254,7 +2290,7 @@
         "All right. So I will sit with my husband as well. So if I, if we put it on short let, which is guaranteed rent, you are suggesting a number of what would be the guaranteed rent month on monthly basis?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-06",
       "profile_types": [
         "ABROAD"
@@ -2280,13 +2316,15 @@
     {
       "canonical_trigger": "contractors airport contractors nhs potential",
       "trigger_variants": [
-        "What about the contractors like airport contractors or NHS... does it have that kind of potential for contractors?"
+        "What about the contractors like airport contractors or NHS... does it have that kind of potential for contractors?",
+        "What's the percentage of your long-term contractor from your website? You say 40-something, 45%, you take direct booking?"
       ],
-      "frequency": 1,
-      "confidence": 0.0097,
-      "last_seen": "2026-07-06",
+      "frequency": 2,
+      "confidence": 0.0187,
+      "last_seen": "2026-09-27",
       "profile_types": [
-        "ABROAD"
+        "ABROAD",
+        "R2R"
       ],
       "emotional_profiles": [
         "analytical-evaluator"
@@ -2303,7 +2341,8 @@
       "resolution_rate": 1.0,
       "question_indicates_gap": "",
       "entries": [
-        "074"
+        "074",
+        "103"
       ]
     },
     {
@@ -2312,7 +2351,7 @@
         "So what I'm understanding is that if I buy a property there, let's say a two bed nice Terraced house in a nice street, but you won't be able to take it on under any of your program, whether it's rent guaranteed or rent to rent or anything?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-06",
       "profile_types": [
         "ABROAD"
@@ -2341,7 +2380,7 @@
         "What influence does the owner retain over nightly rates within Stayful's management model?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-06-22",
       "profile_types": [
         "PURCH"
@@ -2368,7 +2407,7 @@
         "What is the guest verification and damage protection process?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-06-22",
       "profile_types": [
         "PURCH"
@@ -2395,7 +2434,7 @@
         "Are additional safety certifications needed for a temporary STL arrangement?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-06-12",
       "profile_types": [
         "ABROAD"
@@ -2424,7 +2463,7 @@
         "What is the viable STL revenue for this Warwick 2-bed?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-06-12",
       "profile_types": [
         "R2R"

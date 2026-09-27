@@ -2,8 +2,8 @@
   "schema_version": "3.0",
   "delay_type": "DLY-MOV",
   "delay_description": "Moving abroad / leaving residence — must physically move out",
-  "total_entries": 12,
-  "last_updated": "2026-09-13",
+  "total_entries": 13,
+  "last_updated": "2026-09-27",
   "trigger_phrases": [
     {"phrase": "Relocating abroad with a firm departure date already set", "frequency": 3},
     {"phrase": "Relocating and needs a remote/hands-off management solution while away", "frequency": 2},
@@ -12,7 +12,8 @@
     {"phrase": "Relocating for work — awaiting employer's confirmed start/move date", "frequency": 1},
     {"phrase": "Extended annual travel sets the earliest realistic launch window", "frequency": 1},
     {"phrase": "Relocating domestically for a lifestyle/business reason (e.g. starting a new business) with a long (~12+ month) runway", "frequency": 1},
-    {"phrase": "Considering relocating abroad within 6-12 months — no firm date, decision window still open", "frequency": 1}
+    {"phrase": "Considering relocating abroad within 6-12 months — no firm date, decision window still open", "frequency": 1},
+    {"phrase": "Relocating abroad but keeping the home as a seasonal UK base (personal use part of every year) — no departure date given", "frequency": 1}
   ],
   "typical_timeline": {
     "most_common_months": 3,
@@ -25,14 +26,14 @@
     {"concern": "Getting a firm departure date confirmed (from an employer, a sale, or their own plans) before committing to a go-live date", "frequency": 4},
     {"concern": "Coordinating the exact onboarding/go-live date around the move-out window", "frequency": 2},
     {"concern": "A prerequisite sale of another property needed to fund or enable the move", "frequency": 1},
-    {"concern": "Partner/family sign-off on the plan before proceeding", "frequency": 1},
+    {"concern": "Partner/family sign-off on the plan before proceeding", "frequency": 2},
     {"concern": "Resolving mortgage-type and legal-compliance questions in parallel with the still-soft move timeline", "frequency": 1}
   ],
   "emotional_profiles_most_common": [
     {"profile": "certainty-seeker", "count": 4},
     {"profile": "loss-averse-switcher", "count": 3},
     {"profile": "analytical-evaluator", "count": 2},
-    {"profile": "unspecified", "count": 3}
+    {"profile": "unspecified", "count": 4}
   ],
   "how_to_handle_in_meeting": {
     "acknowledge_phrase": "That makes complete sense — let me know what's covered on that call and we can work out a timeline; it's nice to have a few weeks' notice ahead of time so onboarding is smoother.",
@@ -42,7 +43,7 @@
     "what_to_write_to_monday": "Log the expected departure/vacate date, what it's contingent on (employer confirmation, a sale, visa), and the notice period the lead wants before going live, so the follow-up is timed to their real trigger event."
   },
   "conversion_after_delay": {
-    "total": 12,
+    "total": 13,
     "eventually_converted": 1,
     "conversion_rate": 0.08,
     "avg_months_to_convert": 0,

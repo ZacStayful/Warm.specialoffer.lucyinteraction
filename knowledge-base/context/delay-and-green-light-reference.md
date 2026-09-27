@@ -2,40 +2,41 @@
 
 ## Delay Codes
 
-**DLY-FUR** — Unfurnished property (n=13, eventual conversion 31%)
-- Top triggers: fully unfurnished, full setup investment required (6); wants a firm itemised cost not a verbal ballpark (2)
+**DLY-FUR** — Unfurnished property (n=14, eventual conversion 29%)
+- Top triggers: fully unfurnished, full setup investment required (6); wants a firm itemised cost not a verbal ballpark (2); previously let unfurnished, needs a complete furnishing pass (2, +1 this run — 105, lead heard £3,500 when Zac said ~£5,000)
 - Timeline: rarely stated; when given, 1-2 weeks to research/quote, or 3-4 weeks from signing to fitted-out — not months
 - Ask: "If you can send room dimensions and a couple of photos, I can turn that ballpark into a firm itemised quote — how soon could you get those over?"
 - Reframe: move from an abstract spend to an itemised list tied to their actual rooms, so they decide against real numbers
 
-**DLY-MOV** — Moving abroad / leaving residence (n=12, eventual conversion 8% — lowest of the 5)
-- Top triggers: relocating with a firm departure date already set (3); needs a remote/hands-off solution while away (2); considering relocating abroad within 6-12 months with no firm date (1)
+**DLY-MOV** — Moving abroad / leaving residence (n=13, eventual conversion 8% — joint lowest)
+- Top triggers: relocating with a firm departure date already set (3); needs a remote/hands-off solution while away (2); considering relocating abroad within 6-12 months with no firm date (1); **new (104): relocating abroad but keeping the home as a seasonal UK base — personal use every June-September, let the other 8 months — so quote let-month figures, not 12-month totals**
 - Timeline: most common 3 months (range now 1-12 — a "possible plan, no firm date" case can run to a year)
 - Ask: "Once your move/departure date is confirmed, roughly how much notice would you want before going live?"
 - Reframe: treat the departure date as the trigger for a pre-planned onboarding window, not a reason to pause
 
-**DLY-OTH** — Other prerequisite / catch-all (n=35, eventual conversion 26%)
-- Top triggers: renovation/building work incomplete (13, +1 this run); mortgage/financing unresolved (9); third-party consent needed — freeholder/agent (5); partner sign-off needed (6, +1 this run); **building/lease ultimately found not to permit short-letting at all, discovered after the sales call (2 — see below)**
+**DLY-OTH** — Other prerequisite / catch-all (n=37, eventual conversion 24%)
+- Top triggers: renovation/building work incomplete (13, +1 this run); mortgage/financing unresolved (9); third-party consent needed — freeholder/agent (5); partner sign-off needed (7, +1 this run — 104); compliance/legal permission (5, +1 this run — 105 Greater London 90-night rule); **new: comparing several competing management providers before deciding (1 — 104)**; **building/lease ultimately found not to permit short-letting at all, discovered after the sales call (2 — see below)**
 - Timeline: most common 1 month (range 0-3); spans the widest range of any code. The building-eligibility subset isn't a timing delay at all — it's a hard stop discovered too late.
 - Ask: "Of everything still to sort — [name the specific blocker] — what's the realistic next milestone, and when will you know more?"
 - Reframe: name the specific blocker back precisely (builder, lender, freeholder, spouse, solicitor) rather than treating it as generic hesitation
+- **Greater London (new, 105):** a whole-home short let beyond 90 nights a year needs planning permission for change of use; there is no short-let licence in England. Cover this before quoting a full-year forecast for any London address.
 - **Mandatory check (still active):** for any leasehold flat, tower block, or managed-building property, confirm in writing that the lease/building/freeholder actually permits short-letting BEFORE agreeing commercial terms, a go-live date, or making any offer. Two deals (Caixia Ye, Piotr Surminski) reached advanced stages — one with a signed special offer — before this surfaced and killed both.
 - **New this run (102, Karen Lee):** a genuinely new-build/never-let conversion property, still mid-build (kitchen/landscaping incomplete) and combined with a pending spousal decision — both existing DLY-OTH trigger types (renovation-incomplete + partner-sign-off) present at once on one lead. No new trigger type needed, but reinforces that this profile's whole meeting is pre-decision, pre-furnishing groundwork rather than a live-property comparison; see qualification-framework.md point 1 for the related NEW-BUILD/CONV taxonomy gap.
 
-**DLY-PUR** — Purchasing property (n=12, eventual conversion 8%)
-- Top triggers: in legal process, awaiting exchange/completion (4); buying specifically with STL in mind (2); off-plan awaiting build (2); target property not yet identified (2)
+**DLY-PUR** — Purchasing property (n=13, eventual conversion 8%)
+- Top triggers: in legal process, awaiting exchange/completion (4); buying specifically with STL in mind (2); off-plan awaiting build (2); target property not yet identified (2); **new (106): offer submitted, awaiting vendor acceptance, finance only at AIP with a placeholder lender** — re-engagement trigger is the director-signed income projection for the broker, once the offer is accepted
 - Timeline: most common 2 months (range 1-3)
 - Ask: "Where are you in the process right now — has anything exchanged, and what completion date has your solicitor given you?"
 - Reframe: position the income figures as the reason to keep the purchase moving; offer purchase-adjacent help (e.g. an income letter for a mortgage broker). For a lead with no property identified yet, this becomes general due-diligence education instead — still worth a Monday record even before an address exists.
 
-**DLY-TEN** — Existing tenant (n=11, eventual conversion 9%)
-- Top triggers: tenant/occupant not due to move out for months (6, incl. a family member tenant); tenancy rule changes mean notice is required to convert an HMO (2); legally unable to serve notice, only natural turnover or sale (1)
+**DLY-TEN** — Existing tenant (n=12, eventual conversion 8%)
+- Top triggers: tenant/occupant not due to move out for months (6, incl. a family member tenant); tenancy rule changes mean notice is required to convert an HMO (2); legally unable to serve notice, only natural turnover or sale (2, +1 this run — 105: family tenant since ~March 2026; since 1 May 2026 tenancies are periodic with no s21 and no possession ground for switching to STL, so the tenant choosing to leave is the only trigger)
 - Timeline: most common 3 months (range 1-6)
 - Ask: "Is there a firm date yet for your tenant leaving, or still an estimate — has notice actually been served?"
 - Reframe: treat the vacate date as a fixed point to plan backward from, not an open "someday"
 
 ## Green Light Codes
-No dedicated source file exists for green lights (unlike delays, which have by-delay-type/*.json with structured trigger phrases). This section is assembled from the qualitative patterns recorded in archetype/profile-type files plus offer-timing-intelligence.json — treat phrasing as directional, not verbatim-sourced. No new green-light instance this run (entry 102 had none — property not ready, decision not made).
+No dedicated source file exists for green lights (unlike delays, which have by-delay-type/*.json with structured trigger phrases). This section is assembled from the qualitative patterns recorded in archetype/profile-type files plus offer-timing-intelligence.json — treat phrasing as directional, not verbatim-sourced. This run (103-106): one new GL-TIME (103 Liaquat — furnished, certified R2R house, lead wants to go live in 5-7 days); 104-106 had none.
 
 **GL-MGMT** — wants fully hands-off, full management. Near-universal once present. Why it's a green light: the lead has already accepted the core value proposition (someone else runs it) rather than negotiating service scope.
 

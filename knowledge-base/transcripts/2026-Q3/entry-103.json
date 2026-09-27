@@ -1,0 +1,254 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "103",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-09-21",
+  "transcript_quality": "full",
+
+  "lead_name": "Liaquat",
+  "email": "lali80@gmail.com",
+  "monday_id": "13091424796",
+  "address": "296 Longridge (Road), Knutsford — Monday text6 '296 Longridge Road Wa178pj'; Knutsford postcodes are WA16, so the WA17 8PJ enquiry postcode needs verifying",
+  "bedrooms": 3,
+  "profile_type": "R2R",
+  "lead_profile_text": "Something else (Monday text_mm1x8cgy — uninformative; actual situation is a rent-to-rent under the lead's company on a friend's house, fully furnished and ready to list)",
+  "stl_goal": "",
+  "property_situation": "Rent-to-rent under the lead's own company; house owned by a friend (an accountant) who asked the lead to handle it. Monthly payment to owner ~£1,500-£1,600 (lead called it 'mortgage'; Monday text_mm26pf4c says 1800). Fully furnished (utensils, Wi-Fi, large TV), previously lived in, EPC and gas safety certificate done, electrical certificate to follow. Only key safes (2) needed — lead's builder to install within 3-4 days.",
+  "property_type": "3-bed semi-detached house with garage, reception room, dining room, driveway for 2-3 cars, rear garden",
+
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "No structural blocker — the only open item is commercial: lead insisted three times that professional photography be included free as part of 'no setup fee', and Zac only committed to 'we can work something out'. Management agreement not yet signed.",
+  "language_signals": [
+    "I'm going to think you to start yourself with the one property. Let's see how it goes.",
+    "the property is ready to shortlist straight away",
+    "15% will be on the net or on the gross? ... So normally people charge 15% on the net.",
+    "if like with 2 months there's not much booking days, I have to be losing money, so I need to move somewhere. Then will be issue, is it?",
+    "you need to throw in this with the setup, everything should be free",
+    "Mostly things is okay, should be all right.",
+    "I'm hoping to go live, I mean, ASAP, basically 5 to 7 days",
+    "Hopefully should be okay and we'll go ahead with that. But ... photographs will be free, I'm telling you."
+  ],
+  "portfolio_flag": true,
+
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+
+  "delay_signals": [],
+  "has_delay": false,
+
+  "green_light_signals": [
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "I think maybe in 3, 4 days I will be done everything. So I'm hoping to go live, I mean, ASAP, basically 5 to 7 days",
+      "context": "After Zac explained the next step is signing the agreement, key safes, cleaner visit and photos; property is already fully furnished and certified apart from the electrical certificate"
+    }
+  ],
+  "has_green_light": true,
+
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd probably start by, yeah, just understanding a bit on your current situation and how we can help.",
+    "rapport_topics": ["Lead's 20+ years as a property developer", "Where Stayful is based (Leicestershire + Leeds, nationwide cover)", "Whether Stayful covers Knutsford / Manchester / Stockport"],
+    "pivot_to_business": "Well, what I suppose I could do then is I can just talk you through, through the figures.",
+    "income_intro": "So we're looking at gross revenue ... about £98,000 per year. Now the net of that, which is what you'll get as a payout, is about £51,000 a year, so about £4,200 a month.",
+    "post_income_silence": "",
+    "how_it_works_transition": "Yeah, you'll get a calendar, you can see all the bookings that come in, you'll get a communications app as well so we can talk to each other",
+    "pre_close_setup": "If you're wanting to come on board, I'll send you over our agreement, our management agreement. If you sign that, send it back to me. Then we can probably get the property live from the sounds of it in the next sort of 2 weeks",
+    "close_phrase": "I mean, is there any, any concerns you've got about coming on board? Anything we can go through, or you're sort of happy?",
+    "meeting_2_ask": "When I send you that email, if you want to come back with that, the full address and postcode of the [Stockport] property and the number of bedrooms, I can run the report ... and we can have another chat about it if you want.",
+    "total_duration_mins": 20,
+    "talk_ratio_zac_pct": 55
+  },
+
+  "lead_responses": [
+    {
+      "what_lead_said": "Is that will be exclusive of bills? ... What about the cleaning side?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Yes, exclusive of the bills ... it's after the cleaning.",
+      "lead_follow_up": "Okay, yeah, so that's only bills for the property, for like gas, electric, maybe water, and the council tax, Wi-Fi",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "What's the percentage of your long-term contractor from your website? You say 40-something, 45%, you take direct booking?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Once the property is established with good reviews you can expect anywhere between 20% and 40% direct bookings, driven by contractors, build projects, hospitals and transport links nearby.",
+      "lead_follow_up": "This property is quite close to the airport ... 10 or 12 minutes.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I thought maybe you don't charge for photography. That's the same setup fee. There's no setup fee. I thought maybe it's all included in that.",
+      "category": "objection",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "We don't charge for our own internal setup work; photos (~£250-£350) and deep cleans are invoiced straight from the supplier with no markup — and because you paid for them, the photos belong to you if you ever switch operator or self-manage.",
+      "lead_follow_up": "Raised again twice more before the end of the call ('you need to throw in this with the setup, everything should be free' / 'photographs will be free, I'm telling you')",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Then you need a 1-month notice to vacate ... But if we don't perform well, then what's going to happen? ... if with 2 months there's not much booking days, I have to be losing money",
+      "category": "objection",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "6-month fixed term then 3-month notice (so future guests can be serviced); case studies land within 5-10% of projection; at ~£4,200 net against ~£2,000 mortgage + bills, even 20% below projection is still profitable.",
+      "lead_follow_up": "No, that's fine. I'm not bothered with that ... I'm just saying possibility there.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "15% will be on the net or on the gross? ... So normally people charge 15% on the net.",
+      "category": "objection",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "15% + VAT on the gross, after booking platform commissions but before everything else — the three costs in gross-to-net are platform commission (~15%), management (15%) and cleaning/laundry (~18%, guest-paid).",
+      "lead_follow_up": "I don't know to be — I didn't look into that side.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "The other platform you use like Booking or Airbnb, they charge 15% or 16%?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "They all charge around 15%; Airbnb has recently gone up.",
+      "lead_follow_up": "Right, okay, if I go ahead with yourself, well, I will get the app.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I just need to check your website ... I think you're quite good review. You got maybe 4.8",
+      "category": "question",
+      "meeting_phase": "closing",
+      "zac_responded_with": "I can send you links to our Airbnb account and Google reviews, plus the case studies I mentioned.",
+      "lead_follow_up": "Yeah, so tell me that will be good.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I've got another house which is nearly ready, in Stockport ... How about Blackpool side? ... we got hotel there ... 26-bedroom hotel",
+      "category": "expansion_signal",
+      "meeting_phase": "closing",
+      "zac_responded_with": "Email the full address, postcode and bedroom count and I'll run the report; happy to look at the Blackpool en-suite hotel too (very seasonal).",
+      "lead_follow_up": "Yeah, that's fine.",
+      "resolved": true
+    }
+  ],
+
+  "conversion_gaps": [
+    {
+      "gap": "Photography-included question left open — lead asked three times and left believing it will be free, while Zac only said 'we can work something out'",
+      "category": "pricing_clarity",
+      "evidence": "\"The photographs will be free on setup fees. You need to include that one as well.\" / \"Yeah, well, we can have a look at that. Yeah, we can work something out.\"",
+      "how_to_fill": "Decide the photography position before the agreement goes out and state it in writing in the same email (e.g. included as a trial-property concession tied to signing, or invoiced at cost) so it doesn't become a dispute at go-live",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Figures quoted verbally were the deck headline (£51k net) which is ~15% above the deck's own month-by-month forecast (£44,167); worst month quoted ~£1,500 vs June forecast £1,039",
+      "category": "figure_accuracy",
+      "evidence": "\"the net of that ... is about £51,000 a year\" vs FORECAST array sum £44,167 (Drive intelligence entry)",
+      "how_to_fill": "Fix the analyser/deck headline-vs-forecast mismatch at source; when quoting on a no-screen phone call, quote the forecast-sum figure",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Contract terms partly misheard and incomplete — lead restated notice as '1-month'; £42/mo software fee and £1,000 early-exit fee not mentioned",
+      "category": "process_clarity",
+      "evidence": "\"Then you need a 1-month notice to vacate\" (Zac had said 3-month notice after a 6-month term)",
+      "how_to_fill": "Recap all fees and the notice period in writing with the agreement; on phone-only calls, repeat numbers back",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "R2R compliance not covered: owner's written consent to STL sublet, owner's lender/insurer permission, lead's public liability cover",
+      "category": "compliance",
+      "evidence": "\"this property will be as a rent-to-rent anyway ... my friend's property, he's accountant ... it will be under my company name\"",
+      "how_to_fill": "Ask for the R2R lease/owner consent and insurance position before signing the management agreement",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Phone call with no screen share — figures could not be shown, and Zac mis-spoke location ('in Oxford') and repeated an inaccurate O2 Apollo demand driver",
+      "category": "presentation_delivery",
+      "evidence": "\"Okay, all right, I just won't be able to show you any of the figures, but I could talk you through them.\" / \"in Oxford for your property\" / \"Not too far away from O2\"",
+      "how_to_fill": "Send the deck link before/while talking on phone-only calls and sanity-check auto-generated demand drivers (distance by road) before the meeting",
+      "filled_in_action_plan": true
+    }
+  ],
+
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Highest-earning comparable is the one closest to his house; the cheapest (£170) is the furthest away",
+      "lead_response": "Okay. Yeah, that's fine.",
+      "phase": "income_presented",
+      "archetype_relevant": ["analytical-evaluator", "fast-path-gain-focused"]
+    },
+    {
+      "what_caused_shift": "Margin buffer framing: ~£4,200 net vs ~£2,000 mortgage + bills, still profitable even 20% below projection",
+      "lead_response": "No, that's fine. I'm not bothered with that",
+      "phase": "how_it_works",
+      "archetype_relevant": ["certainty-seeker", "analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Owner tools — calendar, comms app, monthly statements, payout 1st-5th",
+      "lead_response": "Okay, so that's — I think most questions you answered is good.",
+      "phase": "how_it_works",
+      "archetype_relevant": ["fast-path-gain-focused"]
+    },
+    {
+      "what_caused_shift": "Fast go-live path laid out (sign agreement, key safes, cleaner, photos, live in ~2 weeks)",
+      "lead_response": "Perfect ... I'm hoping to go live, I mean, ASAP, basically 5 to 7 days",
+      "phase": "closing",
+      "archetype_relevant": ["fast-path-gain-focused"]
+    }
+  ],
+
+  "friction_moments": [
+    {
+      "what_caused_friction": "'No setup fee' on the website read by the lead as including photography; Zac then quoted £250-£350 photos invoiced separately",
+      "lead_response": "I thought maybe you don't charge for photography ... You can, if you can include, that will be good.",
+      "recovery_attempted": "Reframed photos as an owned asset that stays with the owner if they ever switch, then conceded 'we can work something out' at the end",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Management fee basis — lead expected 15% on net, Zac confirmed 15% + VAT on gross",
+      "lead_response": "That's my question is you answered now. So normally people charge 15% on the net.",
+      "recovery_attempted": "Walked through the three gross-to-net cost lines; lead conceded he hadn't looked into how others define net",
+      "resolved": true
+    }
+  ],
+
+  "zac_language": {
+    "opening_phrases": ["I thought I'd probably start by, yeah, just understanding a bit on your current situation and how we can help."],
+    "transition_phrases": ["Well, what I suppose I could do then is I can just talk you through, through the figures.", "So that gives you the sort of best case, worst case, and likely case over the course of a year."],
+    "reassurance_phrases": ["if we're looking at £4,200 net with only probably £2,000 of mortgage and bills, like, that's quite a fair amount of breathing room there for any sort of error", "even if it was 20%, you're still profitable anyway", "We don't put any sort of markup on for anything."],
+    "emphasis_phrases": ["the highest revenue property ... is actually the one that's closest to you", "Manchester is a good place for short let, probably one of the best in the north"],
+    "analogies_used": ["Photos as an owned asset: 'if you're ever ... you want to self-manage or you want to do something else, those photos are yours'"],
+    "numbers_framing": "Gross → net payout → ADR/occupancy → worst/best month, delivered verbally without screen share; later explained management as 'after booking platform commissions but before everything else'",
+    "objection_handling_pattern": "Answers fee-basis and contract questions directly, then anchors risk questions to the margin buffer (net vs lead's own costs) rather than guarantees; on a price concession ask (free photography) he deflects with an ownership reframe and finally defers ('we can work something out') rather than giving a clear yes/no"
+  },
+
+  "profile_psychology_intersection": {
+    "profile_type": "R2R",
+    "emotional_profile": "",
+    "what_they_focused_on": ["Fee basis (net vs gross) and platform commission levels", "What 'no setup fee' covers — specifically photography", "Downside if bookings are slow in the first months and how to exit", "Direct/contractor booking share", "Speed to go live"],
+    "what_they_needed_most": ["A clear margin over his ~£1,500-£1,600 rent-to-owner plus bills", "A fast go-live (5-7 days)", "A concession that makes the trial feel free to start (photography)", "Proof via reviews/case studies before scaling to Stockport, Blackpool and Manchester"],
+    "what_fell_flat": ["Charging separately for photography after 'no setup fee' messaging", "Being unable to show figures on a phone call"],
+    "recommended_meeting_adjustment": "Unlike prior R2R leads (thin-margin, often lost), this is an experienced operator with a strong margin and a ready property — treat as a trial-to-portfolio opportunity: settle small concessions (photography) decisively on the call, confirm R2R owner consent/insurance, and get agreement signed quickly because the upside is the follow-on properties"
+  },
+
+  "action_plan_responses": {
+    "s1_income_reaction": "Higher than I thought",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

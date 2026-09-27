@@ -1,7 +1,7 @@
 {
   "schema_version": "3.0",
-  "total_entries_seen": 103,
-  "last_updated": "2026-08-21",
+  "total_entries_seen": 107,
+  "last_updated": "2026-09-27",
   "objections": [
     {
       "canonical_trigger": "setup cost effort barrier property",
@@ -11,7 +11,7 @@
         "Setup cost ~£3-5k hard to recover from thin margins"
       ],
       "frequency": 3,
-      "confidence": 0.0291,
+      "confidence": 0.028,
       "last_seen": "2026-04-27",
       "profile_types": [
         "PURCH",
@@ -44,14 +44,16 @@
       "canonical_trigger": "risk damage handling",
       "trigger_variants": [
         "What about damage to the sofa or the bed, how is that covered?",
-        "If something happens, something is damaged or something, the gas is causing problems. What's the procedure there?"
+        "If something happens, something is damaged or something, the gas is causing problems. What's the procedure there?",
+        "Really, if someone wants to damage your property, you really — you just have to pray."
       ],
-      "frequency": 2,
-      "confidence": 0.0194,
-      "last_seen": "2026-08-13",
+      "frequency": 3,
+      "confidence": 0.028,
+      "last_seen": "2026-09-27",
       "profile_types": [
         "ABROAD",
-        "SELL"
+        "SELL",
+        "STL-SW"
       ],
       "emotional_profiles": [
         "analytical-evaluator",
@@ -71,7 +73,8 @@
       "linked_gap_category": "",
       "entries": [
         "081",
-        "072"
+        "072",
+        "105"
       ]
     },
     {
@@ -81,7 +84,7 @@
         "Local presence and coverage for Chiswick/West London area"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-08-03",
       "profile_types": [
         "STL-SW"
@@ -110,12 +113,14 @@
       "canonical_trigger": "competitor comparison trust",
       "trigger_variants": [
         "I've had another conversation with another agent to see what their view was. And their numbers were less than yours.",
-        "I'm just ultimately a bit torn. He's sort of suggesting... focus being on direct bookings, the contractor lets etc... what's the advantage to your approach versus his approach I guess ultimately would be my question"
+        "I'm just ultimately a bit torn. He's sort of suggesting... focus being on direct bookings, the contractor lets etc... what's the advantage to your approach versus his approach I guess ultimately would be my question",
+        "we're looking at your fees and monthly charges and stuff, and it seems a little bit more than what we found elsewhere"
       ],
-      "frequency": 2,
-      "confidence": 0.0194,
-      "last_seen": "2026-07-31",
+      "frequency": 3,
+      "confidence": 0.028,
+      "last_seen": "2026-09-27",
       "profile_types": [
+        "ABROAD",
         "PURCH"
       ],
       "emotional_profiles": [
@@ -130,12 +135,13 @@
         ],
         "avoid": ""
       },
-      "resolution_rate": 1.0,
+      "resolution_rate": 0.6667,
       "what_resolved_it": "Validated the other advisor's approach rather than dismissing it, then reframed platform-first-plus-direct-bookings as risk diversification: platforms are the stable base, direct bookings are 'the icing on the cake',...",
       "linked_delay_type": "",
       "linked_gap_category": "",
       "entries": [
-        "075"
+        "075",
+        "104"
       ]
     },
     {
@@ -145,7 +151,7 @@
         "I'd like more control over pricing — wants oversight of dynamic pricing decisions"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-06-22",
       "profile_types": [
         "ABROAD",
@@ -177,7 +183,7 @@
         "Council tax — what happens during the transition period?"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-05-29",
       "profile_types": [
         "STL-SW"
@@ -208,7 +214,7 @@
         "Two simultaneous changeovers — risk of becoming manual cleaners instead of entrepreneurs"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-05-28",
       "profile_types": [
         "EX-STL"
@@ -240,7 +246,7 @@
         "Booking.com guest quality — drug preparation incidents, £200 dining table destroyed, compensation still pending after difficult claims process"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-05-28",
       "profile_types": [
         "EX-STL"
@@ -272,7 +278,7 @@
         "Worst month STL projection (~£952) vs total monthly costs (~£1,100) — small potential monthly loss in worst case"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-05-28",
       "profile_types": [
         "EX-STL"
@@ -304,7 +310,7 @@
         "£100k renovation investment exposed to guest damage — emotional attachment to first major renovation (granite countertops throughout, high-end finishes, £10k additional furnishings)"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-05-28",
       "profile_types": [
         "EX-STL"
@@ -336,7 +342,7 @@
         "Considering testing long-let for one month before committing to STL — lower perceived risk"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-05-28",
       "profile_types": [
         "EX-STL"
@@ -367,7 +373,7 @@
         "None captured — meeting cut off before objections stage"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-05-07",
       "profile_types": [
         "STL-SW"
@@ -397,7 +403,7 @@
         "Financial viability — is STL significantly better than LTL for a 5-bed?"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-04-27",
       "profile_types": [
         "ABROAD",
@@ -431,7 +437,7 @@
         "R2R margin too thin after rent to landlord, platform fees, and Stayful management fee added on top"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-04-09",
       "profile_types": [
         "R2R"
@@ -462,7 +468,7 @@
         "Same-block competition — up to 15 Airbnbs in same 86-unit building"
       ],
       "frequency": 2,
-      "confidence": 0.0194,
+      "confidence": 0.0187,
       "last_seen": "2026-03-11",
       "profile_types": [
         "PURCH"
@@ -494,7 +500,7 @@
         "So where are the three Airbnb in Harrogate, in which area? ... Specifically in Harrogate."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-21",
       "profile_types": [
         "STL-SW"
@@ -522,7 +528,7 @@
         "engaging or entrusting our property to a company we don't know is a risk... if it is suddenly dissolved or struck off then there is no way we can chase the company for compensation"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-21",
       "profile_types": [
         "STL-SW"
@@ -550,7 +556,7 @@
         "Can we go in and as a guest and just have a look of how [it works]? ... we have not worked with Stayful before so it's really help if we can have a look of the property you're operating here."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-21",
       "profile_types": [
         "STL-SW"
@@ -578,7 +584,7 @@
         "please don't attend to 15% on top of the of the bill, how do you charge that?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-21",
       "profile_types": [
         "STL-SW"
@@ -606,7 +612,7 @@
         "once we take off the hmo we need to apply again or we don't get it... they literally said you just go out, we're not going to give you again."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-21",
       "profile_types": [
         "STL-SW"
@@ -634,7 +640,7 @@
         "if I'm totally honest, I wasn't sure given the information that I gave you, whether that would be precise enough for you to be able to calculate to a degree of reliability"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-14",
       "profile_types": [
         "PURCH"
@@ -662,7 +668,7 @@
         "the more I can raise the mortgage, the... mortgage they just want to see rentals because it's a new house they want to see comparables"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-14",
       "profile_types": [
         "PURCH"
@@ -690,7 +696,7 @@
         "I think it's 166 is expensive. That's my shading... to feel combining 81% with 160, I think that's quite ambitious. But you probably know better than me."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-13",
       "profile_types": [
         "ABROAD"
@@ -718,7 +724,7 @@
         "By the way, is there a restriction for Airbnb on grade two buildings?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-13",
       "profile_types": [
         "ABROAD"
@@ -743,12 +749,15 @@
     {
       "canonical_trigger": "vacancy risk",
       "trigger_variants": [
-        "Can I just ask, so what happens if it doesn't let for part of the month, or some month for some reason it doesn't let at all?"
+        "Can I just ask, so what happens if it doesn't let for part of the month, or some month for some reason it doesn't let at all?",
+        "if like with 2 months there's not much booking days, I have to be losing money, so I need to move somewhere. Then will be issue, is it?",
+        "Really what I was thinking really is about how long this property will be vacant for ... There is a tax, I call it a tax, for empty homes in Greenwich."
       ],
-      "frequency": 1,
-      "confidence": 0.0097,
-      "last_seen": "2026-08-03",
+      "frequency": 3,
+      "confidence": 0.028,
+      "last_seen": "2026-09-27",
       "profile_types": [
+        "R2R",
         "STL-SW"
       ],
       "emotional_profiles": [
@@ -765,7 +774,9 @@
       "linked_delay_type": "",
       "linked_gap_category": "",
       "entries": [
-        "075"
+        "075",
+        "103",
+        "105"
       ]
     },
     {
@@ -774,7 +785,7 @@
         "[garbled] ...reject the cat [guests] ... make sure they need when they come and go that way in the same condition"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-03",
       "profile_types": [
         "STL-SW"
@@ -802,7 +813,7 @@
         "Actually bills really high because... the paper coming for the short term there will be like heating and electricity will be the higher ranges."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-03",
       "profile_types": [
         "STL-SW"
@@ -830,7 +841,7 @@
         "So if I am staying with a BTL mortgage did you say I will be able to let it this way... Just there is no doesn't come back any legal issues with us."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-08-03",
       "profile_types": [
         "STL-SW"
@@ -858,7 +869,7 @@
         "some of the feedback I had from another agent was they seemed to suggest to me that I shouldn't look at any property that doesn't already have the use for holiday lets because they said that actually in the lakes at the moment getting a change of use is quite difficult"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-31",
       "profile_types": [
         "PURCH"
@@ -886,7 +897,7 @@
         "with this obviously being the first time we've done something like this, we're probably not the most up to speed with all of the regulations and requirements with these things... I was told that in terms of setting a property up again for the first time with like all of the fire regs and everything can be a little bit expensive."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-31",
       "profile_types": [
         "PURCH"
@@ -914,7 +925,7 @@
         "we don't live anywhere near the lake district we're like four and a half hours away. So if there's a problem we have no hope in hell of getting there anytime soon."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-31",
       "profile_types": [
         "PURCH"
@@ -942,7 +953,7 @@
         "I've had a look at you. The marketing 850. Some after up to a thousand guaranteed. So that's where I'm at, really."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-31",
       "profile_types": [
         "PURCH"
@@ -970,7 +981,7 @@
         "You could offer me rent for three months and then there could be no bookings three months and I'll be left with nothing."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-31",
       "profile_types": [
         "PURCH"
@@ -998,7 +1009,7 @@
         "I mean would it work out cheaper for me if you furnish it, or do you take any administration costs etc.?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-30",
       "profile_types": [
         "STL-SW"
@@ -1026,7 +1037,7 @@
         "I've got the general concerns of, like, how well they're gonna look after the place. Like, it's our family home first. It's newly renovated... And then with us potentially not being in the country, how easy all that's going to be communication wise."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-30",
       "profile_types": [
         "ABROAD"
@@ -1054,7 +1065,7 @@
         "Leaving personal items... we're going to try and put everything as much as we can into the garage, which is separate from the house anyway... could I keep that locked and not let them [have access]?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-30",
       "profile_types": [
         "ABROAD"
@@ -1082,7 +1093,7 @@
         "I know it's not a question you can really answer because you don't have a crystal ball, but my only concern is not getting the bucket [booked]... Being at the other side of the world, and that's it."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-30",
       "profile_types": [
         "ABROAD"
@@ -1110,7 +1121,7 @@
         "I mean, probably like, what does it make? I would say probably revenue is about half that. Maybe... 1600 a month on a excellent month, I'd say maybe to max."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-29",
       "profile_types": [
         "EX-STL"
@@ -1138,7 +1149,7 @@
         "Is there a situation... where it becomes a bit of a saturated market up there with this stuff, or is the demand consistently... buoyant"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-28",
       "profile_types": [
         "PURCH"
@@ -1166,7 +1177,7 @@
         "Is it possible to generate more with a long-term let — I was comparing the prices, because a long-term let could be £700 plus bills?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-28",
       "profile_types": [
         "ABROAD"
@@ -1194,7 +1205,7 @@
         "Do you have a minimum profitability threshold to take on a property — because you also have costs (cleaning company, maintenance) so it has to be worth the hassle for you too?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-28",
       "profile_types": [
         "ABROAD"
@@ -1222,7 +1233,7 @@
         "Is it my decision to proceed, or do you also need to formally know that I'm allowed to short-let given the shared equity and leasehold?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-28",
       "profile_types": [
         "ABROAD"
@@ -1250,7 +1261,7 @@
         "Why aren't we getting the bookings?... June has been the worst month... a lot of the reviews are actually five star as well, so I don't know what's going on."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-28",
       "profile_types": [
         "EX-STL"
@@ -1278,7 +1289,7 @@
         "Why aren't we getting the bookings?... cleaning issues... they've obviously not been doing a good job"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-28",
       "profile_types": [
         "EX-STL"
@@ -1306,7 +1317,7 @@
         "Do I need any sort of special permission or anything from council? ... Is there any other compliance issues you find when you do the Airbnb."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-27",
       "profile_types": [
         "STL-SW"
@@ -1334,7 +1345,7 @@
         "How long have you been doing this, are you established business? ... I think it was pass the keys we heard about pass the keys."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-27",
       "profile_types": [
         "STL-SW"
@@ -1362,7 +1373,7 @@
         "Do you think you can get it live before... end of September because they will be leaving by second so do you think it will be you will have enough time."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-27",
       "profile_types": [
         "STL-SW"
@@ -1390,7 +1401,7 @@
         "That's something not possible for me because my properties are 150 miles away. So I can't manage that."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-22",
       "profile_types": [
         "STL-SW"
@@ -1418,7 +1429,7 @@
         "The income kind of disappears... how do I know that we not end up making losses?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-22",
       "profile_types": [
         "STL-SW"
@@ -1446,7 +1457,7 @@
         "Is it kind of just figures to kind of get me enticed into it?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-22",
       "profile_types": [
         "STL-SW"
@@ -1474,7 +1485,7 @@
         "Would you then need to take license to, to have short-term let?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-22",
       "profile_types": [
         "STL-SW"
@@ -1502,7 +1513,7 @@
         "If I'm getting guaranteed rent from him [an Airbnb operator offering £900/month]... why would I want to take the headache of trying to myself deal with this issue?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-22",
       "profile_types": [
         "STL-SW"
@@ -1530,7 +1541,7 @@
         "I was thinking more in terms around, what, 10%, you know, that was my, when I looked at my numbers."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-22",
       "profile_types": [
         "STL-SW"
@@ -1558,7 +1569,7 @@
         "Are you sure about that?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-21",
       "profile_types": [
         "STL-SW"
@@ -1586,7 +1597,7 @@
         "If they're contractors, they're probably going to be Monday to Friday and going back home — weekends, can anything be done?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-21",
       "profile_types": [
         "STL-SW"
@@ -1614,7 +1625,7 @@
         "So as I don't need to be fearful that you might only cover my cost, I think 1500 pound or two thousand pound a month, it won't be as low as that."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-21",
       "profile_types": [
         "STL-SW"
@@ -1642,7 +1653,7 @@
         "You'd love cameras to watch over people. I don't get the house in trashed again."
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-21",
       "profile_types": [
         "STL-SW"
@@ -1670,7 +1681,7 @@
         "How would the person have access to the property considering we won't have anyone there day to day?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-21",
       "profile_types": [
         "ABROAD"
@@ -1696,7 +1707,7 @@
         "How would that be covered — will that be us in charge to fix it, or them, or the company that is renting our flat?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-21",
       "profile_types": [
         "ABROAD"
@@ -1722,7 +1733,7 @@
         "Would having you renting our flat affect our residential mortgage in any way?"
       ],
       "frequency": 1,
-      "confidence": 0.0097,
+      "confidence": 0.0093,
       "last_seen": "2026-07-21",
       "profile_types": [
         "ABROAD"
@@ -1740,6 +1751,90 @@
       "linked_gap_category": "",
       "entries": [
         "075"
+      ]
+    },
+    {
+      "canonical_trigger": "photography included no setup fee",
+      "trigger_variants": [
+        "I thought maybe you don't charge for photography. That's the same setup fee. There's no setup fee. I thought maybe it's all included in that.",
+        "you need to throw in this with the setup, everything should be free",
+        "The photographs will be free on setup fees. You need to include that one as well."
+      ],
+      "frequency": 1,
+      "confidence": 0.0093,
+      "last_seen": "2026-09-27",
+      "profile_types": [
+        "R2R"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "income_presented",
+      "zac_response": {
+        "best": "We don't charge for our own internal setup work; photos (~£250-£350) and deep cleans are invoiced straight from the supplier with no markup — and because you've paid for them, the photos are yours if you ever switch or self-manage.",
+        "alternatives": [
+          "Yeah, well, we can have a look at that. Yeah, we can work something out."
+        ],
+        "avoid": "Leaving it as 'we can work something out' — the lead left believing photography will be free"
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "",
+      "linked_delay_type": "",
+      "linked_gap_category": "pricing_clarity",
+      "entries": [
+        "103"
+      ]
+    },
+    {
+      "canonical_trigger": "management fee net or gross",
+      "trigger_variants": [
+        "15% will be on the net or on the gross? ... So normally people charge 15% on the net."
+      ],
+      "frequency": 1,
+      "confidence": 0.0093,
+      "last_seen": "2026-09-27",
+      "profile_types": [
+        "R2R"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "how_it_works",
+      "zac_response": {
+        "best": "15% + VAT on the gross, after booking platform commissions but before everything else — the net I quoted already has platform commission, cleaning/laundry and management taken off, so only mortgage and bills come out of it.",
+        "alternatives": [
+          "Well, when they say net, what do they mean? ... What, even after a mortgage expense?"
+        ],
+        "avoid": ""
+      },
+      "resolution_rate": 1.0,
+      "what_resolved_it": "Explaining the three gross-to-net cost lines; lead conceded he hadn't checked how others define net",
+      "linked_delay_type": "",
+      "linked_gap_category": "pricing_clarity",
+      "entries": [
+        "103"
+      ]
+    },
+    {
+      "canonical_trigger": "seasonal personal use peak months",
+      "trigger_variants": [
+        "the time that we'd like it for is the summer, which I'm sure is probably the height of demand. So that's going to certainly affect the numbers"
+      ],
+      "frequency": 1,
+      "confidence": 0.0093,
+      "last_seen": "2026-09-27",
+      "profile_types": [
+        "ABROAD"
+      ],
+      "emotional_profiles": [],
+      "most_common_meeting_phase": "income_presented",
+      "zac_response": {
+        "best": "Took the personal-use months out live — roughly £2,000 to £4,000 net per let month — and committed to the exact 8-month figure in the action plan.",
+        "alternatives": [],
+        "avoid": "Quoting only 12-month totals to a lead who has already said they keep the peak months"
+      },
+      "resolution_rate": 0.0,
+      "what_resolved_it": "",
+      "linked_delay_type": "DLY-MOV",
+      "linked_gap_category": "figure_relevance",
+      "entries": [
+        "104"
       ]
     }
   ]

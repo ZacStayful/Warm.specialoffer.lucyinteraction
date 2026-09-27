@@ -1,0 +1,204 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "106",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-09-25",
+  "transcript_quality": "full",
+
+  "lead_name": "Rukiza Urhobo",
+  "email": "r.urhobo@gmail.com",
+  "monday_id": "13093522861",
+  "address": "201 Altitude, 39 Powell Street, Birmingham B1 3DH",
+  "bedrooms": 2,
+  "profile_type": "PURCH",
+  "lead_profile_text": "Looking to buy a property for short term letting",
+  "stl_goal": "",
+  "property_situation": "Buying a 2-bed city-centre apartment (Jewellery Quarter edge) as a buy-to-let run as short-term lets rather than ASTs. Offer submitted, awaiting acceptance; a second property also identified but Powell Street is the priority. Has an approval in principle with a generic lender (not the one he intends to use). Monday mortgage estimate £571.65/month.",
+  "property_type": "2-bed apartment in a managed high-rise block (Altitude), leasehold",
+
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Purchase not agreed — offer out awaiting acceptance, then mortgage and completion; lead had not yet read the report in depth",
+  "language_signals": [
+    "the Powell Street apartment that I really want to focus on",
+    "As a buy-to-let investment and do short-term lettings rather than the ASTs",
+    "this is not a guaranteed rent arrangement, is it?",
+    "I haven't really had an in-depth look at this report myself",
+    "the first stage for me is getting the purchase actually completed",
+    "do you do the high, medium, low weekly projection?",
+    "that's good to know"
+  ],
+  "portfolio_flag": true,
+
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+
+  "delay_signals": [
+    {
+      "type": "DLY-PUR",
+      "trigger_phrase": "at the moment I'm trying to purchase the property, so I've got an offer out at the moment, and hopefully I'll be successful on that",
+      "context": "Opening answer on his situation; later: 'the first stage for me is getting the purchase actually completed'",
+      "timeline_given": "No date — offer not yet accepted; Zac to touch base around December 2026 if no update",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+
+  "green_light_signals": [],
+  "has_green_light": false,
+
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start just by sort of understanding a bit on your current situation and situation with the property. You know, then we can go through the figures and our service, see if it lines up with what you're looking for.",
+    "rapport_topics": [],
+    "pivot_to_business": "Okay, all right, nice. Well, I can go through the figures then and see if it sort of lines up with what you've projected your side, or we can go through it together.",
+    "income_intro": "So that's about 52,000 a year. Now we've got a net revenue, which is what you can expect as a payout, of about £2,200 per month.",
+    "post_income_silence": "",
+    "how_it_works_transition": "Yeah, yeah, so it's a fully managed service. So to give you an idea of what that includes",
+    "pre_close_setup": "A couple of things to probably be aware of when doing a purchase which you might need our help with is the first one, when you go into a broker, they're going to need some kind of income projection.",
+    "close_phrase": "",
+    "meeting_2_ask": "Obviously, if the sale goes through, drop me a WhatsApp or an email or something like that, and we pick up next stages. And if not, if you don't hear from me, I'll probably touch base sort of December or something",
+    "total_duration_mins": 15,
+    "talk_ratio_zac_pct": 75
+  },
+
+  "lead_responses": [
+    {
+      "what_lead_said": "Is that after all like, fees, agency fees ... is that after Stayful's fees?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Yes — the only things to pay out of that are the mortgage and bills.",
+      "lead_follow_up": "And council tax and whatnot, things like that.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "This is not a guaranteed rent arrangement, is it? ... Do you do guaranteed rent?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "No, it's a projection — normally within about 10% either way. We do guaranteed rent for some properties but wouldn't for Birmingham.",
+      "lead_follow_up": "Got you, got you. Yeah, that's fair.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "How does it work? Is my property listed on Stayful's website, or does Stayful fully manage it?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Fully managed: Airbnb, Booking.com and our direct site; dynamic pricing, guest screening, deposits, check-ins, cleaning, repairs. You handle mortgage, bills and compliance; three tools — calendar, messaging app, monthly statement with payout 1st-5th.",
+      "lead_follow_up": "Yeah, okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Do you do the high, medium, low weekly projection? ... what stage do you say you can provide that? ... if we can do it now, could we do it now?",
+      "category": "question",
+      "meeting_phase": "closing",
+      "zac_responded_with": "Yes, signed by a director as brokers require — but get the offer accepted first and do it at the lending stage with the lender you'll actually use, otherwise you can pay for one that's wasted.",
+      "lead_follow_up": "Okay, yeah, no, that's good to know.",
+      "resolved": true
+    }
+  ],
+
+  "conversion_gaps": [
+    {
+      "gap": "Pre-purchase eligibility checks not raised: the mortgage product must permit short letting (standard BTL often doesn't) and the Altitude lease/building rules must allow short lets",
+      "category": "qualification",
+      "evidence": "Lead is at AIP stage with a generic lender and buying into a managed block; neither topic came up on the call",
+      "how_to_fill": "For every PURCH lead buying a flat, ask about lender product and lease short-let clauses before completion — raised in the action plan",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Pre-qualifier concerns (income consistency/quiet months, damage or theft, input on maintenance, nervous about early weeks) were not addressed directly on the call",
+      "category": "concern_not_surfaced",
+      "evidence": "Monday long_text_mm2pse8d: 'Income picture: Still have concerns about quiet months ... Biggest worry about guests: Damage or theft ... First booking timing: Still nervous about the early weeks'; action plan S3: 'Whether the income is really achievable'",
+      "how_to_fill": "Read presentation responses before the call and open with the lead's stated worries — especially when the lead is quiet and says little",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "January shown as the peak month (£4,216) and September trough (~£700) without explanation; deck headline net (£27,204) disagrees with its own forecast array (£31,200)",
+      "category": "figure_accuracy",
+      "evidence": "\"Peak month being sort of around £4,000, which is actually sending in January, which is a little bit surprising if I'm honest.\"",
+      "how_to_fill": "Sanity-check seasonality and headline-vs-forecast consistency before the meeting; anchor on the annual total",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Lead had barely read the report and said little — engagement low, decision entirely gated on the purchase",
+      "category": "engagement",
+      "evidence": "\"I haven't really had an in-depth look at this report myself\"",
+      "how_to_fill": "Use the signed broker income projection as the re-engagement trigger once the offer is accepted",
+      "filled_in_action_plan": true
+    }
+  ],
+
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac proactively offering the signed income projection brokers require",
+      "lead_response": "Yeah, yes, that's, that's what — yeah.",
+      "phase": "closing",
+      "archetype_relevant": ["analytical-evaluator", "certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Honest advice not to get the projection until the offer is accepted, to avoid paying for a wasted document",
+      "lead_response": "Okay, yeah, no, that's good to know.",
+      "phase": "closing",
+      "archetype_relevant": ["certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Setup service or free setup guide offered for when he completes",
+      "lead_response": "Cool, cool. Sounds good.",
+      "phase": "closing",
+      "archetype_relevant": []
+    }
+  ],
+
+  "friction_moments": [
+    {
+      "what_caused_friction": "Unexplained January peak in the forecast",
+      "lead_response": "Yeah.",
+      "recovery_attempted": "Zac flagged it himself as surprising and promised a deeper look; action plan added an amber caveat",
+      "resolved": false
+    }
+  ],
+
+  "zac_language": {
+    "opening_phrases": ["I thought I'd start just by sort of understanding a bit on your current situation and situation with the property."],
+    "transition_phrases": ["So this is sort of our likely case when it comes to revenue, but obviously we need to know what the best and the worst case is as well.", "What that sort of ends up looking like from your perspective on sort of day-to-day oversight."],
+    "reassurance_phrases": ["We normally get sort of within sort of 10% accuracy of this either way.", "I've done it, we do it all the time, so I'll be able to do that for you."],
+    "emphasis_phrases": ["the only thing you'll have to deal with is going to be making sure the mortgage is paid, bills are paid, and like gas safety certificates"],
+    "analogies_used": ["Messaging app 'like WhatsApp but for businesses'"],
+    "numbers_framing": "Gross → net payout → ADR/occupancy → worst (September) and best (January) months, flagging the odd January peak himself",
+    "objection_handling_pattern": "Short, honest answers (no guaranteed rent in Birmingham); adds value around the lead's actual next step (broker projection timing) instead of pushing for a decision"
+  },
+
+  "profile_psychology_intersection": {
+    "profile_type": "PURCH",
+    "emotional_profile": "",
+    "what_they_focused_on": ["Whether net is after all fees", "Guaranteed rent", "What 'fully managed' covers", "Signed income projection for his broker and its timing"],
+    "what_they_needed_most": ["Getting the offer accepted and the purchase completed", "A broker-acceptable signed income projection at the lending stage", "Reassurance on quiet months and damage (pre-qualifier answers)"],
+    "what_fell_flat": ["Nothing overtly — engagement was simply low because the report hadn't been read"],
+    "recommended_meeting_adjustment": "For early-stage PURCH leads with an offer still out, keep the meeting short, surface lender-product and lease short-let checks before completion, address the pre-qualifier worries explicitly, and set the broker projection as the concrete re-engagement point"
+  },
+
+  "action_plan_responses": {
+    "s1_income_reaction": "Higher than I thought",
+    "s2_ltl_thinking": "Short-let clearly makes more sense",
+    "s3_biggest_question": "Whether the income is really achievable",
+    "s4_readiness": "Need more time to think this over",
+    "s3_matches_meeting_gap": true,
+    "s4_contradicts_meeting": false
+  }
+}

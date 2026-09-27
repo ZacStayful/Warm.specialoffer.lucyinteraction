@@ -2,9 +2,9 @@
   "schema_version": "3.0",
   "profile_type": "STL-SW",
   "profile_description": "Existing property — switching from long-let to short-let",
-  "total_entries": 45,
-  "last_updated": "2026-09-20",
-  "data_note": "Run 2026-09-20 added 1 entry (102, Karen Lee — never-let new-build/conversion, filed STL-SW as nearest fit) and updated total_entries/conversion_data plus two matching top_conversion_gaps frequencies only. Prior data_note carried forward: the run 2026-09-13 additions (093, 096, 098, 101) also only updated totals/conversion_data — none of the 5 most recent entries had a Monday-sourced canonical archetype (psychology columns absent from the live board), so most_common_emotional_profiles/delays/green_lights, top_questions, top_objections, what_moves_them, and language_to_use remain stale as of 2026-08-30. Recommend a dedicated re-merge pass.",
+  "total_entries": 46,
+  "last_updated": "2026-09-27",
+  "data_note": "Run 2026-09-27 added entry 105 (Inez, Thamesmead — DELAYED, DLY-TEN + DLY-FUR + DLY-OTH, no offer): delay counts and green-light percentages recomputed on denominator 46 (older counts remain stale per prior note), directly matching items and conversion_data updated. Prior note: Run 2026-09-20 added 1 entry (102, Karen Lee — never-let new-build/conversion, filed STL-SW as nearest fit) and updated total_entries/conversion_data plus two matching top_conversion_gaps frequencies only. Prior data_note carried forward: the run 2026-09-13 additions (093, 096, 098, 101) also only updated totals/conversion_data — none of the 5 most recent entries had a Monday-sourced canonical archetype (psychology columns absent from the live board), so most_common_emotional_profiles/delays/green_lights, top_questions, top_objections, what_moves_them, and language_to_use remain stale as of 2026-08-30. Recommend a dedicated re-merge pass.",
   "typical_situation": "Lead already owns a property that is currently on a standard long-term tenancy, owner-occupied, or recently vacated, and is considering switching it to short-let to get a better return — often triggered by a mortgage-rate shock, a bad tenant experience, an empty or underperforming property, or simply wanting more income from an existing asset.",
   "typical_motivation": "Escape a specific pain point (a rising mortgage payment, tenant/HMO management burden, an underperforming or empty property) and capture a meaningfully higher net return than the current or available long-let option, while keeping management genuinely hands-off.",
   "typical_timeline": "Usually gated by a concrete event that has to happen first — a sitting tenant's notice period ending, a renovation or refurb finishing, a remortgage date, or a personal circumstance (a property sale, relocation) — rather than being ready immediately, even once the financial case is already accepted.",
@@ -38,58 +38,58 @@
   "most_common_delays": [
     {
       "delay_type": "DLY-FUR",
-      "count": 6,
-      "percentage": 15.0
+      "count": 7,
+      "percentage": 15.2
     },
     {
       "delay_type": "DLY-OTH",
-      "count": 6,
-      "percentage": 15.0
+      "count": 7,
+      "percentage": 15.2
     },
     {
       "delay_type": "DLY-TEN",
-      "count": 5,
-      "percentage": 12.5
+      "count": 6,
+      "percentage": 13.0
     },
     {
       "delay_type": "DLY-MOV",
       "count": 3,
-      "percentage": 7.5
+      "percentage": 6.5
     },
     {
       "delay_type": "mortgage-structure-decision",
       "count": 2,
-      "percentage": 5.0
+      "percentage": 4.3
     }
   ],
   "most_common_green_lights": [
     {
       "green_light_type": "GL-TIME",
       "count": 10,
-      "percentage": 25.0
+      "percentage": 21.7
     },
     {
       "green_light_type": "GL-MGMT",
       "count": 7,
-      "percentage": 17.5
+      "percentage": 15.2
     },
     {
       "green_light_type": "GL-SELF",
       "count": 7,
-      "percentage": 17.5
+      "percentage": 15.2
     }
   ],
   "what_meeting_should_lead_with": "Open by naming the specific pain driving them away from their current arrangement (a rising mortgage, a bad tenant, an empty or underperforming property) and mirror it back directly, then present a worst-case-inclusive net income figure against their actual current or available long-let return — this profile converts when the numbers are concrete and the hands-off model is confirmed early, not when STL is pitched as a generic upgrade.",
   "top_questions": [
     {
       "question": "How does STL income compare to what I'm getting, or could get, from a long-term let?",
-      "frequency": 21,
+      "frequency": 22,
       "confidence": 0.53,
       "best_answer": "Give a direct net-vs-net comparison against their actual current or quoted LTL figure, with a worst-case month included so the comparison holds even in a weak month."
     },
     {
       "question": "What furnishing/setup is needed and what will it cost?",
-      "frequency": 8,
+      "frequency": 9,
       "confidence": 0.85,
       "best_answer": "Give a concrete itemised estimate as early as possible, and be candid where self-furnishing might be cheaper — honesty here builds more trust than protecting the setup-quote sale."
     },
@@ -107,7 +107,7 @@
     },
     {
       "question": "How is guest quality and damage risk managed?",
-      "frequency": 6,
+      "frequency": 7,
       "confidence": 0.15,
       "best_answer": "Detail the security deposit, ID checks with guest-history screening, and insurance cover for serious damage, and clarify interior cameras are not permitted."
     },
@@ -143,7 +143,7 @@
     },
     {
       "question": "What guest type can I expect — business/contractor vs tourist/leisure?",
-      "frequency": 3,
+      "frequency": 4,
       "confidence": 0.6,
       "best_answer": "Point to specific local demand drivers (hospitals, universities, employers, events) that shape the natural guest mix, and confirm a mixed profile is normal and reduces single-segment risk."
     },
@@ -223,7 +223,7 @@
     },
     {
       "objection": "Property isn't ready — renovation, prep work, or tenant notice still outstanding",
-      "frequency": 8,
+      "frequency": 9,
       "resolution_rate": 0.2,
       "best_response": "Set a light-touch, milestone-based check-in cadence tied to the actual blocker (refurb stage, notice date) rather than a fixed calendar follow-up."
     },
@@ -268,19 +268,19 @@
     {
       "gap": "No firm next-step date or meeting locked in before ending the call",
       "category": "no clear next-step commitment",
-      "frequency": 5,
+      "frequency": 6,
       "how_to_fill": "Pin a specific follow-up date/time (or inspection/visit slot) before ending every call rather than leaving it open-ended and dependent on the lead following up."
     },
     {
       "gap": "Furnishing/setup quote not finalised or sent, blocking the investment decision",
       "category": "cost_uncertainty",
-      "frequency": 5,
+      "frequency": 6,
       "how_to_fill": "Send an itemised furniture/setup cost breakdown promptly after the call so the lead can commit to a concrete spend figure."
     },
     {
       "gap": "Property not yet ready — renovation, prep work, or tenant notice still outstanding",
       "category": "timing",
-      "frequency": 6,
+      "frequency": 7,
       "how_to_fill": "Set a light-touch, milestone-based check-in cadence (tied to refurb stage or notice date) rather than a fixed calendar follow-up."
     },
     {
@@ -336,12 +336,18 @@
       "category": "trust",
       "frequency": 1,
       "how_to_fill": "Share verified occupancy data from comparable properties rather than relying on reassurance alone."
+    },
+    {
+      "gap": "Greater London property: the 90-night rule / planning permission for change of use not raised, and a non-existent 'short-let licence' requirement stated instead",
+      "category": "regulatory_accuracy",
+      "frequency": 1,
+      "how_to_fill": "For any Greater London address, cover the 90-night rule before quoting full-year figures and show a 90-night-capped scenario alongside (entry 105)."
     }
   ],
   "what_moves_them": [
     {
       "point": "Hands-off management model framing that matches the lead's stated need almost word-for-word",
-      "frequency": 6
+      "frequency": 7
     },
     {
       "point": "Direct, concrete worst-case/floor payout numbers that still clearly cover mortgage and bills",
@@ -357,7 +363,7 @@
     },
     {
       "point": "Concrete guest-vetting and security mechanics (deposit, ID checks, insurance) directly answering a damage/trust worry",
-      "frequency": 3
+      "frequency": 4
     },
     {
       "point": "Council-tax business-rates relief route framed as a concrete monthly saving",
@@ -423,9 +429,9 @@
     "Close with a specific, dated next step tied to whatever external event (tenant notice, refurb, remortgage) is already gating their timeline"
   ],
   "conversion_data": {
-    "total": 45,
+    "total": 46,
     "ready_now": 10,
-    "delayed": 35,
+    "delayed": 36,
     "had_meeting_2": 0,
     "converted_to_customer": 3,
     "most_common_lost_reason": "LTL vs STL margin too thin given very low mortgage; setup costs too high to justify switch"

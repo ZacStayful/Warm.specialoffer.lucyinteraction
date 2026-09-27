@@ -1,0 +1,286 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "105",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-09-25",
+  "transcript_quality": "full",
+
+  "lead_name": "Inez",
+  "email": "mitchjoyful@yahoo.com",
+  "monday_id": "13112205344",
+  "address": "49 Warrior Close, Thamesmead, London SE28 0NL (Royal Borough of Greenwich)",
+  "bedrooms": 2,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "",
+  "property_situation": "Owned 3rd-floor flat (small lift that sometimes breaks down), currently long-let unfurnished at £1,700/month to a family with children who moved in around March 2026. Owner cannot and will not force them out; estate-agent inspection due end of September/early October, after which she will ask about the tenant's plans. Would need full furnishing (~£5,000 via Stayful, or self-setup). Mortgage not discussed (deck's '£1,700 mortgage' is actually the rent). Name note: Monday item 'Inez'; Granola audio label 'Dauta Archibald'; Zac addressed her as 'Enis/Ennis' — full name unconfirmed.",
+  "property_type": "2-bed leasehold flat, 3rd floor with lift, Greater London",
+
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Sitting tenant family she cannot legally remove (periodic tenancy under the Renters' Rights Act, no possession ground for switching to STL) — plus, not raised on the call, the Greater London 90-night rule means the full-year forecast needs planning permission for change of use",
+  "language_signals": [
+    "Find out more before I take the leap.",
+    "I don't think I'm maximizing — well, I'm just exploring. I want to make sure that I'm getting the best.",
+    "I'm here to make money, not for charity in this case.",
+    "If someone wants to damage your property, you really — you just have to pray.",
+    "COVID came and we weren't expecting that ... surprises do happen.",
+    "legally I can't kick them out",
+    "I have to work with them. They got their children and all that.",
+    "I am thinking that this is more feasible than what I have currently going on. But yeah, my hands are tied."
+  ],
+  "portfolio_flag": false,
+
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+
+  "delay_signals": [
+    {
+      "type": "DLY-TEN",
+      "trigger_phrase": "I've got tenants in there, so I'll have to give them notice ... I also need to see when the tenant can move. So I can't do the same because legally I can't kick them out.",
+      "context": "Asked by Zac whether she had a timeframe in mind; tenant family moved in around March 2026 and the estate agent inspection is end of September/early October",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-FUR",
+      "trigger_phrase": "Unfurnished. Okay, all right, so there is a setup cost to factor in",
+      "context": "Current long let is unfurnished; Zac estimated ~£5,000 for Stayful to furnish, or a free self-setup guide; lead asked whether the fee was '£3,500' and will send pre-tenancy photos for a provisional quote",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "So Greenwich doesn't have that yet. They're — we are in consultation. ... it won't be long though before we are.",
+      "context": "Zac wrongly said London requires a short-let licence; the actual regulatory gate for a Greater London property is the 90-night rule — letting ~281 nights/yr as modelled needs planning permission for change of use. Identified post-call and disclosed in the action plan; not discussed with the lead live",
+      "timeline_given": "",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+
+  "green_light_signals": [],
+  "has_green_light": false,
+
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start just by understanding a bit more on your sort of current situation and situation with the property. We can go through the income projection, we go through our service, see if it lines up with what you're looking for.",
+    "rapport_topics": ["Joining by phone video because her laptop wouldn't connect"],
+    "pivot_to_business": "Also, is this a property you're looking to buy? Or do you already own this property? ... What's been the sort of interest in short-term letting?",
+    "income_intro": "Looking at gross of about £67,600 per year. About £5,600 per month. Now there's 3 costs to factor in when having a short-term let.",
+    "post_income_silence": "",
+    "how_it_works_transition": "Well, there's going to be a key thing that's going to be important if looking to make the transition. 2 things really, if I'm honest.",
+    "pre_close_setup": "What I'll do after this call is I'll just send you a summary of everything that we've spoken about. All the figures in like an action plan ... and then I'll attach our management agreement in there as well",
+    "close_phrase": "I mean, have you got a timeframe in mind when you're thinking of, yeah, I'd like to do this or no, I wouldn't? Or does it look appealing?",
+    "meeting_2_ask": "",
+    "total_duration_mins": 30,
+    "talk_ratio_zac_pct": 65
+  },
+
+  "lead_responses": [
+    {
+      "what_lead_said": "So these percentages, are they off of the rental, or what figure do you use?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Off the gross — what a guest pays in total — working back to your monthly payout; ~£2,900/month net, about £1,200 more than the long let, or ~£800 more once ~£500/month bills are added.",
+      "lead_follow_up": "Okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Do you service property in that area? ... In SE28 in particular?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Yes, we manage across London and in your area — we only speak to people in areas we can manage.",
+      "lead_follow_up": "Okay, and so these figures are of the general performance that you will see.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "So these clients, they're mainly business ... or are they holidaymakers?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "A mix — leisure (weekend events), university workers and visiting parents, contractors and insurance bookings; that mix is why demand is consistent all year.",
+      "lead_follow_up": "Oh, well, that was just me being curious.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "How long this property will be vacant for ... There is a tax, I call it a tax, for empty homes in Greenwich.",
+      "category": "objection",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "First said 3-4 empty nights a month, then corrected to about a week in four (~9 nights) at 77% occupancy.",
+      "lead_follow_up": "All right. Okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Access to the property, how do you normally ask? [for guests]",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Two key safes — one for guests with rotating codes, one for cleaners/contractors; owner calendar to block dates for her own visits.",
+      "lead_follow_up": "Okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "When somebody checks out ... does someone go in to inspect it?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Same-day clean with provisional inspection by the cleaner; formal inspection roughly every 3 months or when reviews dip.",
+      "lead_follow_up": "So the cleaner is the one who does the inspection.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "It's a small lift ... sometimes lift breaks down. Will someone be checking before the guests arrive?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Cleaners use the lift as much as guests, so they'd report it and guests would be told; the fix sits with the block managers.",
+      "lead_follow_up": "Yeah.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Would you be contacting me to contact maintenance? ... a leak, a plumbing issue, the washing machine not working",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "No — Stayful coordinates all maintenance via a Slack channel; owner approval only above £300 in a month; owner just covers mortgage, bills and safety certificates.",
+      "lead_follow_up": "Okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Would I need to buy towels and toiletries?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "No, only pillows and duvets; Stayful supplies towels, linen and supplies once the property is fully specced.",
+      "lead_follow_up": "Okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "And you said that fee is what, $3,500, did you say? For setting up the property?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Can't say off the top of my head — send photos and I'll give a provisional quote after the call.",
+      "lead_follow_up": "I should have some up-to-date photos before it was rented.",
+      "resolved": false
+    }
+  ],
+
+  "conversion_gaps": [
+    {
+      "gap": "Regulatory position misstated: Zac said London requires a short-let licence; the real constraint (Greater London 90-night rule → planning permission for change of use for ~281 nights/yr) was never raised",
+      "category": "regulatory_accuracy",
+      "evidence": "\"London has a licensing requirement, so you're going to have to speak to the council and get a short-term letting license\"",
+      "how_to_fill": "For any Greater London property, cover the 90-night rule and planning route before quoting a full-year forecast; show the 90-night-capped figure (~£11,261 net) alongside",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Tenant exit mechanics not explored — since 1 May 2026 tenancies are periodic with no section 21 and no possession ground for converting to STL",
+      "category": "timeline_clarity",
+      "evidence": "\"legally I can't kick them out ... They've only moved in in March\"",
+      "how_to_fill": "Frame the tenant's voluntary departure as the only trigger, tie follow-up to the early-October inspection, and avoid implying notice can be served",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "No follow-up date agreed despite a known upcoming milestone (estate-agent inspection end Sept/early Oct)",
+      "category": "no clear next-step commitment",
+      "evidence": "Call closed on 'I'll send you a summary' with no meeting_2 ask",
+      "how_to_fill": "Book a check-in for the week after the inspection when she'll know the tenant's plans",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Setup cost left vague — ~£5,000 said, lead heard £3,500",
+      "category": "cost_barrier",
+      "evidence": "\"And you said that fee is what, $3,500, did you say?\"",
+      "how_to_fill": "Quote standard 2-bed setup pricing in writing and send the provisional quote as soon as photos arrive",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Lease covenant (short-let permission in a leasehold block) not discussed",
+      "category": "qualification",
+      "evidence": "3rd-floor flat with shared lift and block managers",
+      "how_to_fill": "Confirm lease/building short-let permission in writing before any offer — per qualification-framework point 7",
+      "filled_in_action_plan": true
+    }
+  ],
+
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "~£800/month uplift after bills vs her £1,700 rent, framed as 'unlocking' profit",
+      "lead_response": "Yes, it does. I have gone ... contemplate and compare, contrast.",
+      "phase": "income_presented",
+      "archetype_relevant": ["analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Deposit (£200-£400) + ID check before check-in details are released, backed by platform insurance",
+      "lead_response": "Yeah, yeah, Airbnb definitely has.",
+      "phase": "how_it_works",
+      "archetype_relevant": ["certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "All maintenance coordinated by Stayful via Slack with approval only above £300/month",
+      "lead_response": "Okay.",
+      "phase": "how_it_works",
+      "archetype_relevant": ["certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Whole-call cumulative case for STL vs her current long let",
+      "lead_response": "I am thinking that this is more feasible than what I have currently going on.",
+      "phase": "closing",
+      "archetype_relevant": ["analytical-evaluator"]
+    }
+  ],
+
+  "friction_moments": [
+    {
+      "what_caused_friction": "Vacancy estimate changed mid-answer (3-4 nights → 9 nights a month)",
+      "lead_response": "All right.",
+      "recovery_attempted": "Self-corrected live ('I might have got that wrong') and reframed as one week in four",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "Zac asserted London needs a short-let licence; lead corrected him that Greenwich is still in consultation",
+      "lead_response": "So Greenwich doesn't have that yet. They're — we are in consultation.",
+      "recovery_attempted": "Reframed as an opportunity to get established before licensing arrives; the real 90-night planning issue was only disclosed post-call",
+      "resolved": false
+    }
+  ],
+
+  "zac_language": {
+    "opening_phrases": ["I thought I'd start just by understanding a bit more on your sort of current situation and situation with the property."],
+    "transition_phrases": ["Now there's 3 costs to factor in when having a short-term let.", "There's going to be a key thing that's going to be important if looking to make the transition. 2 things really, if I'm honest."],
+    "reassurance_phrases": ["The only real things you'll have to do is making sure the mortgage is paid, bills ... and then any safety certificates", "No, we'll sort all that out.", "They only get the check-in details once those 2 things happen."],
+    "emphasis_phrases": ["you're unlocking an extra £800 a month of basically profit onto your property", "The competition is actually quite low, like 4.7 and 68 reviews on average."],
+    "analogies_used": ["Slack channel described as 'like a business WhatsApp'", "Consistent demand explained by many reasons to stay vs a single-reason area that spikes and drops"],
+    "numbers_framing": "Gross → three costs → net, then a like-for-like comparison against the current rent after adding ~£500/month bills; worst month framed honestly as slightly below the long let after bills",
+    "objection_handling_pattern": "Answers each operational question concretely with the owner-facing tools; upfront about setup investment and return (100-200%); defers exact setup quote to photos rather than guessing"
+  },
+
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "",
+    "what_they_focused_on": ["Local coverage in SE28", "Guest mix and damage risk", "Vacancy nights (empty-homes charge worry)", "Who handles maintenance, lift breakdowns, inspections", "Setup cost"],
+    "what_they_needed_most": ["A way to transition that respects the sitting tenant family", "Honest regulatory position for London", "A firm setup quote", "Confidence she won't be pulled into day-to-day maintenance"],
+    "what_fell_flat": ["The 'licence' claim for London", "Shifting vacancy estimate"],
+    "recommended_meeting_adjustment": "For tenanted STL-SW leads in Greater London, qualify tenant exit route and the 90-night/planning position before presenting full-year STL figures; present a 90-night-capped scenario alongside, and set follow-up to the next tenancy milestone"
+  },
+
+  "action_plan_responses": {
+    "s1_income_reaction": "About what I expected",
+    "s2_ltl_thinking": "Still weighing it up",
+    "s3_biggest_question": "How guest damage and problems are handled",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": true,
+    "s4_contradicts_meeting": false
+  }
+}
