@@ -1,0 +1,212 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "108",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-09-29",
+  "transcript_quality": "full",
+  "lead_name": "Steve",
+  "email": "tradinglate@gmail.com",
+  "monday_id": "13069052494",
+  "address": "4 Willow Terrace, Glastonbury BA6 9HN",
+  "bedrooms": 3,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "",
+  "property_situation": "5-year self-hosting couple (wife Superhost), 2 properties on Airbnb at ~£30k/yr each, 60-80% occupancy; wants to hand off by end of November",
+  "property_type": "3-bed house",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Local proof: how many Glastonbury properties does Stayful manage; comparing 3-4 operators",
+  "language_signals": [
+    "we just want to take it easy a bit... Let somebody else run it for us",
+    "It's a success. We've developed it",
+    "Glastonbury is many events all year round... it's just crazy town",
+    "I'm kind of well-versed in how it works",
+    "there are some difficulties in operating from Glastonbury"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [],
+  "has_delay": false,
+  "green_light_signals": [
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "We've been operating Airbnb for 5 years now",
+      "context": "Opening answer",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "End of November",
+      "context": "Zac asked about timeframe",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start just by understanding a bit on your current situation and situation with the property, and then we can go through the figures and our service if it lines up with what you're looking for.",
+    "rapport_topics": [],
+    "pivot_to_business": "we can go through the figures and go through our service if it lines up with what you're looking for",
+    "income_intro": "£58,000 of gross, which is what guests pay in total... that kind of lines up with what we've projected",
+    "post_income_silence": "",
+    "how_it_works_transition": "I can go through a bit more on the figures, or I can just go through to the service... Which do you prefer?",
+    "pre_close_setup": "Manchester 3-bed case study projected vs actual",
+    "close_phrase": "",
+    "meeting_2_ask": "No meeting 2; 'I'll send you a summary... figures... examples'",
+    "total_duration_mins": 18,
+    "talk_ratio_zac_pct": 60
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "how many properties do you have in Glastonbury currently?",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "About 70 in total; would have to check Glastonbury count",
+      "lead_follow_up": "I just want to know you can do it... see your figures on a property you have in Glastonbury (asked again)",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "What percentage of your bookings come from Airbnb, Booking.com, construction workers?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "20-40% direct; property dependent",
+      "lead_follow_up": "You say there's not very many events in Glastonbury?",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "the TV's not working. And it's a £500 television... whose insurance, mine or yours?",
+      "category": "objection",
+      "meeting_phase": "objection_handling",
+      "zac_responded_with": "Damage deposit + Stayful guest cover insurance + ID checks",
+      "lead_follow_up": "we get damage from 3-day guests and 1-month guests",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "finding cleaners is hard... the best ones... we're not taking any more work on",
+      "category": "objection",
+      "meeting_phase": "objection_handling",
+      "zac_responded_with": "Approved contractor database with Google review thresholds, per-stay price incl. linen/supplies",
+      "lead_follow_up": "certainly if you could dig up some examples of Airbnbs you have in Glastonbury",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "15%, I think, is reasonable. Do you charge VAT on that?",
+      "category": "question",
+      "meeting_phase": "close",
+      "zac_responded_with": "Yes, plus VAT",
+      "lead_follow_up": "So it's 17%... 18%. Okay, I think that's good.",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Proof Stayful operates in Glastonbury (count of local properties, local examples)",
+      "category": "area_credibility",
+      "evidence": "asked twice how many Glastonbury properties; 'I really want to speak to people who are in the area already'",
+      "how_to_fill": "Pull Glastonbury portfolio count and send anonymised local examples within 24h (Zac cannot share another landlord's figures, but can share count/ratings/reviews)",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Damage liability on direct bookings (whose insurance)",
+      "category": "damage_protection",
+      "evidence": "£500 TV question; 'damage from 3-day guests and 1-month guests'",
+      "how_to_fill": "Put explicit direct-booking damage/insurance wording in the action plan",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Reliable local cleaners in a tight cleaner market",
+      "category": "process_clarity",
+      "evidence": "best cleaners already fully booked",
+      "how_to_fill": "Name vetting process and a local cleaner shortlist",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Projection matched his own ~£30k/property",
+      "lead_response": "Right, that's good news (Zac) / agreed fee reasonable",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "Manchester case study projected vs actual within 10%",
+      "lead_response": "Okay, all right",
+      "phase": "objection_handling",
+      "archetype_relevant": []
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Could not answer Glastonbury property count; refused to share another landlord's figures",
+      "lead_response": "I just want to know you can do it",
+      "recovery_attempted": "Offered Manchester case study and promised to send local examples",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Deck labelled property '4 The Terrace, Bellerby, Leyburn' and framed Glastonbury demand as festival-week only",
+      "lead_response": "Glastonbury is many events all year round",
+      "recovery_attempted": "Corrected in action plan and email",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "I thought I'd start just by understanding a bit on your current situation and situation with the property, and then we can go through the figures and our service if it lines up with what you're looking for."
+    ],
+    "transition_phrases": [
+      "I can go through a bit more on the figures, or I can just go through to the service. Might be a bit better for you."
+    ],
+    "reassurance_phrases": [
+      "it's normally within sort of 10%, I would say, either way"
+    ],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "Gross → his own results align → 15% management only extra",
+    "objection_handling_pattern": "Case-study proof of projected vs actual; transparent about what cannot be shared"
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "",
+    "what_they_focused_on": [
+      "local presence in Glastonbury",
+      "damage on direct bookings",
+      "cleaner availability"
+    ],
+    "what_they_needed_most": [
+      "Glastonbury portfolio count + local examples",
+      "explanation of net benefit vs his current ~£30k"
+    ],
+    "what_fell_flat": [
+      "Generic 'we manage 70 properties' answer",
+      "festival-only framing of the market"
+    ],
+    "recommended_meeting_adjustment": "For experienced EX-STL hosts whose income matches the projection, lead with 'time back + local operating proof', have the area property count ready before the call, and make the offer if GL-SELF + GL-TIME present."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  },
+  "classification": "READY_NOW",
+  "monday_status": "Warm due to call (Monday status5)"
+}

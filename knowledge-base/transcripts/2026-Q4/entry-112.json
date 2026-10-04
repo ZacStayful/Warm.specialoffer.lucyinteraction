@@ -1,0 +1,204 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "112",
+  "quarter": "2026-Q4",
+  "meeting_date": "2026-10-02",
+  "transcript_quality": "full",
+  "lead_name": "Arif Hossain",
+  "email": "arif.hossain909@gmail.com",
+  "monday_id": "13085093138",
+  "address": "6 Balfour Road, Bentley, Doncaster DN5 0NN",
+  "bedrooms": 2,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "",
+  "property_situation": "Owner-occupier in Portugal for a 1-year architecture contract; cash buy, no mortgage; property otherwise empty",
+  "property_type": "2-bed house (small bedroom used as office)",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Keys are with him in Portugal; office room to clear; wants guarantees ('rigid')",
+  "language_signals": [
+    "No point keeping the house empty",
+    "You can consider this particular property as test match",
+    "People promise hundreds of things, but they don't really keep their promises",
+    "I'm not hungry and greedy, but of course I need money",
+    "if I make like 60, 70 grand, I'm more than happy to go for retirement"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "I got all set of key with me now... we have to wait a little bit",
+      "context": "Access discussion",
+      "timeline_given": "Post keys by recorded next-day delivery; ~3 weeks to live after keys",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "contract can be executed immediately",
+      "context": "Timeframes",
+      "strength": "moderate"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "before I come back... start signing contracts",
+      "context": "Wants to sign before UK trip in ~2 weeks",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+  "meeting_flow": {
+    "opening_phrase": "(transcript begins mid-answer)",
+    "rapport_topics": [],
+    "pivot_to_business": "I would just pull up the figures",
+    "income_intro": "gross revenue of about £44,300... about £23,000 of net revenue... £1,900 a month",
+    "post_income_silence": "",
+    "how_it_works_transition": "I'll give you an overview of... guest communication, listing on multiple platforms, pricing, cleaning, key management",
+    "pre_close_setup": "Remote onboarding: sign, post keys, ~3 weeks to live",
+    "close_phrase": "",
+    "meeting_2_ask": "I'll send it via email and WhatsApp",
+    "total_duration_mins": 40,
+    "talk_ratio_zac_pct": 55
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "As long as I know whatever you're promising me... is rigid and you're guaranteeing me that, I'm more than happy",
+      "category": "objection",
+      "meeting_phase": "objection_handling",
+      "zac_responded_with": "Pretty confident within 6 months; within 10-15% accuracy; profitable on all 3 cases",
+      "lead_follow_up": "I can commit for a year",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "How will you charge fees and how do I get paid?",
+      "category": "question",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "Monthly payout 1st-5th; PDF statement on the 1st",
+      "lead_follow_up": "Right",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Can I transform my residential property to a business property?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Suggested limited company + company let (INCORRECT per intelligence entry; corrected in email)",
+      "lead_follow_up": "Of course I have no idea about it",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "one bedroom is my office... can't list as 1-bed",
+      "category": "objection",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Must be 2 bedrooms; recommend sofa bed",
+      "lead_follow_up": "Do you advise me to change couch for a sofa bed?",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Wants guarantees of what is promised",
+      "category": "contract_clarity",
+      "evidence": "'rigid and you're guaranteeing me'",
+      "how_to_fill": "Re-state no earnings guarantee but firm service commitments in agreement/action plan",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Key handover while abroad",
+      "category": "process_clarity",
+      "evidence": "all keys with him",
+      "how_to_fill": "Recorded next-day post; key safe link",
+      "filled_in_action_plan": true
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "No mortgage = profitable in worst, likely and best case",
+      "lead_response": "(agreement)",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "Remote onboarding by posting keys",
+      "lead_response": "That is a very good idea",
+      "phase": "how_it_works",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "Sofa bed suggestion",
+      "lead_response": "Do you advise me... yes",
+      "phase": "how_it_works",
+      "archetype_relevant": []
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Business-rates claim ('that would qualify... should be zero') was wrong",
+      "lead_response": "Of course I have no idea about it",
+      "recovery_attempted": "Corrected in email and plan",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "I thought I'd start just by understanding a bit on your current situation and situation with the property, and then we can go through the figures and our service if it lines up with what you're looking for."
+    ],
+    "transition_phrases": [],
+    "reassurance_phrases": [
+      "from a risk standpoint, I would say this is pretty low",
+      "profitable on all 3 anyway"
+    ],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "Gross → net → worst/best months → 33-review competition",
+    "objection_handling_pattern": "Reassure with no-mortgage; practical next steps"
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "",
+    "what_they_focused_on": [
+      "guarantees",
+      "key handover",
+      "office room",
+      "paid monthly or weekly"
+    ],
+    "what_they_needed_most": [
+      "clear promise/commitment wording",
+      "remote onboarding path"
+    ],
+    "what_fell_flat": [
+      "business-rates claim"
+    ],
+    "recommended_meeting_adjustment": "For cash-owning ABROAD leads with a portfolio plan, secure signature before their UK trip and make an offer when keys/access are resolved."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  },
+  "classification": "READY_SOON",
+  "monday_status": "Warm (Monday status5)"
+}

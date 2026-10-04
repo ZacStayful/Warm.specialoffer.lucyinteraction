@@ -1,0 +1,209 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "107",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-09-28",
+  "transcript_quality": "full",
+  "lead_name": "Rebecca Askham",
+  "email": "r.askham@hotmail.co.uk",
+  "monday_id": "13106331456",
+  "address": "Markham Mews, Markham Crescent, York YO31 8NS",
+  "bedrooms": 1,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "",
+  "property_situation": "Vacant 1-bed mews house owned by her parents (no mortgage), being furnished by Rebecca and her sister; coming off a planned long let",
+  "property_type": "1-bed mews house (unfurnished, being furnished)",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Setup cost and process (Action Plan S3); sister not on call; upfront furnishing spend",
+  "language_signals": [
+    "it's a big chunk of money that you're putting up front",
+    "how luxurious we kind of need to go with it",
+    "all the law changes in terms of making it a bit more difficult for landlords with long-term",
+    "it's not too onerous",
+    "any guidance would be definitely appreciated"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-FUR",
+      "trigger_phrase": "It's currently unfurnished, but me and my sister are in the process of getting furniture",
+      "context": "Explaining the mews was meant to be a long let but they chose short let",
+      "timeline_given": "Target on market before end of October; sister's availability uncertain",
+      "resolved_in_meeting": true
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "on the market definitely before the end of October",
+      "context": "Closing, giving ideal timeline",
+      "strength": "weak"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start just by understanding a bit on your current situation and situation with the property, and then we can go through the figures and our service if it lines up with what you're looking for.",
+    "rapport_topics": [
+      "York",
+      "her sister/parents' mixed-use site"
+    ],
+    "pivot_to_business": "we can go through some figures and go through our service",
+    "income_intro": "for the 1-bed flat, we're looking at sort of gross revenue about £51,000, which is about £4,200 a month... payout... about £26,400 per year",
+    "post_income_silence": "",
+    "how_it_works_transition": "One thing that's probably worth covering... how long does it take to sort of get there?",
+    "pre_close_setup": "free setup guide + case study links offered; 'I'll touch base in a couple of weeks, see how the refurb's going'",
+    "close_phrase": "",
+    "meeting_2_ask": "No meeting 2; informal check-in in ~2 weeks",
+    "total_duration_mins": 35,
+    "talk_ratio_zac_pct": 65
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "Why is there such a big difference between the 4,000? The £2,000",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Walked through 3 costs: platform commissions, cleaning/laundry ~18%, management 15%",
+      "lead_follow_up": "that makes a lot more sense",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "How long do you expect, or is it a bit too difficult to say?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "18 months to 2.5 years to reach peak; projected average after year one; 20% lower until 20-30 reviews",
+      "lead_follow_up": "Okay, yeah.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "what's actually involved in that 15%, like what do you do?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "End-to-end: platforms, dynamic pricing, screening, check-in/out, cleaning, maintenance; owner sees calendar, Slack, monthly statement",
+      "lead_follow_up": "perfect",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "how luxurious we kind of need to go with it",
+      "category": "objection",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Case study links, free setup guide, 'minimalistic but looks like effort'",
+      "lead_follow_up": "any guidance would be definitely appreciated",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "What do you mean by snagging?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Small things a guest might notice, e.g. wonky radiator; comes back in snagging report",
+      "lead_follow_up": "Right, okay.",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Furnishing standard/spend vs return for a premium York market",
+      "category": "setup_cost_justification",
+      "evidence": "how luxurious we kind of need to go; Action Plan S3 'setup cost and process'",
+      "how_to_fill": "Send case-study photos, free setup guide and furniture-pack supplier; give a concrete budget range",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Sister (co-decision-maker) and parents (legal owners/signatories) not on the call",
+      "category": "partner_alignment",
+      "evidence": "sister missed call; parents own the property",
+      "how_to_fill": "Send summary/action plan so Rebecca can relay; offer 3-way follow-up",
+      "filled_in_action_plan": true
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Explaining gross-to-net in three costs",
+      "lead_response": "that makes a lot more sense",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "Free setup guide and furniture-pack supplier",
+      "lead_response": "that'd be really helpful",
+      "phase": "how_it_works",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "Owner calendar, Slack, monthly statement",
+      "lead_response": "perfect",
+      "phase": "how_it_works",
+      "archetype_relevant": []
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Zac said 'the 1-bed flat' when the property is the 1-bed mews; omitted '+ VAT', £42/mo software fee and £1,000 early-exit fee",
+      "lead_response": "none audible",
+      "recovery_attempted": "Disclosed in action plan and email",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "I thought I'd start just by understanding a bit on your current situation and situation with the property, and then we can go through the figures and our service if it lines up with what you're looking for."
+    ],
+    "transition_phrases": [
+      "I don't know if you've got any questions about the service and how it works, or you want me to just go through it"
+    ],
+    "reassurance_phrases": [
+      "you've got the added benefit of having no mortgage... it's essentially just a waiting game"
+    ],
+    "emphasis_phrases": [
+      "probably one of the most competitive I've come across"
+    ],
+    "analogies_used": [],
+    "numbers_framing": "Gross → three named deductions → payout → best/worst month → 20% ramp-up caveat",
+    "objection_handling_pattern": "Explain mechanism plainly, give honest timeline, offer free resource"
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "",
+    "what_they_focused_on": [
+      "gross-to-net gap",
+      "fee scope",
+      "furnishing standard"
+    ],
+    "what_they_needed_most": [
+      "setup guidance",
+      "a sign-by date tied to the Christmas market window"
+    ],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": "For family-owned STL-SW with an unfurnished property, give the furnishing budget/standard early and name an honest sign-by date for the target launch."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "About what I expected",
+    "s2_ltl_thinking": "Still weighing it up",
+    "s3_biggest_question": "The setup cost and process",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": true,
+    "s4_contradicts_meeting": false
+  },
+  "classification": "READY_SOON",
+  "monday_status": "Warm (Monday status5)"
+}
