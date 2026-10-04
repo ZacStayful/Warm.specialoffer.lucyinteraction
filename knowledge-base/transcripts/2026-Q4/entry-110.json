@@ -1,0 +1,180 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "110",
+  "quarter": "2026-Q4",
+  "meeting_date": "2026-10-01",
+  "transcript_quality": "full",
+  "lead_name": "Lindsay Mennell Keating",
+  "email": "lindsay@ljmkproperties.com",
+  "monday_id": "13159786298",
+  "address": "Cowgill Barn, Cowgill, Dentdale LA10 5RJ",
+  "bedrooms": 3,
+  "profile_type": "PURCH",
+  "lead_profile_text": "Looking to buy a property for short term letting",
+  "stl_goal": "",
+  "property_situation": "Buying a barn (advertised 2-bed, would let as 3-bed); second viewing 2 Oct, minded to offer; lender already asked for management-company info",
+  "property_type": "3-bed barn (rural holiday let/second home)",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Offer not yet accepted; credibility of £71.5k gross vs two lower estimates",
+  "language_signals": [
+    "halfway to washing its face",
+    "flexibility over using the property",
+    "maximum returns isn't... helpful",
+    "we've got other income to prop it up"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-PUR",
+      "trigger_phrase": "second viewing tomorrow and minded to put in an offer",
+      "context": "Opening answer about the purchase",
+      "timeline_given": "Call back 8 Oct once offer accepted",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start just by understanding a bit on your current situation and situation with the property, and then we can go through the figures and our service if it lines up with what you're looking for.",
+    "rapport_topics": [],
+    "pivot_to_business": "I think we can go through some of the figures and then our service",
+    "income_intro": "about £71,500 of revenue, about just under £6,000 per month... payout... about £3,100 or £37,000 a year",
+    "post_income_silence": "",
+    "how_it_works_transition": "our next part... what do you get for that sort of service?",
+    "pre_close_setup": "ramp-up caveat 10-15% less for up to a year",
+    "close_phrase": "",
+    "meeting_2_ask": "give me a call back this time next week",
+    "total_duration_mins": 30,
+    "talk_ratio_zac_pct": 60
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "How did you arrive at that nightly rate and the overall gross? I've had a couple of other estimates that come in much lower.",
+      "category": "objection",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Based on 12 comparables; 3 nearby doing more; comps have momentum so expect 10-15% less for up to a year",
+      "lead_follow_up": "And you say it's not competitive. Is that simply because there isn't the supply of stock?",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Talk me through your fees again... do you take the platform fees off first?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "15% + VAT of gross after platform fees",
+      "lead_follow_up": "Okay",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Are there any restrictions on time owners can spend at the property?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "No; block dates and tell us via Slack",
+      "lead_follow_up": "That's reasonable",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "What experience did you have? How have you built that into your offering?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Own Airbnbs 6 years; frustrated with poor communication from managers; built Slack channel, vetting, review calls",
+      "lead_follow_up": "Yeah, okay",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Credibility of the gross vs other lower estimates",
+      "category": "income_proof",
+      "evidence": "a couple of other estimates that come in much lower",
+      "how_to_fill": "Verify 3-bed assumption from listing link; send comps with reviews",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Lender needs short-let/management info",
+      "category": "financial_readiness",
+      "evidence": "lenders already asked",
+      "how_to_fill": "Prepare lender letter / signed income projection on request",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Worst-case £1,700/month acceptable",
+      "lead_response": "I can live with that worst-case",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "No restrictions on owner stays",
+      "lead_response": "That's reasonable. Fair enough.",
+      "phase": "how_it_works",
+      "archetype_relevant": []
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Monday said 'no mortgage' but a lender is involved",
+      "lead_response": "n/a",
+      "recovery_attempted": "Corrected in intelligence entry",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "I thought I'd start just by understanding a bit on your current situation and situation with the property, and then we can go through the figures and our service if it lines up with what you're looking for."
+    ],
+    "transition_phrases": [],
+    "reassurance_phrases": [
+      "If you can live with the worst case, the rest of it's obviously all sort of benefit"
+    ],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "Gross → three costs → best/likely/worst months → rural seasonality",
+    "objection_handling_pattern": "Honest ramp-up caveat; story of own experience"
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "PURCH",
+    "emotional_profile": "",
+    "what_they_focused_on": [
+      "fees order",
+      "owner stays",
+      "Zac's experience"
+    ],
+    "what_they_needed_most": [
+      "lender documentation",
+      "offer outcome"
+    ],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": "For lifestyle PURCH buyers lead with flexibility and owner-stay freedom; wait for offer acceptance before any offer framing."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  },
+  "classification": "DELAYED",
+  "monday_status": "Warm (Monday status5)"
+}

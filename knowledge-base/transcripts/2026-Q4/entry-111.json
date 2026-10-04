@@ -1,0 +1,205 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "111",
+  "quarter": "2026-Q4",
+  "meeting_date": "2026-10-01",
+  "transcript_quality": "full",
+  "lead_name": "JJ",
+  "email": "jgberbo@yahoo.co.uk",
+  "monday_id": "13123396569",
+  "address": "Peters Close, Welling DA16 3LL",
+  "bedrooms": 5,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "Existing property looking for higher return",
+  "stl_goal": "",
+  "property_situation": "Owner-occupier already on Airbnb (self-managed, instant booking off), uses house ~6 weeks/yr, converting dining room to 5th bedroom",
+  "property_type": "5-bed house (4 + converting dining room)",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Guest quality/damage; commission; photography cost; Greater London 90-night rule not raised",
+  "language_signals": [
+    "quality guests",
+    "I don't want people having parties and causing problems",
+    "protecting the house",
+    "I want them to be realistic",
+    "some people... are trying to get an economy ticket and looking for first class",
+    "it does look encouraging"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "The only delay is setting up the beds",
+      "context": "Zac asked about timeframes",
+      "timeline_given": "1-2 weeks after beds assembled and photos taken",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "right now he's listed on Airbnb... I'm sort of managing myself",
+      "context": "Opening answer",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "The only delay is setting up the beds",
+      "context": "timeframe answer",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start just by understanding a bit on your current situation and situation with the property, and then we can go through the figures and our service if it lines up with what you're looking for.",
+    "rapport_topics": [],
+    "pivot_to_business": "Thanks for coming on. I thought I'd start understanding sort of what your situation is",
+    "income_intro": "about £8,000 a month, £102,000 a year of revenue... net £4,400 / £53,000",
+    "post_income_silence": "",
+    "how_it_works_transition": "we list you on multiple platforms anyway. 3 platforms we focus on",
+    "pre_close_setup": "Offered to resend figures with 6 blocked personal-use weeks",
+    "close_phrase": "",
+    "meeting_2_ask": "Next week would be fine by me (lead)",
+    "total_duration_mins": 45,
+    "talk_ratio_zac_pct": 60
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "my main priority has been protecting the house... two claims on Airbnb AirCover",
+      "category": "objection",
+      "meeting_phase": "objection_handling",
+      "zac_responded_with": "£350 deposit before check-in info, ID checks, platform insurance, cleaner photos after every clean",
+      "lead_follow_up": "£350 is too low... wall damage cost over £1,000",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "I think Booking.com does not have any insurance",
+      "category": "objection",
+      "meeting_phase": "objection_handling",
+      "zac_responded_with": "Claimed similar to Airbnb's (INCORRECT per intelligence entry)",
+      "lead_follow_up": "Uh-huh",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Photography £250-£350 is on a very high side... I've got my Samsung",
+      "category": "objection",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Own photographer fine; photos are his to keep; professional vs unrealistic",
+      "lead_follow_up": "I want them to be realistic",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "What I have to think about is that commission again",
+      "category": "objection",
+      "meeting_phase": "close",
+      "zac_responded_with": "Sent summary/action plan/agreement",
+      "lead_follow_up": "Next week would be fine by me",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Guest quality/damage protection for an owner who has claimed AirCover twice",
+      "category": "damage_protection",
+      "evidence": "two AirCover claims; £350 deposit 'too low'",
+      "how_to_fill": "Clear written damage/deposit/insurance process incl. Booking.com limits",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Commission worth it vs self-managing",
+      "category": "income_proof",
+      "evidence": "'that commission again'",
+      "how_to_fill": "Show net uplift from filling currently-declined nights and use of owner calendar",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Greater London 90-night rule for forecast nights",
+      "category": "process_clarity",
+      "evidence": "Greater London property; not raised on call",
+      "how_to_fill": "Disclose Route A/B in action plan",
+      "filled_in_action_plan": true
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Deposit-before-check-in + ID checks + cleaner photo record",
+      "lead_response": "That's exactly what we do (lead aligned)",
+      "phase": "objection_handling",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "Freedom to use own photographer; photos stay his",
+      "lead_response": "okay",
+      "phase": "how_it_works",
+      "archetype_relevant": []
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Zac said Booking.com has equivalent cover (wrong); 90-night rule not raised",
+      "lead_response": "Booking.com does not have any insurance, if I remember correctly",
+      "recovery_attempted": "Corrected in follow-up",
+      "resolved": false
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "I thought I'd start just by understanding a bit on your current situation and situation with the property, and then we can go through the figures and our service if it lines up with what you're looking for."
+    ],
+    "transition_phrases": [],
+    "reassurance_phrases": [
+      "I wouldn't worry about that too much because we have a lot of things in place to prevent bad guests"
+    ],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "Gross → net → low occupancy/high rate (59% at £472)",
+    "objection_handling_pattern": "Layered protection answer; concede photography choice"
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "",
+    "what_they_focused_on": [
+      "guest quality",
+      "damage",
+      "commission",
+      "photos"
+    ],
+    "what_they_needed_most": [
+      "accurate insurance facts",
+      "90-night rule disclosure"
+    ],
+    "what_fell_flat": [
+      "claiming Booking.com has equivalent cover"
+    ],
+    "recommended_meeting_adjustment": "For protection-led experienced hosts, verify platform insurance facts before the call and surface planning rules (Greater London 90 nights) in qualification."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  },
+  "classification": "READY_SOON",
+  "monday_status": "Warm (Monday status5)"
+}

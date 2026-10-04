@@ -1,9 +1,9 @@
 # Quick Stats — Stayful Web Meeting Intelligence
 
-**Entries:** 125 transcripts (2026-Q1→Q3; 4 processed this run — 103 Liaquat, 104 Byron Codrington, 105 Inez, 106 Rukiza Urhobo, all with full Granola transcripts) | **Confidence: STRONG** (50+ meeting threshold cleared)
+**Entries:** 131 transcripts (2026-Q1→Q4; 6 processed 2026-10-04 — 107 Rebecca Askham, 108 Steve, 109 Mike Conway, 110 Lindsay Mennell Keating, 111 JJ, 112 Arif Hossain, all with full Granola transcripts) | **Confidence: STRONG** (50+ meeting threshold cleared)
 
 ## Outcomes (manifest outcome_breakdown — approximate, see caveat)
-- Ready Now: 29 (23%) | Delayed: 94 (75%)
+- Ready Now: 30 | Ready Soon: 3 | Delayed: 96 (manifest buckets, approximate)
 - No Ready Soon/Nurture split exists in source data — only these two buckets are tracked.
 - Lost: 15 — tracked separately, overlaps the two buckets above, not additive. No new losses this run.
 - This run: 1 READY_NOW (103 Liaquat — R2R, furnished and certified, wants to go live in 5-7 days, verbally "we'll go ahead with that") and 3 DELAYED (104 ABROAD relocation + provider comparison; 105 sitting tenant + unfurnished + London planning; 106 purchase offer not yet accepted).
@@ -26,3 +26,10 @@ No change this run.
 - **R2R counter-example (103):** every prior R2R lead was thin-margin; Liaquat is an experienced developer with ~£4.2k projected net against ~£2k rent+bills, trialling Stayful on one house with Stockport, a 26-bed Blackpool hotel and a Manchester portfolio potentially to follow. Open item: he expects free photography.
 - **Recurring call errors this batch:** fee stated as 15% without "+ VAT" and the £42/mo software fee described as part of the management fee (104); London "short-let licence" asserted instead of the 90-night rule (105); deck headline net disagreeing with its own month-by-month forecast (103, 104, 106); unchecked auto-generated demand drivers (O2 Apollo for Knutsford, Tollerton airfield). All disclosed in the action plans; see response-library/do-not-say.json.
 - **Renters' Rights Act (from 1 May 2026):** 105 is the first entry where a sitting tenant is on a periodic tenancy with no possession ground for switching to STL — DLY-TEN with no date at all.
+
+## 2026-10-04 run (entries 107-112)
+- 1 READY_NOW (108 Steve, EX-STL, GL-SELF + end-Nov handover), 3 READY_SOON (107 Rebecca - furnishing for end-Oct; 111 JJ - beds + photos; 112 Arif - keys in post), 2 DELAYED (109 SELL, January launch; 110 PURCH, offer not yet accepted).
+- No offers made in any of the 6. 108 and 111 are possible missed offers (green light, no hard delay); recheck conversion at their follow-ups.
+- Delays +1 DLY-FUR, +1 DLY-PUR, +3 DLY-OTH. Green lights +2 GL-SELF, +3 GL-TIME.
+- Psychology columns still missing from Monday - 0 archetypes assigned.
+- New call errors: Booking.com insurance (111), business-rates company let (112), no local property count (108).

@@ -1,0 +1,180 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "109",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-09-30",
+  "transcript_quality": "full",
+  "lead_name": "Mike Conway (Granola says Mark)",
+  "email": "mconway@camargue.uk",
+  "monday_id": "13169125774",
+  "address": "London Road, Charlton Kings, Cheltenham GL52",
+  "bedrooms": 8,
+  "profile_type": "SELL",
+  "lead_profile_text": "(blank in Monday)",
+  "stl_goal": "",
+  "property_situation": "Owner of 8-bed house (no mortgage) plus separate 1-bed flat, selling; wants income while on the market",
+  "property_type": "8-bed house (analysed as 5-bed) + 1-bed flat",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "6-month initial term / £1,000 early-exit fee while selling; furnishing cost for large house",
+  "language_signals": [
+    "definitely better than zero (Zac)",
+    "the risk is quite low (Zac)",
+    "nothing's interrupting selling (Zac)"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "I'm probably looking about Jan (Zac paraphrase of lead timing)",
+      "context": "Zac asked about timeframes; January launch targeted",
+      "timeline_given": "January launch; touch base next week",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start just by understanding a bit on your current situation and situation with the property, and then we can go through the figures and our service if it lines up with what you're looking for.",
+    "rapport_topics": [],
+    "pivot_to_business": "we can go through some figures and go through our service",
+    "income_intro": "a gross figure about £121,000 a year... net revenue to you about £63,000 a year",
+    "post_income_silence": "",
+    "how_it_works_transition": "our next part... I'll just pull up a visual example of the calendar",
+    "pre_close_setup": "Option to pilot the 1-bed flat first",
+    "close_phrase": "",
+    "meeting_2_ask": "we'll touch base next week",
+    "total_duration_mins": 30,
+    "talk_ratio_zac_pct": 95
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "(mic-only) Can it go on unfurnished/as-is?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Must be fully furnished and guest-ready",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "(mic-only) Gardening cost?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Ad hoc, not a fixed monthly cost",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "(mic-only) How do estate agent viewings work alongside guests?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Block calendar dates, key safe for access",
+      "lead_follow_up": "",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "(mic-only) Does a 5-bed model undersell an 8-bed?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "No: comps are bigger and doing £178k-£200k",
+      "lead_follow_up": "",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Furnishing a very large house to guest-ready standard",
+      "category": "setup_cost_justification",
+      "evidence": "'chunky amount' for furnishing; must be fully furnished",
+      "how_to_fill": "Itemised setup quote for the 4-bed first stage",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "6-month term / £1,000 exit fee vs a sale that could complete sooner",
+      "category": "contract_clarity",
+      "evidence": "Zac flags as likely sticking point",
+      "how_to_fill": "Address head-on next call; explain exit options on sale",
+      "filled_in_action_plan": true
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Big comparables at £178k-£200k with fewer bedrooms",
+      "lead_response": "(inferred) agreement",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "Weekend ~£2,500 vs a month's long let",
+      "lead_response": "(inferred)",
+      "phase": "income_presented",
+      "archetype_relevant": []
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Live estimate: no analyser report on file",
+      "lead_response": "n/a",
+      "recovery_attempted": "Ran a live 5-bed estimate; 1-bed analyser bug flagged later",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [
+      "I thought I'd start just by understanding a bit on your current situation and situation with the property, and then we can go through the figures and our service if it lines up with what you're looking for."
+    ],
+    "transition_phrases": [],
+    "reassurance_phrases": [
+      "definitely better than zero",
+      "the risk is quite low",
+      "nothing's interrupting selling anyway"
+    ],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "Rate-led strategy; weekend ~£2,500 vs month's long let",
+    "objection_handling_pattern": "Anchor on comparables and low-risk (no mortgage)"
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "SELL",
+    "emotional_profile": "",
+    "what_they_focused_on": [
+      "viewings alongside guests",
+      "furnishing",
+      "owner responsibilities"
+    ],
+    "what_they_needed_most": [
+      "term/exit-fee clarity for a seller"
+    ],
+    "what_fell_flat": [],
+    "recommended_meeting_adjustment": "Lead with 'better than zero' and viewing logistics; address exit fee before the lead raises it."
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  },
+  "classification": "DELAYED",
+  "monday_status": "Warm (Monday status5)"
+}
