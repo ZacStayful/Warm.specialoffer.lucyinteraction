@@ -1,0 +1,189 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "107",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-09-28",
+  "transcript_quality": "summary_only",
+  "lead_name": "Rebecca Askham",
+  "email": "r.askham@hotmail.co.uk",
+  "monday_id": "13106331456",
+  "address": "Markham Mews, Markham Crescent, York YO31 8NS",
+  "bedrooms": 1,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Family-owned mews coming off long-let; run by lead and sister for their parents",
+  "stl_goal": "",
+  "property_situation": "1-bed mews, no mortgage, parents own it. Furnishing in progress, targeting market by end of October. Parents also own 2 tenanted flats and a shop.",
+  "property_type": "1-bed mews house, York",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Sister's availability and DIY furnishing alongside two full-time jobs; parents are legal owners and must sign",
+  "language_signals": [
+    "try it with the Muse House first",
+    "it's a big chunk of money that you're putting up front",
+    "how luxurious we kind of need to go with it",
+    "on the market definitely before the end of October, but whether that's realistic with my sister's timeframe, I'm not sure"
+  ],
+  "portfolio_flag": true,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-FUR",
+      "trigger_phrase": "we are currently furnishing, targeting the market by end of October",
+      "context": "Property still being furnished; bathroom lino snagging outstanding",
+      "timeline_given": "End of October, realistically mid-November Christmas window",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "on the market definitely before the end of October",
+      "context": "Lead stating target go-live",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "classification": "READY_SOON",
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+  "meeting_flow": {
+    "opening_phrase": "",
+    "rapport_topics": [],
+    "pivot_to_business": "",
+    "income_intro": "",
+    "post_income_silence": "",
+    "how_it_works_transition": "",
+    "pre_close_setup": "",
+    "close_phrase": "",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "Why is there such a big difference between the 4,000? The £2,000",
+      "category": "objection",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Walked gross to net: platform commission, cleaning/laundry ~18%, 15% management",
+      "lead_follow_up": "that makes a lot more sense",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "What's actually involved in that 15%?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Listings, pricing, guest comms, cleaning coordination, owner calendar, Slack and monthly statement",
+      "lead_follow_up": "perfect",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "How luxurious do we need to go?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "York is a premium market; offered free setup guide and furniture pack supplier",
+      "lead_follow_up": "that'd be really helpful",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "How long do you expect to reach projections?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "~20% below until 20-30 reviews; full average after year one; peak in 18 months to 2.5 years",
+      "lead_follow_up": "accepted",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Sister missed the call and parents are the signatories",
+      "category": "partner_alignment",
+      "evidence": "Sister absent; parents own title",
+      "how_to_fill": "Send summary, plan and agreement for sister; offer short joint call",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "How much to spend on interior finish",
+      "category": "setup_cost_justification",
+      "evidence": "how luxurious we need to go",
+      "how_to_fill": "Setup guide, supplier packs, case-study links",
+      "filled_in_action_plan": true
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Gross-to-net cost breakdown",
+      "lead_response": "that makes a lot more sense",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "analytical-evaluator",
+        "certainty-seeker"
+      ]
+    },
+    {
+      "what_caused_shift": "Free setup guide + furniture pack supplier",
+      "lead_response": "that'd be really helpful",
+      "phase": "how_it_works",
+      "archetype_relevant": [
+        "fast-path-gain-focused"
+      ]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Zac said '1-bed flat' for the 1-bed mews; deck CH_NET_Y inconsistent with FORECAST",
+      "lead_response": "none",
+      "recovery_attempted": "Disclosed in action plan/email",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "",
+    "what_they_focused_on": [
+      "gross vs net",
+      "fit-out standard",
+      "mixed-use valuation upside"
+    ],
+    "what_they_needed_most": [
+      "clear sign-by date tied to Christmas window",
+      "sister included"
+    ],
+    "what_fell_flat": [
+      "deck cost hierarchy bug"
+    ],
+    "recommended_meeting_adjustment": "Lead with cost breakdown, include co-decision-maker, use honest Christmas-window urgency (sign by ~16 Oct)"
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

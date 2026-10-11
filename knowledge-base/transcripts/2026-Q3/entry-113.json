@@ -1,0 +1,179 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "113",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-10-05",
+  "transcript_quality": "summary_only",
+  "lead_name": "Haydn Brown",
+  "email": "haydnbrown1965@icloud.com",
+  "monday_id": "13101715707",
+  "address": "The Old Coach House, Chinley SK23",
+  "bedrooms": 2,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "Self-managing multi-property host (3 short-lets), Superhost, wants higher return and eventually hands-off",
+  "stl_goal": "",
+  "property_situation": "2-bed coach house since Feb/Mar 2026, ~10 reviews, rates £120-130 vs projected £210; Leicester penthouse ruled out (mortgage £1,500)",
+  "property_type": "2-bed coach house conversion, High Peak",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Trust and control; scepticism about £200+ rates; solo-cleaner risk; winter timing",
+  "language_signals": [
+    "they're my babies",
+    "a job will only get done right if I do it",
+    "I just need to see the data you're seeing",
+    "you see the up here bit, you don't see the down here bit"
+  ],
+  "portfolio_flag": true,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [],
+  "has_delay": false,
+  "green_light_signals": [
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "self-managed on Airbnb and Booking.com",
+      "context": "Already live",
+      "strength": "weak"
+    }
+  ],
+  "has_green_light": true,
+  "classification": "NURTURE",
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+  "meeting_flow": {
+    "opening_phrase": "",
+    "rapport_topics": [],
+    "pivot_to_business": "",
+    "income_intro": "",
+    "post_income_silence": "",
+    "how_it_works_transition": "",
+    "pre_close_setup": "",
+    "close_phrase": "",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "I can't see how I'd get £200+ a night",
+      "category": "objection",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Review count 10 vs area average 68 forces rate drops",
+      "lead_follow_up": "review-count argument landed",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Are these direct bookings or still Airbnb?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Direct 10-20% once established",
+      "lead_follow_up": "ok",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "One person lets me down, one person's ill, I'm done",
+      "category": "objection",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Works with existing cleaners via WhatsApp and photos",
+      "lead_follow_up": "resonated",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Leicester - forget that, mortgage is £1,500",
+      "category": "objection",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "Agreed margin too thin",
+      "lead_follow_up": "accepted",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Proof that projections are accurate",
+      "category": "income_proof",
+      "evidence": "needs to see the data himself",
+      "how_to_fill": "Email breakdown for printing; Eastbank case study",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "What happens to existing listing/reviews",
+      "category": "process_clarity",
+      "evidence": "open question",
+      "how_to_fill": "Resolve on next call",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Review-count explanation of sacrificed rates",
+      "lead_response": "landed",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "analytical-evaluator",
+        "certainty-seeker"
+      ]
+    },
+    {
+      "what_caused_shift": "Keep his own cleaners",
+      "lead_response": "resonated",
+      "phase": "how_it_works",
+      "archetype_relevant": [
+        "loss-averse-switcher"
+      ]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Zac stated direct bookings 20-40% then 10-20%; Manchester example would not load; deck forecast array broken (Aug £0)",
+      "lead_response": "sceptical",
+      "recovery_attempted": "Disclosed in email",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "",
+    "what_they_focused_on": [
+      "control",
+      "data transparency"
+    ],
+    "what_they_needed_most": [
+      "data he can check"
+    ],
+    "what_fell_flat": [
+      "unverifiable headline numbers"
+    ],
+    "recommended_meeting_adjustment": "Show data transparently; confirm listing/review continuity"
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

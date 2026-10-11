@@ -1,0 +1,181 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "110",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-10-01",
+  "transcript_quality": "summary_only",
+  "lead_name": "Lindsay Mennell Keating",
+  "email": "lindsay@ljmkproperties.com",
+  "monday_id": "13159786298",
+  "address": "Cowgill Barn, Cowgill, Dentdale LA10 5RJ",
+  "bedrooms": 3,
+  "profile_type": "PURCH",
+  "lead_profile_text": "Lifestyle buyer: second home, holiday let, future retirement home",
+  "stl_goal": "",
+  "property_situation": "Second viewing 2 Oct, minded to offer; lender already asked for short-let info; listed as 2-bed, let as 3-bed (study)",
+  "property_type": "3-bed barn, Yorkshire Dales",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Purchase not agreed; credibility of £71.5k gross vs other lower estimates; 3-bed assumption to verify",
+  "language_signals": [
+    "minded to put in an offer",
+    "if we could rent it out at even 50% occupancy that would be good enough",
+    "it'd be nice if it washed its face",
+    "We want flexibility over using the property"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-PUR",
+      "trigger_phrase": "minded to put in an offer; second viewing tomorrow",
+      "context": "Purchase not agreed",
+      "timeline_given": "Offer expected accepted by 8 Oct",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "classification": "DELAYED",
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+  "meeting_flow": {
+    "opening_phrase": "",
+    "rapport_topics": [],
+    "pivot_to_business": "",
+    "income_intro": "",
+    "post_income_silence": "",
+    "how_it_works_transition": "",
+    "pre_close_setup": "",
+    "close_phrase": "",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "I've had a couple of other estimates that come in much lower",
+      "category": "objection",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Explained comparables and nightly rate derivation; 12 comps within 5.25km",
+      "lead_follow_up": "I can live with that worst-case scenario",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Do you take the platform fees off first?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Yes - management fee on gross after platform fees",
+      "lead_follow_up": "reasonable",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Are there any restrictions on owner stays?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "None; notify via Slack when blocking",
+      "lead_follow_up": "that's reasonable. Fair enough.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "What experience did you have?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Origin story: built Stayful after poor manager service",
+      "lead_follow_up": "positive",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Verify 3-bed spec from listing",
+      "category": "income_proof",
+      "evidence": "listed as 2-bed",
+      "how_to_fill": "Get listing link",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Lender documentation",
+      "category": "financial_readiness",
+      "evidence": "lender asked for management info",
+      "how_to_fill": "Prepare lender docs on request",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Worst/likely/best monthly range",
+      "lead_response": "I can live with that worst-case scenario",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "certainty-seeker",
+        "loss-averse-switcher"
+      ]
+    },
+    {
+      "what_caused_shift": "No owner-stay restrictions",
+      "lead_response": "that's reasonable",
+      "phase": "how_it_works",
+      "archetype_relevant": [
+        "status-quo-resistant"
+      ]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Other estimates much lower",
+      "lead_response": "challenged figures",
+      "recovery_attempted": "Comparables walk-through",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "PURCH",
+    "emotional_profile": "",
+    "what_they_focused_on": [
+      "flexibility",
+      "downside range",
+      "remote management"
+    ],
+    "what_they_needed_most": [
+      "owner-stay freedom"
+    ],
+    "what_fell_flat": [
+      "income-maximisation framing"
+    ],
+    "recommended_meeting_adjustment": "Lead with flexibility and protection, not yield; no urgency until offer accepted"
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

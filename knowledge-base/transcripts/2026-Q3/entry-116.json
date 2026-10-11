@@ -1,0 +1,195 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "116",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-10-09",
+  "transcript_quality": "summary_only",
+  "lead_name": "Callum",
+  "email": "callummanu@hotmail.com",
+  "monday_id": "13234691220",
+  "address": "Fairfield Farm, Cheadle Road, Alton ST10 4DH",
+  "bedrooms": 1,
+  "profile_type": "PURCH",
+  "lead_profile_text": "Buying rural multi-unit site (farmhouse, 3 cabins, barn) to convert to holiday lets",
+  "stl_goal": "",
+  "property_situation": "Mortgage; lender wants business plan and rental valuations; 2 cabins + barn have sitting tenants; completion before Christmas or Mar 2027",
+  "property_type": "Farmhouse + 3 cabins + barn, Staffordshire",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Lender and tenants gate completion; wants to self-manage first to keep costs down; fear of bad early reviews",
+  "language_signals": [
+    "we've hit a really good location",
+    "It could all just be hopes and dreams",
+    "We've never done short-term lets before",
+    "it only takes one bad review to ruin the whole thing"
+  ],
+  "portfolio_flag": true,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-PUR",
+      "trigger_phrase": "hoping to complete before Christmas, March 2027 realistic",
+      "context": "Purchase and lender conditions",
+      "timeline_given": "Dec 2026 to Mar 2027",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-TEN",
+      "trigger_phrase": "2 log cabins and the barn have sitting tenants",
+      "context": "Notice must be served by current owner",
+      "timeline_given": "Unknown",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "classification": "DELAYED",
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+  "meeting_flow": {
+    "opening_phrase": "",
+    "rapport_topics": [],
+    "pivot_to_business": "",
+    "income_intro": "",
+    "post_income_silence": "",
+    "how_it_works_transition": "",
+    "pre_close_setup": "",
+    "close_phrase": "",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "My biggest concern is getting reviews initially",
+      "category": "objection",
+      "meeting_phase": "objection_handling",
+      "zac_responded_with": "Review velocity 1 per 2 guests; expect ~20% lower initially",
+      "lead_follow_up": "partial",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Cleaner availability for back-to-back turnovers",
+      "category": "objection",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "2-3 vetted cleaning companies",
+      "lead_follow_up": "ok",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "You're going to send me an invoice every month?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Monthly statement",
+      "lead_follow_up": "ok",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "How do you deal with complaints and refunds?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Flexible where review pending; firm after bad review",
+      "lead_follow_up": "ok",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Rental valuation letter £80",
+      "category": "positive_shift",
+      "meeting_phase": "close",
+      "zac_responded_with": "Offered letter signed by Zac for lender",
+      "lead_follow_up": "immediate yes",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "VAT across multiple units",
+      "category": "financial_readiness",
+      "evidence": "VAT threshold",
+      "how_to_fill": "Specialist accountant advice (Zac claim unverified)",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Lender outcome on tenants",
+      "category": "financial_readiness",
+      "evidence": "lender needs business plan",
+      "how_to_fill": "Valuation letter, follow-up 26 Oct",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "£80 lender valuation letter",
+      "lead_response": "immediate yes",
+      "phase": "close",
+      "archetype_relevant": [
+        "fast-path-gain-focused"
+      ]
+    },
+    {
+      "what_caused_shift": "Validation of contractor cabins vs leisure pods split",
+      "lead_response": "resonated",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Tatenhill Airport listed as demand driver; summer read-back wrong; VAT halving claim unverified",
+      "lead_response": "none",
+      "recovery_attempted": "Removed/corrected in plan",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "PURCH",
+    "emotional_profile": "",
+    "what_they_focused_on": [
+      "reviews",
+      "VAT",
+      "cost"
+    ],
+    "what_they_needed_most": [
+      "lender paperwork"
+    ],
+    "what_fell_flat": [
+      "management pitch too early"
+    ],
+    "recommended_meeting_adjustment": "Win the valuation letter first; management is a later upsell"
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "109",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-09-30",
+  "transcript_quality": "summary_only",
+  "lead_name": "Mike Conway",
+  "email": "mconway@camargue.uk",
+  "monday_id": "13169125774",
+  "address": "London Road, Charlton Kings, Cheltenham GL52",
+  "bedrooms": 8,
+  "profile_type": "SELL",
+  "lead_profile_text": "Selling — short-let income while house is on the market",
+  "stl_goal": "",
+  "property_situation": "8-bed (modelled 5-bed) owned outright plus separate 1-bed flat; house would otherwise sit empty. Name check needed (Mike vs Mark). Target January launch.",
+  "property_type": "8-bed house + 1-bed flat, Cheltenham",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Likely sticking point is 6-month initial term / £1,000 exit fee for a seller; 5-bed model vs 8-bed reality",
+  "language_signals": [
+    "definitely better than zero",
+    "the risk is quite low"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "Property must be fully furnished and guest-ready; target January launch",
+      "context": "Seller; furnishing/guest-ready prerequisite",
+      "timeline_given": "January 2027",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "classification": "DELAYED",
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+  "meeting_flow": {
+    "opening_phrase": "",
+    "rapport_topics": [],
+    "pivot_to_business": "",
+    "income_intro": "",
+    "post_income_silence": "",
+    "how_it_works_transition": "",
+    "pre_close_setup": "",
+    "close_phrase": "",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "Can I list as-is / furnishing?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Must be fully furnished and guest-ready; existing chandeliers suit short-let",
+      "lead_follow_up": "inferred accepted",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Estate agent viewings alongside guests?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Block calendar dates, key safe access",
+      "lead_follow_up": "inferred accepted",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Gardening and ongoing costs?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Gardening ad hoc, not fixed monthly",
+      "lead_follow_up": "inferred accepted",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "5-bed model vs 8-bed reality",
+      "category": "objection",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Data thins beyond 5 beds; conservative model",
+      "lead_follow_up": "inferred accepted",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Contract term vs sale timing",
+      "category": "contract_clarity",
+      "evidence": "6-month term / £1,000 exit fee for a seller",
+      "how_to_fill": "Explain exit options relative to sale",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Analyser 1-bed report says long-term let stronger despite STL +55%",
+      "category": "income_proof",
+      "evidence": "report Next Step box contradicts numbers",
+      "how_to_fill": "Fix before sending",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Weekend at ~£2,500 vs a month's long let",
+      "lead_response": "inferred positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Mic-only transcript; lead words inferred",
+      "lead_response": "n/a",
+      "recovery_attempted": "none",
+      "resolved": false
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "SELL",
+    "emotional_profile": "",
+    "what_they_focused_on": [
+      "low risk",
+      "viewings compatibility"
+    ],
+    "what_they_needed_most": [
+      "pilot-first package"
+    ],
+    "what_fell_flat": [
+      "standalone flat margin"
+    ],
+    "recommended_meeting_adjustment": "Present 1-bed flat as pilot; house is the engine"
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

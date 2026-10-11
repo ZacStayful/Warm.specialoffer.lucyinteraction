@@ -1,0 +1,180 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "115",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-10-09",
+  "transcript_quality": "summary_only",
+  "lead_name": "Ryan Brady",
+  "email": "ryankbrady81@gmail.com",
+  "monday_id": "13243677063",
+  "address": "25 St James Place West, Plymouth PL1 3AT",
+  "bedrooms": 2,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Accidental landlord switching long-let to STL",
+  "stl_goal": "",
+  "property_situation": "2-bed GFF, long-letting at £1,200-1,300; mortgage renewal late Feb ~5.5%; refurb to early 2027; brother co-freeholder (fallen out)",
+  "property_type": "2-bed ground floor flat, Plymouth",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Brother's agreement (co-freeholder), lease change, holiday-let mortgage at Feb renewal",
+  "language_signals": [
+    "accidental landlord",
+    "I'm sat there like a sitting duck for 6 to 12 months not making anything",
+    "it's a better gross and a lower risk",
+    "it's kind of swaying my hand a bit really"
+  ],
+  "portfolio_flag": true,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "Ryan to speak to his brother; lease; mortgage renewal late Feb; refurb to early 2027",
+      "context": "Three gating items in sequence",
+      "timeline_given": "Late February 2027",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "classification": "DELAYED",
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+  "meeting_flow": {
+    "opening_phrase": "",
+    "rapport_topics": [],
+    "pivot_to_business": "",
+    "income_intro": "",
+    "post_income_silence": "",
+    "how_it_works_transition": "",
+    "pre_close_setup": "",
+    "close_phrase": "",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "Am I supposed to notify him of changes?",
+      "category": "question",
+      "meeting_phase": "objection_handling",
+      "zac_responded_with": "Must notify co-freeholder; get agreement first then update head lease",
+      "lead_follow_up": "ok",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Deposit - would that scare people off?",
+      "category": "objection",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "£350-400 refundable deposit, ID checks",
+      "lead_follow_up": "ok",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "How does a Leicester/Leeds company run a Plymouth property?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Local trade framework; can use own trades",
+      "lead_follow_up": "ok",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Tax deductibility as sole trader?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Corrected after call: FHL ended; 20% credit",
+      "lead_follow_up": "pending",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Brother consent and lease",
+      "category": "partner_alignment",
+      "evidence": "fallen out with brother",
+      "how_to_fill": "Ryan to speak to brother; deed of variation",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Holiday-let mortgage",
+      "category": "financial_readiness",
+      "evidence": "renewal Feb",
+      "how_to_fill": "Touch base end Feb 2027",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Net ~double long-let even with Y1 haircut",
+      "lead_response": "even 30% off it's still the better option",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "fast-path-gain-focused",
+        "analytical-evaluator"
+      ]
+    },
+    {
+      "what_caused_shift": "Zac built analyser software himself",
+      "lead_response": "genuinely impressed",
+      "phase": "how_it_works",
+      "archetype_relevant": [
+        "certainty-seeker"
+      ]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Zac said 'you don't have to notify anyone' and implied lease change optional",
+      "lead_response": "none",
+      "recovery_attempted": "Corrected in plan/email",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "",
+    "what_they_focused_on": [
+      "Section 21 risk",
+      "interest rate squeeze"
+    ],
+    "what_they_needed_most": [
+      "lease/legal guidance"
+    ],
+    "what_fell_flat": [
+      "headline vs array mismatch"
+    ],
+    "recommended_meeting_adjustment": "Cover freeholder/lease/lender early; no urgency"
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
