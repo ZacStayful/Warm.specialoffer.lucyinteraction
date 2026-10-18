@@ -2,9 +2,9 @@
   "schema_version": "3.0",
   "profile_type": "STL-SW",
   "profile_description": "Existing property — switching from long-let to short-let",
-  "total_entries": 46,
-  "last_updated": "2026-09-27",
-  "data_note": "Run 2026-09-27 added entry 105 (Inez, Thamesmead — DELAYED, DLY-TEN + DLY-FUR + DLY-OTH, no offer): delay counts and green-light percentages recomputed on denominator 46 (older counts remain stale per prior note), directly matching items and conversion_data updated. Prior note: Run 2026-09-20 added 1 entry (102, Karen Lee — never-let new-build/conversion, filed STL-SW as nearest fit) and updated total_entries/conversion_data plus two matching top_conversion_gaps frequencies only. Prior data_note carried forward: the run 2026-09-13 additions (093, 096, 098, 101) also only updated totals/conversion_data — none of the 5 most recent entries had a Monday-sourced canonical archetype (psychology columns absent from the live board), so most_common_emotional_profiles/delays/green_lights, top_questions, top_objections, what_moves_them, and language_to_use remain stale as of 2026-08-30. Recommend a dedicated re-merge pass.",
+  "total_entries": 51,
+  "last_updated": "2026-10-18",
+  "data_note": "Run 2026-10-18: count-only merge of entries 107-118 (+5); sub-distributions and question/objection lists NOT re-merged and are stale.",
   "typical_situation": "Lead already owns a property that is currently on a standard long-term tenancy, owner-occupied, or recently vacated, and is considering switching it to short-let to get a better return — often triggered by a mortgage-rate shock, a bad tenant experience, an empty or underperforming property, or simply wanting more income from an existing asset.",
   "typical_motivation": "Escape a specific pain point (a rising mortgage payment, tenant/HMO management burden, an underperforming or empty property) and capture a meaningfully higher net return than the current or available long-let option, while keeping management genuinely hands-off.",
   "typical_timeline": "Usually gated by a concrete event that has to happen first — a sitting tenant's notice period ending, a renovation or refurb finishing, a remortgage date, or a personal circumstance (a property sale, relocation) — rather than being ready immediately, even once the financial case is already accepted.",
@@ -429,9 +429,9 @@
     "Close with a specific, dated next step tied to whatever external event (tenant notice, refurb, remortgage) is already gating their timeline"
   ],
   "conversion_data": {
-    "total": 46,
+    "total": 51,
     "ready_now": 10,
-    "delayed": 36,
+    "delayed": 41,
     "had_meeting_2": 0,
     "converted_to_customer": 3,
     "most_common_lost_reason": "LTL vs STL margin too thin given very low mortgage; setup costs too high to justify switch"

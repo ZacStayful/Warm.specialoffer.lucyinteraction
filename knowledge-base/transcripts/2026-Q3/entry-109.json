@@ -1,0 +1,230 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "109",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-09-30",
+  "transcript_quality": "partial",
+
+  "lead_name": "Mike Conway",
+  "email": "mconway@camargue.uk",
+  "monday_id": "13169125774",
+  "address": "London Road, Charlton Kings, Cheltenham GL52",
+  "bedrooms": 8,
+  "profile_type": "SELL",
+  "lead_profile_text": "Selling: wants short-let income while the house is on the market. Two units: main house plus separate 1-bed flat.",
+  "stl_goal": "Earn short-let income from the empty house and a separate flat while they are on the market for sale",
+  "property_situation": "8-bed, 5-bath family home (analysed as 5-bed, sleeps 12) plus a separate 1-bed flat with its own access (sleeps 4), owned outright with no mortgage. A further flat has a sitting tenant and is excluded. Property is well furnished (chandeliers and fittings suit short-let). Name check: Monday says 'Mike', Granola says 'Mark' (Zac closes the call with 'Cheers, Mark'); surname inferred from email.",
+  "property_type": "Large detached family home plus separate 1-bed flat, freehold, no mortgage",
+
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Seller wants income while selling; 6-month initial term and £1,000 exit fee likely sticking point; furnishing cost; target launch January",
+  "language_signals": [
+    "Lead's own words unavailable: transcript is microphone-only, so lead language is inferred from Zac's replies",
+    "(inferred) wants income while the house is on the market",
+    "(inferred) asked about listing as-is and furnishing",
+    "(inferred) asked about gardening and ongoing costs",
+    "(inferred) asked about estate agent viewings alongside guests",
+    "(inferred) target launch around January"
+  ],
+  "portfolio_flag": false,
+
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "I know you said you're probably looking about Jan",
+      "context": "Zac's paraphrase of the lead's stated launch timing near the end of the call (lead's reply not captured); no urgency to sign now",
+      "timeline_given": "January launch target; touch base next week (due about 5 Oct 2026)",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+
+  "green_light_signals": [
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "I know you said you're probably looking about Jan",
+      "context": "Zac's paraphrase of a lead-stated launch target; inferred, lead's words not captured",
+      "strength": "weak"
+    }
+  ],
+  "has_green_light": true,
+
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+
+  "meeting_flow": {
+    "opening_phrase": "And then we can go through some figures and go through our service, see if it lines with what you're looking for.",
+    "rapport_topics": ["Property photos, chandeliers and furnishings", "Renters' rights changes making long-let more open to alternatives"],
+    "pivot_to_business": "I'm just trying to pull up the figures for the property and I can't seem to find it on our system anywhere. So what I might have to do is a live estimate for you.",
+    "income_intro": "So we're looking at a gross figure about £121,000 a year, so about £10,000 a month, with a net revenue to you about £63,000 a year, a little over £5,000 a month.",
+    "post_income_silence": "",
+    "how_it_works_transition": "So for this property, we focus on really 3 areas ... different short-let platforms. We list on 3 platforms, our own direct booking site, Airbnb, and Booking.com.",
+    "pre_close_setup": "Anything to factor with that is obviously furnishing. Property of this size, it's going to be a chunky amount.",
+    "close_phrase": "I'll sort of send like a summary of everything we've got and the reports. I'll also send our management agreement so you can have a read of some of the terms.",
+    "meeting_2_ask": "Well, we'll touch base next week. I'll send over everything that we've done sort of due diligence-wise.",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+
+  "lead_responses": [
+    {
+      "what_lead_said": "(inferred) whether the house can be listed as-is, and the furnishing needed for a property of this size",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Has to be fully furnished and guest-ready: 'fully stocked kitchen, tellies, sofas, beds'; furnishing will be 'a chunky amount'; existing chandeliers and fittings suit the look.",
+      "lead_follow_up": "Not captured (mic-only transcript)",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "(inferred) concern about gardening and ongoing costs",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Gardening will be ad hoc, not a fixed monthly cost: 'it won't be loads'; Zac will eyeball it and not let it get out of hand.",
+      "lead_follow_up": "Not captured (mic-only transcript)",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "(inferred) how estate agent viewings work alongside guest stays",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Owner blocks agreed viewing dates on the live calendar so guests cannot book; key safes give the agent access and keys go back at the end of the day.",
+      "lead_follow_up": "Not captured (mic-only transcript)",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "(inferred) whether a 5-bed model is realistic for an 8-bed house, and whether occupancy will be high",
+      "category": "concern",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "5-bed modelling is conservative; comps at £178k (£800, 66%) and £200k (£666, 85%) are doing more; 'the property is not going to be 70-80% occupied' but nightly rate carries the revenue, a weekend can make about £2,500 versus £3-4k for a long-let month.",
+      "lead_follow_up": "Not captured (mic-only transcript)",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "(inferred) whether to launch the 1-bed flat first or both units together",
+      "category": "question",
+      "meeting_phase": "closing",
+      "zac_responded_with": "Could pilot the 1-bed while setting up the bigger house; launching both is cheaper and, with no mortgage, 'the risk is quite low' and nothing interrupts selling.",
+      "lead_follow_up": "Not captured (mic-only transcript)",
+      "resolved": true
+    }
+  ],
+
+  "conversion_gaps": [
+    {
+      "gap": "Figures were not on file before the meeting; Zac ran a live estimate mid-call, modelling an 8-bed house as 5-bed",
+      "category": "preparation",
+      "evidence": "\"I can't seem to find it on our system anywhere. So what I might have to do is a live estimate for you.\"",
+      "how_to_fill": "Run the property analysis before the call; send both final reports (house £63,094 net, flat £14,491 net, combined £77,585) with the follow-up",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "6-month initial term and £1,000 exit fee are likely sticking points for a seller and were not discussed on the call",
+      "category": "contract_terms",
+      "evidence": "Drive doc key intelligence; no mention of the contract term anywhere in the transcript",
+      "how_to_fill": "Address the term and exit conditions against a sale timeline before sending the agreement",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Analyser bug: the 1-bed report's next-step box says a long-term let looks stronger although its own numbers show STL ahead by £5,127 a year (+55%); flat margin is thin (as low as +£123/month)",
+      "category": "figure_accuracy",
+      "evidence": "Drive doc analyser bug note; Zac said 'you could probably even do a pilot with a 1-bedroom'",
+      "how_to_fill": "Flag or correct before sending the 1-bed report; present the flat as a pilot or package rather than a standalone win",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Lead's concerns and decision criteria cannot be verified because the transcript is microphone-only",
+      "category": "transcript_quality",
+      "evidence": "Only Zac's side was captured; lead language marked inferred",
+      "how_to_fill": "Confirm concerns on the touch-base call; check the name (Mike or Mark) and confirm the sale timeline against the January launch",
+      "filled_in_action_plan": false
+    }
+  ],
+
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Revealing there is no mortgage and the property is well furnished with chandeliers and fittings that suit short-let",
+      "lead_response": "(not captured; Zac: 'that makes a hell of a lot easier')",
+      "phase": "rapport",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "Adding the separate 1-bed flat lifted the projection to about £6,500 per month net",
+      "lead_response": "(not captured; Zac: 'that's quite interesting')",
+      "phase": "income_presented",
+      "archetype_relevant": ["opportunity-seeker"]
+    },
+    {
+      "what_caused_shift": "Zac's comparable properties (£178k, £200k) and the weekend-versus-month comparison (about £2,500)",
+      "lead_response": "(not captured; Zac continued without objection)",
+      "phase": "income_presented",
+      "archetype_relevant": ["analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Calendar blocking and key safe solution for estate agent viewings",
+      "lead_response": "(not captured; Zac: 'I don't see anything wrong with that')",
+      "phase": "how_it_works",
+      "archetype_relevant": []
+    }
+  ],
+
+  "friction_moments": [
+    {
+      "what_caused_friction": "Property data would not populate and the figures had to be produced live",
+      "lead_response": "Not captured (mic-only transcript)",
+      "recovery_attempted": "Zac apologised, took the full address, ran a live estimate and said he would look into why it did not populate",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "Large furnishing spend and uncertain occupancy for a big house",
+      "lead_response": "Not captured (mic-only transcript)",
+      "recovery_attempted": "Zac stressed nightly rate over occupancy, the high-earning comparable at £200k, and the no-mortgage low-risk position",
+      "resolved": true
+    }
+  ],
+
+  "zac_language": {
+    "opening_phrases": ["And then we can go through some figures and go through our service, see if it lines with what you're looking for."],
+    "transition_phrases": ["Anything to factor with that is obviously furnishing.", "Yeah, well, what I'll do is obviously there's quite a bit we've covered here."],
+    "reassurance_phrases": ["I'd say it's definitely better than zero.", "because you've got no mortgage, the risk is quite low and nothing's interrupting selling anyway"],
+    "emphasis_phrases": ["it's not necessarily always the case of does this property work in the market, but does your kind of property work?", "Not all properties are treated equally."],
+    "analogies_used": ["Weekend booking at about £2.5k versus a long-let month at £3-4k", "Short-let risk 'decreases the longer you do it because you get more predictable revenue'"],
+    "numbers_framing": "£121k gross, then about £63k net (18% cleaning estimate, 15% management), then upside via comps at £178k and £200k and the 1-bed flat lifting to about £6,500 per month",
+    "objection_handling_pattern": "Practical, operational answers (calendar blocking, key safes, ad hoc gardening); reframes risk using no mortgage; suggests a pilot with the 1-bed flat; defers contract detail to the agreement sent afterwards"
+  },
+
+  "profile_psychology_intersection": {
+    "profile_type": "SELL",
+    "emotional_profile": "",
+    "what_they_focused_on": ["Listing as-is and furnishing", "Gardening and ongoing costs", "Estate agent viewings alongside guests", "5-bed model versus 8-bed reality", "Owner responsibilities"],
+    "what_they_needed_most": ["Income while the house is on the market without disrupting the sale", "Low-risk pilot structure", "Clear furnishing cost expectations"],
+    "what_fell_flat": ["Unknown (mic-only transcript); live-estimate delay was the only visible hiccup"],
+    "recommended_meeting_adjustment": "For SELL leads, prepare figures beforehand, lead with viewing logistics and sale protection, present the flat as a pilot, and cover the 6-month term and exit fee up front"
+  },
+
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

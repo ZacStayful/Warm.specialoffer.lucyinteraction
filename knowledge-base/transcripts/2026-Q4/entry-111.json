@@ -1,0 +1,289 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "111",
+  "quarter": "2026-Q4",
+  "meeting_date": "2026-10-01",
+  "transcript_quality": "full",
+
+  "lead_name": "JJ",
+  "email": "jgberbo@yahoo.co.uk",
+  "monday_id": "13123396569",
+  "address": "Peters Close, Welling, DA16 3LL",
+  "bedrooms": 5,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "",
+  "stl_goal": "",
+  "property_situation": "Owner-occupier of a 4-bed house (dining room being converted to a 5th bedroom with zip-and-link beds) in Welling, Greater London (Bexley). Already on Airbnb only, self-managed with instant booking off, declines many requests so occupancy is low. Uses the house about 6 weeks a year (Easter, August, Christmas). Travels a lot. Monday mortgage figure of £300,000 looks like property value, not a monthly cost.",
+  "property_type": "5-bed house (4 plus converting dining room), driveway parking for one guest car",
+
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Wants to reconsider the commission and the photography cost; beds in the new 5th bedroom still to be assembled and new photos taken; Greater London 90-night rule not raised on the call",
+  "language_signals": [
+    "I travel a lot, so the house is empty a lot of the time",
+    "I'm sort of managing myself because I try to sort of vet guests",
+    "I wouldn't mind someone taking over the management",
+    "my main priority has been protecting the house",
+    "I want quality guests",
+    "I don't want people having parties and causing problems",
+    "it does look encouraging",
+    "what I have to think about is, you look at that commission again",
+    "Next week would be fine by me"
+  ],
+  "portfolio_flag": false,
+
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+
+  "delay_signals": [
+    {
+      "type": "DLY-FUR",
+      "trigger_phrase": "it does look encouraging from what I've heard before. So I guess what I have to think about is, you look at that commission again",
+      "context": "Answer to Zac asking whether it looks promising and what he is thinking",
+      "timeline_given": "Follow-up call next week ('Next week would be fine by me')",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "The only delay is setting up the beds. Then I would then need to take new photographs",
+      "context": "Asked about timeframes; the 5th bedroom beds still need assembling and new photos taken before relisting",
+      "timeline_given": "Beds being put together 'today'; transition 1-2 weeks once beds and photos done",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+
+  "green_light_signals": [
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "if you could agree on the committee, then yeah, I wouldn't mind someone taking over the management",
+      "context": "Confirming he wants to hand over the self-management; also 'increasing the occupancy as well'",
+      "strength": "moderate"
+    },
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "That's exactly what we do.",
+      "context": "JJ asked whether guests must provide photos or proof of the property's state for claims; Zac confirmed cleaners photograph after every clean",
+      "strength": "moderate"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "Next week would be fine by me.",
+      "context": "Offered a follow-up call a couple of weeks or a month out, he chose the sooner next-week call",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+
+  "meeting_flow": {
+    "opening_phrase": "Well, thanks for coming on. I mean, I thought I'd start understanding sort of what your situation is at the moment. A situation with the property.",
+    "rapport_topics": ["Video call link trouble (Google Meet alternative)", "JJ's nephew's wedding weekend visit", "Video tour of the house"],
+    "pivot_to_business": "Well, I suppose a couple of things that we can do is, one, we list you on multiple platforms anyway. So the 3 platforms we focus on is our own direct booking site, Airbnb, and then Booking.com as well.",
+    "income_intro": "I was looking at sort of about £8,000 a month, £102,000 a year of revenue. ... After all of our costs including the management, about £4,400, about £53,000 a year.",
+    "post_income_silence": "",
+    "how_it_works_transition": "I know you mentioned about having a bit of worries on guests and accepting good guests. I could take you through how we do that.",
+    "pre_close_setup": "if you're looking to come on board is we'll need to do a couple of things. We'll do an initial inspection with a cleaner and then go through a snagging list.",
+    "close_phrase": "I mean, does it look promising to you? Is it something you think you're wanting to do, or what are you thinking?",
+    "meeting_2_ask": "Do you know when it might be a good time to get back in touch? A couple of weeks or a month, or when are you thinking?",
+    "total_duration_mins": 45,
+    "talk_ratio_zac_pct": 60
+  },
+
+  "lead_responses": [
+    {
+      "what_lead_said": "I think Booking.com does not have any insurance, if I remember correctly.",
+      "category": "objection",
+      "meeting_phase": "guest_protection",
+      "zac_responded_with": "Yeah, they do. I can't remember what it's called now, but it's similar policies to Airbnb's, to be honest.",
+      "lead_follow_up": "I had a claim twice on Airbnb, it covered. But I think Booking.com does not have any.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "my main priority has been protecting the house. I've made a claim on Airbnb twice. ... I don't want people having parties and causing problems.",
+      "category": "concern",
+      "meeting_phase": "guest_protection",
+      "zac_responded_with": "We do normally have a no-party policy anyway; I wouldn't worry about that too much, we have a lot in place to prevent bad guests, the damage deposit is a big deterrent.",
+      "lead_follow_up": "£350 is quite low because somebody did something to the wall, it cost over £1,000 just to do in one room.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "£350 is too low ... some of the damages cost over £1,000",
+      "category": "objection",
+      "meeting_phase": "guest_protection",
+      "zac_responded_with": "That's what we charge, £350. Anything higher and you end up annoying guests even if they have no intention of damaging.",
+      "lead_follow_up": "Okay, so in terms of how do you check on the property from time to time?",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "How do you check on the property from time to time to ensure there's no damage, no changes?",
+      "category": "question",
+      "meeting_phase": "guest_protection",
+      "zac_responded_with": "Cleaners go in after every stay; full inspections 3 or 4 times a year, or triggered by guest complaints; cleaners photograph after each clean so there is a before record.",
+      "lead_follow_up": "Is there a way to confirm or verify with photographs ... to prove this was still the property when you arrived?",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "How much notice do you need if I need to block off some days in the calendar?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Block it yourself on the central calendar as soon as you know, as long as no guest is in; if it's empty there's nothing to worry about.",
+      "lead_follow_up": "Okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Okay, and your fees, or what is that?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "15% plus VAT on the gross bookings, after the platform commission (Airbnb takes 15%, then 15% plus VAT after that).",
+      "lead_follow_up": "Okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "That's on a high, very high side. I've got my Samsung and I get some very good photographs.",
+      "category": "objection",
+      "meeting_phase": "onboarding",
+      "zac_responded_with": "That's the price from the photographer; you're welcome to find another, we just want professional photos; the photos are yours to keep and reuse; the difference between £200 and £300 a night is in the photos.",
+      "lead_follow_up": "I want them to be realistic. Some people are trying to get an economy ticket and looking for first class.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "it does look encouraging from what I've heard before. So I guess what I have to think about is, you look at that commission again",
+      "category": "delay",
+      "meeting_phase": "closing",
+      "zac_responded_with": "Yeah, no worries. Do you know when it might be a good time to get back in touch? ... I'll give you a call next week.",
+      "lead_follow_up": "Yeah, yeah, sure, sounds good.",
+      "resolved": false
+    }
+  ],
+
+  "conversion_gaps": [
+    {
+      "gap": "Zac stated Booking.com has comparable damage insurance; JJ was right that it does not have an AirCover equivalent",
+      "category": "factual_error",
+      "evidence": "\"Yeah, they do. ... It's similar policies to Airbnb's, to be honest.\" versus JJ: \"I think Booking.com does not have any insurance, if I remember correctly.\"",
+      "how_to_fill": "Correct and disclose in follow-up; rely on the £350 deposit, ID checks, cleaner photos and inspections, not platform cover",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Greater London 90-night short-let rule was never raised; the £53k forecast (about 215 nights) needs planning consent",
+      "category": "compliance_not_raised",
+      "evidence": "Not mentioned anywhere in the transcript; property is in Welling, Bexley",
+      "how_to_fill": "Present Route A (90 nights, about £22k net) versus Route B (planning consent, about £46k net) before he commits to commission",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "£350 deposit judged too low and the commission is his stated thinking point; no value-versus-fee framing offered",
+      "category": "fee_objection",
+      "evidence": "\"So I guess what I have to think about is, you look at that commission again\"",
+      "how_to_fill": "Frame commission against the nights he currently declines and the control he keeps; show net payout rather than percentages",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Projection not adjusted for his personal-use weeks; he said 6 weeks, not 3, and an unrealistic-photo preference",
+      "category": "figure_accuracy",
+      "evidence": "\"for the contingencies, that's why I made it to 6 weeks\"",
+      "how_to_fill": "Resend revised projections with 6 blocked weeks and a realistic-photo brief",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Demand drivers in the deck were questionable for Welling and the £100,000 insurance claim is unverified",
+      "category": "figure_accuracy",
+      "evidence": "Pipeline notes in Drive doc; not discussed on the call",
+      "how_to_fill": "Use verified local drivers only; do not repeat the insurance claim",
+      "filled_in_action_plan": true
+    }
+  ],
+
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Deposit before check-in info, ID checks and cleaner photos after every clean",
+      "lead_response": "Is there a way to confirm or verify with photographs ... prove this was still the property when you arrived?",
+      "phase": "guest_protection",
+      "archetype_relevant": ["protector", "control-seeker"]
+    },
+    {
+      "what_caused_shift": "Freedom to use his own photographer and keep the photos",
+      "lead_response": "I want them to be realistic.",
+      "phase": "onboarding",
+      "archetype_relevant": ["control-seeker"]
+    },
+    {
+      "what_caused_shift": "Owner calendar to block Easter, August and Christmas weeks",
+      "lead_response": "Okay.",
+      "phase": "how_it_works",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "Transition is simple because his listing is out of date and calendar sparse",
+      "lead_response": "Yeah, it does look encouraging from what I've heard before.",
+      "phase": "closing",
+      "archetype_relevant": []
+    }
+  ],
+
+  "friction_moments": [
+    {
+      "what_caused_friction": "Zac said Booking.com has similar insurance to Airbnb; JJ disagreed",
+      "lead_response": "I think Booking.com does not have any insurance, if I remember correctly.",
+      "recovery_attempted": "Zac repeated that they do and moved on; corrected later in the action plan",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Photographer quote of £250-£350",
+      "lead_response": "That's on a very high side. I've got my Samsung and I get some very good photographs.",
+      "recovery_attempted": "Zac offered his own photographer option and explained the photo impact on nightly rate",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "£350 damage deposit seen as too low",
+      "lead_response": "£350 is too low.",
+      "recovery_attempted": "Zac said higher deposits annoy guests",
+      "resolved": false
+    }
+  ],
+
+  "zac_language": {
+    "opening_phrases": ["I thought I'd start understanding sort of what your situation is at the moment."],
+    "transition_phrases": ["Well, I suppose a couple of things that we can do is, one, we list you on multiple platforms anyway.", "I could take you through how we do that."],
+    "reassurance_phrases": ["I wouldn't worry about that too much because we have a lot of things in place to sort of prevent bad guests like that anyway.", "It's no problem, it's no problem."],
+    "emphasis_phrases": ["That's exactly what we do.", "There's a difference between unrealistic and professional."],
+    "analogies_used": [],
+    "numbers_framing": "Gross about £8,000/month and £102,000/year, then net about £4,400/month and £53,000/year, 59% occupancy at £472 a night; offered to strip out his typical personal-use weeks",
+    "objection_handling_pattern": "Reassures and explains process, offers alternatives (own photographer), but states positions firmly even when challenged (Booking.com cover, deposit amount)"
+  },
+
+  "profile_psychology_intersection": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "",
+    "what_they_focused_on": ["Guest quality and no parties", "Protecting the house after two AirCover claims", "Damage deposit size", "Inspection frequency and photo evidence", "Cost of photography", "Commission"],
+    "what_they_needed_most": ["Control and protection", "A way to fill the nights he currently declines", "Realistic listing photos", "Revised figures that block his personal weeks"],
+    "what_fell_flat": ["Booking.com insurance claim", "£350 deposit and photographer price", "Platform-cover reassurance in place of specifics"],
+    "recommended_meeting_adjustment": "Lead with control and protection for experienced self-hosts, do not assert platform insurance unless verified, raise the London 90-night rule early, and show net payout against the nights he currently declines"
+  },
+
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
