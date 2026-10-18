@@ -1,0 +1,254 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "110",
+  "quarter": "2026-Q4",
+  "meeting_date": "2026-10-01",
+  "transcript_quality": "full",
+
+  "lead_name": "Lindsay Mennell Keating",
+  "email": "lindsay@ljmkproperties.com",
+  "monday_id": "13159786298",
+  "address": "Cowgill Barn, Cowgill, Dentdale, LA10 5RJ",
+  "bedrooms": 3,
+  "profile_type": "PURCH",
+  "lead_profile_text": "",
+  "stl_goal": "",
+  "property_situation": "Buying a rural barn in Dentdale (Yorkshire Dales) as a second home, future retirement home and, short-to-medium term, a holiday let. Second viewing on 2 Oct, minded to offer. Advertised as 2-bed but would be let as 3-bed (downstairs study is bedroom-sized). Lender involved and has already asked for short-let/management company information. Monday deck wrongly says no mortgage.",
+  "property_type": "Rural barn conversion, 3 bed (advertised as 2 bed)",
+
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Purchase not agreed — second viewing 2 Oct, offer not yet made or accepted; decision gated on the offer being accepted",
+  "language_signals": [
+    "a second home for us, longer-term retirement home, but in the short to medium term, a holiday let",
+    "minded to put in an offer",
+    "if we could rent it out at even 50% occupancy rather than 60% occupancy, that would be good enough for me",
+    "We want flexibility over using the property",
+    "maximum returns isn't— I mean, it's helpful, but you know, we've got other income to prop it up if we needed to",
+    "it'd be nice if it washed its face",
+    "I've had a couple of other estimates that come in much lower",
+    "give me a call back this time next week"
+  ],
+  "portfolio_flag": false,
+
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+
+  "delay_signals": [
+    {
+      "type": "DLY-PUR",
+      "trigger_phrase": "So second viewing tomorrow and minded to put in an offer, yes.",
+      "context": "Answer when Zac asked whether it was offer accepted or still at viewing stage",
+      "timeline_given": "Call back 'this time next week' (Thu 8 Oct 2026) when offer hopefully accepted",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "That sounds pretty reasonable.",
+      "context": "Reaction to the monthly statement and payout process (statement 1st-5th)",
+      "strength": "moderate"
+    },
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "Yeah, sure, that's reasonable. Fair enough.",
+      "context": "Accepting the ask to notify the team via Slack when she blocks owner dates",
+      "strength": "moderate"
+    },
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "I can live with that worst-case scenario if that's the worst-case scenario.",
+      "context": "Reaction to the £1,700 worst-case monthly payout",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start just by understanding a bit more on your current sort of situation. I understand you're looking to buy a property, is that right?",
+    "rapport_topics": ["Lindsay in the middle of building works at her home property"],
+    "pivot_to_business": "All right, so I would assume we— well, I think what we should probably do, we can go through some of the figures and then our service, see if it sort of lines up with what you're looking for.",
+    "income_intro": "So we're looking at about £71,500 of revenue, about just under £6,000 per month. Which that translates roughly into what you can expect as a payout each month of about £3,100 or £37,000 a year.",
+    "post_income_silence": "",
+    "how_it_works_transition": "Our next part I suppose is, you know, what do you get for that sort of service? What does it look like for you? What do we cover? What's left for you?",
+    "pre_close_setup": "sometimes lenders will ask to want information from like a shortlet or like a management company to sort of pass their lending requirements. When it comes to that point, if they ask for that, just let me know.",
+    "close_phrase": "What I can probably do following this call is I can send you like a summary of everything we've spoken about and all the information into like an action plan.",
+    "meeting_2_ask": "Yeah, I'd say give me a call back this time next week. I will hopefully be in a position to say we're moving forward and offers have been accepted.",
+    "total_duration_mins": 25,
+    "talk_ratio_zac_pct": 65
+  },
+
+  "lead_responses": [
+    {
+      "what_lead_said": "Tell me a bit more about your company.",
+      "category": "question",
+      "meeting_phase": "opening",
+      "zac_responded_with": "Short-let management company started with business partner Martin; own Airbnbs for about 6 years; built the management because he wasn't getting the service or information he needed from the management companies he used.",
+      "lead_follow_up": "Excellent.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "How did you arrive at that nightly rate and the overall gross? So I've had a couple of other estimates that come in much lower.",
+      "category": "objection",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Based on 12 comparables of similar spec; 3 nearby properties doing more; caveat that comparables have months or years of reviews so expect 10-15% less for up to a year until momentum builds.",
+      "lead_follow_up": "Cool.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "And you say it's not competitive. Is that simply because there isn't the supply of stock?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Rural, not a built-up area, so low competition; most money made in April to August over 5 or 6 months, with January-March and September-December quiet and a small December spike.",
+      "lead_follow_up": "That's fine because we plan to use the property ourselves, so that's fine.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Just talk me through your fees again though, if you wouldn't mind. ... Do you take the booking platform fees off first and then charge your fees?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "15% plus VAT of gross bookings, which comes in after booking platform fees.",
+      "lead_follow_up": "Right. Okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Are there any restrictions? Because I know some of the booking sites and agents have restrictions on the amount of time owners can spend at the property.",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "No, you can stay as often as you like as long as no guest is booked; just tell us via the Slack channel when you block dates.",
+      "lead_follow_up": "Yeah, sure. Yeah, that's reasonable. Fair enough.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I'm really keen to hear about your experience. ... What were your priorities in terms of service? And how have you then built that into your offering to other clients?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Could see reviews but had no way to speak to anyone when things went south, just generic email replies; relied on the manager for regulation updates. Built vetting of cleaners and guests, a Slack channel for communication and regulation updates, and optional review calls every 3 months.",
+      "lead_follow_up": "Yeah, okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "if we could rent it out at even 50% occupancy rather than 60% occupancy, that would be good enough for me ... it'd be nice if it washed its face",
+      "category": "positioning",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Yeah, yeah, I understand, I understand. Okay.",
+      "lead_follow_up": "Lovely.",
+      "resolved": true
+    }
+  ],
+
+  "conversion_gaps": [
+    {
+      "gap": "Credibility of the £71.5k gross was not tested against the 'much lower' estimates she already holds; no one asked who gave them or what assumptions they used",
+      "category": "figure_credibility",
+      "evidence": "\"I've had a couple of other estimates that come in much lower.\"",
+      "how_to_fill": "Ask for the other estimates and reconcile line by line; lead with the worst-case she already accepts rather than the headline gross",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Pre-qualifier concerns (managing remotely, damage or theft, input on maintenance decisions) were not addressed on the call",
+      "category": "concern_not_surfaced",
+      "evidence": "Monday pre-qualifier: main concern managing remotely; biggest worry damage or theft; wants input on maintenance decisions. None raised in the transcript.",
+      "how_to_fill": "Read presentation responses before the call and cover remote management, deposits/ID checks and maintenance approval limits explicitly",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "3-bed assumption (advertised as 2-bed) unverified; Monday deck says no mortgage although a lender is involved",
+      "category": "figure_accuracy",
+      "evidence": "\"it's currently advertised as a 2-bed, but we rent it as a 3-bed. There's another downstairs room that's currently being used as a study\"",
+      "how_to_fill": "Get the listing link, check photos and spec, correct the deck's mortgage line before finalising projections",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Lender short-let/management paperwork is the one concrete next deliverable but no format or timing was agreed",
+      "category": "next_step",
+      "evidence": "\"They've already asked us, so if you can provide something, that would be helpful.\"",
+      "how_to_fill": "Offer to prepare the lender information pack ahead of the 8 Oct call and use it as the re-engagement hook",
+      "filled_in_action_plan": false
+    }
+  ],
+
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Best/likely/worst monthly payout range (£1,700 / £3,100 / £5,000)",
+      "lead_response": "Yeah, I can live with that worst-case scenario if that's the worst-case scenario.",
+      "phase": "income_presented",
+      "archetype_relevant": ["lifestyle-owner", "certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "No restrictions on owner stays and simple calendar blocking",
+      "lead_response": "Yeah, sure. Yeah, that's reasonable. Fair enough.",
+      "phase": "how_it_works",
+      "archetype_relevant": ["lifestyle-owner"]
+    },
+    {
+      "what_caused_shift": "Statement 1st-5th and payout explanation",
+      "lead_response": "That sounds pretty reasonable.",
+      "phase": "how_it_works",
+      "archetype_relevant": []
+    },
+    {
+      "what_caused_shift": "Zac's origin story, Slack transparency and regulation updates",
+      "lead_response": "Okay, no, that's helpful. Thanks, thanks for answering that one.",
+      "phase": "how_it_works",
+      "archetype_relevant": ["trust-seeker"]
+    }
+  ],
+
+  "friction_moments": [
+    {
+      "what_caused_friction": "Other estimates came in much lower than the Stayful projection",
+      "lead_response": "How did you arrive at that nightly rate and the overall gross? So I've had a couple of other estimates that come in much lower.",
+      "recovery_attempted": "Zac pointed to 12 comparables, 3 doing more, and added the 10-15% ramp-up caveat for up to a year",
+      "resolved": false
+    }
+  ],
+
+  "zac_language": {
+    "opening_phrases": ["I thought I'd start just by understanding a bit more on your current sort of situation."],
+    "transition_phrases": ["Just to give you an idea of what the difference is between this figure and this figure is really 3 costs.", "Our next part I suppose is, you know, what do you get for that sort of service?"],
+    "reassurance_phrases": ["it's definitely possible to achieve this", "If you can live with the worst case, the rest of it's obviously all sort of benefit.", "it's definitely going to be a good property, I would say. It's very low competition."],
+    "emphasis_phrases": ["You can stay as often as you like.", "Nothing to stop you booking it."],
+    "analogies_used": ["Slack channel 'like a business WhatsApp'"],
+    "numbers_framing": "Gross to payout via three costs (15% platform, ~18% cleaning/laundry, 15% management), then worst/likely/best case months; 10-15% ramp-up caveat stated up front",
+    "objection_handling_pattern": "Answers directly with comparables, volunteers the ramp-up caveat, then checks 'Is there any questions or concerns about any of the figures?'; does not push for a decision while purchase is unresolved"
+  },
+
+  "profile_psychology_intersection": {
+    "profile_type": "PURCH",
+    "emotional_profile": "",
+    "what_they_focused_on": ["Credibility of the nightly rate and gross versus lower estimates", "Fee mechanics and order of deductions", "Owner-stay restrictions", "Zac's experience and service priorities"],
+    "what_they_needed_most": ["Flexibility to use the property herself", "A realistic floor she can live with", "Lender-ready short-let/management information", "Confirmation the 3-bed assumption holds"],
+    "what_fell_flat": ["Nothing overtly; income maximisation framing is secondary to her lifestyle priorities"],
+    "recommended_meeting_adjustment": "Lead with flexibility, owner-stay freedom and the accepted worst case rather than income maximisation; reconcile her lower estimates; hold offer framing until the purchase offer is accepted"
+  },
+
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

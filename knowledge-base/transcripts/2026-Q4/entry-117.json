@@ -1,0 +1,276 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "117",
+  "quarter": "2026-Q4",
+  "meeting_date": "2026-10-12",
+  "transcript_quality": "full",
+
+  "lead_name": "Babu Anbalagan",
+  "email": "babuanand@gmail.com",
+  "monday_id": "13243261820",
+  "address": "26 Kings Road, High Wycombe HP11 1SA",
+  "bedrooms": 4,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Existing property looking for a higher return (Facebook enquiry)",
+  "stl_goal": "Higher return than a standard let; actively comparing management models and prefers a guaranteed rent arrangement",
+  "property_situation": "4-bed house, brand-new full refurbishment (stripped to the wall, rewired, replumbed, new kitchen and bathrooms, new flooring), keys just collected, completely unfurnished. Many prospective tenants queuing. Owner also has a Winchester property switched to guaranteed rent and a Manchester property. Parking needs a council permit (annual permit about 70 pounds; public car park across the street; considering buying a spot on the adjacent industrial estate). Mortgage question was asked but not answered; Monday rent/mortgage column shows '350k' (meaning unclear).",
+  "property_type": "4-bed house, newly refurbished, unfurnished",
+
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Wants a guaranteed-rent model, which Stayful does not offer on a managed basis; distrusts the 450 pound ADR; holds competing management proposals at 8 to 12 percent against Stayful's 15 percent",
+  "language_signals": [
+    "I'm a bit picky about whom should I choose",
+    "brand new, spanking new actually",
+    "what's the catch?",
+    "Do I just hand over the keys to you and then expect that $4,000 coming to my account?",
+    "it's definitely a little bit on the higher side of what, um, you know, I'm thinking",
+    "my preference would be Zach at this point in time",
+    "I would prefer, uh, sort of like, uh, you know, a guaranteed rate",
+    "only when you make the property occupied completely, only then I earn"
+  ],
+  "portfolio_flag": true,
+
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "I'm just holding on and, uh, maybe the next one week I need to decide either which way",
+      "context": "Comparing several management proposals, including very low commission rates; wants Zac to 'think through it and then see what best that you could offer'",
+      "timeline_given": "About one week to decide",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-FUR",
+      "trigger_phrase": "It's unfurnished. It does not have anything. When you walk in, you would find empty rooms, walls",
+      "context": "Property is entirely unfurnished; furnishing cost and approach not yet agreed. Zac offered a free setup guide or a furnishing quote once he has photos",
+      "timeline_given": "Photos to be sent via WhatsApp; Zac to reply by end of the day",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "my preference would be Zach at this point in time",
+      "context": "Stated after describing competing offers; preference for Zac is conditional on a guaranteed-rent style arrangement",
+      "strength": "moderate"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "maybe the next one week I need to decide either which way",
+      "context": "Property is ready now, keys collected and tenants queuing, so a decision window of about a week was given",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start by understanding a bit on your current situation. You know, interested in short letting. Um, yeah, just sort of where we're at with things, and then I can go through the figures and our service and see if it sort of lines up with what you're looking for.",
+    "rapport_topics": ["Audio and mute problems at the start", "Babu's builders and other sites", "Parking permit workaround", "Zac's background and team size"],
+    "pivot_to_business": "Right, I see. Okay, all right then. What I'll do then is I'll share my screen and we can go through some of the things then.",
+    "income_intro": "So we're looking at gross revenue about 92,000 per year, which is about 7,700 per month, should we say. Now this is a net revenue to you of about 48,000 per year, about 4,000 per month.",
+    "post_income_silence": "",
+    "how_it_works_transition": "So we're a short letting management company. So how it works is we'll list you on the multiple platforms and it acts like a letting agent. So we'll charge 15% of the bookings that we take and then you will essentially keep the rest after the commissions from the platform.",
+    "pre_close_setup": "If you send me some photos, I can take it into account and have a look and then let you know.",
+    "close_phrase": "Okay, all right, well, we'll have a good day, Babu. I'll get back to you probably by the end of today, and then we can go from there.",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+
+  "lead_responses": [
+    {
+      "what_lead_said": "what I want you guys to do is some homework about, how did I arrive at the figures, based on the market trend in that area",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Figures come from 12 comparables within about 6 km, with the property slotted in the middle; top comps around 140,000 pounds and several over 100,000.",
+      "lead_follow_up": "Sorry, sorry, just stay there. I think we need to build 3 scenarios here.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "I think we need to build 3 scenarios here ... it should be on the low end of the spectrum, in my opinion ... the projection that you showed, it's definitely a little bit on the higher side of what I'm thinking",
+      "category": "objection",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Would shy away from using lowest and highest comps because of spec differences; a consolidated average is better. Added that a new listing will run 15 to 20 percent below projection for about 3 to 6 months until it has reviews, and the area is not highly competitive (under 100 reviews).",
+      "lead_follow_up": "Okay.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "average nightly rate you have taken?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "450 pounds on average at 56 percent occupancy, so the rate could be run lower for higher occupancy; plenty of comps around 400, lowest 286, highest 800.",
+      "lead_follow_up": "All right, okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "what's the catch? ... Do I just hand over the keys to you and then expect that $4,000 coming to my account?",
+      "category": "objection",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Asked if furnished; explained setup in 3 steps (furnishing and key safe, cleaner inspection and snagging, professional photos, then live); offered free setup guide or a furnishing quote.",
+      "lead_follow_up": "It's unfurnished. It does not have anything.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Do you work on a guaranteed rent basis, or what's your model?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "No, 15 percent of bookings taken; the lead keeps the rest after platform commissions; statement on the 1st, payout a few days later; lowest-case months should cover mortgage and bills.",
+      "lead_follow_up": "Okay ... I have a different kinds of model people are talking me through ... rates as low as 8% till 12%",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "It's not 15%, it's very high actually. So I've got rates as low as 8% till 12%",
+      "category": "objection",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Did not rebut the fee comparison; said he is happy to look at it and needs photos.",
+      "lead_follow_up": "think through it and then see like what best that you could offer and then we go from there.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "do you think that, since you've been in this space for more than 3 years, your sweet spot is to do a management than trying to do a rent-to-rent or a guaranteed rent kind of stuff?",
+      "category": "question",
+      "meeting_phase": "closing",
+      "zac_responded_with": "Mostly management now (about 70 properties, team of about 7, started in 2020, managing for others since summer 2023); guaranteed rent carries VAT and fixed rent costs as you expand, but he still looks at rent-to-rent when he likes the landlord and property.",
+      "lead_follow_up": "That's completely, I understand. So let's be connected on WhatsApp.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "you need to have a parking permit to park there ... I've paid some 70 pounds for the entire year",
+      "category": "information",
+      "meeting_phase": "closing",
+      "zac_responded_with": "No, that's useful. Because that is a big issue if it's permanent. So it's nice that that's been resolved for sure.",
+      "lead_follow_up": "Yeah, yeah. So just that we need to manage that part.",
+      "resolved": true
+    }
+  ],
+
+  "conversion_gaps": [
+    {
+      "gap": "Fee objection unanswered: lead said competing proposals are 8 to 12 percent against Stayful's 15 percent and Zac did not explain what the fee covers or why it is higher",
+      "category": "objection_unresolved",
+      "evidence": "\"It's not 15%, it's very high actually. So I've got rates as low as 8% till 12%\"",
+      "how_to_fill": "Prepare a fee-versus-value comparison (cleaning coordination, dynamic pricing, screening, 70-property data, review ramp) and ask what the lower quotes exclude",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Guaranteed rent: lead's preferred model is not offered on a managed basis, and Zac left a rent-to-rent door open without a clear position",
+      "category": "model_mismatch",
+      "evidence": "\"I would prefer, uh, sort of like, uh, you know, a guaranteed rate.\" Zac: \"No, we don't work on that model, no.\" Later: \"I do still look at stuff that's on a rent-to-rent basis.\"",
+      "how_to_fill": "Decide in advance whether a rent-to-rent offer on this property is on the table; if not, say so plainly and reframe lowest-case coverage and downside protection",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Three-scenario request (best, median, worst) not met on the call; Zac defended the consolidated average",
+      "category": "figure_accuracy",
+      "evidence": "\"I think we need to build 3 scenarios here.\"",
+      "how_to_fill": "Send a three-scenario table (for example ADR 286, around 360 to 400, 450) with the first-year 15 to 20 percent discount shown openly",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Mortgage not answered and not pursued; ability of the low case to cover costs unconfirmed",
+      "category": "qualification",
+      "evidence": "Zac asked 'what's the current mortgage for the property at the moment?' and Babu changed the subject to the homework request",
+      "how_to_fill": "Do not press; ask what he needs the property to cover once trust is built",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Demand-driver mismatch: lead thinks High Wycombe is contractor and corporate-led (NHS, HS2, M40) rather than holiday-led, which undermines a 450 pound ADR; Zac did not address contractor demand or rate",
+      "category": "demand_mismatch",
+      "evidence": "\"That $460 or $450 nightly rate would be too ambitious\"; contractors and 'people who work locally, either NHS or the H2'",
+      "how_to_fill": "Re-run the comp set for contractor stays and show a contractor-weighted rate and occupancy case",
+      "filled_in_action_plan": false
+    }
+  ],
+
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac explaining the new-listing review ramp-up (15 to 20 percent below projection for 3 to 6 months) and that the area is not highly competitive",
+      "lead_response": "Okay.",
+      "phase": "income_presented",
+      "archetype_relevant": ["analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Zac's openness about company background and focus (about 70 properties, 3 and a half years managing, started 2020)",
+      "lead_response": "That's completely, I understand. So let's be connected on WhatsApp.",
+      "phase": "closing",
+      "archetype_relevant": ["trust-builder"]
+    },
+    {
+      "what_caused_shift": "Zac valuing the parking-permit workaround",
+      "lead_response": "Yeah, yeah. So just that, like, you know, we need to manage that part",
+      "phase": "closing",
+      "archetype_relevant": []
+    }
+  ],
+
+  "friction_moments": [
+    {
+      "what_caused_friction": "450 pound ADR and 4,000 net presented as the headline",
+      "lead_response": "it's definitely a little bit on the higher side of what, um, you know, I'm thinking.",
+      "recovery_attempted": "Consolidated average, comp set detail, 15 to 20 percent first-year discount",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Zac asked about the mortgage straight after the income figures",
+      "lead_response": "it should work, uh, but what I want, uh, you guys to do is some homework",
+      "recovery_attempted": "None; Zac moved on to the comps",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Management fee of 15 percent set against 8 to 12 percent quotes",
+      "lead_response": "It's not 15%, it's very high actually.",
+      "recovery_attempted": "None on the call",
+      "resolved": false
+    }
+  ],
+
+  "zac_language": {
+    "opening_phrases": ["I thought I'd start by understanding a bit on your current situation."],
+    "transition_phrases": ["What I'll do then is I'll share my screen and we can go through some of the things then.", "Based off of the inquiry you've made and the address that we've got, this is the research that we've done."],
+    "reassurance_phrases": ["it's looking promising", "this isn't a competitive area terribly so compared to some", "if you're comfortable with the lowest case, if it still covers mortgage bills, things like that, you've not really got anything to worry about. There's not really any risk."],
+    "emphasis_phrases": ["it normally works out to be about 18% of whatever the gross figure is", "we'll charge 15% of the bookings that we take"],
+    "analogies_used": ["It acts like a letting agent"],
+    "numbers_framing": "Gross 92k to net 48k via platform commission, cleaning and laundry (about 18 percent of gross) and management 15 percent; range 2,200 (January) to 5,100 (July); first-year discount 15 to 20 percent",
+    "objection_handling_pattern": "Defends the consolidated average over extremes, explains the review ramp-up, then redirects to practical next steps (furnishing, photos) rather than answering the fee and model objection"
+  },
+
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "",
+    "what_they_focused_on": ["How the figures were derived", "Three scenarios with a low-end case", "The catch", "Guaranteed rent", "Competing commission rates", "Parking"],
+    "what_they_needed_most": ["A conservative, verifiable scenario model", "Plain explanation of fees and who does what at handover", "A guaranteed or downside-protected structure"],
+    "what_fell_flat": ["Headline 450 pound ADR and 140k top comps", "Mortgage question", "Silence on the 8 to 12 percent fee comparison"],
+    "recommended_meeting_adjustment": "With sceptical, numbers-led owners, lead with a low/median/high view and the first-year discount, drop the mortgage question until later, and prepare an answer on fee versus lower quotes and on guaranteed rent before the call"
+  },
+
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

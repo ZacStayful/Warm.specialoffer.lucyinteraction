@@ -1,0 +1,277 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "113",
+  "quarter": "2026-Q4",
+  "meeting_date": "2026-10-05",
+  "transcript_quality": "full",
+
+  "lead_name": "Haydn Brown",
+  "email": "haydnbrown1965@icloud.com",
+  "monday_id": "13101715707",
+  "address": "The Old Coach House, Chinley, High Peak SK23 (Monday shows SK9 5JH - postcode needs checking)",
+  "bedrooms": 2,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "Already on short-term let, self-managed - seeking higher return and eventually hands-off (multi-property owner)",
+  "stl_goal": "Eventually hands-off; expand to 4-5 properties; more direct bookings",
+  "property_situation": "Runs 3 self-managed short-lets on Airbnb and Booking.com: Windermere (established, 'runs itself'), the Coach House in the Peak District (opened Feb/March 2026, ~10 reviews, slow on weekdays) and a 2-bed Leicester city-centre penthouse (£1,500/month mortgage). Coach House mortgage £560/month. Superhost on all three (~4.9). Previously had rent-to-rents managed by Pillow Partners and was unhappy with the pricing.",
+  "property_type": "2-bed coach house conversion (Chinley, High Peak); also Leicester penthouse and Windermere let",
+
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Control and trust: hands-on host who checks his properties every morning, sceptical that £200+/night is achievable when he is getting £120-£130, wants to see the data himself; winter timing",
+  "language_signals": [
+    "they're my babies",
+    "a job will only get done right if I do it",
+    "they run themselves, don't they?",
+    "I can't see how I'd get that",
+    "I'd be amazed if we could get £20 a night around here",
+    "I just need to see the data you're seeing really so I can see it myself",
+    "I want more direct bookings",
+    "you see the up here bit, you don't see the down here bit",
+    "your cleaner is your main person",
+    "nice to see a breakdown"
+  ],
+  "portfolio_flag": true,
+
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "15% + VAT (standard)",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "I don't know, I need to work it out really, you know, because we're going into a bad period, aren't we? ... We're only going to get through winter now",
+      "context": "Zac asked when would be a good time to get in touch and whether he was only at preliminary phases",
+      "timeline_given": "Asked Zac to send the breakdown and 'give us a buzz next week' / end of that week (call end of w/c 12 October)",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "Yeah, you know what you showed earlier ... I just need to see the data you're seeing really so I can see it myself ... you could send it in an email and I can print it off",
+      "context": "Wants to verify the figures independently before considering handing over control; Zac's Manchester accuracy example would not load",
+      "timeline_given": "Read the emailed breakdown, then call next week",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+
+  "green_light_signals": [],
+  "has_green_light": false,
+
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start by just understanding a bit more on your current situation, the situation with the property and, you know, interest in short letting. Then we could go through our figures and our service, see if it sort of lines up with what you're looking for.",
+    "rapport_topics": ["Audio/permissions problems at the start", "Haydn's 3 properties and Superhost scores", "Pillow Partners rent-to-rent history", "Cleaners and the Windermere cleaner", "Peak District transport links and walkers", "Where Zac is based (Leicester)"],
+    "pivot_to_business": "Okay, well, I've got the figures here for the, the coach house property.",
+    "income_intro": "So we've got gross revenue, which is what it will produce on the platforms, and then the net is what you can expect as a payout, after sort of booking commissions, cleaning, and our management. We reckon about 72% occupancy, about £200, say £210 nightly rate.",
+    "post_income_silence": "",
+    "how_it_works_transition": "All right, well, it's an end-to-end service, so to give you an idea of what that includes, setting you up on multiple platforms including our direct booking website.",
+    "pre_close_setup": "I mean, have you got any concerns about or questions about our sort of management service and how it works... obviously you've been managing this yourself for a while, so there's going to be a level of relinquished control and trust there.",
+    "close_phrase": "When do you think it'd be a good time to sort of get in touch? ... do you know when you're sort of wanting to move with this, or is it just sort of preliminary phases?",
+    "meeting_2_ask": "I'll send that over to you and then, yeah, we'll touch base.",
+    "total_duration_mins": 35,
+    "talk_ratio_zac_pct": 45
+  },
+
+  "lead_responses": [
+    {
+      "what_lead_said": "How'd you get that nightly rate though? ... What's this platform though? Is it Airbnb? Is it yours?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Rate comes from nearby competitors; the software is Zac's own, pulling data from platforms like Airbnb to show what a payout looks like, not just Airbnb revenue.",
+      "lead_follow_up": "Yeah.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "You said I'll get something like £200 plus. I can't see how I'd get that because I've had to drop my figures from like £150 down to like £120 or £130, and when it's last-minute bookings I come even lower.",
+      "category": "objection",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Explained the review gap: he has ~10 reviews vs a local average of 68; top 4 competitors earn £43k-£68k and take most of the revenue; at 20-40 good reviews things swing his way; short-let is still better than long-let or selling.",
+      "lead_follow_up": "Yeah, yeah, yeah. ... like you say, you need at least, well, more than 10",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I find here people go through Booking.com ... most people come from booking.com that book this",
+      "category": "observation",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Booking.com and Airbnb share a calendar, so heavy Booking.com momentum squeezes Airbnb availability and lowers Airbnb visibility; Zac's software cannot pull Booking.com data.",
+      "lead_follow_up": "I am 9.4 with Booking.com and I'm about 4.8, I think, with Airbnb.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Are these going to be direct bookings or they're still going to be Airbnb?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "A mix - 20 to 40% direct once momentum builds (later corrected to 10-20% once established because only one source of direct guests); lead on platforms first, push direct when opportunities arise.",
+      "lead_follow_up": "Right. Okay. So that's what I want. I want more direct bookings.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "One person lets me down, one person's ill, I'm done, you know what I mean? (about his solo Coach House cleaner)",
+      "category": "concern",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "No problem using his existing cleaner; Stayful communicates via WhatsApp, photos after each clean; a cleaner who knows the property works better for us anyway.",
+      "lead_follow_up": "your cleaner is your main person ... she listens and she's nearly there with it now",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "I'd be amazed if we could get £200 a night around here ... I just need to see the data you're seeing really so I can see it myself.",
+      "category": "objection",
+      "meeting_phase": "closing",
+      "zac_responded_with": "Tried to show a Manchester accuracy example (within ~15%) but the screen share would not load; promised to send it afterwards and an emailed action plan with fees, reviews, Year 1 and long-term figures.",
+      "lead_follow_up": "You could send it in an email and I can print it off and I can read it and look into it.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "What's your price? ... I've got your fees in as well. Ah okay, well that'll be good to see ... you see the up here bit, you don't see the down here bit",
+      "category": "question",
+      "meeting_phase": "closing",
+      "zac_responded_with": "15% plus VAT; net payout is after management fee, cleans and platform commissions - about £2,000 a month average for the Coach House.",
+      "lead_follow_up": "Yeah, and then I go down to my mortgage and my fees, my bills.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "£2,000 a month, did you say again? Yeah, well, you can forget that one then because my mortgage is £1,500. (Leicester penthouse)",
+      "category": "objection",
+      "meeting_phase": "closing",
+      "zac_responded_with": "Yeah, probably won't work.",
+      "lead_follow_up": "Yeah, okay, so yeah, send me some stuff and then let me have a read. ... just give us a buzz next week.",
+      "resolved": true
+    }
+  ],
+
+  "conversion_gaps": [
+    {
+      "gap": "Live proof of accuracy was not delivered: the Manchester example would not load and the deck's forecast array was broken (August £0, January as peak) for a Peak District walking let",
+      "category": "proof",
+      "evidence": "\"I'd be amazed if we could get £20 a night around here\"; Zac: \"I don't think it's going to work. I'll try and see if I can show it to you after this call.\"",
+      "how_to_fill": "Send the 803 Eastbank Tower case study and a corrected Coach House forecast; drop the monthly breakdown that shows August £0",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Direct booking potential quoted inconsistently (20-40% then 10-20%)",
+      "category": "figure_accuracy",
+      "evidence": "Zac: \"probably sort of 20 to 40% bookings are direct\" then \"maybe 10 to 20% direct bookings, I would say, once we're sort of established\"",
+      "how_to_fill": "Use 10-20% consistently and disclose the correction in the follow-up email",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Control and trust barrier not directly worked: lead checks properties every morning and sees them as 'my babies'; question of what happens to existing listing and reviews on handover was never covered",
+      "category": "objection_not_resolved",
+      "evidence": "\"a job will only get done right if I do it\"; Zac asked about relinquished control but conversation moved to cleaners and fees",
+      "how_to_fill": "Address listing/review continuity and the quarterly review and Slack visibility explicitly on the next call",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Solo-cleaner single-point-of-failure risk left open while offering to use his cleaner",
+      "category": "concern_not_surfaced",
+      "evidence": "\"One person lets me down, one person's ill, I'm done\"",
+      "how_to_fill": "Position Stayful's backup cleaner network alongside his own cleaner",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Winter timing and no commitment point: lead said he needs to work it out and asked for a call at the end of the following week",
+      "category": "timing",
+      "evidence": "\"we're going into a bad period... We're only going to get through winter now\"",
+      "how_to_fill": "Frame spring launch plan and review build-up over winter; follow-up call 16 October",
+      "filled_in_action_plan": true
+    }
+  ],
+
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Review-count explanation (10 reviews vs local average 68) for why he has to drop his rates",
+      "lead_response": "Yeah, yeah, yeah. ... I need time with it really... if people see more reviews, it's got more idea, haven't they?",
+      "phase": "income_presented",
+      "archetype_relevant": ["analytical-evaluator", "control-seeker"]
+    },
+    {
+      "what_caused_shift": "Zac agreeing he can keep his own cleaners and Stayful will coordinate by WhatsApp",
+      "lead_response": "Your cleaner is your main person throughout all this",
+      "phase": "how_it_works",
+      "archetype_relevant": ["control-seeker"]
+    },
+    {
+      "what_caused_shift": "Net payout shown as about £2,000 a month after all costs",
+      "lead_response": "Yeah, and then I go down to my mortgage and my fees, my bills.",
+      "phase": "closing",
+      "archetype_relevant": ["analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Promise to send an emailed breakdown with fees, Year 1 and long-term figures",
+      "lead_response": "Yeah, nice to see a breakdown, you know.",
+      "phase": "closing",
+      "archetype_relevant": ["analytical-evaluator", "certainty-seeker"]
+    }
+  ],
+
+  "friction_moments": [
+    {
+      "what_caused_friction": "Nightly rate of £200+ versus his actual £120-£130",
+      "lead_response": "I can't see how I'd get that",
+      "recovery_attempted": "Review-count and competitor-establishment explanation",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "Accuracy demo failed to load (computer lagging)",
+      "lead_response": "Yeah.",
+      "recovery_attempted": "Offered to send the example after the call",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Zac asked 'I'm assuming you're coming to us because it was maybe struggling a little bit on the revenue standpoint' - presumptive framing of a property he is proud of",
+      "lead_response": "Not confident ... I'd be amazed if we could get £200 a night around here",
+      "recovery_attempted": "Offered accuracy example (~15%)",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Software audio and screen problems at the start and during the service walkthrough",
+      "lead_response": "I don't really know much about you, to be honest",
+      "recovery_attempted": "Walked through the service and apologised for going quickly",
+      "resolved": false
+    }
+  ],
+
+  "zac_language": {
+    "opening_phrases": ["I thought I'd start by just understanding a bit more on your current situation, the situation with the property and, you know, interest in short letting."],
+    "transition_phrases": ["I can share my screen and we can go through them.", "All right, well, it's an end-to-end service, so to give you an idea of what that includes"],
+    "reassurance_phrases": ["It's still better to short-term let it.", "If you want to use your existing cleaner, we haven't got a problem with that.", "We normally say this is within sort of 15% accuracy"],
+    "emphasis_phrases": ["The only thing you'll have left to deal with is going to be just making sure the mortgage is paid and making sure the bills are paid."],
+    "analogies_used": ["Slack as 'a business WhatsApp'"],
+    "numbers_framing": "Gross revenue on platforms vs net payout; 72% occupancy and £210 nightly; review-count gap (10 vs 68); Coach House net about £2,000 a month; Leicester about £22,000 net and ruled out against a £1,500 mortgage",
+    "objection_handling_pattern": "Explains the market mechanics behind the objection (reviews, shared calendars) rather than defending the number; agrees honestly when a property will not work (Leicester); but the accuracy demo failed to land"
+  },
+
+  "profile_psychology_intersection": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "",
+    "what_they_focused_on": ["Whether £200+/night is credible", "Seeing the underlying data himself", "Direct bookings", "His solo cleaner", "Full cost breakdown after fees"],
+    "what_they_needed_most": ["Proof the rates are achievable", "Evidence he keeps control and quality (Superhost, cleaners)", "A clear net-after-everything breakdown", "Clarity on what happens to the existing listing and reviews"],
+    "what_fell_flat": ["The failed Manchester accuracy demo", "The 20-40% direct booking claim", "Leicester at a £1,500 mortgage"],
+    "recommended_meeting_adjustment": "For experienced self-managing hosts, lead with their own review and rate reality, have a working accuracy case study ready before the call, and address control, listing continuity and the hands-off-later goal before pushing numbers"
+  },
+
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

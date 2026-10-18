@@ -1,0 +1,301 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "114",
+  "quarter": "2026-Q4",
+  "meeting_date": "2026-10-07",
+  "transcript_quality": "full",
+
+  "lead_name": "Eduardo Carniel",
+  "email": "educarniel@gmail.com",
+  "monday_id": "11394407292",
+  "address": "59 Mulberry Avenue, Leicester LE3 6PH (Glenfield border)",
+  "bedrooms": 3,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Existing home switching to short-term let - owner relocating to Norfolk for a new job, keeping the Leicester house",
+  "stl_goal": "At least £1,500 per month net to cover the mortgage and costs",
+  "property_situation": "3-bed house the lead currently lives in; moving to Norfolk (smaller apartment) so the house will be vacant, furnished and not sold. Mortgaged (Monday deck wrongly says no mortgage). Renovated room by room - most done, some rooms still to finish. Log burner, small veg garden, a 1x1m utility room and loft/shed to be locked off. Move date depends on employer confirmation (mid-October to early November) plus a one-month notice period, so likely December.",
+  "property_type": "3-bed house, LE3 Glenfield border, furnished",
+
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Externally gated by employer confirmation for the Norfolk job and notice period (go-live realistically December); wife is a co-decision-maker; unfinished rooms; scepticism about Leicester demand",
+  "language_signals": [
+    "we don't want to sell it right now",
+    "we would like to get at least £1,500 per month ... that would cover a lot of our costs, with mortgages and things like that",
+    "this amount of money is exactly more or less what we're looking for",
+    "who is going to use Airbnb in Leicester?",
+    "I don't feel very confident that it's like nice",
+    "let me just see the questions from my wife",
+    "we keep in touch then"
+  ],
+  "portfolio_flag": false,
+
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+
+  "delay_signals": [
+    {
+      "type": "DLY-MOV",
+      "trigger_phrase": "I got this job there, but I'm still waiting for the manager to give me the last message ... in October or beginning of November ... we have like a month here at least because of leaving my job notice period ... maybe in December, beginning of December",
+      "context": "Zac asked 'do you have plans on when you plan to go to Norfolk?'",
+      "timeline_given": "Employer sign-off mid-Oct to early Nov, one-month notice, move early December; Zac to follow up late November/December",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-FUR",
+      "trigger_phrase": "there are some parts of the house that I still feel, I don't feel like very confident that it's like nice ... it needs to be finished",
+      "context": "Renovated room by room; some rooms unfinished; asked whether Stayful can provide someone to finish the job",
+      "timeline_given": "Lead to send photos by WhatsApp so Zac can say whether it lines up with the figures",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "Let me just see the questions from my wife ... speak to your wife about it",
+      "context": "Questions came from a list prepared with his wife, who is part of the decision",
+      "timeline_given": "No date; read summary and action plan sent within 20-30 minutes",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "Yeah, this amount of money is exactly more or less what we're looking for.",
+      "context": "After Zac explained gross, platform commission, cleaning and management deductions leaving ~£1,500 a month net"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "so I think it's going to be maybe in December, beginning of December. I think it's likely it's going to be around this time.",
+      "context": "Gave a concrete go-live window when asked about the Norfolk move"
+    }
+  ],
+  "has_green_light": true,
+
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start just by understanding a bit on your current sort of situation. I understand you're looking at buying a property in Leicester, is that right?",
+    "rapport_topics": ["Move to Norfolk", "Furnished house and smaller apartment"],
+    "pivot_to_business": "All right then, well, what we'll do is I can go through the figures and we can go through our service, see if it lines up with what you're looking for.",
+    "income_intro": "About £33,000 gross per year, and about £2,800 per month ... that's sort of £18,000 per year, about £1,500 per month. £130, £140 nightly rate with 65% occupancy.",
+    "post_income_silence": "",
+    "how_it_works_transition": "Well, I can go through a bit more on what the service covers so you've got more of an overview of everything.",
+    "pre_close_setup": "It sounds to me like it's mostly ready. The only things we're going to be needing to do is like a key safe ... 2 key safes ... have a cleaner go around and have a look ... get some photos taken.",
+    "close_phrase": "Is there anything, any concerns or anything else you want to go through, or sort of happy?",
+    "meeting_2_ask": "Obviously send me back them photos. If you don't hear from me, I'll get back in touch around sort of late November, December time.",
+    "total_duration_mins": 25,
+    "talk_ratio_zac_pct": 55
+  },
+
+  "lead_responses": [
+    {
+      "what_lead_said": "We would like to get at least $1,500 per month, if we can. Because then that would cover a lot of the costs with mortgages and things like that.",
+      "category": "need",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Explained gross vs net: platform commission 15%, cleaning about 18% of gross, management 15% plus VAT - only mortgage and bills remain.",
+      "lead_follow_up": "Yeah, this amount of money is exactly more or less what we're looking for.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Everyone thinks like, oh well, Leicester, who is going to Leicester? Who is going to use Airbnb in Leicester? And with your experience, what could you say to me about this?",
+      "category": "objection",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Every area has leisure demand; competitor operators nearby are a good sign; comparables drive the numbers. Admitted the 'who books' slide wrongly showed Manchester data.",
+      "lead_follow_up": "Okay. Yeah.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Let's say that one month no one comes, I still have the payments to do ... with the platform or with the cleaning?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "No - costs are a percentage of revenue; the only fixed costs are mortgage and bills.",
+      "lead_follow_up": "Ah, okay. Right, yeah.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Another thing is damage ... damage of the property or damage of something in the property. How does that work?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "£250-£400 security deposit per guest, ID check before check-in details, 2-3 night minimum stays, and platform insurance for major incidents.",
+      "lead_follow_up": "Okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "We have a log burner ... could there work something like they provide the first amount of wood and you buy more if you need more? ... wouldn't that be an advantage or a good feature to have?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "I would probably avoid the log burner thing altogether - fire hazard and no competitive benefit; guests would sooner turn the heating up; parking, EV charger, workspace and pet-friendly are stronger amenities.",
+      "lead_follow_up": "But then if they just go out and get some wood ... how can I protect myself?",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Do you guys ask before deciding to do some maintenance on the house, or is it more like a decision?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "We go ahead up to £300 a month (one job or accumulated), above that we get approval; low-risk jobs batched into a day rate, major ones on call-out; cleaner inspects after every stay, thorough inspection 2-3 times a year.",
+      "lead_follow_up": "Yeah.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Is it possible that I lock a place in the house, for example the loft or even the shed? ... a very small utility room, literally 1 by 1 meter.",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Loft, shed and a small utility room are fine; blocking a whole bedroom would mean listing it as 2 bedrooms.",
+      "lead_follow_up": "Yeah, yeah.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "How does that work in a way of contract? ... 6 months, 1 year, 1 year and a half, or every month just renew itself?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "6-month fixed term, then a 3-month notice term, mainly to service booked guests before releasing the property.",
+      "lead_follow_up": "Right. Okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Could you guys help out ... providing someone, even if I pay, to finish off the job or to do a little maintenance? ... Is garden maintenance included?",
+      "category": "question",
+      "meeting_phase": "closing",
+      "zac_responded_with": "Send photos on WhatsApp and I can give recommendations; garden maintenance is included on an ad hoc basis with a contact list of gardeners; free setup guide in the action plan.",
+      "lead_follow_up": "Okay. Sounds good. I think I asked every question that I had in mind. I'll send you the photos.",
+      "resolved": true
+    }
+  ],
+
+  "conversion_gaps": [
+    {
+      "gap": "Zac opened with a wrong assumption (looking at buying a property in Leicester) when the lead already owns and lives in the house",
+      "category": "preparation",
+      "evidence": "\"I understand you're looking at buying a property in Leicester, is that right?\" - lead: \"No ... we bought this house already, but we are moving\"",
+      "how_to_fill": "Check profile type and situation in Monday before the call and open with the lead's actual circumstances",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Leicester demand objection answered with generic points because the 'who books' slide showed Manchester data",
+      "category": "figure_accuracy",
+      "evidence": "\"For some reason it's talking about Manchester, which isn't correct.\"",
+      "how_to_fill": "Replace with Leicester demand drivers (Glenfield Hospital, M1/M69 J21 contractors, Fosse Park, universities, events, visiting family) and disclose the correction",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Year 1 net (about £1,194/month) falls below his £1,500 target; only Year 2 (£1,491/month) meets it",
+      "category": "figure_accuracy",
+      "evidence": "\"we would like to get at least $1,500 per month\" vs the presented ~£1,500 average",
+      "how_to_fill": "Disclose the Year 1 ramp honestly and the mortgage-correction (deck said no mortgage)",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Log burner worry not resolved - lead still wanted it as a feature and asked how to protect himself",
+      "category": "objection_not_resolved",
+      "evidence": "\"how can I protect myself against people that are gonna misuse it and damage it or even cause risk for the house?\"",
+      "how_to_fill": "Give concrete options: leave it unlisted and locked off, a clear house rule, and deposit and insurance cover",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Wife is a co-decision-maker but was not on the call",
+      "category": "decision_maker",
+      "evidence": "\"Let me just see the questions from my wife\"; Zac: \"speak to your wife about it\"",
+      "how_to_fill": "Make the summary and action plan wife-friendly and offer a short joint follow-up call",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Unfinished rooms are the main operational unknown and unassessed until photos arrive",
+      "category": "qualification",
+      "evidence": "\"I don't feel very confident that it's like nice\"",
+      "how_to_fill": "Review WhatsApp photos and state whether they affect the projected figures before listing",
+      "filled_in_action_plan": true
+    }
+  ],
+
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Net figure matched his £1,500 target",
+      "lead_response": "Yeah, this amount of money is exactly more or less what we're looking for.",
+      "phase": "income_presented",
+      "archetype_relevant": ["analytical-evaluator", "certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Explaining there are no payments to the platform or cleaner if no one books - only mortgage and bills are fixed",
+      "lead_response": "Ah, okay. Right, yeah.",
+      "phase": "income_presented",
+      "archetype_relevant": ["risk-averse"]
+    },
+    {
+      "what_caused_shift": "Being able to block his own dates at no cost except a clean and lock off loft, shed and utility room",
+      "lead_response": "Yeah, we have one very small utility room ... literally like 1 by 1 meter.",
+      "phase": "how_it_works",
+      "archetype_relevant": ["control-seeker"]
+    },
+    {
+      "what_caused_shift": "Summary, action plan and free setup guide offered; photos review",
+      "lead_response": "Sounds good. ... I'll send you the photos and we're going to talk and read a bit more.",
+      "phase": "closing",
+      "archetype_relevant": []
+    }
+  ],
+
+  "friction_moments": [
+    {
+      "what_caused_friction": "Leicester demand section showed Manchester data",
+      "lead_response": "Okay. Yeah.",
+      "recovery_attempted": "Zac acknowledged the error and fell back on comparables",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Zac's advice to avoid the log burner entirely, followed by 'very unlikely' dismissals of misuse worry",
+      "lead_response": "But how could I avoid, cover it? ... wouldn't that be an advantage or a good feature to have?",
+      "recovery_attempted": "Heating-cost logic and recommended amenities list",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Zac opened assuming the lead was buying a property in Leicester",
+      "lead_response": "No, we bought this house already, but we are moving.",
+      "recovery_attempted": "Re-asked about the situation and furnishings",
+      "resolved": true
+    }
+  ],
+
+  "zac_language": {
+    "opening_phrases": ["I thought I'd start just by understanding a bit on your current sort of situation."],
+    "transition_phrases": ["All right then, well, what we'll do is I can go through the figures and we can go through our service", "Well, I can go through a bit more on what the service covers so you've got more of an overview of everything."],
+    "reassurance_phrases": ["All you have to be paying is going to be mortgage and bills still. Those are your fixed costs.", "Every other cost is a cost against the revenue.", "It should go through quite seamlessly. It doesn't take that long to do our stuff."],
+    "emphasis_phrases": ["I would probably avoid the log burner thing altogether, if I'm being honest."],
+    "analogies_used": ["Slack as 'a business WhatsApp'"],
+    "numbers_framing": "Gross about £33,000 to net about £18,000 (£1,500/month) after 15% platform, ~18% cleaning, 15% + VAT management; low case £800, high case £2,200; slow months March, September, October",
+    "objection_handling_pattern": "Direct and probability-based ('very unlikely', 'never heard of a guest do that') plus process detail (deposit, ID check, £300 maintenance limit); less effective when the lead wanted reassurance on the log burner"
+  },
+
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "",
+    "what_they_focused_on": ["Net matching £1,500 target", "Whether Leicester demand is real", "Damage and guest vetting", "Log burner as a feature", "Maintenance approval limit", "Contract length", "Garden and unfinished rooms"],
+    "what_they_needed_most": ["Reassurance that Leicester works", "A way to cover mortgage costs while away", "Protection from guest damage", "Practical help finishing the property"],
+    "what_fell_flat": ["The Manchester demand slide", "Dismissing the log burner as a feature", "The initial buying-a-property assumption"],
+    "recommended_meeting_adjustment": "For relocating owners, confirm their situation up front, have location-specific demand data ready, give concrete protections for any special features and plan the follow-up around their move date and their partner's input"
+  },
+
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

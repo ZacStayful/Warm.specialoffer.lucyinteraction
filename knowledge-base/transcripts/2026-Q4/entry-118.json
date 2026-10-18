@@ -1,0 +1,275 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "118",
+  "quarter": "2026-Q4",
+  "meeting_date": "2026-10-16",
+  "transcript_quality": "full",
+
+  "lead_name": "Ann Sturdy",
+  "email": "sturdy_19_91@hotmail.co.uk",
+  "monday_id": "13273657602",
+  "address": "48 Alexandra Court, Skipton BD23 2RG",
+  "bedrooms": 2,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Owner-occupier moving out in 2027, choosing between a long let and a short let",
+  "stl_goal": "Decide between long-term letting and Airbnb for a flat she plans to leave in 2027; leaning towards Airbnb",
+  "property_situation": "2-bed leasehold flat in Skipton next to the Leeds and Liverpool Canal with its own parking space; all-electric. Lives there now and plans to move out next year. Residential mortgage of about 600 pounds a month (Monday 645) on a 5-year fix; needs a switch to holiday-let or buy-to-let. Windows being replaced (earliest January, weather-dependent) and a bathroom refurbishment needed (supplier contact at Wickes on long-term sick leave). Long-let estimate 800 to 900 pounds a month. Previous owner struggled to get tenants out.",
+  "property_type": "2-bed leasehold flat, own parking, all-electric",
+
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Launch gated by her own works (windows, bathroom), the leasehold short-let permission check and a mortgage switch; realistic go-live around May 2027",
+  "language_signals": [
+    "I'm weighing out my options at the moment",
+    "there's so much red tape around being a landlord nowadays",
+    "it's not like I'm going to get a steady income or anything",
+    "I'm leaning more into doing Airbnb than renting",
+    "I think it's just next year is a definite",
+    "could we say more March time? Just in case they decide to cancel on me getting the windows done",
+    "I was just saying it sounds good"
+  ],
+  "portfolio_flag": true,
+
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+
+  "delay_signals": [
+    {
+      "type": "DLY-MOV",
+      "trigger_phrase": "I'm living in it at the moment. So like I said, I think it's more of a next year plan.",
+      "context": "Owner-occupier; moves out only once windows and bathroom are done and her belongings are moved",
+      "timeline_given": "Next year (2027) is a definite; catch-up moved from mid-January to March",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "they've said they've only got dates available for January. And they have warned me and said depending weather dependent, they may have to cancel.",
+      "context": "Windows are weather-dependent, the bathroom has no supplier yet, the leasehold terms must be checked with the freeholder and the mortgage must be switched",
+      "timeline_given": "Windows January at the earliest; catch-up March 2027; Drive intelligence estimates go-live around May 2027",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+
+  "green_light_signals": [
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "I'm leaning more into doing Airbnb than renting",
+      "context": "After Zac showed the long-let maths (800 pounds less 10 to 12 percent leaves around 100 pounds) and the previous owner's difficulty evicting tenants",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "I was just saying it sounds good",
+      "context": "Response to the service walk-through: calendar with block dates, Slack, monthly statement on the 1st and payout 1st to 5th",
+      "strength": "moderate"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "I think it's just next year is a definite",
+      "context": "Firm year for the move even though she gave no exact date",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start just by understanding a bit more on your sort of current situation and situation with the property. Um, you know, we can go through some figures and go through our service, see if it matches what you're looking for.",
+    "rapport_topics": ["Bathroom with two extractor fans", "Skipton canal and canal boats", "Zac's job being stressful", "Books and vinyl records in the flat"],
+    "pivot_to_business": "Okay then, well, I suppose the first thing we can cover is obviously long letting is proving to be a bit riskier with the new regulations that's come in, but then the risk on the short letting side of stuff is revenue and consistency.",
+    "income_intro": "I'd really focus on the net revenue figure here. So we're looking at 24,500 a year, about 2,000 per month.",
+    "post_income_silence": "",
+    "how_it_works_transition": "Really, it's a few different things, so I'll list them. So we'll list you on multiple platforms like Airbnb, Booking.com, and our own direct booking site.",
+    "pre_close_setup": "Do you have any timeframes in mind for that on when you'd like it to ideally happen by, or is it a timeframe it has to happen by?",
+    "close_phrase": "What I'll do after this call is a few things. I'll send you a bit of like a summary of what we've spoken about and then an action plan.",
+    "meeting_2_ask": "And then we'll probably touch base, I'm thinking probably January time, maybe middle of Jan. We'll just catch up, see where things are at.",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+
+  "lead_responses": [
+    {
+      "what_lead_said": "For August, really? ... Skipton's a market town ... we've got a canal and we get a lot of canal boats up and down ... I'm not too sure why it gave that estimate for August",
+      "category": "objection",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Said he would double-check; figures are normally within 15 to 20 percent, and August is typically a good month.",
+      "lead_follow_up": "Hmm.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "it's not like I'm going to get a steady income or anything",
+      "category": "objection",
+      "meeting_phase": "discovery",
+      "zac_responded_with": "Even the worst case is around 500 pounds a month above the mortgage; most years she should be up by about 1,000 pounds a month; some months might show a small loss but the year is not loss-making.",
+      "lead_follow_up": "Okay, well, that's fine.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "if I rent, then I'm looking at 800 to 900 to charge for rent ... the chap who I bought the flat from ... had a lot of difficulty trying to get the people out",
+      "category": "context",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "After 10 to 12 percent management she would clear about 100 pounds, about 1,500 a year; a missed mortgage payment would wipe it out.",
+      "lead_follow_up": "Yeah, exactly ... that's probably why I'm leaning more into doing Airbnb than renting.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "do you have clients that have multiple houses? ... how do they go about doing it? ... obviously I've got to now speak to my mortgage provider.",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Two routes: a holiday-let mortgage (probably easiest) or keep a buy-to-let and put a separate limited company in; lenders will want documentation showing short-let figures, available from Zac for 80 pounds including VAT with unlimited revisions.",
+      "lead_follow_up": "No, I'm living in it at the moment ... it's more of a next year plan.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "what's provided in the service, I suppose.",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Listing on Airbnb, Booking.com and direct site; dynamic pricing; guest screening and damage deposits; cleaning and maintenance coordination; calendar with block-out dates; Slack within about 24 hours; a performance review call every 3 months; monthly statement on the 1st and payout 1st to 5th.",
+      "lead_follow_up": "That's fine ... it sounds good.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "has that ever happened where someone's kind of completely trashed the place?",
+      "category": "objection",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "It does happen but is area-specific (not York, more in rougher parts of Darlington); minor damage is claimed against the deposit and platform insurance covers serious cases; used twice in 6 years; a Skipton flat is less likely.",
+      "lead_follow_up": "Okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "do I need to check with the council at all?",
+      "category": "question",
+      "meeting_phase": "closing",
+      "zac_responded_with": "No real government regulation on short letting right now; it will change but the closest signal is fire-safety registration. Separately, check leasehold terms with the freeholder.",
+      "lead_follow_up": "I don't see them objecting, because the previous owner was renting it out ... But I will check with them just in case.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "could we say more March time? Just in case they decide to cancel on me getting the windows done",
+      "category": "timeline",
+      "meeting_phase": "closing",
+      "zac_responded_with": "Yeah, that's fine. We'll touch base around March then.",
+      "lead_follow_up": "Yeah, cool.",
+      "resolved": true
+    }
+  ],
+
+  "conversion_gaps": [
+    {
+      "gap": "August figure of about 600 pounds challenged from local knowledge (canal boats and summer holidays) and left unresolved; credibility depends on correcting it before the March call",
+      "category": "figure_accuracy",
+      "evidence": "\"I'm not too sure why it gave that estimate for August, because we've got a canal and we get a lot of canal boats up and down\"",
+      "how_to_fill": "Re-check Skipton summer data and tell her the outcome in writing before the March call",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Management fee, minimum term and notice period were not discussed; the agreement was only promised by email",
+      "category": "terms_not_covered",
+      "evidence": "Zac: \"I'll put in our management agreement as well so you can just have a look at it.\" No fee percentage appears in the transcript",
+      "how_to_fill": "Send fee and contract summary in the follow-up email and invite questions",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Steady-income worry answered with worst-case maths rather than with a month-by-month view or what happens in a very low month",
+      "category": "concern_not_resolved",
+      "evidence": "\"it's not like I'm going to get a steady income or anything\"",
+      "how_to_fill": "Show a low/likely/high table with a simple cash buffer idea",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Deck headline net (24,566) disagrees with its own 12-month array (22,640); 24,500 was quoted on the call",
+      "category": "figure_accuracy",
+      "evidence": "Drive FIGURES: array total 22,640 vs headline 24,566; array used, disclosed in email",
+      "how_to_fill": "Reconcile headline and forecast before the meeting and anchor on the lower figure",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "No decision date set: next contact moved from mid-January to March at her request, and no offer or urgency was introduced (appropriate, but nothing is agreed beyond the catch-up)",
+      "category": "next_step",
+      "evidence": "\"could we say more March time?\"",
+      "how_to_fill": "Send window/bathroom milestone check-ins and the 80 pound lender documentation reminder when she contacts her mortgage provider",
+      "filled_in_action_plan": true
+    }
+  ],
+
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac showing the long-let maths: 800 to 900 rent less 10 to 12 percent leaves about 100 pounds, and one missed payment wipes it out",
+      "lead_response": "Yeah, exactly",
+      "phase": "income_presented",
+      "archetype_relevant": ["risk-averse", "analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Service walk-through: owner calendar with block-out dates, Slack and monthly statement on the 1st",
+      "lead_response": "I was just saying it sounds good.",
+      "phase": "how_it_works",
+      "archetype_relevant": ["control-seeker"]
+    },
+    {
+      "what_caused_shift": "Straightforward reply on damage risk: area-specific, deposit and platform insurance, rarely used",
+      "lead_response": "Okay.",
+      "phase": "how_it_works",
+      "archetype_relevant": ["risk-averse"]
+    }
+  ],
+
+  "friction_moments": [
+    {
+      "what_caused_friction": "August forecast of about 600 pounds out of line with her local knowledge",
+      "lead_response": "I'm not too sure why it gave that estimate for August",
+      "recovery_attempted": "Zac said he was a little surprised too and would double-check; quoted the 15 to 20 percent typical accuracy",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Zac's early line that she could 'make £100' on a long let, and later 'you're only going to make sort of £1,500 a year', pushes against her current thinking",
+      "lead_response": "Yeah, yeah, yeah.",
+      "recovery_attempted": "Lead agreed it supports her lean to Airbnb",
+      "resolved": true
+    }
+  ],
+
+  "zac_language": {
+    "opening_phrases": ["I thought I'd start just by understanding a bit more on your sort of current situation and situation with the property."],
+    "transition_phrases": ["Well, I suppose the first thing we can cover is obviously long letting is proving to be a bit riskier with the new regulations", "Then the final part is how we do like payouts and statements."],
+    "reassurance_phrases": ["I don't see a situation where this doesn't work and you're not profitable at all.", "I've never had someone say that, you know, it didn't work", "I don't think there's any issue I've not come across as well."],
+    "emphasis_phrases": ["your only real things you have to deal with is going to be making sure the mortgage is paid and making sure the bills are paid", "You don't need many things to happen before you're red at the end of the year."],
+    "analogies_used": ["Service mimics a buy-to-let management company"],
+    "numbers_framing": "Net 24,500 a year, around 2,000 a month; low (August) about 600 and high (November) about 3,000; 10 to 15 percent below projection for 6 to 12 months; long-let net around 100 pounds a month",
+    "objection_handling_pattern": "Concedes surprises in the data, promises to double-check, and compares against the long-let downside rather than defending the headline"
+  },
+
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "",
+    "what_they_focused_on": ["Short let versus long let", "Seasonal gaps and August", "Mortgage switching and multi-property financing", "Damage risk", "Making the flat homely"],
+    "what_they_needed_most": ["A credible local forecast she can trust", "Clear steps on leasehold and mortgage before launch", "A realistic timeline matching her works"],
+    "what_fell_flat": ["The August figure"],
+    "recommended_meeting_adjustment": "For owner-occupiers with a long runway, lead with the long-let downside, fix any local-knowledge figure errors before the call, and set the follow-up around the lead's own works rather than a sales date"
+  },
+
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

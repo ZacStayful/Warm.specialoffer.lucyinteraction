@@ -1,0 +1,282 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "112",
+  "quarter": "2026-Q4",
+  "meeting_date": "2026-10-02",
+  "transcript_quality": "full",
+
+  "lead_name": "Arif Hossain",
+  "email": "arif.hossain909@gmail.com",
+  "monday_id": "13085093138",
+  "address": "6 Balfour Road, Bentley, Doncaster, DN5 0NN",
+  "bedrooms": 2,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "",
+  "stl_goal": "",
+  "property_situation": "Owner-occupier of a fully furnished 2-bed house in Bentley, Doncaster, cash buy with no mortgage (only bills and council tax). Moved to Portugal two days before the call on a 1-year architecture contract, so the house is empty. Smaller bedroom is currently his office (3D printers, equipment) and must be cleared. Holds all the keys. Plans to buy 2-3 more properties in DN1-DN5 if year one performs and retire to Portugal.",
+  "property_type": "2-bed terraced/semi house, fully furnished (residential)",
+
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Practical only: keys are with him in Portugal, office room to clear, sofa bed to buy, and he wants all agreement terms in writing before signing",
+  "language_signals": [
+    "No point keeping the house empty",
+    "Rather than renting for a year to an individual, it's better to have short-term rental ... more security because the tenancy nowadays",
+    "People promise hundreds of things, but they don't really keep their promises",
+    "As long as I know whatever you're promising me ... that is rigid and you're guaranteeing me that, I'm more than happy",
+    "I'm not hungry and greedy, but of course I need money",
+    "you can consider this particular property as test match",
+    "end of the year if I make like 60, 70 grand, I'm more than happy to go for retirement",
+    "I got all set of key with me now. That's the thing."
+  ],
+  "portfolio_flag": true,
+
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "I got all set of key with me now. That's the thing. ... maybe we have to wait a little bit until I'm not back.",
+      "context": "Asked about access; all keys are with him in Portugal and he did not leave any with family",
+      "timeline_given": "Resolved on the call by agreeing to post keys by recorded next-day delivery; about 3 weeks to go live after keys arrive",
+      "resolved_in_meeting": true
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "one room set up as my office ... that room is full of my machines and printers",
+      "context": "Smaller bedroom is his office; listing as a 1-bed would not work",
+      "timeline_given": "He will clear it into his family's shed and order a sofa bed before he returns to the UK",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-MOV",
+      "trigger_phrase": "It's going to take at least a couple of weeks to end. And after that, I can come back to England for maybe 1 week to 10 days",
+      "context": "Site work in Portugal means he is only back in the UK in around 2 weeks for up to 10 days",
+      "timeline_given": "Wants contracts signed before he returns to the UK",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+
+  "green_light_signals": [
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "number one, no point keeping the house empty",
+      "context": "Stating his reason for coming to Stayful",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "I really want to do that. ... I am the sort of person who loves to commit and I like to execute my commitments.",
+      "context": "After the figures, stating intent while asking for firm commitments from Stayful",
+      "strength": "strong"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "we can actually finish that before I even come. ... before I come back, I'm gonna order a sofa bed, double one",
+      "context": "Proposes signing contracts before his UK trip and commits to preparing the property",
+      "strength": "strong"
+    }
+  ],
+  "has_green_light": true,
+
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+
+  "meeting_flow": {
+    "opening_phrase": "So, this is your residential property at the moment then?",
+    "rapport_topics": ["Portugal and the weather", "Arif's work as an architect", "Zac's slow laptop"],
+    "pivot_to_business": "Have you got any questions I can sort of go through about how the service works?",
+    "income_intro": "So this is the report we've done for your property. So we can see here gross revenue of about £44,300 ... comes out at about £23,000 of net revenue. So it'll be like £1,900 a month.",
+    "post_income_silence": "",
+    "how_it_works_transition": "I can give you an overview of renting it out ... we're going to be dealing with everything to do with the guests",
+    "pre_close_setup": "the only thing really we need from you is key safes or a place where we can collect the keys from. Everything else, we can sort out.",
+    "close_phrase": "What I'll do afterwards is I'll just sort of summarize everything we've spoken about, put a bit of an action plan together with the projections, and then obviously our agreement as well.",
+    "meeting_2_ask": "",
+    "total_duration_mins": 35,
+    "talk_ratio_zac_pct": 55
+  },
+
+  "lead_responses": [
+    {
+      "what_lead_said": "how your company is going to actually charge me the fees ... and how I'm going to get paid, like monthly or weekly",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Revenue collected on his behalf and paid out monthly between the 1st and 5th; PDF statement sent on the 1st.",
+      "lead_follow_up": "Right.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I need the guideline, the sort of stuff you are expecting me to leave in the property ... how I'm going to hand in the keys to you and how our contract will be",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Covers guest comms, multi-platform listing, pricing, cleaning, laundry, maintenance, key management, guest vetting with £350 deposit and ID check; only access needed is keys or key safes.",
+      "lead_follow_up": "Honestly speaking, I got all set of key with me now.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "And that's the net, net you're saying, not gross, isn't it? ... Right, and of course all bills, that's on me, isn't it?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Confirmed net payout, and that the only costs he pays from it are his current bills.",
+      "lead_follow_up": "Right, okay, okay, got that.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Can I transform it to a business property?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Set up a limited company, do a company let and send the payout to the company, then 'that would qualify' and business rates 'should be zero'. (Later corrected by email: self-catering rating needs availability and let-day thresholds, then small business rate relief.)",
+      "lead_follow_up": "Of course I have no idea about it. Maybe you can kindly give me the direction.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "As long as I know whatever you're promising me ... that is rigid and you're guaranteeing me that, I'm more than happy. And I can commit for a year.",
+      "category": "concern",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Risk is low, no mortgage, profitable in worst, likely and best case; accuracy normally within 10-15%; about 6 months to hit the figures in a low-competition market.",
+      "lead_follow_up": "Number one, no point keeping the house empty.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "one room set up as my office ... I don't know how we are going to work",
+      "category": "objection",
+      "meeting_phase": "onboarding",
+      "zac_responded_with": "Can't list a 1-bed in this way, the figures don't work; recommended clearing the room and buying a sofa bed.",
+      "lead_follow_up": "I'm gonna order a sofa bed, double one ... use their shed to put my office stuff.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Do you advise me to change it for a sofa bed instead if you're wanting the best returns?",
+      "category": "question",
+      "meeting_phase": "onboarding",
+      "zac_responded_with": "Yes, it makes the figures considerably more likely and may beat them; will send a link to a reputable sofa bed supplier and a key safe link.",
+      "lead_follow_up": "It would be kind if you please select which one.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Please send me all the terms and conditions, all the documentation, whatever I need before I sign the contract.",
+      "category": "request",
+      "meeting_phase": "closing",
+      "zac_responded_with": "That'll all be covered in the agreement I send you; will email and drop a WhatsApp when sent.",
+      "lead_follow_up": "Yeah, very kind. Thank you very much, Zach.",
+      "resolved": true
+    }
+  ],
+
+  "conversion_gaps": [
+    {
+      "gap": "Lead wants firm guarantees ('rigid', 'guaranteeing') but Zac only gave projections with a 10-15% range; no explicit statement that earnings cannot be guaranteed",
+      "category": "expectation_management",
+      "evidence": "\"whatever you're promising me ... that is rigid and you're guaranteeing me that, I'm more than happy\"",
+      "how_to_fill": "State plainly that earnings are a projection, then guarantee the things Stayful controls: payout dates, statements, communication",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Business rates advice was wrong on the call: a Ltd company let does not itself make rates zero",
+      "category": "factual_error",
+      "evidence": "\"I would set up a limited company, do a rental agreement ... Then that would qualify.\" and \"that should be zero\"",
+      "how_to_fill": "Corrected in email and plan: self-catering rating needs 140 days available and 70 days let; small business rate relief may then apply",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Presentation says no setup, monthly or exit fee but the agreement has a £42/month software fee and a £1,000 early-exit fee in the first 6 months; fees were not discussed on the call",
+      "category": "fee_transparency",
+      "evidence": "Fees raised by Arif only as 'how your company is going to actually charge me' and answered with payout timing; no mention of software or exit fee",
+      "how_to_fill": "State agreement terms accurately in the plan, fix presentation copy, and flag fees before signing",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Projection excludes the 1-bed risk: figures assume 2 bedrooms but the office room is still full",
+      "category": "figure_accuracy",
+      "evidence": "\"unfortunately, unless I don't come back, you cannot have that room as a room\"",
+      "how_to_fill": "Make clearing the room and sofa bed purchase explicit pre-conditions before go-live",
+      "filled_in_action_plan": true
+    }
+  ],
+
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "No mortgage so profitable in worst, likely and best case",
+      "lead_response": "Right, okay.",
+      "phase": "income_presented",
+      "archetype_relevant": ["certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Low competition (about 33 reviews average) giving confidence figures are achievable",
+      "lead_response": "Right.",
+      "phase": "income_presented",
+      "archetype_relevant": ["analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Idea to post the keys by recorded next-day delivery, making onboarding fully remote",
+      "lead_response": "Yes. That is a very good idea. I can do a recorded, next day delivery.",
+      "phase": "onboarding",
+      "archetype_relevant": ["time-poor-owner"]
+    },
+    {
+      "what_caused_shift": "Sofa bed recommendation and offer to send a supplier link",
+      "lead_response": "Of course. I'm gonna order a sofa bed, double one.",
+      "phase": "closing",
+      "archetype_relevant": []
+    }
+  ],
+
+  "friction_moments": [
+    {
+      "what_caused_friction": "Slow laptop and failed screen share at the start of the figures",
+      "lead_response": "Uh, no, sorry, I can't see screen.",
+      "recovery_attempted": "Zac dropped out and rejoined and shared the PDF report instead",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "Office room still full, leaving effectively a 1-bed",
+      "lead_response": "I don't know. I mean, how are we going to work?",
+      "recovery_attempted": "Zac explained the figures only work as a 2-bed and recommended a sofa bed; Arif committed to clear the room",
+      "resolved": true
+    }
+  ],
+
+  "zac_language": {
+    "opening_phrases": ["So, this is your residential property at the moment then?"],
+    "transition_phrases": ["I mean, have you got any questions I can sort of go through about how the service works?", "One thing that's important to sort of go through is how competitive the area is."],
+    "reassurance_phrases": ["Definitely going to be profitable then.", "I'm quite confident really that we'll be able to achieve this.", "from a risk standpoint, I would say this is pretty low."],
+    "emphasis_phrases": ["The only real thing is access.", "We can do all of that remotely."],
+    "analogies_used": [],
+    "numbers_framing": "Gross £44,300 to net about £23,000 (about £1,900/month), worst case about £1,300 in January/February, best about £2,600 in July/August; no mortgage so profitable in every case",
+    "objection_handling_pattern": "Reassures with confidence and practical solutions (key posting, sofa bed), moves quickly to next steps; offered some tax detail beyond his expertise that needed correcting"
+  },
+
+  "profile_psychology_intersection": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "",
+    "what_they_focused_on": ["Guarantees and promises being kept", "Fees and payout timing", "Key handover while abroad", "What to leave in the property", "Business rates"],
+    "what_they_needed_most": ["Remote onboarding with no need to travel", "Firm, honest commitments", "All terms and documentation before signing", "Clear checklist of what to prepare"],
+    "what_fell_flat": ["Business rates detail that later needed correction"],
+    "recommended_meeting_adjustment": "For ABROAD leads with a portfolio ambition, under-promise and over-deliver, make remote key handover and prep the first topic, state fees accurately, and avoid tax advice beyond what Stayful can verify"
+  },
+
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

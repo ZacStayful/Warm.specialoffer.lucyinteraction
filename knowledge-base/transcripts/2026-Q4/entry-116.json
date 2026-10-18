@@ -1,0 +1,261 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "116",
+  "quarter": "2026-Q4",
+  "meeting_date": "2026-10-09",
+  "transcript_quality": "full",
+
+  "lead_name": "Callum Piper",
+  "email": "callummanu@hotmail.com",
+  "monday_id": "13234691220",
+  "address": "Fairfield Farm, Cheadle Road, Alton, ST10 4DH",
+  "bedrooms": 1,
+  "profile_type": "PURCH",
+  "lead_profile_text": "Purchase of a rural multi-unit site to convert to holiday lets",
+  "stl_goal": "Turn 3 log cabins and a 2-bed barn conversion into holiday lets, then add around 4 glamping pods within 2 years; contractor/locum stays in the cabins, tourist trade in the pods",
+  "property_situation": "Buying a farmhouse (owner to live in), 3 x 1-bed log cabins and a 2-bed barn conversion in Alton, Staffordshire. All are currently long-term residential lets; 2 cabins and the barn have sitting tenants and notice must be served by the current owner. Mortgage applied for (amount not discussed); lender wants a business plan and rental valuations on headed paper from a short-term lettings agent. Completion hoped before Christmas, March 2027 realistic. The deck's 'no mortgage' flag is wrong. Monday email differs from the meeting email (callumpiper.cp@gmail.com).",
+  "property_type": "Rural multi-unit site: farmhouse, 3 log cabins, barn conversion",
+
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Purchase not complete and lender has not yet confirmed whether tenants can stay in situ; wants to self-manage first to keep costs down",
+  "language_signals": [
+    "it could all just be hopes and dreams",
+    "not necessarily hit the jackpot, but we've hit a really good location",
+    "we've never done short-term lets before, so it's a big undertaking",
+    "one person's clean, there's another person's filthy",
+    "it only takes one bad review to ruin the whole thing",
+    "We were hoping to be in before Christmas",
+    "we're open from May onwards, just to give ourselves some breathing space"
+  ],
+  "portfolio_flag": true,
+
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+
+  "delay_signals": [
+    {
+      "type": "DLY-PUR",
+      "trigger_phrase": "I'd like to say we're going to be in before the end of the year, but there's potential we're not going to be until March next year",
+      "context": "Sitting tenants in 2 cabins and the barn; he cannot ask the lender whether tenants can stay in situ until the lender has his business plan and rental valuations (a catch-22)",
+      "timeline_given": "Before Christmas hoped for, March 2027 realistic; can market after exchange; open from May",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "Initially. Not to keep costs down.",
+      "context": "Answer to whether he wants the units managed: self-manage first, then hand over once established ('once we're established, good reputation, my nightly rates go up a little bit')",
+      "timeline_given": "No date; after the first months of trading",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "it should give us a good idea of at what point we can say, right, let's start having this managed and take some of the weight off us",
+      "context": "Asked for a few figures so he can judge when to hand over management. This is a conditional, future-dated signal rather than a commitment",
+      "strength": "weak"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "we're open from May onwards, just to give ourselves some breathing space",
+      "context": "States a concrete target to be trading for the 2027 season",
+      "strength": "weak"
+    }
+  ],
+  "has_green_light": true,
+
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_management_offer_made; the 80 pound rental valuation letter was accepted and invoiced"
+  },
+
+  "meeting_flow": {
+    "opening_phrase": "I thought I'd start just by understanding a bit on sort of your current situation and, you know, interest in short letting and sort of how we can help.",
+    "rapport_topics": ["Alton Towers 3 miles away", "JCB factories and Leek Moorlands Hospital locum demand", "Peak District location"],
+    "pivot_to_business": "Yeah, well, we can definitely help on that side of things. Um, you're wanting these managed, I would assume, as well?",
+    "income_intro": "We're looking about 44,000 gross, about 3,600 a month. Now after our management cleans and the commissions from platforms, about 1,900 per month, 77% occupancy, 173.90 rate.",
+    "post_income_silence": "",
+    "how_it_works_transition": "So it's an end-to-end service to give you an idea of what it will look like. So the only things you really have to deal with is going to be mortgage and the bills being paid.",
+    "pre_close_setup": "The only thing left to cover is this statement you need for the lender. Are you happy for me to send the invoice for the 80 and I can get that done for you?",
+    "close_phrase": "All right, I'll send that invoice over to you. I'll send the summary as well and everything we've just spoken about here.",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+
+  "lead_responses": [
+    {
+      "what_lead_said": "you're wanting these managed? ... Initially. Not to keep costs down. But once we're established ... then it would be handy.",
+      "category": "objection",
+      "meeting_phase": "discovery",
+      "zac_responded_with": "Pivoted straight to the lender document (80 pounds including VAT, signed by Zac as owner, revisions if the lender pushes back) and offered figures if he wanted them.",
+      "lead_follow_up": "Well, a few figures wouldn't hurt just so I know what we're going to be looking at.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "my biggest concern is getting the reviews. Initially. Because when you're early doors, it only takes one bad review to ruin the whole thing.",
+      "category": "objection",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "It is about how many guests leave a review; 1 in 2 or 1 in 3 is normal, 1 in 5 and you cannot build momentum; competitors will out-accumulate you.",
+      "lead_follow_up": "No, we'd have to put some incentives in place for people to leave reviews.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "Do you tend to just have, say, 2 or 3 cleaners or cleaning services on call?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "One company that can fulfil demand is better than overlapping cleaners; Stayful likes 2 or 3 on the framework because quality is not always controllable and companies downsize or go bust.",
+      "lead_follow_up": "Yeah, one person's clean, there's another person's filthy.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "If we have it managed with yourselves, you're going to send me an invoice every month?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Central booking calendar; Stayful collects revenue and sends a statement per property on the 1st, payout 3 to 5 days later; Slack for questions.",
+      "lead_follow_up": "Yeah.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "How'd you deal with complaints and refunds?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Flexible where a review is still pending; no refund if a bad review is already left or the guest did something obviously bad; threatening a bad review is a flag under Airbnb. Cited a property that had 9,500 pounds of refunds on 73,000 pounds, then said it does not usually get that high.",
+      "lead_follow_up": "I was like, okay, that's more information than I needed and you should have sent, but okay, I've seen it now.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "have you got cleaners and laundry services in the local area, or is that something you'd look to source once you've got the contract?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Every lead goes through a vetting process, and Stayful has reputable people in the area on its framework.",
+      "lead_follow_up": "Okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Are you happy for me to send the invoice for the 80? (Zac's question) - Yeah, okay.",
+      "category": "agreement",
+      "meeting_phase": "closing",
+      "zac_responded_with": "Will send invoice, summary and projections; letter over the weekend or Monday if paid.",
+      "lead_follow_up": "Okay.",
+      "resolved": true
+    }
+  ],
+
+  "conversion_gaps": [
+    {
+      "gap": "No path from the 80 pound valuation letter to a management conversation: no follow-up trigger, no stated point at which management becomes sensible, and no offer or next meeting",
+      "category": "next_step",
+      "evidence": "Call ended after the invoice; Zac said 'I'll speak to you in a bit' with no meeting 2 or date. Drive: due-to-call 26 October 2026",
+      "how_to_fill": "Agree a specific check-in tied to the lender answer on sitting tenants, and the first 60 days of self-managing",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Cost objection to management never reframed: lead wants to self-manage 'to keep costs down' and Zac accepted it without showing management fee against the VAT and workload saving",
+      "category": "objection_unresolved",
+      "evidence": "\"Initially. Not to keep costs down.\"",
+      "how_to_fill": "Show a self-managed versus managed net comparison for 3 cabins plus barn, including review ramp-up and cleaner coordination workload",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Reviews concern (one bad review early on) answered with review-rate statistics, not with how Stayful protects the first reviews",
+      "category": "concern_not_resolved",
+      "evidence": "\"it only takes one bad review to ruin the whole thing\"",
+      "how_to_fill": "Explain the launch process, guest screening and flexible handling while a review is pending",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "VAT claim made on the call (managed means VAT on the net payout, roughly halving liability) was unverified and is a structural point that could mislead him",
+      "category": "accuracy_risk",
+      "evidence": "\"So it cuts your revenue by about 50% which cuts your VAT by about 50% as well.\" Drive: not relied on, plan and email tell him to take specialist accountant advice",
+      "how_to_fill": "Zac to verify with an accountant before repeating; do not state as fact",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Figures errors in the deck: Tatenhill Airport shown as a high-demand transport driver (removed) and the lead read summer back as 'more like 4 and a bit' when August is the quietest month",
+      "category": "figure_accuracy",
+      "evidence": "\"summer months we should hopefully be looking at more like 4 and a bit.\" Zac replied 'Yeah, yeah' and did not correct it on the call",
+      "how_to_fill": "Correct misreadings on the call; check airport and transport claims against real hubs before the meeting",
+      "filled_in_action_plan": true
+    }
+  ],
+
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Zac offering a quick, cheap lender valuation letter for 80 pounds including VAT, signed by the owner, with revisions",
+      "lead_response": "Good.",
+      "phase": "discovery",
+      "archetype_relevant": ["certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "Consistent monthly range shown on the 12-month forecast, with Zac calling it more consistent than most he has seen",
+      "lead_response": "not necessarily hit the jackpot, but we've hit a really good location.",
+      "phase": "income_presented",
+      "archetype_relevant": ["analytical-evaluator"]
+    },
+    {
+      "what_caused_shift": "Zac validating the contractor-cabins and leisure-pods split",
+      "lead_response": "it'd be nice if the log cabins ended up being more ... contractor accommodation coming in through the log cabins, that would be ideal because that's a little bit more consistent.",
+      "phase": "income_presented",
+      "archetype_relevant": ["vision-builder"]
+    }
+  ],
+
+  "friction_moments": [
+    {
+      "what_caused_friction": "Zac's anecdote about a property with 9,500 pounds of refunds on 73,000 pounds of revenue, drawn from another operator's books",
+      "lead_response": "I was like, okay, that's more information than I needed and you should have sent, but okay, I've seen it now.",
+      "recovery_attempted": "Zac said it does not usually get that high and depends on property condition and management",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "Lead's competitive framing: Zac told him the area is very competitive with about 261 average reviews and expect around 20% less initially",
+      "lead_response": "Yeah.",
+      "recovery_attempted": "Reframed as proof of demand and consistent income for a 1-bed",
+      "resolved": true
+    }
+  ],
+
+  "zac_language": {
+    "opening_phrases": ["I thought I'd start just by understanding a bit on sort of your current situation and, you know, interest in short letting and sort of how we can help."],
+    "transition_phrases": ["Okay, all right then. Well, I mean, the only thing I suppose that's left to cover is obviously this statement you need for the lender.", "Yeah, well, I'll share my screen then and we can go through it."],
+    "reassurance_phrases": ["we do this quite often", "I've never really had any people come back and say like, I need this tweaking.", "you're making a lot of right decisions."],
+    "emphasis_phrases": ["VAT is the only thing that bites.", "I just know like scaling shortlets, VAT is the killer."],
+    "analogies_used": [],
+    "numbers_framing": "Gross to net, 77% occupancy and 173.90 ADR; range 1,400 to 2,300 called consistent; competitive-area discount of up to 20 percent",
+    "objection_handling_pattern": "Does not push management when the lead says self-manage first; sells the 80 pound letter as the quick win and positions VAT as the scaling risk"
+  },
+
+  "profile_psychology_intersection": {
+    "profile_type": "PURCH",
+    "emotional_profile": "",
+    "what_they_focused_on": ["Lender-ready rental valuation", "Reviews early on", "Cleaner availability for back-to-back turnovers", "Monthly invoicing and refunds", "VAT across several units"],
+    "what_they_needed_most": ["A signed rental valuation for the lender", "Clarity on tenants in situ versus vacant possession", "A VAT structure he can trust"],
+    "what_fell_flat": ["Refund anecdote from another operator's books", "Summer/peak-month misreading left uncorrected"],
+    "recommended_meeting_adjustment": "For PURCH leads whose lender blocks the next step, lead with the lender document, keep the management pitch light, and tie the follow-up to the lender's answer rather than a calendar date"
+  },
+
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

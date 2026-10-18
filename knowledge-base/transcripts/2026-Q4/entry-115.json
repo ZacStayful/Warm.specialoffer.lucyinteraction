@@ -1,0 +1,312 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "115",
+  "quarter": "2026-Q4",
+  "meeting_date": "2026-10-09",
+  "transcript_quality": "full",
+
+  "lead_name": "Ryan Brady",
+  "email": "ryankbrady81@gmail.com",
+  "monday_id": "13243677063",
+  "address": "25 St James Place West, Plymouth PL1 3AT (ground floor flat)",
+  "bedrooms": 2,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Existing property switching from long-let to short-term let - inherited, 'accidental landlord'",
+  "stl_goal": "Higher returns, more control, avoid Section 21 removal and problem-tenant risk",
+  "property_situation": "Ground floor flat in a converted house split into two 2-bed flats (brother owns the top floor; 50/50 freehold, both on the lease). Currently long-let at £1,200-£1,300/month. Mortgage renewal late Feb 2027 at ~5.5% (~£450/month); sole trader. Refurb underway, finishing early 2027 (start of spring at latest). Sleeps up to 6. Also owns long-lets in Gosport that he sees as long-let only.",
+  "property_type": "2-bed ground floor flat in converted period house (freehold share and lease), near Plymouth Hoe",
+
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Three sequential external gates: his brother (co-freeholder, they have fallen out) and the lease, a holiday-let mortgage at the late-Feb renewal, and refurb completion",
+  "language_signals": [
+    "I've been an accidental landlord for a few years now",
+    "I've been pushed into a corner now with the interest rate",
+    "I'm sat there like a sitting duck for 6 to 12 months not making anything",
+    "it sounds like it's a better gross and a lower risk",
+    "if that was a figure more or less on the mark, then yeah, it would be",
+    "it's kind of swaying my hand a bit really",
+    "it's better to diversify your portfolio",
+    "it does lend itself",
+    "we have actually fallen out"
+  ],
+  "portfolio_flag": true,
+
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "15% + VAT (standard)",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "am I supposed to notify him of changes that I'm making ... if the other freeholder wasn't happy about it, then what can they do about it? ... we have actually fallen out",
+      "context": "Lead has 50% of the freehold with his brother; Zac said he would have to notify the other freeholder and that a lease change may be needed",
+      "timeline_given": "Speak to brother first, then update the head lease; no date",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "the mortgage is up. I think it's late Feb, so I'm trying to decide on a deal at the moment, but the rates keep on changing weekly",
+      "context": "Mortgage renewal at ~5.5% and the need for a holiday-let mortgage",
+      "timeline_given": "Late February 2027; Zac to touch base end of Feb",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-FUR",
+      "trigger_phrase": "I'm doing a refurb on it at the moment ... it still has to be basically early next year. So the latest, the start of spring",
+      "context": "Property not ready to list until the refurb is finished",
+      "timeline_given": "Early 2027 / start of spring at the latest",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+
+  "green_light_signals": [
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "if at a profit margin like this, then yeah, it definitely would be more attractive for me to go this route. Yeah, for sure.",
+      "context": "After hearing about £2,500/month net against his £1,200-£1,300 long-let and £450 mortgage"
+    },
+    {
+      "type": "GL-MGMT",
+      "trigger_phrase": "it's kind of swaying my hand a bit really to maybe go right, because I've read as well it's better to diversify your portfolio",
+      "context": "Close of the call after the follow-up plan and end-of-Feb touch base were agreed"
+    },
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "I'm sat there like a sitting duck for 6 to 12 months not making anything. So this is an option that kind of takes that issue away as well.",
+      "context": "Section 21 removal and problem-tenant risk driving him away from managing a long-let himself"
+    },
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "this place is supposed to be finished a long time ago, but yeah, it still has to be basically early next year ... it should have been done yesterday really.",
+      "context": "Concrete refurb finish and mortgage-renewal timeline that lines up with go-live"
+    }
+  ],
+  "has_green_light": true,
+
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+
+  "meeting_flow": {
+    "opening_phrase": "And then we go through figures and our service.",
+    "rapport_topics": ["Accidental landlord and inheritance", "Zac's company background and team", "Plymouth network", "Lead's next-door neighbour's Airbnb", "Lead in Japan"],
+    "pivot_to_business": "Right, I see. Okay, all right, well, I've got the figures. What I'll do, I'll share my screen and we can go through some figures.",
+    "income_intro": "So about £57,000 of gross revenue ... looking at about sort of £2,500 per month, about £30,000-ish a year.",
+    "post_income_silence": "",
+    "how_it_works_transition": "Yeah, exactly. So we charge 15% plus VAT and that will cover a few different things.",
+    "pre_close_setup": "Obviously I've just gone through a lot, or does it work? I mean, is that profitable for you based off of the mortgage renewal that you're looking at?",
+    "close_phrase": "What I'll do from here, Ryan, is I'll send you just like a summary of everything we've spoken about ... an action plan in it as well so you can see what you can expect first year, second year.",
+    "meeting_2_ask": "I'll probably touch base sort of end of Feb time, see if everything's still on the cards.",
+    "total_duration_mins": 40,
+    "talk_ratio_zac_pct": 60
+  },
+
+  "lead_responses": [
+    {
+      "what_lead_said": "Is that the £30 grand after your commissions, or is that on average what you'd probably make?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "That's after the commission. The only thing to pay is mortgage and bills.",
+      "lead_follow_up": "Okay. Sure, right.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "If that was a figure more or less on the mark, then yeah, it would be ... at the moment I'm looking at around £1,200 to £1,300 for a long-term let per month, and the mortgage on renewal is around 5.5%, so it's going to be nearly £450 a month.",
+      "category": "positive_signal",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "If it was 20% off I'd be surprised; even 30% off, based off what you're saying, it's still the better option.",
+      "lead_follow_up": "if at a profit margin like this, then yeah, it definitely would be more attractive for me, to go this route.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Am I supposed to notify him of changes that I'm making ... so I don't have to notify the local authority or the other freeholder?",
+      "category": "question",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "No licence needed and nothing to stop you, but you would have to notify the other freeholder; with 50/50 split I'm not entirely sure what happens if he says no; frame it as an opportunity for his flat too.",
+      "lead_follow_up": "I did think that, yeah, because he's gonna suffer with the same problem basically.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "I guess it's a full service that you sign up for, is it? ... which covers the management, the cleaning, the maintenance and whatever else.",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "15% plus VAT covers multi-platform listing, dynamic pricing, guest screening and deposits, cleaning and maintenance coordination; lead handles mortgage, bills and compliance; calendar, Slack and monthly statement with payout 1st-5th.",
+      "lead_follow_up": "Okay. Yeah.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Is this all tax deductible as well? ... I'm a sole trader at the moment.",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Costs are deductible; you pay tax on the net payout; mortgage interest deductibility is different for a sole trader than a limited company.",
+      "lead_follow_up": "Okay.",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "When was the company established? ... how many clients do you have? ... how do you set up a network in Plymouth to get that rolling?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Airbnb since 2020, managing for others since summer 2023, ~70 properties nationwide, team of about 8; nationwide trade framework of vetted cleaners, locksmiths, electricians and plumbers; business partner runs operations from Leeds.",
+      "lead_follow_up": "Oh, you built the network? Oh, okay.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I know some tradesmen, plumber for instance ... would I be able to reduce some of the fee if I use my own?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Yes - no problem using your own trades or cleaner as long as they are quality; can coordinate by message or speak to them on your behalf.",
+      "lead_follow_up": "Yeah, that's a fair point because obviously it affects reviews and experiences.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "I've used Airbnb a lot over the years. I've never experienced I've had to pay a deposit before. Do you not think that would scare some people off?",
+      "category": "objection",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "It only scares off people with bad intentions; £350-£400 refundable deposit plus ID check; platform insurance covers serious damage (used once in 6 years - a kitchen fire).",
+      "lead_follow_up": "Yeah, okay, that makes sense.",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Is that something you're familiar with? ... I assume I need to change the head lease.",
+      "category": "question",
+      "meeting_phase": "closing",
+      "zac_responded_with": "First thing is to mention it to your brother; if he agrees, get the lease changed - not really a big job; even if you don't change it, everyone bound by the lease is in agreement so nobody's going to pull you up on it.",
+      "lead_follow_up": "Yeah, that's what I thought. Yeah, yeah.",
+      "resolved": false
+    }
+  ],
+
+  "conversion_gaps": [
+    {
+      "gap": "Legal and consent advice was given too loosely: 'you don't have to notify anyone' then 'you would have to notify the other freeholder'; 'nobody's going to pull you up' on not changing the lease",
+      "category": "accuracy",
+      "evidence": "\"You don't have to notify anyone that you've changed the property to a short-term let.\" ... \"even if you don't change it, ... it's not like anyone's going to pull you up on it.\"",
+      "how_to_fill": "Correct in the follow-up: co-freeholder agreement, lease check and deed of variation, lender consent or holiday-let mortgage, short-let buildings insurance",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Income presented as £2,500/month while the deck's own forecast array totals ~£25,968 (£2,164/month); sharp January trough (£231) and December peak looked unreliable",
+      "category": "figure_accuracy",
+      "evidence": "\"I think this is probably a little bit off. I don't think it will go this low personally. I think this is just the data skewing things.\"",
+      "how_to_fill": "Use the forecast array total and disclose the difference; present Year 1 at roughly 80%",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Tax answer was incorrect or confused for a sole trader (FHL regime ended April 2025; individuals get a 20% credit on mortgage interest, not full deduction)",
+      "category": "accuracy",
+      "evidence": "\"if it's interest-only mortgage, so should the mortgage as well if you've got it in a limited company\"",
+      "how_to_fill": "Correct in the email and suggest he confirms with his accountant",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Brother relationship (fallen out, equal authority) is the real blocker and Zac admitted not knowing what happens if he says no",
+      "category": "objection_not_resolved",
+      "evidence": "Zac: \"I'm not entirely sure, if I'm honest.\" Lead: \"And we have actually fallen out\"",
+      "how_to_fill": "Provide a short brief he can share with his brother showing the benefit to the top flat, and signpost legal advice on the lease",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Holiday-let mortgage and timing coordination at the late-Feb renewal not discussed in detail",
+      "category": "timing",
+      "evidence": "\"on top of getting a holiday let mortgage\"; \"I'm trying to decide on a deal at the moment, but the rates keep on changing weekly\"",
+      "how_to_fill": "Offer the short-let income letter for lenders and a call before renewal; touch base 22 Feb 2027",
+      "filled_in_action_plan": true
+    }
+  ],
+
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Net payout of ~£2,500/month after all costs compared with a £1,200-£1,300 long-let and £450 mortgage",
+      "lead_response": "if at a profit margin like this, then yeah, it definitely would be more attractive for me, to go this route. Yeah, for sure.",
+      "phase": "income_presented",
+      "archetype_relevant": ["analytical-evaluator", "value-seeker"]
+    },
+    {
+      "what_caused_shift": "Zac's 'even if it was 30% off, it's still the better option' framing",
+      "lead_response": "It sounds like it's a better gross and a lower risk ... for the long term.",
+      "phase": "income_presented",
+      "archetype_relevant": ["risk-averse", "control-seeker"]
+    },
+    {
+      "what_caused_shift": "Zac said he built the analyser and presentation software himself and built the trade network",
+      "lead_response": "It seems very good actually. I was impressed with the breakdown that it gives straight away.",
+      "phase": "how_it_works",
+      "archetype_relevant": ["analytical-evaluator", "certainty-seeker"]
+    },
+    {
+      "what_caused_shift": "'We wouldn't be on the call if I didn't think the deal would work' and focus on quality over volume",
+      "lead_response": "Yeah, we all know these big businesses start losing the heart really when they're dealing with their clients.",
+      "phase": "how_it_works",
+      "archetype_relevant": ["trust-seeker"]
+    },
+    {
+      "what_caused_shift": "'Most properties don't work, so yours does' plus neighbour already running Airbnb",
+      "lead_response": "It's kind of swaying my hand a bit really ... it is in a good spot and it does lend itself.",
+      "phase": "closing",
+      "archetype_relevant": ["certainty-seeker"]
+    }
+  ],
+
+  "friction_moments": [
+    {
+      "what_caused_friction": "Brother (co-freeholder) consent and the fact they have fallen out",
+      "lead_response": "And we have actually fallen out, so, so that's why.",
+      "recovery_attempted": "Reframed as a profitable opportunity for his brother's flat too",
+      "resolved": false
+    },
+    {
+      "what_caused_friction": "Damage deposit concept unfamiliar to the lead as a guest",
+      "lead_response": "I've never experienced I've had to pay a deposit before ... do you not think that would scare some people off?",
+      "recovery_attempted": "Refundable deposit filters out risky guests; platform insurance backup",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "Zac unable to say what happens if the 50/50 co-freeholder refuses",
+      "lead_response": "Sure. Yeah.",
+      "recovery_attempted": "Advised to raise it with the brother first",
+      "resolved": false
+    }
+  ],
+
+  "zac_language": {
+    "opening_phrases": ["And then we go through figures and our service."],
+    "transition_phrases": ["I'll share my screen and we can go through some figures.", "Yeah, exactly. So we charge 15% plus VAT and that will cover a few different things."],
+    "reassurance_phrases": ["We normally see accuracy within ... if it was 20% off, I'd be surprised. Even if it was 30% off, it's still the better option.", "We wouldn't be on the call if I didn't think the deal would work.", "If I'm honest, Ryan, most properties don't work, so yours does."],
+    "emphasis_phrases": ["The only thing to pay for this is going to be mortgage and bills."],
+    "analogies_used": ["Slack as 'a bit like a business WhatsApp'", "Rather have 100 quality properties than 500 that turn into an operational nightmare"],
+    "numbers_framing": "Gross £57,000, net about £2,500/month after commission, cleaning and management; Year 1 expectation about 10-20% lower (about £2,000/month) while reviews accumulate; compared to long-let £1,200-£1,300 less a £450 mortgage",
+    "objection_handling_pattern": "Candid about what he does not know (co-freeholder authority), reframes problems as opportunities (brother's flat benefits), and builds trust with company background and quality-over-volume positioning; legal and tax statements were loose"
+  },
+
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "",
+    "what_they_focused_on": ["Whether £2,500 is net after commission", "Notifying the brother and lease changes", "Tax deductibility as a sole trader", "Zac's credibility and Plymouth network", "Guest deposits", "Using his own tradespeople"],
+    "what_they_needed_most": ["Higher return than a long-let squeezed by a 5.5% mortgage", "More control and lower tenant risk after Section 21", "Confidence the figures hold", "A clear path through brother, lease and mortgage"],
+    "what_fell_flat": ["Loose legal and tax answers", "Not being able to say what happens if the brother refuses"],
+    "recommended_meeting_adjustment": "For inherited-landlord STL-SW leads with shared freeholds, qualify consent, lease and lender gating early, prepare tax-correct answers, and anchor on the forecast array figure rather than the headline"
+  },
+
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
