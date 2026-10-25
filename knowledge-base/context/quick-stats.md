@@ -26,3 +26,11 @@ No change this run.
 - **R2R counter-example (103):** every prior R2R lead was thin-margin; Liaquat is an experienced developer with ~£4.2k projected net against ~£2k rent+bills, trialling Stayful on one house with Stockport, a 26-bed Blackpool hotel and a Manchester portfolio potentially to follow. Open item: he expects free photography.
 - **Recurring call errors this batch:** fee stated as 15% without "+ VAT" and the £42/mo software fee described as part of the management fee (104); London "short-let licence" asserted instead of the 90-night rule (105); deck headline net disagreeing with its own month-by-month forecast (103, 104, 106); unchecked auto-generated demand drivers (O2 Apollo for Knutsford, Tollerton airfield). All disclosed in the action plans; see response-library/do-not-say.json.
 - **Renters' Rights Act (from 1 May 2026):** 105 is the first entry where a sitting tenant is on a periodic tenancy with no possession ground for switching to STL — DLY-TEN with no date at all.
+
+## Run 2026-10-11 (entries 107-116, 135 transcripts total)
+- Source: Drive intelligence entries only (summary_only); no archetypes assigned (Monday psychology columns still absent).
+- Classification: READY_NOW 1 (108 Steve, GL-SELF, comparing 3-4 providers, needs Glastonbury local proof); READY_SOON 3 (107, 111, 112); DELAYED 5 (109, 110, 114, 115, 116); NURTURE 1 (113). No offers made, no losses.
+- Delays added: DLY-OTH +5, DLY-PUR +2, DLY-TEN +1, DLY-FUR +1, DLY-MOV +1. Green lights: GL-SELF +2, GL-TIME +2.
+- Recurring call errors: deck net vs FORECAST mismatch (107, 108, 113, 115), wrong area data/drivers in deck (108, 111, 114, 116), unverified claims by Zac (Booking.com cover 111, business rates 112, VAT 116, "no need to notify" 115), "15%" stated without "+ VAT" (107).
+- Upcoming due-to-calls: 113 Haydn 16 Oct, 116 Callum 26 Oct, 114 Eduardo 23 Nov, 115 Ryan 22 Feb 2027.
+- Critical flag: 111 JJ (Greater London) - 90-night rule was not raised on the call.

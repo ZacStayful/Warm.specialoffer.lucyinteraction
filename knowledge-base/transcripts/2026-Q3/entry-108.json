@@ -1,0 +1,187 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "108",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-09-29",
+  "transcript_quality": "summary_only",
+  "lead_name": "Steve",
+  "email": "tradinglate@gmail.com",
+  "monday_id": "13069052494",
+  "address": "4 Willow Terrace, Glastonbury BA6 9HN",
+  "bedrooms": 3,
+  "profile_type": "EX-STL",
+  "lead_profile_text": "Experienced self-host (5 years, 2 properties, wife Superhost) wanting to hand off management",
+  "stl_goal": "",
+  "property_situation": "3-bed house, earns ~£30k/yr per property, targets handover end of November, comparing 3-4 managers",
+  "property_type": "3-bed house, Glastonbury",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Local proof — wants Stayful's Glastonbury property count and a local property's figures; comparing 3-4 operators",
+  "language_signals": [
+    "we just want to take it easy a bit",
+    "Let somebody else run it for us",
+    "It's a success. We've developed it",
+    "I just want to know you can do it",
+    "it's just crazy town"
+  ],
+  "portfolio_flag": true,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [],
+  "has_delay": false,
+  "green_light_signals": [
+    {
+      "type": "GL-SELF",
+      "trigger_phrase": "5 years operating Airbnb, looking to hand off management entirely",
+      "context": "Opening qualification",
+      "strength": "strong"
+    }
+  ],
+  "has_green_light": true,
+  "classification": "READY_NOW",
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+  "meeting_flow": {
+    "opening_phrase": "",
+    "rapport_topics": [],
+    "pivot_to_business": "",
+    "income_intro": "",
+    "post_income_silence": "",
+    "how_it_works_transition": "",
+    "pre_close_setup": "",
+    "close_phrase": "",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "How many properties do you have in Glastonbury currently?",
+      "category": "question",
+      "meeting_phase": "qualification",
+      "zac_responded_with": "Could not confirm exact local count on call",
+      "lead_follow_up": "asked a second time",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "I really want to speak to people already in the area",
+      "category": "objection",
+      "meeting_phase": "objection_handling",
+      "zac_responded_with": "Described vetted contractor database and Google-review thresholds",
+      "lead_follow_up": "unresolved",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "£500 television — whose insurance, mine or yours?",
+      "category": "objection",
+      "meeting_phase": "objection_handling",
+      "zac_responded_with": "Deposit for small incidents, Stayful guest cover for large claims, ID checks",
+      "lead_follow_up": "damage occurs across all stay lengths",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "15%, I think, is reasonable",
+      "category": "positive_shift",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Fee explained as 15% + VAT (~18% effective)",
+      "lead_follow_up": "accepted",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "No Glastonbury property count or local examples",
+      "category": "area_credibility",
+      "evidence": "asked twice, unanswered",
+      "how_to_fill": "Send local property figures and Glastonbury examples",
+      "filled_in_action_plan": false
+    },
+    {
+      "gap": "Reliable local cleaners",
+      "category": "process_clarity",
+      "evidence": "best cleaners fully booked",
+      "how_to_fill": "Explain vetted cleaner database and cover plan",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Projection matched his own ~£30k",
+      "lead_response": "Aligns with what Steve is already achieving",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "analytical-evaluator"
+      ]
+    },
+    {
+      "what_caused_shift": "Manchester projected-vs-actual case study (within ~10%)",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "certainty-seeker",
+        "social-proof-dependent"
+      ]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Deck labelled property as Bellerby, Leyburn; framed demand as festival week",
+      "lead_response": "Steve corrected",
+      "recovery_attempted": "Disclosed in email/action plan",
+      "resolved": true
+    },
+    {
+      "what_caused_friction": "Local presence question unanswered",
+      "lead_response": "repeated",
+      "recovery_attempted": "Promised examples by email",
+      "resolved": false
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "EX-STL",
+    "emotional_profile": "",
+    "what_they_focused_on": [
+      "local presence",
+      "damage liability",
+      "cleaner availability"
+    ],
+    "what_they_needed_most": [
+      "Glastonbury proof points"
+    ],
+    "what_fell_flat": [
+      "generic 'we will move into the area' answer"
+    ],
+    "recommended_meeting_adjustment": "Prepare local-area count and examples before any EX-STL call; this is a time-back sale, not income-uplift"
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

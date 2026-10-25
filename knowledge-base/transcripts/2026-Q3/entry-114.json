@@ -1,0 +1,187 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "114",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-10-07",
+  "transcript_quality": "summary_only",
+  "lead_name": "Eduardo Carniel",
+  "email": "educarniel@gmail.com",
+  "monday_id": "11394407292",
+  "address": "59 Mulberry Avenue, Leicester LE3 6PH",
+  "bedrooms": 3,
+  "profile_type": "STL-SW",
+  "lead_profile_text": "Owner relocating to Norfolk for new job, keeping (not selling) the Leicester house",
+  "stl_goal": "",
+  "property_situation": "3-bed mortgaged, furnished, partly renovated; needs £1,500/mo net; employer sign-off pending",
+  "property_type": "3-bed house, Leicester",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Employer sign-off mid-Oct/early Nov; unfinished rooms; wife co-decision-maker; friends sceptical of Leicester demand",
+  "language_signals": [
+    "We don't want to sell it right now",
+    "Who is going to use Airbnb in Leicester?",
+    "I don't feel very confident that it's like nice",
+    "Let me just see the questions from my wife"
+  ],
+  "portfolio_flag": false,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-MOV",
+      "trigger_phrase": "Moving to Norfolk, likely early December",
+      "context": "Relocation tied to new job",
+      "timeline_given": "Early December",
+      "resolved_in_meeting": false
+    },
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "Awaiting final confirmation from new employer; some rooms unfinished",
+      "context": "Externally gated",
+      "timeline_given": "Mid-Oct to early Nov",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [],
+  "has_green_light": false,
+  "classification": "DELAYED",
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+  "meeting_flow": {
+    "opening_phrase": "",
+    "rapport_topics": [],
+    "pivot_to_business": "",
+    "income_intro": "",
+    "post_income_silence": "",
+    "how_it_works_transition": "",
+    "pre_close_setup": "",
+    "close_phrase": "",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "Who is going to use Airbnb in Leicester?",
+      "category": "objection",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Leicester demand drivers: hospital, M1/M69, universities, contractors",
+      "lead_follow_up": "partial",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "If no one comes in a month, do I still have payments?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Only mortgage and bills fixed; fees only on revenue",
+      "lead_follow_up": "this amount is exactly what we're looking for",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Log burner as a feature?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Advised against listing it",
+      "lead_follow_up": "accepted",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Maintenance - do you ask before deciding?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Up to £300/month without approval",
+      "lead_follow_up": "accepted",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Contract length?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "6-month fixed then 3-month rolling",
+      "lead_follow_up": "accepted",
+      "resolved": true
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Leicester demand credibility",
+      "category": "area_credibility",
+      "evidence": "who is going to use Airbnb in Leicester",
+      "how_to_fill": "Leicester drivers; Manchester data was shown in error",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Unfinished rooms",
+      "category": "process_clarity",
+      "evidence": "not confident it's nice",
+      "how_to_fill": "Review photos via WhatsApp",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "Net figure matched £1,500/mo target",
+      "lead_response": "exactly what we're looking for",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "analytical-evaluator",
+        "certainty-seeker"
+      ]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Who-books section showed Manchester data",
+      "lead_response": "acknowledged",
+      "recovery_attempted": "Corrected in plan",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "STL-SW",
+    "emotional_profile": "",
+    "what_they_focused_on": [
+      "target net",
+      "fixed vs variable costs"
+    ],
+    "what_they_needed_most": [
+      "Leicester proof"
+    ],
+    "what_fell_flat": [
+      "Manchester data in deck"
+    ],
+    "recommended_meeting_adjustment": "Show area-specific demand; no urgency until employer confirms"
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "schema_version": "3.0",
+  "entry_number": "112",
+  "quarter": "2026-Q3",
+  "meeting_date": "2026-10-02",
+  "transcript_quality": "summary_only",
+  "lead_name": "Arif Hossain",
+  "email": "arif.hossain909@gmail.com",
+  "monday_id": "13085093138",
+  "address": "6 Balfour Road, Bentley, Doncaster DN5 0NN",
+  "bedrooms": 2,
+  "profile_type": "ABROAD",
+  "lead_profile_text": "Owner-occupier in Portugal on 1-year contract; house empty; test match for 2-3 more purchases",
+  "stl_goal": "",
+  "property_situation": "2-bed cash-bought house, furnished; office room to clear; keys with him",
+  "property_type": "2-bed house, Doncaster",
+  "emotional_profile": "",
+  "conversion_likelihood": 0,
+  "profile_confidence": "",
+  "primary_blocker": "Practical: keys posting, clear office, sofa bed; wants guarantees/rigid promises",
+  "language_signals": [
+    "No point keeping the house empty",
+    "People promise hundreds of things, but they don't really keep their promises",
+    "You can consider this particular property as test match",
+    "I'm not hungry and greedy, but of course I need money"
+  ],
+  "portfolio_flag": true,
+  "outcome": "Warm",
+  "lost_reason": "",
+  "had_meeting_2": false,
+  "offer_made": false,
+  "offer_rate": "",
+  "offer_expiry": "",
+  "offer_accepted_at_meeting": false,
+  "delay_signals": [
+    {
+      "type": "DLY-OTH",
+      "trigger_phrase": "Keys are with me in Portugal; office room to clear",
+      "context": "Practical onboarding blockers",
+      "timeline_given": "~3 weeks from keys received",
+      "resolved_in_meeting": false
+    }
+  ],
+  "has_delay": true,
+  "green_light_signals": [
+    {
+      "type": "GL-TIME",
+      "trigger_phrase": "wants to sign before UK trip (~2 weeks)",
+      "context": "Strong motivation, empty house",
+      "strength": "moderate"
+    }
+  ],
+  "has_green_light": true,
+  "classification": "READY_SOON",
+  "offer_timing": {
+    "made_at_meeting_phase": "",
+    "green_lights_present_at_offer": [],
+    "delays_present_at_offer": [],
+    "what_immediately_preceded_offer": "",
+    "how_zac_framed_offer": "",
+    "expiry_stated_as": "",
+    "lead_response_to_offer": "",
+    "offer_outcome": "not_applicable_no_offer_made"
+  },
+  "meeting_flow": {
+    "opening_phrase": "",
+    "rapport_topics": [],
+    "pivot_to_business": "",
+    "income_intro": "",
+    "post_income_silence": "",
+    "how_it_works_transition": "",
+    "pre_close_setup": "",
+    "close_phrase": "",
+    "meeting_2_ask": "",
+    "total_duration_mins": 0,
+    "talk_ratio_zac_pct": 0
+  },
+  "lead_responses": [
+    {
+      "what_lead_said": "As long as whatever you're promising is rigid and guaranteed, I'm happy",
+      "category": "objection",
+      "meeting_phase": "income_presented",
+      "zac_responded_with": "Projection not guarantee; agreement states no earnings guarantee",
+      "lead_follow_up": "wants documents",
+      "resolved": false
+    },
+    {
+      "what_lead_said": "How and when do I get paid?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Statement 1st-5th monthly",
+      "lead_follow_up": "ok",
+      "resolved": true
+    },
+    {
+      "what_lead_said": "Can a residential house switch to business rates?",
+      "category": "question",
+      "meeting_phase": "how_it_works",
+      "zac_responded_with": "Zac said Ltd company let qualifies - incorrect, corrected in email",
+      "lead_follow_up": "pending",
+      "resolved": false
+    }
+  ],
+  "conversion_gaps": [
+    {
+      "gap": "Trust that promises are kept",
+      "category": "contract_clarity",
+      "evidence": "promise hundreds of things",
+      "how_to_fill": "Transparent agreement and clear no-guarantee wording",
+      "filled_in_action_plan": true
+    },
+    {
+      "gap": "Documentation before signing",
+      "category": "contract_clarity",
+      "evidence": "wants all T&Cs",
+      "how_to_fill": "Send agreement",
+      "filled_in_action_plan": false
+    }
+  ],
+  "positive_shift_moments": [
+    {
+      "what_caused_shift": "No mortgage - profitable in worst/likely/best case",
+      "lead_response": "positive",
+      "phase": "income_presented",
+      "archetype_relevant": [
+        "loss-averse-switcher"
+      ]
+    },
+    {
+      "what_caused_shift": "Fully remote onboarding by posting keys",
+      "lead_response": "positive",
+      "phase": "how_it_works",
+      "archetype_relevant": [
+        "fast-path-gain-focused"
+      ]
+    }
+  ],
+  "friction_moments": [
+    {
+      "what_caused_friction": "Presentation says no monthly/exit fee but agreement has £42/mo and £1,000 exit fee",
+      "lead_response": "not raised by lead",
+      "recovery_attempted": "Plan states terms accurately",
+      "resolved": true
+    }
+  ],
+  "zac_language": {
+    "opening_phrases": [],
+    "transition_phrases": [],
+    "reassurance_phrases": [],
+    "emphasis_phrases": [],
+    "analogies_used": [],
+    "numbers_framing": "",
+    "objection_handling_pattern": ""
+  },
+  "profile_psychology_intersection": {
+    "profile_type": "ABROAD",
+    "emotional_profile": "",
+    "what_they_focused_on": [
+      "guarantees",
+      "remote onboarding"
+    ],
+    "what_they_needed_most": [
+      "rigid promises, under-promise"
+    ],
+    "what_fell_flat": [
+      "vague promises"
+    ],
+    "recommended_meeting_adjustment": "Under-promise; high LTV (portfolio plans)"
+  },
+  "action_plan_responses": {
+    "s1_income_reaction": "",
+    "s2_ltl_thinking": "",
+    "s3_biggest_question": "",
+    "s4_readiness": "",
+    "s3_matches_meeting_gap": false,
+    "s4_contradicts_meeting": false
+  }
+}
